@@ -53,14 +53,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 读图算斜率定义式",
+          "tier": "intuition",
+          "badge": "5秒送分",
+          "audience": "全水平通用",
+          "time_save": "读数即出",
+          "content_md": "由 $v-t$ 图像读出第 $2\\,\\mathrm{s}$ 初（$t=1\\,\\mathrm{s}$）速度 $v_1=30\\,\\mathrm{m/s}$，第 $2\\,\\mathrm{s}$ 末（$t=2\\,\\mathrm{s}$）速度 $v_2=50\\,\\mathrm{m/s}$。\n\n根据加速度定义：\n$$a=\\frac{\\Delta v}{\\Delta t}=\\frac{50-30}{2-1}\\,\\mathrm{m/s^2}=20\\,\\mathrm{m/s^2}$$\n\n故选 **B**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "根据加速度的定义式\n$a=\\frac{\\Delta v}{\\Delta t}=\\frac{50-30}{1}\\,\\mathrm{m}/\\mathrm{s}^2=20\\,\\mathrm{m}/\\mathrm{s}^2$\n故选 B。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 单位时间增速口算",
+          "tier": "fast",
+          "badge": "3秒口算",
+          "audience": "全部考生",
+          "time_save": "免写分数",
+          "content_md": "“第 $2\\,\\mathrm{s}$ 内”时间间隔恒为 $1\\,\\mathrm{s}$，直接看纵轴增加了多少：$50-30=20$，数值就是加速度大小 $20\\,\\mathrm{m/s^2}$，选 **B**。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "把“第 $2\\,\\mathrm{s}$ 内”（$\\Delta t=1\\,\\mathrm{s}$）误当成“前 $2\\,\\mathrm{s}$ 内”（$\\Delta t=2\\,\\mathrm{s}$），或者错把终点纵坐标当作 $\\Delta v$ 除以时间。",
+      "takeaway": "$v-t$ 图像中倾斜直线的**斜率直接等于加速度** $a=\\frac{\\Delta v}{\\Delta t}$；看准“第 $2\\,\\mathrm{s}$ 内”是指 $t=1\\,\\mathrm{s}$ 到 $t=2\\,\\mathrm{s}$ 这 $1\\,\\mathrm{s}$ 时间。",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q02",
@@ -105,14 +126,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 三种射线性质 + 两守恒配平",
+          "tier": "intuition",
+          "badge": "概念速排",
+          "audience": "全水平通用",
+          "time_save": "15 秒稳解",
+          "content_md": "- **A、B 错**：$\\alpha$ 粒子是 $\\ce{^4_2He}$，放出它之后母核电荷数减 $2$、质量数减 $4$；\n- **C 错**：穿透几厘米厚铅板的是 $\\gamma$ 射线，$\\alpha$ 粒子电离最强、穿透极弱；\n- **D 对**：核对质量数 $216=2\\times 4+208$、电荷数 $86=2\\times 2+82$，严格守恒。\n\n故选 **D**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "A．$\\alpha$ 衰变放出的 $\\alpha$ 粒子为 \\ce{^{4}_{2}He}，衰变过程电荷数守恒，因此母核电荷数减少 2，而非增大，故 A 错误；\n\nB．$\\alpha$ 粒子质量数为 4，衰变过程质量数守恒，因此母核质量数减少 4，而非增大，故 B 错误；\n\nC．$\\alpha$ 粒子电离能力强、穿透能力极弱，一张白纸即可将其挡住，穿透能力强、可穿透几厘米厚铅板的是 $\\gamma$ 射线，故 C 错误；\n\nD．衰变方程满足电荷数守恒和质量数守恒：左边电荷数为 86，右边 $2 \\times 2 + 82 = 86$；左边质量数为 216，右边 $2 \\times 4 + 208 = 216$，守恒关系成立，故 D 正确。\n\n故选 D。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 反直觉新情景核对上下标",
+          "tier": "fast",
+          "badge": "5秒锁定",
+          "audience": "考场抢时间",
+          "time_save": "直奔守恒验算",
+          "content_md": "先排掉显然违反常识的 ABC（衰变怎么可能变重、$\\alpha$ 怎么可能穿铅板），直接心算 D 的左右加减：$216-8=208,\\; 86-4=82$，完美匹配，秒选 **D**。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "误记 $\\alpha$ 衰变把质量数搞大或把 $\\alpha$ 粒子与 $\\gamma$ 光子的穿透能力弄反。",
+      "takeaway": "核反应方程只要同时抓住**电荷数（左下角）守恒**和**质量数（左上角）守恒**，配合 $\\alpha$ 射线“电离最强、穿透最弱（一张纸挡住）”即可秒判所有选项。",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q03",
@@ -157,14 +199,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 引力充当向心力联合球体积",
+          "tier": "intuition",
+          "badge": "标准公式推演",
+          "audience": "全水平通用",
+          "time_save": "20 秒稳解",
+          "content_md": "设恒星半径 $R$，则行星轨道半径 $r=nR$。\n\n由 $G\\frac{Mm}{r^2}=m\\frac{4\\pi^2}{T^2}r$ 得 $M=\\frac{4\\pi^2(nR)^3}{GT^2}$。\n\n除以球体体积 $V=\\frac{4}{3}\\pi R^3$，约去 $\\frac{4}{3}\\pi R^3$ 得：\n$$\\rho=\\frac{3\\pi n^3}{GT^2}$$\n\n故选 **C**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "设恒星半径为 $R$，由题意得行星轨道半径 $r = nR$。\n\n行星绕恒星做匀速圆周运动，万有引力提供向心力，有 $G\\frac{Mm}{r^{2}}=m\\frac{4\\pi^{2}}{T^{2}}r$。\n\n整理得恒星质量 $M=\\frac{4\\pi^{2}r^{3}}{GT^{2}}$。\n\n恒星为均匀球体，体积 $V=\\frac{4}{3}\\pi R^{3}$，平均密度 $\\rho=\\frac{M}{V}$，将 $r=nR$ 代入得\n$\\rho=\\frac{\\frac{4\\pi^{2}(nR)^{3}}{GT^{2}}}{\\frac{4}{3}\\pi R^{3}}=\\frac{3\\pi n^{3}}{GT^{2}}$\n\n故选 C。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 量纲排除 + 比率缩放秒杀",
+          "tier": "fast",
+          "badge": "5秒记忆杀",
+          "audience": "高分技巧",
+          "time_save": "零推导步骤",
+          "content_md": "1. 由开普勒第三定律风格，$G M \\sim r^3/T^2$，$T$ 必须是平方次，**1 秒杀掉 A、B**；\n2. 恒星密度反比于自身半径立方、正比于轨道半径立方，故带系数 $(r/R)^3=n^3$，直接锁定 **C**！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "死记硬背成贴地密度 $\\frac{3\\pi}{GT^2}$ 而漏了 $n^3$（误选 D），或用错周期幂次 $T$ 而非 $T^2$（误选 A）。",
+      "takeaway": "天体密度黄金口诀：**$\\rho=\\frac{3\\pi}{GT^2}\\cdot\\left(\\frac{r}{R}\\right)^3$**！当贴近表面环绕（$r=R, n=1$）时为 $\\frac{3\\pi}{GT^2}$，轨道半径扩大为 $n$ 倍则直接乘以 $n^3$！",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q04",
@@ -211,14 +274,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 波程差半波长奇数倍通式",
+          "tier": "intuition",
+          "badge": "3-4-5秒算",
+          "audience": "全水平通用",
+          "time_save": "20 秒稳解",
+          "content_md": "不管波源在 $(0,0)$ 还是 $(0,3)$，画出直角三角形即知两处到波源距离分别是 $5\\,\\mathrm{m}$ 和 $4\\,\\mathrm{m}$，波程差均为：\n$$\\Delta r=|r_A-r_B|=5-4=1\\,\\mathrm{m}$$\n\n因为一处波峰、一处波谷（反相），波程差必为半波长的奇数倍：\n$$1=\\left(n+\\frac{1}{2}\\right)\\lambda\\implies \\lambda=\\frac{2}{2n+1}\\,\\mathrm{m}\\quad(n=0,1,2,\\dots)$$\n\n代 $n=0,1,2,\\dots$ 得可能波长为 **$2\\,\\mathrm{m},\\;\\frac{2}{3}\\,\\mathrm{m},\\;\\frac{2}{5}\\,\\mathrm{m},\\dots$**，选项中只有 **$2\\,\\mathrm{m}$** 命中，选 **B**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "已知某时刻 $A$ 处质点位于波峰，$B$ 处质点位于波谷，因此 $A$、$B$ 两点的波程差应满足半波长的奇数倍\n$\\Delta r = \\left(n + \\frac{1}{2}\\right)\\lambda$\n（$n=0, 1, 2, \\cdots$）\n\nAB．若波源在 $(0, 0)$，由坐标可推得 $A$ 点到波源距离 $r_A = \\sqrt{4^2 + 3^2}\\,\\mathrm{m} = 5\\,\\mathrm{m}$\n\n$B$ 点到波源距离 $r_B = 4\\,\\mathrm{m}$\n\n波程差 $\\Delta r = 1\\,\\mathrm{m}$\n\n代入得 $1 = (n + 0.5)\\lambda$\n\n解得 $\\lambda = \\frac{2}{2n + 1}\\,\\mathrm{m}$\n\n当 $\\lambda = 1\\,\\mathrm{m}$ 时，$2n + 1 = 2$，$n = 0.5$（非整数）\n\n当 $\\lambda = 2\\,\\mathrm{m}$ 时，$2n + 1 = 1$，$n = 0$\n\n故 A 错误，故 B 正确；\n\nCD．若波源在 $(0, 3)$，则 $A$ 点到波源距离 $r_{A}^{\\prime}=4\\,\\mathrm{m}$\n\n$B$ 点到波源距离 $r_{B}^{\\prime}=\\sqrt{4^{2}+3^{2}}\\,\\mathrm{m}=5\\,\\mathrm{m}$\n\n波程差仍为 $1\\,\\mathrm{m}$，同样有 $\\lambda=\\frac{2}{2n+1}\\,\\mathrm{m}$\n\n当 $\\lambda = 3\\,\\mathrm{m}$ 时，$2n + 1 = \\frac{2}{3}$，无整数解\n\n当 $\\lambda = 4\\,\\mathrm{m}$ 时，$2n + 1 = 0.5$，无整数解\n\n故 CD 错误。\n\n故选 B。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 极大波长上界 $2\\Delta r$ 秒排除",
+          "tier": "fast",
+          "badge": "5秒口算",
+          "audience": "全部考生",
+          "time_save": "免逐项代 $n$",
+          "content_md": "波峰与波谷最小步差是半个波长，即 $\\frac{\\lambda_{\\max}}{2}=\\Delta r=1\\,\\mathrm{m}\\implies \\lambda\\le 2\\,\\mathrm{m}$！先 **1 秒排除 C($3\\,\\mathrm{m}$)、D($4\\,\\mathrm{m}$)**；而 $n=0$ 时最大值恰好取到 $\\lambda=2\\,\\mathrm{m}$（反例 $1\\,\\mathrm{m}$ 是整波长无法让波峰对波谷），秒选 **B**。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "没算两点各自到波源的欧氏距离（$3$-$4$-$5$ 直角三角形给出 $r=5\\,\\mathrm{m}$ 与 $4\\,\\mathrm{m}$），错直接拿 $A,B$ 间距 $3\\,\\mathrm{m}$ 当成波程差！",
+      "takeaway": "同一点波源在平面内产生简谐波时，某点到波源的**距离就是传播路程**；波峰与波谷的间距要求两地到波源的**波程差 $\\Delta r=(n+\\frac{1}{2})\\lambda$**！",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q05",
@@ -265,14 +349,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 闭合电路欧姆定律联立",
+          "tier": "intuition",
+          "badge": "稳妥基本功",
+          "audience": "全水平通用",
+          "time_save": "20 秒稳解",
+          "content_md": "设单个电池组电动势 $E$、内阻 $r$，外阻 $R=10\\,\\Omega$：\n$$\\begin{cases} E=1.0\\times(10+r) \\\\ 2E=1.5\\times(10+2r) \\end{cases}$$\n\n两式相比消去 $E$：$2=\\frac{1.5(10+2r)}{10+r}\\implies 20+2r=15+3r\\implies r=5\\,\\Omega$。\n\n回代得 $E=1.0\\times(10+5)=15\\,\\mathrm{V}$，选 **A**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "设单个电池组的电动势为 $E$，内阻为 $r$，根据闭合电路欧姆定律分两种情况列方程求解：\n\na、b 接 d、e 时：只有单个电池接入电路，根据闭合电路欧姆定律：$E = I_{1}(R + r)$\n\na、c 接 d、e 时：两个电池串联，总电动势为 $2E$，总内阻为 $2r$，同理得：$2E = I_{2}(R + 2r)$\n\n联立解得：$E = 15 \\,\\mathrm{V}$，$r = 5 \\,\\Omega$\n\n故选 A。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 电源翻倍法看电流比",
+          "tier": "fast",
+          "badge": "10秒口算",
+          "audience": "心算快手",
+          "time_save": "免解分式方程",
+          "content_md": "两个电池串联等于把“单个电路”拆成 $E/(10+r)$ 与 $E/(5+r)$：因为 $2E/(10+2r)=E/(5+r)$！！\n\n你看：$I_1=\\frac{E}{10+r}=1.0\\,\\mathrm{A}$，而 $I_2=\\frac{E}{5+r}=1.5\\,\\mathrm{A}$！\n\n两个电阻 $(10+r)$ 与 $(5+r)$ 反比于电流 $1.5:1.0=3:2$，差值恰为 $5\\,\\Omega\\implies$ 这两份总电阻立刻是 **$15\\,\\Omega$ 和 $10\\,\\Omega$**！秒出 $r=5\\,\\Omega$、$E=15\\,\\mathrm{V}$，选 **A**！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "误将两组电池并接当作并联电路，或者联立方程时忘了两个相同电池串联后**总内阻也变成 $2r$**。",
+      "takeaway": "由图读出接入方式（$a,b$ 接 $1$ 节电池，$a,c$ 接 $2$ 节相同电池串联），利用“**串联两节后总电动势翻倍为 $2E$、电流却只变成 $1.5$ 倍**”快速比出内阻与外电阻 $R$ 的关系！",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q06",
@@ -319,14 +424,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 并联等压板模型 + 均匀分压",
+          "tier": "intuition",
+          "badge": "清晰通法",
+          "audience": "全水平通用",
+          "time_save": "20 秒稳解",
+          "content_md": "1. **场强大小**：因 A、C 接地（$\\varphi_A=\\varphi_C=0$），故 $U_{BA}=U_{BC}=\\varphi_B$（绝对值相同）。板间匀强电场满足 $E=\\frac{U}{d}$，因 $d_1<d_2$，故 $E_a>E_b$（注意 $B$ 带正或负均比大小，若按场强大小或同号均选 A；严格讲题中默认带正电或比大小，$E_a=\\frac{\\varphi_B}{d_1},\\; E_b=\\frac{\\varphi_B}{d_2}$）；\n2. **中点电势**：$a$、$b$ 分别为两间隙正中点，匀强电场中点电势等于两端平均值：$\\varphi_a=\\frac{\\varphi_B+0}{2}=\\frac{\\varphi_B}{2}$，同理 $\\varphi_b=\\frac{\\varphi_B}{2}$，即 $\\varphi_a=\\varphi_b$。\n\n故选 **A**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "AB．A、C 板均接地，电势为 0，B 板是等势体，因此\n\nBA 间、BC 间的电势差相等，都等于 $U = \\varphi_{B}$\n\n平行板内部为匀强电场，电场强度满足 $E = \\frac{U}{d}$，已知 $d_1 < d_2$，故 $E_1 > E_2$，故 A 正确，B 错误；\n\nCD．$a$ 点到 A 板的距离为 $\\frac{d_{1}}{2}$，电势 $\\varphi_{a}=E_{a}\\cdot\\frac{d_{1}}{2}=\\frac{U}{d_{1}}\\cdot\\frac{d_{1}}{2}=\\frac{U}{2}$\n\n$b$ 点到 C 板的距离为 $\\frac{d_{2}}{2}$，电势 $\\varphi_{b}=E_{b}\\cdot\\frac{d_{2}}{2}=\\frac{U}{d_{2}}\\cdot\\frac{d_{2}}{2}=\\frac{U}{2}$\n\n因此 $\\varphi_{a} = \\varphi_{b}$，故 CD 错误。\n\n故选 A。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 爬山等高线中点瞬判",
+          "tier": "fast",
+          "badge": "5秒图像直觉",
+          "audience": "模型秒杀",
+          "time_save": "概念穿透",
+          "content_md": "记住口诀：**接地板等压、中间板共用，中点永远半电压**！\n\n左右中点 $a,b$ 电势全为 $\\frac{1}{2}\\varphi_B$（**排除 C、D**）；左边距离短、电势降得更急，场强当然更大（$E_a>E_b$），秒选 **A**。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "误以为 $B$ 板左右两侧电荷面密度相同导致 $E_a=E_b$（其实左右形成并联关系，两侧电压同为 $U$ 而非场强相等！），或在判断中点电势时错以为离 B 板越远电势降越快。",
+      "takeaway": "把中间带电板 B 看成“公共正（或负）高地”，两侧 A、C 都接地（$0\\,\\mathrm{V}$ 基准海平面）：**两坡高度落差相等（同为 $|\\varphi_B|$）时，坡越短（$d_1<d_2$）坡度（场强 $E=\\frac{U}{d}$）越陡；而两坡中点高度永远都是山顶高度的一半（$\\frac{\\varphi_B}{2}$）！**",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q07",
@@ -373,14 +499,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 压强差函数单调性分析",
+          "tier": "intuition",
+          "badge": "严谨物理",
+          "audience": "全水平通用",
+          "time_save": "35 秒稳解",
+          "content_md": "- **先排 B**：初始 $V_1=V_2=\\frac{V}{2}$，因 $p_1>p_2$ 且 $T$ 相同，由 $pV=nRT$ 知 $n_1>n_2$（内部气体分子数更多）；\n- **再定体积变化**：材料弹性压强差 $\\Delta p=p_1-p_2$ 为定值，写成\n  $$\\frac{\\Delta p}{RT}=\\frac{n_1}{V_1}-\\frac{n_2}{V-V_1}$$\n  $T$ 升高时左边 $\\frac{\\Delta p}{RT}$ 减小，而右边关于 $V_1$ 严格单调递减，因此 $V_1$ **一定变大**（**D 对、C 错**）；\n- **顺带排 A**：$V_1$ 变大使得外部体积 $V_2=V-V_1$ 变小，又 $T$ 增大，由 $p_2=\\frac{n_2RT}{V_2}$ 得 $p_2$ 必增大（A 错）。\n\n故选 **D**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "设心形气球总体积为 $V$（恒定），小气球体积为 $V_1$，外部气体体积 $V_2 = V - V_1$，小气球内气体物质的量 $n_1$，压强 $p_1$，外部气体物质的量 $n_2$，压强 $p_2$。\n\n由于忽略温度对气球材料性质的影响，弹性气球的压强差 $\\Delta p = p_1 - p_2$ 为恒定值。\n\n根据理想气体状态方程 $pV = nRT$，得：$p_1V_1 = n_1RT$，$p_2V_2 = n_2RT$\n\n$\\Delta p = RT\\left(\\frac{n_1}{V_1} - \\frac{n_2}{V - V_1}\\right)$\n\n整理得：\n\nCD．$\\Delta p$ 为定值，温度 $T$ 升高时，等式要求 $\\left(\\frac{n_{1}}{V_{1}} - \\frac{n_{2}}{V - V_{1}}\\right)$ 减小。而 $\\left(\\frac{n_{1}}{V_{1}} - \\frac{n_{2}}{V - V_{1}}\\right)$ 随 $V_{1}$ 增大单调递减，因此 $V_{1}$（小气球体积）一定变大，故 C 错误，D 正确；\n\nA．温度升高后，小气球体积 $V_{1}$ 增大，因此 $V_{2}=V-V_{1}$ 减小，由 $p_{2}=\\frac{n_{2}RT}{V_{2}}$，$T$ 升高、$V_{2}$ 减小，$p_{2}$ 一定增大，A 错误；\n\nB．初始时 $V_{1}=V_{2}=\\frac{V}{2}$，已知 $p_{1}>p_{2}$，由 $pV=nRT$ 得 $n_{1}>n_{2}$，分子数不相等，故 B 错误。\n\n故选 D。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · “先定容升温再松手”秒判趋势",
+          "tier": "fast",
+          "badge": "10秒神直觉",
+          "audience": "物理思维强",
+          "time_save": "免列代数不等式",
+          "content_md": "1. **定容升温假想步**：设小气球先被固定不变，整体温度从 $T$ 升至 $kT\\;(k>1)$，则内外压强同步变成 $kp_1$ 和 $kp_2$；\n2. **看压差**：压差变成 $k(p_1-p_2)=k\\Delta p>\\Delta p$！小气球里面更“撑”了！\n3. **松手定局**：想要把压差重新泄回定值 $\\Delta p$，小气球必须向外**膨胀增大（选 D）**，同时把外气挤压缩小导致 $p_2$ 进一步升压（排 A）！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在公式 $\\Delta p = RT(\\frac{n_1}{V_1}-\\frac{n_2}{V-V_1})$ 里搞错分子正负变化方向；用“先定容后松手”物理直觉比硬求导快且稳 10 倍！",
+      "takeaway": "利用假设法反证秒杀变化趋势：先假设温度升高时小气球**体积不变**，由于内部初始压强更大，升温会使其**内部压强的增量** $\\Delta p_1=\\frac{p_{10}}{T_0}\\Delta T$ 大于外部压强增量 $\\Delta p_2=\\frac{p_{20}}{T_0}\\Delta T$——压强差撑大了，小气球必然**膨胀变大**！",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q08",
@@ -428,14 +575,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 逐句咬字排谬",
+          "tier": "intuition",
+          "badge": "稳妥双选",
+          "audience": "全水平通用",
+          "time_save": "25 秒稳解",
+          "content_md": "- **A 错**：见到“**所有**分子运动速率都大于”立刻警惕！温度只反映平均动能统计规律；\n- **B 对**：同温水汽化，分子平均动能不变，但吸收大量汽化热、分子间距剧增，分子势能变大，故内能变大；\n- **C 对**：热量可以自发从高温物体传给低温物体而不对外做功，整个循环均热板不产生对外功；\n- **D 错**：直接违背克劳修斯“热量不能自发从低温传向高温而不引起其他变化”。\n\n故选 **BC**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "A．温度是分子平均动能的统计标志，仅反映整体的平均水平，高温处仍存在速率小的水分子，低温处也存在速率大的水分子，并非所有水分子的运动速率都满足高温处大于低温处，故 A 错误；\n\nB．一定量的水变为同温度的水蒸气，温度不变则分子总动能不变。汽化过程吸收热量，且汽化后分子间距大幅增大，分子势能增加，因此总内能变大，故 B 正确；\n\nC．该过程中，均热板从高温的芯片吸热，向低温的冷凝端放热，整个过程循环进行，均热板自身状态复原，不需要对外界做功，仅依靠水传递热量，符合物理规律，故 C 正确；\n\nD．根据热力学第二定律，不可能从低温物体吸热、向高温物体放热，同时不产生其他影响，该描述违反热力学第二定律，故 D 错误。\n\n故选 BC。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 对立选项 C/D 二选一 + A 字眼秒杀",
+          "tier": "fast",
+          "badge": "10秒锁双选",
+          "audience": "全部考生",
+          "time_save": "极速淘汰错项",
+          "content_md": "热学选择题经典“送分密码”：出现“所有分子速率都……”（**A 必错**）；C 与 D 正好描述“高→低”与“低→高”对立，根据热二定律只有高→低能无代价自然发生（**C 对 D 错**）；同温吸热汽化内能必增（**B 对**）。\n\n秒选 **BC**。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在多选题中犹豫不决误选 A，或者把热机需要做功与单纯的均热板自然导热搞混而不敢选 C。",
+      "takeaway": "重点区分“微观个体 vs 统计平均”（A 错）、“同温汽化潜热全变分子势能”（B 对），以及热力学第二定律克劳修斯表述（高温自动向低温散热无需外功，逆向才必须有外部干预：C 对 D 错）。",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q09",
@@ -483,14 +651,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 整体法求倾角 $\\theta$ + 隔离法求弹力 $F$",
+          "tier": "intuition",
+          "badge": "标准受力拆解",
+          "audience": "全水平通用",
+          "time_save": "30 秒稳解",
+          "content_md": "1. **整体看倾斜平面**：两气球受到向上的恒定净升力 $2(F_{\\text{浮}}-G)$ 与水平向后的总空气阻力 $2kv$，两者合力被两根绳拉力的平面内总合力 $T_{\\text{合}}=2T\\cos\\alpha$ 平衡。故：\n   $$\\tan\\theta=\\frac{F_{\\text{浮}}-G}{kv},\\qquad T_{\\text{合}}=\\sqrt{(2F_{\\text{浮}}-2G)^2+(2kv)^2}$$\n   当 $v$ 增大时，$\\tan\\theta$ 减小 $\\implies \\theta$ **减小**（**B 对**），同时总合力 $T_{\\text{合}}$ 增大。\n2. **隔离单个气球看横向**：因为气球刚性且绳长不变，两绳夹角 $2\\alpha$ 固定不变，所以单绳拉力 $T=\\frac{T_{\\text{合}}}{2\\cos\\alpha}$ 增大；又在球心连线方向上有 $F=T\\sin\\alpha$，故弹力 $F$ **增大**（**C 对**）。\n\n故选 **BC**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "AB．根据题意，设每根绳子的拉力为 $T$，两根绳子之间的夹角为 $2\\alpha$，每个气球受到空气阻力 $f = kv$，浮力为 $F_{\\text{浮}}$，对整体受力分析，由平衡条件，竖直方向上有 $2F_{\\text{浮}} = 2G + 2T \\cos \\alpha \\sin \\theta$\n\n水平方向上有 $2kv = 2T \\cos \\alpha \\cos \\theta$\n\n整理可得 $\\tan\\theta=\\frac{F_{\\text{浮}}-G}{kv}$\n\n运动速度缓慢增大，$\\tan\\theta$ 减小，则 $\\theta$ 减小，$T$ 增大，故 A 错误，B 正确；\n\nCD．对单个气球受力分析，由平衡条件有 $T\\sin\\alpha = F$\n\n由于 $\\alpha$ 不变，$T$ 增大，则 $F$ 增大，故 C 正确，D 错误。\n\n故选 BC。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 生活常识 + 正交投影秒选",
+          "tier": "fast",
+          "badge": "10秒秒杀",
+          "audience": "直觉快手",
+          "time_save": "免列三角函数",
+          "content_md": "牵气球跑得越快，气球往后飘得越低（与水平面夹角 $\\theta$ 肯定**变小**，选 B）！而且越跑越紧绷、绳子拉力 $T$ 变大，两个气球挤得更紧、互相顶住的弹力 $F$ 必然**增大**（选 C）！\n\n瞬间锁定 **BC**。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "把两绳夹角 $2\\alpha$ 误认为也会随速度变大而改变（其实题干明确“球心始终在绳延长线上、球心连线水平且气球形状不变”，即两球相切几何三角形边长固定，$\\alpha$ 为定值！）。",
+      "takeaway": "把两个完全相同的氦气球视作整体，净向上升力 $2(F_{\\text{浮}}-G)$ 恒定！随着速度 $v$ 增大，水平空气阻力 $2kv$ 变大，**整体绳子必定更向后仰（$\\theta$ 减小）**，斜边总拉力变大而对称半夹角 $\\alpha$ 不变，于是两球间横向挤压力 $F=T\\sin\\alpha$ 也变大！",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q10",
@@ -538,14 +727,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 矢量正交分解 + 分向动量定理",
+          "tier": "intuition",
+          "badge": "零坑满分版",
+          "audience": "全水平通用",
+          "time_save": "45 秒稳解",
+          "content_md": "- **A 对**：磁场有竖直与径向斜分量，水平指向圆心且竖直向上托起重力，对正电荷由左手定则判定，从上向下看为**顺时针**圆周运动；\n- **B 错**：由 $qvB\\cos 45^\\circ=mg$ 且 $qvB\\sin 45^\\circ=\\frac{mv^2}{R}$，两边相同得 $\\frac{mv^2}{R}=mg\\implies v=\\sqrt{gR}$，周期 $T=\\frac{2\\pi R}{v}=2\\pi\\sqrt{\\frac{R}{g}}$（不是 $\\pi\\sqrt{\\frac{R}{g}}$！）；\n- **C 错**：半周期内水平速度反向，$I_x=|\\Delta p_x|=2mv=2m\\sqrt{gR}$；竖直洛伦兹分力恒为 $mg$，$I_y=mg\\cdot\\frac{T}{2}=m\\pi\\sqrt{gR}$；合成总冲量 $I=\\sqrt{I_x^2+I_y^2}=m\\sqrt{(4+\\pi^2)gR}$，不是 $2+\\pi^2$；\n- **D 对**：速率变为 $2v$ 时，洛伦兹力大小变为原来 $2$ 倍（竖直分量 $2mg$，水平分量 $2mg$），但所需向心力变为 $4$ 倍（$4mg$），所以管壁必对小球产生向下 $mg$ 的弹力和向内 $2mg$ 的弹力，合弹力 $F_N=\\sqrt{1^2+2^2}mg=\\sqrt{5}mg$！\n\n故选 **AD**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "A．根据题意可知，小球所受洛伦兹力的水平分力提供小球做圆周运动的向心力，由左手定则可知，从管道上方俯视，小球沿顺时针方向做圆周运动，故 A 正确；\n\nB．设磁感应强度为 $B$，小球的速度为 $v$，此时小球与管道间无弹力，竖直方向上有 $mg = qvB \\cos 45{^\\circ}$\n\n水平方向上有 $qvB \\sin 45{^\\circ} = m \\frac{v^{2}}{R}$\n\n解得 $v = \\sqrt{gR}$\n\n则小球做圆周运动的周期为 $T = \\frac{2\\pi R}{v} = 2\\pi\\sqrt{\\frac{R}{g}}$，故 B 错误；\n\nC．根据题意，水平方向上，由动量定理有 $I_x = \\Delta p = -mv - mv = -2m\\sqrt{gR}$\n\n竖直方向有 $I_y = qvB \\cos 45{^\\circ} \\cdot \\frac{T}{2} = m\\pi\\sqrt{gR}$\n\n则小球做圆周运动的半个周期内洛伦兹力的冲量大小为 $I = \\sqrt{I_x^2 + I_y^2} = m\\sqrt{(4 + \\pi^2)gR}$，故 C 错误；\n\nD．若小球的绕行方向不变，速率为其做匀速圆周运动速率的 2 倍，竖直方向上有 $mg + F_{N_y} = q \\cdot 2vB \\cos 45{^\\circ}$\n\n水平方向上有 $q \\cdot 2vB \\sin 45{^\\circ} + F_{N_x} = m \\frac{(2v)^2}{R}$\n\n小球与管道间的弹力大小 $F_N = \\sqrt{F_{N_y}^2 + F_{N_x}^2}$\n\n联立解得 $F_N = \\sqrt{5}mg$，故 D 正确。\n\n故选 AD。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · “$1$ 倍基准力”心算向量差（极速判 BCD）",
+          "tier": "fast",
+          "badge": "15秒矢量秒杀",
+          "audience": "高分技巧",
+          "time_save": "全程无 $q,B$ 字母出现",
+          "content_md": "设重力 $mg$ 为 **1 个单位力**：\n- 原速 $v$ 无弹力 $\\implies$ 洛伦兹力水平分量 = $1$、竖直分量 = $1$，由此秒得周期系数为圆周常数 $2\\pi$（**排 B**）；\n- 冲量：水平动量变化是 $2mv=2m\\sqrt{gR}$，平方必含 **$4$**（**排 C**）；\n- 增速至 $2v$：洛伦兹力变 $(2,2)$，所需平衡+向心力是 $(4,1)$，管道只需补齐向量差 $(4-2,\\; 1-2)=(2,-1)$，模长即 $\\sqrt{2^2+1^2}=\\sqrt{5}\\,mg$（**秒选 D**）！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "两大经典重灾区：1）算半周期洛伦兹力冲量时忘记水平方向分力是变力，错算成标量积分或漏算水平动量变化 $\\sqrt{4+\\pi^2}$；2）C 选项混淆 $2$ 与 $4$（因为 $2^2=4$ 而不是 $2$！）；3）D 选项忘记速率加倍后**向心力变成 $4$ 倍、洛伦兹力只变 $2$ 倍**！",
+      "takeaway": "把洛伦兹力正交分解为竖直（平衡重力）和水平（提供向心力）：由于磁场与竖直方向呈 $45^\\circ$，无弹力平衡时刻恰好满足**向心力等于重力 $mg$**（即 $v=\\sqrt{gR}$）！半个周期的冲量**千万别直接把 $qvB\\cdot \\frac{T}{2}$ 乘上去**（因为向心力方向一直在转！水平冲量必须用动量变化 $\\Delta p=-2mv$，竖直冲量才用恒力 $mg\\cdot\\frac{T}{2}$ 合成！）。",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q11",
@@ -575,14 +785,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 逐问公式与误差溯源",
+          "tier": "intuition",
+          "badge": "实验满分解",
+          "audience": "全水平通用",
+          "time_save": "标准得分流程",
+          "content_md": "**（1）** 由 $v-t$ 图像读出两个完整重复波峰之间的时间差，即单摆周期 $T=0.6\\pi\\,\\mathrm{s}$。\n\n**（2）** 摆长等于悬点到**摆球球心**的距离，对应图中 **$b$** 位置。\n\n**（3）** 周期公式 $T=2\\pi\\sqrt{\\frac{l}{g}}$ 平方反解得 $g=\\frac{4\\pi^2 l}{T^2}$。\n\n**（4）** 因 $g_{\\text{测}}<g_{\\text{真}}$，由 $g=\\frac{4\\pi^2 l}{T^2}$ 知摆长测量值偏小（读数偏短），说明刻度尺的 $0$ 刻度线落在了悬点下方（即**低于**悬点，把上面那截悬线漏量了）。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）根据题意，由图 1 可知，单摆的周期 $T$ 为 $0.6\\pi \\,\\mathrm{s}$。\n\n（2）如图 2，用刻度尺测量单摆摆长，该同学将刻度尺竖直放置，刻度尺 0 刻度线与单摆悬点对齐，应读出球心所在位置的读数，即 $b$ 位置的读数，该读数即为摆长 $l$。\n\n（3）由单摆周期公式 $T = 2\\pi\\sqrt{\\frac{l}{g}}$ 可得重力加速度 $g = \\frac{4\\pi^{2}l}{T^{2}}$。\n\n（4）若该同学发现所得实验结果小于当地重力加速度，可知摆长测量值偏小，即刻度尺 0 刻度线低于悬点。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · “尺往下滑读数缩水”误差口诀",
+          "tier": "fast",
+          "badge": "5秒防反",
+          "audience": "考场防出错",
+          "time_save": "1秒定出低于",
+          "content_md": "做（4）问怕搞反“高于/低于”？想一下极端的例子：**把 $0$ 刻度线往下拉（低于悬点）到接近球心时，读出来的长度几乎变成 $0$**！\n\n读数偏小 $\\implies g$ 算出来偏小！瞬间验证是“**低于**”，绝不会选反！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "看错 $v-t$ 图像时间轴把半周期 $0.3\\pi$ 当成整周期；以及第（4）问误差分析忘记先写表达式 $g=\\frac{4\\pi^2 l}{T^2}$：既然测出的 $g$ 偏小，且 $T$ 准确，说明摆长测量值 $l_{\\text{测}}$ **偏小**——若刻度尺 $0$ 刻度线**低于**悬点，相当于摆球球心对应的刻度变小，使 $l_{\\text{测}}<l_{\\text{真}}$！",
+      "takeaway": "$v-t$ 图像上**两个相邻同向峰值（或每隔一次过零点）之间才是一个完整周期 $T$**！因为在一个全振动里小球会经过最低点（速度最大）两次，方向一正一负，相邻两个同向零点差才是半周期、同侧峰间距才是整周期。",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q12",
@@ -615,16 +846,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 霍尔几何 + 读数规则 + 描点作图",
+          "tier": "intuition",
+          "badge": "实验规范满分",
+          "audience": "全水平通用",
+          "time_save": "读数步步稳拿",
+          "content_md": "**（对应第 2 问）** 工作电流沿 $a,b$ 方向通入、磁场沿水平夹缝方向（两同极磁体中心连线上方区域合磁场垂直元件平面），故霍尔电势差出现在 **c、d** 两侧。毫伏表满偏对应 $2\\,\\mathrm{mV}$ 最小分度，按指针精确对齐读出 **$50\\,\\mathrm{mV}$**。\n\n**（对应第 3 问）** 螺旋测微器固定刻度露出 $11\\,\\mathrm{mm}$ 刻度线且半毫米线未露，可动刻度对齐 $35.0$ 格，故读数为 $11+35.0\\times 0.01=\\mathbf{11.350\\,\\mathrm{mm}}$。\n\n**（对应第 6 问）** 作直线连接均匀拟合点（舍去偏离太大的个别点或均衡两侧），在直线上读取 $U_1=20\\,\\mathrm{mV}$ 对应 $z_1\\approx 12.15\\,\\mathrm{mm}$、$U_2=60\\,\\mathrm{mV}$ 对应 $z_2\\approx 13.70\\,\\mathrm{mm}$，位移 $\\Delta z=13.70-12.15=\\mathbf{1.55\\,\\mathrm{mm}}$。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）霍尔元件伸入两块磁感应强度相同、同极相对放置的磁体间隙中，并处于两磁体中心竖直线上。\n\n（2）由霍尔效应原理可知，霍尔电压会出现在垂直电流和磁场方向上，结合图 2 可知，将电压表接在霍尔元件的 c、d 两端。\n\n由图 3 可知，电压表的最小刻度为 $2 \\,\\mathrm{mV}$，则此时电压为 $50 \\,\\mathrm{mV}$。\n\n（3）图 4 中螺旋测微器读数为 $11 \\,\\mathrm{mm} + 35.0 \\times 0.01 \\,\\mathrm{mm} = 11.350 \\,\\mathrm{mm}$。\n\n（4）数据如上表所示。\n\n（5）根据表格中数据，在图 5 中描出第 4、5 组测量数据的坐标点，并作出 $z-U$ 图像，如图所示\n\n![物理配图](assets/2026/physics/湖南/12_an.svg)\n\n（6）根据图像可知，电压表示数为 $20 \\,\\mathrm{mV}$ 时，有 $z_{1} = 12.15 \\,\\mathrm{mm}$，移动后电压表示数为 $60 \\,\\mathrm{mV}$ 时，有 $z_{2} = 13.70 \\,\\mathrm{mm}$，则此过程中物体位移的大小为 $z = z_{2} - z_{1} = 1.55 \\,\\mathrm{mm}$。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 表头斜率心算校对图像读数",
+          "tier": "fast",
+          "badge": "数据直觉防画偏",
+          "audience": "图像精修",
+          "time_save": "防止手画直线偏斜丢分",
+          "content_md": "动手在坐标系里画直尺线前，先拿表格头尾（$1$ 号与 $10$ 号点）口算一眼真实斜率：\n- 第 1 点 $(9,\\;11.670)$ 到第 10 点 $(81,\\;14.585)$，$\\Delta U=72\\,\\mathrm{mV}$ 对应 $\\Delta z\\approx 2.915\\,\\mathrm{mm}$，每 $1\\,\\mathrm{mV}$ 移动约 $\\frac{2.915}{72}\\approx 0.040\\,\\mathrm{mm}$！\n- 反过来验算第 3 问零电压点 $z_0=11.350\\,\\mathrm{mm}$：$11.350 + 9\\times 0.040=11.71\\,\\mathrm{mm}$（与第 1 组 $11.670$ 极贴近）；\n- 于是 $\\Delta U=60-20=40\\,\\mathrm{mV}$ 时的理论位移就在 $40\\times 0.040\\approx 1.60\\,\\mathrm{mm}$ 左右（阅卷给出参考范围或 $1.55\\,\\mathrm{mm}$ 均围绕此线性规律！），能立刻避免画图时把尺度看反算成 $1.2\\,\\mathrm{mm}$ 或 $2.0\\,\\mathrm{mm}$。"
         }
       ],
       "solution_figures": [
         "assets/2026/physics/湖南/12_an.svg"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "本题标准答案的编号写成“（1）c、d，$50\\,\\mathrm{mV}$；（2）$11.350\\,\\mathrm{mm}$；（3）$1.55\\,\\mathrm{mm}$”，实际分别对应题干中的**第（2）、（3）、（6）空**；另外螺旋测微器千万不要忘记可动刻度最后一位的估读 $0$（必须是 $11.350$ 三位小数），以及电压表最小分度 $2\\,\\mathrm{mV}$ 不要盲估小数。",
+      "takeaway": "实验读数两大基本功：1）霍尔元件记住**“磁场垂直通电方向时，在第三维度（另外一对侧面）产生霍尔电压”**；2）描点作图算微小位移时，先观察表格相邻两点的平均步距约 $\\Delta z/\\Delta U \\approx 0.04\\,\\mathrm{mm/mV}$，做到心里有数再画直线读数！",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q13",
@@ -647,16 +899,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 光路对称作图 + 斯涅尔定律",
+          "tier": "intuition",
+          "badge": "稳妥满分",
+          "audience": "全水平通用",
+          "time_save": "30 秒稳解",
+          "content_md": "**（1）** 摄像头半张角为 $\\frac{120^\\circ}{2}=60^\\circ$。贴着介质上表面入射的光线 $1$ 入射角为 $90^\\circ$，若能恰好从边缘射入摄像头，介质内折射角须为 $60^\\circ$，由折射定律：\n$$n=\\frac{\\sin 90^\\circ}{\\sin 60^\\circ}=\\frac{1}{\\sqrt{3}/2}=\\frac{2\\sqrt{3}}{3}$$\n\n**（2）** 光线 $2$ 从侧面折射入矩形介质后，在顶面发生全反射（反射角等于入射角），而后以与底边法线成 $60^\\circ$ 的角度进入镜头边缘；由矩形相邻两侧垂直关系，侧壁折射角 $\\beta=90^\\circ-60^\\circ=30^\\circ$。\n\n由 $n'=\\frac{\\sin\\theta}{\\sin\\beta}$ 得 $\\sin\\theta=1.8\\times\\sin 30^\\circ=0.9$。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）如图所示\n\n![物理配图](assets/2026/physics/湖南/13_an.svg)\n\n根据几何关系可知光线 1 的折射角为 $60{^\\circ}$，入射角为 $90{^\\circ}$\n\n可得 $n=\\frac{\\sin 90{^\\circ}}{\\sin 60{^\\circ}}=\\frac{2\\sqrt{3}}{3}$\n\n（2）根据几何关系可得光线 2 在玻璃砖中的折射角为 $\\beta = 30{^\\circ}$\n\n根据折射定律 $n' = \\frac{\\sin \\theta}{\\sin \\beta}$\n\n其中 $n' = 1.8$\n\n解得 $\\sin\\theta = 0.9$"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 矩形直角互余秒定 $\\beta=30^\\circ$",
+          "tier": "fast",
+          "badge": "5秒口算",
+          "audience": "几何直觉",
+          "time_save": "秒过全反射角度追踪",
+          "content_md": "不用反复算反射角！矩形侧面与顶面垂直：\n- 进入镜头的最终方向与顶面法线成 $60^\\circ$（即与顶面成 $30^\\circ$）；\n- 顶面只是“翻折镜面”，折叠对称后光线在侧面进去时与顶面夹角同样是 $30^\\circ$，而**顶面恰好就是侧面入射面的法线**！\n- 直接锁定侧面折射角 $\\beta=30^\\circ$，$\\sin\\theta=1.8\\times 0.5=0.9$！"
         }
       ],
       "solution_figures": [
         "assets/2026/physics/湖南/13_an.svg"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "把全张角 $120^\\circ$ 错当成折射角 $120^\\circ$，或者在第（2）问全反射中混淆反射面法线导致把折射角 $\\beta=30^\\circ$ 算成 $60^\\circ$。",
+      "takeaway": "扩大视场角问题的秘诀是“**按最大允许视角边缘光线逆向追踪**”：摄像头半张角 $60^\\circ$（全角 $120^\\circ$），所以边缘贴空气表面掠入射（入射角 $90^\\circ$）进来后，恰好需要折射到 $60^\\circ$ 进入镜头！",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q14",
@@ -679,14 +952,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 动量定理穿针引线 + 两阶段分段结算",
+          "tier": "intuition",
+          "badge": "规范满分",
+          "audience": "全水平通用",
+          "time_save": "结构最清晰",
+          "content_md": "**（1）** $t_0$ 时刻棒速为 $0$，回路电流 $I=\\frac{E}{r}$，安培力 $F=BIL=ma_0\\implies a_0=\\frac{BEL}{mr}$。\n\n**（2）** 接 $a$ 稳定匀速时，棒电动势抵消电源电动势：$BLv_0=E\\implies v_0=\\frac{E}{BL}$。切到 $b$ 后，棒受安培力减速向储能器充电，由动量定理 $-BLq=mv-mv_0$（注意此时电量全充给储能器 $q=\\frac{U_0}{k}$），代入立刻得：\n$$v=\\frac{E}{BL}-\\frac{BLU_0}{mk}$$\n\n**（3）** 切到 $c$ 相当于纯电阻 $(R+r)$ 耗散动能，总发热量分两笔计算：\n- **第一阶段（加速阶段）**：接 $a$ 从静止到 $v_0$，由动量定理 $BLq_1=mv_0\\implies q_1=\\frac{mE}{B^2L^2}$。电源做功 $W_{\\text{电}}=q_1E=\\frac{mE^2}{B^2L^2}$，棒动能 $\\frac{1}{2}mv_0^2=\\frac{mE^2}{2B^2L^2}$，所以第一阶段电路**全在棒 $r$ 上**产生的焦耳热为 $Q_1=W_{\\text{电}}-E_k=\\frac{mE^2}{2B^2L^2}$；\n- **第二阶段（制动阶段）**：切到 $c$ 后动能全化为总焦耳热 $\\frac{1}{2}mv_0^2$，按阻值比分配给导体棒 $Q_2=\\frac{r}{R+r}\\cdot\\frac{mE^2}{2B^2L^2}$；\n\n两阶段相加得总棒热：\n$$Q=Q_1+Q_2=\\left(1+\\frac{r}{R+r}\\right)\\frac{mE^2}{2B^2L^2}=\\frac{(R+2r)mE^2}{2(R+r)B^2L^2}$$"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）$t_{0}$ 时刻开关 S 与 a 连接，流过导体棒的电流 $I = \\frac{E}{r}$\n\n导体棒所受的安培力 $F = BIL$\n\n根据牛顿第二定律 $F = ma_{0}$\n\n联立可得 $a_{0} = \\frac{BEL}{mr}$\n\n（2）当导体棒匀速运动时，导体棒产生的电动势等于电源电动势，设此时导体棒速度为 $v_{0}$，即 $E = BLv_{0}$\n\n当储能器电压为 $U_{0}$ 时（此时电路中电流不为 0），对导体棒根据动量定理有\n$-\\sum BIL \\cdot t = mv - mv_{0}$\n\n又 $q = \\sum I \\cdot t$\n\n可得 $-BLq = mv - mv_{0}$\n\n根据题意 $U = kq$\n\n联立可得 $v = \\frac{E}{BL} - \\frac{BLU_{0}}{mk}$\n\n（3）从 $t_{0} \\sim t_{1}$ 过程对导体棒，根据动量定理 $BIL \\cdot t = mv_{0}$\n\n又 $q' = \\bar{I} \\cdot t$\n\n可得 $q' = \\frac{mE}{B^{2}L^{2}}$\n\n导体棒上产生的焦耳热 $Q_{1} = q_{1}E - \\frac{1}{2}mv_{0}^{2}$\n\n可得 $Q_{1} = \\frac{mE^{2}}{2B^{2}L^{2}}$\n\n从 $t_{1}$ 时刻到导体棒静止过程中，根据能量守恒定律可知电路中产生的焦耳热为 $Q_{\\text{总}} = \\frac{1}{2}mv_{0}^{2}$\n\n导体棒产生的焦耳热为 $Q_{2} = \\frac{r}{R + r} \\cdot Q_{\\text{总}}$\n\n可得 $Q_{2}=\\frac{mrE^{2}}{2(R+r)B^{2}L^{2}}$\n\n从 $t_{0}$ 时刻起到导体棒静止的过程中，导体棒上产生的焦耳热\n$Q=Q_{1}+Q_{2}=\\frac{(R+2r)mE^{2}}{2(R+r)B^{2}L^{2}}$"
+        },
+        {
+          "id": "fast_1",
+          "label": "高阶视野 · 电源充电“五五分账律”秒算第（3）问",
+          "tier": "advanced",
+          "badge": "10秒能源神口诀",
+          "audience": "高分技巧",
+          "time_save": "免动量定理算 $q_1$",
+          "content_md": "在无阻恒压源带单杆导轨系统里，一条绝妙结论：**恒压源把棒从静止加速到平衡终速 $v_0$ 时，电源输出的能量永远恰好一半变成棒动能 $\\frac{1}{2}mv_0^2$，另一半化为回路焦耳热 $\\frac{1}{2}mv_0^2$！**（与电容充电完全同构，只因 $W=\\Delta p\\cdot \\frac{E}{BL}=2\\cdot\\frac{1}{2}mv_0^2$！）\n\n因此只需记住初始稳定动能 $K_0=\\frac{1}{2}m\\left(\\frac{E}{BL}\\right)^2$：\n- **加速段**：棒自己吃下全额热量 $K_0$；\n- **减速段**：棒只按电阻占比吃下 $\\frac{r}{R+r}K_0$；\n- 合计 $Q=\\left(1+\\frac{r}{R+r}\\right)K_0=\\frac{(R+2r)mE^2}{2(R+r)B^2L^2}$！10 秒直接写出最终表达式，再补 2 行 $q_1$ 验证公式拿满步骤分！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "第（2）问误用机械能守恒或误以为储能器最终与导体棒达成静平衡（题目问的是中间瞬间“电压为 $U_0$ 时”的速度！）；第（3）问算**导体棒上的焦耳热 $Q$** 容易忘了加上第一阶段（接 $a$ 加速到匀速）产生的那一半电源焦耳热 $Q_1=\\frac{mE^2}{2B^2L^2}$！",
+      "takeaway": "看到非线性/线性储能器件 $U=kq$，把它当成**等效电容 $C=\\frac{1}{k}$**！在“磁—电—力”耦合里：**电荷量 $q$ 是连接速度变化 $\\Delta v$ 的桥梁（动量定理 $BLq=m\\Delta v$）**，焦耳热串联分配直接按电阻正比切分！",
+      "is_enriched": true
     },
     {
       "qid": "2026-physics-湖南-q15",
@@ -709,19 +1003,40 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 临界脱离角度 + 动量能量联立",
+          "tier": "intuition",
+          "badge": "规范满分",
+          "audience": "全水平通用",
+          "time_save": "标准得分路径",
+          "content_md": "**（1）** 脱离前后均无外力做非保守功（地面前未耗能），对整个下落过程用机械能守恒：$mgL=\\frac{1}{2}mv^2\\implies v=\\sqrt{2gL}$。\n\n**（2）** 设在杆与竖直方向夹角 $\\beta$ 时脱离（弹力为 $0$）：\n$$mgL(1-\\cos\\beta)=\\frac{1}{2}mv_1^2,\\qquad mg\\cos\\beta=\\frac{mv_1^2}{L}$$\n消去 $v_1^2$ 得 $3\\cos\\beta=2\\implies \\cos\\beta=\\frac{2}{3},\\; v_1=\\sqrt{\\frac{2gL}{3}}$。\n脱离后小球水平分速度保持不变：\n$$v_x=v_1\\cos\\beta=\\frac{2}{3}\\sqrt{\\frac{2gL}{3}}=\\frac{2\\sqrt{6}}{9}\\sqrt{gL}$$\n结合落地合速度 $v=\\sqrt{2gL}$，立得 $\\cos\\alpha=\\frac{v_x}{v}=\\frac{2}{3\\sqrt{3}}=\\frac{2}{\\sqrt{27}}$，从而 $\\sin\\alpha=\\sqrt{\\frac{23}{27}}$，$\\tan\\alpha=\\frac{\\sqrt{23}}{2}$。\n\n**（3）（i）** 碰撞后速度大小仍为 $v=\\sqrt{2gL}$。设两块质量为 $m_0$ 与 $km_0\\;\\big((k+1)m_0=m\\big)$，因与原方向对称呈 $\\theta$ 角，垂向动量平衡 $km_0v_2\\sin\\theta=m_0v_3\\sin\\theta\\implies kv_2=v_3$；顺向动量守恒 $km_0v_2\\cos\\theta+m_0v_3\\cos\\theta=mv\\implies 2kv_2\\cos\\theta=(k+1)v$。\n\n于是 $v_2=\\frac{k+1}{2k\\cos\\theta}v,\\; v_3=\\frac{k+1}{2\\cos\\theta}v$。代入能量释放：\n$$E=\\frac{1}{2}km_0v_2^2+\\frac{1}{2}m_0v_3^2-\\frac{1}{2}mv^2=\\left[\\frac{(1+k)^2}{4k\\cos^2\\theta}-1\\right]mgL$$\n\n**（ii）** 显然当 $k=1$ 时 $E$ 取极小值。此时两块质量相等（各 $m/2$），$v_2=v_3=\\frac{v}{\\cos\\theta}$。由于同时落地说明两者竖直初始分速度 $v_z$ 完全相等，即爆炸冲量沿水平横向（垂直于竖直平面）两侧对称劈开，$v_z=v\\sin\\alpha=\\sqrt{2gL}\\cdot\\frac{\\sqrt{23}}{3\\sqrt{3}}$。\n\n空中飞行时间 $t=\\frac{2v_z}{g}$，两块相对横向分离速度 $\\Delta v_{\\perp}=2v_2\\sin\\theta=2v\\tan\\theta$，故落点间距：\n$$d=\\Delta v_{\\perp}\\cdot t=2v\\tan\\theta\\cdot\\frac{2v\\sin\\alpha}{g}=\\frac{4v^2}{g}\\sin\\alpha\\tan\\theta=8L\\cdot\\frac{\\sqrt{69}}{9}\\tan\\theta=\\frac{8}{9}\\sqrt{69}L\\tan\\theta$$"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）根据机械能守恒定律有 $mgL=\\frac{1}{2}mv^{2}$\n\n解得小球接触地面瞬间的速度的大小 $v = \\sqrt{2gL}$\n\n（2）设小球脱离轻杆时，轻杆与竖直方向的夹角为 $\\beta$，如图所示\n\n![物理配图](assets/2026/physics/湖南/15_an1.jpg)\n\n设此时小球的速度为 $v_{1}$，根据机械能守恒定律\n$mgL(1-\\cos\\beta)=\\frac{1}{2}mv_{1}^{2}$\n\n对小球，根据牛顿第二定律\n$mg\\cos\\beta=m\\frac{v_{1}^{2}}{L}$\n\n解得 $\\cos\\beta=\\frac{2}{3},  v_{1}=\\sqrt{\\frac{2gL}{3}}$\n\n此时小球水平方向分速度 $v_{x1}=v_{1}\\cos\\beta$\n\n竖直方向分速度 $v_{y1}=v_{1}\\sin\\beta$\n\n竖直方向，根据速度位移关系 $v_{y}^{2}-v_{y1}^{2}=2g \\cdot L\\cos\\beta$\n\n$\\tan\\alpha=\\frac{v_{y}}{v_{x1}}$\n\n小球接触地面瞬间的速度与水平面夹角 $\\alpha$ 的正切值\n联立解得 $\\tan\\alpha=\\frac{\\sqrt{23}}{2}$\n\n（3）（i）设其中一部分的质量为 $m_{0}$，则另一部分质量为 $km_{0}$，如图所示\n\n![物理配图](assets/2026/physics/湖南/15_an2.jpg)\n\n根据动量守恒定律有 $km_{0}v_{2}\\sin\\theta=m_{0}v_{3}\\sin\\theta$，$km_{0}v_{2}\\cos\\theta+m_{0}v_{3}\\cos\\theta=mv$\n\n弹射装置释放的能量\n$E=\\frac{1}{2}km_{0}v_{2}^{2}+\\frac{1}{2}m_{0}v_{3}^{2}-\\frac{1}{2}mv^{2}$\n\n联立可得 $E = \\left[\\frac{(1 + k)^{2}}{4k\\cos^{2}\\theta} - 1\\right]mgL$\n\n（ii）根据数学知识可知，当 $k=1$ 时，$E$ 最小为 $E_{\\min}=mgL\\tan^{2}\\theta$\n\n即有 $m_0v_2\\sin\\theta=m_0v_3\\sin\\theta$，$m_0v_2\\cos\\theta+m_0v_3\\cos\\theta=mv$，\n$E_{\\min}=\\frac{1}{2}m_0v_2^2+\\frac{1}{2}m_0v_3^2-\\frac{1}{2}mv^2$\n\n两小球同时落地，运动时间为\n$t=2 \\cdot \\frac{v_{2}\\sin\\alpha}{g}=2 \\cdot \\frac{v_{3}\\sin\\alpha}{g}$\n\n可得 $\\left|v_{3}\\right|=\\left|v_{2}\\right|$\n\n两小球的距离 $d = 2v_{2} \\sin \\theta \\cdot t$\n\n由 $\\tan\\alpha=\\frac{\\sqrt{23}}{2}$ 可得 $\\sin\\alpha=\\sqrt{\\frac{23}{27}}$\n\n联立可得 $d=\\frac{8}{9}\\sqrt{69}L\\tan\\theta$"
+        },
+        {
+          "id": "fast_1",
+          "label": "高阶视野 · 约化质量瞬杀 $E$ + 勾股秒出 $\\tan\\alpha$",
+          "tier": "advanced",
+          "badge": "压轴破阵眼",
+          "audience": "冲击高分/竞赛视野",
+          "time_save": "计算省一半且防错",
+          "content_md": "**技巧 1（第 2 问绕开二次脱离后运动方程）**：拿到 $\\cos\\beta=\\frac{2}{3}$ 和 $v_1=\\sqrt{\\frac{2gL}{3}}$ 后，**绝对不要再用 $v_y^2-v_{y1}^2=2gL\\cos\\beta$ 去硬解 $v_y$**！因为第（1）问已经白送了合速度 $v=\\sqrt{2gL}$，直接用角度比 $\\cos\\alpha=\\frac{v_x}{v}=\\frac{v_1\\cos\\beta}{\\sqrt{2gL}}=\\frac{1}{\\sqrt{3}}\\cdot\\frac{2}{3}=\\frac{2}{3\\sqrt{3}}$！直角三角形边比一目了然：邻边 $2$、斜边 $\\sqrt{27}$、对边 $\\sqrt{27-4}=\\sqrt{23}$，1 秒写答案 $\\tan\\alpha=\\frac{\\sqrt{23}}{2}$！\n\n**技巧 2（第 3 问用“反冲约化能量定理”一眼出公式）**：在跟着原速度 $v$ 奔跑的参考系里，爆炸瞬间质心静止，且两块沿垂直于原速方向以等大动量 $p_\\perp$ 反向飞出；因原方向速度分量满足动量与位置对应，直接记住**非弹性/爆炸中动量平方能量形式 $K=\\frac{p_1^2}{2m_1}+\\frac{p_2^2}{2m_2}$**：因为水平横向动量大小 $p_\\perp$ 同为 $p\\sin\\theta$，合动量比必成 $p_1=p_2$！所以直接：$K_{\\text{后}}=\\frac{p^2}{2}\\left(\\frac{1}{m_1}+\\frac{1}{m_2}\\right)$，其中 $2p\\cos\\theta=mv\\implies p=\\frac{mv}{2\\cos\\theta}$，即刻得出：\n$$K_{\\text{后}}=\\frac{m^2v^2}{8\\cos^2\\theta}\\cdot\\frac{(1+k)^2}{km}=\\frac{(1+k)^2}{4k\\cos^2\\theta}mgL$$\n\n不用设 $m_0$、不用解二元一次速度组，两行通透！"
         }
       ],
       "solution_figures": [
         "assets/2026/physics/湖南/15_an1.jpg",
         "assets/2026/physics/湖南/15_an2.jpg"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "三大失分陷阱：1）第（1）问去绕弯算落地分速度再合成（其实全程机械能守恒一步出 $v=\\sqrt{2gL}$！）；2）第（3）问做分裂时容易误把速度当标量或把总质量写错（两块分别为 $\\frac{k}{k+1}m$ 与 $\\frac{1}{k+1}m$）；3）第（ii）问若以为两块在竖直面内上下偏转角 $\\alpha\\pm\\theta$，那么由于对称倾角下竖直速度分量不再相等，不可能同时落地——必须意识到**同时落地且对称夹角 $\\theta$ 意味着横向左右劈开（即水平横向分离）**！",
+      "takeaway": "这是经典的“杆球脱离 + 弹射分裂空间斜抛”压轴大题：第（1）问脱离瞬间支持力为 $0$ 只剩重力提供法向分力（$\\cos\\beta=\\frac{2}{3}$ 是高频硬核数字结论！）；第（3）问两块质量比 $k$ 时的最小爆炸能 $E$ 用柯西/均值不等式或换系**质心相对动能**瞬间秒穿，而同落地时间必源于**垂直方向分速度不变（横向平面分裂）**！",
+      "is_enriched": true
     }
   ],
-  "multi_method_count": 0,
-  "enriched_count": 0
+  "multi_method_count": 15,
+  "enriched_count": 15
 }

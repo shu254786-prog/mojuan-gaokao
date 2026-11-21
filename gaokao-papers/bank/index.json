@@ -4094,8 +4094,8 @@
       "region": "湖南卷",
       "format_tier": "structured_latex",
       "question_count": 15,
-      "multi_method_count": 0,
-      "enriched_count": 0,
+      "multi_method_count": 15,
+      "enriched_count": 15,
       "paper_file": "papers/2026-physics-湖南.json"
     },
     {
@@ -16407,8 +16407,8 @@
       "region": "新高考全国Ⅰ卷",
       "format_tier": "structured_latex",
       "question_count": 19,
-      "multi_method_count": 0,
-      "enriched_count": 0,
+      "multi_method_count": 19,
+      "enriched_count": 19,
       "paper_file": "papers/2024-math-new_gaokao_paper_1.json"
     },
     {
@@ -16418,8 +16418,8 @@
       "region": "新高考全国Ⅱ卷",
       "format_tier": "structured_latex",
       "question_count": 19,
-      "multi_method_count": 0,
-      "enriched_count": 0,
+      "multi_method_count": 19,
+      "enriched_count": 19,
       "paper_file": "papers/2024-math-new_gaokao_paper_2.json"
     },
     {
