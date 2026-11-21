@@ -1,0 +1,721 @@
+{
+  "id": "2024-physics-安徽",
+  "year": 2024,
+  "subject": "物理",
+  "region": "安徽卷",
+  "region_key": "安徽",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2024-physics-安徽-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "原子和原子核",
+        "玻尔模型"
+      ],
+      "stem_md": "大连相干光源是我国第一台高增益自由电子激光用户装置，其激光辐射所应用的玻尔原子理论很好地解释了氢原子的光谱特征。图为氢原子的能级示意图，已知紫外光的光子能量大于 $3.11 \\,\\mathrm{eV}$，当大量处于 $n = 3$ 能级的氢原子向低能级跃迁时，辐射不同频率的紫外光有（  ）\n\n![物理配图](assets/2024/physics/安徽/01.svg)",
+      "figures": [
+        "assets/2024/physics/安徽/01.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "1 种",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "2 种",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "3 种",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "4 种",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "大量处于 $n = 3$ 能级的氢原子向低能级跃迁时，能够辐射出不同频率的种类为 $C_{3}^{2} = 3$ 种。\n\n辐射出光子的能量分别为\n\n$\\Delta E_{1} = E_{3} - E_{1} = -1.51 \\,\\mathrm{eV} - (-13.6 \\,\\mathrm{eV}) = 12.09 \\,\\mathrm{eV}$\n\n$\\Delta E_{2} = E_{3} - E_{2} = -1.51 \\,\\mathrm{eV} - (-3.4 \\,\\mathrm{eV}) = 1.89 \\,\\mathrm{eV}$\n\n$\\Delta E_{3} = E_{2} - E_{1} = -3.4 \\,\\mathrm{eV} - (-13.6 \\,\\mathrm{eV}) = 10.2 \\,\\mathrm{eV}$\n\n其中 $\\Delta E_{1} > 3.11 \\,\\mathrm{eV}$，$\\Delta E_{2} < 3.11 \\,\\mathrm{eV}$，$\\Delta E_{3} > 3.11 \\,\\mathrm{eV}$\n\n所以辐射不同频率的紫外光有 2 种。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "功和能",
+        "动能定理"
+      ],
+      "stem_md": "某同学参加户外拓展活动，遵照安全规范，坐在滑板上，从高为 $h$ 的粗糙斜坡顶端由静止下滑，至底端时速度为 $v$。已知人与滑板的总质量为 $m$，可视为质点．重力加速度大小为 $g$，不计空气阻力．则此过程中人与滑板克服摩擦力做的功为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$mgh$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{1}{2}mv^{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$mgh + \\frac{1}{2}mv^{2}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$mgh - \\frac{1}{2}mv^{2}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "人在下滑的过程中，由动能定理可得\n\n$mgh - W_{f} = \\frac{1}{2}mv^{2} - 0$\n\n可得此过程中人与滑板克服摩擦力做的功为 $W_{f} = mgh - \\frac{1}{2}mv^{2}$\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "机械波",
+        "波长频率波速"
+      ],
+      "stem_md": "某仪器发射甲、乙两列横波，在同一均匀介质中相向传播，波速 $v$ 大小相等。某时刻的波形图如图所示，则这两列横波（  ）\n\n![物理配图](assets/2024/physics/安徽/03.png)",
+      "figures": [
+        "assets/2024/physics/安徽/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在 $x = 9.0 \\,\\mathrm{m}$ 处开始相遇",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在 $x = 10 \\,\\mathrm{m}$ 处开始相遇",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "波峰在 $x = 10.5 \\,\\mathrm{m}$ 处相遇",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "波峰在 $x = 11.5 \\,\\mathrm{m}$ 处相遇",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．由题意可知两列波的波速相同，所以相同时间内传播的距离相同，故两列横波在 $x = 11.0 \\,\\mathrm{m}$ 处开始相遇，故 AB 错误；\n\nCD．甲波峰的坐标为 $x_{1} = 5 \\,\\mathrm{m}$，乙波峰的坐标为 $x_{2} = 16 \\,\\mathrm{m}$，由于两列波的波速相同，所以波峰在 $x' = 5 \\,\\mathrm{m} + \\frac{16 - 5}{2} \\,\\mathrm{m} = 10.5 \\,\\mathrm{m}$ 处相遇，故 C 正确，D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "运动和力",
+        "传送带"
+      ],
+      "stem_md": "倾角为 $\\theta$ 的传送带以恒定速率 $v_{0}$ 顺时针转动。$t = 0$ 时在传送带底端无初速轻放一小物块，如图所示。$t_{0}$ 时刻物块运动到传送带中间某位置，速度达到 $v_{0}$。不计空气阻力，则物块从传送带底端运动到顶端的过程中，加速度 $a$、速度 $v$ 随时间 $t$ 变化的关系图线可能正确的是（  ）\n\n![物理配图](assets/2024/physics/安徽/04a.png)",
+      "figures": [
+        "assets/2024/physics/安徽/04a.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2024/physics/安徽/04b1.jpg"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2024/physics/安徽/04b2.jpg"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2024/physics/安徽/04b3.jpg"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2024/physics/安徽/04b4.jpg"
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "$0 \\sim t_{0}$ 时间内：物体轻放在传送带上，做加速运动。受力分析可知，物体受重力、支持力、滑动摩擦力，滑动摩擦力大于重力的下滑分力，合力不变，故做匀加速运动。\n\n$t_{0}$ 之后：当物块速度与传送带相同时，静摩擦力与重力的下滑分力相等，加速度突变为零，物块做匀速直线运动。\n\nC 正确，ABD 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "开普勒定律"
+      ],
+      "stem_md": "2024 年 3 月 20 日，我国探月工程四期鹊桥二号中继星成功发射升空。当抵达距离月球表面某高度时，鹊桥二号开始进行近月制动，并顺利进入捕获轨道运行，如图所示，轨道的半长轴约为 $51\\,900 \\,\\mathrm{km}$。后经多次轨道调整，进入冻结轨道运行，轨道的半长轴约为 $9\\,900 \\,\\mathrm{km}$，周期约为 $24 \\,\\mathrm{h}$。则鹊桥二号在捕获轨道运行时（  ）\n\n![物理配图](assets/2024/physics/安徽/05.png)",
+      "figures": [
+        "assets/2024/physics/安徽/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "周期约为 $144 \\,\\mathrm{h}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "近月点的速度大于远月点的速度",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "近月点的速度小于在冻结轨道运行时近月点的速度",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "近月点的加速度大于在冻结轨道运行时近月点的加速度",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．冻结轨道和捕获轨道的中心天体是月球，根据开普勒第三定律 $\\frac{T_{1}^{2}}{R_{1}^{3}} = \\frac{T_{2}^{2}}{R_{2}^{3}}$\n\n整理得 $T_{2} = \\sqrt{\\frac{R_{2}^{3}}{R_{1}^{3}}} T_{1} = 288 \\,\\mathrm{h}$\n\nA 错误；\n\nB．根据开普勒第二定律得，近月点的速度大于远月点的速度，B 正确；\n\nC．近月点从捕获轨道到冻结轨道鹊桥二号进行近月制动，捕获轨道近月点的速度大于在冻结轨道运行时近月点的速度，C 错误；\n\nD．两轨道的近月点所受的万有引力相同，根据牛顿第二定律可知，近月点的加速度等于在冻结轨道运行时近月点的加速度，D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "变加速直线运动"
+      ],
+      "stem_md": "如图所示，竖直平面内有两完全相同的轻质弹簧，它们的一端分别固定于水平线上的 M、N 两点，另一端均连接在质量为 $m$ 的小球上。开始时，在竖直向上的拉力作用下，小球静止于 MN 连线的中点 O，弹簧处于原长。后将小球竖直向上缓慢拉至 P 点，并保持静止，此时拉力 $F$ 大小为 $2mg$。已知重力加速度大小为 $g$，弹簧始终处于弹性限度内，不计空气阻力。若撤去拉力，则小球从 P 点运动到 O 点的过程中（  ）\n\n![物理配图](assets/2024/physics/安徽/06.png)",
+      "figures": [
+        "assets/2024/physics/安徽/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "速度一直增大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "速度先增大后减小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "加速度的最大值为 $3g$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "加速度先增大后减小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．缓慢拉至 P 点，保持静止，由平衡条件可知此时拉力 $F$ 与重力和两弹簧的拉力合力为零。此时两弹簧的合力大小为 $mg$。当撤去拉力，则小球从 P 点运动到 O 点的过程中两弹簧的拉力与重力的合力始终向下，小球一直做加速运动，故 A 正确，B 错误；\n\nCD．小球从 P 点运动到 O 点的过程中，形变量变小，弹簧在竖直方向的合力不断变小，故小球受的合外力一直变小，加速度的最大值为撤去拉力时的加速度，由牛顿第二定律可知\n\n$2mg = ma$\n\n加速度的最大值为 $2g$，CD 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "功和能",
+        "功能原理"
+      ],
+      "stem_md": "在某地区的干旱季节，人们常用水泵从深水井中抽水灌溉农田，简化模型如图所示。水井中的水面距离水平地面的高度为 $H$。出水口距水平地面的高度为 $h$，与落地点的水平距离约为 $l$。假设抽水过程中 $H$ 保持不变，水泵输出能量的 $\\eta$ 倍转化为水被抽到出水口处增加的机械能。已知水的密度为 $\\rho$，水管内径的横截面积为 $S$，重力加速度大小为 $g$，不计空气阻力。则水泵的输出功率约为（  ）\n\n![物理配图](assets/2024/physics/安徽/07.png)",
+      "figures": [
+        "assets/2024/physics/安徽/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{\\rho gSl\\sqrt{2gh}}{2\\eta h}\\left( H + h + \\frac{l^{2}}{2h} \\right)$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{\\rho gSl\\sqrt{2gh}}{2\\eta h}\\left( H + h + \\frac{l^{2}}{4h} \\right)$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{\\rho gSl\\sqrt{2gh}}{2\\eta h}\\left( H + \\frac{l^{2}}{2h} \\right)$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{\\rho gSl\\sqrt{2gh}}{2\\eta h}\\left( H + \\frac{l^{2}}{4h} \\right)$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设水从出水口射出的初速度为 $v_{0}$，取 $t$ 时间内的水为研究对象，该部分水的质量为 $m = v_{0}tS\\rho$\n\n根据平抛运动规律 $v_{0}t' = l$，$h = \\frac{1}{2}gt'^{2}$\n\n解得 $v_{0} = l\\sqrt{\\frac{g}{2h}}$\n\n根据功能关系得\n\n$Pt\\eta = \\frac{1}{2}mv_{0}^{2} + mg(H + h)$\n\n联立解得水泵的输出功率为 $P = \\frac{\\rho gSl\\sqrt{2gh}}{2\\eta h}\\left( H + h + \\frac{l^{2}}{4h} \\right)$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "在某装置中的光滑绝缘水平面上，三个完全相同的带电小球，通过不可伸长的绝缘轻质细线，连接成边长为 $d$ 的正三角形，如图 [2024安徽08a]所示。小球质量为 $m$，带电量为 $+q$，可视为点电荷。初始时，小球均静止，细线拉直。现将球 1 和球 2 间的细线剪断，当三个小球运动到同一条直线上时，速度大小分别为 $v_{1}$、$v_{2}$、$v_{3}$，如图 [2024安徽08b]所示。该过程中三个小球组成的系统电势能减少了 $\\frac{kq^{2}}{2d}$，$k$ 为静电力常量，不计空气阻力。则（  ）\n\n![物理配图](assets/2024/physics/安徽/08a.jpg) ![物理配图](assets/2024/physics/安徽/08b.jpg)",
+      "figures": [
+        "assets/2024/physics/安徽/08a.jpg",
+        "assets/2024/physics/安徽/08b.jpg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "该过程中小球 3 受到的合力大小始终不变",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "该过程中系统能量守恒，动量不守恒",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在图乙位置，$v_{1} = v_{2}$，$v_{3} \\neq 2v_{1}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在图乙位置，$v_{3} = \\sqrt{\\frac{2kq^{2}}{3md}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．该过程中系统动能和电势能相互转化，能量守恒，对整个系统分析可知系统受到的合外力为 0，故动量守恒；当三个小球运动到同一条直线上时，根据对称性可知细线中的拉力相等，此时球 3 受到 1 和 2 的电场力大小相等，方向相反，故可知此时球 3 受到的合力为 0，球 3 从静止状态开始运动，瞬间受到的合力不为 0，故该过程中小球 3 受到的合力在改变，故 AB 错误；\n\nCD．对系统根据动量守恒 $mv_{1} + mv_{2} = mv_{3}$\n\n根据球 1 和 2 运动的对称性可知 $v_{1} = v_{2}$，解得 $v_{3} = 2v_{1}$\n\n根据能量守恒\n\n$\\frac{1}{2}mv_{1}^{2} + \\frac{1}{2}mv_{2}^{2} + \\frac{1}{2}mv_{3}^{2} = \\frac{kq^{2}}{2d}$\n\n解得 $v_{3} = \\sqrt{\\frac{2kq^{2}}{3md}}$\n\n故 C 错误，D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "类平抛运动"
+      ],
+      "stem_md": "一倾角为 $30^{\\circ}$ 足够大的光滑斜面固定于水平地面上，在斜面上建立 $Oxy$ 直角坐标系，如图 [2024安徽09a]所示。从 $t = 0$ 开始，将一可视为质点的物块从 $O$ 点由静止释放，同时对物块施加沿 $x$ 轴正方向的力 $F_{1}$ 和 $F_{2}$，其大小与时间 $t$ 的关系如图 [2024安徽09b]所示。已知物块的质量为 $1.2 \\,\\mathrm{kg}$，重力加速度 $g$ 取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$，不计空气阻力。则（  ）\n\n![物理配图](assets/2024/physics/安徽/09a.jpg) ![物理配图](assets/2024/physics/安徽/09b.jpg)",
+      "figures": [
+        "assets/2024/physics/安徽/09a.jpg",
+        "assets/2024/physics/安徽/09b.jpg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "物块始终做匀变速曲线运动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$t = 1 \\,\\mathrm{s}$ 时，物块的 $y$ 坐标值为 $2.5 \\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$t = 1 \\,\\mathrm{s}$ 时，物块的加速度大小为 $5\\sqrt{3} \\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$t = 2 \\,\\mathrm{s}$ 时，物块的速度大小为 $10\\sqrt{2} \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据图像可得 $F_{1} = 4 - t$，$F_{2} = 3t$，故两力的合力为 $F = 4 + 2t$（单位：$\\,\\mathrm{N}$）\n\n物块在 $y$ 轴方向受到的力不变为 $mg\\sin30^{\\circ}$，$x$ 轴方向的力在改变，合力在改变，故物块做的不是匀变速曲线运动，故 A 错误；\n\nB．在 $y$ 轴方向的加速度为\n\n$a_{y} = \\frac{mg\\sin30^{\\circ}}{m} = g\\sin30^{\\circ} = 5 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n故 $t = 1 \\,\\mathrm{s}$ 时，物块的 $y$ 坐标值为\n\n$y = \\frac{1}{2}a_{y}t^{2} = 2.5 \\,\\mathrm{m}$\n\n故 B 正确；\n\nC．$t = 1 \\,\\mathrm{s}$ 时，$F = 6 \\,\\mathrm{N}$，故此时加速度大小为\n\n$a = \\sqrt{a_{x}^{2} + a_{y}^{2}} = \\sqrt{\\left(\\frac{6}{1.2}\\right)^{2} + 5^{2}} \\,\\mathrm{m}/\\mathrm{s}^2 = 5\\sqrt{2} \\,\\mathrm{m}/\\mathrm{s}^2$\n\n故 C 错误；\n\nD．对 $x$ 轴正方向，对物块根据动量定理\n\n$Ft = mv_{x} - 0$\n\n由于 $F$ 与时间 $t$ 成线性关系故可得\n\n$\\frac{(4 + 2 \\times 0) + (4 + 2 \\times 2)}{2} \\times 2 = 1.2v_{x}$\n\n解得 $v_{x} = 10 \\,\\mathrm{m}/\\mathrm{s}$\n\n此时 $y$ 轴方向速度为\n\n$v_{y} = g\\sin30^{\\circ} \\cdot t = 5 \\times 2 \\,\\mathrm{m}/\\mathrm{s} = 10 \\,\\mathrm{m}/\\mathrm{s}$\n\n故此时物块的速度大小为 $v = \\sqrt{v_{x}^{2} + v_{y}^{2}} = 10\\sqrt{2} \\,\\mathrm{m}/\\mathrm{s}$\n\n故 D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 450,
+      "topics": [
+        "磁场",
+        "带电粒子在复合场中的运动"
+      ],
+      "stem_md": "空间中存在竖直向下的匀强电场和垂直于纸面向里的匀强磁场，电场强度大小为 $E$，磁感应强度大小为 $B$。一质量为 $m$ 的带电油滴 a，在纸面内做半径为 $R$ 的圆周运动，轨迹如图所示。当 a 运动到最低点 P 时，瞬间分成两个小油滴 Ⅰ、Ⅱ，二者带电量、质量均相同。Ⅰ 在 P 点时与 a 的速度方向相同，并做半径为 $3R$ 的圆周运动，轨迹如图所示。Ⅱ 的轨迹未画出。已知重力加速度大小为 $g$，不计空气浮力与阻力以及 Ⅰ、Ⅱ 分开后的相互作用，则（  ）\n\n![物理配图](assets/2024/physics/安徽/10.png)",
+      "figures": [
+        "assets/2024/physics/安徽/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "油滴 a 带负电，所带电量的大小为 $\\frac{mg}{E}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "油滴 a 做圆周运动的速度大小为 $\\frac{gBR}{E}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "小油滴 Ⅰ 做圆周运动的速度大小为 $\\frac{3gBR}{E}$，周期为 $\\frac{4\\pi E}{gB}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "小油滴 Ⅱ 沿顺时针方向做圆周运动",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "ABD",
+        "choices": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．油滴 a 做圆周运动，故重力与电场力平衡，可知带负电，有 $mg = qE$\n\n解得 $q = \\frac{mg}{E}$\n\n故 A 正确；\n\nB．根据洛伦兹力提供向心力\n\n$Bqv = m\\frac{v^{2}}{R}$\n\n得 $R = \\frac{mv}{Bq}$\n\n解得油滴 a 做圆周运动的速度大小为 $v = \\frac{gBR}{E}$\n\n故 B 正确；\n\nC．设小油滴 Ⅰ 的速度大小为 $v_{1}$，得\n\n$3R = \\frac{\\frac{m}{2}v_{1}}{B\\frac{q}{2}}$\n\n解得 $v_{1} = \\frac{3BqR}{m} = \\frac{3gBR}{E}$\n\n周期为 $T = \\frac{2\\pi \\cdot 3R}{v_{1}} = \\frac{2\\pi E}{gB}$\n\n故 C 错误；\n\nD．带电油滴 a 分离前后动量守恒，设分离后小油滴 Ⅱ 的速度为 $v_{2}$，取油滴 a 分离前瞬间的速度方向为正方向，得\n\n$mv = \\frac{m}{2}v_{1} + \\frac{m}{2}v_{2}$\n\n解得 $v_{2} = -\\frac{gBR}{E}$\n\n由于分离后的小油滴受到的电场力和重力仍然平衡，分离后小油滴 Ⅱ 的速度方向与正方向相反，根据左手定则可知小油滴 Ⅱ 沿顺时针方向做圆周运动，故 D 正确。\n\n故选 ABD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 0,
+      "difficulty": 650,
+      "topics": [
+        "光学",
+        "测定玻璃折射率"
+      ],
+      "stem_md": "某实验小组做“测量玻璃的折射率”及拓展探究实验。\n\n（1）为测量玻璃的折射率，按如图所示进行实验，以下表述正确的一项是 ______ 。（填正确答案标号）\n\n\tA．用笔在白纸上沿着玻璃砖上边和下边分别画出直线 a 和 $a'$\n\n\tB．在玻璃砖一侧插上大头针 $P_{1}$、$P_{2}$，眼睛在另一侧透过玻璃砖看两个大头针，使 $P_{2}$ 把 $P_{1}$ 挡住，这样就可以确定入射光线和入射点 $O_{1}$。在眼睛这一侧，插上大头针 $P_{3}$，使它把 $P_{1}$、$P_{2}$ 都挡住，再插上大头针 $P_{4}$，使它把 $P_{1}$、$P_{2}$、$P_{3}$ 都挡住，这样就可以确定出射光线和出射点 $O_{2}$\n\n\tC．实验时入射角 $\\theta_{1}$ 应尽量小一些，以减小实验误差\n（2）为探究介质折射率与光的频率的关系，分别用一束红光和一束绿光从同一点入射到空气与玻璃的分界面．保持相同的入射角，根据实验结果作出光路图，并标记红光和绿光，如图 [2024安徽11b]所示．此实验初步表明：对于同一种介质，折射率与光的频率有关。频率大，折射率 ______ （填“大”或“小”）\n（3）为探究折射率与介质材料的关系，用同一束微光分别入射玻璃砖和某透明介质，如图 [2024安徽11c]、[2024安徽11d]所示。保持相同的入射角 $\\alpha_{1}$，测得折射角分别为 $\\alpha_{2}$、$\\alpha_{3}$（$\\alpha_{2} < \\alpha_{3}$），则玻璃和该介质的折射率大小关系为 $n_{\\text{玻璃}}$ ______ $n_{\\text{介质}}$（填“$>$”或“$<$”）。此实验初步表明：对于一定频率的光，折射率与介质材料有关。\n\n![物理配图](assets/2024/physics/安徽/11a.png)\n\n![物理配图](assets/2024/physics/安徽/11b.jpg) ![物理配图](assets/2024/physics/安徽/11c.jpg) ![物理配图](assets/2024/physics/安徽/11d.jpg)",
+      "figures": [
+        "assets/2024/physics/安徽/11a.png",
+        "assets/2024/physics/安徽/11b.jpg",
+        "assets/2024/physics/安徽/11c.jpg",
+        "assets/2024/physics/安徽/11d.jpg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）B\n（2）大\n（3）$>$",
+        "sub_answers": [
+          "B",
+          "大",
+          "$>$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）A．在白纸上画出一条直线 a 作为界面，把长方体玻璃砖放在白纸上，使它的一个长边与 a 对齐。用直尺或者三角板轻靠在玻璃砖的另一长边，按住直尺或三角板不动，将玻璃砖取下，画出直线 $a'$ 代表玻璃砖的另一边，而不能用笔在白纸上沿着玻璃砖上边和下边分别画出直线 a 和 $a'$，故 A 错误；\n\nB．在玻璃砖一侧插上大头针 $P_{1}$、$P_{2}$，眼睛在另一侧透过玻璃砖看两个大头针，使 $P_{2}$ 把 $P_{1}$ 挡住，这样就可以确定入射光线和入射点 $O_{1}$。在眼睛这一侧，插上大头针 $P_{3}$，使它把 $P_{1}$、$P_{2}$ 都挡住，再插上大头针 $P_{4}$，使它把 $P_{1}$、$P_{2}$、$P_{3}$ 都挡住，这样就可以确定出射光线和出射点 $O_{2}$，故 B 正确；\n\nC．实验时入射角 $\\theta_{1}$ 应尽量大一些，但也不能太大（接近 $90^{\\circ}$），以减小实验误差，故 C 错误。\n\n故选 B。\n\n（2）由图乙可知，入射角相同，绿光的折射角小于红光的折射角，根据光的折射定律\n\n$n = \\frac{\\sin\\alpha}{\\sin\\beta}$\n\n可知绿光的折射率大于红光的折射率，又因为绿光的频率大于红光的频率，所以频率大，折射率大。\n\n（3）根据折射定律可知，玻璃的折射率为\n\n$n_{\\text{玻璃}} = \\frac{\\sin\\alpha_{1}}{\\sin\\alpha_{2}}$\n\n该介质的折射率为\n\n$n_{\\text{介质}} = \\frac{\\sin\\alpha_{1}}{\\sin\\alpha_{3}}$\n\n其中 $\\alpha_{2} < \\alpha_{3}$，所以 $n_{\\text{玻璃}} > n_{\\text{介质}}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q12",
+      "number": 12,
+      "section": "单选题",
+      "type": "fill_blank",
+      "score": 10,
+      "difficulty": 950,
+      "topics": [
+        "电路",
+        "电路实验"
+      ],
+      "stem_md": "某实验小组要将电流表 G（铭牌标示：$I_{g} = 500 \\,\\mu\\mathrm{A}$，$R_{g} = 800 \\,\\Omega$）改装成量程为 $1 \\,\\mathrm{V}$ 和 $3 \\,\\mathrm{V}$ 的电压表，并用标准电压表对其进行校准。选用合适的电源、滑动变阻器、电阻箱、开关和标准电压表等实验器材，按图 [2024安徽12a]所示连接电路，其中虚线框内为改装电路。\n\n（1）开关 $S_{1}$ 闭合前，滑片 P 应移动到 ______ （填“M”或“N”）端。\n（2）根据要求和已知信息，电阻箱 $R_{1}$ 的阻值已调至 $1200 \\,\\Omega$，则 $R_{2}$ 的阻值应调至 ______ $\\,\\Omega$。\n（3）当单刀双掷开关 $S_{2}$ 与 a 连接时，电流表 G 和标准电压表 V 的示数分别为 $I$、$U$，则电流表 G 的内阻可表示为 ______ 。（结果用 $U$、$I$、$R_{1}$、$R_{2}$ 表示）\n（4）校准电表时，发现改装后电压表的读数始终比标准电压表的读数偏大，经排查发现电流表 G 内阻的真实值与铭牌标示值有偏差，则只要 ______ 即可。（填正确答案标号）\n\n\tA．增大电阻箱 $R_{1}$ 的阻值\n\n\tB．减小电阻箱 $R_{2}$ 的阻值\n\n\tC．将滑动变阻器的滑片 P 向 M 端滑动\n（5）校准完成后，开关 $S_{2}$ 与 b 连接，电流表 G 的示数如图 [2024安徽12b]所示，此示数对应的改装电压表读数为 ______ $\\,\\mathrm{V}$。（保留 2 位有效数字）\n\n![物理配图](assets/2024/physics/安徽/12a.jpg) ![物理配图](assets/2024/physics/安徽/12b.jpg)",
+      "figures": [
+        "assets/2024/physics/安徽/12a.jpg",
+        "assets/2024/physics/安徽/12b.jpg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）M\n（2）4000\n（3）$R_{g} = \\frac{U}{I} - R_{1} - R_{2}$\n（4）A\n（5）0.86",
+        "sub_answers": [
+          "M",
+          "4000",
+          "$R_{g} = \\frac{U}{I} - R_{1} - R_{2}$",
+          "A",
+          "0.86"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由图可知，该滑动变阻器采用分压式接法，为了保护电路，在开关 $S_{1}$ 闭合前，滑片 P 应移到 M 端；\n\n（2）当开关 $S_{2}$ 接 b 时，电压表量程为 $1 \\,\\mathrm{V}$，根据欧姆定律\n\n$U_{1} = I_{g}(R_{g} + R_{1})$\n\n当开关 $S_{2}$ 接 a 时，电压表量程为 $3 \\,\\mathrm{V}$，根据欧姆定律\n\n$U_{2} = I_{g}(R_{g} + R_{1} + R_{2})$\n\n其中 $R_{1} = 1200 \\,\\Omega$\n\n联立解得 $R_{2} = 4000 \\,\\Omega$\n\n（3）当开关 $S_{2}$ 接 a 时，根据欧姆定律 $U = I(R_{g} + R_{1} + R_{2})$\n\n可得电流表 G 的内阻可表示为 $R_{g} = \\frac{U}{I} - R_{1} - R_{2}$\n\n（4）校准电表时，发现改装后电压表的读数始终比标准电压表的读数偏大，可知电流表 G 内阻的真实值小于铭牌标示值，根据闭合电路的欧姆定律可以增大两电阻箱的阻值。\n\n故选 A。\n\n（5）根据闭合电路欧姆定律 $U_{V} = I_{A}(R_{g} + R_{1}) = 430 \\times 10^{-6} \\times (800 + 1200) \\,\\mathrm{V} = 0.86 \\,\\mathrm{V}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 0,
+      "difficulty": 750,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "某人驾驶汽车，从北京到哈尔滨，在哈尔滨发现汽车的某个轮胎内气体的压强有所下降（假设轮胎内气体的体积不变，且没有漏气，可视为理想气体）。于是在哈尔滨给该轮胎充入压强与大气压相同的空气，使其内部气体的压强恢复到出发时的压强（假设充气过程中，轮胎内气体的温度与环境相同，且保持不变）。已知该轮胎内气体的体积 $V_{0} = 30 \\,\\mathrm{L}$，从北京出发时，该轮胎气体的温度 $t_{1} = -3^{\\circ}C$，压强 $p_{1} = 2.7 \\times 10^{5} \\,\\mathrm{Pa}$。哈尔滨的环境温度 $t_{2} = -23^{\\circ}C$，大气压强 $p_{0}$ 取 $1.0 \\times 10^{5} \\,\\mathrm{Pa}$。求：\n\n（1）在哈尔滨时，充气前该轮胎气体压强的大小。\n（2）充进该轮胎的空气体积。",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$2.5 \\times 10^{5} \\,\\mathrm{Pa}$\n（2）$6 \\,\\mathrm{L}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由查理定律可得\n\n$\\frac{p_{1}}{T_{1}} = \\frac{p_{2}}{T_{2}}$\n\n其中 $p_{1} = 2.7 \\times 10^{5} \\,\\mathrm{Pa}$，$T_{1} = 273 - 3\\ \\,\\mathrm{K} = 270 \\,\\mathrm{K}$，$T_{2} = 273 - 23\\ \\,\\mathrm{K} = 250 \\,\\mathrm{K}$\n\n代入数据解得，在哈尔滨时，充气前该轮胎气体压强的大小为\n\n$p_{2} = 2.5 \\times 10^{5} \\,\\mathrm{Pa}$\n\n（2）由玻意耳定律 $p_{2}V_{0} + p_{0}V = p_{1}V_{0}$\n\n代入数据解得，充进该轮胎的空气体积为 $V = 6 \\,\\mathrm{L}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 14,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图所示，一实验小车静止在光滑水平面上，其上表面有粗糙水平轨道与光滑四分之一圆弧轨道。圆弧轨道与水平轨道相切于圆弧轨道最低点，一物块静止于小车最左端，一小球用不可伸长的轻质细线悬挂于 O 点正下方，并轻靠在物块右侧。现将细线拉直到水平位置时，静止释放小球，小球运动到最低点时与物块发生弹性碰撞。碰撞后，物块沿着的轨道运动，已知细线长 $L = 1.25 \\,\\mathrm{m}$。小球质量 $m = 0.20 \\,\\mathrm{kg}$。物块、小车质量均为 $M = 0.30 \\,\\mathrm{kg}$。小车上的水平轨道长 $s = 1.0 \\,\\mathrm{m}$。圆弧轨道半径 $R = 0.15 \\,\\mathrm{m}$。小球、物块均可视为质点。不计空气阻力，重力加速度 $g$ 取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$。\n\n（1）求小球运动到最低点与物块碰撞前所受拉力的大小；\n（2）求小球与物块碰撞后的瞬间，物块速度的大小；\n（3）为使物块能进入圆弧轨道，且在上升阶段不脱离小车，求物块与水平轨道间的动摩擦因数 $\\mu$ 的取值范围。\n\n![物理配图](assets/2024/physics/安徽/14.png)",
+      "figures": [
+        "assets/2024/physics/安徽/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$6 \\,\\mathrm{N}$\n（2）$4 \\,\\mathrm{m}/\\mathrm{s}$\n（3）$0.25 \\leqslant \\mu < 0.4$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）对小球摆动到最低点的过程中，由动能定理\n\n$mgL = \\frac{1}{2}mv_{0}^{2} - 0$\n\n解得 $v_{0} = 5 \\,\\mathrm{m}/\\mathrm{s}$\n\n在最低点，对小球由牛顿第二定律\n\n$F_{T} - mg = m\\frac{v_{0}^{2}}{L}$\n\n解得，小球运动到最低点与物块碰撞前所受拉力的大小为 $F_{T} = 6 \\,\\mathrm{N}$\n\n（2）小球与物块碰撞过程中，由动量守恒定律和机械能守恒定律\n\n$mv_{0} = mv_{1} + Mv_{2}$\n\n$\\frac{1}{2}mv_{0}^{2} = \\frac{1}{2}mv_{1}^{2} + \\frac{1}{2}Mv_{2}^{2}$\n\n解得小球与物块碰撞后的瞬间，物块速度的大小为\n\n$v_{2} = \\frac{2m}{m + M}v_{0} = 4 \\,\\mathrm{m}/\\mathrm{s}$\n\n（3）若物块恰好运动到圆弧轨道的最低点，此时两者共速，则对物块与小车整体由水平方向动量守恒\n\n$Mv_{2} = 2Mv_{3}$\n\n由能量守恒定律\n\n$\\frac{1}{2}Mv_{2}^{2} = \\frac{1}{2} \\times 2Mv_{3}^{2} + \\mu_{1}Mgs$\n\n解得 $\\mu_{1} = 0.4$\n\n若物块恰好运动到与圆弧圆心等高的位置，此时两者共速，则对物块与小车整体由水平方向动量守恒\n\n$Mv_{2} = 2Mv_{4}$\n\n由能量守恒定律\n\n$\\frac{1}{2}Mv_{2}^{2} = \\frac{1}{2} \\times 2Mv_{4}^{2} + \\mu_{2}Mgs + MgR$\n\n解得 $\\mu_{2} = 0.25$\n\n综上所述物块与水平轨道间的动摩擦因数 $\\mu$ 的取值范围为 $0.25 \\leqslant \\mu < 0.4$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-安徽-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 18,
+      "difficulty": 350,
+      "topics": [
+        "电磁感应",
+        "电磁感应中的匀变速"
+      ],
+      "stem_md": "如图所示，一“U”型金属导轨固定在竖直平面内，一电阻不计，质量为 $m$ 的金属棒 ab 垂直于导轨，并静置于绝缘固定支架上。边长为 $L$ 的正方形 cdef 区域内，存在垂直于纸面向外的匀强磁场。支架上方的导轨间，存在竖直向下的匀强磁场。两磁场的磁感应强度大小 $B$ 随时间的变化关系均为 $B = kt$（SI），$k$ 为常数（$k > 0$）。支架上方的导轨足够长，两边导轨单位长度的电阻均为 $r$，下方导轨的总电阻为 $R$。$t = 0$ 时，对 ab 施加竖直向上的拉力，恰使其向上做加速度大小为 $a$ 的匀加速直线运动，整个运动过程中 ab 与两边导轨接触良好。已知 ab 与导轨间动摩擦因数为 $\\mu$，重力加速度大小为 $g$。不计空气阻力，两磁场互不影响。\n\n（1）求通过面积 $S_{cdef}$ 的磁通量大小随时间 $t$ 变化的关系式，以及感应电动势的大小，并写出 ab 中电流的方向；\n（2）求 ab 所受安培力的大小随时间 $t$ 变化的关系式；\n（3）求经过多长时间，对 ab 所施加的拉力达到最大值，并求此最大值。\n\n![物理配图](assets/2024/physics/安徽/15.png)",
+      "figures": [
+        "assets/2024/physics/安徽/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$kL^{2}t$，$kL^{2}$，从 a 流向 b\n（2）$F_{\\text{安}} = \\frac{k^{2}L^{3}t}{R + art^{2}}$\n（3）$\\frac{\\mu k^{2}L^{3}}{2\\sqrt{Rar}} + m(g + a)$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）通过面积 $S_{cdef}$ 的磁通量大小随时间 $t$ 变化的关系式为\n\n$\\Phi = BS = kL^{2}t$\n\n根据法拉第电磁感应定律得\n\n$E = n\\frac{\\Delta\\Phi}{\\Delta t} = \\frac{\\Delta B \\cdot S}{\\Delta t} = kL^{2}$\n\n由楞次定律可知 ab 中的电流从 a 流向 b。\n\n（2）根据左手定则可知 ab 受到的安培力方向垂直导轨面向里，大小为 $F_{\\text{安}} = BIL$\n\n其中 $B = kt$\n\n设金属棒向上运动的位移为 $x$，则根据运动学公式 $x = \\frac{1}{2}at^{2}$\n\n所以导轨上方的电阻为 $R' = 2xr$\n\n由闭合电路欧姆定律得 $I = \\frac{E}{R + 2xr}$\n\n联立得 ab 所受安培力的大小随时间 $t$ 变化的关系式为\n\n$F_{\\text{安}} = \\frac{k^{2}L^{3}t}{R + art^{2}}$\n\n（3）由题知 $t = 0$ 时，对 ab 施加竖直向上的拉力，恰使其向上做加速度大小为 $a$ 的匀加速直线运动，则对 ab 受力分析由牛顿第二定律\n\n$F - mg - \\mu F_{\\text{安}} = ma$\n\n其中 $F_{\\text{安}} = \\frac{k^{2}L^{3}t}{R + art^{2}}$\n\n联立可得\n\n$F = \\frac{\\mu k^{2}L^{3}t}{R + art^{2}} + m(g + a) = \\frac{\\mu k^{2}L^{3}}{\\frac{R}{t} + art} + m(g + a)$\n\n根据均值不等式可知，当 $\\frac{R}{t} = art$ 时，$F$ 有最大值，故解得 $t = \\sqrt{\\frac{R}{ar}}$\n\n$F$ 的最大值为 $F_{m} = \\frac{\\mu k^{2}L^{3}}{2\\sqrt{Rar}} + m(g + a)$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

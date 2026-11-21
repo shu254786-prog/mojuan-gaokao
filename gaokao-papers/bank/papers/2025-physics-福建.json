@@ -1,0 +1,728 @@
+{
+  "id": "2025-physics-福建",
+  "year": 2025,
+  "subject": "物理",
+  "region": "福建卷",
+  "region_key": "福建",
+  "format_tier": "structured_latex",
+  "question_count": 16,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2025-physics-福建-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "力物体的平衡",
+        "三力平衡"
+      ],
+      "stem_md": "“风动石”是福建省著名的自然景观，如图所示。无风时，“风动石”在重力和底部巨石作用力 $F_{1}$ 的作用下静止不动。若“风动石”受到一水平方向的风力作用时仍保持静止，此时底部巨石对其作用力为 $F_{2}$，则（  ）\n\n![物理配图](assets/2025/physics/福建/01.jpg)",
+      "figures": [
+        "assets/2025/physics/福建/01.jpg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$F_{1}$ 的大小比 $F_{2}$ 的小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$F_{1}$ 的大小比 $F_{2}$ 的大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$F_{1}$ 与 $F_{2}$ 大小相等",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$F_{1}$ 与 $F_{2}$ 方向相同",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "无风时，地面对风动石的作用力方向竖直向上，与重力平衡，大小为 $F_{1} = mg$。\n\n![物理配图](assets/2025/physics/福建/01_an.png)\n\n当受到一个水平风力时，地面对风动石的作用力与竖直向下的重力及水平方向的风力 $F$，三力平衡。\n\n根据平衡条件可知，地面对风动石的作用力大小为\n\n$F_{2} = \\sqrt{F^{2} + (mg)^{2}}$\n\n故 $F_{2}$ 大于 $F_{1}$。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/福建/01_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "在图 [2025福建02a]所示电路中，理想变压器原、副线圈匝数比 $4:1$，电阻 $R_{1}$ 的阻值为 $R_{2}$ 的 2 倍，电压表为理想电压表。若原线圈输入如图 [2025福建02b]所示的正弦交流电，则（  ）\n\n![物理配图](assets/2025/physics/福建/02a.png) ![物理配图](assets/2025/physics/福建/02b.png)",
+      "figures": [
+        "assets/2025/physics/福建/02a.png",
+        "assets/2025/physics/福建/02b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "交流电周期为 $2.25 \\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "电压表示数为 $12 \\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "流经副线圈的电流是流经 $R_{1}$ 的 2 倍",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "变压器的输入、输出功率之比为 $4:1$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由图可知，交流电的周期为 $0.02 \\,\\mathrm{s}$，故 A 错误；\n\nB．根据图 b 可知，输入电压最大值 $U_{m} = 48\\sqrt{2} \\,\\mathrm{V}$，则输入电压有效值为 $U_{1} = \\frac{U_{m}}{\\sqrt{2}} = 48 \\,\\mathrm{V}$，根据变压比可知，副线圈电压即电压表示数为 $U_{2} = \\frac{n_{2}}{n_{1}}U_{1} = 12 \\,\\mathrm{V}$，故 B 正确；\n\nC．$R_{1}$ 的阻值为 $R_{2}$ 的 2 倍，根据并联规律可知，两电阻的电压相同，根据欧姆定律可知，流经 $R_{1}$ 和 $R_{2}$ 的电流之比为 $1:2$，副线圈干路电流等于流经两电阻的电流之和，则副线圈干路的电流为 $R_{1}$ 电流的 3 倍，故 C 错误；\n\nD．根据变压器的原理可知，原副线圈功率相同，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "磁场",
+        "磁场的叠加"
+      ],
+      "stem_md": "如图，两根长直细导线 L$_{1}$、L$_{2}$ 平行放置，其所在平面上有 M、O、N 三点，O 为线段 MN 的中点，L$_{1}$、L$_{2}$ 分别处于线段 OM、ON 的中垂线上。当 L$_{1}$、L$_{2}$ 通有大小相等、方向相反的电流时，M、O 点的磁感应强度大小分别为 $B_{1}$、$B_{2}$。现保持 L$_{1}$ 的电流不变，撤去 L$_{2}$ 的电流，此时 N 点的磁感应强度大小为（  ）\n\n![物理配图](assets/2025/physics/福建/03.svg)",
+      "figures": [
+        "assets/2025/physics/福建/03.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{B_{2}}{2} - B_{1}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$B_{2} - \\frac{B_{1}}{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{1}{2}(B_{2} - B_{1})$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$B_{2} - B_{1}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据安培定则，两导线在 O 点处产生的磁感应强度方向相同大小相等，则单个导线在 O 点处产生的磁感应强度大小为 $B_{0} = \\frac{B_{2}}{2}$。\n\n根据对称性，两导线在 N 处的磁感应强度大小应该与 M 点一样，为 $B_{1}$。\n\n根据对称性，L$_{2}$ 在 N 点处产生的磁感应强度为 $B_{0} = \\frac{B_{2}}{2}$。\n\n由于 L$_{2}$ 在 N 点处产生的磁感应强度大于 L$_{1}$ 在 N 点处产生的磁感应强度，且方向相反，将 L$_{2}$ 撤去，N 点的磁感应强度为 $\\frac{B_{2}}{2} - B_{1}$。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "带电粒子的圆周运动"
+      ],
+      "stem_md": "角分辨光电子能谱仪是现代科学研究的先进仪器，其核心装置中有两个同心半球极板。垂直半球底面且过球心 O 的截面如图所示。极板间存在一径向电场，其等势线为一系列以 O 为圆心的半圆。电子 a 以初动能 $E_{k}$，从入口 M 点垂直半球底面入射，从 N 点射出，电子 b 也从 M 点垂直半球底面入射，经 P 点后从 Q 点射出。两电子的运动轨迹如图所示，已知电子 a 轨迹为一以 O 为圆心的半圆，与 OP 交于 H 点，H、P 两点间的电势差为 $U$，OM = $r$，NQ = 2HP，电子电荷量大小为 $e$，重力不计。则（  ）\n\n![物理配图](assets/2025/physics/福建/04.svg)",
+      "figures": [
+        "assets/2025/physics/福建/04.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "P 点的电场强度 $E = \\frac{2E_{k}}{er}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "电子 a 在 H 点受到的电场力大小为 $\\frac{E_{k}}{r}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电子 b 在 P 点动能小于在 Q 点动能",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "电子 b 从 M 点运动到 Q 点的过程中，克服电场力所做的功小于 $2eU$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．a 粒子入射动能为 $E_{k}$，根据动能的表达式有 $E_{k} = \\frac{1}{2}mv_{a}^{2}$，粒子恰好做圆周运动，则 $F_{\\text{电}} = eE = \\frac{mv_{a}^{2}}{r}$，联立解得 $E = \\frac{2E_{k}}{er}$，$F_{\\text{电}} = \\frac{2E_{k}}{r}$，故 AB 错误；\n\nC．已知 $|NQ| = 2|HP|$，因为 HN 在同一等势线上，且沿电场方向电势降低，则 Q 点电势小于 P 点，电子在电势低处电势能大，则 b 粒子在 Q 点电势能大，根据能量守恒可知，b 粒子在 Q 点动能较小，故 C 错误；\n\nD．由电场线密度分布情况可知，沿径向向外电场强度减小，则 HP 之间平均电场强度大小大于 NQ 之间的平均电场强度大小，根据 $U = \\overline{E}d$，则 $U_{NQ} < 2U_{HP}$，则 b 粒子全程的克服电场力做功 $W = eU_{NQ} < 2eU_{HP} = 2eU$，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q05",
+      "number": 5,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "向心加速度向心力"
+      ],
+      "stem_md": "在 2025 年央视春晚上，人形机器人表演了一个精彩的扭秧歌、转手绢节目。如图，机器人转动手绢，手绢绕其中心点 $O$ 在一竖直面内匀速转动，$O$ 点在空间中保持不动，$P$、$Q$ 是固定在手绢上可视为质点的两个小饰物，与 $O$ 点的距离分别为 $d$、$\\sqrt{3}d$，则手绢转动过程（  ）\n\n![物理配图](assets/2025/physics/福建/05.svg)",
+      "figures": [
+        "assets/2025/physics/福建/05.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$Q$ 的线速度大小是 $P$ 的 $\\sqrt{3}$ 倍",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$Q$ 的角速度大小是 $P$ 的 $\\sqrt{3}$ 倍",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$P$ 的加速度大小是 $Q$ 的 $\\sqrt{3}$ 倍",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$P$ 点所受合外力方向始终指向 $O$ 点",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "B．手绢做匀速圆周运动，由图可知 P、Q 属于同轴传动模型，故角速度相等，即角速度之比为 $1:1$，B 错误；\n\nA．由 $v = \\omega r$ 可知，P、Q 线速度之比\n\n$v_{P}:v_{Q} = r_{OP}:r_{OQ} = 1:\\sqrt{3}$\n\n得 A 正确；\n\nC．由 $a = \\omega^{2}r$ 可知，P、Q 向心加速度之比\n\n$a_{P}:a_{Q} = r_{OP}:r_{OQ} = 1:\\sqrt{3}$\n\n得 C 错误；\n\nD．做匀速圆周运动的物体，其合外力等于向心力，故合力总是指向圆心 O，D 正确。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q06",
+      "number": 6,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "原子和原子核",
+        "核聚变"
+      ],
+      "stem_md": "2025 年，我国“人造太阳”实现了等离子体原子核温度超 1 亿度的突破。在 1 亿度的高温条件下“人造太阳”内可发生如下核反应：\\ce{^{2}_{1}H + ^{3}_{1}H -> ^{4}_{2}He + ^{1}_{0}n} $+ 17.5 \\,\\mathrm{MeV}$，若动量大小相等，方向相反的氘核与氚核正碰后发生核反应，反应产生的 \\ce{^{4}_{2}He} 与 \\ce{^{1}_{0}n} 的总动能近似等于核反应释放的全部能量，则（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "该反应有质量亏损",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "该反应为核裂变反应",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "\\ce{^{1}_{0}n} 获得的动能约为 $14 \\,\\mathrm{MeV}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "\\ce{^{4}_{2}He} 获得的动能约为 $14 \\,\\mathrm{MeV}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．核反应过程中质量数守恒，有质量亏损，A 正确；\n\nB．该反应是核聚变反应，B 错误；\n\nCD．在真空中，该反应动量守恒，由于相撞前氘核与氚核动量大小相等，方向相反，系统总动量为零。故反应后氦核与中子的动量也大小相等，方向相反。\n\n由 $E_{\\mathrm{k}} = \\frac{p^{2}}{2m}$ 得反应粒子获得的动能之比为 $E_{\\mathrm{k,He}}:E_{\\mathrm{k,n}} = m_{n}:m_{\\mathrm{He}} = 1:4$。\n\n而两个粒子获得的总动能为 $17.5 \\,\\mathrm{MeV}$，故 \\ce{^{1}_{0}n} 获得的动能 $E_{\\mathrm{k,n}} = \\frac{4}{5} \\times 17.5 \\,\\mathrm{MeV} = 14 \\,\\mathrm{MeV}$，\\ce{^{4}_{2}He} 获得的动能 $E_{\\mathrm{k,He}} = \\frac{1}{5} \\times 17.5 \\,\\mathrm{MeV} = 3.5 \\,\\mathrm{MeV}$。故 C 正确，D 错误。\n\n故选 AC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q07",
+      "number": 7,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在复合场中的运动"
+      ],
+      "stem_md": "如图，真空中存在一水平向右的匀强电场，同时存在一水平且垂直纸面向里的匀强磁场。一质量为 $m$、电量为 $q$（$q > 0$）的带电微粒从 M 点以初速度 $v$ 入射，沿着 MN 做匀速直线运动。微粒到 N 点时撤去磁场，一段时间后微粒运动到 P 点。已知 M、N、P 三点处于同一竖直平面内，MN 与水平方向呈 $45^\\circ$，N 点与 P 等高，重力加速度为 $g$，则（  ）\n\n![物理配图](assets/2025/physics/福建/07.png)",
+      "figures": [
+        "assets/2025/physics/福建/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "电场强度大小为 $\\frac{\\sqrt{2}mg}{q}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "磁感应强度大小为 $\\frac{\\sqrt{2}mg}{qv}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "NP 两点的电势差为 $\\frac{2mv^{2}}{q}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "从 N 点运动到 P 的过程中，微粒到直线 NP 的最大距离为 $\\frac{v^{2}}{8g}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB、带电体在复合场中能沿着 MN 做匀速直线运动，可知粒子受力情况如图所示。\n\n![物理配图](assets/2025/physics/福建/07_an1.png)\n\n由受力平衡可知\n\n$mg = qE$，$qvB = \\sqrt{2}mg$\n\n解得电场强度 $E = \\frac{mg}{q}$，磁感应强度 $B = \\frac{\\sqrt{2}mg}{qv}$，故 A 错误，B 正确。\n\n![物理配图](assets/2025/physics/福建/07_an2.png)\n\nC、在 N 点撤去磁场后，粒子受力方向与运动方向垂直，做类平抛运动，如图所示。且加速度\n\n$a = \\frac{F_{\\text{合}}}{m} = \\sqrt{2}g$\n\n粒子到达 P 点时，位移偏转角为 $45^\\circ$，故在 P 点，速度角的正切值\n\n$\\tan\\theta = 2\\tan 45^\\circ = 2$\n\n所以粒子在 P 点的速度 $v_{P} = \\sqrt{v_{x}^{2} + v_{y}^{2}} = \\sqrt{5}v$\n\nN 到 P 过程，由动能定理，有\n\n$qU = \\frac{1}{2}mv_{P}^{2} - \\frac{1}{2}mv^{2}$\n\n解得 NP 两点间的电势差 $U = \\frac{2mv^{2}}{q}$，C 正确；\n\nD、将粒子在 N 点的速度沿水平方向和竖直方向进行分解，可知粒子在竖直方向做竖直上抛运动，且\n\n$v_{N_{y}} = v\\cos 45^\\circ = \\frac{\\sqrt{2}}{2}v$\n\n故粒子能向上运动的最大距离 $h = \\frac{v_{N_{y}}^{2}}{2g} = \\frac{v^{2}}{4g}$，D 错误；\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/福建/07_an1.png",
+        "assets/2025/physics/福建/07_an2.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 350,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图，物块 A、B 用轻弹簧连接并放置于水平传送带上，传送带以 $1 \\,\\mathrm{m}/\\mathrm{s}$ 的恒定速率顺时针转动。$t = 0$ 时，A 的速度大小为 $2 \\,\\mathrm{m}/\\mathrm{s}$，方向水平向右，B 的速度为 0，弹簧处于原长，$t = t_{1}$ 时（$t_{1}$ 为未知量），A 第一次与传送带共速，弹簧弹性势能 $0.75 \\,\\mathrm{J}$。已知 A、B 可视为质点，质量分别为 $1 \\,\\mathrm{kg}$、$2 \\,\\mathrm{kg}$，与传送带的动摩擦因数为 0.5、0.25；A 与传送带相对滑动时会留下痕迹，重力加速度大小取 $g = 10 \\,\\mathrm{m}/\\mathrm{s}^2$，A、B 始终在传送带上，弹簧始终在弹性限度内，则（  ）\n\n![物理配图](assets/2025/physics/福建/08.png)",
+      "figures": [
+        "assets/2025/physics/福建/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在 $t = \\frac{t_{0}}{2}$ 时，A 的加速度大小比 B 的小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$t = t_{1}$ 时，B 的速度大小为 $0.5 \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$t = t_{1}$ 时，弹簧的压缩量为 $0.2 \\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$0 \\sim t_{1}$ 过程中，A 在传送带上留下的划痕长度小于 $0.05 \\,\\mathrm{m}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．根据题意可知传送带对 AB 的滑动摩擦力大小相等都为\n\n$f = 0.5 \\times 1 \\times 10 \\,\\mathrm{N} = 0.25 \\times 2 \\times 10 \\,\\mathrm{N} = 5 \\,\\mathrm{N}$\n\n初始时 A 向右减速，B 向右加速，故可知在 A 与传送带第一次共速前，AB 整体所受合外力为零，系统动量守恒有 $m_{A}v_{0} = m_{A}v + m_{B}v_{B}$，$v = 1 \\,\\mathrm{m}/\\mathrm{s}$。\n\n代入数值解得 $t = t_{1}$ 时，B 的速度为 $v_{B} = 0.5 \\,\\mathrm{m}/\\mathrm{s}$。\n\n在 A 与传送带第一次共速前，对任意时刻对 AB 根据牛顿第二定律有\n\n$f + F_{\\text{弹}} = m_{A}a_{A}$，$f + F_{\\text{弹}} = m_{B}a_{B}$\n\n由于 $m_{A} < m_{B}$，故可知 $a_{A} > a_{B}$，故 A 错误，B 正确；\n\nC．在 $t_{1}$ 时间内，设 AB 向右的位移分别为 $x_{A}$，$x_{B}$，由功能关系有\n\n$-fx_{A} + fx_{B} + \\frac{1}{2}m_{A}v_{0}^{2} = \\frac{1}{2}m_{A}v^{2} + \\frac{1}{2}m_{B}v_{B}^{2} + E_{\\mathrm{p}}$\n\n解得 $x_{A} - x_{B} = 0.1 \\,\\mathrm{m}$，故弹簧的压缩量为 $\\Delta x = x_{A} - x_{B} = 0.1 \\,\\mathrm{m}$，故 C 错误；\n\nD．A 与传送带的相对位移为 $x_{\\text{相}A} = x_{A} - vt_{0}$，B 与传送带的相对为 $x_{\\text{相}B} = vt_{1} - x_{B}$，故可得 $x_{\\text{相}A} + x_{\\text{相}B} = x_{A} - x_{B} = 0.1 \\,\\mathrm{m}$。\n\n![物理配图](assets/2025/physics/福建/08_an.png)\n\n由于 $0 \\sim t_{1}$ 时间内 A 向右做加速度逐渐增大的减速运动，B 向右做加速度逐渐增大的加速运动，且满足 $a_{A} = 2a_{B}$，作出 AB 的 $v-t$ 图像。\n\n可知 $x_{\\text{相}A}$ 等于图形 MNA 的面积，$x_{\\text{相}B}$ 等于图形 NOBA 的面积，故可得 $x_{\\text{相}A} < x_{\\text{相}B}$，结合 $x_{\\text{相}A} + x_{\\text{相}B} = 0.1 \\,\\mathrm{m}$，可知 $x_{\\text{相}A} < 0.05 \\,\\mathrm{m}$，故 D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/福建/08_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q09",
+      "number": 9,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "某智能洗衣机液位控制原理如图所示。洗衣缸中的水将一定质量的空气封闭在与底部相连的细管中，洗衣机通过压力传感器感知管中空气压强，从而控制水位。假设细管粗细均匀，进排水过程管中空气为理想气体，温度不变。某次排水过程中，管中封闭空气的压强为 $p_{1}$ 时，空气柱长度为 $L$；当封闭空气的压强为 $p_{2}$ 时，空气柱长度为  ______ ，排水过程管中空气对外  ______ 。（填“做正功”，“做负功”，“不做功”）\n\n![物理配图](assets/2025/physics/福建/09.svg)",
+      "figures": [
+        "assets/2025/physics/福建/09.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "",
+        "sub_answers": [
+          "$\\frac{p_{1}}{p_{2}}L$",
+          "做正功"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设细管的截面积为 $S$，根据玻意耳定律有\n\n$p_{1}L_{1}S = p_{2}L_{2}S$\n\n可得 $L_{2} = \\frac{p_{1}}{p_{2}}L_{1}$\n\n根据题意当洗衣机内的水位下降时，空气柱长度变长，故内部气体对外界做正功。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q10",
+      "number": 10,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "机械波",
+        "波长频率波速"
+      ],
+      "stem_md": "沙蝎能灵敏地感知外界的振动信号，可通过沙子传来的波定位波源位置。一沙蝎先后感知到波源某次振动产生的沿直线传来的纵波和横波，该纵波和横波频率相同，传播速度大小分别为 $v_{1}$ 和 $v_{2}$，且 $v_{1}$ 大于 $v_{2}$，则纵波波长  ______ （填“大于”“小于”或“等于”）横波波长。若沙蝎感知到纵波和横波的时间差为 $\\Delta t$，则沙蝎与波源的距离为  ______ 。",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "",
+        "sub_answers": [
+          "大于",
+          "$\\frac{v_{1}v_{2}\\Delta t}{v_{1} - v_{2}}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据公式 $v = \\lambda f$，由于纵波速度大于横波速度，频率相同，故可知纵波波长大于横波波长；\n\n设波源与蝎子的距离为 $s$，根据题意可知 $\\frac{s}{v_{2}} - \\frac{s}{v_{1}} = \\Delta t$\n\n解得 $s = \\frac{v_{1}v_{2}\\Delta t}{v_{1} - v_{2}}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q11",
+      "number": 11,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电场",
+        "带电粒子的平衡"
+      ],
+      "stem_md": "如图，M、N、P 是竖直平面内一直角三角形的三个顶点，M、N 在同一水平线上，$\\angle$PMN = $30^\\circ$。M、N 点分别固定有电荷量为 $Q_{1}$、$Q_{2}$ 的正点电荷。若一带电小球置于 P 点时，处于受力平衡状态，则 $Q_{1}$ 与 $Q_{2}$ 的比值为  ______ ，除 P 点外，线段 MP 上  ______ （填“存在”或“不存在”）该带电小球受力平衡的其他点。\n\n![物理配图](assets/2025/physics/福建/11.svg)",
+      "figures": [
+        "assets/2025/physics/福建/11.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "",
+        "sub_answers": [
+          "$\\sqrt{3}:1$",
+          "不存在"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据几何关系设 $PQ_{2} = r$，$PQ_{1} = \\sqrt{3}r$，对检验电荷进行受力分析，可得\n\n$\\frac{F_{PQ_{1}}}{F_{PQ_{2}}} = \\tan 30^\\circ$\n\n其中 $F_{PQ_{1}} = \\frac{kqQ_{1}}{(\\sqrt{3}r)^{2}}$，$F_{PQ_{2}} = \\frac{kqQ_{2}}{r^{2}}$\n\n联立解得 $Q_{1}:Q_{2} = \\sqrt{3}:1$\n\n![物理配图](assets/2025/physics/福建/11_an.png)\n\n如图所示，根据平衡条件可知检验电荷受到的重力和两点电荷对其的库仑力组成一个封闭的三角形，若在 $PQ_{1}$ 连线上存在其它点能让同一检验电荷维持平衡状态，此时点电荷 $Q_{1}$ 对检验电荷的库仑力 $F_{PQ1}$ 变大，根据三角形法则可知此时点电荷 $Q_{2}$ 对检验电荷的库仑力必然增大；由于此时检验电荷与点电荷 $Q_{2}$ 间的距离在增大，库仑力在减小，故矛盾，假设不成立，故在 $PQ_{1}$ 连线上不存在其它点能让同一检验电荷维持平衡状态。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/福建/11_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 650,
+      "topics": [
+        "光学",
+        "光的折射"
+      ],
+      "stem_md": "某实验小组探究糖水折射率 $n$ 随浓度 $\\eta$ 的变化规律。主要装置包括激光器和长方体玻璃缸，玻璃缸正面内侧刻有水平、竖直标尺，如图 [2025福建12a]所示。实验操作过程如下：\n\n（1）调配一定浓度的糖水，注入水平放置的玻璃缸中。\n（2）打开激光器，让激光紧贴玻璃缸正面内侧以一定入射角从空气折射入糖水。\n（3）调整激光器，使入射点 O 处于竖直刻度尺的正后方，光路如图 [2025福建12b]所示，其中 A 点是入射光线与玻璃缸上边沿所在平面的交点，B 点是折射光线与玻璃缸底部的交点，A、B 点到法线的距离分别为 $L_{1}$、$L_{2}$，到液面的距离分别为 $h_{1}$、$h_{2}$。测得 $L_{1}$、$L_{2}$、$h_{1}$、$h_{2}$ 的值，并利用表达式 $n =$  ______ （用 $L_{1}$、$L_{2}$、$h_{1}$、$h_{2}$ 表示）求出糖水折射率。\n（4）改变缸内糖水浓度，进行多次实验，将实验数据填入下表。\n\n<table class=\"exam-table\"><tr><th>浓度 $\\eta$/\\%</th><th>11.8</th><th>21.1</th><th>32.0</th><th>39.1</th><th>51.1</th></tr><tr><td>折射率 $n$</td><td>1.34</td><td>1.36</td><td>1.38</td><td>1.40</td><td>1.42</td></tr></table>\n\n（5）在图 [2025福建12c]给出的坐标纸上补上浓度 $\\eta = 32\\%$ 的数据点。分析图中数据点，可知糖水折射率随浓度近似线性变化，绘制出“$n-\\eta$”图线\\_\\_\\_\\_\\_\\_\\_\\_。\n（6）由所绘图线可知，糖水浓度每增加 $10.0\\%$，折射率增大  ______ 。（结果保留 2 位有效数字）\n\n![物理配图](assets/2025/physics/福建/12a.png) ![物理配图](assets/2025/physics/福建/12b.png)\n\n![物理配图](assets/2025/physics/福建/12c.png)",
+      "figures": [
+        "assets/2025/physics/福建/12c.png",
+        "assets/2025/physics/福建/12a.png",
+        "assets/2025/physics/福建/12b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{L_{1}\\sqrt{L_{2}^{2} + h_{2}^{2}}}{L_{2}\\sqrt{L_{1}^{2} + h_{1}^{2}}}$\n（2）补上（32\\%，1.38）数据点后拟合的“$n-\\eta$”图线如图\n（3）0.020",
+        "sub_answers": [
+          "$\\frac{L_{1}\\sqrt{L_{2}^{2} + h_{2}^{2}}}{L_{2}\\sqrt{L_{1}^{2} + h_{1}^{2}}}$",
+          "0.020"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）设入射角为 $i$，折射角为 $r$，根据几何关系有\n\n$\\sin i = \\frac{L_{1}}{\\sqrt{L_{1}^{2} + h_{1}^{2}}}$，$\\sin r = \\frac{L_{2}}{\\sqrt{L_{2}^{2} + h_{2}^{2}}}$\n\n根据折射定律 $n = \\frac{\\sin i}{\\sin r}$\n\n可得糖水的折射率为 $n = \\frac{L_{1}\\sqrt{L_{2}^{2} + h_{2}^{2}}}{L_{2}\\sqrt{L_{1}^{2} + h_{1}^{2}}}$\n\n（5）将浓度 $\\eta = 32\\%$ 的数据点为（32\\%，1.38）补在图上并绘制拟合直线，“$n-\\eta$”图线如图所示\n\n![物理配图](assets/2025/physics/福建/12_an.png)\n\n（6）由图线可知，图线斜率为 0.20，即浓度每增加 $10.0\\%$，折射率增大 0.020。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/福建/12_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q13",
+      "number": 13,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "电路实验"
+      ],
+      "stem_md": "某实验小组基于“等效替代法”设计了如图 [2025福建13a]所示的电路用于电阻测量。使用的器材有：电源 $E$（电动势 $3 \\,\\mathrm{V}$），电流表 A（量程 $30 \\,\\mathrm{mA}$），定值电阻 $R_{1}$、$R_{2}$、$R_{3}$（阻值均为 $100 \\,\\Omega$），定值电阻 $R_{4}$（阻值 $200 \\,\\Omega$），滑动变阻器 $R_{5}$（最大阻值 $200 \\,\\Omega$，额定电流 $1.5 \\,\\mathrm{A}$），带标尺的滑动变阻器 $R_{6}$（最大阻值 $100 \\,\\Omega$，额定电流 $1.5 \\,\\mathrm{A}$），选择开关 S$_{1}$，单刀开关 S$_{2}$，待测电阻 $R_{x}$（阻值小于 $400 \\,\\Omega$），导线若干。\n\n（1）按照图 [2025福建13a]，将图 [2025福建13b]中的实物连线补充完整\\_\\_\\_\\_\\_\\_\\_\\_；\n（2）将鳄鱼夹 a、b 短接，滑动变阻器 $R_{6}$ 的滑片移至最右端刻度处，S$_{1}$ 打在位置 1。接通 S$_{2}$，调节滑动变阻器 $R_{5}$，电流表指针指在图 [2025福建13c]所示的位置，记录电流表示数 $I =$  ______  $\\,\\mathrm{mA}$，此示数作为本次实验的电流定标值；\n（3）断开 S$_{1}$、S$_{2}$，用鳄鱼夹 a、b 夹住 $R_{x}$ 两端。接通 S$_{2}$，将 S$_{1}$ 依次打在位置 1、2，发现电流表示数均小于定标值 $I$；S$_{1}$ 打到位置 3 时，电流表示数大于定标值 $I$，由此确定 $R_{x}$ 的阻值范围为  ______  $\\,\\Omega$。（填“0\\sim 100”“100\\sim 200”“200\\sim 300”或“300\\sim 400”）；\n（4）将 S$_{1}$ 重新打在位置  ______ （填“1”“2”或“3”），向左调节滑动变阻器 $R_{6}$ 的滑片，直到电流表指针重新回到定标值位置，此时 $R_{6}$ 的滑片处于 $55 \\,\\Omega$ 刻度处。基于“等效替代法”原理，可得 $R_{x}$ 的阻值为  ______  $\\,\\Omega$；\n（5）以下因素可能影响测量结果的有  ______ 。（多选，填正确答案标号）\n\n\tA．电源存在内阻   B．电流表存在内阻\n\n\tC．滑动变阻器 $R_{6}$ 读数有偏差   D．步骤（4）电流表指针未重新回到定标值位置\n\n![物理配图](assets/2025/physics/福建/13a.png) ![物理配图](assets/2025/physics/福建/13b.png)\n\n![物理配图](assets/2025/physics/福建/13c.png)",
+      "figures": [
+        "assets/2025/physics/福建/13c.png",
+        "assets/2025/physics/福建/13a.png",
+        "assets/2025/physics/福建/13b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）将实物图中电流表负极、滑动变阻器 $R_{5}$ 与 $R_{3}$ 之间用导线连接，如图\n（2）16.0\n（3）$100 \\sim 200$\n（4）2，145\n（5）CD",
+        "sub_answers": [
+          "16.0",
+          "100\\sim 200",
+          "2",
+          "145",
+          "CD"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据图（a）的实验电路图，需要将实物图中电流表负极、滑动变阻器 $R_{5}$ 与和 $R_{3}$ 之间用导线连接，如图所示。\n\n![物理配图](assets/2025/physics/福建/13_an.png)\n\n（2）由图（c）可得，电流表量程 $30 \\,\\mathrm{mA}$，最小刻度为 $1 \\,\\mathrm{mA}$，指针指在 $16 \\,\\mathrm{mA}$ 的位置上，需要估读到下一位，故电流表示数为 $16.0 \\,\\mathrm{mA}$。\n\n（3）通过分析电路及实验步骤，可知“等效替代法”测量原理就是在保证总电路电阻不变，用原电路减小的阻值等效替代待测电阻的阻值，进而测出待测电阻的阻值。\n\n接通 S$_{2}$，开关 S$_{1}$ 接 1，鳄鱼夹 a、b 短接，滑动变阻器 $R_{6}$ 为最大值，电路中 $R_{1}$、$R_{2}$、$R_{3}$、$R_{6}$ 串联（总电阻为 $400 \\,\\Omega$）；开关 S$_{1}$ 接 2，有 $R_{x} + R_{2} + R_{3} + R_{6} > R_{1} + R_{2} + R_{3} + R_{6}$，可得 $R_{x} > R_{1}$；开关 S$_{1}$ 接 3，有 $R_{x} + R_{3} + R_{6} < R_{1} + R_{2} + R_{3} + R_{6}$，可得 $R_{x} < R_{1} + R_{2}$，可得 $R_{x}$ 的阻值范围为 $100 \\sim 200 \\,\\Omega$。\n\n（4）$R_{x}$ 的阻值范围为 $100 \\sim 200 \\,\\Omega$，应将开关 S$_{1}$ 重新打在 2 的位置上。由电路图可知，开关打在 2 的位置时，原电路的阻值减小 $100 \\,\\Omega$；当 $R_{6}$ 向左调节到标尺刻度读数为 $55 \\,\\Omega$ 时，即其接入电路的电阻值减小了 $100 - 55 = 45 \\,\\Omega$ 时，电流表的示数重新回到定标值 $I$，因此待测电阻 $R_{x}$ 等于原电路减小的总电阻，故 $R_{x} = 145 \\,\\Omega$。\n\n（5）AB．由实验原理可知，接入待测电阻 $R_{x}$ 后，通过调节 $R_{6}$ 使电流表指针重新回到定标值位置，来确保原电路减小的电阻值与 $R_{x}$ 相等，因此电源和电流表的内阻对实验没有影响。故 AB 错误；\n\nCD．$R_{6}$ 读数有偏差和电流表指针未重新回到定标值位置都将影响 $R_{x}$ 测量结果的准确性。故 CD 正确。\n\n故选 CD。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/福建/13_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 8,
+      "difficulty": 650,
+      "topics": [
+        "直线运动",
+        "运动图象"
+      ],
+      "stem_md": "在 2024 年巴黎奥运会上，我国游泳运动员创造了男子百米自由泳新的世界纪录。在此次比赛中，运动员起跳后于 $t_{0}$ 时刻入水。入水后的运动过程可近似分为三个阶段：$t_{0} \\sim t_{1}$ 段的前程游为匀减速直线运动，$t_{1} \\sim t_{2}$ 段为匀速游，$t_{2} \\sim t_{3}$ 段的冲刺游为匀加速直线运动；速率 $v$ 随时间 $t$ 变化的图像如图所示。已知 $t_{0} = 0.9 \\,\\mathrm{s}$，$t_{1} = 10.4 \\,\\mathrm{s}$，$t_{2} = 44.4 \\,\\mathrm{s}$，$t_{3} = 46.4 \\,\\mathrm{s}$，求该运动员在\n\n（1）$t_{0} \\sim t_{1}$ 段的平均速度大小；\n（2）$t_{2} \\sim t_{3}$ 段的加速度大小；\n（3）$t_{2} \\sim t_{3}$ 段的位移大小。\n\n![物理配图](assets/2025/physics/福建/14.svg)",
+      "figures": [
+        "assets/2025/physics/福建/14.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$2.4 \\,\\mathrm{m}/\\mathrm{s}$\n（2）$0.1 \\,\\mathrm{m}/\\mathrm{s}^2$\n（3）$4.2 \\,\\mathrm{m}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）$t_{0} \\sim t_{1}$ 段内的平均速度\n\n$\\bar{v} = \\frac{2.8 + 2.0}{2} \\,\\mathrm{m}/\\mathrm{s} = 2.4 \\,\\mathrm{m}/\\mathrm{s}$\n\n（2）$t_{2} \\sim t_{3}$ 段内的加速度\n\n$a = \\frac{2.2 - 2.0}{46.4 - 44.4} \\,\\mathrm{m}/\\mathrm{s}^2 = 0.1 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n（3）$t_{2} \\sim t_{3}$ 段内的位移\n\n$x = \\frac{(2.2 + 2.0) \\times 2}{2} \\,\\mathrm{m} = 4.2 \\,\\mathrm{m}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 12,
+      "difficulty": 450,
+      "topics": [
+        "曲线运动",
+        "竖直平面圆周运动"
+      ],
+      "stem_md": "如图 [2025福建15a]，竖直平面内，一长度大于 $4 \\,\\mathrm{m}$ 的水平轨道 OP 与光滑半圆形轨道 PNM 在 P 点平滑连接，固定在水平地面上。可视为质点的 A、B 两小物块靠在一起，静置于轨道左端。现用一水平向右推力 $F$ 作用在 A 上，使 A、B 向右运动。以 $x$ 表示 A 离开初始位置的位移，$F$ 随 $x$ 变化的图像如图 [2025福建15b]所示。已知 A、B 质量均为 $0.2 \\,\\mathrm{kg}$，A 与水平轨道间的动摩擦因数为 0.25，B 与水平轨道间的摩擦不计，重力加速度大小取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$。\n\n（1）求 A 离开初始位置向右运动 $1 \\,\\mathrm{m}$ 的过程中，推力 $F$ 做的功；\n（2）求 A 的位移为 $1 \\,\\mathrm{m}$ 时，A、B 间的作用力大小；\n（3）若 B 能到达 M 点，求半圆形轨道半径应满足的条件。\n\n![物理配图](assets/2025/physics/福建/15a.png) ![物理配图](assets/2025/physics/福建/15b.png)",
+      "figures": [
+        "assets/2025/physics/福建/15a.png",
+        "assets/2025/physics/福建/15b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$1.5 \\,\\mathrm{J}$\n（2）$0.5 \\,\\mathrm{N}$\n（3）$r \\leq 0.2 \\,\\mathrm{m}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）$F$ 做的功 $W = Fx = 1.5 \\times 1 \\,\\mathrm{J} = 1.5 \\,\\mathrm{J}$\n\n（2）对 AB 整体，根据牛顿第二定律 $F - f = 2ma$\n\n其中 $f = \\mu mg$\n\n对 B 根据牛顿第二定律 $F_{AB} = ma$\n\n联立解得 $F_{AB} = 0.5 \\,\\mathrm{N}$\n\n（3）当 A、B 之间的弹力为零时，A、B 分离，根据（2）分析可知此时 $F' = 0.5 \\,\\mathrm{N}$，此时 $x = 3 \\,\\mathrm{m}$。\n\n过程中，对 A、B 根据动能定理\n\n$W_{F} - \\mu mgx = \\frac{1}{2} \\times 2mv^{2}$\n\n根据题图可得\n\n$W_{F} = 1.5 \\,\\mathrm{J} + \\frac{0.5 + 1.5}{2} \\times 2 \\,\\mathrm{J} = 3.5 \\,\\mathrm{J}$\n\n从 P 点到 M 点，根据动能定理\n\n$-mg \\cdot 2r_{\\max} = \\frac{1}{2}mv_{\\min}^{2} - \\frac{1}{2}mv^{2}$\n\n在 M 点的最小速度满足\n\n$mg = m\\frac{v_{\\min}^{2}}{r_{\\max}}$\n\n联立可得 $r_{\\max} = 0.2 \\,\\mathrm{m}$\n\n即圆弧半径满足的条件 $r \\leq 0.2 \\,\\mathrm{m}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-福建-q16",
+      "number": 16,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "电磁感应",
+        "线圈过有界磁场"
+      ],
+      "stem_md": "水平地面上固定有一倾角为 $30^\\circ$ 的绝缘光滑斜面，其上有两个宽度分别为 $l_{1}$、$l_{2}$ 的条形匀强磁场区域 Ⅰ、Ⅱ，虚线为磁场边界，均与斜面底边平行，两区域磁场的磁感应强度大小相等、方向均垂直斜面向上，示意图如图所示。一质量为 $m$、电阻为 $R$ 的正方形细导线框 abcd 置于区域 Ⅰ 上方的斜面上，cd 边与磁场边界平行。线框由静止开始下滑，依次穿过区域 Ⅰ、区域 Ⅱ。已知 cd 边进入 Ⅰ 到 ab 边离开 Ⅰ 的过程中，线框速度恒为 $v$，cd 边进入区域 Ⅱ 和 ab 边离开区域 Ⅱ 时的速度相同；区域 Ⅰ、Ⅱ 间的无磁场区域宽度大于线框边长，线框各边材料相同、粗细均匀；下滑过程线框形状不变且始终处于斜面内，cd 边始终与磁场边界平行；重力加速度大小为 $g$。求：\n\n（1）初始时 cd 边与 Ⅰ 区域上边界的距离；\n（2）cd 边进入区域 Ⅰ 后瞬间，cd 两端的电势差；\n（3）cd 边进入区域 Ⅱ 和 ab 边离开区域 Ⅱ 的过程中，线框克服安培力做功的平均功率。\n\n![物理配图](assets/2025/physics/福建/16.svg)",
+      "figures": [
+        "assets/2025/physics/福建/16.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{v^{2}}{g}$\n（2）$\\frac{3}{4}\\sqrt{\\frac{mgRv}{2}}$\n（3）若 $l_{2} > l_{1}$，则 $P = \\frac{mgv(l_{1} + l_{2})}{4l_{1}}$；若 $l_{2} < l_{1}$，则 $P = \\frac{mgv(l_{1} + l_{2})}{4l_{2}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）线框在没有进入磁场区域时，根据牛顿第二定律 $mg\\sin\\theta = ma$\n\n根据运动学公式 $v^{2} = 2ad$\n\n联立可得线框释放点 cd 边与 Ⅰ 区域上边缘的距离 $d = \\frac{v^{2}}{g}$\n\n（2）因为 cd 边进入 Ⅰ 区域时速度为 $v$，且直到 ab 边离开 Ⅰ 区域时速度均为 $v$，可知线框的边长与 Ⅰ 区域的长度相等，根据平衡条件有 $mg\\sin\\theta = BIl_{1}$\n\n又 $E = Bl_{1}v$，$I = \\frac{E}{R}$\n\ncd 边两端的电势差 $U = \\frac{3}{4}E$\n\n联立可得 $U = \\frac{3}{4}\\sqrt{\\frac{mgRv}{2}}$\n\n（3）①若 $l_{2} = l_{1}$，则线框在通过区域 Ⅱ 过程中可能一直做减速运动，也可能先减速后匀速，完全离开区域 Ⅱ 时的速度不再恢复为刚进入时的速度，故该情况不符合题意。\n\n②若 $l_{2} > l_{1}$，在线框进入 Ⅰ 区域过程中，根据动量定理\n\n$mg\\sin\\theta \\cdot t_{1} - BIl_{1}t_{1} = 0$\n\n其中 $t_{1} = \\frac{l_{1}}{v}$，$q = It_{1}$，$I = \\frac{Bl_{1}v}{R}$\n\n联立可得 $q = \\frac{mg}{2Bv}$\n\n线框在区域 Ⅱ 运动过程中，根据动量定理\n\n$mg\\sin\\theta \\cdot t_{2} - 2B\\bar{I}l_{1}t_{3} = 0$\n\n根据 $q = \\frac{\\bar{E}}{R} \\cdot t = \\frac{Bl_{1}^{2}}{Rt} \\cdot t = \\frac{Bl_{1}^{2}}{R}$\n\n线框进入磁场过程中电荷量都相等，即 $q = \\bar{I}t_{3}$\n\n联立可得 $t_{2} = \\frac{2l_{1}}{v}$\n\n根据能量守恒定律 $-W_{\\text{安}} + mg\\sin\\theta(l_{2} + l_{1}) = 0$\n\n克服安培力做功的平均功率\n\n$P = \\frac{W_{\\text{安}}}{t_{2}}$\n\n联立可得 $P = \\frac{mgv(l_{1} + l_{2})}{4l_{1}}$\n\n②若 $l_{2} < l_{1}$，同理可得 $q' = \\frac{Bl_{1}l_{2}}{R}$\n\n根据动量定理 $mg\\sin\\theta \\cdot t_{4} - 2B\\bar{I}l_{1}t_{5} = 0$\n\n其中 $q' = \\bar{I}t_{5}$\n\n结合 $q = \\frac{mg}{2Bv}$，$q = \\frac{Bl_{1}^{2}}{R}$\n\n联立可得 $t_{4} = \\frac{2l_{2}}{v}$\n\n根据能量守恒定律 $-W_{\\text{安}}' + mg\\sin\\theta(l_{2} + l_{1}) = 0$\n\n克服安培力做功的平均功率\n\n$P' = \\frac{W_{\\text{安}}'}{t_{4}}$\n\n联立可得 $P' = \\frac{mgv(l_{1} + l_{2})}{4l_{2}}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

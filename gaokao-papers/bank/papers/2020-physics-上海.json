@@ -1,0 +1,918 @@
+{
+  "id": "2020-physics-上海",
+  "year": 2020,
+  "subject": "物理",
+  "region": "上海卷",
+  "region_key": "上海",
+  "format_tier": "structured_latex",
+  "question_count": 20,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2020-physics-上海-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 880,
+      "topics": [
+        "原子和原子核",
+        "天然放射性"
+      ],
+      "stem_md": "$\\beta$ 射线是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "原子核放射出的电子流",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "原子核外电子电离形成的电子流",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "原子核放射出的电磁波",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "原子核外电子受激发产生的电磁波",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 890,
+      "topics": [
+        "气体性质",
+        "分子动理论"
+      ],
+      "stem_md": "悬浮在水中的花粉颗粒所做的布朗运动表明（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "分子间有斥力",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "花粉颗粒有热运动",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "分子间有引力",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "液体分子有热运动",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 870,
+      "topics": [
+        "曲线运动",
+        "向心加速度向心力"
+      ],
+      "stem_md": "一电动车在水平面内以恒定速率沿图示轨迹行驶，在 a、b、c 位置所受向心力大小分别为 $F_{a}$、$F_{b}$、$F_{c}$，则（  ）\n\n![物理配图](assets/2020/physics/上海/03.svg)",
+      "figures": [
+        "assets/2020/physics/上海/03.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$F_{c} > F_{a} > F_{b}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$F_{a} < F_{c} < F_{b}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$F_{c} < F_{a} < F_{b}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$F_{a} > F_{c} > F_{b}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由图可以看出三个位置的曲率半径的关系为：\n\n$r_{c} < r_{a} < r_{b}$\n\n由向心力公式 $F = m\\frac{v^{2}}{r}$ 可得：$F_{c} > F_{a} > F_{b}$。\n\n正确选项为 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 770,
+      "topics": [
+        "磁场",
+        "电流的磁场"
+      ],
+      "stem_md": "如图，在通电螺线管轴线上的 a、b、c 三点和外侧的 d 点中，磁感应强度最大的是（  ）\n\n![物理配图](assets/2020/physics/上海/04.svg)",
+      "figures": [
+        "assets/2020/physics/上海/04.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "a 点",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "b 点",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "c 点",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "d 点",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 980,
+      "topics": [
+        "机械波",
+        "波长频率波速"
+      ],
+      "stem_md": "一列横波的波长为 $1.4\\,\\mathrm{m}$，在传播路径上某一质点从最大位移回到平衡位置的最短时间为 $0.14\\,\\mathrm{s}$，该波的波速为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$0.4\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$2.5\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$5\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$10\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由“质点从最大位移回到平衡位置的最短时间为 $0.14\\,\\mathrm{s}$”可知，波的周期应满足 $\\frac{T}{4} = 0.14\\,\\mathrm{s}$，即 $T = 0.56\\,\\mathrm{s}$；\n\n由 $v = \\frac{\\lambda}{T}$ 可求得波速 $v = \\frac{1.4}{0.56}\\,\\mathrm{m}/\\mathrm{s} = 2.5\\,\\mathrm{m}/\\mathrm{s}$。\n\n正确选项为 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 951,
+      "topics": [
+        "直线运动",
+        "自由落体运动"
+      ],
+      "stem_md": "钥匙从距水面 $20\\,\\mathrm{m}$ 高的桥侧自由下落，一竹筏前端在钥匙下落瞬间恰位于其正下方，该竹筏以 $2\\,\\mathrm{m}/\\mathrm{s}$ 的速度匀速前进。若钥匙落入竹筏，则竹筏长度至少为（不考虑竹筏宽度，$g$ 取 $10\\,\\mathrm{m}/\\mathrm{s}^2$）（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$2\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$4\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$6\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$8\\,\\mathrm{m}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "钥匙自由下落的时间 $t = \\sqrt{\\frac{2h}{g}} = \\sqrt{\\frac{2 \\times 20}{10}}\\,\\mathrm{s} = 2\\,\\mathrm{s}$。\n\n在这段时间内竹筏运动的距离 $s = vt = 2 \\times 2\\,\\mathrm{m} = 4\\,\\mathrm{m}$。\n\n正确选项为 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 453,
+      "topics": [
+        "磁场",
+        "左手定则"
+      ],
+      "stem_md": "如图，接有直流电源 $E$ 的光滑金属导轨水平放置，电阻不可忽略的导体棒 ab 静置于导轨上。电键 S 闭合后，导体棒将（  ）\n\n![物理配图](assets/2020/physics/上海/07.svg)",
+      "figures": [
+        "assets/2020/physics/上海/07.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "向左移动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "向右移动",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "上下弹跳",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "不动",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "会不会产生电磁感应（自感）现象？如果产生感应电流的话如何进一步分析导体棒的受力？用楞次定律推广形式得出棒向左运动是否合理？\n\n感应电流应该不会大于原有的电流，只考虑左右两段导体中反向电流的相互斥力，选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 880,
+      "topics": [
+        "磁场",
+        "磁通量"
+      ],
+      "stem_md": "如图，线框 abcd 与通有恒定电流的长直导线 MN 共面。线框从位置 Ⅰ 按以下四种方式运动，磁通量变化的绝对值最大的是（  ）\n\n![物理配图](assets/2020/physics/上海/08.svg)",
+      "figures": [
+        "assets/2020/physics/上海/08.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "平移到位置 Ⅱ",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "以 bc 为轴转动到位置 Ⅱ",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "以 MN 为轴转动到位置 Ⅲ",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "平移到以 MN 为对称轴的位置 Ⅲ",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设位置 Ⅰ 的磁通量为 $\\Phi_{\\text{I}}$，根据对称性位置 Ⅲ 的磁通量为 $-\\Phi_{\\text{I}}$，由于位置 Ⅱ 距离通电导线较远，因此此位置的磁通量 $\\Phi_{\\text{II}} < \\Phi_{\\text{I}}$。\n\n选项 A 的情况中，$\\Delta\\Phi = \\Phi_{\\text{I}} - \\Phi_{\\text{II}}$；\n\n选项 B 的情况中，$\\Delta\\Phi = \\Phi_{\\text{I}} + \\Phi_{\\text{II}}$；\n\n选项 C 的情况中，$\\Delta\\Phi = \\Phi_{\\text{I}} - \\Phi_{\\text{I}} = 0$；\n\n选项 D 的情况中，$\\Delta\\Phi = \\Phi_{\\text{I}} + \\Phi_{\\text{I}}$；\n\n正确选项为 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q09",
+      "number": 9,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 920,
+      "topics": [
+        "光学",
+        "光的衍射"
+      ],
+      "stem_md": "观察光的衍射现象的实验装置如图所示，用红色激光照射时得到某衍射条纹，为减小条纹宽度，可（  ）\n\n![物理配图](assets/2020/physics/上海/09.svg)",
+      "figures": [
+        "assets/2020/physics/上海/09.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "减小单缝宽度",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "改用绿色激光照射",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "增大单缝与光屏的距离",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "减小激光器与单缝的距离",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q10",
+      "number": 10,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 820,
+      "topics": [
+        "直线运动",
+        "匀变速直线运动"
+      ],
+      "stem_md": "在一次碰撞实验中，质量均为 $1.2 \\times 10^{5}\\,\\mathrm{kg}$ 的两火车头从长为 $6.4\\,\\mathrm{km}$ 的直轨道两端同时由静止起动，以 $0.25\\,\\mathrm{m}/\\mathrm{s}^2$ 的加速度相向运动，它们相撞前瞬间的总动能为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "0",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$9.6 \\times 10^{7}\\,\\mathrm{J}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$1.92 \\times 10^{8}\\,\\mathrm{J}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$3.84 \\times 10^{8}\\,\\mathrm{J}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设相撞时火车头的速度为 $v$，由对称性和匀加速直线运动的规律可得：\n\n$\\frac{s}{2} = \\frac{v^{2}}{2a}$，解得：$v = 40\\,\\mathrm{m}/\\mathrm{s}$。\n\n总动能 $E_{k} = 2 \\times \\frac{1}{2}mv^{2} = 1.2 \\times 10^{5} \\times 40^{2}\\,\\mathrm{J} = 1.92 \\times 10^{8}\\,\\mathrm{J}$。\n\n正确选项为 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q11",
+      "number": 11,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 840,
+      "topics": [
+        "电场",
+        "电场叠加"
+      ],
+      "stem_md": "以下各图中的 p 表示质子，e 表示电子，距离 $D > d$，其中 O 点电场强度最大的粒子排布方式为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2020/physics/上海/11a.svg"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2020/physics/上海/11b.svg"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2020/physics/上海/11c.svg"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2020/physics/上海/11d.svg"
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q12",
+      "number": 12,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 408,
+      "topics": [
+        "气体性质",
+        "气体图象"
+      ],
+      "stem_md": "如图，一玻璃管上端开口下端封闭，上管内径小于下管内径，管内用水银封住一定质量的气体。在大气压保持不变的情况下，气体温度缓慢升高，水银全部进入上管且未溢出，此过程中气体压强 $p$ 随体积 $V$ 的变化关系可能是（  ）\n\n![物理配图](assets/2020/physics/上海/12.svg)",
+      "figures": [
+        "assets/2020/physics/上海/12.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2020/physics/上海/12a.svg"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2020/physics/上海/12b.svg"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2020/physics/上海/12c.svg"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2020/physics/上海/12d.svg"
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "首先，气体温度升高，导致体积增大，液柱的高度增大，气体的压强也随之增大。关键在于证明 $\\frac{\\Delta p}{\\Delta V}$ 为常量。\n\n设上、下管的截面积分别为 $S_{1}$、$S_{2}$，气柱长度增加了 $\\Delta h$，则：\n\n气柱的体积增量 $\\Delta V = \\Delta h \\cdot S_{2}$；\n\n液柱的高度增量为 $\\frac{\\Delta h S_{2}}{S_{1}} - \\Delta h$，压强增量为 $\\Delta p = \\rho g\\Delta h\\left(\\frac{S_{2}}{S_{1}} - 1\\right)$；\n\n$\\frac{\\Delta p}{\\Delta V} = \\frac{\\rho g\\Delta h\\left(\\frac{S_{2}}{S_{1}} - 1\\right)}{\\Delta h S_{2}} = \\rho g\\left(\\frac{1}{S_{1}} - \\frac{1}{S_{2}}\\right)$ 为常量，因此图线应为直线。\n\n当液柱全部进入上管之后，高度保持不变，气体做等压变化，图线为水平直线。\n\n正确选项为 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q13",
+      "number": 13,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 710,
+      "topics": [
+        "气体性质",
+        "用单分子油膜估测分子大小"
+      ],
+      "stem_md": "在“用单分子油膜估测分子的大小”实验中，把痱子粉均匀撒在水面有利于形成 ______ ，便于记录实验数据。将一滴体积为 $V$ 的油酸酒精溶液滴入水中，油膜充分散开后面积为 $S$，若该溶液体积浓度为 $\\eta$，则估测出油酸分子的直径为 ______ 。",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "清晰的边界轮廓，$\\frac{\\eta V}{S}$",
+        "sub_answers": [
+          "清晰的边界轮廓",
+          "$\\frac{\\eta V}{S}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q14",
+      "number": 14,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 790,
+      "topics": [
+        "电路",
+        "输出功率极值"
+      ],
+      "stem_md": "如图 [2020上海14a] 所示电路中，$E$ 为电源，$R$ 是定值电阻，闭合电键 S，移动滑动变阻器 $R'$ 滑片 P，根据电压表和电流表的示数，绘制 $U-I$ 图线如图 [2020上海14b] 所示，滑片 P 移至最右端时对应图中 a 点。由图可知，$R'$ 的最大阻值为 ______ $\\,\\Omega$，在滑片 P 移动过程中 $R'$ 消耗的最大功率为 ______ $\\,\\mathrm{W}$。\n\n![物理配图](assets/2020/physics/上海/14a.svg) ![物理配图](assets/2020/physics/上海/14b.svg)",
+      "figures": [
+        "assets/2020/physics/上海/14a.svg",
+        "assets/2020/physics/上海/14b.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "10，0.45",
+        "sub_answers": [
+          "10",
+          "0.45"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由 $U-I$ 图像的截距、斜率可得：\n\n$E = 3\\,\\mathrm{V}$，$r_{\\text{等}} = R + r = 5\\,\\Omega$。\n\n当电压表读数最大时，$R'$ 的阻值也最大，有：\n\n$U = \\frac{R'}{R' + R + r}E$\n\n$2 = \\frac{R'}{R' + 5} \\times 3$\n\n解得：$R' = 10\\,\\Omega$。\n\n（2）当 $R' = R + r = 5\\,\\Omega$ 时，消耗的功率最大，为\n\n$P_{m} = \\frac{E^{2}}{4(R + r)} = \\frac{3^{2}}{4 \\times 5}\\,\\mathrm{W} = 0.45\\,\\mathrm{W}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q15",
+      "number": 15,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 551,
+      "topics": [
+        "运动和力",
+        "牛顿定律局限性"
+      ],
+      "stem_md": "质量 $m = 1.67 \\times 10^{-27}\\,\\mathrm{kg}$ 的质子在高能粒子加速器中被加速到动能 $E_{k} = 1.6 \\times 10^{-10}\\,\\mathrm{J}$。某同学根据 $E_{k} = \\frac{1}{2}mv^{2}$ 计算出质子速度大小 $v = 4.38 \\times 10^{8}\\,\\mathrm{m}/\\mathrm{s}$（计算无误）。此速度值的不合理之处是 ______ ，这说明 ______ 。",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "值超过了光速，牛顿运动定律只能适用于宏观、低速的情况",
+        "sub_answers": [
+          "值超过了光速",
+          "牛顿运动定律只能适用于宏观、低速的情况"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q16",
+      "number": 16,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 680,
+      "topics": [
+        "机械振动",
+        "单摆"
+      ],
+      "stem_md": "质量为 $m$、摆长为 $L$ 的单摆，拉开一定角度后在 $t_{1}$ 时刻由静止释放，在 $t_{1}$、$t_{2}$、$t_{3}$（$t_{1} < t_{2} < t_{3}$）时刻，摆球的动能 $E_{k}$ 与势能 $E_{p}$ 第一次出现如图所示关系，其中 $E_{0}$ 为单摆的总机械能。此单摆的周期为 ______ ，摆球在最低点的向心加速度为 ______ 。（取摆球在最低点时的位置为零势能点）\n\n![物理配图](assets/2020/physics/上海/16a.svg) ![物理配图](assets/2020/physics/上海/16b.svg) ![物理配图](assets/2020/physics/上海/16c.svg)",
+      "figures": [
+        "assets/2020/physics/上海/16a.svg",
+        "assets/2020/physics/上海/16b.svg",
+        "assets/2020/physics/上海/16c.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "4(t_3−t_1)，2E_0/(mL)",
+        "sub_answers": [
+          "$4(t_{3} - t_{1})$",
+          "$\\frac{2E_{0}}{mL}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）摆球在最高点重力势能最大，在最低点动能最大，从最高点到最低点用时 $\\frac{T}{4} = t_{3} - t_{1}$，因此周期 $T = 4(t_{3} - t_{1})$。\n\n（2）由 $a = \\frac{v^{2}}{L}$ 和 $E_{0} = \\frac{1}{2}mv^{2}$ 可得：$a = \\frac{2E_{0}}{mL}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q17",
+      "number": 17,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 810,
+      "topics": [
+        "原子和原子核",
+        "半衰期"
+      ],
+      "stem_md": "倒入容器中的啤酒会形成大量泡沫。将啤酒倒入量筒，实验结果表明泡沫的破裂与原子核的衰变遵循同样的统计规律，量筒中液面以上泡沫体积 $V$ 随时间 $t$ 变化的关系如图所示。泡沫上表面下降速度随时间 ______ （选填：“增大”、“不变”或“减小”）。假设泡沫均匀分布，量筒中泡沫从 $t = 0$ 开始，经过 1.5 个“半衰期”后剩余的体积约为 ______ $\\,\\mathrm{cm}^3$。\n\n![物理配图](assets/2020/physics/上海/17.svg)",
+      "figures": [
+        "assets/2020/physics/上海/17.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "减小，60.1",
+        "sub_answers": [
+          "减小",
+          "60.1"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）此图线的斜率在减小，即体积的变化率在减小，因此上表面下降速度随时间在减小。\n\n（2）由图可得，体积减小为原来一半的时间、即半衰期为 $200\\,\\mathrm{s}$，则 1.5 个“半衰期”为 $300\\,\\mathrm{s}$，从纵坐标可以得出体积约为 $60.1\\,\\mathrm{cm}^3$。\n\n计算题做法应是 $V = V_{0} \\cdot \\frac{1}{2^{1.5}} = 170 \\times \\frac{\\sqrt{2}}{4}\\,\\mathrm{cm}^3 = 60.10\\,\\mathrm{cm}^3$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q18",
+      "number": 18,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 10,
+      "difficulty": 570,
+      "topics": [
+        "功和能",
+        "DIS研究机械能守恒定律"
+      ],
+      "stem_md": "图 [2020上海18a] 是“用 DIS 研究机械能守恒定律”的实验装置。\n\n（1）图 [2020上海18a] 中定位挡片的作用是 ______ 。\n（2）（多选）在实验中测得 C 点机械能明显偏大的原因可能是\n\n\tA．光电门放在 C 点偏下位置    B．摆锤释放前，摆线处于松弛状态\n\n\tC．摆锤在运动中受到空气阻力的影响    D．摆锤释放时，摆锤释放器在 A 位置上方\n（3）在验证了摆锤运动过程机械能守恒后，某同学测量了摆锤下摆过程中各位置的动能 $E_{k}$，以及相应的摆线与竖直方向的夹角 $\\theta$，得到图 [2020上海18b] 的 $E_{k}-\\theta$ 图线。以最低点 D 为零势能点，由图线可得 $\\theta = 32^{\\circ}$ 时摆锤的重力势能为 ______ $\\,\\mathrm{J}$。若摆锤质量为 $0.0075\\,\\mathrm{kg}$，则此摆的摆长为 ______ $\\,\\mathrm{m}$（摆长精确到小数点后两位）。\n\n![物理配图](assets/2020/physics/上海/18a.svg) ![物理配图](assets/2020/physics/上海/18b.svg)",
+      "figures": [
+        "assets/2020/physics/上海/18a.svg",
+        "assets/2020/physics/上海/18b.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）定性研究在改变摆长时，机械能是否守恒\n（2）AD\n（3）0.0045，0.40",
+        "sub_answers": [
+          "定性研究在改变摆长时，机械能是否守恒",
+          "0.0045",
+          "0.40"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（3）在图线上找到 $32^{\\circ}$ 对应的纵坐标，动能为 $0.0060\\,\\mathrm{J}$，$0^{\\circ}$ 对应的纵坐标对应为机械能 $0.0105\\,\\mathrm{J}$，因此重力势能为 $0.0045\\,\\mathrm{J}$。\n\n设摆长为 $l$，根据机械能守恒定律，释放位置的重力势能等于最低点的动能，则有：\n\n$mgl(1 - \\cos 50^{\\circ}) = 0.0105$\n\n$0.0075 \\times 9.8 \\times l \\times (1 - \\cos 50^{\\circ}) = 0.0105$\n\n$l = 0.40\\,\\mathrm{m}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q19",
+      "number": 19,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 15,
+      "difficulty": 780,
+      "topics": [
+        "电磁感应",
+        "电磁感应能量分析"
+      ],
+      "stem_md": "如图，足够长的光滑水平导轨间距 $L = 0.5\\,\\mathrm{m}$、电阻不计，左端接有一电动势 $E = 3\\,\\mathrm{V}$ 的电源，系统处于竖直向下的匀强磁场中。闭合电键 S 后，质量 $m = 0.1\\,\\mathrm{kg}$、长度等于导轨间距的金属棒 ab 由静止开始运动，回路电流逐渐减小，稳定后棒的感应电动势等于 $E$，回路电流为零。从电键闭合到棒达到稳定运动的过程中电源提供的能量 $E_{S} = 10\\,\\mathrm{J}$，电源、金属棒产生的焦耳热分别为 $Q_{1} = 0.5\\,\\mathrm{J}$、$Q_{2} = 4.5\\,\\mathrm{J}$。\n\n（1）求电源内阻 $r$ 与金属棒电阻 $R$ 的比值；\n（2）求棒稳定运动时的速度 $v$ 和磁感应强度大小 $B$；\n（3）分析说明电键闭合后棒的运动情况及能量转化关系。\n\n![物理配图](assets/2020/physics/上海/19.svg)",
+      "figures": [
+        "assets/2020/physics/上海/19.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$r:R = 1:9$\n（2）$v = 10\\,\\mathrm{m}/\\mathrm{s}$，$B = 0.6\\,\\mathrm{T}$\n（3）棒先做加速度不断减小的加速运动，最后匀速。电池的电能一部分转化为内电路和金属棒的内能，一部分转化为棒的动能。"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）设电路的电流大小为 $I$，电源产生的焦耳热可表示为 $Q_{1} = I^{2}rt$，金属棒产生的焦耳热可表示为 $Q_{2} = I^{2}Rt$，因此：\n\n$r:R = Q_{1}:Q_{2} = 1:9$。\n\n（2）根据能量守恒定律，电源提供的能量一部分变为回路中产生的焦耳热，一部分转化为金属棒的动能，因此有：\n\n$E_{S} = Q_{1} + Q_{2} + \\frac{1}{2}mv^{2}$\n\n$10 = 0.5 + 4.5 + 0.5 \\times 0.1 \\times v^{2}$\n\n$v = 10\\,\\mathrm{m}/\\mathrm{s}$\n\n稳定后棒的感应电动势等于 $E$，即\n\n$E = BLv$\n\n$3 = B \\times 0.5 \\times 10$\n\n$B = 0.6\\,\\mathrm{T}$\n\n（3）电键 S 闭合后，ab 棒受到向右的安培力，产生向右的加速度，棒向右加速运动。根据右手定则，棒中会产生一个向上的感应电动势，与电池电动势方向相反，导致棒中的电流减小，有\n\n$F_{\\text{安}} = BIL = B \\cdot \\frac{E - BLv}{R + r} \\cdot L = ma$\n\n由此式可知，随着 $v$ 的增加，$I$ 减小，$a$ 减小，棒做加速度减小的加速运动。\n\n当 $E = BLv$ 时，$I = 0$，最后棒做匀速直线运动。\n\n此过程中，电池的电能一部分转化为内电路和金属棒的内能，一部分转化为棒的动能。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2020-physics-上海-q20",
+      "number": 20,
+      "section": "单选题",
+      "type": "open_ended",
+      "score": 15,
+      "difficulty": 720,
+      "topics": [
+        "运动和力",
+        "牛顿定律的应用"
+      ],
+      "stem_md": "足够长的斜面与水平面的夹角 $\\theta = 37^{\\circ}$，质量 $m = 2\\,\\mathrm{kg}$ 的物块静止于斜面底端。物块在平行于斜面向上的恒力 $F = 24\\,\\mathrm{N}$ 作用下向上运动，经过 $t = 2\\,\\mathrm{s}$ 后撤去 $F$。物块与斜面间动摩擦因数 $\\mu = 0.25$，最大静摩擦力与滑动摩擦力近似相等。（$\\sin 37^{\\circ} = 0.6$，$\\cos 37^{\\circ} = 0.8$，$g$ 取 $10\\,\\mathrm{m}/\\mathrm{s}^2$）求：\n\n（1）求物体沿斜面向上运动所需的总时间；\n（2）求上行过程中，撤去 $F$ 前后，物块受到的摩擦力做功之比 $k$；\n（3）在 $s-t$ 坐标中画出减速阶段物块运动的大致图线（设 $t = 0$ 时物块位于出发点 $s = 0$ 处）；\n（4）分析说明为什么物体动能与势能相等的位置仅出现在沿斜面下行过程中；求该位置离斜面底端距离 $L$（取斜面底端所在水平面为零势能面）。",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$3\\,\\mathrm{s}$\n（2）$2:1$\n（3）如图\n（4）$L = 4.8\\,\\mathrm{m}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "![物理配图](assets/2020/physics/上海/20_an1.svg)\n\n（1）向上加速时，受力如图所示。根据牛顿第二定律有：\n\n$F - mg\\sin 37^{\\circ} - \\mu mg\\cos 37^{\\circ} = ma_{1}$\n\n$24 - 20 \\times 0.6 - 0.25 \\times 20 \\times 0.8 = 2a_{1}$\n\n$a_{1} = 4\\,\\mathrm{m}/\\mathrm{s}^2$\n\n$t = 2\\,\\mathrm{s}$ 末的速度 $v = a_{1}t = 4 \\times 2\\,\\mathrm{m}/\\mathrm{s} = 8\\,\\mathrm{m}/\\mathrm{s}$\n\n![物理配图](assets/2020/physics/上海/20_an2.svg)\n\n撤去 $F$ 后，受力如图所示。有\n\n$mg\\sin 37^{\\circ} + \\mu mg\\cos 37^{\\circ} = ma_{2}$\n\n$a_{2} = g\\sin 37^{\\circ} + \\mu g\\cos 37^{\\circ} = (6 + 2)\\,\\mathrm{m}/\\mathrm{s}^2 = 8\\,\\mathrm{m}/\\mathrm{s}^2$\n\n速度降为零所需时间 $t' = \\frac{v}{a_{2}} = \\frac{8}{8}\\,\\mathrm{s} = 1\\,\\mathrm{s}$\n\n物体沿斜面向上运动所需的总时间为：$t + t' = 3\\,\\mathrm{s}$\n\n（2）$s_{1} = \\frac{vt}{2} = \\frac{8 \\times 2}{2}\\,\\mathrm{m} = 8\\,\\mathrm{m}$，$s_{2} = \\frac{vt'}{2} = \\frac{8 \\times 1}{2}\\,\\mathrm{m} = 4\\,\\mathrm{m}$\n\n$W_{f1}:W_{f2} = -fs_{1}:-fs_{2} = s_{1}:s_{2} = 2:1$\n\n（3）如图，匀减速运动的 $s-t$ 图像为一条抛物线。\n\n![物理配图](assets/2020/physics/上海/20_an3.svg)\n\n（4）$0 \\sim 2\\,\\mathrm{s}$ 过程中，动能可以表达 $E_{k} = \\frac{1}{2}mv^{2} = \\frac{1}{2}m(2a_{1}s) = ma_{1}s = 4ms$，重力势能可以表达为 $E_{p} = mgs\\sin 37^{\\circ} = 6ms$，可知 $E_{k} < E_{p}$，即动能一直小于重力势能；\n\n$2 \\sim 3\\,\\mathrm{s}$ 过程中，动能减小，重力势能继续增大，动能依旧小于重力势能。\n\n![物理配图](assets/2020/physics/上海/20_an4.svg)\n\n下滑过程中，受力如图所示。有：\n\n$mg\\sin 37^{\\circ} - \\mu mg\\cos 37^{\\circ} = ma_{3}$\n\n$a_{3} = g\\sin 37^{\\circ} - \\mu g\\cos 37^{\\circ} = (6 - 2)\\,\\mathrm{m}/\\mathrm{s}^2 = 4\\,\\mathrm{m}/\\mathrm{s}^2$\n\n$E_{k} = E_{p}$\n\n$\\frac{1}{2}mv^{2} = mgL\\sin 37^{\\circ}$\n\n$\\frac{1}{2}m\\left[2a_{3}(s_{1} + s_{2} - L)\\right] = mgL\\sin 37^{\\circ}$\n\n$4 \\times (12 - L) = 10 \\times L \\times 0.6$\n\n$L = 4.8\\,\\mathrm{m}$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2020/physics/上海/20_an1.svg",
+        "assets/2020/physics/上海/20_an2.svg",
+        "assets/2020/physics/上海/20_an3.svg",
+        "assets/2020/physics/上海/20_an4.svg"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

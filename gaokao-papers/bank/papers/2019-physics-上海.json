@@ -1,0 +1,922 @@
+{
+  "id": "2019-physics-上海",
+  "year": 2019,
+  "subject": "物理",
+  "region": "上海卷",
+  "region_key": "上海",
+  "format_tier": "structured_latex",
+  "question_count": 20,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2019-physics-上海-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "直线运动",
+        "加速度"
+      ],
+      "stem_md": "以下运动中，物体加速度一定保持不变的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "简谐运动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "匀速圆周运动",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "竖直上抛运动",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "加速直线运动",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 950,
+      "topics": [
+        "原子和原子核",
+        "原子核的组成"
+      ],
+      "stem_md": "原子核内一定存在着（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "质子",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\alpha$ 粒子",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电子",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "光子",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "机械振动",
+        "弹簧振子"
+      ],
+      "stem_md": "弹簧振子做简谐运动，$t = 0$ 时振子经过平衡位置，机械能 $E$ 与时间 $t$ 的关系是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2019/physics/上海/03a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2019/physics/上海/03b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2019/physics/上海/03c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2019/physics/上海/03d.png"
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "光学",
+        "光的衍射"
+      ],
+      "stem_md": "“泊松亮斑”是光的（  ）\n\n![物理配图](assets/2019/physics/上海/04.png)",
+      "figures": [
+        "assets/2019/physics/上海/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "干涉现象，说明光具有波动性",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "衍射现象，说明光具有波动性",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "干涉现象，说明光具有粒子性",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "衍射现象，说明光具有粒子性",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "两容器中装有质量相等、温度相同的同种理想气体，若容积不同，则两容器中气体的（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "分子平均动能相等，压强相等",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "分子平均动能相等，压强不等",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "分子平均动能不等，压强相等",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "分子平均动能不等，压强不等",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "曲线运动",
+        "线速度角速度"
+      ],
+      "stem_md": "在如图所示的传动装置中，内轮 a 和外轮 b 的转轴分别过各自圆心 O、O$'$ 且垂直纸面。轮 a 通过摩擦带动轮 b 做无相对滑动的转动，则两轮（  ）\n\n![物理配图](assets/2019/physics/上海/06.svg)",
+      "figures": [
+        "assets/2019/physics/上海/06.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "转动方向相同，周期相等",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "转动方向相反，周期相等",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "转动方向相同，周期不等",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "转动方向相反，周期不等",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "力物体的平衡",
+        "受力分析"
+      ],
+      "stem_md": "如图，甲虫沿树枝由 A 缓慢上爬到 B 的过程中，树枝对甲虫的作用力（  ）\n\n![物理配图](assets/2019/physics/上海/07.svg)",
+      "figures": [
+        "assets/2019/physics/上海/07.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "一直增大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "一直减小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "保持不变",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "先减小后增大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 558,
+      "topics": [
+        "机械波",
+        "干涉衍射"
+      ],
+      "stem_md": "两波源 Ⅰ、Ⅱ 在水槽中形成的波形如图所示，其中实线为波峰，虚线为波谷，则（  ）\n\n![物理配图](assets/2019/physics/上海/08.svg)",
+      "figures": [
+        "assets/2019/physics/上海/08.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "a 是振动始终加强的点",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "b 是振动始终加强的点",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "a 和 b 都是振动始终加强的点",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "a 和 b 都不是振动始终加强的点",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q09",
+      "number": 9,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "气体图象"
+      ],
+      "stem_md": "一定质量的理想气体，其状态经历 $a\\to b\\to c$ 的变化，$p-T$ 图线如图所示，在该过程中气体体积（  ）\n\n![物理配图](assets/2019/physics/上海/09.svg)",
+      "figures": [
+        "assets/2019/physics/上海/09.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "先不变后增大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "先增大后不变",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "先不变后减小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "先减小后不变",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q10",
+      "number": 10,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电磁感应",
+        "楞次定律"
+      ],
+      "stem_md": "如图，直流电路与导体圆环 a、b 共面，电路由电源 E 和滑动变阻器 R 构成。在滑动变阻器的滑片向上滑动过程中，a、b 中的感应电流方向是（  ）\n\n![物理配图](assets/2019/physics/上海/10.svg)",
+      "figures": [
+        "assets/2019/physics/上海/10.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "a 顺时针，b 顺时针",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "a 逆时针，b 逆时针",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "a 顺时针，b 逆时针",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "a 逆时针，b 顺时针",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q11",
+      "number": 11,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "磁场",
+        "左手定则"
+      ],
+      "stem_md": "如图，在薄金属圆筒表面上通以与其轴线平行、分布均匀的恒定电流时，该圆筒的形变趋势为（  ）\n\n![物理配图](assets/2019/physics/上海/11.svg)",
+      "figures": [
+        "assets/2019/physics/上海/11.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "沿轴线上下压缩",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "沿轴线上下拉伸",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "沿半径向内收缩",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "沿半径向外膨胀",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q12",
+      "number": 12,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "直线运动",
+        "自由落体运动"
+      ],
+      "stem_md": "将演员从高处跳下的视频倒序播放，可实现演员轻松跃上高处的特效。在观众看来，演员上升过程中在低处的高度变化（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "比高处快；加速度向下",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "比高处慢；加速度向下",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "比高处快；加速度向上",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "比高处慢；加速度向上",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q13",
+      "number": 13,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 756,
+      "topics": [
+        "运动和力",
+        "牛顿第二定律"
+      ],
+      "stem_md": "“神舟十号太空授课”的一项内容是测量航天员的“体重”。测量设备以恒定拉力拉动航天员，并同时测量两个物理量：设备提供的拉力和 ______ ；再根据 ______ 就能得出航天员的质量。",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "宇航员的加速度，牛顿第二定律",
+        "sub_answers": [
+          "宇航员的加速度",
+          "牛顿第二定律"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q14",
+      "number": 14,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电场",
+        "电场线"
+      ],
+      "stem_md": "如图电场中，P、Q 两点的电场强度大小 $E_{P} > E_{Q}$，其理由是 ______ ；电势 $\\varphi_{P} > \\varphi_{Q}$，其理由是 ______ 。\n\n![物理配图](assets/2019/physics/上海/14.svg)",
+      "figures": [
+        "assets/2019/physics/上海/14.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "P 点所在位置处的电场线较 Q 点处的密；P、Q 两点位于同一根电场线上，由于沿着电场线方向电势降低，所以 P 点电势高",
+        "sub_answers": [
+          "P 点所在位置处的电场线较 Q 点处的密",
+          "P、Q 两点位于同一根电场线上，由于沿着电场线方向电势降低，所以 P 点电势高"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q15",
+      "number": 15,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "磁场的叠加"
+      ],
+      "stem_md": "已知环形电流在圆心处的磁感应强度大小与其半径成反比，通电直导线在其延长线上的磁感应强度为零。纸面内闭合导线框 a、b 由同心半圆与直线构成，通以大小相同的电流，如图所示。a、b 在其圆心 O$_{a}$、O$_{b}$ 处的磁感应强度的大小 $B_{a}$ ______ $B_{b}$（选填“$>$”“=”或“$<$”），O$_{a}$ 处的磁场方向 ______ 。\n\n![物理配图](assets/2019/physics/上海/15.svg)",
+      "figures": [
+        "assets/2019/physics/上海/15.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "$<$，垂直纸面向上",
+        "sub_answers": [
+          "$<$",
+          "垂直纸面向上"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q16",
+      "number": 16,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "气体的状态参量"
+      ],
+      "stem_md": "如图，硬质塑料瓶灌入水后盖紧瓶盖，在下端开一小孔后水开始流出，且水流逐渐减小，瓶中气体经历的过程可近似视为 ______ 过程；水流停止后，水面与孔之间的高度差为 $h$，瓶中气体的压强为 ______ 。（已知大气压强为 $p_{0}$，水的密度为 $\\rho$，重力加速度 $g$）\n\n![物理配图](assets/2019/physics/上海/16.svg)",
+      "figures": [
+        "assets/2019/physics/上海/16.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "等温；$p_{0} - \\rho gh$",
+        "sub_answers": [
+          "等温",
+          "$p_{0} - \\rho gh$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。\n\n【参考】课本上的第六章 D 压缩气体的应用一节的自主活动：在一个如图所示的扁平塑料饮料瓶靠近底部的四面，用针对称地刺四个小孔，灌入大半瓶水后，比较盖紧瓶盖和打开瓶盖两种情况下所见现象的区别。再从不同方向挤压瓶体，观察所发生的情况，并作出解释。\n\n![物理配图](assets/2019/physics/上海/16_an.jpg)"
+        }
+      ],
+      "solution_figures": [
+        "assets/2019/physics/上海/16_an.jpg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q17",
+      "number": 17,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电路",
+        "动态分析"
+      ],
+      "stem_md": "在如图电路中，电源电动势为 $E$，内阻为 $r$，$R_{0}$ 为定值电阻。当滑动变阻器 R 的滑片向右移动时，电流表 A 的示数如何变化？\n\n分析思路为：①R 接入电路的阻值增大$\\to$②回路总电阻增大$\\to$③总电流 $I$ 减小$\\to$④端电压 $U$ 增大$\\to$⑤流过 $R_{0}$ 的电流 $I_{0}$ 增大$\\to$⑥电流表中的电流 $I_{A}$ 减小\n\n由③推得④的理由是： ______ ；由⑤推得⑥的理由是： ______ 。\n\n![物理配图](assets/2019/physics/上海/17.svg)",
+      "figures": [
+        "assets/2019/physics/上海/17.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "$U = E - Ir$，$I_{A} = I - I_{0}$",
+        "sub_answers": [
+          "$U = E - Ir$",
+          "$I_{A} = I - I_{0}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q18",
+      "number": 18,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 10,
+      "difficulty": 550,
+      "topics": [
+        "机械振动",
+        "单摆测重力加速度"
+      ],
+      "stem_md": "做“用单摆测定重力加速度”的实验，供选择的器材有：\n\nA．$1.2\\,\\mathrm{m}$ 长的细线；B．约 $2\\,\\mathrm{m}$ 长的弹性绳；C．带孔的小铁球；D．带孔的软木球；E．光电门\n\n（1）应选用的摆线是 ______ ，摆球是 ______ （均选填器材前面的字母）。光电门应放在摆球摆动过程中的 ______ 。\n（2）单摆摆动过程中光电门接收到光信号强度 $I$ 随时间 $t$ 的变化如图所示，由此可得单摆周期为 ______ 。\n\n\t\n\n(A) $t_{1}-0$  (B) $t_{2}-t_{1}$  (C) $t_{3}-t_{1}$  (D) $t_{4}-t_{1}$\n（3）某同学利用秒表做此实验后，与用光电门做实验的同学们交流，发现自己测得的重力加速度值明显偏大。该同学在实验中出现的操作失误可能是 ______ 。\n\n![物理配图](assets/2019/physics/上海/18.svg)",
+      "figures": [
+        "assets/2019/physics/上海/18.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）A，C，最低点\n（2）C\n（3）计数次数偏大",
+        "sub_answers": [
+          "A",
+          "C",
+          "最低点",
+          "C",
+          "计数次数偏大"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q19",
+      "number": 19,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 14,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "电磁感应的电量"
+      ],
+      "stem_md": "如图，半径为 $a$ 的金属圆环竖直固定，电阻忽略不计。空间存在与环面垂直的匀强磁场，磁感应强度为 $B$。一质量为 $m$ 的导体棒受到始终向上的拉力作用，以速率 $v$ 向下匀速运动，棒始终与 $y$ 轴垂直，扫过整个环面时与环接触良好。导体棒单位长度电阻值为 $r$，重力加速度为 $g$。求：\n\n（1）导体棒中的感应电流 $I$ 及通过导体棒的总电荷量 $q$；\n（2）导体棒位于 $y > 0$ 处拉力的功率 $P$。\n\n![物理配图](assets/2019/physics/上海/19.svg)",
+      "figures": [
+        "assets/2019/physics/上海/19.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$I = \\frac{Bv}{r}$，$q = \\frac{2Ba}{r}$\n（2）当 $0 < y < 2a$ 时：$P = \\left(mg - \\frac{2B^{2}v\\sqrt{a^{2} - (a - y)^{2}}}{r}\\right)v$；当 $y \\geq 2a$ 时：$P = mgv$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）$I = \\frac{BLv}{R} = \\frac{BLv}{Lr} = \\frac{Bv}{r}$\n\n$q = It = \\frac{Bv}{r}\\cdot\\frac{2a}{v} = \\frac{2Ba}{r}$\n\n（2）当 $0 < y < 2a$ 时：$P = (mg - BIL)v = \\left(mg - B\\cdot\\frac{Bv}{r}\\cdot 2\\sqrt{a^{2} - (a - y)^{2}}\\right)v = \\left(mg - \\frac{2B^{2}v\\sqrt{a^{2} - (a - y)^{2}}}{r}\\right)v$\n\n当 $y \\geq 2a$ 时：$P = mgv$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2019-physics-上海-q20",
+      "number": 20,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 450,
+      "topics": [
+        "功和能",
+        "机械能守恒定律"
+      ],
+      "stem_md": "如图，光滑轨道 abc 固定在竖直平面内，在 c 点与粗糙水平轨道 cd 相切，a、c 与轨道最低点 b 之间的高度差分别为 $H_{1}$ 和 $H_{2}$。一个质量为 $m$ 的小球 A 从 a 处由静止起沿轨道运动，在 b 处与质量也为 $m$ 的静止小滑块 B 相撞后静止，并将动能全部传递给 B。随后 B 沿轨道运动到 d 静止，从 c 运动到 d 的时间为 $t$。重力加速度为 $g$。\n\n（1）求滑块与水平轨道 cd 间的动摩擦因数 $\\mu$；\n（2）可以用 A、B 在轨道 abc 上的运动来类比光电效应。分析说明小球 A、滑块 B 可以类比光电效应中的什么粒子，哪个物理量可以类比极限频率。\n\n![物理配图](assets/2019/physics/上海/20.svg)",
+      "figures": [
+        "assets/2019/physics/上海/20.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\mu = \\frac{\\sqrt{2g(H_{1} - H_{2})}}{gt}$\n（2）光子，光电子，$H_{2}$。光电效应是指当光子入射到金属表面后，金属内表面附近的电子吸收了光子的全部能量后，脱离金属束缚的现象；在此过程中光子提供能量，电子吸收能量。因此（1）中的小球 A 可以类比为光子，滑块 B 可以类比成电子；A 与 B 的碰撞可以类比为电子吸收光子的能量；b、c 之间的高度差 $H_{2}$ 对应的能量差可类比极限频率对应的光子能量。因此 $H_{2}$ 可类比极限频率。"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由 A 球运动到 b 处的机械能为：\n\n$E = mgH_{1}$\n\n然后将这部分能量传递给 B，设 B 球在 c 处的速度为 $v$，则由机械能守恒定律可知，\n\n$mgH_{1} = mgH_{2} + \\frac{1}{2}mv^{2}$\n\n$v = \\sqrt{2g(H_{1} - H_{2})}$\n\n$v = at = \\mu gt$\n\n$\\mu = \\frac{\\sqrt{2g(H_{1} - H_{2})}}{gt}$\n\n（2）光子，光电子，$H_{2}$\n\n光电效应是指当光子入射到金属表面后，金属内表面附近的电子吸收了光子的全部能量后，脱离金属束缚的现象；在此过程中光子提供能量，电子吸收能量。因此（1）中的小球 A 可以类比为光子，滑块 B 可以类比成电子；A 与 B 的碰撞可以类比为电子吸收光子的能量；b、c 之间的高度差 $H_{2}$ 对应的能量差可类比极限频率对应的光子能量。因此 $H_{2}$ 可类比极限频率。\n\n由爱因斯坦光电方程 $E_{k} = h\\nu - W_{0}$ 画出图像：\n\n![物理配图](assets/2019/physics/上海/20_an1.png)\n\n在此题中类似的有：$E_{k} = mgH_{1} - mgH_{2}$\n\n![物理配图](assets/2019/physics/上海/20_an2.png)"
+        }
+      ],
+      "solution_figures": [
+        "assets/2019/physics/上海/20_an1.png",
+        "assets/2019/physics/上海/20_an2.png"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

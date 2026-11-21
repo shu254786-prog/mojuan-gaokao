@@ -1,0 +1,771 @@
+{
+  "id": "2025-math-national_paper_2",
+  "year": 2025,
+  "subject": "数学",
+  "region": "新课标全国Ⅱ卷",
+  "region_key": "national_paper_2",
+  "format_tier": "structured_latex",
+  "question_count": 19,
+  "source": "Gaokao-Math-Problems-Compilation",
+  "questions": [
+    {
+      "qid": "2025-math-national_paper_2-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "样本数据 $2$，$8$，$14$，$16$，$20$ 的平均数为（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$8$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$9$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$12$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$18$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "样本数据 $2$，$8$，$14$，$16$，$20$ 的平均数为\n$\\frac{2+8+14+16+20}{5}=12$.\n故选：C."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知 $z=1+{\\mathrm{i}}$，则 $\\frac{1}{z-1}=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$-{\\mathrm{i}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "${\\mathrm{i}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$-1$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$1$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "因为 $z=1+{\\mathrm{i}}$，所以 $z-1={\\mathrm{i}}$，故\n$\\frac{1}{z-1}=\\frac{1}{{\\mathrm{i}}}=-{\\mathrm{i}}$.\n故选：A."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知集合 $A=\\{-4,0,1,2,8\\}$，$B=\\{x \\mid x^3=x\\}$，则 $A\\cap B=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\{0,1,2\\}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\{1,2,8\\}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\{2,8\\}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\{0,1\\}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由 $x^3=x$ 得\n$x(x-1)(x+1)=0$，\n所以 $B=\\{-1,0,1\\}$. 因此\n$A\\cap B=\\{0,1\\}$.\n故选：D."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "不等式 $\\frac{x-4}{x-1}\\ge 2$ 的解集是（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\{x \\mid -2\\le x\\le 1\\}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\{x \\mid x\\le -2\\}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\{x \\mid -2\\le x<1\\}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\{x \\mid x>1\\}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "原不等式等价于\n$\\frac{x-4}{x-1}-2\\ge 0$，\n即\n$\\frac{-x-2}{x-1}\\ge 0$.\n解得 $-2\\le x<1$. 故选：C."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "在 $\\triangle ABC$ 中，$BC=2$，$AC=1+\\sqrt3$，$AB=\\sqrt6$，则 $A=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$45^\\circ$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$60^\\circ$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$120^\\circ$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$135^\\circ$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由余弦定理，\n\n$$\n\n\\cos A=\\frac{AB^2+AC^2-BC^2}{2AB\\cdot AC}\n=\\frac{6+\\left(1+\\sqrt3\\right)^2-4}{2\\sqrt6\\left(1+\\sqrt3\\right)}\n=\\frac{\\sqrt2}{2}\n\n$$\n\n又 $0^\\circ<A<180^\\circ$，故 $A=45^\\circ$. 故选：A."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "设抛物线 $C:y^2=2px$（$p>0$）的焦点为 $F$，点 $A$ 在 $C$ 上，过 $A$ 作 $C$ 的准线的垂线，垂足为 $B$. 若直线 $BF$ 的方程为 $y=-2x+2$，则 $|AF|=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$3$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$4$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$5$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$6$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由直线 $BF:y=-2x+2$，令 $y=0$，得 $x=1$，所以 $F(1,0)$. 故 $p=2$，抛物线方程为\n$y^2=4x$，\n其准线方程为 $x=-1$.\n\n![题目配图](assets/2025/math/national_paper_2/q6_solution_fig1.png)\n\n因为点 $B$ 在准线 $x=-1$ 上，又点 $B$ 在直线 $BF:y=-2x+2$ 上，所以\n$B(-1,4)$.\n故点 $A$ 的纵坐标为 $4$. 代入 $y^2=4x$，得\n$x_A=4$.\n所以 $A(4,4)$.\n于是\n\n$$\n\n\\lvert AF\\rvert=\\lvert AB\\rvert=x_A+\\frac p2=4+1=5\n\n$$\n\n故选：C."
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/math/national_paper_2/q6_solution_fig1.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "记 $S_n$ 为等差数列 $\\{a_n\\}$ 的前 $n$ 项和，若 $S_3=6$，$S_5=-5$，则 $S_6=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$-20$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$-15$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$-10$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$-5$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设等差数列 $\\{a_n\\}$ 的公差为 $d$，则 $3a_1+3d=6$，$5a_1+10d=-5$.\n解得 $a_1=5$，$d=-3$. 所以\n\n$$\n\nS_6=6a_1+15d=6\\times 5+15\\times(-3)=-15\n\n$$\n\n故选：B."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知 $0<\\alpha<\\pi$，$\\cos \\frac{\\alpha}{2}=\\frac{\\sqrt5}{5}$，则 $\\sin\\left(\\alpha-\\frac{\\pi}{4}\\right)=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{\\sqrt2}{10}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{\\sqrt2}{5}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{3\\sqrt2}{10}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{7\\sqrt2}{10}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由二倍角公式，\n\n$$\n\n\\cos\\alpha=2\\cos^2\\frac{\\alpha}{2}-1\n=2\\cdot\\left(\\frac{\\sqrt5}{5}\\right)^2-1\n=-\\frac35\n\n$$\n\n因为 $0<\\alpha<\\pi$，所以 $\\frac{\\pi}{2}<\\alpha<\\pi$，从而\n$\\sin\\alpha=\\sqrt{1-\\cos^2\\alpha}=\\frac45$.\n于是\n\n$$\n\n\\sin\\left(\\alpha-\\frac{\\pi}{4}\\right)\n=\\sin\\alpha\\cos\\frac{\\pi}{4}-\\cos\\alpha\\sin\\frac{\\pi}{4}\n=\\frac45\\cdot\\frac{\\sqrt2}{2}-\\left(-\\frac35\\right)\\cdot\\frac{\\sqrt2}{2}\n=\\frac{7\\sqrt2}{10}\n\n$$\n\n故选：D."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "记 $S_n$ 为等比数列 $\\{a_n\\}$ 的前 $n$ 项和，$q$ 为 $\\{a_n\\}$ 的公比，$q>0$. 若 $S_3=7$，$a_3=1$，则（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$q=\\frac12$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$a_5=\\frac19$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$S_5=8$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$a_n+S_n=8$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题意，$a_1q^2=1$，$a_1+a_1q+a_1q^2=7$.\n解得 $a_1=4$，$q=\\frac12$（另一组 $q<0$ 舍去），故 A 正确.\n此时 $a_5=a_1q^4=4\\cdot\\left(\\frac12\\right)^4=\\frac14$，故 B 错误.\n又\n\n$$\n\nS_5=\\frac{a_1(1-q^5)}{1-q}\n=\\frac{4\\left(1-\\frac{1}{32}\\right)}{1-\\frac12}\n=\\frac{31}{4}\n\n$$\n\n故 C 错误.\n并且\n$a_n=4\\left(\\frac12\\right)^{n-1}=2^{3-n}$，$S_n=\\frac{4\\left[1-\\left(\\frac12\\right)^n\\right]}{1-\\frac12}=8-2^{3-n}$，\n所以\n$a_n+S_n=2^{3-n}+8-2^{3-n}=8$，\n故 D 正确. 故选：AD."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知 $f(x)$ 是定义在 ${\\mathbb{R}}$ 上的奇函数，且当 $x>0$ 时，$f(x)=(x^2-3){\\mathrm{e}}^x+2$，则（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$f(0)=0$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "当 $x<0$ 时，$f(x)=-(x^2-3){\\mathrm{e}}^{-x}-2$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$f(x)\\ge 2$ 当且仅当 $x\\ge \\sqrt3$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$x=-1$ 是 $f(x)$ 的极大值点",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "ABD",
+        "choices": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A：因为 $f(x)$ 是定义在 ${\\mathbb{R}}$ 上的奇函数，所以 $f(0)=0$，A 正确.\n\nB：当 $x<0$ 时，$-x>0$，故\n\n$$\n\nf(x)=-f(-x)=-\\left[((-x)^2-3){\\mathrm{e}}^{-x}+2\\right]=-(x^2-3){\\mathrm{e}}^{-x}-2\n\n$$\n\nB 正确.\n\nC：由 B，\n\n$$\n\nf(-1)=-(1-3){\\mathrm{e}}-2=2{\\mathrm{e}}-2=2({\\mathrm{e}}-1)>2\n\n$$\n\n故 C 错误.\n\nD：当 $x<0$ 时，\n$f(x)=(3-x^2){\\mathrm{e}}^{-x}-2$，\n于是\n$f'(x)=(x^2-2x-3){\\mathrm{e}}^{-x}$.\n令 $f'(x)=0$，得 $x=-1$ 或 $x=3$（舍去）. 当 $x\\in(-\\infty,-1)$ 时，$f'(x)>0$；当 $x\\in(-1,0)$ 时，$f'(x)<0$. 因此 $x=-1$ 是极大值点，D 正确. 故选：ABD."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q11",
+      "number": 11,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "双曲线 $C:\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$（$a>0$，$b>0$）的左，右焦点分别是 $F_1$，$F_2$，左，右顶点分别为 $A_1$，$A_2$. 以 $F_1F_2$ 为直径的圆与 $C$ 的一条渐近线交于 $M$，$N$ 两点，且 $\\angle NA_1M=\\frac{5\\pi}{6}$，则（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\angle A_1MA_2=\\frac{\\pi}{6}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$|MA_1|=2|MA_2|$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$C$ 的离心率为 $\\sqrt{13}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "当 $a=\\sqrt2$ 时，四边形 $NA_1MA_2$ 的面积为 $8\\sqrt3$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "ACD",
+        "choices": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "不妨设所取渐近线为 $y=\\frac{b}{a}x$，且 $M$ 在第一象限，$N$ 在第三象限.\n\n![题目配图](assets/2025/math/national_paper_2/q11_solution_fig1.png)\n\n由双曲线的中心对称性，四边形 $A_1MA_2N$ 是平行四边形，所以\n\n$$\n\n\\angle A_1MA_2=\\pi-\\angle NA_1M=\\pi-\\frac{5\\pi}{6}=\\frac{\\pi}{6}\n\n$$\n\n故 A 正确.\n\\FigureLayoutDeclare{img/2025/national_paper_2/q11_solution_fig2.png}{5.2cm}{7.002bp 7.002bp 7.002bp 7.002bp}\n\n![题目配图](assets/2025/math/national_paper_2/q11_solution_fig2.png)\n\n设 $O$ 为原点. 因为 $M$ 在以 $F_1F_2$ 为直径的圆上，所以 $|OM|=c$. 由渐近线方程和圆的方程可得 $M$ 的横坐标等于 $a$，故 $|MA_2|=b$. 又在直角三角形 $A_1A_2M$ 中，由 $\\angle A_1MA_2=\\frac{\\pi}{6}$ 得\n$2|MA_2|=\\sqrt3|MA_1|$，\n所以 B 错误.\n由上式和 $|MA_2|=b$，再结合 $|OM|=c$ 可推出\n$c^2=13a^2$，\n故双曲线的离心率\n$e=\\frac{c}{a}=\\sqrt{13}$，\nC 正确.\n当 $a=\\sqrt2$ 时，由 $e=\\sqrt{13}$ 得 $c=\\sqrt{26}$，再由 $c^2=a^2+b^2$ 得\n$\nb=2\\sqrt6\n$\n四边形 $NA_1MA_2$ 为平行四边形，其面积为\n$\n2S_{\\triangle MA_1A_2}=2\\times \\frac12 \\times 2\\sqrt2 \\times 2\\sqrt6=8\\sqrt3\n$，\n故 D 正确. 故选：ACD."
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/math/national_paper_2/q11_solution_fig1.png",
+        "assets/2025/math/national_paper_2/q11_solution_fig2.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q12",
+      "number": 12,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知平面向量 $\\boldsymbol{a}=(x,1)$，$\\boldsymbol{b}=(x-1,2x)$，若 $\\boldsymbol{a}\\perp(\\boldsymbol{a}-\\boldsymbol{b})$，则 $|\\boldsymbol{a}|=$ ______ .",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "$\\sqrt2$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题意，\n$\\boldsymbol{a}-\\boldsymbol{b}=(1,1-2x)$.\n又 $\\boldsymbol{a}\\perp(\\boldsymbol{a}-\\boldsymbol{b})$，故\n$\\boldsymbol{a}\\cdot(\\boldsymbol{a}-\\boldsymbol{b})=0$，\n即\n$x+1-2x=0$.\n解得 $x=1$. 所以 $\\boldsymbol{a}=(1,1)$，故\n$|\\boldsymbol{a}|=\\sqrt{1^2+1^2}=\\sqrt2$.\n故答案为：$\\sqrt2$."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q13",
+      "number": 13,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "若 $x=2$ 是函数 $f(x)=(x-1)(x-2)(x-a)$ 的极值点，则 $f(0)=$ ______ .",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "$-4$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "因为\n$f'(x)=(x-a)(x-1)+(x-1)(x-2)+(x-a)(x-2)$.\n又 $x=2$ 是极值点，所以 $f'(2)=0$，即\n$2-a=0$.\n故 $a=2$. 于是\n$f(0)=(-1)\\times(-2)\\times(-2)=-4$.\n故答案为：$-4$."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q14",
+      "number": 14,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "一个底面半径为 $4\\text{cm}$，高为 $9\\text{cm}$ 的封闭圆柱形容器内有两个半径相等的铁球，则铁球半径的最大值为 ______ $\\text{cm}$.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "$2.5$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设铁球半径为 $r$，则两球球心距离为 $2r$. 由题意可得\n$(2r)^2=(8-2r)^2+(9-2r)^2$.\n化简得\n$4r^2-68r+145=0$，\n即\n$(2r-5)(2r-29)=0$.\n又 $r<4$，故 $r=2.5$. 故答案为：$2.5$.\n\n![题目配图](assets/2025/math/national_paper_2/q14_fig1.png)"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/math/national_paper_2/q14_fig1.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q15",
+      "number": 15,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知函数 $f(x)=\\cos(2x+\\varphi)$（$0\\le \\varphi<\\pi$），且 $f(0)=\\frac12$.\n\n（1）求 $\\varphi$；\n（2）设函数 $g(x)=f(x)+f\\left(x-\\frac{\\pi}{6}\\right)$，求 $g(x)$ 的值域和单调区间.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由 $f(0)=\\cos\\varphi=\\frac12$，且 $0\\le \\varphi<\\pi$，可得\n$\\varphi=\\frac{\\pi}{3}$.\n（2）由（1）得\n$f(x)=\\cos\\left(2x+\\frac{\\pi}{3}\\right)$.\n于是\n$\ng(x)=\\cos\\left(2x+\\frac{\\pi}{3}\\right)+\\cos 2x\n=\\sqrt3\\cos\\left(2x+\\frac{\\pi}{6}\\right)\n$，\n所以 $g(x)$ 的值域为\n$[-\\sqrt3,\\sqrt3]$.\n\n当\n$2k\\pi\\le 2x+\\frac{\\pi}{6}\\le (2k+1)\\pi$\n时，函数 $g(x)$ 单调递减，解得\n$-\\frac{\\pi}{12}+k\\pi\\le x\\le \\frac{5\\pi}{12}+k\\pi$，$k\\in{\\mathbb{Z}}$.\n\n当\n$(2k+1)\\pi\\le 2x+\\frac{\\pi}{6}\\le (2k+2)\\pi$\n时，函数 $g(x)$ 单调递增，解得\n$\\frac{5\\pi}{12}+k\\pi\\le x\\le \\frac{11\\pi}{12}+k\\pi$，$k\\in{\\mathbb{Z}}$."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q16",
+      "number": 16,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知椭圆 $C:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$（$a>b>0$）的离心率为 $\\frac{\\sqrt2}{2}$，长轴长为 4.\n\n（1）求 $C$ 的方程；\n（2）过点 $(0,-2)$ 的直线 $l$ 与 $C$ 交于 $A$，$B$ 两点，$O$ 为坐标原点. 若 $\\triangle OAB$ 的面积为 $\\sqrt2$，求 $|AB|$.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由长轴长为 4，得 $a=2$. 又离心率为 $\\frac{\\sqrt2}{2}$，所以\n$c=ae=2\\cdot \\frac{\\sqrt2}{2}=\\sqrt2$.\n故\n$b^2=a^2-c^2=4-2=2$.\n所以椭圆方程为\n$\\frac{x^2}{4}+\\frac{y^2}{2}=1$.\n（2）由题设直线 $AB$ 的斜率不为 0，设直线 $l$ 的方程为\n$x=t(y+2)$，\n\n![题目配图](assets/2025/math/national_paper_2/q16_solution_fig1.png)\n\n其中 $A(x_1,y_1)$，$B(x_2,y_2)$. 联立 $x=t(y+2)$ 与 $x^2+2y^2=4$\n可得\n$(t^2+2)y^2+4t^2y+4t^2-4=0$.\n因此\n$y_1+y_2=-\\frac{4t^2}{t^2+2}$，$y_1y_2=\\frac{4t^2-4}{t^2+2}$.\n又\n$\n\\Delta=16t^4-4(t^2+2)(4t^2-4)=4(8-4t^2)>0\n$，\n故\n$-\\sqrt2<t<\\sqrt2$.\n又\n\n$$\n\nS_{\\triangle OAB}=\\frac12\\cdot |2t|\\cdot |y_1-y_2|\n=|t|\\sqrt{(y_1+y_2)^2-4y_1y_2}\n=\\frac{|t|\\sqrt{32-16t^2}}{t^2+2}\n=\\sqrt2\n\n$$\n\n解得\n$t=\\pm \\frac{\\sqrt6}{3}$.\n于是\n\n$$\n\n|AB|=\\sqrt{1+t^2}\\,|y_1-y_2|\n=\\sqrt{\\frac53}\\cdot\\frac{\\sqrt{32-16\\times\\frac23}}{\\frac23+2}\n=\\sqrt5\n\n$$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/math/national_paper_2/q16_solution_fig1.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q17",
+      "number": 17,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "如图，在四边形 $ABCD$ 中，$AB//CD$，$\\angle DAB=90^\\circ$，$F$ 为 $CD$ 的中点，点 $E$ 在 $AB$ 上，$EF//AD$，$AB=3AD$，$CD=2AD$.\n\n将四边形 $EFDA$ 沿 $EF$ 翻折至四边形 $EFD'A'$，使得面 $EFD'A'$ 与面 $EFCB$ 所成的二面角为 $60^\\circ$.\n\n（1）证明：$A'B//$ 平面 $CD'F$；\n（2）求面 $BCD'$ 与面 $EFD'A'$ 所成的二面角的正弦值.\n\n![题目配图](assets/2025/math/national_paper_2/q17_fig1.png)",
+      "figures": [
+        "assets/2025/math/national_paper_2/q17_fig1.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）设 $AD=1$，则 $AB=3$，$CD=2$. 因为 $F$ 为 $CD$ 的中点，所以 $DF=1$. 又因为 $EF//AD$，$AB//CD$，所以 $AEFD$ 是平行四边形，从而 $AE//DF$. 翻折后仍有 $A'E//D'F$.\n因为 $D'F\\subset$ 平面 $CD'F$，且 $A'E\\not\\subset$ 平面 $CD'F$，故 $A'E//$ 平面 $CD'F$. 又因为 $FC//EB$，且 $FC\\subset$ 平面 $CD'F$，$EB\\not\\subset$ 平面 $CD'F$，故 $EB//$ 平面 $CD'F$.\n又 $A'E\\cap EB=E$，且 $A'E$，$EB\\subset$ 平面 $A'EB$，所以平面 $A'EB//$ 平面 $CD'F$. 因此\n$A'B//\\text{平面 }CD'F$.\n（2）以 $F$ 为原点，$FE$，$FC$ 以及垂直于平面 $EFCB$ 的直线分别为 $x$，$y$，$z$ 轴，建立空间直角坐标系.\n\n![题目配图](assets/2025/math/national_paper_2/q17_solution_fig1.png)\n\n由题意可得\n$B(1,2,0)$，$C(0,1,0)$，$D'\\left(0,\\frac12,\\frac{\\sqrt3}{2}\\right)$，$E(1,0,0)$，$F(0,0,0)$.\n于是 $\\overrightarrow{BC}=(-1,-1,0)$，$\\overrightarrow{CD'}=\\left(0,-\\frac12,\\frac{\\sqrt3}{2}\\right)$，$\\overrightarrow{FE}=(1,0,0)$，$\\overrightarrow{FD'}=\\left(0,\\frac12,\\frac{\\sqrt3}{2}\\right)$.\n设平面 $BCD'$ 的法向量为 $\\boldsymbol{n}=(x,y,z)$，则 $\\overrightarrow{BC}\\cdot \\boldsymbol{n}=0$，$\\overrightarrow{CD'}\\cdot \\boldsymbol{n}=0$.\n可取\n$\\boldsymbol{n}=(-\\sqrt3,\\sqrt3,1)$.\n设平面 $EFD'A'$ 的法向量为 $\\boldsymbol{m}=(x_1,y_1,z_1)$，则 $\\overrightarrow{FE}\\cdot \\boldsymbol{m}=0$，$\\overrightarrow{FD'}\\cdot \\boldsymbol{m}=0$.\n可取\n$\\boldsymbol{m}=(0,\\sqrt3,-1)$.\n所以两平面的夹角余弦为\n$\n\\cos\\theta=\\frac{|\\boldsymbol{m}\\cdot \\boldsymbol{n}|}{|\\boldsymbol{m}|\\,|\\boldsymbol{n}|}=\\frac{1}{\\sqrt7}\n$，\n故所求二面角的正弦值为\n$\n\\sqrt{1-\\frac17}=\\frac{\\sqrt{42}}{7}\n$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/math/national_paper_2/q17_solution_fig1.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q18",
+      "number": 18,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知函数 $f(x)=\\ln(1+x)-x+\\frac12x^2-kx^3$，其中 $0<k<\\frac13$.\n\n（1）证明：$f(x)$ 在区间 $(0,+\\infty)$ 存在唯一的极值点和唯一的零点；\n（2）设 $x_1$，$x_2$ 分别为 $f(x)$ 在区间 $(0,+\\infty)$ 的极值点和零点.\n    \n  （i）设函数 $g(t)=f(x_1+t)-f(x_1-t)$，证明：$g(t)$ 在区间 $(0,x_1)$ 单调递减；\n  （ii）比较 $2x_1$ 与 $x_2$ 的大小，并证明你的结论.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题意，\n$\nf'(x)=\\frac{1}{1+x}-1+x-3kx^2=x^2\\left(\\frac{1}{1+x}-3k\\right)\n$\n设\n$h(x)=\\frac{1}{1+x}-3k$，$x>0$，\n则\n$h'(x)=-\\frac{1}{(1+x)^2}<0$.\n所以 $h(x)$ 在 $(0,+\\infty)$ 上单调递减. 又 $h(0)=1-3k>0$，且存在唯一\n$x_1=\\frac{1}{3k}-1$\n使 $h(x_1)=0$. 故 $f'(x)$ 在 $(0,x_1)$ 上为正，在 $(x_1,+\\infty)$ 上为负，所以 $f(x)$ 在 $(0,+\\infty)$ 上存在唯一极值点.\n再看函数\n$\\ln(1+x)-x$，\n其导数为\n$\\frac{1}{1+x}-1=-\\frac{x}{1+x}<0$，\n故 $\\ln(1+x)-x<0$（$x>0$）. 又当 $x\\to +\\infty$ 时，$\\frac12x^2-kx^3\\to -\\infty$，所以\n$f(x)\\to -\\infty$.\n由 $h(x)=\\frac{1}{1+x}-3k$ 且 $h(x_1)=0$ 得，当 $0<x<x_1$ 时，\n$\\frac{1}{1+x}-3k>\\frac{1}{1+x_1}-3k=0$，\n所以 $f'(x)>0$；当 $x>x_1$ 时，\n$\\frac{1}{1+x}-3k<\\frac{1}{1+x_1}-3k=0$，\n所以 $f'(x)<0$. 因此 $f(x)$ 在 $(0,x_1)$ 上递增，在 $(x_1,+\\infty)$ 上递减.\n又 $f(0)=0$，并且对充分大的 $x$，有 $f(x)<0$. 由于 $f(x)$ 先增后减，故其图象在 $(0,+\\infty)$ 上与 $x$ 轴恰有一个交点，所以 $f(x)$ 在 $(0,+\\infty)$ 上恰有一个零点，记为 $x_2$.\n（2）（i）由（1）知\n$x_1+1=\\frac{1}{3k}$，$f'(x)=x^2\\left(\\frac{1}{1+x}-\\frac{1}{1+x_1}\\right)$\n因为\n$g(t)=f(x_1+t)-f(x_1-t)$，\n所以\n$g'(t)=f'(x_1+t)-f'(x_1-t)$.\n代入得\n$\ng'(t)=(x_1+t)^2\\left(\\frac{1}{x_1+t+1}-\\frac{1}{1+x_1}\\right)\n+(x_1-t)^2\\left(\\frac{1}{x_1-t+1}-\\frac{1}{1+x_1}\\right)\n$，\n所以\n$\ng'(t)=-\\frac{t(x_1+t)^2}{(x_1+t+1)(x_1+1)}\n+\\frac{t(x_1-t)^2}{(x_1-t+1)(x_1+1)}\n$\n又由 $x_1+1=\\frac{1}{3k}$ 可得\n$\ng'(t)=3kt\\left[-\\frac{(x_1+t)^2}{x_1+t+1}+\\frac{(x_1-t)^2}{x_1-t+1}\\right]\n=\\frac{6kt^2(t^2-x_1^2-2x_1)}{(1+x_1)^2-t^2}\n$\n当 $t\\in(0,x_1)$ 时，$k>0$，$t^2-x_1^2-2x_1<0$，$(1+x_1)^2-t^2>0$，故\n$g'(t)<0$.\n因此 $g(t)$ 在 $(0,x_1)$ 上单调递减.\n  （ii）由（1）知 $g(t)$ 在 $(0,x_1)$ 上单调递减，所以\n$g(0)>g(x_1)$.\n即\n$0>f(2x_1)$.\n又 $f(x_2)=0$，并且由（1）知 $f(x)$ 在 $(x_1,+\\infty)$ 上单调递减，因此必有\n$2x_1>x_2$."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-math-national_paper_2-q19",
+      "number": 19,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "甲，乙两人进行乒乓球练习，每个球胜者得 1 分，负者得 0 分. 设每个球甲胜的概率为 $p$（$\\frac12<p<1$），乙胜的概率为 $q$，$p+q=1$，且各球的胜负相互独立. 对正整数 $k\\ge 2$，记 $p_k$ 为打完 $k$ 个球后甲比乙至少多得 2 分的概率，$q_k$ 为打完 $k$ 个球后乙比甲至少多得 2 分的概率.\n\n（1）求 $p_3$，$p_4$（用 $p$ 表示）；\n（2）若 $\\frac{p_4-p_3}{q_4-q_3}=4$，求 $p$；\n（3）证明：对任意正整数 $m$，$p_{2m+1}-q_{2m+1}<p_{2m}-q_{2m}<p_{2m+2}-q_{2m+2}$.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）打完 3 个球后甲比乙至少多得 2 分，只能是甲胜 3 场，所以\n$p_3=p^3$.\n打完 4 个球后甲比乙至少多得 2 分，只能是甲胜 3 场或 4 场，所以\n\n$$\n\np_4=\\binom43 p^3q+\\binom44 p^4\n=4p^3(1-p)+p^4\n=p^3(4-3p)\n\n$$\n（2）打完 3 个球后乙比甲至少多得 2 分，只能是乙胜 3 场，所以\n$q_3=q^3$.\n打完 4 个球后乙比甲至少多得 2 分，只能是乙胜 3 场或 4 场，所以\n\n$$\n\nq_4=\\binom43 q^3p+\\binom44 q^4\n=4q^3(1-q)+q^4\n=q^3(4-3q)\n\n$$\n\n由\n$\\frac{p_4-p_3}{q_4-q_3}=4$\n得\n$\\frac{3p^3(1-p)}{3q^3(1-q)}=4$.\n又 $p+q=1$，所以\n$\\left(\\frac{p}{q}\\right)^2=4$.\n因为 $p$，$q>0$，故 $p=2q=2(1-p)$，解得\n$p=\\frac23$.\n（3）我们有\n\n$$\n\np_{2m}-p_{2m+1}\n=\\sum_{k=0}^{m-1}\\binom{2m}{k}p^{2m-k}q^k\n-\\sum_{k=0}^{m-1}\\binom{2m+1}{k}p^{2m+1-k}q^k\n\n$$\n\n因为\n$\\binom{2m+1}{k}=\\binom{2m}{k}+\\binom{2m}{k-1}$，\n所以\n\n$$\n\\begin{aligned}\np_{2m}-p_{2m+1}\n&=\\sum_{k=0}^{m-1}\\binom{2m}{k}p^{2m-k}q^k\n-\\sum_{k=0}^{m-1}\\binom{2m}{k}p^{2m+1-k}q^k\n-\\sum_{k=0}^{m-1}\\binom{2m}{k-1}p^{2m+1-k}q^k \\\\\n&=(1-p)\\sum_{k=0}^{m-1}\\binom{2m}{k}p^{2m-k}q^k\n-\\sum_{k=0}^{m-1}\\binom{2m}{k-1}p^{2m+1-k}q^k \\\\\n&=\\sum_{k=0}^{m-1}\\binom{2m}{k}p^{2m-k}q^{k+1}\n-\\sum_{k=0}^{m-2}\\binom{2m}{k}p^{2m-k}q^{k+1} \\\\\n&=\\binom{2m}{m-1}p^{m+1}q^m\n\\end{aligned}\n$$\n\n同理可得\n$p_{2m+2}-p_{2m+1}=\\binom{2m+1}{m}p^{m+2}q^m$，\n$q_{2m}-q_{2m+1}=\\binom{2m}{m-1}q^{m+1}p^m$，\n$q_{2m+2}-q_{2m+1}=\\binom{2m+1}{m}q^{m+2}p^m$.\n于是\n$\np_{2m}-p_{2m+1}\n=p\\left(\\binom{2m}{m-1}p^mq^m\\right)\n>q\\left(\\binom{2m}{m-1}q^mp^m\\right)\n=q_{2m}-q_{2m+1}\n$，\n从而\n$p_{2m+1}-q_{2m+1}<p_{2m}-q_{2m}$.\n\n另一方面，\n\n$$\n\n\\begin{gathered}\np_{2m+2}-p_{2m}=(p_{2m+2}-p_{2m+1})-(p_{2m}-p_{2m+1})=\\binom{2m+1}{m}p^{m+2}q^m-\\binom{2m}{m-1}p^{m+1}q^m,\\\\\np_{2m+2}-p_{2m}=p^mq^m\\cdot p\\left(p\\binom{2m+1}{m}-\\binom{2m}{m-1}\\right)=\\frac{(2m+1)!}{m!(m+1)!}p^mq^m\\cdot p\\left(p-\\frac{m}{2m+1}\\right)\n\\end{gathered}\n\n$$\n\n同理\n$q_{2m+2}-q_{2m} =\\frac{(2m+1)!}{m!(m+1)!}p^mq^m\\cdot q\\left(q-\\frac{m}{2m+1}\\right)$.\n作差得\n\n$$\n\n\\begin{gathered}\n(p_{2m+2}-p_{2m})-(q_{2m+2}-q_{2m})=\\frac{(2m+1)!}{m!(m+1)!}p^mq^m\\left[p\\left(p-\\frac{m}{2m+1}\\right)-q\\left(q-\\frac{m}{2m+1}\\right)\\right],\\\\\n(p_{2m+2}-p_{2m})-(q_{2m+2}-q_{2m})=\\frac{(2m+1)!}{m!(m+1)!}p^mq^m\\cdot \\frac{m+1}{2m+1}(p-q)>0\n\\end{gathered}\n\n$$\n\n因此\n$p_{2m}-q_{2m}<p_{2m+2}-q_{2m+2}$.\n综上，\n$\np_{2m+1}-q_{2m+1}<p_{2m}-q_{2m}<p_{2m+2}-q_{2m+2}\n$\n证毕."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

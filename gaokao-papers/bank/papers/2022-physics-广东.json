@@ -1,0 +1,762 @@
+{
+  "id": "2022-physics-广东",
+  "year": 2022,
+  "subject": "物理",
+  "region": "广东卷",
+  "region_key": "广东",
+  "format_tier": "structured_latex",
+  "question_count": 16,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2022-physics-广东-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "力物体的平衡",
+        "三力平衡"
+      ],
+      "stem_md": "如图是可用来制作豆腐的石磨。木柄 AB 静止时，连接 AB 的轻绳处于绷紧状态。O 点是三根轻绳的结点，$F$、$F_{1}$ 和 $F_{2}$ 分别表示三根绳的拉力大小，$F_{1} = F_{2}$ 且 $\\angle AOB = 60{}^\\circ$。下列关系式正确的是（  ）\n\n![物理配图](assets/2022/physics/广东/01.png)",
+      "figures": [
+        "assets/2022/physics/广东/01.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$F = F_{1}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$F = 2F_{1}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$F = 3F_{1}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$F = \\sqrt{3}F_{1}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "以 O 点为研究对象，受力分析如图\n\n![物理配图](assets/2022/physics/广东/01_an.png)\n\n由几何关系可知 $\\theta = 30{}^\\circ$。\n\n由平衡条件可得：$2F_{1}\\cos 30{}^\\circ = F$\n\n解得：$F = \\sqrt{3}F_{1}$\n\n故 D 正确，ABC 错误。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/广东/01_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "曲线运动",
+        "天体运动"
+      ],
+      "stem_md": "“祝融号”火星车需要“休眠”以度过火星寒冷的冬季。假设火星和地球的冬季是各自公转周期的四分之一，且火星的冬季时长约为地球的 1.88 倍。火星和地球绕太阳的公转均可视为匀速圆周运动。下列关于火星、地球公转的说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "火星公转的线速度比地球的大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "火星公转的角速度比地球的大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "火星公转的半径比地球的小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "火星公转的加速度比地球的小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题意可知，火星的公转周期大于地球的公转周期。\n\nC．根据 $G\\frac{Mm}{r^{2}} = m\\frac{4\\pi^{2}}{T^{2}}r$ 可得 $T = 2\\pi\\sqrt{\\frac{r^{3}}{GM}}$，可知火星的公转半径大于地球的公转半径，故 C 错误；\n\nA．根据 $G\\frac{Mm}{r^{2}} = m\\frac{v^{2}}{r}$ 可得 $v = \\sqrt{\\frac{GM}{r}}$，结合 C 选项，可知火星的公转线速度小于地球的公转线速度，故 A 错误；\n\nB．根据 $\\omega = \\frac{2\\pi}{T}$ 可知火星公转的角速度小于地球公转的角速度，故 B 错误；\n\nD．根据 $G\\frac{Mm}{r^{2}} = ma$ 可得 $a = \\frac{GM}{r^{2}}$，可知火星公转的加速度小于地球公转的加速度，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "运动和力",
+        "牛顿定律中的图象"
+      ],
+      "stem_md": "图是滑雪道的示意图。可视为质点的运动员从斜坡上的 M 点由静止自由滑下，经过水平 NP 段后飞入空中，在 Q 点落地。不计运动员经过 N 点的机械能损失，不计摩擦力和空气阻力。下列能表示该过程运动员速度大小 $v$ 或加速度大小 $a$ 随时间 $t$ 变化的图像是（  ）\n\n![物理配图](assets/2022/physics/广东/03.png)",
+      "figures": [
+        "assets/2022/physics/广东/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2022/physics/广东/03a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2022/physics/广东/03b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2022/physics/广东/03c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2022/physics/广东/03d.png"
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设斜坡倾角为 $\\theta$，运动员在斜坡 MN 段做匀加速直线运动，根据牛顿第二定律 $mg\\sin\\theta = ma_{1}$，可得 $a_{1} = g\\sin\\theta$；运动员在水平 NP 段做匀速直线运动，加速度 $a_{2} = 0$；运动员从 P 点飞出后做平抛运动，加速度为重力加速度 $a_{3} = g$。\n\n设在 P 点的速度为 $v_{0}$，则从 P 点飞出后速度大小的表达式为 $v = \\sqrt{v_{0}^{2} + g^{2}t^{2}}$。\n\n由分析可知从 P 点飞出后速度大小与时间的图像不可能为直线，且 $a_{1} < a_{3}$。\n\nC 正确，ABD 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "交流电",
+        "交流电"
+      ],
+      "stem_md": "图是简化的某种旋转磁极式发电机原理图。定子是仅匝数 $n$ 不同的两线圈，$n_{1} > n_{2}$，二者轴线在同一平面内且相互垂直，两线圈到其轴线交点 O 的距离相等，且均连接阻值为 $R$ 的电阻，转子是中心在 O 点的条形磁铁，绕 O 点在该平面内匀速转动时，两线圈输出正弦式交变电流。不计线圈电阻、自感及两线圈间的相互影响，下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/广东/04.png)",
+      "figures": [
+        "assets/2022/physics/广东/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "两线圈产生的电动势的有效值相等",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "两线圈产生的交变电流频率相等",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "两线圈产生的电动势同时达到最大值",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "两电阻消耗的电功率相等",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AD．根据 $E = n\\frac{\\Delta\\Phi}{\\Delta t}$ 可得两线圈中磁通量的变化率相等，但是匝数不等，则产生的感应电动势最大值不相等，有效值也不相等；根据 $P = \\frac{U^{2}}{R}$ 可知，两电阻的电功率也不相等，选项 AD 错误；\n\nB．因两线圈放在同一个旋转磁铁的旁边，则两线圈产生的交流电的频率相等，选项 B 正确；\n\nC．当磁铁的磁极到达一线圈附近时，一个线圈的磁通量最大，感应电动势为 0，另一个线圈通过的磁通量最小，感应电动势最大，可知两线圈产生的感应电动势不可能同时达到最大值，选项 C 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "原子和原子核",
+        "玻尔模型"
+      ],
+      "stem_md": "目前科学家已经能够制备出能量量子数 $n$ 较大的氢原子。氢原子第 $n$ 能级的能量为 $E_{n} = \\frac{E_{1}}{n^{2}}$，其中 $E_{1} = -13.6\\,\\mathrm{eV}$。图是按能量排列的电磁波谱，要使 $n = 20$ 的氢原子吸收一个光子后，恰好失去一个电子变成氢离子，被吸收的光子是（  ）\n\n![物理配图](assets/2022/physics/广东/05.png)",
+      "figures": [
+        "assets/2022/physics/广东/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "红外线波段的光子",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "可见光波段的光子",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "紫外线波段的光子",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "X 射线波段的光子",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "要使处于 $n = 20$ 的氢原子吸收一个光子后恰好失去一个电子变成氢离子，则需要吸收光子的能量为 $E = 0 - \\frac{-13.6}{20^{2}}\\,\\mathrm{eV} = 0.034\\,\\mathrm{eV}$，则被吸收的光子是红外线波段的光子。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "平抛运动"
+      ],
+      "stem_md": "如图所示，在竖直平面内，截面为三角形的小积木悬挂在离地足够高处，一玩具枪的枪口与小积木上 P 点等高且相距为 $L$。当玩具子弹以水平速度 $v$ 从枪口向 P 点射出时，小积木恰好由静止释放，子弹从射出至击中积木所用时间为 $t$。不计空气阻力。下列关于子弹的说法正确的是（  ）\n\n![物理配图](assets/2022/physics/广东/06.png)",
+      "figures": [
+        "assets/2022/physics/广东/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "将击中 P 点，$t$ 大于 $\\frac{L}{v}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "将击中 P 点，$t$ 等于 $\\frac{L}{v}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "将击中 P 点上方，$t$ 大于 $\\frac{L}{v}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "将击中 P 点下方，$t$ 等于 $\\frac{L}{v}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题意知枪口与 P 点等高，子弹和小积木在竖直方向上做自由落体运动，当子弹击中积木时子弹和积木运动时间相同，根据 $h = \\frac{1}{2}gt^{2}$ 可知下落高度相同，所以将击中 P 点；又由于初始状态子弹到 P 点的水平距离为 $L$，子弹在水平方向上做匀速直线运动，故有 $t = \\frac{L}{v}$。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图所示，一个立方体空间被对角平面 MNPQ 划分成两个区域，两区域分布有磁感应强度大小相等、方向相反且与 $z$ 轴平行的匀强磁场。一质子以某一速度从立方体左侧垂直 $Oyz$ 平面进入磁场，并穿过两个磁场区域。下列关于质子运动轨迹在不同坐标平面的投影中，可能正确的是（  ）\n\n![物理配图](assets/2022/physics/广东/07.png)",
+      "figures": [
+        "assets/2022/physics/广东/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2022/physics/广东/07a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2022/physics/广东/07b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2022/physics/广东/07c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2022/physics/广东/07d.png"
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．由题意知当质子射出后先在 MN 左侧运动，刚射出时根据左手定则可知在 MN 受到 $y$ 轴正方向的洛伦兹力，即在 MN 左侧会向 $y$ 轴正方向偏移，做匀速圆周运动，$y$ 轴坐标增大；在 MN 右侧根据左手定则可知洛伦兹力反向，质子在 $y$ 轴正方向上做减速运动，故 A 正确，B 错误；\n\nCD．根据左手定则可知质子在整个运动过程中都只受到平行于 $xOy$ 平面的洛伦兹力作用，在 $z$ 轴方向上没有运动，$z$ 轴坐标不变，故 CD 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "带电粒子在复合场中的运动"
+      ],
+      "stem_md": "如图所示，磁控管内局部区域分布有水平向右的匀强电场和垂直纸面向里的匀强磁场。电子从 M 点由静止释放，沿图中所示轨迹依次经过 N、P 两点。已知 M、P 在同一等势面上，下列说法正确的有（  ）\n\n![物理配图](assets/2022/physics/广东/08.png)",
+      "figures": [
+        "assets/2022/physics/广东/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "电子从 N 到 P，电场力做正功",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "N 点的电势高于 P 点的电势",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电子从 M 到 N，洛伦兹力不做功",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "电子在 M 点所受的合力大于在 P 点所受的合力",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由题可知电子所受电场力水平向左，电子从 N 到 P 的过程中电场力做负功，故 A 错误；\n\nB．根据沿着电场线方向电势逐渐降低可知 N 点的电势高于 P 点，故 B 正确；\n\nC．由于洛伦兹力一直都和速度方向垂直，故电子从 M 到 N 洛伦兹力都不做功，故 C 正确；\n\nD．由于 M 点和 P 点在同一等势面上，故从 M 到 P 电场力做功为 0，而洛伦兹力不做功，M 点速度为 0，根据动能定理可知电子在 P 点速度也为 0，则电子在 M 点和 P 点都只受电场力作用，在匀强电场中电子在这两点电场力相等，即合力相等，故 D 错误。\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 650,
+      "topics": [
+        "功和能",
+        "功"
+      ],
+      "stem_md": "如图所示，载有防疫物资的无人驾驶小车，在水平 MN 段以恒定功率 $200\\,\\mathrm{W}$、速度 $5\\,\\mathrm{m}/\\mathrm{s}$ 匀速行驶，在斜坡 PQ 段以恒定功率 $570\\,\\mathrm{W}$、速度 $2\\,\\mathrm{m}/\\mathrm{s}$ 匀速行驶。已知小车总质量为 $50\\,\\mathrm{kg}$，$MN = PQ = 20\\,\\mathrm{m}$，PQ 段的倾角为 $30{}^\\circ$，重力加速度 $g$ 取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，不计空气阻力。下列说法正确的有（  ）\n\n![物理配图](assets/2022/physics/广东/09.png)",
+      "figures": [
+        "assets/2022/physics/广东/09.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "从 M 到 N，小车牵引力大小为 $40\\,\\mathrm{N}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "从 M 到 N，小车克服摩擦力做功 $800\\,\\mathrm{J}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "从 P 到 Q，小车重力势能增加 $1\\times10^{4}\\,\\mathrm{J}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "从 P 到 Q，小车克服摩擦力做功 $700\\,\\mathrm{J}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "ABD",
+        "choices": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．小车从 M 到 N，依题意有 $P_{1} = Fv_{1} = 200\\,\\mathrm{W}$，代入数据解得 $F = 40\\,\\mathrm{N}$，故 A 正确；\n\nB．依题意，小车从 M 到 N，因匀速，小车所受的摩擦力大小为 $f_{1} = F = 40\\,\\mathrm{N}$，则摩擦力做功为 $W_{1} = -40\\times20\\,\\mathrm{J} = -800\\,\\mathrm{J}$，则小车克服摩擦力做功为 $800\\,\\mathrm{J}$，故 B 正确；\n\nC．依题意，从 P 到 Q，重力势能增加量为 $\\Delta E_{p} = mg\\Delta h = 500\\,\\mathrm{N}\\times20\\,\\mathrm{m}\\times\\sin 30{}^\\circ = 5000\\,\\mathrm{J}$，故 C 错误；\n\nD．依题意，小车从 P 到 Q，摩擦力为 $f_{2}$，有 $f_{2} + mg\\sin 30{}^\\circ = \\frac{P_{2}}{v_{2}}$，摩擦力做功为 $W_{2} = -f_{2}\\times s_{2}$，$s_{2} = 20\\,\\mathrm{m}$，联立解得 $W_{2} = -700\\,\\mathrm{J}$，则小车克服摩擦力做功为 $700\\,\\mathrm{J}$，故 D 正确。\n\n故选 ABD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "电磁感应",
+        "法拉第电磁感应定律"
+      ],
+      "stem_md": "如图所示，水平地面（$Oxy$ 平面）下有一根平行于 $y$ 轴且通有恒定电流 $I$ 的长直导线。P、M 和 N 为地面上的三点，P 点位于导线正上方，MN 平行于 $y$ 轴，PN 平行于 $x$ 轴。一闭合的圆形金属线圈，圆心在 P 点，可沿不同方向以相同的速率做匀速直线运动，运动过程中线圈平面始终与地面平行。下列说法正确的有（  ）\n\n![物理配图](assets/2022/physics/广东/10.png)",
+      "figures": [
+        "assets/2022/physics/广东/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "N 点与 M 点的磁感应强度大小相等，方向相同",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "线圈沿 PN 方向运动时，穿过线圈的磁通量不变",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "线圈从 P 点开始竖直向上运动时，线圈中无感应电流",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "线圈从 P 到 M 过程的感应电动势与从 P 到 N 过程的感应电动势相等",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．依题意，M、N 两点连线与长直导线平行、两点与长直导线的距离相同，根据右手螺旋定则可知，通电长直导线在 M、N 两点产生的磁感应强度大小相等，方向相同，故 A 正确；\n\nB．根据右手螺旋定则，线圈在 P 点时，磁感线穿进与穿出在线圈中对称，磁通量为零；在向 N 点平移过程中，磁感线穿进与穿出线圈不再对称，线圈的磁通量会发生变化，故 B 错误；\n\nC．根据右手螺旋定则，线圈从 P 点竖直向上运动过程中，磁感线穿进与穿出线圈对称，线圈的磁通量始终为零，没有发生变化，线圈无感应电流，故 C 正确；\n\nD．线圈从 P 点到 M 点与从 P 点到 N 点，线圈的磁通量变化量相同，依题意 P 点到 M 点所用时间较从 P 点到 N 点时间长，根据法拉第电磁感应定律，则两次的感应电动势不相等，故 D 错误。\n\n故选 AC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 7,
+      "difficulty": 650,
+      "topics": [
+        "直线运动",
+        "DIS测瞬时速度"
+      ],
+      "stem_md": "某实验小组为测量小球从某一高度释放，与某种橡胶材料碰撞导致的机械能损失，设计了如图 [2022广东11a]所示的装置，实验过程如下：\n\n（1）让小球从某一高度由静止释放，与水平放置的橡胶材料碰撞后竖直反弹。调节光电门位置，使小球从光电门正上方释放后，在下落和反弹过程中均可通过光电门。\n（2）用螺旋测微器测量小球的直径，示数如图 [2022广东11b]所示，小球直径 $d = $ ______  $\\,\\mathrm{mm}$。\n（3）测量时，应 ______ （选填“A”或“B”，其中 A 为“先释放小球，后接通数字计时器”，B 为“先接通数字计时器，后释放小球”）。记录小球第一次和第二次通过光电门的遮光时间 $t_{1}$ 和 $t_{2}$。\n（4）计算小球通过光电门的速度，已知小球的质量为 $m$，可得小球与橡胶材料碰撞导致的机械能损失 $\\Delta E = $ ______ （用字母 $m$、$d$、$t_{1}$ 和 $t_{2}$ 表示）。\n（5）若适当调高光电门的高度，将会 ______ （选填“增大”或“减小”）因空气阻力引起的测量误差。\n\n![物理配图](assets/2022/physics/广东/11a.png) ![物理配图](assets/2022/physics/广东/11b.png)",
+      "figures": [
+        "assets/2022/physics/广东/11a.png",
+        "assets/2022/physics/广东/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）—\n（2）7.884$\\pm$0.02\n（3）B\n（4）$\\frac{1}{2}m\\left(\\frac{d}{t_{1}}\\right)^{2} - \\frac{1}{2}m\\left(\\frac{d}{t_{2}}\\right)^{2}$\n（5）增大",
+        "sub_answers": [
+          "7.884$\\pm$0.02",
+          "B",
+          "$\\frac{1}{2}m\\left(\\frac{d}{t_{1}}\\right)^{2} - \\frac{1}{2}m\\left(\\frac{d}{t_{2}}\\right)^{2}$",
+          "增大"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（2）依题意，小球的直径为 $d = 7.5\\,\\mathrm{mm} + 38.4\\times0.01\\,\\mathrm{mm} = 7.884\\,\\mathrm{mm}$。\n\n（3）在测量时，因小球下落时间很短，如果先释放小球，有可能会出现时间记录不完整，所以应先接通数字计时器，再释放小球，故选 B。\n\n（4）依题意，小球向下、向上先后通过光电门时的速度分别为 $v_{1}$、$v_{2}$，则有 $v_{1} = \\frac{d}{t_{1}}$，$v_{2} = \\frac{d}{t_{2}}$，则小球与硅胶材料碰撞过程中机械能的损失量为 $\\Delta E = \\frac{1}{2}mv_{1}^{2} - \\frac{1}{2}mv_{2}^{2} = \\frac{1}{2}m\\left(\\frac{d}{t_{1}}\\right)^{2} - \\frac{1}{2}m\\left(\\frac{d}{t_{2}}\\right)^{2}$。\n\n（5）若调高光电门的高度，较调整之前小球会经历较大的空中距离，所以将会增大因空气阻力引起的测量误差。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 9,
+      "difficulty": 550,
+      "topics": [
+        "电路",
+        "传感器"
+      ],
+      "stem_md": "弹性导电绳逐步成为智能控制系统中部分传感器的敏感元件，某同学测量弹性导电绳的电阻与拉伸后绳长之间的关系，实验过程如下：\n\n（1）装置安装和电路连接；如图 [2022广东12a]所示，导电绳的一端固定，另一端作为拉伸端，两端分别用带有金属夹 A、B 的导线接入如图 [2022广东12b]所示的电路中。\n（2）导电绳拉伸后的长度 $L$ 及其电阻 $R_{x}$ 的测量：\n\t\n① 将导电绳拉伸后，用刻度尺测量并记录 A、B 间的距离，即为导电绳拉伸后的长度 $L$。\n② 将滑动变阻器 $R$ 的滑片滑到最右端。断开开关 $S_{2}$，闭合开关 $S_{1}$，调节 $R$，使电压表和电流表的指针偏转到合适位置。记录两表的示数 $U$ 和 $I_{1}$。\n③ 闭合 $S_{2}$，电压表的示数 ______ （选填“变大”或“变小”）。调节 $R$ 使电压表的示数仍为 $U$，记录电流表的示数 $I_{2}$，则此时导电绳的电阻 $R_{x} = $ ______ （用 $I_{1}$、$I_{2}$ 和 $U$ 表示）。\n④ 断开 $S_{1}$，增大导电绳拉伸量，测量并记录 A、B 间的距离，重复步骤②和③。\n（3）该电压表内阻对导电绳电阻的测量值 ______ （选填“有”或“无”）影响。\n（4）图 [2022广东12c]是根据部分实验数据描绘的 $R_{x}-L$ 图线。将该导电绳两端固定在某种机械臂上，当机械臂弯曲后，测得导电绳的电阻 $R_{x}$ 为 $1.33\\,\\mathrm{k}\\Omega$，则由图线可读出导电绳拉伸后的长度为 ______  $\\,\\mathrm{cm}$，即为机械臂弯曲后的长度。\n\n![物理配图](assets/2022/physics/广东/12a.png) ![物理配图](assets/2022/physics/广东/12b.png) ![物理配图](assets/2022/physics/广东/12c.png)",
+      "figures": [
+        "assets/2022/physics/广东/12a.png",
+        "assets/2022/physics/广东/12b.png",
+        "assets/2022/physics/广东/12c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）—\n（2）变小，$\\frac{U}{I_{2} - I_{1}}$\n（3）无\n（4）51.80",
+        "sub_answers": [
+          "变小",
+          "$\\frac{U}{I_{2} - I_{1}}$",
+          "无",
+          "51.80"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（2）闭合 $S_{2}$ 后，并联部分的电阻减小，根据闭合电路欧姆定律，电压表的示数变小。加在导电绳两端的电压为 $U$，流过导电绳的电流为 $I_{2} - I_{1}$，因此导电绳的电阻 $R_{x} = \\frac{U}{I_{2} - I_{1}}$。\n\n（3）在闭合 $S_{2}$ 之前，电流表 $I_{1}$ 的示数包括定值电阻的电流和电压表分得的电流，闭合 $S_{2}$ 之后，加在电压表两端的电压保持不变，因此流过电压表和定值电阻的总电流仍为 $I_{1}$，故流过导电绳的电流是 $I_{2} - I_{1}$，与电压表内阻无关，电压表内阻对测量没有影响。\n\n（4）由图 c 可知，导电绳拉伸后的长度为 $51.80\\,\\mathrm{cm}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 11,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "动量守恒定律"
+      ],
+      "stem_md": "某同学受自动雨伞开伞过程的启发，设计了如图所示的物理模型。竖直放置在水平桌面上的滑杆上套有一个滑块，初始时它们处于静止状态。当滑块从 A 处以初速度 $v_{0}$ 为 $10\\,\\mathrm{m}/\\mathrm{s}$ 向上滑动时，受到滑杆的摩擦力 $f$ 为 $1\\,\\mathrm{N}$，滑块滑到 B 处与滑杆发生完全非弹性碰撞，带动滑杆离开桌面一起竖直向上运动。已知滑块的质量 $m = 0.2\\,\\mathrm{kg}$，滑杆的质量 $M = 0.6\\,\\mathrm{kg}$，A、B 间的距离 $l = 1.2\\,\\mathrm{m}$，重力加速度 $g$ 取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，不计空气阻力。求：\n\n（1）滑块在静止时和向上滑动的过程中，桌面对滑杆支持力的大小 $N_{1}$ 和 $N_{2}$；\n（2）滑块碰撞前瞬间的速度大小 $v_{1}$；\n（3）滑杆向上运动的最大高度 $h$。\n\n![物理配图](assets/2022/physics/广东/13.png)",
+      "figures": [
+        "assets/2022/physics/广东/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$N_{1} = 8\\,\\mathrm{N}$，$N_{2} = 5\\,\\mathrm{N}$\n（2）$v_{1} = 8\\,\\mathrm{m}/\\mathrm{s}$\n（3）$h = 0.2\\,\\mathrm{m}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）当滑块处于静止时桌面对滑杆的支持力等于滑块和滑杆的重力，即 $N_{1} = (m + M)g = 8\\,\\mathrm{N}$；当滑块向上滑动过程中受到滑杆的摩擦力为 $1\\,\\mathrm{N}$，根据牛顿第三定律可知滑块对滑杆的摩擦力也为 $1\\,\\mathrm{N}$，方向竖直向上，则此时桌面对滑杆的支持力为 $N_{2} = Mg - f' = 5\\,\\mathrm{N}$。\n\n（2）滑块向上运动到碰前瞬间根据动能定理有 $-mgl - fl = \\frac{1}{2}mv_{1}^{2} - \\frac{1}{2}mv_{0}^{2}$，代入数据解得 $v_{1} = 8\\,\\mathrm{m}/\\mathrm{s}$。\n\n（3）由于滑块和滑杆发生完全非弹性碰撞，即碰后两者共速，碰撞过程根据动量守恒有 $mv_{1} = (m + M)v$，碰后滑块和滑杆以速度 $v$ 整体向上做竖直上抛运动，根据动能定理有 $-\\left(m + M\\right)gh = 0 - \\frac{1}{2}\\left(m + M\\right)v^{2}$，代入数据联立解得 $h = 0.2\\,\\mathrm{m}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 15,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "带电粒子的直线运动"
+      ],
+      "stem_md": "密立根通过观测油滴的运动规律证明了电荷的量子性，因此获得了 1923 年的诺贝尔奖。图是密立根油滴实验的原理示意图，两个水平放置、相距为 $d$ 的足够大金属极板，上极板中央有一小孔。通过小孔喷入一些小油滴，由于碰撞或摩擦，部分油滴带上了电荷。有两个质量均为 $m_{0}$、位于同一竖直线上的球形小油滴 A 和 B，在时间 $t$ 内都匀速下落了距离 $h_{1}$。此时给两极板加上电压 $U$（上极板接正极），A 继续以原速度下落，B 经过一段时间后向上匀速运动。B 在匀速运动时间 $t$ 内上升了距离 $h_{2}$（$h_{2}\\neq h_{1}$），随后与 A 合并，形成一个球形新油滴，继续在两极板间运动直至匀速。已知球形油滴受到的空气阻力大小为 $f = km^{\\frac{1}{3}}v$，其中 $k$ 为比例系数，$m$ 为油滴质量，$v$ 为油滴运动速率，不计空气浮力，重力加速度为 $g$。求：\n\n（1）比例系数 $k$；\n（2）油滴 A、B 的带电量和电性；B 上升距离 $h_{2}$ 电势能的变化量；\n（3）新油滴匀速运动速度的大小和方向。\n\n![物理配图](assets/2022/physics/广东/14.png)",
+      "figures": [
+        "assets/2022/physics/广东/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$k = \\frac{m_{0}^{\\frac{2}{3}}gt}{h_{1}}$\n（2）油滴 A 不带电，油滴 B 带负电，电荷量 $q = \\frac{m_{0}gd(h_{1} + h_{2})}{h_{1}U}$，电势能的变化量 $\\Delta E_{p} = -\\frac{m_{0}gh_{2}(h_{1} + h_{2})}{h_{1}}$\n（3）若 $F' > 2m_{0}g$，$v_{\\text{共}} = \\frac{h_{2} - h_{1}}{\\sqrt[3]{2}t}$，速度方向向上；\n\n\t若 $F' < 2m_{0}g$，$v_{\\text{共}}' = \\frac{h_{1} - h_{2}}{\\sqrt[3]{2}t}$，速度方向向下。"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）未加电压时，油滴匀速时的速度大小 $v_{1} = \\frac{h_{1}}{t}$，匀速时 $m_{0}g = f$，又 $f = km_{0}^{\\frac{1}{3}}v_{1}$，联立可得 $k = \\frac{m_{0}^{\\frac{2}{3}}gt}{h_{1}}$。\n\n（2）加电压后，油滴 A 的速度不变，可知油滴 A 不带电，油滴 B 最后速度方向向上，可知油滴 B 所受电场力向上，极板间电场强度向下，可知油滴 B 带负电。油滴 B 向上匀速运动时，速度大小为 $v_{2} = \\frac{h_{2}}{t}$，根据平衡条件可得 $m_{0}g + km_{0}^{\\frac{1}{3}}v_{2} = \\frac{U}{d}q$，解得 $q = \\frac{m_{0}gd(h_{1} + h_{2})}{h_{1}U}$。根据 $\\Delta E_{p} = -W_{\\text{电}}$，又 $W_{\\text{电}} = \\frac{U}{d}\\cdot qh_{2}$，联立解得 $\\Delta E_{p} = -\\frac{m_{0}gh_{2}(h_{1} + h_{2})}{h_{1}}$。\n\n（3）油滴 B 与油滴 A 合并后，新油滴的质量为 $2m_{0}$，新油滴所受电场力 $F' = \\frac{Uq}{d} = \\frac{m_{0}g(h_{1} + h_{2})}{h_{1}}$。若 $F' > 2m_{0}g$，即 $h_{2} > h_{1}$，可知 $v_{2} > v_{1}$，新油滴速度方向向上，设向上为正方向，根据动量守恒定律 $m_{0}v_{2} - m_{0}v_{1} = 2m_{0}v_{\\text{共}}$，可得 $v_{\\text{共}} > 0$。新油滴向上加速，达到平衡时 $2m_{0}g + k(2m_{0})^{\\frac{1}{3}}v_{\\text{共}} = F'$，解得速度大小为 $v_{\\text{共}} = \\frac{h_{2} - h_{1}}{\\sqrt[3]{2}t}$，速度方向向上；\n\n若 $F' < 2m_{0}g$，即 $h_{2} < h_{1}$，可知 $v_{2} < v_{1}$，设向下为正方向，根据动量守恒定律 $m_{0}v_{1} - m_{0}v_{2} = 2m_{0}v_{\\text{共}}'$，可知 $v_{\\text{共}}' > 0$。新油滴向下加速，达到平衡时 $2m_{0}g = F' + k(2m_{0})^{\\frac{1}{3}}v_{\\text{共}}'$，解得速度大小为 $v_{\\text{共}}' = \\frac{h_{1} - h_{2}}{\\sqrt[3]{2}t}$，速度方向向下。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "（1）利用空调将热量从温度较低的室内传递到温度较高的室外环境，这个过程 ______ （选填“是”或“不是”）自发过程。该过程空调消耗了电能，空调排放到室外环境的热量 ______ （选填“大于”、“等于”或“小于”）从室内吸收的热量。\n\n（2）玻璃瓶可作为测量水深的简易装置。如图所示，潜水员在水面上将 $80\\,\\mathrm{mL}$ 水装入容积为 $380\\,\\mathrm{mL}$ 的玻璃瓶中，拧紧瓶盖后带入水底，倒置瓶身，打开瓶盖，让水进入瓶中，稳定后测得瓶内水的体积为 $230\\,\\mathrm{mL}$。将瓶内气体视为理想气体，全程气体不泄漏且温度不变。大气压强 $p_{0}$ 取 $1.0\\times10^{5}\\,\\mathrm{Pa}$，重力加速度 $g$ 取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，水的密度 $\\rho$ 取 $1.0\\times10^{3}\\,\\mathrm{kg}/\\mathrm{m}^3$。求水底的压强 $p$ 和水的深度 $h$。\n\n![物理配图](assets/2022/physics/广东/15.png)",
+      "figures": [
+        "assets/2022/physics/广东/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "$p = 2.0\\times10^{5}\\,\\mathrm{Pa}$，$h = 10\\,\\mathrm{m}$",
+        "sub_answers": [
+          "不是",
+          "大于"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）空调将热量从温度低的室内传递到温度较高的室外，这个过程要消耗电能，不是自发的过程；\n\n（2）由于空调的压缩机做功，使得空调排放到室外环境的热量大于从室内吸收的热量。\n\n对瓶中所封的气体，由玻意耳定律可知 $p_{0}V_{0} = pV$，即 $1.0\\times10^{5}\\times(380 - 80) = p\\times(380 - 230)$，解得 $p = 2.0\\times10^{5}\\,\\mathrm{Pa}$。根据 $p = p_{0} + \\rho gh$，解得 $h = 10\\,\\mathrm{m}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-广东-q16",
+      "number": 16,
+      "section": "计算题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 750,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "（1）如图所示，某同学握住软绳的一端周期性上下抖动，在绳上激发了一列简谐波。从图示时刻开始计时，经过半个周期，绳上 M 处的质点将运动至 ______ （选填“N”、“P”或“Q”）处。加快抖动，波的频率增大，波速 ______ （选填“增大”、“减小”或“不变”）。\n\n![物理配图](assets/2022/physics/广东/16a.png)\n\n（2）一个水平放置的圆柱形罐体内装了一半的透明液体，液体上方是空气，其截面如图所示。一激光器从罐体底部 P 点沿着罐体的内壁向上移动，它所发出的光束始终指向圆心 O 点。当光束与竖直方向成 $45{}^\\circ$ 角时，恰好观察不到从液体表面射向空气的折射光束。已知光在空气中的传播速度为 $c$，求液体的折射率 $n$ 和激光在液体中的传播速度 $v$。\n\n![物理配图](assets/2022/physics/广东/16b.png)",
+      "figures": [
+        "assets/2022/physics/广东/16a.png",
+        "assets/2022/physics/广东/16b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "$n = \\sqrt{2}$，$v = \\frac{\\sqrt{2}}{2}c$",
+        "sub_answers": [
+          "P",
+          "不变"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）经过半个周期，波向右传播半个波长，而 M 点只在平衡位置附近上下振动，恰好运动到最低点 P 点。\n\n（2）波速是由介质决定的，与频率无关，波的频率增大，而波速仍保持不变。\n\n当入射角达到 $45{}^\\circ$ 时，恰好到达临界角 $C$，根据 $\\sin C = \\frac{1}{n}$，可得液体的折射率 $n = \\frac{1}{\\sin C} = \\frac{1}{\\sin 45{}^\\circ} = \\sqrt{2}$。由于 $n = \\frac{c}{v}$，可知激光在液体中的传播速度 $v = \\frac{c}{n} = \\frac{\\sqrt{2}}{2}c$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

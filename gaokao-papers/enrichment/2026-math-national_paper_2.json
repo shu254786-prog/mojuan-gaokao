@@ -1,0 +1,468 @@
+{
+  "2026-math-national_paper_2-q01": {
+    "topics": ["复数运算", "完全平方公式"],
+    "takeaway": "复数 $(a+b\\mathrm{i})^2 = (a^2-b^2) + 2ab\\mathrm{i}$：实部平方差，虚部两倍积，永远别忘 $\\mathrm{i}^2=-1$。",
+    "pitfall": "$(-3\\mathrm{i})^2 = 9\\mathrm{i}^2 = -9$，不要错写成 $+9$。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 套用 $(a-b)^2$ 口诀替换 $\\mathrm{i}^2$",
+        "tier": "intuition",
+        "badge": "零门槛起步",
+        "audience": "基础巩固",
+        "time_save": "10 秒必拿分",
+        "content_md": "先按初中完全平方展开：$1^2 - 2\\cdot 1\\cdot 3\\mathrm{i} + (3\\mathrm{i})^2 = 1 - 6\\mathrm{i} + 9\\mathrm{i}^2$。\n\n接着只要把 $\\mathrm{i}^2$ 换成 $-1$，得 $1 - 9 - 6\\mathrm{i} = -8 - 6\\mathrm{i}$，选 B。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 虚部符号一秒定正负",
+        "tier": "fast",
+        "badge": "5秒口算",
+        "audience": "全水平通用",
+        "time_save": "一眼秒选",
+        "content_md": "口算平方：$1^2 - 3^2 = -8$（立刻排除 C、D），中间交叉项 $-2\\times 1\\times 3\\mathrm{i} = -6\\mathrm{i}$（立刻排除 A），直接选 B。"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q02": {
+    "topics": ["集合交集", "根式方程"],
+    "takeaway": "求交集 $A\\cap B$ 时，如果集合 $A$ 只有几个具体数字，根本不用解集合 $B$ 的方程——把 $A$ 里的数逐个代进 $B$ 的条件里“验身”最快！",
+    "pitfall": "若直接解方程 $\\sqrt{x}=x$，记得算术平方根非负（$x\\ge 0$）；直接代入检验则天然避开增根陷阱。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 哪个数开平方还等于它自己？",
+        "tier": "intuition",
+        "badge": "直接验算",
+        "audience": "基础巩固",
+        "time_save": "10 秒零出错",
+        "content_md": "直接拿 $A=\\{0,1,3,6,9\\}$ 里的 5 个数去检验 $\\sqrt{x}=x$：\n- $\\sqrt{0}=0$ ✓\n- $\\sqrt{1}=1$ ✓\n- $\\sqrt{3}\\ne 3, \\sqrt{6}\\ne 6, \\sqrt{9}=3\\ne 9$ ✗\n\n所以公共元素就是 $\\{0,1\\}$，选 A。"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q03": {
+    "topics": ["平面向量", "数量积与极化恒等式"],
+    "takeaway": "只要同时见到 $|\\boldsymbol{a}+\\boldsymbol{b}|$ 和 $|\\boldsymbol{a}-\\boldsymbol{b}|$，立刻调用“极化恒等式”：$\\boldsymbol{a}\\cdot\\boldsymbol{b} = \\frac{|\\boldsymbol{a}+\\boldsymbol{b}|^2 - |\\boldsymbol{a}-\\boldsymbol{b}|^2}{4}$！",
+    "pitfall": "分母是 $4$ 而不是 $2$！因为 $(|\\boldsymbol{a}+\\boldsymbol{b}|^2 - |\\boldsymbol{a}-\\boldsymbol{b}|^2) = 4\\boldsymbol{a}\\cdot\\boldsymbol{b}$。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 看到模长就先平方拆括号",
+        "tier": "intuition",
+        "badge": "万能第一反应",
+        "audience": "基础/中等生",
+        "time_save": "稳拿 5 分",
+        "content_md": "向量加减带绝对值（模长）算不了，见模就平方：\n\n$|\\boldsymbol{a}+\\boldsymbol{b}|^2 = \\boldsymbol{a}^2+\\boldsymbol{b}^2+2\\boldsymbol{a}\\cdot\\boldsymbol{b}=1$\n\n$|\\boldsymbol{a}-\\boldsymbol{b}|^2 = \\boldsymbol{a}^2+\\boldsymbol{b}^2-2\\boldsymbol{a}\\cdot\\boldsymbol{b}=3$\n\n两式一相减，$\\boldsymbol{a}^2+\\boldsymbol{b}^2$ 全消掉了，只剩 $4\\boldsymbol{a}\\cdot\\boldsymbol{b}=-2 \\Rightarrow \\boldsymbol{a}\\cdot\\boldsymbol{b}=-\\frac{1}{2}$。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 极化恒等式 3 秒口算",
+        "tier": "fast",
+        "badge": "3秒秒杀",
+        "audience": "全水平必背二级结论",
+        "time_save": "免去展开消元",
+        "content_md": "直接套极化恒等式：\n$$\n\\boldsymbol{a}\\cdot\\boldsymbol{b}=\\frac{|\\boldsymbol{a}+\\boldsymbol{b}|^2-|\\boldsymbol{a}-\\boldsymbol{b}|^2}{4}=\\frac{1-3}{4}=-\\frac{1}{2}\n$$\n（几何验证：以 $\\boldsymbol{a},\\boldsymbol{b}$ 为邻边的平行四边形两条对角线长为 $1$ 和 $\\sqrt{3}$ 且不相等，夹角必为钝角，故点积必为负；再用平方差除以 $4$ 秒出 $-\\frac{1}{2}$，选 D。）"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q04": {
+    "topics": ["双曲线", "渐近线方程"],
+    "takeaway": "看到双曲线经过点 $(1,0)$，一秒确定实半轴 $a=1$（右顶点）！双曲线题遇到“横过 $(m,0)$”就别傻傻把两个方程都列成二元一次，它直接送了 $a$ 的值。",
+    "pitfall": "焦点在 $x$ 轴上的双曲线渐近线是 $y=\\pm\\frac{b}{a}x$，千万别背反成 $\\pm\\frac{a}{b}x$（记住：当 $x=a$ 时 $y=b$，故斜率为 $\\frac{b}{a}$）。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · $(1,0)$ 就是右顶点，直接读出 $a=1$",
+        "tier": "intuition",
+        "badge": "抓特殊点",
+        "audience": "基础巩固",
+        "time_save": "一眼降成一元方程",
+        "content_md": "把 $(1,0)$ 代入 $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$，$y=0$ 让第二项直接消失，立刻得到 $a=1$。\n\n于是双曲线简化成 $x^2-\\frac{y^2}{b^2}=1$。再代入 $(\\frac{\\sqrt{7}}{2},3)$：$\\frac{7}{4}-\\frac{9}{b^2}=1 \\Rightarrow \\frac{9}{b^2}=\\frac{3}{4} \\Rightarrow b^2=12 \\Rightarrow b=2\\sqrt{3}$。渐近线 $y=\\pm 2\\sqrt{3}x$。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 比较点斜率极限一秒排 C、D",
+        "tier": "fast",
+        "badge": "图像排异检验",
+        "audience": "防记反 $\\frac{b}{a}$ 与 $\\frac{a}{b}$",
+        "time_save": "确保零反斜率错误",
+        "content_md": "双曲线在右支点 $(\\frac{\\sqrt{7}}{2},3)$ 的连线斜率为 $\\frac{3}{\\sqrt{7}/2} \\approx \\frac{6}{2.65} > 2$，而双曲线右支恒处于渐近线 $y=\\frac{b}{a}x$ 的**下方**（$y < \\frac{b}{a}x$），所以渐近线斜率一定 $> \\frac{6}{\\sqrt{7}} > 2$！\n\n立刻淘汰小于 $1$ 的 C、D；再算 $\\frac{9}{b^2}=\\frac{3}{4}\\Rightarrow b=2\\sqrt{3}$，选 B。"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q05": {
+    "topics": ["立体几何", "棱台体积与相似比速算"],
+    "takeaway": "只要棱台上下底面相似（且边长比为 $a:b$），体积公式里的 $\\sqrt{S_1 S_2}$ 就是乘积系数 $ab$！不必算出两遍根号面积再开方，直接把比例因子 $\\frac{\\sqrt{3}}{2}$ 提出来计算 $a^2+ab+b^2$ 即可。",
+    "pitfall": "注意菱形内角 $60^\\circ$ 的面积是 $a^2\\sin 60^\\circ=\\frac{\\sqrt{3}}{2}a^2$，不要误当成正三角形公式 $\\frac{\\sqrt{3}}{4}a^2$（菱形是**两个**正三角形拼成的！）。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 菱形拆成两个等边三角形",
+        "tier": "intuition",
+        "badge": "防记错公式",
+        "audience": "基础/中等生",
+        "time_save": "绝不漏乘 2",
+        "content_md": "内角为 $60^\\circ$ 的菱形沿着短对角线切开，正好是**两个**全等的等边三角形。\n\n边长为 $a$ 的等边三角形面积是 $\\frac{\\sqrt{3}}{4}a^2$，两个就是 $\\frac{\\sqrt{3}}{2}a^2$。\n\n代入棱台公式 $V=\\frac{h}{3}(S_1+S_2+\\sqrt{S_1S_2})$，注意 $\\sqrt{S_1S_2}=\\frac{\\sqrt{3}}{2}ab$（中截面边长是 $2\\times 3$ 的几何平均），算得 $V=\\frac{19}{2}$。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 提公因式 $(a^2+ab+b^2)$ 10秒心算",
+        "tier": "fast",
+        "badge": "10秒口算",
+        "audience": "全水平强推",
+        "time_save": "告别根号繁算",
+        "content_md": "把每项都有的面积系数 $k=\\frac{\\sqrt{3}}{2}$ 提前：\n$$\nV = \\frac{h}{3} \\cdot k(a^2+ab+b^2) = \\frac{\\sqrt{3}}{3} \\cdot \\frac{\\sqrt{3}}{2} \\cdot (2^2 + 2\\times 3 + 3^2) = \\frac{1}{2}\\times 19 = \\frac{19}{2}\n$$\n两个 $\\sqrt{3}$ 相乘直接凑成 $3$ 约掉分母，10 秒锁定 D！"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q06": {
+    "topics": ["排列组合", "分组分配问题"],
+    "takeaway": "有限制条件的小规模分组题，“绑死同组的人”和“拆开不同组的人”先后定好坑位，剩下的自由人只填一次组合数即可，最怕重复除以组数！",
+    "pitfall": "注意 $A,B$ 两组是**有编号的不同组**（不是无标号均分），所以甲乙选 $A$ 还是选 $B$ 有 $2$ 种选择，最后不需要除以 $2$。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 盯住 A 组要填哪 4 个人就行",
+        "tier": "intuition",
+        "badge": "单组视角消歧义",
+        "audience": "易在分组除法混淆的同学",
+        "time_save": "绝对不会重算或漏除",
+        "content_md": "既然分为明确的 $A$ 组和 $B$ 组（每组 $4$ 人），只要把 **$A$ 组名单**定下来，剩下 $4$ 个人自动去 $B$ 组，完全不用再去算 $B$ 组！\n\n我们来给 $A$ 组挑人（要挑 $4$ 人）：\n1. 甲乙必须同组 $\\Rightarrow$ 要么**全进 $A$ 组**（还差 $2$ 个空位），要么**全不去 $A$ 组**（$A$ 组还有 $4$ 个空位）；\n2. 丙丁不同组 $\\Rightarrow$ 丙丁里**恰有 $1$ 人进 $A$ 组**（$C_2^1=2$ 种）；\n3. 剩下从其余 $4$ 名普通员工里补齐 $A$ 组空位：\n   - 若甲乙都在 $A$ 组：$A$ 组已有 $3$ 人（甲乙+丙/丁），只需再从 $4$ 人选 $1$ 人，$C_4^1=4$，共 $2\\times 4=8$ 种；\n   - 若甲乙都不在 $A$ 组：$A$ 组已有 $1$ 人（丙/丁），再从 $4$ 人选 $3$ 人，$C_4^3=4$，共 $2\\times 4=8$ 种。\n\n合计 $8+8=16$ 种，选 C。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 绑架法 + 对称填坑 $2\\times 2\\times C_4^1$",
+        "tier": "fast",
+        "badge": "5秒口算",
+        "audience": "全水平通用",
+        "time_save": "一步到位",
+        "content_md": "一步接一步安排：\n- 第 1 步：把“甲乙捆绑包”丢进 $A$ 或 $B$（$2$ 种）；\n- 第 2 步：甲乙所在组已经占了 $2$ 个坑，剩 $2$ 个坑。先把丙丁挑 $1$ 个塞进这一组（$2$ 种），另一个自动去对面组；\n- 第 3 步：甲乙所在组只剩最后 $1$ 个坑，从剩下 $4$ 人里挑 $1$ 个（$4$ 种），其余 $3$ 人自动补满另一组。\n\n乘法原理：$2\\times 2\\times 4=16$ 种！"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q07": {
+    "topics": ["三角恒等变换", "象限符号与齐次化"],
+    "takeaway": "第二象限角 $\\alpha$ 天然附带“$\\sin\\alpha>0,\\ \\cos\\alpha<0$”，而且看到含 $\\sin 2\\alpha,\\cos 2\\alpha$ 的方程先用倍角化同名，立刻得到 $\\sin\\alpha,\\cos\\alpha$。",
+    "pitfall": "算出 $\\cos^2\\alpha=\\frac{4}{5}$ 后，务必看题干“第二象限角”，取 $\\cos\\alpha=-\\frac{2}{\\sqrt{5}}$（负号！）、$\\sin\\alpha=\\frac{1}{\\sqrt{5}}$（正号！），切忌全取正值。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 先用倍角公式消掉 $2\\alpha$",
+        "tier": "intuition",
+        "badge": "稳妥流水线",
+        "audience": "基础巩固",
+        "time_save": "不易算错",
+        "content_md": "左边有 $\\sin 2\\alpha=2\\sin\\alpha\\cos\\alpha$，代进去后两边都有 $\\sin\\alpha$（第二象限 $\\sin\\alpha\\ne 0$），约掉它！\n\n方程一下子变成只含 $\\cos\\alpha$ 的一元方程：$3\\cos^2\\alpha=4(2\\cos^2\\alpha-1) \\Rightarrow \\cos^2\\alpha=\\frac{4}{5}$。结合第二象限画个“$1, 2, \\sqrt{5}$”直角三角形加符号即可。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 约分比例技巧直出 $\\frac{1}{2}$",
+        "tier": "fast",
+        "badge": "巧算免分母有理化",
+        "audience": "全水平适用",
+        "time_save": "省去繁杂根号化简",
+        "content_md": "由 $\\cos^2\\alpha=\\frac{4}{5}$ 且在第二象限，用“$1$-$2$-$\\sqrt{5}$ 三角形”得 $\\cos\\alpha=-2\\sin\\alpha$！\n\n**妙用这个倍数关系直接代入所求分式**：\n$$\n\\frac{1+\\sin\\alpha}{2-\\cos\\alpha} = \\frac{1+\\sin\\alpha}{2+2\\sin\\alpha} = \\frac{1}{2}\n$$\n不用开任何根号 $\\sqrt{5}$！$1+\\sin\\alpha$ 与 $2+2\\sin\\alpha$ 上下直接整项约分出 $\\frac{1}{2}$，选 C！"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q08": {
+    "topics": ["函数性质综合", "偶函数对称性与周期性"],
+    "takeaway": "看到偶函数 $f(-x)=f(x)$ 与反周期关系 $f(x)+f(x-2)=0$ 联手：一方面立刻推出 $f(x)$ 是周期为 $4$ 的函数且关于 $(1,0)$ 中心对称；另一方面把已知区间 $[\\frac{3}{2},3]$ 内的 $x=2$ 直接对照偶函数性质即可算出对称轴！",
+    "pitfall": "利用对称性找二次函数 $x^2+ax+b$ 的对称轴时，务必确认所取对称点的自变量都落在了已给解析式的区间 $[\\frac{3}{2},3]$ 内！",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 找两个落在 $[\\frac{3}{2},3]$ 内的特殊点",
+        "tier": "intuition",
+        "badge": "特值代入",
+        "audience": "基础/中等生",
+        "time_save": "防周期推晕",
+        "content_md": "只有两件东西要找：$a$ 和 $b$。因此只要找到区间 $[\\frac{3}{2},3]$ 里两个好算的点：\n1. $x=1$ 处：$f(1)+f(-1)=0$，又偶函数 $f(-1)=f(1) \\Rightarrow f(1)=0$。再用递推式 $f(3)+f(1)=0 \\Rightarrow f(3)=0$（因为 $3\\in[\\frac{3}{2},3]$！）；\n2. 想再找一点？看 $x=\\frac{3}{2}$ 和 $x=\\frac{5}{2}$ 到 $2$ 等距！因为 $f(x)$ 关于 $x=2$ 对称吗？用 $f(\\frac{5}{2})=-f(\\frac{1}{2})=-f(-\\frac{1}{2})=f(\\frac{3}{2})$！两处函数值相等说明对称轴是 $x=\\frac{3/2+5/2}{2}=2$。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 图像对称性秒杀二次函数两参数",
+        "tier": "fast",
+        "badge": "10秒口算",
+        "audience": "冲刺提速",
+        "time_save": "约省 90 秒",
+        "content_md": "口诀：**偶函数 $+ f(x+2)=-f(x) \\implies$ 周期 $T=4$、且关于 $x=2$ 轴对称、关于 $x=1,3$ 零点**！\n\n区间 $[\\frac{3}{2},3]$ 恰在对称轴 $x=2$ 两侧：\n1. 由偶函数在 $x=2$ 对称 $\\Rightarrow$ 抛物线对称轴 $x=-\\frac{a}{2}=2 \\implies a=-4$！\n2. 由 $f(3)=-f(1)=0$，或者利用对称轴 $x=2$ 处的两根之和为 $4$、且一根是 $3$ $\\implies$ 另一根是 $1$！故 $x^2-4x+b=(x-1)(x-3)=x^2-4x+3 \\implies b=3$。\n\n10 秒心算 $a=-4,\\ b=3$，选 D！"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q09": {
+    "topics": ["圆与圆的位置关系", "公共弦所在直线方程"],
+    "takeaway": "求两圆公共弦所在直线，把两个都化为 $x^2+y^2+\\dots=0$ 形式（保证二次项系数均为 $1$）直接相减，永远不要把常数项搬错边！",
+    "pitfall": "圆的一般方程 $x^2+y^2+Dx+Ey+F=0$ 的圆心是 $(-\\frac{D}{2},-\\frac{E}{2})$，记住必须变号！另外相交弦方程直接作差时，别把 $x^2+y^2=1$ 错看成 $x^2+y^2=2$。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 配方定圆心半径，作差出弦",
+        "tier": "intuition",
+        "badge": "稳拿全分",
+        "audience": "基础巩固",
+        "time_save": "逐项秒判",
+        "content_md": "把 $\\odot A$ 配方成 $(x-3)^2+(y-4)^2=25-k$，圆心 $A(3,4)$（A 项说 $(-3,-4)$ 错），且圆心距 $OA=\\sqrt{3^2+4^2}=5$（经典的 $3,4,5$！）。\n\n- B：$k=9 \\Rightarrow r=\\sqrt{16}=4$，正好等于圆心纵坐标 $4$，与 $x$ 轴相切，对；\n- C：$k=-11 \\Rightarrow r=\\sqrt{36}=6$，因为 $r_A-r_O=6-1=5=OA$，两圆**内切**，对；\n- D：两式 $(x^2+y^2-1)-(x^2+y^2-6x-8y+k)=0 \\Rightarrow 6x+8y-k-1=0$，常数是 $-1$ 不是 $-2$，错。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 看原点距 $5$ 与作差常数项一秒排 A、D",
+        "tier": "fast",
+        "badge": "10秒快判",
+        "audience": "全水平适用",
+        "time_save": "秒排干扰项",
+        "content_md": "心算圆心半系数相反数得 $A(3,4)$（直接杀 A）；作差看常数项：右边 $1$ 与 $-k$ 消二次项后只得 $6x+8y-k-1=0$（直接杀 D）。剩下的 B、C 只验 $r=4$ 和 $r=6$（正好与 $5\\pm 1$ 匹配），秒选 BC。"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q10": {
+    "topics": ["等比数列", "线性递推与交替放缩"],
+    "takeaway": "等比数列只要相邻三项满足齐次方程（如 $2a_{n+2}=a_{n+1}+a_n$），那么它的前 $n$ 项和差分后也继承几乎同结构的二阶递推关系！别忘了正负交替数列在偶/奇项摆动，极值常在前 2 项里藏反例。",
+    "pitfall": "看到 D 项中的 $\\sum_{k=1}^n S_k > \\frac{2na_1}{3}$ 很容易和 B 项 $S_n > \\frac{2a_1}{3}$ 混淆：单项虽然在平均线 $\\frac{2a_1}{3}$ 上下震荡，但正偏量 $(+\\frac{1}{2})^1$ 在前且更大，所以**累计和恒落在平均线上方**！",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 写出前几项的具体数值试探（$a_1=1$）",
+        "tier": "intuition",
+        "badge": "特值试探神技",
+        "audience": "基础/中等生",
+        "time_save": "15秒看清全部选项真假",
+        "content_md": "题设 $a_1>0$ 没限定具体数字，直接设 $a_1=1$！\n\n由 $2q^2-q-1=0 \\ (q\\ne 1)$ 得 $q=-\\frac{1}{2}$（A 对）。数列各项为：\n$a_1=1,\\ a_2=-\\frac{1}{2},\\ a_3=\\frac{1}{4},\\ a_4=-\\frac{1}{8},\\ \\dots$\n\n前 $n$ 项和 $S_n$ 依次为：\n$S_1=1,\\ S_2=\\frac{1}{2},\\ S_3=\\frac{3}{4},\\ S_4=\\frac{5}{8},\\ \\dots$\n\n对照均值标杆 $\\frac{2a_1}{3}=\\frac{2}{3}\\approx 0.667$：\n- B：$S_2=0.5 < 0.667$，立刻举出反例淘汰 B！\n- C：算前几项：$2S_3=1.5$，而 $S_2+S_1=0.5+1=1.5$；$2S_4=1.25$，而 $S_3+S_2=0.75+0.5=1.25$！再证明也很直观；\n- D：看平均：$S_1=1$ 比 $\\frac{2}{3}$ 高 $+\\frac{1}{3}$，$S_2=\\frac{1}{2}$ 比 $\\frac{2}{3}$ 低 $-\\frac{1}{6}$，两两一组永远净赚正数！"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 用 $S_n$ 递推证明 C 项，配对证明 D 项（免求和公式）",
+        "tier": "fast",
+        "badge": "免求和公式秒证",
+        "audience": "高分提速",
+        "time_save": "约省 2 分钟",
+        "content_md": "不必展开通项写 $(-\\frac{1}{2})^n$，直接对递推关系做文章：\n1. **秒证 C**：已知对任意项都有 $2a_{k+2}=a_{k+1}+a_k$。两边同时用递推定义：$S_{n+2}=a_1+\\frac{1}{2}\\sum_{k=1}^{n+1} a_{k+1}$？更简单！因为 $2(S_{n+2}-S_1)=\\sum_{k=1}^{n+1}2a_{k+1}=\\sum_{k=1}^{n+1}(a_k+a_{k-1})$... 更绝的是用错位相减关系 $S_{n+1}=a_1 + q S_n = a_1 - \\frac{1}{2}S_n \\implies 2S_{n+1}+S_n=2a_1$（常数！）。既然 $2S_{n+1}+S_n$ 和 $2S_{n+2}+S_{n+1}$ 都等于 $2a_1$，两式相等移项就得 $2S_{n+2}=S_{n+1}+S_n$！C 瞬间秒证！\n2. **秒看 D**：由 $2S_{k+1}+S_k=2a_1$ 立刻知道 $S_k - \\frac{2}{3}a_1$ 是公比为 $-\\frac{1}{2}$、首项为 $+\\frac{1}{3}a_1>0$ 的等比数列！首项为正、公比在 $(-1,0)$ 内的等比数列前 $n$ 项和**永远为正**（奇数正项总压过后面的负项），因此 $\\sum_{k=1}^n (S_k - \\frac{2}{3}a_1) > 0$，D 秒对！"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q11": {
+    "topics": ["抛物线", "切线、夹角与点线最值"],
+    "takeaway": "等边三角形顶点在直线与抛物线上且要面积最小 $\\iff$ 点 $A$ 到直线距离（即高）最小 $\\iff$ 抛物线在 $A$ 处的切线平行于直线 $l$！用“平行切线找最近点”比配方二次函数更有几何统摄力。",
+    "pitfall": "C 选项极易受“抛物线切线光学性质（切线与焦点半径等角）”诱导而盲选！必须实测切点 $B(1,2\\sqrt{2})$ 与焦点 $F(2,0)$ 连线斜率，或用光学反射角算出直线 $BF$ 与切线夹角并不是 $60^\\circ$。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 动三角形面积最小，等价于点 A 离直线 l 最近",
+        "tier": "intuition",
+        "badge": "问题转化",
+        "audience": "中等生破题",
+        "time_save": "把等边三角形简化成点到直线距离",
+        "content_md": "B、C 两点可以在直线 $l$ 上随便选，所以只要点 $A$ 定下来，总能以 $A$ 为顶点往下放角度各 $60^\\circ$ 的两条射线在 $l$ 上截出正三角形 $ABC$！\n\n因此，要想让正三角形 $ABC$ 面积最小，只需让它的高——也就是抛物线上的点 $A$ 到直线 $l$ 的距离 $d$ 最小。由等边三角形高 $d$ 与面积关系：$S=\\frac{d^2}{\\sqrt{3}}$，题目就彻底简化成“求抛物线上到已知直线最近的点”。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 切线斜率公式秒算 C 项反驳与 D 项最近点",
+        "tier": "fast",
+        "badge": "导数切线秒杀",
+        "audience": "冲刺提速",
+        "time_save": "约省 2 分钟",
+        "content_md": "对 $y^2=8x$ 两边对 $y$ 求导，得斜率 $k_{\\text{切}}=\\frac{\\mathrm{d}y}{\\mathrm{d}x}=\\frac{4}{y}$：\n1. **秒算 D 最近点**：当 $l$ 斜率 $k=2$ 时，最近点 $A$ 处切线平行于 $l$，即 $\\frac{4}{y_A}=2 \\implies y_A=2$，立即得 $A(\\frac{1}{2},2)$！点 $A$ 到 $2x-y+2=0$ 距离 $d_{\\min}=\\frac{|1-2+2|}{\\sqrt{5}}=\\frac{1}{\\sqrt{5}}$，面积 $S_{\\min}=\\frac{1}{5\\sqrt{3}}=\\frac{\\sqrt{3}}{15}$，D 秒对；\n2. **秒判 C 项**：过 $(-1,0)$ 与抛物线相切，由抛物线切线交 $x$ 轴性质，切点横坐标与截距互为相反数 $\\implies x_B=1,\\ y_B=2\\sqrt{2}$，此时切线斜率 $k=\\frac{4}{2\\sqrt{2}}=\\sqrt{2}$（同时证明了 B：$k>\\sqrt{2}$ 时相离！）。直线 $BF$ 斜率 $\\frac{0-2\\sqrt{2}}{2-1}=-2\\sqrt{2}$，切线与 $BF$ 夹角正切值 $\\left|\\frac{\\sqrt{2}-(-2\\sqrt{2})}{1+\\sqrt{2}(-2\\sqrt{2})}\\right|=\\sqrt{2}\\ne\\sqrt{3}$，故不是 $60^\\circ$，C 错。"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q12": {
+    "topics": ["等差数列", "通项与求和"],
+    "takeaway": "求等差数列前 $6$ 项和 $S_6$，最稳的速算法不是背 $na_1+\\frac{n(n-1)}{2}d$，而是用对称配对公式：$S_6 = 3(a_3 + a_4)$（或 $3(a_1+a_6)$）。",
+    "pitfall": "口算 $d=\\frac{5-(-1)}{2}=3$ 后，别把 $a_6$ 算成 $a_1+6d$（应该是 $a_1+5d=14$）。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 直接写出前 6 项加起来",
+        "tier": "intuition",
+        "badge": "零公式依赖",
+        "audience": "基础巩固",
+        "time_save": "15秒稳对",
+        "content_md": "从 $a_1=-1$ 跳两步到 $a_3=5$，一共加了 $6$，所以每一步公差是 $3$。\n\n直接写出 $6$ 项：$-1, 2, 5, 8, 11, 14$。首尾配对凑 $13$：$(-1+14)+(2+11)+(5+8)=13\\times 3=39$。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 中间两项配对 $3(a_3+a_4)$",
+        "tier": "fast",
+        "badge": "5秒口算",
+        "audience": "全水平通用",
+        "time_save": "最快心算",
+        "content_md": "由 $d=\\frac{5-(-1)}{2}=3$，直接看中间两项：$a_3=5,\\ a_4=5+3=8$。\n\n故 $S_6 = 3(a_3+a_4) = 3\\times(5+8)=39$。"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q13": {
+    "topics": ["函数零点", "均值不等式与双勾函数"],
+    "takeaway": "遇到 $a^x + a^{c-x} = m$ 类型的两个零点问题，直接利用均值不等式与图像“V/U型双勾对称”：$t=a^x>0$ 与 $x$ 严格一一对应，所以 $x$ 有两解等价于 $t$ 有两个不同正解，即 $m > \\text{最小值}$。",
+    "pitfall": "当 $m=4$ 时只有 $1$ 个零点（重根 $x=1$），题目问“有两个零点”，区间左端点必须是**开区间** $(4,+\\infty)$，千万不能写成闭区间 $[4,+\\infty)$！",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 换元 $t=2^x$ 变成“对勾函数”交点",
+        "tier": "intuition",
+        "badge": "熟悉模型",
+        "audience": "基础/中等生",
+        "time_save": "一秒联想到对勾函数",
+        "content_md": "方程 $2^x + 2^{2-x} = m$ 里既有 $2^x$ 又有 $\\frac{4}{2^x}$，太适合换元了！\n\n设 $t=2^x>0$，函数变成经典的对勾函数 $y=t+\\frac{4}{t}\\ (t>0)$：先降到最低点（在 $t=2$ 时取到 $4$），再往右往无穷大上升。\n\n水平线 $y=m$ 必须架在最低点 $4$ 的**正上方**才能切出两个交点，所以 $m>4$。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 对称轴 $x=1$ 最低点秒杀",
+        "tier": "fast",
+        "badge": "5秒口算",
+        "audience": "全水平通用",
+        "time_save": "不用换元直接看",
+        "content_md": "注意到 $h(x)=2^x+2^{2-x}$ 满足 $h(2-x)=h(x)$，它天然是一条关于 $x=1$ 轴对称、开口向上（下凸）的对称曲线！\n\n最低点就在对称轴 $x=1$ 处：$h_{\\min}=h(1)=2^1+2^1=4$。只要 $m>4$，水平线必左右各交一点，共两个零点，填 $(4,+\\infty)$。"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q14": {
+    "topics": ["立体几何", "球内接正三棱锥截面"],
+    "takeaway": "求顶点在球上且三条侧棱相等的正三棱锥的底面大小，千万别硬设三维球面坐标 $(x,y,z)$，只要画出“过球心 $O$、顶点 $D$ 和底面一个顶点 $A$”的**大圆轴截面**，立刻退化成高中平面几何！",
+    "pitfall": "看清球体积给出的是 $4\\sqrt{3}\\pi$，解 $\\frac{4}{3}\\pi R^3=4\\sqrt{3}\\pi$ 时，两边同乘 $\\frac{3}{4\\pi}$ 得 $R^3=3\\sqrt{3}=(\\sqrt{3})^3$，故 $R=\\sqrt{3}$。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 画出过球心的纵切面 $\\triangle ODA$",
+        "tier": "intuition",
+        "badge": "降成平面几何",
+        "audience": "空间解析几何薄弱同学",
+        "time_save": "省去联立方程",
+        "content_md": "由体积先得球半径 $R=\\sqrt{3}$。\n\n因为 $DA=DB=DC=\\sqrt{2}$ 且 $\\triangle ABC$ 是正三角形，所以球心 $O$ 一定在底面正三角形中心垂线上（即高线 $DO_1$ 所在直线上），而底面外接圆半径 $r=O_1A$ 就是点 $A$ 到高线 $DO$ 的垂线段长度！\n\n在平面三角形 $\\triangle ODA$ 中：两边 $OD=OA=R=\\sqrt{3}$，第三边 $DA=\\sqrt{2}$，要求的就是 $A$ 到 $OD$ 边上的高 $r$！这就彻底变成解平面三角形了。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 轴截面余弦定理 3 行直接出 $r^2=\\frac{5}{3}$",
+        "tier": "fast",
+        "badge": "20秒口算面积",
+        "audience": "全水平强推",
+        "time_save": "约省 2 分钟",
+        "content_md": "在等腰三角形 $\\triangle ODA$ 中（$OD=OA=\\sqrt{3},\\ DA=\\sqrt{2}$），作底边 $DA$ 上的高（斜边中垂线，连球心和 $DA$ 中点 $M$）：\n- 立刻由直角三角形得 $\\cos\\angle ODA = \\frac{\\sqrt{2}/2}{\\sqrt{3}} = \\frac{1}{\\sqrt{6}}$！\n- 于是底面外接圆半径平方：\n$$\nr^2 = (DA\\sin\\angle ODA)^2 = 2\\cdot\\left(1-\\frac{1}{6}\\right) = \\frac{5}{3}\n$$\n- 内接于半径为 $r$ 的圆的等边三角形边长 $a=\\sqrt{3}r$，直接代面积：\n$$\nS_{\\triangle ABC} = \\frac{\\sqrt{3}}{4}a^2 = \\frac{3\\sqrt{3}}{4}r^2 = \\frac{3\\sqrt{3}}{4}\\cdot\\frac{5}{3} = \\frac{5\\sqrt{3}}{4}\n$$"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q15": {
+    "topics": ["统计概率", "频率分布直方图与二项分布"],
+    "takeaway": "求直方图的四分位数或中位数时，牢记：**面积（矩形高 $\\times$ 组距）才是频率，组距通常直接是 $10$**，切勿直接拿矩形高度 $0.025$ 当成频率。",
+    "pitfall": "二项分布方差公式 $D(X)=np(1-p)$ 中最容易漏掉 $(1-p)=0.85$；另外注意题目要求“第一四分位数”（$25\\%$ 分位点）而不是“上四分位数”（$75\\%$）。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 先用一张草稿表写出所有组的频率与累计频率",
+        "tier": "intuition",
+        "badge": "防看错柱子高度",
+        "audience": "基础巩固",
+        "time_save": "一次算对全部小问",
+        "content_md": "做直方图大题先别急，在草稿纸上顺着柱子从左到右写下“每组频率（高 $\\times 10$）”和“到这组结束时的累计频率”：\n- 第1组：$0.05$（累计 $0.05$）\n- 第2组：$0.10$（累计 $0.15$） $\\leftarrow$ 正好就是小于 $365$ 天的 $\\hat{p}$！\n- 第3组：$0.20$（累计 $0.35$） $\\leftarrow$ 越过 $0.25$，第一四分位数在此组！\n- 第4组：$0.25$（累计 $0.60$） $\\leftarrow$ 越过 $0.50$，中位数在此组！\n\n第（1）问用“还差多少频率 $\\div$ 本组频率 $\\times$ 组距 $10$”比例分配即可，极其稳定。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 组内比例分配法避免密度除法",
+        "tier": "fast",
+        "badge": "比例心算防小数点错位",
+        "audience": "全水平通用",
+        "time_save": "免小数除法失误",
+        "content_md": "不用拿频率差除以频率密度（$0.020$ 这种多位小数容易看错零），直接按组内占该组总频率的比例切组距 $10$：\n- 第一四分位数落在第3组（占 $0.20$），需在组内走过 $0.25-0.15=0.10$，正好是该组一半（$\\frac{0.10}{0.20}=\\frac{1}{2}$），走过 $10\\times\\frac{1}{2}=5$，得 $365+5=370$；\n- 中位数落在第4组（占 $0.25$），需走过 $0.50-0.35=0.15$，占该组 $\\frac{0.15}{0.25}=\\frac{3}{5}$，走过 $10\\times\\frac{3}{5}=6$，得 $375+6=381$。"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q16": {
+    "topics": ["立体几何", "线面垂直与线面角"],
+    "takeaway": "看到 $AE\\perp CE,\\ AE\\perp DE$ 立刻锁定 $AE$ 就是整个三棱锥的垂直高（$AE\\perp$ 底面 $CED$），这让建系坐标天然把 $A$ 放在正 $z$ 轴上，极好计算。",
+    "pitfall": "注意第（1）问要说清楚“因为 $E\\in BD$，所以 $B,D,E$ 共线，从而 $AB\\subset \\text{平面}AED$”，否则逻辑缺一环容易被扣步骤分。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 顺着“两对垂直”拼出平面与建系原点",
+        "tier": "intuition",
+        "badge": "零卡壳建模",
+        "audience": "基础/中等生",
+        "time_save": "坐标全为简单常数",
+        "content_md": "1. 先看 $AE$ 同时垂直于 $CE$ 和 $DE$，说明 $AE$ 像柱子一样**垂直插在底面 $BCD$ 上**；\n2. 于是以脚点 $E$ 做原点，沿着 $ED$ 作 $x$ 轴、$AE$ 作 $z$ 轴，把 $A(0,0,\\sqrt{2}), D(2,0,0), B(-1,0,0)$ 坐标直接抄出来；\n3. 利用第（1）问已证的 $CD\\perp AD$，一秒解出 $C$ 的横坐标也是 $2$（和 $D$ 一样！即 $\\triangle CDE$ 在 $D$ 处是个直角！），从而确定 $C(2,2\\sqrt{3},0)$。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 等体积法求点 $D$ 到平面 $ABC$ 距离（免算叉积与法向量）",
+        "tier": "fast",
+        "badge": "几何免法向量",
+        "audience": "怕向量叉积算错的同学",
+        "time_save": "约省 2 分钟算力",
+        "content_md": "第（2）问求线面角正弦值 $\\sin\\theta = \\frac{d_{D\\to ABC}}{AD}$，只需算出 $D$ 到平面 $ABC$ 的距离 $h$，甚至不用求法向量！\n\n由第（1）问，$AE\\perp$ 底面 $BCD$ 且 $CD\\perp DE$：\n1. 在底面直角 $\\triangle BCD$ 中，$BD=3,\\ CD=2\\sqrt{3}$，故 $S_{\\triangle BCD}=\\frac{1}{2}\\times 3\\times 2\\sqrt{3}=3\\sqrt{3}$，三棱锥体积 $V=\\frac{1}{3}S_{\\triangle BCD}\\cdot AE = \\frac{1}{3}\\cdot 3\\sqrt{3}\\cdot\\sqrt{2}=\\sqrt{6}$；\n2. 求 $\\triangle ABC$ 三边（利用 $CD\\perp$ 平面 $ABE$，故 $CD\\perp BC$ 还是……注意是 $CD\\perp$ 平面 $ABD$！所以 $CD\\perp AB$）：\n   - 在平面 $ABD$ 中算得 $AB=\\sqrt{1^2+2}=\\sqrt{3}$，$AD=\\sqrt{4+2}=\\sqrt{6}$，$BC=\\sqrt{BD^2+CD^2}=\\sqrt{9+12}=\\sqrt{21}$，$AC=\\sqrt{AD^2+CD^2}=\\sqrt{6+12}=3\\sqrt{2}$；\n   - 验证 $AB^2+AC^2=3+18=21=BC^2$，居然是 $\\angle BAC=90^\\circ$ 的直角三角形！（因为 $CD\\perp AB$ 且 $AD\\perp CD$...其实由 $CE=\\sqrt{4+12}=4,\\ AE=\\sqrt{2} \\Rightarrow AC=3\\sqrt{2}$）\n   - 于是 $S_{\\triangle ABC}=\\frac{1}{2}AB\\cdot AC = \\frac{1}{2}\\sqrt{3}\\cdot 3\\sqrt{2} = \\frac{3\\sqrt{6}}{2}$；\n3. 由等体积 $\\frac{1}{3}S_{\\triangle ABC}\\cdot h = \\sqrt{6} \\implies h = 2$。\n\n最后 $\\sin\\theta = \\frac{h}{AD} = \\frac{2}{\\sqrt{6}} = \\frac{\\sqrt{6}}{3}$！"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q17": {
+    "topics": ["解三角形", "三角恒等变换与余弦定理"],
+    "takeaway": "在三角形中同时出现 $\\cos^2(A+C)+\\sin A\\sin C=1$ 与周长求值时，尽量利用“$\\sin^2 B = \\sin A\\sin C$”（几何中项特征！）以及正余弦定理的纯边长形式 $b^2=ac$，比用半角公式和差化积更不容易写错！",
+    "pitfall": "第（1）问中算出 $\\cos(A-C)=\\frac{1}{8}<\\frac{3}{4}=\\cos B$ 时，一定要写明 $|A-C|\\in[0,\\pi),\\ B\\in(0,\\pi)$ 且 $y=\\cos x$ 在 $(0,\\pi)$ 单调递减，所以才能推得 $|A-C|>B$。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 看到 $\\cos^2(A+C)+\\sin A\\sin C=1$ 立刻化出 $b^2=ac$",
+        "tier": "intuition",
+        "badge": "一秒发现等比中项",
+        "audience": "基础/中等生",
+        "time_save": "避免复杂三角半角变换",
+        "content_md": "因为 $A+C=\\pi-B$，所以 $\\cos^2(A+C)=\\cos^2 B$。\n\n那么 $1-\\cos^2(A+C)$ 不就是 $\\sin^2 B$ 吗！\n\n条件直接告诉你 $\\sin^2 B = \\sin A\\sin C$！再用正弦定理边角互化，马上得到一个极其优美的边长关系：$b^2 = ac$（三边成等比数列）！第（2）问的周长立刻有方向了。"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · $b^2=ac$ 配余弦定理 4 行秒杀两问",
+        "tier": "fast",
+        "badge": "零半角公式秒杀",
+        "audience": "全水平强推",
+        "time_save": "约省 3 分钟计算",
+        "content_md": "先记核心转化：由 $\\cos^2(A+C)+\\sin A\\sin C=1 \\implies \\sin^2 B=\\sin A\\sin C \\implies b^2=ac$！\n\n- **秒破（2）求周长**：\n  由 $\\cos B=\\frac{3}{4}>0$ 得 $\\sin B=\\frac{\\sqrt{7}}{4}$。\n  由面积 $S=\\frac{1}{2}ac\\sin B=\\frac{\\sqrt{7}}{4} \\implies ac=2$。\n  因为 $b^2=ac=2$，立即得 $b=\\sqrt{2}$！\n  再对 $\\angle B$ 用余弦定理：$b^2 = a^2+c^2-2ac\\cos B \\implies 2 = (a+c)^2 - 2ac(1+\\cos B)$！\n  代入 $ac=2,\\ 1+\\cos B=\\frac{7}{4}$，立刻算出 $(a+c)^2 = 2 + 4\\cdot\\frac{7}{4} = 9 \\implies a+c=3$！\n  因此周长 $a+b+c = 3+\\sqrt{2}$！（连外接圆半径和半角公式一个都不用写！）\n\n- **辅助理解（1）**：$a^2+c^2-b^2$ 未必大于另一边的平方和，用“在 $b^2=ac$ 下（设 $a>c$），最小角只能是 $C$ 且 $a>b>c$”，直接用 $b^2=ac$ 与余弦定理算 $(a^2+b^2-c^2)$？不对，算最大角 $A$ 的对边平方与另外两边平方和：$b^2+c^2-a^2 = ac + c^2 - a^2$，由于 $c<a$ 且 $\\cos B=\\frac{3}{4}$ 给出 $\\frac{a}{c}+\\frac{c}{a}=\\frac{7}{2}$，解得 $a$ 远大于 $b,c$，$b^2+c^2<a^2$ 即证钝角！"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q18": {
+    "topics": ["解析几何", "动点轨迹与中心对称"],
+    "takeaway": "求交点轨迹题里，只要动点 $P$ 同时在过原点的射线 $OA$ 上和直线 $GB$ 上，“设共线参数 $P=\\lambda A$”比联立两条直线方程再消元快一倍，且直接导出反代公式 $A=\\frac{1}{\\lambda}P$！",
+    "pitfall": "由 $t\\ne 0$ 且题目在点 $A(x_0,y_0)\\ (y_0\\ne 0)$ 运动时求轨迹，要关注 $x=t$ 时 $\\lambda=0$ 的特例边界（此时 $GB$ 与 $OA$ 若平行则无交点，配方讨论中心时注意 $t^2=2$ 退化为抛物线，无对称中心！）。",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 看到“交点轨迹”优先用“向量比例反代”",
+        "tier": "intuition",
+        "badge": "解析几何轨迹通法",
+        "audience": "中等生破局",
+        "time_save": "避免写复杂直线方程",
+        "content_md": "点 $P(x,y)$ 落在 $OA$ 上，意味着 $O,A,P$ 三点共线：横纵坐标成同一比例 $x_0 = \\frac{x}{\\lambda},\\ y_0 = \\frac{y}{\\lambda}$。\n\n同时点 $P$ 落在 $GB$ 上，而 $G(t,0)$ 在 $x$ 轴、$B(0,y_0)$ 在 $y$ 轴，截距式就是 $\\frac{x}{t}+\\frac{y}{y_0}=1$！把 $y_0=\\frac{y}{\\lambda}$ 塞进截距式里，立刻化出 $\\frac{x}{t}+\\lambda=1 \\implies \\lambda=1-\\frac{x}{t}$。\n\n把 $\\lambda$ 代回 $x_0,y_0$ 并塞进椭圆方程，轨迹方程直接出炉！"
+      },
+      {
+        "id": "fast_1",
+        "label": "考场快解 · 二次曲线分类一看一次项二次项系数符号秒出结论",
+        "tier": "fast",
+        "badge": "秒判椭圆/双曲线/抛物线",
+        "audience": "冲刺提速",
+        "time_save": "约省 2 分钟讨论",
+        "content_md": "得出轨迹方程 $(t^2-2)x^2 + 2t^2y^2 + 4tx - 2t^2 = 0$ 后：\n\n不必等配方完成才分类，直接看 **$x^2$ 与 $y^2$ 系数**就能秒判全部情况：\n1. $y^2$ 的系数 $2t^2>0$ 恒正；\n2. 当 $t^2=2$ 时，$x^2$ 消失，方程只含 $y^2$ 与一次项 $x$，这是开口向左/右的**抛物线**，抛物线永远没有对称中心！\n3. 当 $t^2>2$ 时，$x^2, y^2$ 系数同号（均为正），且非退化（右端为正），平移消除一次项后必为**椭圆**；\n4. 当 $0<t^2<2$ 时，$x^2, y^2$ 系数异号（一负一正），必为**双曲线**。"
+      }
+    ]
+  },
+  "2026-math-national_paper_2-q19": {
+    "topics": ["导数压轴", "切线、端点效应与函数凹凸性"],
+    "takeaway": "标准解析第（3）问用了大学才学到的双曲函数 $\\cosh, \\sinh, \\coth$，其实用高中生最熟悉的**二阶导数凹凸性**与**泰勒展开/导数极限探路**，不仅能 10 秒猜出下界 $k\\ge -2$，还能不借助双曲函数严谨证明！",
+    "pitfall": "第（2）问 $g(x)=f(x+m)-f(x)-m>0$ 在 $x>0$ 恒成立，因为取不到 $x=0$，所以 $x\\to 0^+$ 时只需 $g(0^+)\\ge 0$ 即可，故端点 $m=\\ln 4$ 可以取等号（闭区间 $[\\ln 4,+\\infty)$）！",
+    "methods": [
+      {
+        "id": "intuition_1",
+        "label": "破题直觉 · 翻译第（2）（3）问的几何画面",
+        "tier": "intuition",
+        "badge": "读懂压轴题意图",
+        "audience": "基础/中等生冲刺前两问",
+        "time_save": "看穿端点效应与凹凸性",
+        "content_md": "先翻成白话：\n- 第（2）问 $f(x+m)-f(x)>m \\iff \\frac{f(x+m)-f(x)}{m}>1$（当 $m>0$）：意思是函数曲线在 $[x,x+m]$ 上的割线斜率都要 $>1$。因为当 $x\\to 0^+$ 时割线趋近 $[0,m]$ 割线，所以只需在 $x=0$ 处检验 $\\frac{f(m)-f(0)}{m}\\ge 1 \\implies m\\mathrm{e}^m-3m\\ge m \\implies \\mathrm{e}^m\\ge 4 \\implies m\\ge\\ln 4$！（这就是著名的**端点必要性探路**！）\n- 第（3）问 $f(k+x)+f(k-x)>2f(k)$（即 $\\frac{f(k+x)+f(k-x)}{2}>f(k)$）：这是高中几何里的**下凸（琴生不等式）图像特征**——区间 $[k-x,k+x]$ 两端高度的平均值永远严格高于中点 $k$ 的高度！直线 $-3x+1$ 自己满足两边平均等于中点，相互完全抵消，所以只取决于 $x\\mathrm{e}^x$ 在 $x=k$ 附近是“向下弯”还是“向上弯”！"
+      },
+      {
+        "id": "fast_1",
+        "label": "高中生完全看懂版（无双曲函数）· 二阶导数与必要性探路",
+        "tier": "fast",
+        "badge": "替代双曲函数解法",
+        "audience": "所有高中生强烈推荐",
+        "time_save": "彻底绕开 sinh/cosh/coth",
+        "content_md": "**第（3）问高中通用严格证明**：\n设 $h(x)=f(k+x)+f(k-x)-2f(k)\\ (x>0)$。注意一次项 $-3x+1$ 在 $f(k+x)+f(k-x)-2f(k)$ 中完全抵消！\n\n对 $x$ 求一阶、二阶导数：\n- $h(0)=0$\n- $h'(x) = f'(k+x)-f'(k-x)$，故 $h'(0)=0$\n- $h''(x) = f''(k+x)+f''(k-x)$\n\n先算 $f'(x)=(x+1)\\mathrm{e}^x-3$，再算 $f''(x)=(x+2)\\mathrm{e}^x$。\n\n1. **必要性（10 秒锁定 $k\\ge -2$）**：因为对一切 $x>0$ 有 $h(x)>0$，结合 $h(0)=h'(0)=0$，在 $x\\to 0^+$ 处必须满足 $h''(0)\\ge 0$！即 $2f''(k)=2(k+2)\\mathrm{e}^k\\ge 0 \\implies k\\ge -2$。（严谨高中写法：若 $k<-2$，取很小的 $x\\in(0,-k-2)$，则 $k+x<-2$ 且 $k-x<-2$，此时区间 $[k-x,k+x]$ 上恒有 $f''(t)<0$，导致 $h''(t)<0$，由单调性即得 $h(x)<0$，矛盾！）\n\n2. **充分性（当 $k\\ge -2$ 时无需双曲函数直接证 $h''(x)>0$）**：\n   $$\n   h''(x) = \\mathrm{e}^k\\left[(k+2+x)\\mathrm{e}^x + (k+2-x)\\mathrm{e}^{-x}\\right]\n   $$\n   由于 $k+2\\ge 0$，所以对任意 $x>0$：\n   $$\n   (k+2+x)\\mathrm{e}^x + (k+2-x)\\mathrm{e}^{-x} = (k+2)(\\mathrm{e}^x+\\mathrm{e}^{-x}) + x(\\mathrm{e}^x-\\mathrm{e}^{-x}) > 0\n   $$\n   （前项非负，后项因为 $x>0$ 且 $\\mathrm{e}^x>\\mathrm{e}^{-x}$ 严格大于 $0$！）\n   因此 $h''(x)>0 \\implies h'(x)>h'(0)=0 \\implies h(x)>h(0)=0$！\n\n全程零双曲函数，只用高中二阶导数，3 分钟拿满第（3）问！"
+      }
+    ]
+  }
+}

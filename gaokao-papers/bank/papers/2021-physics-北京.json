@@ -1,0 +1,964 @@
+{
+  "id": "2021-physics-北京",
+  "year": 2021,
+  "subject": "物理",
+  "region": "北京卷",
+  "region_key": "北京",
+  "format_tier": "structured_latex",
+  "question_count": 20,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2021-physics-北京-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 950,
+      "topics": [
+        "原子和原子核",
+        "人工核反应"
+      ],
+      "stem_md": "硼（B）中子俘获治疗是目前最先进的癌症治疗手段之一、治疗时先给病人注射一种含硼的药物，随后用中子照射，硼俘获中子后，产生高杀伤力的 $\\alpha$ 粒子和锂（Li）离子。这个核反应的方程是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "\\ce{^{10}_{5}B + ^{1}_{0}n -> ^{7}_{3}Li + ^{4}_{2}He}",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "\\ce{^{11}_{5}B + ^{4}_{2}He -> ^{14}_{7}N + ^{1}_{0}n}",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "\\ce{^{14}_{7}N + ^{4}_{2}He -> ^{17}_{8}O + ^{1}_{1}H}",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "\\ce{^{14}_{7}N + ^{1}_{0}n -> ^{14}_{6}C + ^{1}_{1}H}",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题知，硼俘获中子后，产生高杀伤力的 $\\alpha$ 粒子和锂（Li）离子，而 $\\alpha$ 粒子为氦原子核，则这个核反应方程为\n\n\\ce{^{10}_{5}B + ^{1}_{0}n -> ^{7}_{3}Li + ^{4}_{2}He}\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 950,
+      "topics": [
+        "光学",
+        "光的折射"
+      ],
+      "stem_md": "如图所示的平面内，光束 a 经圆心 O 射入半圆形玻璃砖，出射光为 b、c 两束单色光。下列说法正确的是（  ）\n\n![物理配图](assets/2021/physics/北京/02.png)",
+      "figures": [
+        "assets/2021/physics/北京/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "这是光的干涉现象",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在真空中光束 b 的波长大于光束 c 的波长",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "玻璃砖对光束 b 的折射率大于对光束 c 的折射率",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在玻璃砖中光束 b 的传播速度大于光束 c 的传播速度",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．光束 a 经圆心 O 射入半圆形玻璃砖，出射光为 b、c 两束单色光，这是光的色散现象，A 错误；\n\nC．由题图可知光束 c 的折射角大于光束 b 的折射角，根据折射定律可知 $n_{c} < n_{b}$，C 正确；\n\nB．由于光的折射率越大，其频率越大，波长越短，则 b 光在真空中的波长较短，B 错误；\n\nD．根据 $v = \\frac{c}{n}$ 知，c 光束的折射率小，则 c 光在棱镜中的传播速度大，D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "机械波",
+        "波的图象"
+      ],
+      "stem_md": "一列简谐横波某时刻的波形图如图所示。此后 K 质点比 L 质点先回到平衡位置。下列判断正确的是（  ）\n\n![物理配图](assets/2021/physics/北京/03.png)",
+      "figures": [
+        "assets/2021/physics/北京/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "该简谐横波沿 $x$ 轴负方向传播",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "此时 K 质点沿 $y$ 轴正方向运动",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "此时 K 质点的速度比 L 质点的小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "此时 K 质点的加速度比 L 质点的小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．由题知 K 质点比 L 质点先回到平衡位置，则 K 质点应向下振，再根据“上坡、下坡”法可知，该波应沿 $x$ 轴正方向传播，A、B 错误；\n\nC．由 AB 选项可知 K 质点应向下振，而 L 质点在波谷处，则 L 质点的速度为 0，故此时 K 质点的速度比 L 质点的大，C 错误；\n\nD．由于质点在竖直方向做机械振动，根据 $F = -ky$，$F = ma$，结合波图像可看出 $y_{L} > y_{K}$，则此时 K 质点的加速度比 L 质点的小，D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "气体性质",
+        "物体的内能"
+      ],
+      "stem_md": "比较 $45\\,{}^\\circ\\mathrm{C}$ 的热水和 $100\\,{}^\\circ\\mathrm{C}$ 的水蒸汽，下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "热水分子的平均动能比水蒸汽的大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "热水的内能比相同质量的水蒸汽的小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "热水分子的速率都比水蒸汽的小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "热水分子的热运动比水蒸汽的剧烈",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．温度是分子平均动能的标志，温度升高，分子的平均动能增大，故热水分子的平均动能比水蒸汽的小，故 A 错误；\n\nB．内能与物质的量、温度、体积有关，相同质量的热水和水蒸汽，热水变成水蒸汽，温度升高，体积增大，吸收热量，故热水的内能比相同质量的水蒸汽的小，故 B 正确；\n\nC．温度越高，分子热运动的平均速率越大，$45\\,{}^\\circ\\mathrm{C}$ 的热水中的分子平均速率比 $100\\,{}^\\circ\\mathrm{C}$ 的水蒸汽中的分子平均速率小，由于分子运动是无规则的，并不是每个分子的速率都小，故 C 错误；\n\nD．温度越高，分子热运动越剧烈，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "交流电",
+        "交流电"
+      ],
+      "stem_md": "一正弦式交变电流的 $i-t$ 图像如图所示。下列说法正确的是（  ）\n\n![物理配图](assets/2021/physics/北京/05.png)",
+      "figures": [
+        "assets/2021/physics/北京/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在 $t = 0.4\\,\\mathrm{s}$ 时电流改变方向",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "该交变电流的周期为 $0.5\\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "该交变电流的表达式为 $i = 2\\cos 5\\pi t\\,\\mathrm{A}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "该交变电流的有效值为 $\\frac{\\sqrt{2}}{2}\\,\\mathrm{A}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由图可知 $t = 0.4\\,\\mathrm{s}$ 时电流为正方向最大，电流方向没有发生变化，故 A 错误；\n\nB．由图可知，该交变电流的周期为 $T = 0.4\\,\\mathrm{s}$，故 B 错误；\n\nC．由图可知，电流的最大值为 $i_{\\max} = 2\\,\\mathrm{A}$，角速度为\n$\\omega = \\frac{2\\pi}{T} = 5\\pi\\,\\mathrm{rad}/\\mathrm{s}$\n故该交变电流的表达式为\n$i = i_{\\max}\\cos\\omega t = 2\\cos 5\\pi t\\,\\mathrm{A}$\n故 C 正确；\n\nD．该交变电流的有效值为\n$i = \\frac{i_{\\max}}{\\sqrt{2}} = \\sqrt{2}\\,\\mathrm{A}$\n故 D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "2021 年 5 月，“天问一号”探测器成功在火星软着陆，我国成为世界上第一个首次探测火星就实现“绕、落、巡”三项任务的国家。“天问一号”在火星停泊轨道运行时，近火点距离火星表面 $2.8\\times 10^{2}\\,\\mathrm{km}$、远火点距离火星表面 $5.9\\times 10^{5}\\,\\mathrm{km}$，则“天问一号”（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在近火点的加速度比远火点的小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在近火点的运行速度比远火点的小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在近火点的机械能比远火点的小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在近火点通过减速可实现绕火星做圆周运动",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据牛顿第二定律有\n$G\\frac{Mm}{r^{2}} = ma$\n解得\n$a = \\frac{GM}{r^{2}}$\n故在近火点的加速度比远火点的大，故 A 错误；\n\nB．根据开普勒第二定律，可知在近火点的运行速度比远火点的大，故 B 错误；\n\nC．“天问一号”在同一轨道，只有引力做功，则机械能守恒，故 C 错误；\n\nD．“天问一号”在近火点做的是离心运动，若要变为绕火星的圆轨道，需要减速，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "电磁感应",
+        "电磁感应能量分析"
+      ],
+      "stem_md": "如图所示，在竖直向下的匀强磁场中，水平 U 型导体框左端连接一阻值为 $R$ 的电阻，质量为 $m$、电阻为 $r$ 的导体棒 $ab$ 置于导体框上。不计导体框的电阻、导体棒与框间的摩擦。$ab$ 以水平向右的初速度 $v_{0}$ 开始运动，最终停在导体框上。在此过程中（  ）\n\n![物理配图](assets/2021/physics/北京/07.png)",
+      "figures": [
+        "assets/2021/physics/北京/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "导体棒做匀减速直线运动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "导体棒中感应电流的方向为 $a\\to b$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电阻 $R$ 消耗的总电能为 $\\frac{mv_{0}^{2}R}{2(R+r)}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "导体棒克服安培力做的总功小于 $\\frac{1}{2}mv_{0}^{2}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．导体棒向右运动，根据右手定则，可知电流方向为 b 到 a，再根据左手定则可知，导体棒受到向左的安培力，根据法拉第电磁感应定律，可得产生的感应电动势为 $E = BLv_{0}$，感应电流为\n$I = \\frac{E}{R+r} = \\frac{BLv_{0}}{R+r}$\n故安培力为\n$F = BIL = \\frac{B^{2}L^{2}v_{0}}{R+r}$\n根据牛顿第二定律有\n$F = ma$\n可得\n$a = \\frac{B^{2}L^{2}}{m(R+r)}v_{0}$\n随着速度减小，加速度不断减小，故导体棒不是做匀减速直线运动，故 AB 错误；\n\nC．根据能量守恒定律，可知回路中产生的总热量为\n$Q = \\frac{1}{2}mv_{0}^{2}$\n因 R 与 r 串联，则产生的热量与电阻成正比，则 R 产生的热量为\n$Q_{R} = \\frac{R}{R+r}Q = \\frac{mv_{0}^{2}R}{2(R+r)}$\n故 C 正确；\n\nD．整个过程只有安培力做负功，根据动能定理可知，导体棒克服安培力做的总功等于 $\\frac{1}{2}mv_{0}^{2}$，故 D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "功和能",
+        "功率"
+      ],
+      "stem_md": "如图所示，高速公路上汽车定速巡航（即保持汽车的速率不变）通过路面 abcd，其中 ab 段为平直上坡路面，bc 段为水平路面，cd 段为平直下坡路面。不考虑整个过程中空气阻力和摩擦阻力的大小变化。下列说法正确的是（  ）\n\n![物理配图](assets/2021/physics/北京/08.png)",
+      "figures": [
+        "assets/2021/physics/北京/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在 ab 段汽车的输出功率逐渐减小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "汽车在 ab 段的输出功率比 bc 段的大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在 cd 段汽车的输出功率逐渐减小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "汽车在 cd 段的输出功率比 bc 段的大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．在 ab 段，根据平衡条件可知，牵引力\n$F_{1} = mg\\sin\\theta + f$\n所以在 ab 段汽车的输出功率\n$P_{1} = F_{1}v$\n不变，在 bc 段牵引力\n$F_{2} = f$\nbc 段的输出功率\n$P_{2} = F_{2}v < P_{1}$\n故 A 错误 B 正确；\n\nCD．在 cd 段牵引力\n$F_{3} = f - mg\\sin\\theta$\n汽车的输出功率\n$P_{3} = F_{3}v < P_{2}$\n在 cd 段汽车的输出功率不变，且小于 bc 段，故 CD 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q09",
+      "number": 9,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 650,
+      "topics": [
+        "电场",
+        "电场线"
+      ],
+      "stem_md": "如图所示的平面内，有静止的等量异号点电荷，M、N 两点关于两电荷连线对称，M、P 两点关于两电荷连线的中垂线对称。下列说法正确的是（  ）\n\n![物理配图](assets/2021/physics/北京/09.svg)",
+      "figures": [
+        "assets/2021/physics/北京/09.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "M 点的场强比 P 点的场强大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "M 点的电势比 N 点的电势高",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "N 点的场强与 P 点的场强相同",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "电子在 M 点的电势能比在 P 点的电势能大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AC．根据等量异种点电荷的电场线分布得：\n\n![物理配图](assets/2021/physics/北京/09_an.png)\n\nM 点的场强与 P 点的场强大小相等，N 点的场强与 P 点的场强大小相等，方向相同，故 A 错误 C 正确；\n\nBD．根据等量异种点电荷的电势分布特点可知，M 点的电势与 N 点的电势相等，M 点的电势高于 P 点的电势，根据 $E_{p} = q\\varphi$ 可知，电子在 M 点的电势能比在 P 点的电势能小，故 BD 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2021/physics/北京/09_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q10",
+      "number": 10,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "圆周运动的应用"
+      ],
+      "stem_md": "如图所示，圆盘在水平面内以角速度 $\\omega$ 绕中心轴匀速转动，圆盘上距轴 $r$ 处的 P 点有一质量为 $m$ 的小物体随圆盘一起转动。某时刻圆盘突然停止转动，小物体由 P 点滑至圆盘上的某点停止。下列说法正确的是（  ）\n\n![物理配图](assets/2021/physics/北京/10.png)",
+      "figures": [
+        "assets/2021/physics/北京/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "圆盘停止转动前，小物体所受摩擦力的方向沿运动轨迹切线方向",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "圆盘停止转动前，小物体运动一圈所受摩擦力的冲量大小为 $2m\\omega r$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "圆盘停止转动后，小物体沿圆盘半径方向运动",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "圆盘停止转动后，小物体整个滑动过程所受摩擦力的冲量大小为 $m\\omega r$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．圆盘停止转动前，小物体随圆盘一起转动，小物体所受摩擦力提供向心力，方向沿半径方向，故 A 错误；\n\nB．圆盘停止转动前，小物体所受摩擦力\n$f = mr\\omega^{2}$\n小物体运动一圈所受摩擦力的冲量大小为\n$I = fT = mr\\omega^{2} \\times \\frac{2\\pi}{\\omega} = 2\\pi mr\\omega$\n故 B 错误；\n\nC．圆盘停止转动后，小物体沿切线方向运动，故 C 错误；\n\nD．圆盘停止转动后，根据动量定理可知，小物体整个滑动过程所受摩擦力的冲量大小为\n$I' = \\Delta p = mv = mr\\omega$\n故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q11",
+      "number": 11,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 650,
+      "topics": [
+        "电磁感应",
+        "楞次定律推广"
+      ],
+      "stem_md": "某同学搬运如图所示的磁电式电流表时，发现表针晃动剧烈且不易停止。按照老师建议，该同学在两接线柱间接一根导线后再次搬运，发现表针晃动明显减弱且能很快停止。下列说法正确的是（  ）\n\n![物理配图](assets/2021/physics/北京/11.png)",
+      "figures": [
+        "assets/2021/physics/北京/11.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "未接导线时，表针晃动过程中表内线圈不产生感应电动势",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "未接导线时，表针晃动剧烈是因为表内线圈受到安培力的作用",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "接上导线后，表针晃动过程中表内线圈不产生感应电动势",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "接上导线后，表针晃动减弱是因为表内线圈受到安培力的作用",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．未接导线时，表针晃动过程中导线切割磁感线，表内线圈会产生感应电动势，故 A 错误；\n\nB．未接导线时，未连成闭合回路，没有感应电流，所以不受安培力，故 B 错误；\n\nCD．接上导线后，表针晃动过程中表内线圈产生感应电动势，根据楞次定律可知，表针晃动减弱是因为表内线圈受到安培力的作用，故 C 错误 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q12",
+      "number": 12,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图所示，在 $xOy$ 坐标系的第一象限内存在匀强磁场。一带电粒子在 P 点以与 $x$ 轴正方向成 $60{}^\\circ$ 的方向垂直磁场射入，并恰好垂直于 $y$ 轴射出磁场。已知带电粒子质量为 $m$、电荷量为 $q$，OP $= a$。不计重力。根据上述信息可以得出（  ）\n\n![物理配图](assets/2021/physics/北京/12.png)",
+      "figures": [
+        "assets/2021/physics/北京/12.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "带电粒子在磁场中运动的轨迹方程",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "带电粒子在磁场中运动的速率",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "带电粒子在磁场中运动的时间",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "该匀强磁场的磁感应强度",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "粒子恰好垂直于 $y$ 轴射出磁场，做两速度的垂线交点为圆心 $O_{1}$，轨迹如图所示\n\nA．由几何关系可知\n$OO_{1} = a\\tan 30^\\circ = \\frac{\\sqrt{3}}{3}a$\n$R = \\frac{a}{\\cos 30^\\circ} = \\frac{2\\sqrt{3}}{3}a$\n\n![物理配图](assets/2021/physics/北京/12_an.png)\n\n因圆心的坐标为 $(0, \\frac{\\sqrt{3}}{3}a)$，则带电粒子在磁场中运动的轨迹方程为\n$x^{2} + (y - \\frac{\\sqrt{3}}{3}a)^{2} = \\frac{4}{3}a^{2}$\n故 A 正确；\n\nBD．洛伦兹力提供向心力，有\n$qvB = m\\frac{v^{2}}{R}$\n解得带电粒子在磁场中运动的速率为\n$v = \\frac{qBR}{m}$\n因轨迹圆的半径 R 可求出，但磁感应强度 B 未知，则无法求出带电粒子在磁场中运动的速率，故 BD 错误；\n\nC．带电粒子圆周的圆心角为 $\\frac{2}{3}\\pi$，而周期为\n$T = \\frac{2\\pi R}{v} = \\frac{2\\pi m}{qB}$\n则带电粒子在磁场中运动的时间为\n$t = \\frac{\\frac{2}{3}\\pi}{2\\pi}T = \\frac{2\\pi m}{3qB}$\n因磁感应强度 B 未知，则运动时间无法求得，故 C 错误；\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2021/physics/北京/12_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q13",
+      "number": 13,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "牛顿第二定律"
+      ],
+      "stem_md": "某同学使用轻弹簧、直尺钢球等制作了一个“竖直加速度测量仪”。如图所示，弹簧上端固定，在弹簧旁沿弹簧长度方向固定一直尺。不挂钢球时，弹簧下端指针位于直尺 $20\\,\\mathrm{cm}$ 刻度处；下端悬挂钢球，静止时指针位于直尺 $40\\,\\mathrm{cm}$ 刻度处。将直尺不同刻度对应的加速度标在直尺上，就可用此装置直接测量竖直方向的加速度。取竖直向上为正方向，重力加速度大小为 $g$。下列说法正确的是（  ）\n\n![物理配图](assets/2021/physics/北京/13.png)",
+      "figures": [
+        "assets/2021/physics/北京/13.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$30\\,\\mathrm{cm}$ 刻度对应的加速度为 $-0.5g$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$40\\,\\mathrm{cm}$ 刻度对应的加速度为 $g$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$50\\,\\mathrm{cm}$ 刻度对应的加速度为 $2g$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "各刻度对应加速度的值是不均匀的",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题知，不挂钢球时，弹簧下端指针位于直尺 $20\\,\\mathrm{cm}$ 刻度处，则弹簧的原长 $l_{0} = 0.2\\,\\mathrm{m}$；下端悬挂钢球，静止时指针位于直尺 $40\\,\\mathrm{cm}$ 刻度处，则根据受力平衡有\n$mg = k(l - l_{0})$\n可计算出\n$k = \\frac{mg}{0.2}$\n\nA．由分析可知，在 $30\\,\\mathrm{cm}$ 刻度时，有\n$F_{\\text{弹}} - mg = ma$（取竖直向上为正方向）\n代入数据有\n$a = -0.5g$\nA 正确；\n\nB．由分析可知，在 $40\\,\\mathrm{cm}$ 刻度时，有\n$mg = F_{\\text{弹}}$\n则 $40\\,\\mathrm{cm}$ 刻度对应的加速度为 0，B 错误；\n\nC．由分析可知，在 $50\\,\\mathrm{cm}$ 刻度时，有\n$F_{\\text{弹}} - mg = ma$（取竖直向上为正方向）\n代入数据有\n$a = 0.5g$\nC 错误；\n\nD．设刻度对应值为 $x$，结合分析可知\n$\\frac{\\frac{mg}{0.2} \\cdot \\Delta x - mg}{m} = a$，$\\Delta x = |x - 0.2|$（取竖直向上为正方向）\n经过计算有\n$a = \\frac{gx - 0.4g}{0.2}$（$x > 0.2$）或 $a = \\frac{-gx}{0.2}$（$x < 0.2$）\n根据以上分析，加速度 $a$ 与刻度对应值 $x$ 成线性关系，则各刻度对应加速度的值是均匀的，D 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q14",
+      "number": 14,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "原子和原子核",
+        "玻尔模型"
+      ],
+      "stem_md": "北京高能光源是我国首个第四代同步辐射光源，计划于 2025 年建成。同步辐射光具有光谱范围宽（从远红外到 X 光波段，波长范围约为 $10^{-5}\\,\\mathrm{m} \\sim 10^{-11}\\,\\mathrm{m}$，对应能量范围约为 $10^{-1}\\,\\mathrm{eV} \\sim 10^{5}\\,\\mathrm{eV}$）、光源亮度高、偏振性好等诸多特点，在基础科学研究、应用科学和工艺学等领域已得到广泛应用。速度接近光速的电子在磁场中偏转时，会沿圆弧轨道切线发出电磁辐射，这个现象最初是在同步加速器上观察到的，称为“同步辐射”。以接近光速运动的单个电子能量约为 $10^{9}\\,\\mathrm{eV}$，回旋一圈辐射的总能量约为 $10^{4}\\,\\mathrm{eV}$。下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "同步辐射的机理与氢原子发光的机理一样",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "用同步辐射光照射氢原子，不能使氢原子电离",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "蛋白质分子的线度约为 $10^{-8}\\,\\mathrm{m}$，不能用同步辐射光得到其衍射图样",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "尽管向外辐射能量，但电子回旋一圈后能量不会明显减小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．同步辐射是在磁场中圆周自发辐射光能的过程，氢原子发光是先吸收能量到高能级，在回到基态时辐射光，两者的机理不同，故 A 错误；\n\nB．用同步辐射光照射氢原子，总能量约为 $10^{4}\\,\\mathrm{eV}$ 大于电离能 $13.6\\,\\mathrm{eV}$，则氢原子可以电离，故 B 错误；\n\nC．同步辐射光的波长范围约为 $10^{-5}\\,\\mathrm{m} \\sim 10^{-11}\\,\\mathrm{m}$，与蛋白质分子的线度约为 $10^{-8}\\,\\mathrm{m}$ 差不多，故能发生明显的衍射，故 C 错误；\n\nD．以接近光速运动的单个电子能量约为 $10^{9}\\,\\mathrm{eV}$，回旋一圈辐射的总能量约为 $10^{4}\\,\\mathrm{eV}$，则电子回旋一圈后能量不会明显减小，故 D 正确；\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q15",
+      "number": 15,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "验证牛顿第二定律"
+      ],
+      "stem_md": "物理实验一般都涉及实验目的、实验原理、实验仪器、实验方法、实验操作、数据分析等。例如：\n\n（1）实验仪器。用游标卡尺测某金属管的内径，示数如图 [2021北京15a] 所示。则该金属管的内径为  ______  $\\,\\mathrm{mm}$。\n\n\t\n\n![物理配图](assets/2021/physics/北京/15a.png)\n（2）数据分析。打点计时器在随物体做匀变速直线运动的纸带上打点，其中一部分如图 [2021北京15b] 所示，B、C、D 为纸带上标出的连续 3 个计数点，相邻计数点之间还有 4 个计时点没有标出。打点计时器接在频率为 $50\\,\\mathrm{Hz}$ 的交流电源上。则打 C 点时，纸带运动的速度 $v_{C} =$  ______  $\\,\\mathrm{m}/\\mathrm{s}$（结果保留小数点后两位）。\n\n\t\n\n![物理配图](assets/2021/physics/北京/15b.png)\n（3）实验原理。图 [2021北京15c] 为“探究加速度与力的关系”的实验装置示意图。认为桶和砂所受的重力等于使小车做匀加速直线运动的合力。实验中平衡了摩擦力后，要求桶和砂的总质量 $m$ 比小车质量 $M$ 小得多。请分析说明这个要求的理由。\n\n\t\n\n![物理配图](assets/2021/physics/北京/15c.png)",
+      "figures": [
+        "assets/2021/physics/北京/15a.png",
+        "assets/2021/physics/北京/15b.png",
+        "assets/2021/physics/北京/15c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）31.4\n（2）0.44\n（3）设绳的拉力为 $T$，小车运动的加速度为 $a$。对桶和砂，有 $mg - T = ma$；对小车，有 $T = Ma$。得 $T = \\frac{M}{M + m}mg$。小车受到细绳的拉力 $T$ 等于小车受到的合力 $F$，即 $F = \\frac{M}{M + m}mg = \\frac{1}{1 + \\frac{m}{M}}mg$。可见，只有桶和砂的总质量 $m$ 比小车质量 $M$ 小得多时，才能认为桶和砂所受的重力 $mg$ 等于使小车做匀加速直线运动的合力 $F$。",
+        "sub_answers": [
+          "31.4",
+          "0.44"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据游标卡尺的读数规则有\n$3.1\\,\\mathrm{cm} + 4 \\times 0.1\\,\\mathrm{mm} = 31.4\\,\\mathrm{mm}$\n\n（2）每隔 4 个点取一个点作为计数点，故两计数点间有 5 个间隔；故两点间的时间间隔为\n$T = 5 \\times 0.02\\,\\mathrm{s} = 0.1\\,\\mathrm{s}$\n匀变速直线运动中时间中点的速度等于该过程中的平均速度，则有\n$v_{C} = \\frac{x_{BD}}{2T} = 0.44\\,\\mathrm{m}/\\mathrm{s}$\n\n（3）设绳的拉力为 $T$，小车运动的加速度为 $a$。对桶和砂，有 $mg - T = ma$；对小车，有 $T = Ma$。得 $T = \\frac{M}{M + m}mg$。小车受到细绳的拉力 $T$ 等于小车受到的合力 $F$，即 $F = \\frac{M}{M + m}mg = \\frac{1}{1 + \\frac{m}{M}}mg$。可见，只有桶和砂的总质量 $m$ 比小车质量 $M$ 小得多时，才能认为桶和砂所受的重力 $mg$ 等于使小车做匀加速直线运动的合力 $F$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q16",
+      "number": 16,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 10,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "电阻定律"
+      ],
+      "stem_md": "在“测量金属丝的电阻率”实验中，某同学用电流表和电压表测量一金属丝的电阻。\n\n（1）该同学先用欧姆表“$\\times 1$”挡粗测该金属丝的电阻，示数如图 [2021北京16a] 所示，对应的读数是  ______  $\\,\\Omega$。\n\n\t\n\n![物理配图](assets/2021/physics/北京/16a.png)\n（2）除电源（电动势 $3.0\\,\\mathrm{V}$，内阻不计）、电压表（量程 $0\\sim 3\\,\\mathrm{V}$，内阻约 $3\\,\\mathrm{k}\\Omega$）、开关、导线若干外，还提供如下实验器材：\n\n\tA．电流表（量程 $0\\sim 0.6\\,\\mathrm{A}$，内阻约 $0.1\\,\\Omega$）\n\n\tB．电流表（量程 $0\\sim 3.0\\,\\mathrm{A}$，内阻约 $0.02\\,\\Omega$）\n\n\tC．滑动变阻器（最大阻值 $10\\,\\Omega$，额定电流 $2\\,\\mathrm{A}$）\n\n\tD．滑动变阻器（最大阻值 $1\\,\\mathrm{k}\\Omega$，额定电流 $0.5\\,\\mathrm{A}$）\n\n\t为了调节方便、测量准确，实验中电流表应选用  ______ ，滑动变阻器应选用  ______ 。（选填实验器材前对应的字母）\n（3）该同学测量金属丝两端的电压 $U$ 和通过金属丝的电流 $I$，得到多组数据，并在坐标图上标出，如图 [2021北京16b] 所示。请作出该金属丝的 $U-I$ 图线，根据图线得出该金属丝电阻 $R =$  ______  $\\,\\Omega$（结果保留小数点后两位）。\n\n\t\n\n![物理配图](assets/2021/physics/北京/16b.png)\n（4）用电流传感器测量通过定值电阻的电流，电流随时间变化的图线如图 [2021北京16c] 所示。将定值电阻替换为小灯泡，电流随时间变化的图线如图 [2021北京16d] 所示，请分析说明小灯泡的电流为什么随时间呈现这样的变化。\n\n\t\n\n![物理配图](assets/2021/physics/北京/16c.png) ![物理配图](assets/2021/physics/北京/16d.png)",
+      "figures": [
+        "assets/2021/physics/北京/16a.png",
+        "assets/2021/physics/北京/16b.png",
+        "assets/2021/physics/北京/16c.png",
+        "assets/2021/physics/北京/16d.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）6\n（2）A，C\n（3）5.80\n（4）刚闭合开关时，灯丝温度较低，电阻较小，电流较大；随着灯丝温度升高，电阻逐渐增大，电流逐渐减小；当灯丝发热与散热平衡时，温度不变，电阻不变，电流保持不变。",
+        "sub_answers": [
+          "6",
+          "A",
+          "C",
+          "5.80"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）将选择开关调节到“$\\times 1\\,\\Omega$”，由图 1 可知，金属丝的电阻 $R_{x} = 6 \\times 1\\,\\Omega = 6\\,\\Omega$\n\n（2）由题知，电源电动势为 $3\\,\\mathrm{V}$，则回路中的最大电流为\n$I_{\\max} = \\frac{E}{R_{x}} = \\frac{3}{6}\\,\\mathrm{A} = 0.5\\,\\mathrm{A}$\n故电流表选 A；为了调节方便、测量准确，滑动变阻器要选最大阻值小的，故选 C；\n\n（3）将描出的点用直线连接，即可得 $U-I$ 图线，则有\n\n![物理配图](assets/2021/physics/北京/16_an.png)\n\n取 $(0.3\\,\\mathrm{A}, 1.75\\,\\mathrm{V})$，可得\n$R = \\frac{1.75}{0.3}\\,\\Omega = 5.80\\,\\Omega$\n\n（4）刚闭合开关时，灯丝温度较低，电阻较小，电流较大；随着灯丝温度升高，电阻逐渐增大，电流逐渐减小；当灯丝发热与散热平衡时，温度不变，电阻不变，电流保持不变。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2021/physics/北京/16_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q17",
+      "number": 17,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 9,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "平抛运动"
+      ],
+      "stem_md": "如图所示，小物块 A、B 的质量均为 $m = 0.10\\,\\mathrm{kg}$，B 静止在轨道水平段的末端。A 以水平速度 $v_{0}$ 与 B 碰撞，碰后两物块粘在一起水平抛出。抛出点距离水平地面的竖直高度为 $h = 0.45\\,\\mathrm{m}$，两物块落地点距离轨道末端的水平距离为 $s = 0.30\\,\\mathrm{m}$，取重力加速度 $g = 10\\,\\mathrm{m}/\\mathrm{s}^2$。求：\n\n（1）两物块在空中运动的时间 $t$；\n（2）两物块碰前 A 的速度 $v_{0}$ 的大小；\n（3）两物块碰撞过程中损失的机械能 $\\Delta E$。\n\n![物理配图](assets/2021/physics/北京/17.png)",
+      "figures": [
+        "assets/2021/physics/北京/17.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$0.30\\,\\mathrm{s}$\n（2）$2.0\\,\\mathrm{m}/\\mathrm{s}$\n（3）$0.10\\,\\mathrm{J}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）竖直方向为自由落体运动，由\n$h = \\frac{1}{2}gt^{2}$\n得\n$t = 0.30\\,\\mathrm{s}$\n\n（2）设 A、B 碰后速度为 $v$，水平方向为匀速运动，由\n$s = vt$\n得\n$v = 1.0\\,\\mathrm{m}/\\mathrm{s}$\n根据动量守恒定律，由\n$mv_{0} = 2mv$\n得\n$v_{0} = 2.0\\,\\mathrm{m}/\\mathrm{s}$\n\n（3）两物体碰撞过程中损失的机械能\n$\\Delta E = \\frac{1}{2}mv_{0}^{2} - \\frac{1}{2}\\cdot 2mv^{2}$\n得\n$\\Delta E = 0.10\\,\\mathrm{J}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q18",
+      "number": 18,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 9,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图所示，M 为粒子加速器；N 为速度选择器，两平行导体板之间有方向相互垂直的匀强电场和匀强磁场，磁场的方向垂直纸面向里，磁感应强度为 $B$。从 S 点释放一初速度为 0、质量为 $m$、电荷量为 $q$ 的带正电粒子，经 M 加速后恰能以速度 $v$ 沿直线（图中平行于导体板的虚线）通过 N。不计重力。\n\n（1）求粒子加速器 M 的加速电压 $U$；\n（2）求速度选择器 N 两板间的电场强度 $E$ 的大小和方向；\n（3）仍从 S 点释放另一初速度为 0、质量为 $2m$、电荷量为 $q$ 的带正电粒子，离开 N 时粒子偏离图中虚线的距离为 $d$，求该粒子离开 N 时的动能 $E_{k}$。\n\n![物理配图](assets/2021/physics/北京/18.png)",
+      "figures": [
+        "assets/2021/physics/北京/18.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$U = \\frac{mv^{2}}{2q}$\n（2）$E = vB$，方向垂直导体板向下\n（3）$E_{k} = \\frac{1}{2}mv^{2} + qBvd$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）粒子直线加速，根据功能关系有\n$qU = \\frac{1}{2}mv^{2}$\n解得\n$U = \\frac{mv^{2}}{2q}$\n\n（2）速度选择器中电场力与洛伦兹力平衡\n$Eq = qvB$\n得\n$E = vB$\n方向垂直导体板向下。\n\n（3）粒子在全程电场力做正功，根据功能关系有\n$E_{k} = qU + Eqd$\n解得\n$E_{k} = \\frac{1}{2}mv^{2} + qBvd$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q19",
+      "number": 19,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 10,
+      "difficulty": 550,
+      "topics": [
+        "其他",
+        "物理思想"
+      ],
+      "stem_md": "类比是研究问题的常用方法。\n\n（1）情境 1：物体从静止开始下落，除受到重力作用外，还受到一个与运动方向相反的空气阻力 $f = kv$（$k$ 为常量）的作用。其速率 $v$ 随时间 $t$ 的变化规律可用方程 $G - kv = m\\frac{\\Delta v}{\\Delta t}$（①式）描述，其中 $m$ 为物体质量，$G$ 为其重力。求物体下落的最大速率 $v_{\\mathrm{m}}$。\n（2）情境 2：如图 [2021北京19a] 所示，电源电动势为 $E$，线圈自感系数为 $L$，电路中的总电阻为 $R$。闭合开关 S，发现电路中电流 $I$ 随时间 $t$ 的变化规律与情境 1 中物体速率 $v$ 随时间 $t$ 的变化规律类似。类比①式，写出电流 $I$ 随时间 $t$ 变化的方程；并在图 [2021北京19b] 中定性画出 $I-t$ 图线。\n\n\t\n\n![物理配图](assets/2021/physics/北京/19a.png) ![物理配图](assets/2021/physics/北京/19b.png)\n（3）类比情境 1 和情境 2 中的能量转化情况，完成下表。\n\n\t\n\t\n<table class=\"exam-table\"><tr><th>情境 1</th><th>情境 2</th></tr><tr><td>物体重力势能的减少量</td><td></td></tr><tr><td>物体动能的增加量</td><td></td></tr><tr><td></td><td>电阻 $R$ 上消耗的电能</td></tr></table>",
+      "figures": [
+        "assets/2021/physics/北京/19a.png",
+        "assets/2021/physics/北京/19b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$v_{\\mathrm{m}} = \\frac{G}{k}$\n（2）$E - RI = L\\frac{\\Delta I}{\\Delta t}$\n（3）电源提供的电能，线圈磁场能的增加量，克服阻力做功消耗的机械能"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）当物体下落速度达到最大速度 $v_{\\mathrm{m}}$ 时，加速度为零，有\n$G = kv_{\\mathrm{m}}$\n得 $v_{\\mathrm{m}} = \\frac{G}{k}$\n\n（2）A．由闭合电路的欧姆定律有\n$E - RI = L\\frac{\\Delta I}{\\Delta t}$\n\nB．由自感规律可知，线圈产生的自感电动势阻碍电流，使它逐渐变大，电路稳定后自感现象消失，$I-t$ 图线如答图 2\n\n![物理配图](assets/2021/physics/北京/19_an.png)\n\n（3）各种能量转化的规律如图所示\n\n<table class=\"exam-table\"><tr><th>情境 1</th><th>情境 2</th></tr><tr><td></td><td>电源提供的电能</td></tr><tr><td></td><td>线圈磁场能的增加量</td></tr><tr><td>克服阻力做功消耗的机械能</td><td></td></tr></table>"
+        }
+      ],
+      "solution_figures": [
+        "assets/2021/physics/北京/19_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-北京-q20",
+      "number": 20,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 12,
+      "difficulty": 450,
+      "topics": [
+        "曲线运动",
+        "竖直平面圆周运动"
+      ],
+      "stem_md": "秋千由踏板和绳构成，人在秋千上的摆动过程可以简化为单摆的摆动，等效“摆球”的质量为 $m$，人蹲在踏板上时摆长为 $l_{1}$，人站立时摆长为 $l_{2}$。不计空气阻力，重力加速度大小为 $g$。\n\n（1）如果摆长为 $l_{1}$，“摆球”通过最低点时的速度为 $v$，求此时“摆球”受到拉力 $T$ 的大小。\n（2）在没有别人帮助的情况下，人可以通过在低处站起、在高处蹲下的方式使“摆球”摆得越来越高。\n\n\t\n  （i）人蹲在踏板上从最大摆角 $\\theta_{1}$ 开始运动，到最低点时突然站起，此后保持站立姿势摆到另一边的最大摆角为 $\\theta_{2}$。假定人在最低点站起前后“摆球”摆动速度大小不变，通过计算证明 $\\theta_{2} > \\theta_{1}$。\n  （ii）实际上人在最低点快速站起后“摆球”摆动速度的大小会增大。随着摆动越来越高，达到某个最大摆角 $\\theta$ 后，如果再次经过最低点时，通过一次站起并保持站立姿势就能实现在竖直平面内做完整的圆周运动，求在最低点“摆球”增加的动能 $\\Delta E_{k}$ 应满足的条件。",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$T = mg + m\\frac{v^{2}}{l_{1}}$\n（2）A．$\\theta_{2} > \\theta_{1}$；B．$\\Delta E_{k} \\geqslant \\frac{5}{2}mgl_{2} - mgl_{1}(1 - \\cos\\theta)$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据牛顿运动定律\n$T - mg = m\\frac{v^{2}}{l_{1}}$\n解得\n$T = mg + m\\frac{v^{2}}{l_{1}}$\n\n（2）A．设人在最低点站起前后“摆球”的摆动速度大小分别为 $v_{1}$、$v_{2}$，根据功能关系得\n$mgl_{1}(1 - \\cos\\theta_{1}) = \\frac{1}{2}mv_{1}^{2}$\n$mgl_{2}(1 - \\cos\\theta_{2}) = \\frac{1}{2}mv_{2}^{2}$\n已知 $v_{1} = v_{2}$，得\n$mgl_{1}(1 - \\cos\\theta_{1}) = mgl_{2}(1 - \\cos\\theta_{2})$\n因为 $l_{1} > l_{2}$，得\n$\\cos\\theta_{1} > \\cos\\theta_{2}$\n所以\n$\\theta_{2} > \\theta_{1}$\n\nB．设“摆球”由最大摆角 $\\theta$ 摆至最低点时动能为 $E_{k}$，根据功能关系得\n$E_{k} = mgl_{1}(1 - \\cos\\theta)$\n“摆球”在竖直平面内做完整的圆周运动，通过最高点最小速度为 $v_{\\mathrm{m}}$，根据牛顿运动定律得\n$mg = m\\frac{v_{\\mathrm{m}}^{2}}{l_{2}}$\n“摆球”在竖直平面内做完整的圆周运动，根据功能关系得\n$E_{k} + \\Delta E_{k} \\geq 2mgl_{2} + \\frac{1}{2}mv_{\\mathrm{m}}^{2}$\n得\n$\\Delta E_{k} \\geqslant \\frac{5}{2}mgl_{2} - mgl_{1}(1 - \\cos\\theta)$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

@@ -1,0 +1,900 @@
+{
+  "id": "2023-physics-海南",
+  "year": 2023,
+  "subject": "物理",
+  "region": "海南卷",
+  "region_key": "海南",
+  "format_tier": "structured_latex",
+  "question_count": 18,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2023-physics-海南-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 950,
+      "topics": [
+        "原子和原子核",
+        "天然放射性"
+      ],
+      "stem_md": "钍元素衰变时会放出 $\\beta$ 粒子，其中 $\\beta$ 粒子是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "中子",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "质子",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电子",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "光子",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "放射性元素衰变时放出的三种射线 $\\alpha$、$\\beta$、$\\gamma$ 分别是氦核流、电子流和光子流。\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "磁场",
+        "洛伦兹力"
+      ],
+      "stem_md": "如图所示，带正电的小球竖直向下射入垂直纸面向里的匀强磁场，关于小球运动和受力说法正确的是（  ）\n\n![物理配图](assets/2023/physics/海南/02.png)",
+      "figures": [
+        "assets/2023/physics/海南/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "小球刚进入磁场时受到的洛伦兹力水平向右",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "小球运动过程中的速度不变",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "小球运动过程的加速度保持不变",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "小球受到的洛伦兹力对小球做正功",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据左手定则，可知小球刚进入磁场时受到的洛伦兹力水平向右，A 正确；\n\n\tBC．小球受洛伦兹力和重力的作用，则小球运动过程中速度、加速度大小，方向都在变，BC 错误；\n\n\tD．洛伦兹力永不做功，D 错误。\n\n\t故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "力物体的平衡",
+        "动态平衡"
+      ],
+      "stem_md": "如图所示，工人利用滑轮组将重物缓慢提起，下列说法正确的是（  ）\n\n![物理配图](assets/2023/physics/海南/03.png)",
+      "figures": [
+        "assets/2023/physics/海南/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "工人受到的重力和支持力是一对平衡力",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "工人对绳的拉力和绳对工人的拉力是一对作用力与反作用力",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "重物缓慢拉起过程，绳子拉力变小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "重物缓慢拉起过程，绳子拉力不变",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．对人受力分析如图，\n\n\t\n\n![物理配图](assets/2023/physics/海南/03_an1.png)\n\n\t则有 $F_{N} + F_{T} = mg$\n\n\t其中工人对绳的拉力和绳对工人的拉力是一对作用力与反作用力，A 错误、B 正确；\n\n\t\n\n![物理配图](assets/2023/physics/海南/03_an2.png)\n\n\tCD．对滑轮做受力分析如图，则有 $F_{T} = \\frac{mg}{2\\cos\\theta}$\n\n\t则随着重物缓慢拉起过程，$\\theta$ 逐渐增大，则 $F_{T}$ 逐渐增大，CD 错误。\n\n\t故选 B。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/海南/03_an1.png",
+        "assets/2023/physics/海南/03_an2.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "机械波",
+        "波与振动图象"
+      ],
+      "stem_md": "下面两图分别是一列机械波在传播方向上相距 $6 \\,\\mathrm{m}$ 的两个质点 P、Q 的振动图像，下列说法正确的是（  ）\n\n![物理配图](assets/2023/physics/海南/04a.png) ![物理配图](assets/2023/physics/海南/04b.png)",
+      "figures": [
+        "assets/2023/physics/海南/04a.png",
+        "assets/2023/physics/海南/04b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "该波的周期是 $5 \\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "该波的波速是 $3 \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "4 $\\,\\mathrm{s}$ 时 P 质点向上振动",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "4 $\\,\\mathrm{s}$ 时 Q 质点向上振动",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由振动图像可看出该波的周期是 $4 \\,\\mathrm{s}$，A 错误；\n\n\tB．由于 Q、P 两个质点振动反相，则可知两者间距离等于 $(n + \\frac{1}{2})\\lambda = 6$，$n = 0,\\ 1,\\ 2,\\ \\cdots$\n\n\t根据 $v = \\frac{\\lambda}{T} = \\frac{3}{2n + 1}$，$n = 0,\\ 1,\\ 2,\\ \\cdots$。B 错误；\n\n\tC．由 P 质点的振动图像可看出，在 $4 \\,\\mathrm{s}$ 时 P 质点在平衡位置向上振动，C 正确；\n\n\tD．由 Q 质点的振动图像可看出，在 $4 \\,\\mathrm{s}$ 时 Q 质点在平衡位置向下振动，D 错误。\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "气体性质",
+        "分子力"
+      ],
+      "stem_md": "下列关于分子力和分子势能的说法正确的是（  ）\n\n![物理配图](assets/2023/physics/海南/05.svg)",
+      "figures": [
+        "assets/2023/physics/海南/05.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "分子间距离大于 $r_{0}$ 时，分子间表现为斥力",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "分子从无限远靠近到距离 $r_{0}$ 处过程中分子势能变大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "分子势能在 $r_{0}$ 处最小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "分子间距离小于 $r_{0}$ 且减小时，分子势能在减小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "分子间距离大于 $r_{0}$，分子间表现为引力，分子从无限远靠近到距离 $r_{0}$ 处过程中，引力做正功，分子势能减小，则在 $r_{0}$ 处分子势能最小；继续减小距离，分子间表现为斥力，分子力做负功，分子势能增大。\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 650,
+      "topics": [
+        "电磁感应",
+        "楞次定律推广"
+      ],
+      "stem_md": "汽车测速利用了电磁感应现象，汽车可简化为一个矩形线圈 abcd，埋在地下的线圈分别为 1、2，通上顺时针（俯视）方向电流，当汽车经过线圈时（  ）\n\n![物理配图](assets/2023/physics/海南/06.png)",
+      "figures": [
+        "assets/2023/physics/海南/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "线圈 1、2 产生的磁场方向竖直向上",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "汽车进入线圈 1 过程产生感应电流方向为 abcd",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "汽车离开线圈 1 过程产生感应电流方向为 abcd",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "汽车进入线圈 2 过程受到的安培力方向与速度方向相同",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由题知，埋在地下的线圈 1、2 通顺时针（俯视）方向的电流，则根据右手定则，可知线圈 1、2 产生的磁场方向竖直向下，A 错误；\n\n\tB．汽车进入线圈 1 过程中，磁通量增大，根据楞次定律可知产生感应电流方向为 adcb（逆时针），B 错误；\n\n\tC．汽车离开线圈 1 过程中，磁通量减小，根据楞次定律可知产生感应电流方向为 abcd（顺时针），C 正确；\n\n\tD．汽车进入线圈 2 过程中，磁通量增大，根据楞次定律可知产生感应电流方向为 adcb（逆时针），再根据左手定则，可知汽车受到的安培力方向与速度方向相反，D 错误。\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "电路",
+        "电容"
+      ],
+      "stem_md": "如图所示电路，已知电源电动势为 $E$，内阻不计，电容器电容为 $C$，闭合开关 K，待电路稳定后，电容器上电荷量为（  ）\n\n![物理配图](assets/2023/physics/海南/07.png)",
+      "figures": [
+        "assets/2023/physics/海南/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$CE$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{1}{2} CE$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{2}{5} CE$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{3}{5} CE$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "电路稳定后，由于电源内阻不计，则整个回路可看成 $3R$、$2R$ 的串联部分与 $R$、$4R$ 的串联部分并联，若取电源负极为零电势点，则电容器上极板的电势为\n\n\t$\\varphi_{\\text{上}} = \\frac{E}{5R}\\cdot 2R = \\frac{2E}{5}$\n\n\t电容器下极板的电势为\n\n\t$\\varphi_{\\text{下}} = \\frac{E}{5R}\\cdot 4R = \\frac{4E}{5}$\n\n\t则电容两端的电压\n\n\t$U_{\\text{下上}} = \\frac{2E}{5}$\n\n\t则电容器上的电荷量为\n\n\t$Q = CU_{\\text{上下}} = \\frac{2}{5} CE$\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "带电粒子的平衡"
+      ],
+      "stem_md": "如图所示，一光滑绝缘轨道水平放置，直径上有 A、B 两点，$AO = 2 \\,\\mathrm{cm}$，$OB = 4 \\,\\mathrm{cm}$，在 AB 固定两个带电量分别为 $Q_{1}$、$Q_{2}$ 的正电荷，现有一个带正电小球静置于轨道内侧 P 点（小球可视为点电荷），已知 $AP:BP = n:1$，试求 $Q_{1}:Q_{2}$ 是多少（  ）\n\n![物理配图](assets/2023/physics/海南/08.png)",
+      "figures": [
+        "assets/2023/physics/海南/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$2n^{2}:1$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$4n^{2}:1$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$2n^{3}:1$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$4n^{3}:1$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "对小球受力分析如图所示。由正弦定理有\n\n\t$\\frac{F_{A}}{\\sin\\angle CPH} = \\frac{F_{B}}{\\sin\\angle CHP}$\n\n\t其中\n\n\t$\\angle CPH = \\angle OPB,\\ \\angle CHP = \\angle HPD = \\angle APO$\n\n\t其中 $\\triangle APO$ 中\n\n\t$\\frac{AP}{\\sin(\\pi - \\angle POB)} = \\frac{AO}{\\sin\\angle APO}$\n\n\t同理有\n\n\t$\\frac{BP}{\\sin\\angle POB} = \\frac{BO}{\\sin\\angle BPO}$\n\n\t其中\n\n\t\n\n![物理配图](assets/2023/physics/海南/08_an.png)\n\n\t$F_{A} = k\\frac{Q_{1}q}{AP^{2}},  F_{B} = k\\frac{Q_{2}q}{BP^{2}}$\n\n\t联立有\n\n\t$Q_{1}:Q_{2} = 2n^{3}:1$\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/海南/08_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "如图所示，1、2 轨道分别是天宫二号飞船在变轨前后的轨道，下列说法正确的是（  ）\n\n![物理配图](assets/2023/physics/海南/09.svg)",
+      "figures": [
+        "assets/2023/physics/海南/09.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "飞船从 1 轨道变到 2 轨道要点火加速",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "飞船在 1 轨道周期大于 2 轨道周期",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "飞船在 1 轨道速度大于 2 轨道",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "飞船在 1 轨道加速度大于 2 轨道",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "ACD",
+        "choices": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．飞船从较低的轨道 1 进入较高的轨道 2 要进行加速做离心运动才能完成，选项 A 正确；\n\n\tBCD．根据\n\n\t$G\\frac{Mm}{r^{2}} = m\\frac{v^{2}}{r} = m\\frac{4\\pi^{2}}{T^{2}}r = ma$\n\n\t可得 $a = \\frac{GM}{r^{2}}$，$v = \\sqrt{\\frac{GM}{r}}$，$T = 2\\pi\\sqrt{\\frac{r^{3}}{GM}}$\n\n\t可知飞船在轨道 1 的周期小于在轨道 2 的周期，在轨道 1 的速度大于在轨道 2 的速度，在轨道 1 的加速度大于在轨道 2 的加速度，故选项 B 错误，CD 正确。\n\n\t故选 ACD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "光学",
+        "光子说"
+      ],
+      "stem_md": "已知一个激光发射器功率为 $P$，发射波长为 $\\lambda$ 的光，光速为 $c$，普朗克常量为 $h$，则（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "光的频率为 $\\frac{c}{\\lambda}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "光子的能量为 $\\frac{h}{\\lambda}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "光子的动量为 $\\frac{h}{\\lambda}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在时间 $t$ 内激光器发射的光子数为 $\\frac{Ptc}{h\\lambda}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．光的频率 $\\nu = \\frac{c}{\\lambda}$。选项 A 正确；\n\n\tB．光子的能量 $E = h\\nu = \\frac{hc}{\\lambda}$。选项 B 错误；\n\n\tC．光子的动量 $p = \\frac{h}{\\lambda}$。选项 C 正确；\n\n\tD．在时间 $t$ 内激光器发射的光子数 $n = \\frac{Pt}{E} = \\frac{Pt\\lambda}{hc}$。选项 D 错误。\n\n\t故选 AC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q11",
+      "number": 11,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "交流电",
+        "交流电"
+      ],
+      "stem_md": "下图是工厂利用 $u = 220\\sqrt{2}\\sin 100\\pi t \\,\\mathrm{V}$ 的交流电给 $36 \\,\\mathrm{V}$ 照明灯供电的电路，变压器原线圈匝数为 1 100 匝，下列说法正确的是（  ）\n\n![物理配图](assets/2023/physics/海南/11.png)",
+      "figures": [
+        "assets/2023/physics/海南/11.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "电源电压有效值为 $220\\sqrt{2} \\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "交变电流的周期为 $0.02 \\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "副线圈匝数为 180 匝",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "副线圈匝数为 240 匝",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．电源电压的有效值 $U = \\frac{220\\sqrt{2}}{\\sqrt{2}} \\,\\mathrm{V} = 220 \\,\\mathrm{V}$。选项 A 错误；\n\n\tB．交流电的周期 $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{100\\pi} \\,\\mathrm{s} = 0.02 \\,\\mathrm{s}$。选项 B 正确；\n\n\tCD．根据 $\\frac{n_{1}}{n_{2}} = \\frac{U_{1}}{U_{2}}$ 可得副线圈匝数 $n_{2} = \\frac{U_{2}}{U_{1}} n_{1} = \\frac{36}{220} \\times 1100 = 180$ 匝。选项 C 正确，D 错误。\n\n\t故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q12",
+      "number": 12,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电场",
+        "电势能电势差电场力做功"
+      ],
+      "stem_md": "如图所示，正三角形三个顶点固定三个等量电荷，其中 A、B 带正电，C 带负电，O、M、N 为 AB 边的四等分点，下列说法正确的是（  ）\n\n![物理配图](assets/2023/physics/海南/12.png)",
+      "figures": [
+        "assets/2023/physics/海南/12.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "M、N 两点电场强度相同",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "M、N 两点电势相同",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "负电荷在 M 点电势能比在 O 点时要小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "负电荷在 N 点电势能比在 O 点时要大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据场强叠加以及对称性可知，MN 两点的场强大小相同，但是方向不同，选项 A 错误；\n\n\tB．因在 AB 处的正电荷在 MN 两点的合电势相等，在 C 点的负电荷在 MN 两点的电势也相等，则 MN 两点电势相等，选项 B 正确；\n\n\tCD．因负电荷从 M 到 O，因 AB 两电荷的合力对负电荷的库仑力从 O 指向 M，则该力对负电荷做负功，C 点的负电荷也对该负电荷做负功，可知三个电荷对该负电荷的合力对其做负功，则该负电荷的电势能增加，即负电荷在 M 点的电势能比在 O 点小；同理可知负电荷在 N 点的电势能比在 O 点小。选项 C 正确，D 错误。\n\n\t故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q13",
+      "number": 13,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "磁场",
+        "带电粒子在组合场中的运动"
+      ],
+      "stem_md": "如图所示，质量为 $m$，带电量为 $+q$ 的点电荷，从原点以初速度 $v_{0}$ 射入第一象限内的电磁场区域，在 $0 < y < y_{0}$，$0 < x < x_{0}$（$x_{0}$、$y_{0}$ 为已知）区域内有竖直向上的匀强电场，在 $x > x_{0}$ 区域内有垂直纸面向里的匀强磁场，控制电场强度（$E$ 值有多种可能），可让粒子从 NP 射入磁场后偏转打到接收器 MN 上，则（  ）\n\n![物理配图](assets/2023/physics/海南/13.png)",
+      "figures": [
+        "assets/2023/physics/海南/13.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "粒子从 NP 中点射入磁场，电场强度满足 $E = \\frac{y_{0}mv_{0}^{2}}{qx_{0}^{2}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "粒子从 NP 中点射入磁场时速度为 $v_{0}\\sqrt{\\frac{x_{0}^{2} + y_{0}^{2}}{y_{0}^{2}}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "粒子在磁场中做圆周运动的圆心到 NM 的距离为 $\\frac{mv_{0}}{qB}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "粒子在磁场中运动的圆周半径最大值是 $\\frac{mv_{0}}{qB}\\sqrt{\\frac{x_{0}^{2} + 4y_{0}^{2}}{x_{0}^{2}}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．若粒子打到 PN 中点，则\n\n\t$x_{0} = v_{0}t_{1}$\n\n\t$\\frac{1}{2}y_{0} = \\frac{1}{2}\\cdot\\frac{qE}{m}t^{2}$\n\n\t解得 $E = \\frac{y_{0}mv_{0}^{2}}{qx_{0}^{2}}$。选项 A 正确；\n\n\tB．粒子从 PN 中点射出时，则 $\\frac{y_{0}}{2} = \\frac{v_{y}}{2} t_{1}$\n\n\t速度 $v_{1} = \\sqrt{v_{0}^{2} + v_{y}^{2}} = v_{0}\\sqrt{\\frac{x_{0}^{2} + y_{0}^{2}}{x_{0}^{2}}}$。选项 B 错误；\n\n\tC．粒子从电场中射出时的速度方向与竖直方向夹角为 $\\theta$，则\n\n\t$\\tan\\theta = \\frac{v_{0}}{v_{y}} = \\frac{v_{0}}{\\frac{qE}{m}\\cdot\\frac{x_{0}}{v_{0}}} = \\frac{mv_{0}^{2}}{qEx_{0}}$\n\n\t粒子从电场中射出时的速度\n\n\t$v = \\frac{v_{0}}{\\sin\\theta}$\n\n\t粒子进入磁场后做匀速圆周运动，则\n\n\t$qvB = m\\frac{v^{2}}{r}$\n\n\t则粒子进入磁场后做圆周运动的圆心到 MN 的距离为 $d = r\\cos\\theta$\n\n\t解得 $d = \\frac{Ex_{0}}{Bv_{0}}$\n\n\t\n\n![物理配图](assets/2023/physics/海南/13_an.jpg)\n\n\t选项 C 错误；\n\n\tD．当粒子在磁场中运动有最大运动半径时，进入磁场的速度最大，则此时粒子从 N 点进入磁场，此时竖直最大速度\n\n\t$v_{ym} = \\frac{2y_{0}}{t}$\n\n\t$x_{0} = v_{0}t$\n\n\t出离电场的最大速度 $v_{m} = \\sqrt{v_{0}^{2} + v_{ym}^{2}} = v_{0}\\sqrt{\\frac{x_{0}^{2} + 4y_{0}^{2}}{x_{0}^{2}}}$\n\n\t则由 $qvB = m\\frac{v^{2}}{r}$\n\n\t可得最大半径 $r_{m} = \\frac{mv_{m}}{qB} = \\frac{mv_{0}}{qB}\\sqrt{\\frac{x_{0}^{2} + 4y_{0}^{2}}{x_{0}^{2}}}$\n\n\t选项 D 正确；\n\n\t故选 AD。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/海南/13_an.jpg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q14",
+      "number": 14,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "测定玻璃折射率"
+      ],
+      "stem_md": "用激光测玻璃砖折射率的实验中，玻璃砖与屏 P 平行放置，从另一侧用激光笔以一定角度照射，此时在屏上的 $S_{1}$ 处有激光点，移走玻璃砖，光点移到 $S_{2}$ 处，回答下列问题：\n\n（1）请画出激光束经玻璃折射后完整的光路图 ______ ；\n（2）已经测出 $AB = l_{1}$，$OA = l_{2}$，$S_{1}S_{2} = l_{3}$，则折射率 $n = $ ______ （用 $l_{1}$、$l_{2}$、$l_{3}$ 表示）；\n（3）若改用宽 ab 更小的玻璃砖做实验，则 $S_{1}S_{2}$ 间的距离会 ______ （填“变大”，“变小”或“不变”）。\n\n![物理配图](assets/2023/physics/海南/14.png)",
+      "figures": [
+        "assets/2023/physics/海南/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）光路图如图所示。\n（2）$\\frac{l_{1}\\sqrt{(l_{1} - l_{3})^{2} + l_{2}^{2}}}{(l_{1} - l_{3})\\sqrt{l_{1}^{2} + l_{2}^{2}}}$\n（3）变小",
+        "sub_answers": [
+          "（如图）",
+          "$\\frac{l_{1}\\sqrt{(l_{1} - l_{3})^{2} + l_{2}^{2}}}{(l_{1} - l_{3})\\sqrt{l_{1}^{2} + l_{2}^{2}}}$",
+          "变小"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意画出光路图如下图所示\n\n\t\n\n![物理配图](assets/2023/physics/海南/14_an1.png)\n\n\t（2）设光线入射角为 $\\theta$、折射角为 $\\alpha$，则在 C 点根据折射定律有 $n\\sin\\theta = \\sin\\alpha$\n\n\t由于射入玻璃砖的入射角是射出玻璃砖的折射角，则 $S_{1}S_{2} = CB$\n\n\t根据几何关系可知 $\\sin\\theta = \\frac{l_{1} - l_{3}}{\\sqrt{(l_{1} - l_{3})^{2} + l_{2}^{2}}}$，$\\sin\\alpha = \\frac{l_{1}}{\\sqrt{l_{1}^{2} + l_{2}^{2}}}$\n\n\t联立解得 $n = \\frac{l_{1}\\sqrt{(l_{1} - l_{3})^{2} + l_{2}^{2}}}{(l_{1} - l_{3})\\sqrt{l_{1}^{2} + l_{2}^{2}}}$\n\n\t（3）若改用宽 ab 更小的玻璃砖做实验，则画出光路图如下\n\n\t\n\n![物理配图](assets/2023/physics/海南/14_an2.png)\n\n\t可看出 $S_{1}S_{2}$ 间的距离变小。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/海南/14_an1.png",
+        "assets/2023/physics/海南/14_an2.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q15",
+      "number": 15,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 14,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "电表改装"
+      ],
+      "stem_md": "用如图 [2023海南15a]所示的电路测量一个量程为 $100 \\,\\mu\\mathrm{A}$，内阻约为 $2\\,000 \\,\\Omega$ 的微安表头的内阻，所用电源的电动势约为 $12 \\,\\mathrm{V}$，有两个电阻箱可选，$R_{1}$（$0 \\sim 9999.9 \\,\\Omega$），$R_{2}$（$99999.9 \\,\\Omega$）。\n\n（1）$R_{M}$ 应选 ______ ，$R_{N}$ 应选 ______ ；\n（2）根据电路图，请把实物连线补充完整 ______ ；\n（3）下列操作顺序合理排列是 ______ ：\n\t\n① 将变阻器滑动头 P 移至最左端，将 $R_{N}$ 调至最大值；\n② 闭合开关 $S_{2}$，调节 $R_{M}$，使微安表半偏，并读出 $R_{M}$ 阻值；\n③ 断开 $S_{2}$，闭合 $S_{1}$，调节滑动头 P 至某位置再调节 $R_{N}$ 使表头满偏；\n④ 断开 $S_{1}$、$S_{2}$，拆除导线，整理好器材\n（4）如图 [2023海南15c]是 $R_{M}$ 调节后面板，则待测表头的内阻为 ______ ，该测量值 ______ （填“大于”、“小于”、“等于”）真实值。\n（5）将该微安表改装成量程为 $2 \\,\\mathrm{V}$ 的电压表后，某次测量指针指在图 [2023海南15d]所示位置，则待测电压为 ______  $\\,\\mathrm{V}$（保留 3 位有效数字）。\n（6）某次半偏法测量表头内阻的实验中，$S_{2}$ 断开，电表满偏时读出 $R_{N}$ 值，在滑动头 P 不变，$S_{2}$ 闭合后调节电阻箱 $R_{M}$，使电表半偏时读出 $R_{M}$，若认为 OP 间电压不变，则微安表内阻为 ______ （用 $R_{M}$、$R_{N}$ 表示）\n\n![物理配图](assets/2023/physics/海南/15a.png) ![物理配图](assets/2023/physics/海南/15b.png) ![物理配图](assets/2023/physics/海南/15c.png) ![物理配图](assets/2023/physics/海南/15d.png)",
+      "figures": [
+        "assets/2023/physics/海南/15a.png",
+        "assets/2023/physics/海南/15b.png",
+        "assets/2023/physics/海南/15c.png",
+        "assets/2023/physics/海南/15d.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$R_{1}$，$R_{2}$\n（2）实物连线如图所示。\n（3）①③②④\n（4）$1\\,998.0 \\,\\Omega$，小于\n（5）1.28\n（6）$\\frac{R_{N}R_{M}}{R_{N} - R_{M}}$",
+        "sub_answers": [
+          "$R_{1}$",
+          "$R_{2}$",
+          "（如图）",
+          "①③②④",
+          "$1\\,998.0 \\,\\Omega$",
+          "小于",
+          "1.28",
+          "$\\frac{R_{N}R_{M}}{R_{N} - R_{M}}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据半偏法的测量原理可知，$R_{M}$ 与 $R_{1}$ 相当，当闭合 $S_{2}$ 之后，变阻器上方的电流应基本不变，就需要 $R_{N}$ 较大，对下方分压电路影响甚微。故 $R_{M}$ 应选 $R_{1}$，$R_{N}$ 应选 $R_{2}$。\n\n\t（2）根据电路图连接实物图有\n\n\t\n\n![物理配图](assets/2023/physics/海南/15_an1.png)\n\n\t（3）根据半偏法的实验步骤应为\n\n\t① 将变阻器滑动头 P 移至最左端，将 $R_{N}$ 调至最大值；\n\n\t③ 断开 $S_{2}$，闭合 $S_{1}$，调节滑动头 P 至某位置再调节 $R_{N}$ 使表头满偏；\n\n\t② 闭合开关 $S_{2}$，调节 $R_{M}$，使微安表半偏，并读出 $R_{M}$ 阻值；\n\n\t④ 断开 $S_{1}$、$S_{2}$，拆除导线，整理好器材。\n\n\t（4）根据 $R_{M}$ 调节后面板读数为 $1\\,998.0 \\,\\Omega$。\n\n\t当闭合 $S_{2}$ 后，原电路可看成如下电路\n\n\t\n\n![物理配图](assets/2023/physics/海南/15_an2.png)\n\n\t闭合 $S_{2}$ 后，相当于 $R_{M}$ 由无穷大变成有限值，变小了，则流过 $R_{N}$ 的电流大于原来的电流，则流过 $R_{M}$ 的电流大于 $\\frac{I_{\\text{原}}}{2}$，故待测表头的内阻的测量值小于真实值。\n\n\t（5）将该微安表改装成量程为 $2 \\,\\mathrm{V}$ 的电压表，则需要串联一个电阻 $R_{0}$，则有\n\n\t$U = I_{g}(R_{g} + R_{0})$\n\n\t此时的电压读数有 $U' = I'(R_{g} + R_{0})$\n\n\t其中 $U = 2 \\,\\mathrm{V}$，$I_{g} = 100 \\,\\mu\\mathrm{A}$，$I' = 64 \\,\\mu\\mathrm{A}$\n\n\t联立解得 $U' = 1.28 \\,\\mathrm{V}$\n\n\t（6）根据题意 OP 间电压不变，可得\n\n\t$I(R_{A} + R_{N}) = \\left(\\frac{I}{2} + \\frac{\\frac{I}{2}R_{A}}{R_{M}}\\right)R_{N} + \\frac{I}{2}R_{A}$\n\n\t解得 $R_{A} = \\frac{R_{N}R_{M}}{R_{N} - R_{M}}$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/海南/15_an1.png",
+        "assets/2023/physics/海南/15_an2.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q16",
+      "number": 16,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 8,
+      "difficulty": 750,
+      "topics": [
+        "气体性质",
+        "气体多过程"
+      ],
+      "stem_md": "某饮料瓶内密封一定质量理想气体，$t = 27\\,{}^\\circ\\mathrm{C}$ 时，压强 $p = 1.050 \\times 10^{5} \\,\\mathrm{Pa}$。\n\n（1）$t' = 37\\,{}^\\circ\\mathrm{C}$ 时，气压是多大？\n（2）保持温度不变，挤压气体，使之压强与（1）时相同时，气体体积为原来的多少倍？\n\n![物理配图](assets/2023/physics/海南/16.png)",
+      "figures": [
+        "assets/2023/physics/海南/16.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$1.085 \\times 10^{5} \\,\\mathrm{Pa}$\n（2）0.97"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）瓶内气体的始末状态的热力学温度分别为\n\n\t$T = (27 + 273) \\,\\mathrm{K} = 300 \\,\\mathrm{K}$，$T' = (37 + 273) \\,\\mathrm{K} = 310 \\,\\mathrm{K}$\n\n\t温度变化过程中体积不变，故由查理定律有 $\\frac{p}{T} = \\frac{p'}{T'}$\n\n\t解得 $p' = 1.085 \\times 10^{5} \\,\\mathrm{Pa}$\n\n\t（2）保持温度不变，挤压气体，等温变化过程，由玻意耳定律有\n\n\t$pV = p'V'$\n\n\t解得 $V' \\approx 0.97V$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q17",
+      "number": 17,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 12,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "安培力"
+      ],
+      "stem_md": "如图所示，U 形金属杆上边长为 $L = 15 \\,\\mathrm{cm}$，质量为 $m = 1 \\times 10^{-3} \\,\\mathrm{kg}$，下端插入导电液体中，导电液体连接电源，金属杆所在空间有垂直纸面向里 $B = 8 \\times 10^{-2} \\,\\mathrm{T}$ 的匀强磁场。\n\n（1）若插入导电液体部分深 $h = 2.5 \\,\\mathrm{cm}$，闭合电键后，金属杆飞起后，其下端离液面高度 $H = 10 \\,\\mathrm{cm}$，设杆中电流不变，求金属杆离开液面时的速度大小和金属杆中的电流有多大；（$g$ 取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$）\n（2）若金属杆下端刚与导电液体接触，改变电动势的大小，通电后金属杆跳起高度 $H' = 5 \\,\\mathrm{cm}$，通电时间 $t' = 0.002 \\,\\mathrm{s}$，求通过金属杆截面的电荷量。\n\n![物理配图](assets/2023/physics/海南/17.png)",
+      "figures": [
+        "assets/2023/physics/海南/17.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\sqrt{2} \\,\\mathrm{m}/\\mathrm{s}$，4.17 $\\,\\mathrm{A}$\n（2）0.085 $\\,\\mathrm{C}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）对金属杆，跳起的高度为 $H$，竖直上抛运动由运动学关系式 $v^{2} = 2gH$，解得 $v = \\sqrt{2gH} = \\sqrt{2} \\,\\mathrm{m}/\\mathrm{s}$\n\n\t通电过程金属杆受到的安培力大小为 $F_{A} = BIL$\n\n\t由动能定理得 $BILh - mg(H + h) = 0$\n\n\t解得 $I = 4.17 \\,\\mathrm{A}$\n\n\t（2）对金属杆，通电时间 $t' = 0.002 \\,\\mathrm{s}$，由动量定理有 $(BI'L - mg)t' = mv' - 0$\n\n\t由运动学公式 $v'^{2} = 2gH'$\n\n\t通过金属杆截面的电荷量 $q = I't'$\n\n\t联立解得 $q = 0.085 \\,\\mathrm{C}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-海南-q18",
+      "number": 18,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "牛顿定律的应用"
+      ],
+      "stem_md": "如图所示，有一固定的光滑 $\\frac{1}{4}$ 圆弧轨道，半径 $R = 0.2 \\,\\mathrm{m}$，一质量为 $m_{B} = 1 \\,\\mathrm{kg}$ 的小滑块 B 从轨道顶端滑下，在其冲上长木板 C 左端时，给木板一个与小滑块相同的初速度，已知 $m_{C} = 3 \\,\\mathrm{kg}$，B、C 间动摩擦因数 $\\mu_{1} = 0.2$，C 与地面间的动摩擦因数 $\\mu_{2} = 0.8$，C 右端有一个挡板，C 长为 $L$。求：\n\n（1）B 滑到 A 的底端时对 A 的压力是多大？\n（2）若 B 未与 C 右端挡板碰撞，当 B 与地面保持相对静止时，B、C 间因摩擦产生的热量是多少？\n（3）在 $0.16 \\,\\mathrm{m} < L < 0.8 \\,\\mathrm{m}$ 时，B 与 C 右端挡板发生碰撞，且碰后粘在一起，求 B 从滑上 C 到最终停止所用的时间。\n\n![物理配图](assets/2023/physics/海南/18.png)",
+      "figures": [
+        "assets/2023/physics/海南/18.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）30 $\\,\\mathrm{N}$\n（2）1.6 $\\,\\mathrm{J}$\n（3）$\\left(1 - \\frac{15\\sqrt{0.8 - L}}{16}\\right) \\,\\mathrm{s}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）滑块下滑到轨道底部，有\n\n\t$m_{B}gR = \\frac{1}{2}m_{B}v_{0}^{2} - 0$\n\n\t解得 $v_{0} = 2 \\,\\mathrm{m}/\\mathrm{s}$\n\n\t在底部，根据牛顿第二定律\n\n\t$F_{N} - m_{B}g = m_{B}\\frac{v_{0}^{2}}{R}$\n\n\t解得 $F_{N} = 30 \\,\\mathrm{N}$\n\n\t由牛顿第三定律可知 B 对 A 的压力是 $30 \\,\\mathrm{N}$。\n\n\t（2）当 B 滑上 C 后，对 B 分析，受摩擦力向左，根据牛顿第二定律得\n\n\t$f_{B} = \\mu_{1}m_{B}g = m_{B}a_{B}$\n\n\t解得加速度向左为 $a_{1} = 2 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n\t对 C 分析，受 B 向右的摩擦力 $\\mu_{1}m_{B}g$ 和地面向左的摩擦力\n\n\t$f_{\\text{地}C} = \\mu_{2}(m_{B} + m_{C})g$\n\n\t根据牛顿第二定律\n\n\t$f_{\\text{地}C} - f_{BC} = \\mu_{2}(m_{B} + m_{C})g - \\mu_{1}m_{B}g = m_{C}a_{2}$\n\n\t解得其加速度向左为 $a_{2} = 10 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n\t由运动学位移与速度关系公式 $v^{2} - v_{0}^{2} = 2ax$，得 B 向右运动的距离 $x_{1} = \\frac{v_{0}^{2}}{2a_{1}} = 1 \\,\\mathrm{m}$\n\n\tC 向右运动距离 $x_{2} = \\frac{v_{0}^{2}}{2a_{2}} = 0.2 \\,\\mathrm{m}$\n\n\t由功能关系可知，B、C 间摩擦产生的热量 $Q = \\mu_{1}m_{B}g(x_{1} - x_{2})$\n\n\t可得 $Q = 1.6 \\,\\mathrm{J}$\n\n\t（3）由上问可知，若 B 还未与 C 上挡板碰撞，C 先停下，用时为 $t_{1}$，有 $t_{1} = \\frac{v_{0}}{a_{2}}$\n\n\t解得 $t_{1} = 0.2 \\,\\mathrm{s}$\n\n\tB 的位移为 $x_{B1} = v_{0}t_{1} - \\frac{1}{2}a_{1}t_{1}^{2} = 0.36 \\,\\mathrm{m}$\n\n\t则此刻的相对位移为 $x_{\\text{相}} = x_{B1} - x_{2} = 0.16 \\,\\mathrm{m}$\n\n\t此时 $v_{B1} = v_{0} - a_{1}t_{1} = 1.6 \\,\\mathrm{m}/\\mathrm{s}$\n\n\t由 $L > 0.16 \\,\\mathrm{m}$，一定是 C 停下之后，B 才与 C 上挡板碰撞。设再经 $t_{2}$ 时间 B 与 C 挡板碰撞，有\n\n\t$L - 0.16 = 1.6t_{2} - \\frac{1}{2}a_{1}t_{2}^{2}$\n\n\t解得 $t_{2} = 0.8 - \\sqrt{0.8 - L}$\n\n\t碰撞时 B 速度为 $v_{B2} = v_{B1} - a_{1}t_{2} = 2\\sqrt{0.8 - L}$\n\n\t碰撞时由动量守恒可得 $m_{B}v_{B2} = (m_{B} + m_{C})v$\n\n\t解得碰撞后 B、C 速度为\n\n\t$v = \\frac{\\sqrt{0.8 - L}}{2}$\n\n\t之后二者一起减速，根据牛顿第二定律得\n\n\t$a_{3} = \\frac{\\mu_{2}(m_{B} + m_{C})g}{m_{B} + m_{C}} = 8 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n\t再经 $t_{3}$ 后停下，则有\n\n\t$t_{3} = \\frac{v}{a_{3}} = \\frac{\\sqrt{0.8 - L}}{16}$\n\n\t故 B 从滑上 C 到最终停止所用的时间总时间 $t = t_{1} + t_{2} + t_{3} = \\left(1 - \\frac{15\\sqrt{0.8 - L}}{16}\\right) \\,\\mathrm{s}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

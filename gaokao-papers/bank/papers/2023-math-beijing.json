@@ -1,0 +1,793 @@
+{
+  "id": "2023-math-beijing",
+  "year": 2023,
+  "subject": "数学",
+  "region": "北京卷",
+  "region_key": "beijing",
+  "format_tier": "structured_latex",
+  "question_count": 21,
+  "source": "Gaokao-Math-Problems-Compilation",
+  "questions": [
+    {
+      "qid": "2023-math-beijing-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知集合 $M=\\{x\\mid x+2\\ge 0\\}$，$N=\\{x\\mid x-1<0\\}$，则 $M\\cap N=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\{x\\mid -2\\le x<1\\}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\{x\\mid -2<x\\le 1\\}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\{x\\mid x\\ge -2\\}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\{x\\mid x<1\\}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题意\n$M=\\{x\\mid x\\ge -2\\}$，$N=\\{x\\mid x<1\\}$.\n因此\n$M\\cap N=\\{x\\mid -2\\le x<1\\}$.\n故选 A."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "在复平面内，复数 $z$ 对应的点的坐标是 $(-1,\\sqrt{3})$，则 $z$ 的共轭复数 $\\overline{z}=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$1+\\sqrt{3}{\\mathrm{i}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$1-\\sqrt{3}{\\mathrm{i}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$-1+\\sqrt{3}{\\mathrm{i}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$-1-\\sqrt{3}{\\mathrm{i}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由复数的几何意义，\n$z=-1+\\sqrt{3}{\\mathrm{i}}$.\n因此\n$\\overline{z}=-1-\\sqrt{3}{\\mathrm{i}}$.\n故选 D."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知向量 $\\boldsymbol{a}$，$\\boldsymbol{b}$ 满足 $\\boldsymbol{a}+\\boldsymbol{b}=(2,3)$，$\\boldsymbol{a}-\\boldsymbol{b}=(-2,1)$，则 $|\\boldsymbol{a}|^2-|\\boldsymbol{b}|^2=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$-2$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$-1$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "0",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "1",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由数量积公式，\n$|\\boldsymbol{a}|^2-|\\boldsymbol{b}|^2=(\\boldsymbol{a}+\\boldsymbol{b})\\cdot(\\boldsymbol{a}-\\boldsymbol{b})$.\n故\n$|\\boldsymbol{a}|^2-|\\boldsymbol{b}|^2=2\\times(-2)+3\\times 1=-1$.\n故选 B."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "下列函数中，在区间 $(0,+\\infty)$ 上单调递增的是（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$f(x)=-\\ln x$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$f(x)=\\dfrac{1}{2^x}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$f(x)=-\\dfrac{1}{x}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$f(x)=3^{|x-1|}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "$-\\ln x$ 在 $(0,+\\infty)$ 上单调递减，$\\dfrac{1}{2^x}=2^{-x}$ 在 $(0,+\\infty)$ 上单调递减.\n又\n$f(x)=-\\frac{1}{x}$\n在 $(0,+\\infty)$ 上单调递增.\n而 $3^{|x-1|}$ 在 $x=1$ 两侧先减后增，不单调.\n故选 C."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "$\\left(2x-\\dfrac{1}{x}\\right)^5$ 的展开式中 $x$ 的系数为（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$-80$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$-40$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "40",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "80",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "通项为\n$T_{r+1}=\\mathrm{C}_5^r(2x)^{5-r}\\left(-\\frac{1}{x}\\right)^r =(-1)^r 2^{5-r}\\mathrm{C}_5^r x^{5-2r}$.\n令 $5-2r=1$，得 $r=2$. 故所求系数为\n$(-1)^2 2^3\\mathrm{C}_5^2=8\\times 10=80$.\n故选 D."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知抛物线 $C:y^2=8x$ 的焦点为 $F$，点 $M$ 在 $C$ 上. 若 $M$ 到直线 $x=-3$ 的距离为 $5$，则 $|MF|=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "7",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "6",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "5",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "4",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "抛物线 $y^2=8x$ 的焦点为 $F(2,0)$，准线为 $x=-2$.\n由抛物线定义，点 $M$ 到准线 $x=-2$ 的距离等于 $|MF|$. 又点 $M$ 到直线 $x=-3$ 的距离为 5，所以\n$|MF|+1=5$.\n故\n$|MF|=4$.\n故选 D."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "在 $\\triangle ABC$ 中，$(a+c)(\\sin A-\\sin C)=b(\\sin A-\\sin B)$，则 $\\angle C=$（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\dfrac{\\pi}{6}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\dfrac{\\pi}{3}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\dfrac{2\\pi}{3}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\dfrac{5\\pi}{6}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由正弦定理 $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$，可将题设化为\n$(a+c)(a-c)=b(a-b)$，\n即\n$a^2-c^2=ab-b^2$.\n从而\n$a^2+b^2-c^2=ab$.\n由余弦定理，\n$\\cos C=\\frac{a^2+b^2-c^2}{2ab}=\\frac{1}{2}$.\n又 $0<C<\\pi$，故\n$C=\\frac{\\pi}{3}$.\n故选 B."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "若 $xy\\ne 0$，则“$x+y=0$”是“$\\dfrac{x}{y}+\\dfrac{y}{x}=-2$”的（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "充分不必要条件",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "必要不充分条件",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "充要条件",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "既不充分也不必要条件",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "若\n$\\frac{x}{y}+\\frac{y}{x}=-2$，\n则\n$\\frac{x^2+y^2}{xy}=-2$，\n即\n$x^2+2xy+y^2=0$，\n故\n$(x+y)^2=0$，\n从而 $x+y=0$.\n\n反过来，若 $x+y=0$，则 $y=-x$，于是\n$\\frac{x}{y}+\\frac{y}{x}=\\frac{x}{-x}+\\frac{-x}{x}=-2$.\n所以“$x+y=0$”是“$\\dfrac{x}{y}+\\dfrac{y}{x}=-2$”的充要条件.\n故选 C."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q09",
+      "number": 9,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "坡屋顶是我国传统建筑造型之一，蕴含着丰富的数学元素. 安装灯带可以勾勒出建筑轮廓，展现造型之美. 如图，某坡屋顶可视为一个五面体，其中两个面是全等的等腰梯形，两个面是全等的等腰三角形. 若 $AB=25\\text{m}$，$BC=AD=10\\text{m}$，且等腰梯形所在的平面，等腰三角形所在的平面与平面 $ABCD$ 的夹角的正切值均为 $\\dfrac{\\sqrt{14}}{5}$，则该五面体的所有棱长之和为（ ）\n\n![题目配图](assets/2023/math/beijing/q9_fig1.png)",
+      "figures": [
+        "assets/2023/math/beijing/q9_fig1.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$102\\text{m}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$112\\text{m}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$117\\text{m}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$125\\text{m}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "如图，过 $E$ 作 $EO\\perp \\text{平面 }ABCD$，垂足为 $O$，再作 $EG\\perp BC$，$EM\\perp AB$，垂足分别为 $G$，$M$.\n\n![题目配图](assets/2023/math/beijing/q9_solution_fig1.png)\n\n由题意，等腰梯形所在平面与底面的夹角为 $\\angle EMO$，等腰三角形所在平面与底面的夹角为 $\\angle EGO$，故\n$\\tan \\angle EMO=\\tan \\angle EGO=\\frac{\\sqrt{14}}{5}$.\n又由对称性可知\n$OM=OG=\\frac{BC}{2}=5$，\n于是\n$EO=5\\times \\frac{\\sqrt{14}}{5}=\\sqrt{14}$.\n在直角三角形 $EOG$ 中，\n$EG=\\sqrt{EO^2+OG^2}=\\sqrt{14+25}=\\sqrt{39}$.\n在直角三角形 $EBG$ 中，\n$EB=\\sqrt{EG^2+BG^2}=\\sqrt{39+25}=8$.\n又 $EF=AB-OM-OG=25-5-5=15$.\n故所有棱长之和为\n$2AB+2BC+EF+4EB =2\\times 25+2\\times 10+15+4\\times 8 =117\\text{m}$.\n故选 C."
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/math/beijing/q9_solution_fig1.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q10",
+      "number": 10,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知数列 $\\{a_n\\}$ 满足 $a_{n+1}=\\frac{1}{4}(a_n-6)^3+6$（$n=1$，$2$，$3$，$\\dots$），则（ ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "当 $a_1=3$ 时，$\\{a_n\\}$ 为递减数列，且存在常数 $M\\le 0$，使得 $a_n>M$ 恒成立",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "当 $a_1=5$ 时，$\\{a_n\\}$ 为递增数列，且存在常数 $M\\le 6$，使得 $a_n<M$ 恒成立",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "当 $a_1=7$ 时，$\\{a_n\\}$ 为递减数列，且存在常数 $M>6$，使得 $a_n>M$ 恒成立",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "当 $a_1=9$ 时，$\\{a_n\\}$ 为递增数列，且存在常数 $M>0$，使得 $a_n<M$ 恒成立",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "记\n$F(x)=\\frac{1}{4}(x-6)^3+6-x =\\frac{1}{4}(x-4)(x-6)(x-8)$.\n则\n$a_{n+1}-a_n=F(a_n)$.\n由上式可知：\n$F(x)<0$，$\\text{当 }x<4\\text{\\ 或\\ }6<x<8;$，$F(x)>0$，$\\text{当 }4<x<6\\text{\\ 或\\ }x>8$.\n\n对 A，若 $a_1=3$，可由递推式归纳得 $a_n\\le 3<4$，故 $\\{a_n\\}$ 递减. 但对\n$H(x)=\\frac{1}{4}x^3-\\frac{9}{2}x^2+26x-47$\n有 $H(x)<0$（当 $x\\le 3$），所以\n$a_{n+1}-a_n+1=H(a_n)<0$，\n即 $a_{n+1}<a_n-1$. 于是数列无下界形如 $M\\le 0$ 使 $a_n>M$ 恒成立，A 错.\n\n对 B，若 $a_1=5$，由递推式易归纳得\n$5\\le a_n<6$.\n又 $F(x)>0$ 在 $(4,6)$ 上成立，所以 $\\{a_n\\}$ 递增；并且始终有 $a_n<6$，取 $M=6$ 即可，B 对.\n\n对 C，若 $a_1=7$，由递推式可归纳得\n$a_n=6+\\left(\\frac{1}{4}\\right)^{\\frac{3^{\\,n-1}-1}{2}}$（$n\\ge 2$）.\n故 $6<a_n\\le 7$，且数列递减并趋于 6，所以不存在 $M>6$ 使 $a_n>M$ 恒成立，C 错.\n\n对 D，若 $a_1=9$，归纳可得 $a_n\\ge 9$. 又 $F(x)>0$ 在 $(8,+\\infty)$ 上成立，故数列递增. 再由\n$a_{n+1}-a_n-1=\\frac{1}{4}a_n^3-\\frac{9}{2}a_n^2+26a_n-49>0$（$a_n\\ge 9$）\n得 $a_{n+1}>a_n+1$，所以不可能存在正数 $M$ 使 $a_n<M$ 恒成立，D 错.\n故选 B."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q11",
+      "number": 11,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知函数 $f(x)=4^x+\\log_2 x$，则 $f\\left(\\dfrac{1}{2}\\right)= \\underline{\\hspace{2.2em}} $.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "1"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "直接代入可得\n$f\\left(\\frac{1}{2}\\right)=4^{\\frac{1}{2}}+\\log_2 \\frac{1}{2}=2-1=1$."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q12",
+      "number": 12,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知双曲线 $C$ 的焦点为 $(-2,0)$ 和 $(2,0)$，离心率为 $\\sqrt{2}$，则 $C$ 的方程为 ______ .",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "$\\dfrac{x^2}{2}-\\dfrac{y^2}{2}=1$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设双曲线方程为\n$\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$.\n则半焦距 $c=2$，又离心率\n$e=\\frac{c}{a}=\\sqrt{2}$，\n故\n$a=\\sqrt{2}$.\n由\n$c^2=a^2+b^2$\n得\n$b^2=4-2=2$.\n所以双曲线方程为\n$\\frac{x^2}{2}-\\frac{y^2}{2}=1$."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q13",
+      "number": 13,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知命题 $p$：若 $\\alpha$，$\\beta$ 为第一象限角，且 $\\alpha>\\beta$，则 $\\tan\\alpha>\\tan\\beta$. 能说明 $p$ 为假命题的一组 $\\alpha$，$\\beta$ 的值为 $\\alpha= \\underline{\\hspace{2.2em}} $，$\\beta= \\underline{\\hspace{2.2em}} $.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "$\\dfrac{9\\pi}{4}$；$\\dfrac{\\pi}{3}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "因为 $\\tan x$ 在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上单调递增，可取\n$\\alpha_0=\\frac{\\pi}{4}$，$\\beta_0=\\frac{\\pi}{3}$，\n则\n$0<\\alpha_0<\\beta_0<\\frac{\\pi}{2}$，$\\tan\\alpha_0<\\tan\\beta_0$.\n再取\n$\\alpha=2\\pi+\\alpha_0=\\frac{9\\pi}{4}$，$\\beta=\\beta_0=\\frac{\\pi}{3}$，\n则 $\\alpha>\\beta$，但\n$\\tan\\alpha=\\tan\\frac{\\pi}{4}=1<\\sqrt{3}=\\tan\\frac{\\pi}{3}$.\n故可填\n$\\alpha=\\frac{9\\pi}{4}$，$\\beta=\\frac{\\pi}{3}$."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q14",
+      "number": 14,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "我国度量衡的发展有着悠久的历史，战国时期就已经出现了类似于砝码的，用来测量物体质量的“环权”. 已知 9 枚环权的质量（单位：铢）从小到大构成项数为 9 的数列 $\\{a_n\\}$，该数列的前 3 项成等差数列，后 7 项成等比数列，且 $a_1=1$，$a_5=12$，$a_9=192$，则 $a_7= \\underline{\\hspace{2.2em}} $；数列 $\\{a_n\\}$ 所有项的和为 $ \\underline{\\hspace{2.2em}} $.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "48；384"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "因为后 7 项成等比数列，所以 $a_7^2=a_5a_9=12\\times 192=48^2$.\n又各项为正，故\n$a_7=48$.\n再由\n$a_5^2=a_3a_7$\n得\n$a_3=\\frac{a_5^2}{a_7}=\\frac{144}{48}=3$.\n设后 7 项公比为 $q>0$，则\n$q^2=\\frac{a_5}{a_3}=\\frac{12}{3}=4$，\n所以 $q=2$.\n前 3 项成等差数列，故 $a_1+a_2+a_3=\\frac{3(a_1+a_3)}{2}=\\frac{3(1+3)}{2}=6$.\n后 7 项和为\n\n$$\n\na_3+a_4+\\cdots+a_9 =\\frac{a_3-a_9q}{1-q} =\\frac{3-192\\times 2}{1-2} =381\n\n$$\n\n因此总和为 $6+381-a_3=6+381-3=384$.\n故答案为 48，384."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q15",
+      "number": 15,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "设 $a>0$，函数 $f(x)=x+2$（$x<-a$），$f(x)=\\sqrt{a^2-x^2}$（$-a\\le x\\le a$），$f(x)=-\\sqrt{x}-1$（$x>a$）. 给出下列四个结论：\n\n① $f(x)$ 在区间 $(a-1,+\\infty)$ 上单调递减；\n② 当 $a\\ge 1$ 时，$f(x)$ 存在最大值；\n③ 设 $M(x_1,f(x_1))$（$x_1\\le a$），$N(x_2,f(x_2))$（$x_2>a$），则 $|MN|>1$；\n④ 设 $P(x_3,f(x_3))$（$x_3<-a$），$Q(x_4,f(x_4))$（$x_4\\ge -a$）.\n\n若 $|PQ|$ 存在最小值，则 $a$ 的取值范围是 $\\left(0,\\dfrac{1}{2}\\right]$.\n\n其中所有正确结论的序号是 ______ .",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "$②③$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "当 $x<-a$ 时，图像是一条斜率为 1 的射线；当 $-a\\le x\\le a$ 时，图像是半径为 $a$ 的上半圆；当 $x>a$ 时，图像是 $y=-\\sqrt{x}-1$ 的递减曲线.\n\n对 $①$，取 $a=\\dfrac{1}{2}$，图像如下：\n\n\\FigureLayoutDeclare{img/2023/beijing/q15_solution_fig1.png}{5.5cm}{4.001bp 4.001bp 4.001bp 4.001bp}\n\n![题目配图](assets/2023/math/beijing/q15_solution_fig1.png)\n\n此时 $a-1=-\\dfrac{1}{2}$，在区间 $\\left(-\\dfrac{1}{2},0\\right)$ 上，半圆部分单调递增，故 $①$ 错.\n\n对 $②$，当 $a\\ge 1$ 时，\n$x<-a \\implies f(x)=x+2<-a+2\\le 1$，\n$-a\\le x\\le a \\implies f(x)=\\sqrt{a^2-x^2}\\le a$，\n且在 $x=0$ 处取到 $a$；\n$x>a \\implies f(x)=-\\sqrt{x}-1<-\\sqrt{a}-1\\le -2$.\n因此 $f(x)$ 存在最大值 $a$，故 $②$ 对.\n\n对 $③$，结合图像可知，当 $x_1=a$ 且 $x_2$ 从右侧逼近 $a$ 时，$|MN|$ 最小，如下图：\n\n![题目配图](assets/2023/math/beijing/q15_solution_fig2.png)\n\n此时\n$y_1=f(a)=0$，$y_2<-\\sqrt{a}-1$，\n故\n$|MN|>y_1-y_2>\\sqrt{a}+1>1$.\n所以 $③$ 对.\n\n对 $④$，取 $a=\\dfrac{4}{5}$，图像如下：\n\n![题目配图](assets/2023/math/beijing/q15_solution_fig3.png)\n\n由图可知，若要 $|PQ|$ 取得最小值，则点 $P$ 在线 $y=x+2$ 上，点 $Q$ 在半圆上，且连接线与该直线垂直. 直线 $y=x+2$ 的垂线过原点可取为 $y=-x$，联立 $y=-x$ 与 $y=x+2$，得 $P(-1,1)$.\n此点满足 $-1<-\\dfrac{4}{5}$，故 $a=\\dfrac{4}{5}$ 时 $|PQ|$ 也存在最小值，与“$a$ 的范围仅为 $\\left(0,\\dfrac{1}{2}\\right]$”矛盾，所以 $④$ 错.\n故答案为 $②③$."
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/math/beijing/q15_solution_fig1.png",
+        "assets/2023/math/beijing/q15_solution_fig2.png",
+        "assets/2023/math/beijing/q15_solution_fig3.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q16",
+      "number": 16,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "如图，在三棱锥 $P-ABC$ 中，$PA\\perp \\text{平面 }ABC$，$PA=AB=BC=1$，$PC=\\sqrt{3}$.\n\n（1）求证：$BC\\perp \\text{平面 }PAB$；\n（2）求二面角 $A-PC-B$ 的大小.\n\n![题目配图](assets/2023/math/beijing/q16_fig1.png)",
+      "figures": [
+        "assets/2023/math/beijing/q16_fig1.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）因为 $PA\\perp \\text{平面 }ABC$，且 $BC\\subset \\text{平面 }ABC$，所以\n$PA\\perp BC$.\n又 $AB=1$，$BC=1$，$PA=1$，而\n$PB=\\sqrt{PA^2+AB^2}=\\sqrt{2}$，\n从而 $PB^2+BC^2=2+1=3=PC^2$.\n故 $\\triangle PBC$ 为直角三角形，且\n$BC\\perp PB$.\n于是 $BC$ 同时垂直于平面 $PAB$ 内两条相交直线 $PA$，$PB$，故\n$BC\\perp \\text{平面 }PAB$.\n（2）由（1）知 $BC\\perp AB$. 以 $A$ 为原点，$AB$ 所在直线为 $x$ 轴，过 $A$ 且与 $BC$ 平行的直线为 $y$ 轴，$AP$ 为 $z$ 轴，建立空间直角坐标系.\n\n![题目配图](assets/2023/math/beijing/q16_solution_fig1.png)\n\n则\n$A(0,0,0)$，$P(0,0,1)$，$B(1,0,0)$，$C(1,1,0)$.\n因此 $\\overrightarrow{AP}=(0,0,1)$，$\\overrightarrow{AC}=(1,1,0)$，$\\overrightarrow{BC}=(0,1,0)$，$\\overrightarrow{PC}=(1,1,-1)$.\n设平面 $PAC$ 的法向量为 $\\boldsymbol{m}=(x_1,y_1,z_1)$，则由 $\\boldsymbol{m}\\cdot \\overrightarrow{AP}=0$ 和 $\\boldsymbol{m}\\cdot \\overrightarrow{AC}=0$，可取 $\\boldsymbol{m}=(1,-1,0)$.\n设平面 $PBC$ 的法向量为 $\\boldsymbol{n}=(x_2,y_2,z_2)$，则由 $\\boldsymbol{n}\\cdot \\overrightarrow{BC}=0$ 和 $\\boldsymbol{n}\\cdot \\overrightarrow{PC}=0$，可取 $\\boldsymbol{n}=(1,0,1)$.\n于是\n\n$$\n\n\\cos \\angle(\\boldsymbol{m},\\boldsymbol{n}) =\\frac{\\boldsymbol{m}\\cdot \\boldsymbol{n}}{|\\boldsymbol{m}||\\boldsymbol{n}|} =\\frac{1}{\\sqrt{2}\\cdot \\sqrt{2}} =\\frac{1}{2}\n\n$$\n\n故二面角 $A-PC-B$ 的大小为 $\\frac{\\pi}{3}$."
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/math/beijing/q16_solution_fig1.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q17",
+      "number": 17,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "设函数 $f(x)=\\sin \\omega x\\cos \\varphi+\\cos \\omega x\\sin \\varphi$（$\\omega>0$，$|\\varphi|<\\frac{\\pi}{2}$）.\n\n（1）若 $f(0)=-\\dfrac{\\sqrt{3}}{2}$，求 $\\varphi$ 的值；\n（2）已知 $f(x)$ 在区间 $\\left[-\\dfrac{\\pi}{3},\\dfrac{2\\pi}{3}\\right]$ 上单调递增，$f\\left(\\dfrac{2\\pi}{3}\\right)=1$，再从条件 $①$，条件 $②$，条件 $③$ 这三个条件中选择一个作为已知，使函数 $f(x)$ 存在，求 $\\omega$，$\\varphi$ 的值.\n\n条件 $①$：$f\\left(\\dfrac{\\pi}{3}\\right)=\\sqrt{2}$；\n\n条件 $②$：$f\\left(-\\dfrac{\\pi}{3}\\right)=-1$；\n\n条件 $③$：$f(x)$ 在区间 $\\left[-\\dfrac{\\pi}{2},-\\dfrac{\\pi}{3}\\right]$ 上单调递减.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题意\n$f(0)=\\sin \\varphi=-\\frac{\\sqrt{3}}{2}$.\n又 $|\\varphi|<\\dfrac{\\pi}{2}$，故\n$\\varphi=-\\frac{\\pi}{3}$.\n（2）由两角和公式，\n$f(x)=\\sin(\\omega x+\\varphi)$.\n因此 $f(x)$ 的最大值为 1，最小值为 $-1$.\n\n若选条件 $①$，则\n$f\\left(\\frac{\\pi}{3}\\right)=\\sqrt{2}>1$，\n不可能成立，所以条件 $①$ 不可取.\n\n若选条件 $②$，因为 $f(x)$ 在 $\\left[-\\dfrac{\\pi}{3},\\dfrac{2\\pi}{3}\\right]$ 上单调递增，且\n$f\\left(-\\frac{\\pi}{3}\\right)=-1$，$f\\left(\\frac{2\\pi}{3}\\right)=1$，\n故这两个点恰对应一个半周期，于是\n$\\frac{T}{2}=\\frac{2\\pi}{3}-\\left(-\\frac{\\pi}{3}\\right)=\\pi$.\n从而\n$T=2\\pi$，$\\omega=\\frac{2\\pi}{T}=1$.\n此时\n$f(x)=\\sin(x+\\varphi)$.\n又\n$f\\left(-\\frac{\\pi}{3}\\right)=-1$，\n故\n$\\sin\\left(-\\frac{\\pi}{3}+\\varphi\\right)=-1$.\n结合 $|\\varphi|<\\dfrac{\\pi}{2}$，得\n$\\varphi=-\\frac{\\pi}{6}$.\n\n若选条件 $③$，由“在 $\\left[-\\dfrac{\\pi}{3},\\dfrac{2\\pi}{3}\\right]$ 上单调递增”与“在 $\\left[-\\dfrac{\\pi}{2},-\\dfrac{\\pi}{3}\\right]$ 上单调递减”可知，$x=-\\dfrac{\\pi}{3}$ 处取得最小值，即\n$f\\left(-\\frac{\\pi}{3}\\right)=-1$.\n于是化为条件 $②$ 的情形，同样得到\n$\\omega=1$，$\\varphi=-\\frac{\\pi}{6}$."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q18",
+      "number": 18,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "为研究某种农产品价格变化的规律，收集得到了该农产品连续 40 天的价格变化数据，如下表所示. 在描述价格变化时，用“+”表示“上涨”，即当天价格比前一天价格高；用“-”表示“下跌”，即当天价格比前一天价格低；用“0”表示“不变”，即当天价格与前一天价格相同. 用频率估计概率.\n\n\\resizebox{\\linewidth}{!}<table class=\"exam-table\"><tr><th>{c|}}\n\n第 1 天到第 20 天</th><th>-</th><th>+</th><th>+</th><th>0</th><th>-</th><th>-</th><th>-</th><th>+</th><th>+</th><th>0</th><th>+</th><th>0</th><th>-</th><th>-</th><th>+</th><th>-</th><th>+</th><th>0</th><th>0</th><th>+</th></tr><tr><td>第 21 天到第 40 天</td><td>0</td><td>+</td><td>+</td><td>0</td><td>-</td><td>-</td><td>-</td><td>+</td><td>+</td><td>0</td><td>+</td><td>0</td><td>+</td><td>-</td><td>-</td><td>-</td><td>+</td><td>0</td><td>-</td><td>+</td></tr></table>\n\n（1）试估计该农产品价格“上涨”的概率；\n（2）假设该农产品每天的价格变化是相互独立的. 在未来的日子里任取 4 天，试估计该农产品价格在这 4 天中 2 天“上涨”，1 天“下跌”，1 天“不变”的概率；\n（3）假设该农产品每天的价格变化只受前一天价格变化的影响. 判断第 41 天该农产品价格“上涨”“下跌”和“不变”的概率估计值哪个最大. （结论不要求证明）",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）在 40 天中，“+” 共出现 16 次，因此价格“上涨”的概率估计值为\n$\\frac{16}{40}=0.4$.\n（2）由表中数据可得：\n$P(\\text{上涨})=0.4$，$P(\\text{下跌})=0.35$，$P(\\text{不变})=0.25$.\n故所求概率为\n$\\mathrm{C}_4^2\\times 0.4^2\\times \\mathrm{C}_2^1\\times 0.35\\times 0.25=0.168$.\n（3）第 40 天处于“上涨”状态. 从前 39 次的 15 次“上涨”进行分析，“上涨”后下一次仍“上涨”的有 4 次，“下跌”的有 2 次，“不变”的有 9 次.\n因此三者中概率估计值最大的是“不变”."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q19",
+      "number": 19,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知椭圆 $E:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$（$a>b>0$） 的离心率为 $\\dfrac{\\sqrt{5}}{3}$，$A$，$C$ 分别是 $E$ 的上，下顶点，$B$，$D$ 分别是 $E$ 的左，右顶点，$|AC|=4$.\n\n（1）求 $E$ 的方程；\n（2）设 $P$ 为第一象限内 $E$ 上的动点，直线 $PD$ 与直线 $BC$ 交于点 $M$，直线 $PA$ 与直线 $y=-2$ 交于点 $N$. 求证：$MN\\parallel CD$.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由 $|AC|=4$ 知\n$2b=4$，$b=2$.\n又离心率\n$e=\\frac{c}{a}=\\frac{\\sqrt{5}}{3}$，\n故\n$c=\\frac{\\sqrt{5}}{3}a$.\n由\n$c^2=a^2-b^2$\n得\n$\\frac{5}{9}a^2=a^2-4$，\n解得\n$a^2=9$.\n因此椭圆方程为\n$\\frac{x^2}{9}+\\frac{y^2}{4}=1$.\n（2）由（1）知\n$A(0,2)$，$C(0,-2)$，$B(-3,0)$，$D(3,0)$.\n设\n$P(m,n)$（$0<m<3$，$0<n<2$），\n则\n$\\frac{m^2}{9}+\\frac{n^2}{4}=1$.\n\n![题目配图](assets/2023/math/beijing/q19_solution_fig1.png)\n\n由\n$k_{BC}=\\frac{-2-0}{0-(-3)}=-\\frac{2}{3}$，\n得直线 $BC$ 方程为\n$y=-\\frac{2}{3}x-2$.\n又\n$k_{PD}=\\frac{n-0}{m-3}=\\frac{n}{m-3}$，\n故直线 $PD$ 方程为\n$y=\\frac{n}{m-3}(x-3)$.\n联立可得\n$M\\left(\\frac{3(3n-2m+6)}{3n+2m-6},\\ -\\frac{12n}{3n+2m-6}\\right)$.\n再由\n$k_{PA}=\\frac{n-2}{m}$，\n知直线 $PA$ 方程为\n$y=\\frac{n-2}{m}x+2$.\n令 $y=-2$，得\n$N\\left(-\\frac{4m}{n-2},\\ -2\\right)$.\n又\n$\\frac{m^2}{9}+\\frac{n^2}{4}=1$，\n则\n$m^2=9-\\frac{9n^2}{4}$，\n从而\n$8m^2=72-18n^2$.\n所以\n\n$$\n\n\\begin{aligned}\nk_{MN}\n&=\\frac{-\\dfrac{12n}{3n+2m-6}+2}{\\dfrac{3(3n-2m+6)}{3n+2m-6}+\\dfrac{4m}{n-2}} \\\\\n&=\\frac{(-6n+4m-12)(n-2)}{(9n-6m+18)(n-2)+4m(3n+2m-6)} \\\\\n&=\\frac{-6n^2+4mn-8m+24}{9n^2+8m^2+6mn-12m-36} \\\\\n&=\\frac{-6n^2+4mn-8m+24}{9n^2+72-18n^2+6mn-12m-36} \\\\\n&=\\frac{-6n^2+4mn-8m+24}{-9n^2+6mn-12m+36} \\\\\n&=\\frac{2(-3n^2+2mn-4m+12)}{3(-3n^2+2mn-4m+12)}\n=\\frac{2}{3}.\n\\end{aligned}\n\n$$\n\n而\n$k_{CD}=\\frac{0-(-2)}{3-0}=\\frac{2}{3}$.\n所以\n$k_{MN}=k_{CD}$.\n因此 $MN$ 与 $CD$ 不重合，故\n$MN\\parallel CD$."
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/math/beijing/q19_solution_fig1.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q20",
+      "number": 20,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "设函数 $f(x)=x-x^3{\\mathrm{e}}^{ax+b}$，曲线 $y=f(x)$ 在点 $(1,f(1))$ 处的切线方程为 $y=-x+1$.\n\n（1）求 $a$，$b$ 的值；\n（2）设函数 $g(x)=f'(x)$，求 $g(x)$ 的单调区间；\n（3）求 $f(x)$ 的极值点个数.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）因为切线方程为 $y=-x+1$，所以\n$f(1)=0$，$f'(1)=-1$.\n又\n$f(x)=x-x^3{\\mathrm{e}}^{ax+b}$，\n故\n$f'(x)=1-(3x^2+ax^3){\\mathrm{e}}^{ax+b}$.\n代入 $x=1$ 得 $1-{\\mathrm{e}}^{a+b}=0$，$1-(3+a){\\mathrm{e}}^{a+b}=-1$.\n解得\n$a=-1$，$b=1$.\n（2）由（1）得\n$g(x)=f'(x)=1-(3x^2-x^3){\\mathrm{e}}^{-x+1}$.\n于是\n$g'(x)=-x(x^2-6x+6){\\mathrm{e}}^{-x+1}$.\n令\n$x^2-6x+6=0$，\n得\n$x_1=3-\\sqrt{3}$，$x_2=3+\\sqrt{3}$.\n因为 ${\\mathrm{e}}^{-x+1}>0$，故 $g'(x)$ 的符号由 $-x(x^2-6x+6)$ 决定，从而\n$g(x)$\n在\n$(0,3-\\sqrt{3})$，$(3+\\sqrt{3},+\\infty)$\n上单调递减，在\n$(-\\infty,0)$，$(3-\\sqrt{3},3+\\sqrt{3})$\n上单调递增.\n（3）因为 $f'(x)=g(x)$，所以只需考察 $g(x)=0$ 的零点个数.\n\n在 $(-\\infty,0)$ 上，$g(x)$ 单调递增，且\n$g(-1)=1-4{\\mathrm{e}}^2<0$，$g(0)=1>0$，\n故在 $(-\\infty,0)$ 上有唯一零点.\n\n在 $(0,3-\\sqrt{3})$ 上，$g(x)$ 单调递减，且\n$g(0)=1>0$，$g(1)=1-2<0$，\n故在 $(0,3-\\sqrt{3})$ 上有唯一零点.\n\n在 $(3-\\sqrt{3},3+\\sqrt{3})$ 上，$g(x)$ 单调递增. 又由上一段可知 $g(1)<0$，且\n$1<3-\\sqrt{3}$，\n故\n$g(3-\\sqrt{3})<g(1)<0$.\n又因为\n$3-\\sqrt{3}<3<3+\\sqrt{3}$，$g(3)=1>0$，\n所以 $g(x)$ 在 $(3-\\sqrt{3},3+\\sqrt{3})$ 上有唯一零点.\n\n而当 $x>3+\\sqrt{3}>3$ 时，\n$3x^2-x^3=x^2(3-x)<0$，\n于是\n$g(x)=1-(3x^2-x^3){\\mathrm{e}}^{-x+1}>0$，\n故在 $(3+\\sqrt{3},+\\infty)$ 上无零点.\n\n综上，$f'(x)$ 共有 3 个零点，所以 $f(x)$ 有 3 个极值点."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-math-beijing-q21",
+      "number": 21,
+      "section": "解答题",
+      "type": "open_ended",
+      "score": null,
+      "difficulty": null,
+      "topics": [],
+      "stem_md": "已知数列 $\\{a_n\\}$，$\\{b_n\\}$ 的项数均为 $m$（$m>2$），且 $a_n$，$b_n\\in\\{1,2,\\dots,m\\}$，$\\{a_n\\}$，$\\{b_n\\}$ 的前 $n$ 项和分别为 $A_n$，$B_n$，并规定 $A_0=B_0=0$. 对于 $k\\in\\{0,1,2,\\dots,m\\}$，定义 $r_k=\\max \\{ i\\mid B_i\\le A_k,\\ i\\in\\{0,1,2,\\dots,m\\}\\}$，其中，$\\max M$ 表示数集 $M$ 中最大的数.\n\n（1）若 $a_1=2$，$a_2=1$，$a_3=3$，$b_1=1$，$b_2=3$，$b_3=3$，求 $r_0$，$r_1$，$r_2$，$r_3$ 的值；\n（2）若 $a_1\\ge b_1$，且 $2r_j\\le r_{j+1}+r_{j-1}$（$j=1$，$2$，$\\dots$，$m-1$），求 $r_n$；\n（3）证明：存在 $p$，$q$，$s$，$t\\in\\{0,1,2,\\dots,m\\}$，满足 $p>q$，$s>t$，使得 $A_p+B_t=A_q+B_s$.",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": ""
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题意，$A_0=0$，$A_1=2$，$A_2=3$，$A_3=6$，且 $B_0=0$，$B_1=1$，$B_2=4$，$B_3=7$.\n于是 $r_0=0$，$r_1=1$，$r_2=1$，$r_3=2$.\n（2）设\n$d_j=r_j-r_{j-1}$（$j=1$，$2$，$\\dots$，$m$）.\n由条件\n$2r_j\\le r_{j+1}+r_{j-1}$\n可得\n$d_{j+1}\\ge d_j$.\n即数列 $\\{d_j\\}$ 单调不减.\n又由于 $a_1\\ge b_1$，故\n$A_1\\ge B_1>B_0$，\n从而\n$r_1\\ge 1$，$r_0=0$，\n所以\n$d_1=r_1-r_0\\ge 1$.\n若存在某个 $d_j\\ge 2$，则由单调不减性知\n$d_j$，$d_{j+1}$，$\\dots$，$d_m\\ge 2$.\n于是\n\n$$\n\nr_m=\\sum_{k=1}^m d_k \\ge (j-1)\\times 1 + 2(m-j+1) =2m-j+1>m\n\n$$\n\n这与 $r_m\\le m$ 矛盾.\n故所有 $d_j=1$. 于是\n$r_n=r_0+\\sum_{k=1}^n d_k=n$.\n（3）分三种情况.\n\n若 $A_m=B_m$，取\n$q=t=0$，$p=s=m$，\n则\n$A_p+B_t=A_m=A_q+B_s$.\n\n若 $A_m<B_m$，对 $1\\le n\\le m$ 定义\n$S_n=B_{r_n}-A_n$.\n由 $r_n$ 的定义知 $S_n\\le 0$，且 $S_n$ 为整数.\n另一方面，若 $S_n\\le -m$，则\n$B_{r_n+1}-A_n>0$，\n从而\n$b_{r_n+1}=B_{r_n+1}-B_{r_n} =(B_{r_n+1}-A_n)-(B_{r_n}-A_n)>m$，\n与 $b_{r_n+1}\\in\\{1,2,\\dots,m\\}$ 矛盾.\n故\n$1-m\\le S_n\\le 0$.\n\n若存在 $N$ 使 $S_N=0$，则\n$A_N=B_{r_N}$.\n取\n$q=t=0$，$p=N$，$s=r_N$，\n则满足 $p>q$，$s>t$，$A_p+B_t=A_q+B_s$.\n\n若所有 $S_n\\ne 0$，则\n$S_n\\in\\{-1,-2,\\dots,-(m-1)\\}$.\n共有 $m$ 个数 $S_1$，$\\dots$，$S_m$，却只有 $m-1$ 个可能取值，故存在 $1\\le X<Y\\le m$ 使\n$S_X=S_Y$.\n于是\n$B_{r_X}-A_X=B_{r_Y}-A_Y$，\n即\n$A_Y+B_{r_X}=A_X+B_{r_Y}$.\n又因 $A_Y>A_X$，必有 $B_{r_Y}>B_{r_X}$，故 $r_Y>r_X$.\n取 $p=Y$，$q=X$，$s=r_Y$，$t=r_X$，\n则满足 $p>q$，$s>t$，$A_p+B_t=A_q+B_s$.\n\n若 $A_m>B_m$，类似地定义\n$R_n=\\max\\{i\\mid A_i\\le B_n,\\ i\\in\\{0,1,2,\\dots,m\\}\\}$，$T_n=A_{R_n}-B_n$.\n若存在 $N$ 使 $T_N=0$，则 $A_{R_N}=B_N$. 取\n$q=t=0$，$p=R_N$，$s=N$，\n即可得到 $p>q$，$s>t$，$A_p+B_t=A_q+B_s$.\n若所有 $T_n\\ne 0$，则 $T_n\\in\\{-1,-2,\\dots,-(m-1)\\}$. 共有 $m$ 个数 $T_1$，$\\dots$，$T_m$，却只有 $m-1$ 个可能取值，故存在 $1\\le X<Y\\le m$ 使 $T_X=T_Y$. 于是\n$A_{R_X}-B_X=A_{R_Y}-B_Y$，\n即\n$A_{R_Y}+B_X=A_{R_X}+B_Y$.\n又因 $A_{R_Y}>A_{R_X}$，必有 $B_Y>B_X$，故 $R_Y>R_X$.\n取 $p=R_Y$，$q=R_X$，$s=Y$，$t=X$，\n则满足 $p>q$，$s>t$，$A_p+B_t=A_q+B_s$.\n\n综上，命题成立."
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

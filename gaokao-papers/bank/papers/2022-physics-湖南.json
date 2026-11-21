@@ -1,0 +1,826 @@
+{
+  "id": "2022-physics-湖南",
+  "year": 2022,
+  "subject": "物理",
+  "region": "湖南卷",
+  "region_key": "湖南",
+  "format_tier": "structured_latex",
+  "question_count": 16,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2022-physics-湖南-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "光学",
+        "光电效应"
+      ],
+      "stem_md": "关于原子结构和微观粒子波粒二象性，下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "卢瑟福的核式结构模型解释了原子光谱的分立特征",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "玻尔的原子理论完全揭示了微观粒子运动的规律",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "光电效应揭示了光的粒子性",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "电子束穿过铝箔后的衍射图样揭示了电子的粒子性",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．波尔的量子化模型很好地解释了原子光谱的分立特征，A 错误；\n\nB．玻尔的原子理论成功的解释了氢原子的分立光谱，但不足之处，是它保留了经典理论中的一些观点，如电子轨道的概念，还不成完全揭示微观粒子的运动规律，B 错误；\n\nC．光电效应揭示了光的粒子性，C 正确；\n\nD．电子束穿过铝箔后的衍射图样，证实了电子的波动性，质子、中子及原子、分子均具有波动性，D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电场",
+        "电场叠加"
+      ],
+      "stem_md": "如图，四根完全相同的均匀带正电绝缘长棒对称放置在长方体的四条长边 a、b、c、d 上。移去 a 处的绝缘棒，假定另外三根绝缘棒电荷分布不变。关于长方体几何中心 O 点处电场强度方向和电势的变化，下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/湖南/02.png)",
+      "figures": [
+        "assets/2022/physics/湖南/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "电场强度方向垂直指向 a，电势减小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "电场强度方向垂直指向 c，电势减小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电场强度方向垂直指向 a，电势增大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "电场强度方向垂直指向 c，电势增大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据对称性可知，移去 a 处的绝缘棒后，电场强度方向垂直指向 a，再根据电势的叠加原理，单个点电荷在距其 $r$ 处的电势为 $\\varphi = k \\frac{q}{r}$（取无穷远处电势为零）。现在撤去 a 处的绝缘棒后，$q$ 减小，则 O 点的电势减小。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "磁场",
+        "安培力"
+      ],
+      "stem_md": "如图（[2022湖南03a]），直导线 MN 被两等长且平行的绝缘轻绳悬挂于水平轴 OO$'$ 上，其所在区域存在方向垂直指向 OO$'$ 的磁场，与 OO$'$ 距离相等位置的磁感应强度大小相等且不随时间变化，其截面图如图（[2022湖南03b]）所示。导线通以电流 $I$，静止后，悬线偏离竖直方向的夹角为 $\\theta$。下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/湖南/03a.png) ![物理配图](assets/2022/physics/湖南/03b.png)",
+      "figures": [
+        "assets/2022/physics/湖南/03a.png",
+        "assets/2022/physics/湖南/03b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "当导线静止在图（[2022湖南03a]）右侧位置时，导线中电流方向由 N 指向 M",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "电流 $I$ 增大，静止后，导线对悬线的拉力不变",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\tan\\theta$ 与电流 $I$ 成正比",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\sin\\theta$ 与电流 $I$ 成正比",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "![物理配图](assets/2022/physics/湖南/03_an.png)\n\nA．当导线静止在图（a）右侧位置时，对导线做受力分析。可知要让安培力为图示方向，则导线中电流方向应由 M 指向 N，A 错误；\n\nBCD．由于与 OO$'$ 距离相等位置的磁感应强度大小相等且不随时间变化，有\n\n$\\sin\\theta = \\frac{BIL}{mg}$，$F_{T} = mg\\cos\\theta$。\n\n则可看出 $\\sin\\theta$ 与电流 $I$ 成正比，当 $I$ 增大时 $\\theta$ 增大，则 $\\cos\\theta$ 减小，静止后，导线对悬线的拉力 $F_{T}$ 减小，BC 错误、D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/湖南/03_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "1932 年，查德威克用未知射线轰击氢核，发现这种射线是由质量与质子大致相等的中性粒子（即中子）组成。如图，中子以速度 $v_{0}$ 分别碰撞静止的氢核和氮核，碰撞后氢核和氮核的速度分别为 $v_{1}$ 和 $v_{2}$。设碰撞为弹性正碰，不考虑相对论效应，下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/湖南/04.png)",
+      "figures": [
+        "assets/2022/physics/湖南/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "碰撞后氮核的动量比氢核的小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "碰撞后氮核的动能比氢核的小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$v_{2}$ 大于 $v_{1}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$v_{2}$ 大于 $v_{0}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设中子的质量为 $m$，氢核的质量为 $m$，氮核的质量为 $14m$，设中子和氢核碰撞后中子速度为 $v_{3}$，由动量守恒定律和能量守恒定律可得\n\n$mv_{0} = mv_{1} + mv_{3}$\n\n$\\frac{1}{2}mv_{0}^{2} = \\frac{1}{2}mv_{1}^{2} + \\frac{1}{2}mv_{3}^{2}$\n\n联立解得\n\n$v_{1} = v_{0}$\n\n设中子和氮核碰撞后中子速度为 $v_{4}$，由动量守恒定律和能量守恒定律可得\n\n$mv_{0} = 14mv_{2} + mv_{4}$\n\n$\\frac{1}{2}mv_{0}^{2} = \\frac{1}{2}\\cdot 14mv_{2}^{2} + \\frac{1}{2}mv_{4}^{2}$\n\n联立解得\n\n$v_{2} = \\frac{2}{15}v_{0}$\n\n可得\n\n$v_{1} = v_{0} > v_{2}$\n\n碰撞后氢核的动量为\n\n$p_{H} = mv_{1} = mv_{0}$\n\n氮核的动量为\n\n$p_{N} = 14mv_{2} = \\frac{28mv_{0}}{15}$\n\n可得\n\n$p_{N} > p_{H}$\n\n碰撞后氢核的动能为\n\n$E_{kH} = \\frac{1}{2}mv_{1}^{2} = \\frac{1}{2}mv_{0}^{2}$\n\n氮核的动能为\n\n$E_{kN} = \\frac{1}{2}\\cdot 14mv_{2}^{2} = \\frac{28mv_{0}^{2}}{225}$\n\n可得 $E_{kH} > E_{kN}$。\n\n故 B 正确，ACD 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "牛顿第二定律"
+      ],
+      "stem_md": "2022 年北京冬奥会跳台滑雪空中技巧比赛场地边，有一根系有飘带的风力指示杆，教练员根据飘带的形态提示运动员现场风力的情况。若飘带可视为粗细一致的匀质长绳，其所处范围内风速水平向右、大小恒定且不随高度改变。当飘带稳定时，飘带实际形态最接近的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2022/physics/湖南/05a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2022/physics/湖南/05b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2022/physics/湖南/05c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2022/physics/湖南/05d.png"
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设风速度为 $v$，取飘带上任意长度为 $x$（$x$ 趋近于 0）的质量为 $m$，飘带宽度为 $d$，则该部分飘带的重力和所受风力分别为\n\n$G = mg$，$F = kxdv^{2}\\sin\\theta$\n\n则重力与风力的合力与竖直方向的夹角为\n\n$\\tan\\theta = \\frac{F}{G} = \\frac{kdxv^{2}\\sin\\theta}{mg}$\n\n整理可得\n\n$\\frac{1}{\\cos\\theta} = \\frac{kv^{2}dL}{mg}$\n\n任意长度为 $x$ 的飘带重力相等，所受风力的大小相等，则 $\\cos\\theta$ 恒定，则飘带为一条倾斜的直线，故 A 正确，BCD 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "如图，理想变压器原、副线圈总匝数相同，滑动触头 $P_{1}$ 初始位置在副线圈正中间，输入端接入电压有效值恒定的交变电源。定值电阻 $R_{1}$ 的阻值为 $R$，滑动变阻器 $R_{2}$ 的最大阻值为 $9R$，滑片 $P_{2}$ 初始位置在最右端。理想电压表 V 的示数为 $U$，理想电流表 A 的示数为 $I$。下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/湖南/06.png)",
+      "figures": [
+        "assets/2022/physics/湖南/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "保持 $P_{1}$ 位置不变，$P_{2}$ 向左缓慢滑动的过程中，$I$ 减小，$U$ 不变",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "保持 $P_{1}$ 位置不变，$P_{2}$ 向左缓慢滑动的过程中，$R_{1}$ 消耗的功率增大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "保持 $P_{2}$ 位置不变，$P_{1}$ 向下缓慢滑动的过程中，$I$ 减小，$U$ 增大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "保持 $P_{2}$ 位置不变，$P_{1}$ 向下缓慢滑动的过程中，$R_{1}$ 消耗的功率减小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．由题意可知，原副线圈的匝数比为 2，则副线圈的电流为 $2I$，根据欧姆定律可得副线圈的电压有效值为\n\n$U_{2} = 2IR_{1}$\n\n则变压器原线圈的电压有效值为\n\n$U_{1} = 2U_{2} = 4IR_{1}$\n\n设输入交流电的电压有效值为 $U_{0}$，则\n\n$U_{0} = 4IR_{1} + IR_{2}$\n\n可得\n\n$I = \\frac{U_{0}}{4R_{1} + R_{2}}$\n\n保持 $P_{1}$ 位置不变，$P_{2}$ 向左缓慢滑动的过程中，$I$ 不断变大，根据欧姆定律\n\n$U_{1} = 4IR$\n\n可知变压器原线圈的电压有效值变大，输入电压有效值不变，则 $R_{2}$ 两端的电压不断变小，则电压表示数 $U$ 变小，原线圈的电压电流都变大，则功率变大，根据原副线圈的功率相等，可知 $R_{1}$ 消耗的功率增大，故 B 正确，A 错误；\n\nCD．设原副线圈的匝数比为 $n$，同理可得\n\n$U_{1} = n^{2}IR_{1}$\n\n则\n\n$U_{0} = n^{2}IR_{1} + IR_{2}$\n\n整理可得\n\n$I = \\frac{U_{0}}{n^{2}R_{1} + R_{2}}$\n\n保持 $P_{2}$ 位置不变，$P_{1}$ 向下缓慢滑动的过程中，$n$ 不断变大，则 $I$ 变小，对 $R_{2}$ 由欧姆定律可知\n\n$U = IR_{2}$\n\n可知 $U$ 不断变小，根据原副线圈的功率相等可知 $R_{1}$ 消耗的功率\n\n$P_{1} = IU_{1} = \\frac{U_{0}}{n^{2}R_{1} + R_{2}}\\cdot(U_{0} - \\frac{U_{0}R_{2}}{n^{2}R_{1} + R_{2}})$\n\n整理可得\n\n$P_{1} = \\frac{U_{0}^{2}}{n^{2}R_{1} + \\frac{R_{2}^{2}}{n^{2}R_{1}} + 2R_{2}}$\n\n可知 $n = 3$ 时，$R_{1}$ 消耗的功率有最大值，可知 $R_{1}$ 消耗的功率先增大，后减小，故 CD 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q07",
+      "number": 7,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "变加速直线运动"
+      ],
+      "stem_md": "神舟十三号返回舱进入大气层一段时间后，逐一打开引导伞、减速伞、主伞，最后启动反冲装置，实现软着陆。某兴趣小组研究了减速伞打开后返回舱的运动情况，将其运动简化为竖直方向的直线运动，其 $v-t$ 图像如图所示。设该过程中，重力加速度不变，返回舱质量不变，下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/湖南/07.png)",
+      "figures": [
+        "assets/2022/physics/湖南/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在 $0\\sim t_{1}$ 时间内，返回舱重力的功率随时间减小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在 $0\\sim t_{1}$ 时间内，返回舱的加速度不变",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在 $t_{1}\\sim t_{2}$ 时间内，返回舱的动量随时间减小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在 $t_{2}\\sim t_{3}$ 时间内，返回舱的机械能不变",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．重力的功率为 $P = mgv$。由图可知在 $0\\sim t_{1}$ 时间内，返回舱的速度随时间减小，故重力的功率随时间减小，故 A 正确；\n\nB．根据 $v-t$ 图像的斜率表示加速度可知在 $0\\sim t_{1}$ 时间内返回舱的加速度减小，故 B 错误；\n\nC．在 $t_{1}\\sim t_{2}$ 时间内由图像可知返回舱的速度减小，故可知动量随时间减小。故 C 正确；\n\nD．在 $t_{2}\\sim t_{3}$ 时间内，由图像可知返回舱的速度不变，则动能不变，但由于返回舱高度下降，重力势能减小，故机械能减小，故 D 错误。\n\n故选 AC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "天体运动"
+      ],
+      "stem_md": "如图，火星与地球近似在同一平面内，绕太阳沿同一方向做匀速圆周运动，火星的轨道半径大约是地球的 1.5 倍。地球上的观测者在大多数的时间内观测到火星相对于恒星背景由西向东运动，称为顺行；有时观测到火星由东向西运动，称为逆行。当火星、地球、太阳三者在同一直线上，且太阳和火星位于地球两侧时，称为火星冲日。忽略地球自转，只考虑太阳对行星的引力，下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/湖南/08.png)",
+      "figures": [
+        "assets/2022/physics/湖南/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "火星的公转周期大约是地球的 $\\sqrt{\\frac{8}{27}}$ 倍",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在冲日处，地球上的观测者观测到火星的运动为顺行",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在冲日处，地球上的观测者观测到火星的运动为逆行",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在冲日处，火星相对于地球的速度最小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "CD",
+        "choices": [
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由题意根据开普勒第三定律可知\n\n$\\frac{r_{\\text{地}}^{3}}{T_{\\text{地}}^{2}} = \\frac{r_{\\text{火}}^{3}}{T_{\\text{火}}^{2}}$\n\n火星轨道半径大约是地球轨道半径的 1.5 倍，则可得\n\n$T_{\\text{火}} = \\sqrt{\\frac{27}{8}}T_{\\text{地}}$\n\n故 A 错误；\n\nBC．根据\n\n$G\\frac{Mm}{r^{2}} = m\\frac{v^{2}}{r}$\n\n可得\n\n$v = \\sqrt{\\frac{GM}{r}}$\n\n由于火星轨道半径大于地球轨道半径，故火星运行线速度小于地球运行线速度，所以在冲日处火星相对于地球由东向西运动，为逆行，故 B 错误，C 正确；\n\nD．由于火星和地球运动的线速度大小不变，在冲日处火星和地球速度方向相同，故相对速度最小，故 D 正确。\n\n故选 CD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "变加速直线运动"
+      ],
+      "stem_md": "球形飞行器安装了可提供任意方向推力的矢量发动机，总质量为 $M$。飞行器飞行时受到的空气阻力大小与其速率平方成正比（即 $F_{\\text{阻}} = kv^{2}$，$k$ 为常量）。当发动机关闭时，飞行器竖直下落，经过一段时间后，其匀速下落的速率为 $10\\,\\mathrm{m}/\\mathrm{s}$；当发动机以最大推力推动飞行器竖直向上运动，经过一段时间后，飞行器匀速向上的速率为 $5\\,\\mathrm{m}/\\mathrm{s}$。重力加速度大小为 $g$，不考虑空气相对于地面的流动及飞行器质量的变化，下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "发动机的最大推力为 $1.5Mg$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "当飞行器以 $5\\,\\mathrm{m}/\\mathrm{s}$ 匀速水平飞行时，发动机推力的大小为 $\\frac{\\sqrt{17}}{4}Mg$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "发动机以最大推力推动飞行器匀速水平飞行时，飞行器速率为 $5\\sqrt{3}\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "当飞行器以 $5\\,\\mathrm{m}/\\mathrm{s}$ 的速率飞行时，其加速度大小可以达到 $3g$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．飞行器关闭发动机，以 $v_{1} = 10\\,\\mathrm{m}/\\mathrm{s}$ 匀速下落时，有\n\n$Mg = kv_{1}^{2} = k \\times 100$\n\n飞行器以 $v_{2} = 5\\,\\mathrm{m}/\\mathrm{s}$ 向上匀速时，设最大推力为 $F_{m}$\n\n$F_{m} = Mg + kv_{2}^{2} = Mg + k \\times 25$\n\n联立可得\n\n$F_{m} = 1.25Mg$，$k = \\frac{Mg}{100}$\n\nA 错误；\n\nB．飞行器以 $v_{3} = 5\\,\\mathrm{m}/\\mathrm{s}$ 匀速水平飞行时\n\n$F = \\sqrt{(Mg)^{2} + (kv_{3})^{2}} = \\frac{\\sqrt{17}}{4}Mg$\n\nB 正确；\n\nC．发动机以最大推力推动飞行器匀速水平飞行时\n\n$f = \\sqrt{F_{m}^{2} - (Mg)^{2}} = \\frac{3}{4}Mg = kv_{4}^{2}$\n\n解得 $v_{4} = 5\\sqrt{3}\\,\\mathrm{m}/\\mathrm{s}$。C 正确；\n\nD．当飞行器最大推力向下，以 $v_{5} = 5\\,\\mathrm{m}/\\mathrm{s}$ 的速率向上减速飞行时，其加速度向下达到最大值\n\n$F_{m} + Mg + kv_{5}^{2} = Ma_{m}$\n\n解得 $a_{m} = 2.5g$。D 错误。\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "双杆问题"
+      ],
+      "stem_md": "如图，间距 $L = 1\\,\\mathrm{m}$ 的 U 形金属导轨，一端接有 $0.1\\,\\Omega$ 的定值电阻 $R$，固定在高 $h = 0.8\\,\\mathrm{m}$ 的绝缘水平桌面上。质量均为 $0.1\\,\\mathrm{kg}$ 的匀质导体棒 a 和 b 静止在导轨上，两导体棒与导轨接触良好且始终与导轨垂直，接入电路的阻值均为 $0.1\\,\\Omega$，与导轨间的动摩擦因数均为 0.1（设最大静摩擦力等于滑动摩擦力），导体棒 a 距离导轨最右端 $1.74\\,\\mathrm{m}$。整个空间存在竖直向下的匀强磁场（图中未画出），磁感应强度大小为 $0.1\\,\\mathrm{T}$。用 $F = 0.5\\,\\mathrm{N}$ 沿导轨水平向右的恒力拉导体棒 a，当导体棒 a 运动到导轨最右端时，导体棒 b 刚要滑动，撤去 $F$，导体棒 a 离开导轨后落到水平地面上。重力加速度取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，不计空气阻力，不计其他电阻，下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/湖南/10.png)",
+      "figures": [
+        "assets/2022/physics/湖南/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "导体棒 a 离开导轨至落地过程中，水平位移为 $0.6\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "导体棒 a 离开导轨至落地前，其感应电动势不变",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "导体棒 a 在导轨上运动的过程中，导体棒 b 有向右运动的趋势",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "导体棒 a 在导轨上运动的过程中，通过电阻 $R$ 的电荷量为 $0.58\\,\\mathrm{C}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "C．导体棒 a 在导轨上向右运动，产生的感应电流向里，流过导体棒 b 向里，由左手定则可知安培力向左，则导体棒 b 有向左运动的趋势，故 C 错误；\n\nA．导体棒 b 与电阻 $R$ 并联，有\n\n$I = \\frac{BLv}{R + \\frac{R}{2}}$\n\n当导体棒 a 运动到导轨最右端时，导体棒 b 刚要滑动，有\n\n$B\\cdot\\frac{I}{2}\\cdot L = \\mu mg$\n\n联立解得 a 棒的速度为\n\n$v = 3\\,\\mathrm{m}/\\mathrm{s}$\n\na 棒做平抛运动，有\n\n$x = vt$\n\n$h = \\frac{1}{2}gt^{2}$\n\n联立解得导体棒 a 离开导轨至落地过程中水平位移为 $x = 1.2\\,\\mathrm{m}$。故 A 错误；\n\nB．导体棒 a 离开导轨至落地前做平抛运动，水平速度切割磁感线，则产生的感应电动势不变，故 B 正确；\n\nD．导体棒 a 在导轨上运动的过程中，通过电路的电量为\n\n$q = \\overline{I}\\cdot\\Delta t = \\frac{BL\\cdot\\Delta x}{R + \\frac{1}{2}R} = \\frac{0.1 \\times 1 \\times 1.74}{0.15}\\,\\mathrm{C} = 1.16\\,\\mathrm{C}$\n\n导体棒 b 与电阻 $R$ 并联，流过的电流与电阻成反比，则通过电阻 $R$ 的电荷量为 $q_{R} = \\frac{q}{2} = 0.58\\,\\mathrm{C}$。故 D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 650,
+      "topics": [
+        "力物体的平衡",
+        "胡克定律"
+      ],
+      "stem_md": "小圆同学用橡皮筋、同种一元硬币、刻度尺、塑料袋、支架等，设计了如图（[2022湖南11a]）所示的实验装置，测量冰墩墩玩具的质量。主要实验步骤如下：\n\n（1）查找资料，得知每枚硬币的质量为 $6.05\\,\\mathrm{g}$；\n（2）将硬币以 5 枚为一组逐次加入塑料袋，测量每次稳定后橡皮筋的长度 $l$，记录数据如下表：\n\n\t\n\t\n<table class=\"exam-table\"><tr><th>序号</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr><tr><td>硬币数量 $n$ / 枚</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td></tr><tr><td>长度 $l$ / $\\,\\mathrm{cm}$</td><td>10.51</td><td>12.02</td><td>13.54</td><td>15.05</td><td>16.56</td></tr></table>\n\n\t\n（3）根据表中数据在图（[2022湖南11b]）上描点，绘制图线； ______\n（4）取出全部硬币，把冰墩墩玩具放入塑料袋中，稳定后橡皮筋长度的示数如图（[2022湖南11c]）所示，此时橡皮筋的长度为  ______  $\\,\\mathrm{cm}$；\n（5）由上述数据计算得冰墩墩玩具的质量为  ______  $\\,\\mathrm{g}$（计算结果保留 3 位有效数字）。\n\n![物理配图](assets/2022/physics/湖南/11a.png) ![物理配图](assets/2022/physics/湖南/11b.png) ![物理配图](assets/2022/physics/湖南/11c.png)",
+      "figures": [
+        "assets/2022/physics/湖南/11a.png",
+        "assets/2022/physics/湖南/11b.png",
+        "assets/2022/physics/湖南/11c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）（实验步骤，无填空）\n（2）（实验步骤，无填空）\n（3）如图\n（4）15.35\n（5）127",
+        "sub_answers": [
+          "",
+          "15.35",
+          "127"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（3）根据表格标点连线如图\n\n![物理配图](assets/2022/physics/湖南/11_an.png)\n\n（4）由图可知刻度尺的分度值为 $1\\,\\mathrm{mm}$，故读数 $l = 15.35\\,\\mathrm{cm}$；\n\n（5）设橡皮筋的劲度系数为 $k$，原长为 $x_{0}$，则\n\n$n_{1}mg = k(x_{1} - x_{0})$\n\n$n_{2}mg = k(x_{2} - x_{0})$\n\n则橡皮筋的劲度系数为 $k$\n\n$k = \\frac{(n_{2} - n_{1})mg}{x_{2} - x_{1}}$\n\n从作的 $l-n$ 图线读取数据则可得\n\n$k = \\frac{(n_{2} - n_{1})mg}{x_{2} - x_{1}} = \\frac{10}{3}mg$，$x_{0} = \\frac{n_{2}x_{1} - n_{1}x_{2}}{n_{2} - n_{1}} = 9.05\\,\\mathrm{cm}$\n\n设冰墩墩的质量为 $m_{1}$，则有\n\n$m_{1}g = k(l - x_{0})$\n\n可得\n\n$m_{1} = \\frac{10}{3} \\times 6.05 \\times (15.35 - 9.05)\\,\\mathrm{g} \\approx 127\\,\\mathrm{g}$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/湖南/11_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 9,
+      "difficulty": 550,
+      "topics": [
+        "电路",
+        "多用表的使用"
+      ],
+      "stem_md": "小梦同学自制了一个两挡位（“$\\times$1”“$\\times$10”）的欧姆表，其内部结构如图所示，$R_{0}$ 为调零电阻（最大阻值为 $R_{0\\mathrm{m}}$），$R_{s}$、$R_{m}$、$R_{n}$ 为定值电阻（$R_{s} + R_{0\\mathrm{m}} < R_{m} < R_{n}$），电流计 G 的内阻为 $R_{G}$（$R_{s} \\ll R_{G}$）。用此欧姆表测量一待测电阻的阻值，回答下列问题：\n\n（1）短接 ①②，将单刀双掷开关 S 与 m 接通，电流计 G 示数为 $I_{m}$；保持电阻 $R_{0}$ 滑片位置不变，将单刀双掷开关 S 与 n 接通，电流计 G 示数变为 $I_{n}$，则 $I_{m}$  ______  $I_{n}$（填“大于”或“小于”）；\n（2）将单刀双掷开关 S 与 n 接通，此时欧姆表的挡位为  ______ （填“$\\times$1”或“$\\times$10”）；\n（3）若从“$\\times$1”挡位换成“$\\times$10”挡位，调整欧姆零点（欧姆零点在电流计 G 满偏刻度处）时，调零电阻 $R_{0}$ 的滑片应该  ______  调节（填“向上”或“向下”）；\n（4）在“$\\times$10”挡位调整欧姆零点后，在 ①② 间接入阻值为 $100\\,\\Omega$ 的定值电阻 $R_{1}$，稳定后电流计 G 的指针偏转到满偏刻度的 $\\frac{2}{3}$；取走 $R_{1}$，在 ①② 间接入待测电阻 $R_{x}$，稳定后电流计 G 的指针偏转到满偏刻度的 $\\frac{1}{3}$，则 $R_{x} =$  ______  $\\,\\Omega$。\n\n![物理配图](assets/2022/physics/湖南/12.png)",
+      "figures": [
+        "assets/2022/physics/湖南/12.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）大于\n（2）$\\times$10\n（3）向上\n（4）400",
+        "sub_answers": [
+          "大于",
+          "$\\times$10",
+          "向上",
+          "400"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意可知 $R_{m} < R_{n}$，所以开关拨向 m 时电路的总电阻小于开关拨向 n 时电路的总电阻，电源电动势 $E$ 不变，根据 $I = \\frac{E}{R_{\\text{总}}}$ 可知 $I_{m} > I_{n}$；\n\n（2）当开关拨 S 向 n 时，全电路的总电阻较大，中值电阻较大，能够接入待测电阻的阻值也更大，所以开关拨 S 向 n 时对应欧姆表的挡位倍率较大，即 $\\times$10；\n\n（3）从“$\\times$1”挡位换成“$\\times$10”挡位，即开关 S 从 m 拨向 n，全电路电阻增大，干路电流减小，①、② 短接时，为了使电流表满偏，则需要增大通过电流计 G 所在支路的电流，所以需要将 $R_{0}$ 的滑片向上调节；\n\n（4）在“$\\times$10”挡位，电路图结构简化如图\n\n![物理配图](assets/2022/physics/湖南/12_an.png)\n\n第一次，当 ①、② 短接，全电路的总电阻为\n\n$R = R_{n} + \\frac{(R_{G} + R_{0\\text{上}})R_{0\\text{下}}}{R_{G} + R_{0m}}$\n\n通过干路的电流为\n\n$I = \\frac{E}{R}$\n\n电流表满偏，根据并联电路中电流之比等于电阻反比可知\n\n$\\frac{I_{G}}{I - I_{G}} = \\frac{R_{0\\text{下}}}{R_{G} + R_{0\\text{上}}}$\n\n第二次，①、② 之间接入 $R_{1} = 100\\,\\Omega$，全电路总电阻为 $R + R_{1}$，通过干路的电流为\n\n$I_{1} = \\frac{E}{R + R_{1}}$\n\n电流表偏转了量程的 $\\frac{2}{3}$，则\n\n$\\frac{\\frac{2}{3}I_{G}}{I_{1} - \\frac{2}{3}I_{G}} = \\frac{R_{0\\text{下}}}{R_{G} + R_{0\\text{上}}}$\n\n结合第一次和第二次解得\n\n$R = 2R_{1} = 200\\,\\Omega$\n\n第三次，①、② 之间接入 $R_{x}$，全电路总电阻为 $R_{x} + R_{1}$，通过干路的电流为\n\n$I_{x} = \\frac{E}{R_{x} + R_{1}}$\n\n电流表偏转了量程的 $\\frac{1}{3}$，则\n\n$\\frac{\\frac{1}{3}I_{G}}{I_{x} - \\frac{1}{3}I_{G}} = \\frac{R_{0\\text{下}}}{R_{G} + R_{0\\text{上}}}$\n\n结合第二次和第三次，解得：$R_{x} = R + 2R_{1} = 400\\,\\Omega$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/湖南/12_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 13,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图，两个定值电阻的阻值分别为 $R_{1}$ 和 $R_{2}$，直流电源的内阻不计，平行板电容器两极板水平放置，板间距离为 $d$，板长为 $\\sqrt{3}d$，极板间存在方向水平向里的匀强磁场。质量为 $m$、带电量为 $+q$ 的小球以初速度 $v$ 沿水平方向从电容器下板左侧边缘 A 点进入电容器，做匀速圆周运动，恰从电容器上板右侧边缘离开电容器。此过程中，小球未与极板发生碰撞，重力加速度大小为 $g$，忽略空气阻力。\n\n（1）求直流电源的电动势 $E_{0}$；\n（2）求两极板间磁场的磁感应强度 $B$；\n（3）在图中虚线的右侧设计一匀强电场，使小球离开电容器后沿直线运动，求电场强度的最小值 $E'$。\n\n![物理配图](assets/2022/physics/湖南/13.png)",
+      "figures": [
+        "assets/2022/physics/湖南/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{mgd(R_{1} + R_{2})}{qR_{2}}$\n（2）$\\frac{mv}{2dq}$\n（3）$\\frac{mv}{2q}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）小球在电磁场中作匀速圆周运动，则电场力与重力平衡，可得 $qE = mg$，$R_{2}$ 两端的电压 $U_{2} = Ed$，根据欧姆定律得\n\n$U_{2} = \\frac{R_{2}}{R_{1} + R_{2}}E_{0}$\n\n联立解得\n\n$E_{0} = \\frac{mgd(R_{1} + R_{2})}{qR_{2}}$\n\n（2）如图所示\n\n![物理配图](assets/2022/physics/湖南/13_an.png)\n\n设粒子在电磁场中做圆周运动的半径为 $r$，根据几何关系\n\n$(r - d)^{2} + (\\sqrt{3}d)^{2} = r^{2}$\n\n解得 $r = 2d$\n\n根据 $qvB = m\\frac{v^{2}}{r}$，解得 $B = \\frac{mv}{2dq}$\n\n（3）由几何关系可知，射出磁场时，小球速度方向与水平方向夹角为 $60^{\\circ}$，要使小球做直线运动，当小球所受电场力与小球重力在垂直小球速度方向的分力相等时，电场力最小，电场强度最小，可得 $qE' = mg\\cos60^{\\circ}$\n\n解得 $E' = \\frac{mv}{2q}$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/湖南/13_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 15,
+      "difficulty": 350,
+      "topics": [
+        "运动和力",
+        "牛顿定律的应用"
+      ],
+      "stem_md": "如图（[2022湖南14a]），质量为 $m$ 的篮球从离地 $H$ 高度处由静止下落，与地面发生一次非弹性碰撞后反弹至离地 $h$ 的最高处。设篮球在运动过程中所受空气阻力的大小是篮球所受重力的 $\\lambda$ 倍（$\\lambda$ 为常数且 $0 < \\lambda < \\frac{H - h}{H + h}$），且篮球每次与地面碰撞的碰后速率与碰前速率之比相同，重力加速度大小为 $g$。\n\n（1）求篮球与地面碰撞的碰后速率与碰前速率之比；\n（2）若篮球反弹至最高处 $h$ 时，运动员对篮球施加一个向下的压力 $F$，使得篮球与地面碰撞一次后恰好反弹至 $h$ 的高度处，力 $F$ 随高度 $y$ 的变化如图（[2022湖南14b]）所示，其中 $h_{0}$ 已知，求 $F_{0}$ 的大小；\n（3）篮球从 $H$ 高度处由静止下落后，每次反弹至最高点时，运动员拍击一次篮球（拍击时间极短），瞬间给其一个竖直向下、大小相等的冲量 $I$，经过 $N$ 次拍击后篮球恰好反弹至 $H$ 高度处，求冲量 $I$ 的大小。\n\n![物理配图](assets/2022/physics/湖南/14a.png) ![物理配图](assets/2022/physics/湖南/14b.png)",
+      "figures": [
+        "assets/2022/physics/湖南/14a.png",
+        "assets/2022/physics/湖南/14b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$k = \\sqrt{\\frac{(1 + \\lambda)h}{(1 - \\lambda)H}}$\n（2）$F_{0} = \\frac{2mg(1 - \\lambda)(H - h)}{h - h_{0}}$\n（3）$I = m\\sqrt{\\frac{2g(1 - \\lambda)(H - h)(H^{N+1} - h^{N+1})}{h(H^{N} - h^{N})}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "第(3)问·方法一",
+          "tier": "standard",
+          "content_md": "（1）篮球下降过程中根据牛顿第二定律有\n\n$mg - \\lambda mg = ma_{\\text{下}}$\n\n再根据匀变速直线运动的公式，下落的过程中有\n\n$v_{\\text{下}}^{2} = 2a_{\\text{下}}H$\n\n篮球反弹后上升过程中根据牛顿第二定律有\n\n$mg + \\lambda mg = ma_{\\text{上}}$\n\n再根据匀变速直线运动的公式，上升的过程中有\n\n$v_{\\text{上}}^{2} = 2a_{\\text{上}}h$\n\n则篮球与地面碰撞的碰后速率与碰前速率之比\n\n$k = \\frac{v_{\\text{上}}}{v_{\\text{下}}} = \\sqrt{\\frac{(1 + \\lambda)h}{(1 - \\lambda)H}}$\n\n（2）若篮球反弹至最高处 $h$ 时，运动员对篮球施加一个向下的压力 $F$，则篮球下落过程中根据动能定理有\n\n$mgh + \\frac{h - h_{0}}{2}F_{0} - \\lambda mgh = \\frac{1}{2}mv_{\\text{下}}^{2}$\n\n篮球反弹后上升过程中根据动能定理有\n\n$-mgh - \\lambda mgh = 0 - \\frac{1}{2}m(kv_{\\text{下}}')^{2}$\n\n联立解得\n\n$F_{0} = \\frac{2mg(1 - \\lambda)(H - h)}{h - h_{0}}$\n\n由（1）问可知篮球上升和下降过程中的加速度分别为\n\n$a_{\\text{下}} = (1 - \\lambda)g$（方向向下）\n\n$a_{\\text{上}} = (1 + \\lambda)g$（方向向下）\n\n由题知运动员拍击一次篮球（拍击时间极短），瞬间给其一个竖直向下、大小相等的冲量 $I$，由于拍击时间极短，则重力的冲量可忽略不计，则根据动量定理有\n\n$I = mv$\n\n即每拍击一次篮球将给它一个速度 $v_{0}$。\n\n拍击第 1 次下降过程有\n\n$v_{1}^{2} - v^{2} = 2(1 - \\lambda)gh_{0}$\n\n上升过程有\n\n$(kv_{1})^{2} = 2(1 + \\lambda)gh_{1}$\n\n代入 $k$ 后，下降过程有\n\n$v_{1}^{2} - v^{2} = 2(1 - \\lambda)gh_{0}$\n\n上升过程有\n\n$hv_{1}^{2} = 2(1 - \\lambda)gHh_{1}$\n\n联立有\n\n$h_{1} = \\frac{h}{H}(h_{0} + \\frac{v^{2}}{2g(1 - \\lambda)}) = (\\frac{h}{H})^{1}\\cdot h_{0} + (\\frac{h}{H})^{1}\\cdot\\frac{v^{2}}{2g(1 - \\lambda)}$\n\n拍击第 2 次，同理代入 $k$ 后，下降过程有\n\n$v_{2}^{2} - v^{2} = 2(1 - \\lambda)gh_{1}$\n\n上升过程有\n\n$hv_{2}^{2} = 2(1 - \\lambda)gHh_{2}$\n\n联立有\n\n$h_{2} = \\frac{h}{H}(h_{1} + \\frac{v^{2}}{2g(1 - \\lambda)})$\n\n再将 $h_{1}$ 代入 $h_{2}$ 有\n\n$h_{2} = (\\frac{h}{H})^{2}\\cdot h_{0} + (\\frac{h}{H})^{2}\\cdot\\frac{v^{2}}{2g(1 - \\lambda)} + (\\frac{h}{H})^{1}\\cdot\\frac{v^{2}}{2g(1 - \\lambda)}$\n\n拍击第 3 次，同理代入 $k$ 后，下降过程有\n\n$v_{3}^{2} - v^{2} = 2(1 - \\lambda)gh_{2}$\n\n上升过程有\n\n$hv_{3}^{2} = 2(1 - \\lambda)gHh_{3}$\n\n联立有\n\n$h_{3} = \\frac{h}{H}(h_{2} + \\frac{v^{2}}{(1 - \\lambda)2g})$\n\n再将 $h_{2}$ 代入 $h_{3}$ 有\n\n$h_{3} = (\\frac{h}{H})^{3}\\cdot h_{0} + (\\frac{h}{H})^{3}\\cdot\\frac{v^{2}}{2g(1 - \\lambda)} + (\\frac{h}{H})^{2}\\cdot\\frac{v^{2}}{2g(1 - \\lambda)} + (\\frac{h}{H})^{1}\\cdot\\frac{v^{2}}{2g(1 - \\lambda)}$\n\n直到拍击第 $N$ 次，同理代入 $k$ 后，下降过程有\n\n$v_{N}^{2} - v^{2} = 2(1 - \\lambda)gh_{N-1}$\n\n上升过程有\n\n$hv_{N}^{2} = 2(1 - \\lambda)gHh_{N}$\n\n联立有\n\n$h_{N} = \\frac{h}{H}(h_{N-1} + \\frac{v^{2}}{2g(1 - \\lambda)})$\n\n将 $h_{N-1}$ 代入 $h_{N}$ 有\n\n$h_{N} = (\\frac{h}{H})^{N}\\cdot h_{0} + (\\frac{h}{H})^{N}\\cdot\\frac{v^{2}}{2g(1 - \\lambda)} + (\\frac{h}{H})^{N-1}\\cdot\\frac{v^{2}}{2g(1 - \\lambda)} + \\cdots + (\\frac{h}{H})^{1}\\cdot\\frac{v^{2}}{2g(1 - \\lambda)}$\n\n其中\n\n$h_{N} = H$，$h_{0} = h$\n\n则有\n\n$H = (\\frac{h}{H})^{N}\\cdot h + [\\frac{(\\frac{h}{H})^{N+1} - \\frac{h}{H}}{\\frac{h}{H} - 1}]\\frac{v^{2}}{2g(1 - \\lambda)}$\n\n则\n\n$I = mv' = m\\sqrt{\\frac{2g(1 - \\lambda)(H - h)(H^{N+1} - h^{N+1})}{h(H^{N} - h^{N})}}$"
+        },
+        {
+          "id": "method_2",
+          "label": "方法二",
+          "tier": "alternative",
+          "content_md": "由（1）问可知篮球上升和下降过程中的加速度分别为\n\n$a_{\\text{下}} = (1 - \\lambda)g$（方向向下）\n\n$a_{\\text{上}} = (1 + \\lambda)g$（方向向下）\n\n由题知运动员拍击一次篮球（拍击时间极短），瞬间给其一个竖直向下、大小相等的冲量 $I$，由于拍击时间极短，则重力的冲量可忽略不计，则根据动量定理有\n\n$I = mv'$\n\n即每拍击一次篮球将给它一个速度 $v'$。设篮球从 $H$ 下落时，速度为 $v_{0}$，反弹高度为 $h$，篮球受到冲量 $I$ 后速度为 $v'$，落地时速度为 $v_{1}$，则\n\n$2(1 + \\lambda)gh = (kv_{0})^{2}$，$2(1 - \\lambda)gh = v_{1}^{2} - v'^{2}$\n\n联立可得\n\n$h = \\frac{(kv_{0})^{2}}{2(1 + \\lambda)g} = \\frac{v_{1}^{2} - v'^{2}}{2(1 - \\lambda)g}$\n\n代入 $k$ 可得，\n\n$v'^{2} = v_{1}^{2} - \\frac{h}{H}v_{0}^{2}$……①\n\n篮球再次反弹，反弹速度为 $kv_{1}$，设反弹高度为 $h_{1}$，受到冲量后，落地速度为 $v_{2}$，同理可得\n\n$2(1 + \\lambda)gh_{1} = (kv_{1})^{2}$，$2(1 - \\lambda)gh_{1} = v_{2}^{2} - v'^{2}$\n\n同理化简可得\n\n$v'^{2} = v_{2}^{2} - \\frac{h}{H}v_{1}^{2}$……②\n\n篮球第三次反弹，反弹速度为 $kv_{2}$，设反弹高度为 $h_{2}$，受到冲量后，落地速度为 $v_{3}$，同理可得\n\n$2(1 + \\lambda)gh_{2} = (kv_{2})^{2}$，$2(1 - \\lambda)gh_{2} = v_{3}^{2} - v'^{2}$\n\n同理化简可得\n\n$v'^{2} = v_{3}^{2} - \\frac{h}{H}v_{2}^{2}$……③\n\n……\n\n第 $N$ 次反弹可得\n\n$v'^{2} = v_{N}^{2} - \\frac{h}{H}v_{N-1}^{2}$……（N）\n\n对式子①②③……(N)两侧分别乘以 $(\\frac{H}{h})^{0}$、$\\frac{H}{h}$、$\\frac{H^{2}}{h^{2}}$……、$\\frac{H^{N-1}}{h^{N-1}}$，再相加可得\n\n$(1 + \\frac{H}{h} + \\frac{H^{2}}{h^{2}} + \\frac{H^{3}}{h^{3}} + \\cdots + \\frac{H^{N-1}}{h^{N-1}})v'^{2} = \\frac{H^{N-1}}{h^{N-1}}v_{N}^{2} - \\frac{h}{H}v_{0}^{2}$\n\n得\n\n$\\frac{1 - (\\frac{H}{h})^{N}}{1 - \\frac{H}{h}}v'^{2} = \\frac{H^{N-1}}{h^{N-1}}v_{N}^{2} - \\frac{h}{H}v_{0}^{2}$\n\n其中，$v_{0}^{2} = 2(1 - \\lambda)gH$，$(kv_{N})^{2} = 2(1 + \\lambda)gH$，可得\n\n$v' = \\sqrt{\\frac{2g(1 - \\lambda)(H - h)(H^{N+1} - h^{N+1})}{h(H^{N} - h^{N})}}$\n\n可得冲量 $I$ 的大小\n\n$I = mv' = m\\sqrt{\\frac{2g(1 - \\lambda)(H - h)(H^{N+1} - h^{N+1})}{h(H^{N} - h^{N})}}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true
+    },
+    {
+      "qid": "2022-physics-湖南-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "multiple_choice",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "【选修 3-3】（13 分）\n\n（1）（5 分）利用“涡流效应”可实现冷热气体的分离。如图，一冷热气体分离装置由喷嘴、涡流室、环形管、分离挡板和冷热两端管等构成。高压氮气由喷嘴切向流入涡流室中，然后以螺旋方式在环形管中向右旋转前进，分子热运动速率较小的气体分子将聚集到环形管中心部位，而分子热运动速率较大的气体分子将聚集到环形管边缘部位。气流到达分离挡板处时，中心部位气流与分离挡板碰撞后反向，从 A 端流出，边缘部位气流从 B 端流出。下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/湖南/15a.png)\n\n（2）（8 分）如图，小赞同学设计了一个液体拉力测量仪。一个容积 $V_{0} = 9.9\\,\\mathrm{L}$ 的导热汽缸下接一圆管，用质量 $m_{1} = 90\\,\\mathrm{g}$、横截面积 $S = 10\\,\\mathrm{cm}^2$ 的活塞封闭一定质量的理想气体，活塞与圆管壁间摩擦不计。活塞下端用轻质细绳悬挂一质量 $m_{2} = 10\\,\\mathrm{g}$ 的 U 形金属丝，活塞刚好处于 A 位置。将金属丝部分浸入待测液体中，缓慢升起汽缸，使金属丝从液体中拉出，活塞在圆管中的最低位置为 B。已知 A、B 间距离 $h = 10\\,\\mathrm{cm}$，外界大气压强 $p_{0} = 1.01 \\times 10^{5}\\,\\mathrm{Pa}$，重力加速度取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，环境温度保持不变，求：\n\n（1）活塞处于 A 位置时，汽缸中的气体压强 $p_{1}$；\n（2）活塞处于 B 位置时，液体对金属丝拉力 $F$ 的大小。\n\n![物理配图](assets/2022/physics/湖南/15b.png)",
+      "figures": [
+        "assets/2022/physics/湖南/15a.png",
+        "assets/2022/physics/湖南/15b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "A 端为冷端，B 端为热端",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "A 端流出的气体分子热运动平均速率一定小于 B 端流出的",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "A 端流出的气体内能一定大于 B 端流出的",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "该装置气体进出的过程满足能量守恒定律，但违背了热力学第二定律",
+          "image": null
+        },
+        {
+          "key": "E",
+          "text_md": "该装置气体进出的过程既满足能量守恒定律，也满足热力学第二定律",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "ABE",
+        "choices": [
+          "A",
+          "B",
+          "E"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）A．依题意，中心部位为热运动速率较低的气体，与挡板相作用后反弹，从 A 端流出，而边缘部份热运动速率较高的气体从 B 端流出；同种气体分子平均热运动速率较大、其对应的温度也就较高，所以 A 端为冷端、B 端为热端，故 A 正确；\n\nB．依题意，A 端流出的气体分子热运动速率较小，B 端流出的气体分子热运动速率较大，所以从 A 端流出的气体分子热运动平均速度小于从 B 端流出的，故 B 正确；\n\nC．A 端流出的气体分子热运动速率较小，B 端流出的气体分子热运动速率较大，则从 A 端流出的气体分子平均动能小于从 B 端流出的气体分子平均动能，内能的多少还与分子数有关；依题意，不能得出从 A 端流出的气体内能一定大于从 B 端流出的气体内能，故 C 错误；\n\nDE．该装置将冷热不均气体的进行分离，喷嘴处有高压，即通过外界做功而实现的，并非是自发进行的，没有违背热力学第二定律；温度较低的从 A 端出、较高的从 B 端出，也符合能量守恒定律，故 D 错误，E 正确。\n\n故选 ABE。\n\n（2）①将活塞与金属丝视为一整体，因平衡则有\n\n$p_{0}S = p_{1}S + (m_{1} + m_{2})g$\n\n代入数据解得\n\n$p_{1} = 10^{5}\\,\\mathrm{Pa}$\n\n②当活塞在 B 位置时，汽缸内压强为 $p_{2}$，则有\n\n$p_{1}V_{0} = p_{2}(V_{0} + Sh)$\n\n代入数据解得\n\n$p_{2} = 9.9 \\times 10^{4}\\,\\mathrm{Pa}$\n\n将活塞与金属丝视为一整体，因平衡则有\n\n$p_{0}S = p_{2}S + (m_{1} + m_{2})g + F$\n\n联立解得\n\n$F = 1\\,\\mathrm{N}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖南-q16",
+      "number": 16,
+      "section": "计算题",
+      "type": "multiple_choice",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "【选修 3-4】（13 分）\n\n（1）（5 分）下端附着重物的粗细均匀木棒，竖直浮在河面，在重力和浮力作用下，沿竖直方向做频率为 $1\\,\\mathrm{Hz}$ 的简谐运动：与此同时，木棒在水平方向上随河水做匀速直线运动，如图（[2022湖南16a]）所示。以木棒所受浮力 $F$ 为纵轴，木棒水平位移 $x$ 为横轴建立直角坐标系，浮力 $F$ 随水平位移 $x$ 的变化如图（[2022湖南16b]）所示。已知河水密度为 $\\rho$，木棒横截面积为 $S$，重力加速度大小为 $g$。下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/湖南/16a.png) ![物理配图](assets/2022/physics/湖南/16b.png)\n\n（2）（8 分）如图，某种防窥屏由透明介质和对光完全吸收的屏障构成，其中屏障垂直于屏幕平行排列，可实现对像素单元可视角度 $\\theta$ 的控制（可视角度 $\\theta$ 定义为某像素单元发出的光在图示平面内折射到空气后最大折射角的 2 倍）。透明介质的折射率 $n = 2$，屏障间隙 $L = 0.8\\,\\mathrm{mm}$。发光像素单元紧贴屏下，位于相邻两屏障的正中间。不考虑光的衍射。\n\n（1）若把发光像素单元视为点光源，要求可视角度 $\\theta$ 控制为 $60^{\\circ}$，求屏障的高度 $d$；\n（2）若屏障高度 $d = 1.0\\,\\mathrm{mm}$，且发光像素单元的宽度不能忽略，求像素单元宽度 $x$ 最小为多少时，其可视角度 $\\theta$ 刚好被扩为 $180^{\\circ}$（只要看到像素单元的任意一点，即视为能看到该像素单元）。\n\n![物理配图](assets/2022/physics/湖南/16c.png)",
+      "figures": [
+        "assets/2022/physics/湖南/16c.png",
+        "assets/2022/physics/湖南/16a.png",
+        "assets/2022/physics/湖南/16b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$x$ 从 $0.05\\,\\mathrm{m}$ 到 $0.15\\,\\mathrm{m}$ 的过程中，木棒的动能先增大后减小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$x$ 从 $0.21\\,\\mathrm{m}$ 到 $0.25\\,\\mathrm{m}$ 的过程中，木棒加速度方向竖直向下，大小逐渐变小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$x = 0.35\\,\\mathrm{m}$ 和 $x = 0.45\\,\\mathrm{m}$ 时，木棒的速度大小相等，方向相反",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "木棒在竖直方向做简谐运动的振幅为 $\\frac{F_{1} - F_{2}}{2\\rho Sg}$",
+          "image": null
+        },
+        {
+          "key": "E",
+          "text_md": "木棒的运动为向 $x$ 轴正方向传播的机械横波，波速为 $0.4\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "ABD",
+        "choices": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）A．由简谐运动的对称性可知，0.1 m、0.3 m、0.5 m 时木棒处于平衡位置；则 $x$ 从 $0.05\\,\\mathrm{m}$ 到 $0.15\\,\\mathrm{m}$ 的过程中，木棒从平衡位置下方向上移动，经平衡位置后到达平衡位置上方，速度先增大后减小，所以动能先增大后减小，A 正确；\n\nB．$x$ 从 $0.21\\,\\mathrm{m}$ 到 $0.25\\,\\mathrm{m}$ 的过程中，木棒从平衡位置上方靠近最大位移处向下运动（未到平衡位置），加速度竖直向下，大小减小，B 正确；\n\nC．$x = 0.35\\,\\mathrm{m}$ 和 $x = 0.45\\,\\mathrm{m}$ 时，由图像的对称性知浮力大小相等，说明木棒在同一位置，竖直方向速度大小相等，速度方向相反，而两时刻木棒水平方向速度相同，所以合速度大小相等，方向不是相反，C 错误；\n\nD．木棒在竖直方向的简谐运动可类比于竖直方向的弹簧振子，设木棒长度为 $L$，回复力系数为 $k$，平衡位置时木棒重心在水面下方 $\\Delta x_{0}$，则有\n\n$\\rho gS(\\frac{L}{2} + \\Delta x_{0}) = Mg$\n\n木棒重心在平衡位置上方最大位移 $A$ 处时\n\n$Mg - F_{2} = Mg - \\rho gS(\\frac{L}{2} + \\Delta x_{0} - A) = kA$\n\n木棒重心在平衡位置下方最大位移 $A$ 处时\n\n$F_{1} - Mg = \\rho gS(\\frac{L}{2} + \\Delta x_{0} + A) - Mg = kA$\n\n可解得\n\n$k = \\rho gS$，$A = \\frac{F_{1} - F_{2}}{2\\rho Sg}$\n\nD 正确；\n\nE．木棒上各质点相对静止随木棒一起运动，不能看成向 $x$ 轴正方向传播的机械横波，E 错误。\n\n故选 ABD。\n\n（2）①发光像素单元射到屏障上的光被完全吸收，考虑射到屏障顶端的光射到透明介质和空气界面，折射后从界面射向空气，由题意可知 $\\theta = 60^{\\circ}$，则\n\n$r = \\frac{\\theta}{2} = 30^{\\circ}$\n\n在介质中的入射角为 $i$，则\n\n$\\frac{\\sin r}{\\sin i} = n$\n\n解得\n\n$\\sin i = \\frac{1}{4}$\n\n由几何关系\n\n$\\sin i = \\frac{\\frac{L}{2}}{\\sqrt{d^{2} + (\\frac{L}{2})^{2}}}$\n\n解得\n\n$d = \\sqrt{2.4}\\,\\mathrm{mm} \\approx 1.55\\,\\mathrm{mm}$\n\n②若视角度 $\\theta$ 刚好被扩为 $180^{\\circ}$，则 $\\frac{180^{\\circ}}{2} = 90^{\\circ}$，此时光线在界面发生全反射，此时光线在界面处的入射角\n\n$\\sin C = \\frac{1}{n} = \\frac{1}{2}$\n\n解得\n\n$C = 30^{\\circ}$\n\n此时发光像素单元发光点距离屏障的距离为\n\n$x_{1} = d\\tan C = \\frac{\\sqrt{3}}{3}\\,\\mathrm{mm}$\n\n像素单元宽度 $x$ 最小为\n\n$x = 2(x_{1} - \\frac{L}{2}) = (\\frac{2\\sqrt{3}}{3} - 0.8)\\,\\mathrm{mm} \\approx 0.35\\,\\mathrm{mm}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 1,
+  "enriched_count": 0
+}

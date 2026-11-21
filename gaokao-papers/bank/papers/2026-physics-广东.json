@@ -1,0 +1,739 @@
+{
+  "id": "2026-physics-广东",
+  "year": 2026,
+  "subject": "物理",
+  "region": "广东卷",
+  "region_key": "广东",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2026-physics-广东-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "原子和原子核",
+        "玻尔模型"
+      ],
+      "stem_md": "核钟是基于原子核能级跃迁来建立高精度时间标准的装置，原子核可吸收光子发生类似原子的能级跃迁。现有一种激光能够激发某原子核从基态跃迁至激发态，其能级差约为 $1.3\\times10^{-18}\\,\\mathrm{J}$，普朗克常量 $h=6.6\\times10^{-34}\\,\\mathrm{J}\\cdot\\mathrm{s}$，真空中光速 $c=3.0\\times10^{8}\\,\\mathrm{m}/\\mathrm{s}$。关于该激光，下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "光强倍增，此能级跃迁不能发生",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "光强减半，此能级跃迁不能发生",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "频率约为 $2.0\\times10^{16}\\,\\mathrm{Hz}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "波长约为 $1.5\\times10^{-7}\\,\\mathrm{m}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．原子核能级跃迁的条件是入射光子能量等于能级差，与光强无关，光强倍增只要光子能量匹配仍可发生跃迁，故 A 错误；\n\nB．同理，光强减半不影响光子能量，只要能量匹配仍能发生跃迁，故 B 错误；\n\nC．根据光子能量公式 $\\Delta E=h\\nu$，可得频率 $\\nu=\\frac{\\Delta E}{h}=\\frac{1.3\\times10^{-18}}{6.6\\times10^{-34}}\\,\\mathrm{Hz}\\approx2.0\\times10^{15}\\,\\mathrm{Hz}$，与选项给出的 $2.0\\times10^{16}\\,\\mathrm{Hz}$ 不符，故 C 错误；\n\nD．根据波长与频率关系 $\\lambda=\\frac{c}{\\nu}=\\frac{hc}{\\Delta E}$，代入数值计算得 $\\lambda=\\frac{6.6\\times10^{-34}\\times3.0\\times10^{8}}{1.3\\times10^{-18}}\\,\\mathrm{m}\\approx1.5\\times10^{-7}\\,\\mathrm{m}$，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "电场",
+        "电势能电势差电场力做功"
+      ],
+      "stem_md": "静电卡盘是芯片制造中的重要设备，如图为双极型静电卡盘吸附原理简图，双电极接高压电源后，晶片靠近卡盘的一侧带上与电极极性相反的电荷，在电场力作用下向卡盘运动并被吸附。在晶片运动过程中，下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/广东/02.png)",
+      "figures": [
+        "assets/2026/physics/广东/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "电场力对晶片做负功",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "晶片在电场中的电势能逐渐减少",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "晶片与卡盘电极之间表现为斥力",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "晶片与卡盘电极之间电场强度处处相同",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AC．晶片在电场力作用下向卡盘运动并被吸附，则晶片与卡盘电极之间表现为引力，晶片所受电场力方向指向卡盘，与晶片向卡盘运动的位移方向同向，电场力对晶片做正功，AC 错误；\n\nB．电场力对晶片做正功，则晶片在电场中的电势能逐渐减少，故 B 正确；\n\nD．根据题意可知该电场不是匀强电场，晶片与卡盘电极之间电场强度并不是处处相同，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "交流电",
+        "交流电"
+      ],
+      "stem_md": "如图是某种自由式活塞内燃发电机输出电压 $U$ 随时间 $t$ 变化的图像。下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/广东/03.png)",
+      "figures": [
+        "assets/2026/physics/广东/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "电压的有效值为 $200\\sqrt{2}\\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "电压的最大值为 $400\\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电压的频率为 $50\\,\\mathrm{Hz}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "电压的周期为 $0.01\\,\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．由图像可知，电压的最大值为 $200\\,\\mathrm{V}$，且并不是一直维持 $200\\,\\mathrm{V}$，则有效值小于 $200\\,\\mathrm{V}$，故 AB 错误；\n\nCD．从 $U-t$ 图像可以看出，电压完成一次周期性变化的时间（周期）$T=0.02\\,\\mathrm{s}$，则频率为 $f=\\frac{1}{T}=50\\,\\mathrm{Hz}$，故 C 正确，D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "直线运动",
+        "多段匀变速直线运动"
+      ],
+      "stem_md": "足球比赛中，某队员为接应传球，由静止开始沿直线跑动，先匀加速冲刺，后匀减速至接球点停止。全程用时 $5\\,\\mathrm{s}$，位移大小为 $20\\,\\mathrm{m}$，则该队员在某时刻的速度和加速度的大小可能是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$6\\,\\mathrm{m}/\\mathrm{s}$，$2\\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$6\\,\\mathrm{m}/\\mathrm{s}$，$1\\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$9\\,\\mathrm{m}/\\mathrm{s}$，$2\\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$9\\,\\mathrm{m}/\\mathrm{s}$，$1\\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意，设运动过程中最大速度为 $v_{m}$，则有 $x=\\frac{v_{m}}{2}t$，代入数据解得 $v_{m}=8\\,\\mathrm{m}/\\mathrm{s}$。根据题意可知，加速过程或减速过程的最大时间均小于总时间，则有 $v_{m}=at$。\n\n解得加速过程或减速过程的最小加速度 $a=\\frac{v_{m}}{t}=1.6\\,\\mathrm{m}/\\mathrm{s}^2$。\n\n综上所述，该队员某时刻的速度不可能为 $9\\,\\mathrm{m}/\\mathrm{s}$，加速度大小不可能为 $1\\,\\mathrm{m}/\\mathrm{s}^2$。所以根据题意和选项，速度和加速度大小可能是 $6\\,\\mathrm{m}/\\mathrm{s}$，$2\\,\\mathrm{m}/\\mathrm{s}^2$。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "平抛运动"
+      ],
+      "stem_md": "如图是月球上一圆柱形阴影坑竖直截面图。假定某飞行器在月面上空 $H=1.28\\,\\mathrm{km}$ 向坑中心方向以速度 $v_{0}$ 匀速水平飞行。在距坑边 $l=1.2\\,\\mathrm{km}$ 的 $P$ 点正上方关闭动力，此后只受月球重力，直至抵达着陆线。已知坑直径 $d=3\\,\\mathrm{km}$，月面至着陆线深度 $h=1.6\\,\\mathrm{km}$，月面重力加速度取 $g_{\\text{月}}=1.6\\,\\mathrm{m}/\\mathrm{s}^2$，飞行器可视为质点。飞行器安全到达着陆线，则 $v_{0}$ 的大小可能是 （  ）\n\n![物理配图](assets/2026/physics/广东/05.png)",
+      "figures": [
+        "assets/2026/physics/广东/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$20\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$50\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$110\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$120\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意可知飞行器安全到达着陆线，速度最小时会刚好通过月面坑边到达着陆线，\n\n此时根据平抛运动规律在竖直方向有 $H=\\frac{1}{2}g_{\\text{月}}t_{1}^{2}$，代入数据解得 $t_{1}=40\\,\\mathrm{s}$；\n\n在水平方向有 $l=v_{0}t_{1}$，代入数据可得 $v_{0}=30\\,\\mathrm{m}/\\mathrm{s}$；\n\n飞行器安全到达着陆线，速度最大时会到达着陆线最右端的坑边缘，此时根据平抛运动规律在竖直方向有 $H+h=\\frac{1}{2}g_{\\text{月}}t_{2}^{2}$，代入数据解得 $t_{2}=60\\,\\mathrm{s}$；\n\n在水平方向有 $l+d=v_{0}t_{2}$，代入数据可得 $v_{0}=70\\,\\mathrm{m}/\\mathrm{s}$。\n\n所以飞行器安全到达着陆线需满足 $30\\,\\mathrm{m}/\\mathrm{s}\\leq v_{0}\\leq70\\,\\mathrm{m}/\\mathrm{s}$。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "开普勒定律"
+      ],
+      "stem_md": "如图所示，某行星对单个卫星表面最远点与最近点的单位质量物体的“引力差值”可近似为 $F=k\\frac{MR}{r^{3}}$，其中 $k$ 为常量，$M$ 为行星质量，$R$ 为卫星球体半径，$r$ 为行星中心到卫星中心的距离。两卫星 P 和 Q 的球体半径之比 $R_{P}:R_{Q}$ 为 $2:1$，它们绕该行星做匀速圆周运动的周期之比 $T_{P}:T_{Q}$ 为 $8:1$，该行星对卫星 P、Q 的“引力差值”分别为 $F_{P}$、$F_{Q}$，则 $F_{P}:F_{Q}$ 为 （  ）\n\n![物理配图](assets/2026/physics/广东/06.png)",
+      "figures": [
+        "assets/2026/physics/广东/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$1:4$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$1:16$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$1:32$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$1:64$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据 $G\\frac{Mm}{r^{2}}=m\\frac{4\\pi^{2}}{T^{2}}r$ 可得 $r^{3}=\\frac{GMT^{2}}{4\\pi^{2}}$。\n\n又因为两卫星绕该行星做匀速圆周运动的周期之比 $T_{P}:T_{Q}$ 为 $8:1$，可得\n\n$\\frac{r_{P}^{3}}{r_{Q}^{3}}=\\frac{T_{P}^{2}}{T_{Q}^{2}}=\\left(\\frac{8}{1}\\right)^{2}=64$。\n\n根据“引力差值”公式 $F=k\\frac{MR}{r^{3}}$，其中 $M$ 和 $k$ 相同，所以 $\\frac{F_{P}}{F_{Q}}=\\frac{R_{P}}{R_{Q}}\\cdot\\frac{r_{Q}^{3}}{r_{P}^{3}}=\\frac{2}{1}\\times\\frac{1}{64}=\\frac{1}{32}$。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "电容"
+      ],
+      "stem_md": "图 [2026广东07a] 为某梳齿状可变电容器截面图，上端为固定极板，下端为可上下运动的动极板。将该电容器接入图 [2026广东07b] 所示电路，探究其电荷量 $Q$、极板电压 $U$ 和电容 $C$ 的变化。过程为：①当动极板运动到最高处，开关 S 接 a 端，电源 $E$ 向电容器充电；②充电结束后 S 接 b 端空置，动极板向下运动；③当动极板运动到最低处，S 接 c 端，电容器通过 $R$ 放电。关于该过程，下列图像可能正确的是 （  ）\n\n![物理配图](assets/2026/physics/广东/07a.png) ![物理配图](assets/2026/physics/广东/07b.png)",
+      "figures": [
+        "assets/2026/physics/广东/07a.png",
+        "assets/2026/physics/广东/07b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2026/physics/广东/07c.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2026/physics/广东/07d.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2026/physics/广东/07e.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2026/physics/广东/07f.png"
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．由题意可知①过程为电容器充电过程，电容器两端电势差逐渐增大，根据 $Q=CU$ 可知电容器电荷量逐渐增大；②过程 S 接 b 端，则电容器 $Q$ 不变，动极板向下运动，$d$ 增大，根据 $C=\\frac{\\varepsilon S}{4\\pi kd}=\\frac{Q}{U}$ 可知 $U$ 增大，$C$ 减小；③过程为放电过程，动极板在最低处电容为更小的恒定值，故对应 $Q-U$ 图线为过原点、斜率更小的直线，A 正确，B 错误；\n\nCD．通过前面的分析可知①过程的电容 $C$ 大于③过程的电容 $C$，②过程中 $Q$ 不变，因为 $C=\\frac{Q}{U}$，所以 $U$ 与 $C$ 成反比，图像为双曲线的一支，故 CD 均错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "圆周运动的应用"
+      ],
+      "stem_md": "如图所示，在光滑的水平地面上，P、Q、M、N 四个质量相等的小球通过两根不可伸长的轻绳相连，P、Q 间的绳长为 $L_{1}$，M、N 间的绳长为 $L_{2}$，两绳相交于各自的中点 O，四球以相同角速度 $\\omega$ 绕固定的 O 点做匀速圆周运动，已知 $L_{1}=2\\,\\mathrm{m}$，P、Q 的向心加速度大小均为 $a_{1}=4\\,\\mathrm{m}/\\mathrm{s}^2$，M、N 的向心加速度大小均为 $a_{2}=1\\,\\mathrm{m}/\\mathrm{s}^2$，四球均可视为质点，忽略空气阻力，下列说法正确的有 （  ）\n\n![物理配图](assets/2026/physics/广东/08.png)",
+      "figures": [
+        "assets/2026/physics/广东/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\omega=2\\,\\mathrm{rad}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$L_{2}=0.5\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "P 的线速度大小为 $0.5\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "轻绳对四球的拉力大小相等",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AB",
+        "choices": [
+          "A",
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据题意可知 P、Q 做圆周运动的半径 $r_{1}=\\frac{L_{1}}{2}=1\\,\\mathrm{m}$。\n\n对 P、Q 根据 $a_{1}=\\omega^{2}r_{1}$ 可得 $\\omega=\\sqrt{\\frac{a_{1}}{r_{1}}}=\\sqrt{\\frac{4}{1}}\\,\\mathrm{rad}/\\mathrm{s}=2\\,\\mathrm{rad}/\\mathrm{s}$，故 A 正确；\n\nB．因为四个球角速度相同，对球 M、N 有 $r_{2}=\\frac{L_{2}}{2}=\\frac{a_{2}}{\\omega^{2}}=\\frac{1}{4}\\,\\mathrm{m}$，\n\n所以 $L_{2}=0.5\\,\\mathrm{m}$，故 B 正确；\n\nC．对于 P 有 $v_{1}=\\omega r_{1}=1\\times2\\,\\mathrm{m}/\\mathrm{s}=2\\,\\mathrm{m}/\\mathrm{s}$，故 C 错误；\n\nD．绳子拉力提供向心力，根据 $F=m\\omega^{2}r$ 可知由于四球质量相等，角速度相等，但半径不同，故拉力大小不相等，故 D 错误。\n\n故选 AB。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "图中底端为锥形且顶角为 $90^{\\circ}$ 的直光纤，可用于检测流动液体中的空气泡，某单色光从光纤顶端左部入射，平行于轴线方向传播，探测器在光纤顶端右部探测锥面反射光的光强，已知锥面外为空气时，该单色光在锥面恰好发生全反射，空气折射率取 $1$，被测液体折射率大于此光纤折射率。下列说法正确的有 （  ）\n\n![物理配图](assets/2026/physics/广东/09.png)",
+      "figures": [
+        "assets/2026/physics/广东/09.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "此光纤对该单色光的折射率为 $\\sqrt{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "该单色光在此光纤中的传播速度是真空中光速的 $\\frac{1}{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "锥面浸入液体过程中，探测到的光强相对于浸入液体前变强",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "锥面完全浸入液体后，若探测到的光强在变强，说明检测到气泡",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．画出光路图如图所示。\n\n![物理配图](assets/2026/physics/广东/09_an.png)\n\n根据几何关系可知，该单色光在锥面发生全反射的临界角 $C=45^{\\circ}$，\n\n根据临界角公式 $\\sin C=\\frac{1}{n}$，\n\n可得此光纤对该单色光的折射率为 $n=\\sqrt{2}$，故 A 正确；\n\nB．根据 $v=\\frac{c}{n}$，可得该单色光在此光纤中的传播速度为 $v=\\frac{\\sqrt{2}}{2}c$，故 B 错误；\n\nC．光从折射率大的介质到折射率小的介质中，才可能发生全反射，被测液体折射率大于此光纤折射率，则锥面浸入液体部分，光不会发生全反射，即锥面浸入液体过程中，探测到的光强相对于浸入液体前变弱，故 C 错误；\n\nD．锥面完全浸入液体后，若探测到的光强在变强，说明光在某些地方发生了全反射，发生全反射的地方即有空气，说明检测到气泡，故 D 正确。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/广东/09_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "质谱仪回旋加速器"
+      ],
+      "stem_md": "如图是一种长方体电子磁谱仪结构示意图，磁谱仪内存在磁感应强度大小为 $B$、方向垂直底面向上的匀强磁场，磁场区域长为 $a$、宽为 $b$。电子束中有三个电子通过准直器后垂直左侧面沿边缘进入磁场，偏转后分别到达磁谱仪三个侧面，与边缘的距离分别为 $x_{1}$、$x_{2}$ 和 $x_{3}$，电子电荷量为 $-e$、质量为 $m$，不考虑相对论效应，下列说法正确的有 （  ）\n\n![物理配图](assets/2026/physics/广东/10.png)",
+      "figures": [
+        "assets/2026/physics/广东/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "电子 1 的动能比电子 3 的大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "电子 1 在磁场中的运动时间为 $\\frac{\\pi m}{eB}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电子 2 的动能为 $\\frac{e^{2}B^{2}(x_{2}^{2}+b^{2})^{2}}{8mb^{2}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "电子 3 的动量大小为 $\\frac{eB(x_{3}^{2}+a^{2})}{2x_{3}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BCD",
+        "choices": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．电子在磁场中做匀速圆周运动，根据洛伦兹力提供向心力可得 $evB=m\\frac{v^{2}}{r}$，\n\n可得 $v=\\frac{eBr}{m}$。\n\n根据几何关系可知电子 1 的运动半径小于电子 3 的运动半径，则电子 1 的速度小于电子 3 的速度，根据 $E_{k}=\\frac{1}{2}mv^{2}$ 可知电子 1 的动能比电子 3 的小，故 A 错误；\n\nB．电子在磁场中做匀速圆周运动的周期 $T=\\frac{2\\pi r}{v}$，结合 $v=\\frac{eBr}{m}$，可得 $T=\\frac{2\\pi m}{eB}$。\n\n根据题图可知电子 1 在磁场中运动的圆心角为 $180^{\\circ}$，则电子 1 在磁场中的运动时间为 $t=\\frac{180^{\\circ}}{360^{\\circ}}\\times T=\\frac{\\pi m}{eB}$，故 B 正确；\n\nC．设电子 2 运动半径为 $R_{2}$，如图所示，\n\n![物理配图](assets/2026/physics/广东/10_an1.png)\n\n根据几何关系有 $(b-R_{2})^{2}+x_{2}^{2}=R_{2}^{2}$，\n\n可得 $R_{2}=\\frac{b^{2}+x_{2}^{2}}{2b}$。\n\n根据 $v_{2}=\\frac{eBR_{2}}{m}$ 可得 $v_{2}=\\frac{eB(x_{2}^{2}+b^{2})}{2bm}$，\n\n电子 2 的动能为 $E_{k}=\\frac{1}{2}mv_{2}^{2}=\\frac{e^{2}B^{2}(x_{2}^{2}+b^{2})^{2}}{8mb^{2}}$，故 C 正确；\n\nD．设电子 3 运动半径为 $R_{3}$，如图所示，\n\n![物理配图](assets/2026/physics/广东/10_an2.png)\n\n根据几何关系有 $(R_{3}-x_{3})^{2}+a^{2}=R_{3}^{2}$，\n\n可得 $R_{3}=\\frac{x_{3}^{2}+a^{2}}{2x_{3}}$。\n\n根据 $v_{3}=\\frac{eBR_{3}}{m}$ 可得 $v_{3}=\\frac{eB(x_{3}^{2}+a^{2})}{2mx_{3}}$，\n\n电子 3 的动量大小为 $p_{3}=mv_{3}=\\frac{eB(x_{3}^{2}+a^{2})}{2x_{3}}$，故 D 正确。\n\n故选 BCD。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/广东/10_an1.png",
+        "assets/2026/physics/广东/10_an2.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "直线运动",
+        "打点计时器公式"
+      ],
+      "stem_md": "某科技小组设计了测量薄膜压缩时间的实验，图 [2026广东11a] 为装置示意图。\n\n![物理配图](assets/2026/physics/广东/11a.png) ![物理配图](assets/2026/physics/广东/11b.png)\n\n（1）实验原理。\n\n某种薄膜受到小球冲击时会发光，通过测量发光光谱的相对光强峰值 $I_{p}$，可得最大冲击力 $F$，结合动量定理可估测薄膜压缩时间 $t$。\n\n（2）实验操作及数据处理。\n\n① 称量小球质量，记录质量 $m$。\n② 断开电磁铁电源，使小球从薄膜正上方自由下落。拍摄小球下落过程的视频。\n③ 图 [2026广东11b] 为利用视频处理软件得到的小球接触薄膜瞬间前连续 $3$ 个时刻的位置图。分别测量图中的距离 $s_{1}$ 和 $s_{2}$，可得 $s_{1}$ 为  ______  $\\,\\mathrm{cm}$，$s_{2}$ 为 $6.66\\,\\mathrm{cm}$。相邻两个位置的时间间隔为 $T$，则小球在 B 位置处的速度 $v_{1}=$  ______ （用 $s_{1}$、$s_{2}$ 和 $T$ 表示）；与薄膜接触前瞬间，小球在 C 位置处的速度 $v_{2}=$  ______ （用 $s_{1}$、$s_{2}$ 和 $T$ 表示）。\n④ 用光谱仪测得薄膜受到冲击时发光光谱的 $I_{p}$ 为 $158$ a.u.。图 [2026广东11c] 为已知的 $F-I_{p}$ 关系图像，可读得 $F$ 为  ______  $\\,\\mathrm{N}$。\n⑤ $m=30.0\\,\\mathrm{g}$，$T=0.02\\,\\mathrm{s}$，由动量定理可估测薄膜压缩时间 $t=\\frac{2mv_{2}}{F}$，将数据代入可得 $t=$  ______  $\\,\\mathrm{s}$（结果保留 3 位有效数字）。\n\n![物理配图](assets/2026/physics/广东/11c.png)",
+      "figures": [
+        "assets/2026/physics/广东/11c.png",
+        "assets/2026/physics/广东/11a.png",
+        "assets/2026/physics/广东/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "③ 6.26，$\\frac{s_{1}+s_{2}}{2T}$，$\\frac{3s_{2}-s_{1}}{2T}$；④ $100\\,\\mathrm{N}$；⑤ $2.06\\times10^{-3}\\,\\mathrm{s}$",
+        "sub_answers": [
+          "6.26",
+          "$\\frac{s_{1}+s_{2}}{2T}$",
+          "$\\frac{3s_{2}-s_{1}}{2T}$",
+          "100",
+          "$2.06\\times10^{-3}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "①毫米刻度尺的分度值为 $1\\,\\mathrm{mm}$，需要估读到下一位，根据题图可得 $s_{1}=262.6\\,\\mathrm{mm}-200.0\\,\\mathrm{mm}=62.6\\,\\mathrm{mm}=6.26\\,\\mathrm{cm}$；\n\n②根据匀变速直线运动中间时刻瞬时速度等于该过程平均速度可得 $v_{1}=\\frac{s_{1}+s_{2}}{2T}$；\n\n③根据速度时间关系有 $v_{2}=v_{1}+gT$，又 $s_{2}-s_{1}=gT^{2}$，联立可得 $v_{2}=\\frac{3s_{2}-s_{1}}{2T}$；\n\n④根据题图可得 $I_{p}$ 为 $158$ a.u. 时，$F$ 为 $100\\,\\mathrm{N}$；\n\n⑤$m=30.0\\,\\mathrm{g}$，$T=0.02\\,\\mathrm{s}$，由动量定理可估测薄膜压缩时间 $t=\\frac{2mv_{2}}{F}$，结合 $v_{2}=\\frac{3s_{2}-s_{1}}{2T}$，将数据代入可得 $t=2.06\\times10^{-3}\\,\\mathrm{s}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "电路",
+        "传感器"
+      ],
+      "stem_md": "棉花的回潮率可通过测量一定压力下棉花的电阻得到。某科技小组制作了利用该方法测量棉花回潮率的简易装置，如图 [2026广东12a]。旋转螺杆压缩弹簧对棉花施加压力。由图 [2026广东12b] 所示电路测量棉花的电阻 $R_{c}$，所用器材有：电源 $E$；微安表 $\\mu$A；定值电阻 $R_{0}$；电阻箱 $R$；开关 $S_{1}$ 和 $S_{2}$；导线若干。\n\n![物理配图](assets/2026/physics/广东/12a.png) ![物理配图](assets/2026/physics/广东/12b.png) ![物理配图](assets/2026/physics/广东/12c.png)\n\n（1）弹簧劲度系数测量。\n\n① 将装有弹簧的绝缘压板放到水平桌面上，如图 [2026广东12c]。用刻度尺测量并记录弹簧原长。\n② 在弹簧上端加一个砝码，待砝码  ______  后读数，记录弹簧长度。\n③ 依次增加砝码，重复步骤②。\n④ 根据实验数据，描绘压力 $F$ 与弹簧压缩量 $x$ 的 $F-x$ 图线，图线为直线，则图线的  ______  表示弹簧劲度系数。\n\n（2）棉花的电阻 $R_{c}$ 测量。\n\n① 称量装有弹簧和刻度尺的绝缘压板质量，记录质量。\n② 将某棉花样品装进装置中，装上绝缘压板，确保环形电极与棉花接触良好，固定顶盖，正确连接电路。\n③ 闭合 $S_{1}$ 和 $S_{2}$，调节 $R$，使 $\\mu$A 指针偏转到某一合适位置。此时 $R$ 的示数如图 [2026广东12d]，读数为  ______  $\\,\\Omega$，记为 $R_{1}$。断开 $S_{1}$ 和 $S_{2}$。\n④ 缓慢旋进螺杆压紧棉花，确保压力达到回潮率测量的要求。$S_{2}$ 保持断开，闭合 $S_{1}$，发现 $\\mu$A 示数变  ______ ，将 $R$ 的阻值  ______ ，使 $\\mu$A 指针偏转到与步骤③相同的位置。记录 $R$ 的示数 $R_{2}$。断开 $S_{1}$，利用所测量的物理量，可得棉花的电阻表达式 $R_{c}=$  ______ 。\n\n（3）利用定标曲线确定棉花的回潮率。\n\n![物理配图](assets/2026/physics/广东/12d.svg)",
+      "figures": [
+        "assets/2026/physics/广东/12d.svg",
+        "assets/2026/physics/广东/12a.png",
+        "assets/2026/physics/广东/12b.png",
+        "assets/2026/physics/广东/12c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）② 平衡稳定（或静止，表述合理即可）；④ 斜率。（2）③ $29\\,000\\,\\Omega$；④ 小，调小，$R_{1}-R_{2}$",
+        "sub_answers": [
+          "平衡稳定（或静止，表述合理即可）",
+          "斜率",
+          "$29\\,000$",
+          "小",
+          "调小",
+          "$R_{1}-R_{2}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）添加砝码后，需要等待砝码平衡稳定后再读数，才能保证弹簧弹力等于砝码重力，得到准确的弹簧长度。\n\n根据胡克定律 $F=kx$，因此 $F-x$ 图线的斜率等于劲度系数 $k$。\n\n（2）电阻箱读数为各转盘读数乘倍率之和：$R=2\\times10000+9\\times1000\\,\\Omega=29000.0\\,\\Omega$。\n\n$S_{2}$ 断开，$R_{c}$ 串联接入电路，总电阻增大，因此电流减小，微安表示数变小。\n\n要让电流回到原来的数值，需要总电阻和原来相等，因此需要调小电阻箱 $R$ 的阻值，使总电阻回到原来大小。\n\n等效后满足 $R_{1}=R_{2}+R_{c}$，整理得棉花电阻 $R_{c}=R_{1}-R_{2}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 9,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "图 [2026广东13a] 所示的空气垫是由多个相连的独立气室构成的包装材料，其简化模型如图 [2026广东13b]。充气前气室内均没有气体，在室温 $T_{0}$ 下，将压强 $p_{0}$、体积 $V_{0}$ 的气体通过单向阀充入 $10$ 个气室（忽略气道内气体），此时每个气室均为圆柱体，横截面半径为 $r$，长度为 $h$，当充气后的气室受到挤压变形时，其横截面变成图 [2026广东13c] 所示的“跑道”形（两端是直径为 $d$ 的半圆），且气室长度、横截面周长均保持不变，气室内气体可视为理想气体，充气及挤压变形过程中气体温度始终与室温相同。\n\n（1）求充气后未挤压变形时气室中的压强 $p_{1}$；\n（2）求挤压变形后气室中的压强 $p_{2}$；\n（3）已知气室中的压强超过 $p_{c}$ 时气室会爆破，若气室经如图 [2026广东13c] 所示的挤压变形后，体积不变、室温升高，求气室不爆破的最高室温 $T_{c}$。\n\n![物理配图](assets/2026/physics/广东/13a.png) ![物理配图](assets/2026/physics/广东/13b.png) ![物理配图](assets/2026/physics/广东/13c.png)",
+      "figures": [
+        "assets/2026/physics/广东/13a.png",
+        "assets/2026/physics/广东/13b.png",
+        "assets/2026/physics/广东/13c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$p_{1}=\\frac{p_{0}V_{0}}{10\\pi hr^{2}}$\n（2）$p_{2}=\\frac{2p_{0}V_{0}}{5\\pi dh(4r-d)}$\n（3）$T_{c}=\\frac{5\\pi dh(4r-d)p_{c}T_{0}}{2p_{0}V_{0}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）充气过程温度不变，对所有充入气室的气体，由玻意耳定律有 $p_{0}V_{0}=p_{1}V_{1}$。\n\n根据题意有 $V_{1}=10\\pi r^{2}\\cdot h$。\n\n解得充气后未挤压变形时气室中的压强 $p_{1}=\\frac{p_{0}V_{0}}{10\\pi hr^{2}}$。\n\n（2）变形前，气室的体积为 $V=\\pi r^{2}h$。\n\n挤压过程温度不变，且横截面周长不变，原圆形横截面周长 $C=2\\pi r$。\n\n变形后跑道形横截面两端半圆合为一个整圆，周长为 $C_{1}=\\pi d$。\n\n剩余直边总长度为 $C_{2}=C-C_{1}=2\\pi r-\\pi d$。\n\n单根直边长 $x=\\frac{C_{2}}{2}=\\pi r-\\frac{\\pi d}{2}$。\n\n变形后，气室的体积为 $V_{2}=\\left[\\pi\\left(\\frac{d}{2}\\right)^{2}+xd\\right]\\cdot h$。\n\n对气室气体，等温过程由玻意耳定律 $p_{1}V=p_{2}V_{2}$。\n\n解得挤压变形后气室中的压强 $p_{2}=\\frac{2p_{0}V_{0}}{5\\pi dh(4r-d)}$。\n\n（3）体积不变，气体等容变化，有 $\\frac{p_{2}}{T_{0}}=\\frac{p_{c}}{T_{c}}$。\n\n解得气室不爆破的最高室温 $T_{c}=\\frac{5\\pi dh(4r-d)p_{c}T_{0}}{2p_{0}V_{0}}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 13,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图是一种球形机器人跳跃原理的示意图，水平横轴过球心 $O$ 点与外壳固定，外壳上的两挡板位于过 $O$ 点的水平线上，两质量均为 $m$ 的摆锤，由长均为 $R$ 的不可伸长轻绳悬挂于轴上的 $O$ 点，初始时刻，两摆锤同时以水平初速度 $v_{0}$ 从最低点向相反方向摆动，直至与两挡板发生碰撞，碰撞时间极短，随后带动外壳以共同速度竖直向上运动，机器人到达最高点后落回地面瞬间，外壳立即静止，两摆锤速度不变，与挡板分离，继续向下运动，已知机器人（含摆锤）总质量为 $M=4\\,\\mathrm{kg}$，$m=1\\,\\mathrm{kg}$，$R=0.4\\,\\mathrm{m}$，$v_{0}=4\\,\\mathrm{m}/\\mathrm{s}$。重力加速度取 $g=10\\,\\mathrm{m}/\\mathrm{s}^2$，忽略空气阻力，摆锤可视为质点，求：\n\n（1）摆锤与挡板碰撞后瞬间，机器人的动能 $E_{k}$；\n（2）机器人外壳上升的最大高度 $h$；\n（3）从摆锤开始运动到第一次外壳落地静止过程中的机械能损失 $\\Delta E$。\n\n![物理配图](assets/2026/physics/广东/14.png)",
+      "figures": [
+        "assets/2026/physics/广东/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$E_{k}=4\\,\\mathrm{J}$\n（2）$h=0.1\\,\\mathrm{m}$\n（3）$\\Delta E=6\\,\\mathrm{J}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）两摆锤以初速度 $v_{0}=4\\,\\mathrm{m}/\\mathrm{s}$ 沿外壳向上运动，与挡板相碰前，摆锤机械能守恒。\n\n设摆锤与挡板相碰前的速度为 $v$，根据机械能守恒定律有 $\\frac{1}{2}mv_{0}^{2}=mgR+\\frac{1}{2}mv^{2}$，\n\n解得 $v=2\\sqrt{2}\\,\\mathrm{m}/\\mathrm{s}$。\n\n摆锤与挡板相碰后与机器人一起运动，根据动量守恒定律有 $2mv=Mv_{\\text{共}}$，\n\n解得 $v_{\\text{共}}=\\sqrt{2}\\,\\mathrm{m}/\\mathrm{s}$。\n\n机器人起跳时的动能 $E_{k}=\\frac{1}{2}Mv_{\\text{共}}^{2}=4\\,\\mathrm{J}$。\n\n（2）根据速度位移关系 $0-v_{\\text{共}}^{2}=-2gh$，\n\n可得机器人外壳上升的最大高度 $h=0.1\\,\\mathrm{m}$。\n\n（3）机器人外壳落到地面时，机器人外壳的速度立即变为 $0$，根据竖直上抛运动的对称性可知摆锤速度大小为 $\\sqrt{2}\\,\\mathrm{m}/\\mathrm{s}$，从摆锤开始运动到第一次外壳落地静止过程中的机械能损失 $\\Delta E=2\\times\\frac{1}{2}mv_{0}^{2}-\\left(2\\times\\frac{1}{2}mv_{\\text{共}}^{2}+2mgR\\right)$，\n\n解得 $\\Delta E=6\\,\\mathrm{J}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-广东-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "电场",
+        "带电粒子的往复运动"
+      ],
+      "stem_md": "图 [2026广东15a] 所示，两竖直放置且足够大的平行金属板 M、N，两板间距为 $d$，在两板正中间竖直平面内固定有一水平绝缘横杆，一质量为 $m$、电荷量为 $q$ 的小球通过两根等长且不可伸长的绝缘轻绳悬挂于横杆下方，小球与横杆的距离为 $d$，两绳的夹角为直角，如图 [2026广东15b]，接通电源，使板间电压由 $0$ 开始缓慢增大，小球缓慢向 N 靠近，在此过程中每个时刻小球都受力平衡，当小球接触 N 的瞬间，电荷量变为 $-q$，板间电压停止增大并在此后保持恒定，在此恒定电压下，小球每次与 M 或 N 接触后瞬间，速度均减为 $0$，带电荷量变化满足“电性反转、大小不变”，从而在两板间沿着圆弧往复运动，重力加速度为 $g$，小球可视为质点，每次与板碰撞均不影响两板间电压，忽略空气阻力和电场的边缘效应，忽略小球所带电荷对板间电场的影响。\n\n（1）求 M、N 间的恒定电压 $U$；\n（2）求小球第一次碰撞 M 前瞬间，单根轻绳的拉力大小 $T$；\n（3）若某次小球碰撞 M 时，M、N 间的电压突变为原恒定电压的 $k$ 倍（$k>0$），其他条件不变，此后小球仍能沿着圆弧往复运动，求 $k$ 的取值范围，并求出该范围内不同 $k$ 值对应的小球最大动能 $E_{k}$。\n\n![物理配图](assets/2026/physics/广东/15a.png) ![物理配图](assets/2026/physics/广东/15b.png)",
+      "figures": [
+        "assets/2026/physics/广东/15a.png",
+        "assets/2026/physics/广东/15b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$U=\\frac{\\sqrt{3}mgd}{3q}$\n（2）$T=\\frac{2\\sqrt{6}}{3}mg$\n（3）当 $0<k\\leq1$ 时，$E_{k}=\\left(\\frac{\\sqrt{3}}{6}k+\\sqrt{1+\\frac{k^{2}}{3}}-\\frac{\\sqrt{3}}{2}\\right)mgd$；当 $1<k<3$ 时，$E_{k}=\\frac{\\sqrt{3}}{3}kmgd$。"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）当小球刚好到金属板 N 时，受力分析如图所示。\n\n![物理配图](assets/2026/physics/广东/15_an1.png)\n\n根据几何关系可得 $\\sin\\theta=\\frac{\\frac{d}{2}}{d}$，可得 $\\theta=30^{\\circ}$。\n\n根据平衡条件有 $qE=mg\\tan\\theta$，其中 $E=\\frac{U}{d}$。\n\n联立可得 $U=\\frac{\\sqrt{3}mgd}{3q}$。\n\n（2）小球从金属板 N 到金属板 M 过程，根据动能定理\n\n![物理配图](assets/2026/physics/广东/15_an2.png)\n\n$qU=\\frac{1}{2}mv^{2}-0$。\n\n小球第一次碰撞 M 前瞬间，受力分析如图所示。\n\n$2T\\cos45^{\\circ}-mg\\cos\\theta-qE\\sin\\theta=m\\frac{v^{2}}{d}$。\n\n对小球根据牛顿第二定律，\n\n联立解得 $T=\\frac{2\\sqrt{6}}{3}mg$。\n\n（3）如图所示，要使小球仍能沿着圆弧往复运动，即绳子拉力大于零，需要满足 $q\\cdot\\frac{kU}{d}\\sin\\theta<mg\\cos\\theta$，\n\n![物理配图](assets/2026/physics/广东/15_an3.png)\n\n解得 $k\\leq3$。\n\n根据（2）分析可知当 $k=1$ 时，小球到达金属板 N 时，电场力和重力的合力与绳子的合力方向相同，当 $1<k<3$ 时，小球所受的重力和电场力的合力相对于小球到达金属板 N 时绳子合力的方向偏上，如图所示。\n\n![物理配图](assets/2026/physics/广东/15_an4.png)\n\n绳子拉力对小球不做功，可知小球所受的重力和电场力的合力与小球位移的夹角一直为锐角，当小球到达金属板 N 时，动能最大，根据动能定理有 $kqU=E_{k}-0$，\n\n可得 $E_{k}=\\frac{\\sqrt{3}}{3}kmgd$。\n\n当 $0<k\\leq1$ 时，小球所受的重力和电场力的合力相对于小球到达金属板 N 时绳子合力的方向偏下，如图所示。\n\n![物理配图](assets/2026/physics/广东/15_an5.png)\n\n当小球速度与小球所受的重力和电场力的合力方向垂直时，速度最大，该点为等效最低点，设此时与竖直方向的夹角为 $\\alpha$，根据几何关系有\n\n$\\tan\\alpha=\\frac{\\frac{kU}{d}\\cdot q}{mg}=\\frac{\\sqrt{3}}{3}k$。\n\n根据数学知识可得\n\n$\\sin\\alpha=\\frac{\\frac{\\sqrt{3}}{3}k}{\\sqrt{1+\\frac{1}{3}k^{2}}}$，$\\cos\\alpha=\\frac{1}{\\sqrt{1+\\frac{1}{3}k^{2}}}$。\n\n根据动能定理有\n\n$mgd(\\cos\\alpha-\\cos\\theta)+\\frac{kU}{d}\\cdot qd(\\sin\\theta+\\sin\\alpha)=E_{k}-0$。\n\n解得 $E_{k}=\\left(\\frac{\\sqrt{3}}{6}k+\\sqrt{1+\\frac{k^{2}}{3}}-\\frac{\\sqrt{3}}{2}\\right)mgd$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/广东/15_an1.png",
+        "assets/2026/physics/广东/15_an2.png",
+        "assets/2026/physics/广东/15_an3.png",
+        "assets/2026/physics/广东/15_an4.png",
+        "assets/2026/physics/广东/15_an5.png"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

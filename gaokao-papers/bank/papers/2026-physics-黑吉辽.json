@@ -1,0 +1,728 @@
+{
+  "id": "2026-physics-黑吉辽",
+  "year": 2026,
+  "subject": "物理",
+  "region": "黑吉辽卷",
+  "region_key": "黑吉辽",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2026-physics-黑吉辽-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 950,
+      "topics": [
+        "直线运动",
+        "质点"
+      ],
+      "stem_md": "某游客驾车由丹东出发，沿“最美边境公路”国道 G331 到达额济纳旗，路线如图中实线所示，总里程约 $7\\,500\\,\\mathrm{km}$，起点到终点的直线距离约 $2\\,000\\,\\mathrm{km}$。此过程 （  ）\n\n![物理配图](assets/2026/physics/黑吉辽/01.svg)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/01.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "该车的路程约为 $2\\,000\\,\\mathrm{km}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "该车的位移大小约为 $7\\,500\\,\\mathrm{km}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "某时刻该车速度计显示的是平均速度",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "若研究该车的运动轨迹，该车可视为质点",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．路程是物体运动轨迹的长度，位移是初位置到末位置的有向线段大小。本题中总里程 $7\\,500\\,\\mathrm{km}$ 是路程，起点终点的直线距离 $2\\,000\\,\\mathrm{km}$ 是位移大小，故 AB 错误；\n\nC．汽车速度计显示的是某一时刻的瞬时速度，不是平均速度，故 C 错误；\n\nD．研究该车的运动轨迹时，汽车自身的大小、形状相对于数千公里的运动路径可以忽略，因此可以将汽车视为质点，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "直线运动",
+        "加速度"
+      ],
+      "stem_md": "秧马是古代插秧时用的一种农具，苏轼用“日行千畦”形容其高效。如图，人抬脚跨坐在秧马上，与其一起向前减速滑行的过程中 （  ）\n\n![物理配图](assets/2026/physics/黑吉辽/02.png)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "秧马的加速度方向向后",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "秧马受到秧田的摩擦力方向向前",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "秧马对人的支持力和人对秧马的压力是一对平衡力",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "秧马对人的支持力和人受到的重力是一对作用力与反作用力",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．秧马向前减速滑行，速度方向向前，减速运动的加速度方向与速度方向相反，因此加速度方向向后，A 正确。\n\nB．秧马相对秧田向前运动，秧田对秧马的摩擦力阻碍相对运动，因此摩擦力方向向后，B 错误。\n\nC．秧马对人的支持力作用在人身上，人对秧马的压力作用在秧马身上，二者是作用力与反作用力（平衡力要求作用在同一物体上），C 错误。\n\nD．作用力与反作用力是两个物体之间的相互作用，秧马对人的支持力是人跟秧马之间的相互作用，人受到的重力是地球对人的引力，二者不是作用力与反作用力，D 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "电路",
+        "电路中的图象"
+      ],
+      "stem_md": "某同学做“描绘小灯泡的伏安特性曲线”实验时，得到的 $I-U$ 图像如图所示。从图中状态 $a$ 到状态 $b$，小灯泡电阻的变化量和电功率的变化量分别为 （  ）\n\n![物理配图](assets/2026/physics/黑吉辽/03.svg)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/03.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$2.0\\,\\Omega$，$0.28\\,\\mathrm{W}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$2.0\\,\\Omega$，$0.68\\,\\mathrm{W}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$7.0\\,\\Omega$，$0.28\\,\\mathrm{W}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$7.0\\,\\Omega$，$0.68\\,\\mathrm{W}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "从 $I-U$ 图像中读出两点坐标：\n\n状态 $a$：$U_{a}=0.6\\,\\mathrm{V}$，$I_{a}=0.2\\,\\mathrm{A}$。\n\n则 $R_{a}=\\frac{U_{a}}{I_{a}}=3\\,\\Omega$，$P_{a}=U_{a}I_{a}=0.12\\,\\mathrm{W}$。\n\n状态 $b$：$U_{b}=2.0\\,\\mathrm{V}$，$I_{b}=0.4\\,\\mathrm{A}$。\n\n则 $R_{b}=\\frac{U_{b}}{I_{b}}=\\frac{2.0}{0.4}=5\\,\\Omega$，$P_{b}=U_{b}I_{b}=2.0\\times0.4=0.8\\,\\mathrm{W}$。\n\n故电阻变化量为 $2\\,\\Omega$，电功率变化量为 $0.68\\,\\mathrm{W}$。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电场",
+        "电场线"
+      ],
+      "stem_md": "某种微型“纳米光子电子加速器”利用激光照射周期性排列的纳米柱体时产生的交变电场来加速电子束。电子束通过虚线框区域的极短时间内，电场可视为恒定的，电场线分布如图所示，这段时间内 （  ）\n\n![物理配图](assets/2026/physics/黑吉辽/04.svg)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/04.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$a$ 点的电场强度比 $b$ 点的大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "电子沿直线从 $a$ 点运动到 $b$ 点时，动能减小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电子沿直线从 $b$ 点运动到 $c$ 点时，速度增大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "电子束的横截面大小和形状均不变",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．电场线的疏密表示电场强度大小，电场线越密场强越大。图中 $b$ 点电场线比 $a$ 点更密，因此 $b$ 点场强大于 $a$ 点，A 错误。\n\nB．电子带负电，所受电场力方向与电场方向相反。电子从 $a$ 运动到 $b$，位移方向向右，电场力与位移方向相同，电场力做正功，根据动能定理，电子动能增大，B 错误。\n\nC．电子从 $b$ 运动到 $c$，位移向右，电场力仍向右，电场力依旧做正功，电子动能增大，速度增大，C 正确。\n\nD．中轴线外的电子，所受电场力存在垂直电场中轴线的分力，会发生偏转，因此电子束的横截面积会改变，形状发生改变，D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "洛伦兹力"
+      ],
+      "stem_md": "如图，真空中一带正电的小球用绝缘轻绳悬于 $O$ 点，处于竖直向下的匀强磁场中。将小球从 $P$ 点由静止释放，小球运动轨迹的俯视示意图可能是 （  ）\n\n![物理配图](assets/2026/physics/黑吉辽/05a.svg)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/05a.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2026/physics/黑吉辽/05b.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2026/physics/黑吉辽/05c.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2026/physics/黑吉辽/05d.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2026/physics/黑吉辽/05e.png"
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "小球从 $P$ 点由静止释放，初始阶段速度方向大致向右（指向 $PO$ 点）。根据左手定则可知，洛伦兹力方向垂直速度指向里（即俯视图中 $PO$ 连线的上方），轨迹向洛伦兹力方向偏转（即俯视图中向上弯曲）；当小球运动到右侧最高点（$P'$ 点）后返回，速度方向大致向左，根据左手定则可知，洛伦兹力方向垂直速度指向外（即俯视图中 $P'O$ 连线的下方），且轨迹依然向洛伦兹力方向偏转（即俯视图中向下弯曲）。综上所述，B 选项图符合题意。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电磁感应",
+        "切割磁感线电动势"
+      ],
+      "stem_md": "动圈式扬声器的结构和线圈绕向如图 [2026黑吉辽06a] 所示，图 [2026黑吉辽06b] 为线圈所在区域磁场分布。将其用作话筒时，锥形纸盆的振动带动线圈运动，把声信号转化为电信号。规定向右为线圈位移 $x$ 的正方向，若 $x$ 随时间 $t$ 的变化如图 [2026黑吉辽06c] 所示，则 $a$、$b$ 间电势差 $U_{ab}$ 随 $t$ 变化的图像可能为 （  ）\n\n![物理配图](assets/2026/physics/黑吉辽/06a.png) ![物理配图](assets/2026/physics/黑吉辽/06b.png) ![物理配图](assets/2026/physics/黑吉辽/06c.png)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/06a.png",
+        "assets/2026/physics/黑吉辽/06b.png",
+        "assets/2026/physics/黑吉辽/06c.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2026/physics/黑吉辽/06d.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2026/physics/黑吉辽/06e.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2026/physics/黑吉辽/06f.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2026/physics/黑吉辽/06g.png"
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意，由图（c）可知，线圈的位移 $x$ 随时间 $t$ 按正弦规律变化，则有\n\n$$\n x=A\\sin(\\omega t) \n$$\n\n则线圈的速度随时间的变化规律为\n\n$$\n v=A\\omega\\cos(\\omega t) \n$$\n\n由于磁场是辐射状的，线圈运动方向始终与磁感线垂直，由感应电动势的大小 $E=BLv$ 可知，$a$、$b$ 间电势差 $U_{ab}$ 的大小随时间的变化规律与速度 $v$ 一致，应为余弦函数形式。$t=0$ 时刻，由右手定则可知，线圈中电流由 $a\\to b$，因此 $a$ 端为负极、$b$ 端为正极，则有 $U_{ab}<0$。综上所述，D 选项图像符合题意。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "功和能",
+        "功率"
+      ],
+      "stem_md": "如图 [2026黑吉辽07a]，水平面上一质量为 $m$ 的物块在拉力 $F$ 作用下，以初速度 $v_{0}$ 由原点 $O$ 出发，沿 $x$ 轴依次经过 $M$、$N$、$Q$ 三点。已知 $OM=MN=NQ=x_{0}$，物块与水平面间的动摩擦因数为 $\\mu$，重力加速度为 $g$，$v_{0}=\\sqrt{2\\mu gx_{0}}$，$F$ 随位置 $x$ 的变化如图 [2026黑吉辽07b] 所示。设物块经过 $N$、$Q$ 两点时 $F$ 的瞬时功率分别为 $P_{N}$、$P_{Q}$，经过 $OM$、$MN$、$NQ$ 段 $F$ 的平均功率分别为 $\\overline{P}_{OM}$、$\\overline{P}_{MN}$、$\\overline{P}_{NQ}$，则 （  ）\n\n![物理配图](assets/2026/physics/黑吉辽/07a.png) ![物理配图](assets/2026/physics/黑吉辽/07b.png)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/07a.png",
+        "assets/2026/physics/黑吉辽/07b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$P_{N}>P_{Q}$，$\\overline{P}_{OM}>\\overline{P}_{MN}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$P_{N}<P_{Q}$，$\\overline{P}_{OM}>\\overline{P}_{MN}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$P_{N}>P_{Q}$，$\\overline{P}_{MN}<\\overline{P}_{NQ}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$P_{N}<P_{Q}$，$\\overline{P}_{MN}<\\overline{P}_{NQ}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意，从 $O$ 到 $N$ 过程中，由动能定理有\n\n$$\n \\frac{2\\mu mg}{2}\\cdot2x_{0}-\\mu mg\\cdot2x_{0}=\\frac{1}{2}mv_{N}^{2}-\\frac{1}{2}mv_{0}^{2} \n$$\n\n解得 $v_{N}=v_{0}=\\sqrt{2\\mu gx_{0}}$。\n\n从 $N$ 到 $Q$ 过程中，由动能定理有\n\n$$\n \\frac{2\\mu mg+\\mu mg}{2}\\cdot x_{0}-\\mu mgx_{0}=\\frac{1}{2}mv_{Q}^{2}-\\frac{1}{2}mv_{N}^{2} \n$$\n\n解得 $v_{Q}=\\sqrt{3\\mu gx_{0}}$。\n\n则有 $P_{N}=2\\mu mg\\cdot\\sqrt{2\\mu gx_{0}}=\\mu mg\\sqrt{8\\mu gx_{0}}$，$P_{Q}=\\mu mg\\sqrt{3\\mu gx_{0}}$，\n则有 $P_{N}>P_{Q}$。\n\n设经过 $OM$、$MN$、$NQ$ 段的时间分别为 $t_{1}$、$t_{2}$、$t_{3}$。物块在 $OM$ 阶段，拉力小于滑动摩擦力，随着拉力的增大，做加速度减小的减速运动，速度由 $v_{0}$ 减速到 $v_{M}$；物块在 $MN$ 阶段，拉力大于滑动摩擦力，随着拉力的增大，做加速度增大的加速运动。物体在 $O$ 点的加速度大小为\n\n$$\n a_{1}=\\frac{\\mu mg}{m}=\\mu g \n$$\n\n$N$ 点的加速度大小为\n\n$$\n a_{2}=\\frac{2\\mu mg-\\mu mg}{m}=\\mu g \n$$\n\n则有 $a_{1}=a_{2}$，由对称性可得 $t_{1}=t_{2}$。\n\n物体在 $NQ$ 阶段做加速度减小的加速运动，则在 $NQ$ 段的平均速度大于 $MN$ 段的平均速度，则有 $t_{3}<t_{2}$。\n\n根据 $F-x$ 图像面积表示做功，由图可知，经过 $OM$、$MN$、$NQ$ 段 $F$ 做功分别为 $W_{1}=\\frac{1}{2}\\mu mgx_{0}$，$W_{2}=W_{3}=\\frac{3}{2}\\mu mgx_{0}$。\n又有 $\\overline{P}_{OM}=\\frac{W_{1}}{t_{1}}$、$\\overline{P}_{MN}=\\frac{W_{2}}{t_{2}}$、$\\overline{P}_{NQ}=\\frac{W_{3}}{t_{3}}$，\n可得 $\\overline{P}_{OM}<\\overline{P}_{MN}<\\overline{P}_{NQ}$。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "气体图象"
+      ],
+      "stem_md": "一定质量的理想气体由状态 $a$ 经状态 $b$、$c$ 变化到状态 $d$，$p-V$ 图像如图所示，则 （  ）\n\n![物理配图](assets/2026/physics/黑吉辽/08.svg)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/08.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "状态 $a$ 的温度比状态 $b$ 的高",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "状态 $b$ 的内能比状态 $c$ 的大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$b\\to c$、$c\\to d$ 过程气体对外做的功相等",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$c\\to d$ 过程气体对外做的功小于从外界吸收的热量",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据题意，由图可知，从 $a\\to b$ 过程中，气体的压强不变，气体做等压变化，由于气体体积增大，则气体温度升高，可知状态 $a$ 的温度比状态 $b$ 的低，故 A 错误。\n\nB．从 $b\\to c$ 过程中，结合图像，由理想气体状态方程有\n\n$$\n \\frac{3p_{0}\\cdot2V_{0}}{T_{b}}=\\frac{p_{0}\\cdot3V_{0}}{T_{c}} \n$$\n\n解得 $T_{b}=2T_{c}$，可知状态 $b$ 的温度比状态 $c$ 的高，则状态 $b$ 的内能比状态 $c$ 的大，故 B 正确。\n\nC．根据 $p-V$ 图像的面积表示气体做功，由图可知，$b\\to c$ 过程中，气体对外做功为\n\n$$\n W_{1}=\\frac{1}{2}\\left(p_{0}+3p_{0}\\right)\\left(3V_{0}-2V_{0}\\right)=2p_{0}V_{0} \n$$\n\n$c\\to d$ 过程中，气体对外做功为\n\n$$\n W_{2}=p_{0}(4V_{0}-3V_{0})=p_{0}V_{0} \n$$\n\n可知 $b\\to c$、$c\\to d$ 过程气体对外做的功不相等，故 C 错误。\n\nD．由图可知，$c\\to d$ 过程气体的压强不变，气体做等压变化，由于气体体积增大，则气体温度升高，气体的内能增大，由热力学第一定律可知，$c\\to d$ 过程气体对外做的功小于从外界吸收的热量，故 D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "曲线运动",
+        "天体运动"
+      ],
+      "stem_md": "我国计划将“羲和二号”太阳探测卫星部署至日地系统拉格朗日点 L5。研究表明，太阳中心 $S$、地球中心 $E$ 和 L5 的连线构成稳定的等边三角形，太阳、地球和部署在 L5 的卫星以相同周期绕日地连线上的 $P$ 点做圆周运动，如图所示，则 （  ）\n\n![物理配图](assets/2026/physics/黑吉辽/09.svg)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/09.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "卫星的向心加速度比地球的大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "卫星与地球的线速度大小相等",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "太阳和地球对卫星引力的合力指向 $E$、$S$ 连线中点",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "太阳和地球对卫星的引力大小之比等于太阳和地球的质量之比",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据题图可知卫星的运动半径大于地球的运动半径，卫星、太阳和地球周期相等，根据 $\\omega=\\frac{2\\pi}{T}$ 可知三者角速度相等，根据 $a_{n}=\\omega^{2}r$ 可知卫星的向心加速度比地球的大，故 A 正确；\n\nB．根据 $v=\\omega r$ 结合 A 选项分析可知卫星线速度大于地球的线速度，故 B 错误；\n\nC．根据题意可知太阳和地球对卫星引力的合力提供卫星做圆周运动的向心力，向心力一定指向圆心，即向心力一定指向 $P$ 点，故 C 错误；\n\nD．根据题意可知太阳和卫星的距离等于地球和卫星的距离，根据万有引力的表达式 $F=G\\frac{Mm}{r^{2}}$ 可知太阳和地球对卫星的引力大小之比等于太阳和地球的质量之比，故 D 正确。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 0,
+      "difficulty": 350,
+      "topics": [
+        "电磁感应",
+        "线圈过有界磁场"
+      ],
+      "stem_md": "如图，光滑绝缘水平面上 $x=0$ 两侧区域 Ⅰ、Ⅱ 分别存在竖直方向的匀强磁场，宽度均为 $L$，磁感应强度方向相反，大小分别为 $B$、$2B$，$x=-3L$ 和 $x=3L$ 处有固定挡板。同种材料制成、粗细均匀的正方形导体线框 $MNPQ$，边长为 $L$，质量为 $m$，总电阻为 $R$，以初速度 $v_{0}=\\frac{2026B^{2}L^{3}}{mR}$ 从左侧进入磁场，沿 $x$ 轴方向运动。线框平面始终与磁场方向垂直，$MN$ 边始终与磁场边界平行，线框与挡板的碰撞均为弹性碰撞。则 （  ）\n\n![物理配图](assets/2026/physics/黑吉辽/10.svg)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/10.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$MN$ 首次进入磁场时线框的加速度大小 $a=\\frac{2026B^{4}L^{5}}{m^{2}R^{2}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$MN$ 每次经过 $x=1.5L$ 时，电势差 $U_{MN}:U_{PQ}=1:1$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$MN$ 与右侧挡板首次碰撞后瞬间线框的速度大小 $v=\\frac{2012B^{2}L^{3}}{mR}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "线框停止处，穿过线框的磁通量为 0",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．$MN$ 首次进入磁场时，$MN$ 切割磁感线，感应电动势 $E=BLv_{0}$，感应电流 $I=\\frac{E}{R}$，$MN$ 所受的安培力 $F=BIL$，根据牛顿第二定律 $F=ma$，联立可得 $MN$ 首次进入磁场时线框的加速度大小\n\n$$\n a=\\frac{2026B^{4}L^{5}}{m^{2}R^{2}} \n$$\n\n故 A 正确；\n\nB．$MN$ 每次经过 $x=1.5L$ 时，都是 $PQ$ 切割磁感线，设感应电动势为 $E'$，则 $\\left|U_{PQ}\\right|=\\frac{3}{4}E'$，$\\left|U_{NM}\\right|=\\frac{1}{4}E'$（根据右手定则可知要么都为正，要么都为负），可知 $MN$ 每次经过 $x=1.5L$ 时，电势差 $U_{NM}:U_{PQ}=1:3$，故 B 错误；\n\nC．线框 $MN$ 进入磁场 Ⅰ 过程中，根据动量定理有\n\n$$\n -B\\overline{i_{1}}L\\cdot t_{1}=m\\cdot\\Delta v_{1} \n$$\n\n又 $\\overline{i_{1}}=\\frac{BL^{2}}{t_{1}R}$，可得 $\\Delta v_{1}=-\\frac{B^{2}L^{3}}{mR}$。\n\n线框 $MN$ 从磁场 Ⅰ 到磁场 Ⅱ 过程中，根据动量定理\n\n$$\n -B\\overline{i_{2}}L\\cdot t_{2}+(-2B\\overline{i_{2}}L\\cdot t_{2})=m\\cdot\\Delta v_{2} \n$$\n\n又 $\\overline{i_{2}}=\\frac{2BL^{2}+BL^{2}}{t_{2}R}$，可得 $\\Delta v_{2}=-\\frac{9B^{2}L^{3}}{mR}$。\n\n线框 $MN$ 离开磁场 Ⅱ 过程中，根据动量定理\n\n$$\n -2B\\overline{i_{3}}L\\cdot t_{3}=m\\cdot\\Delta v_{3} \n$$\n\n又 $\\overline{i_{3}}=\\frac{2BL^{2}}{t_{3}R}$，可得 $\\Delta v_{3}=-\\frac{4B^{2}L^{3}}{mR}$。\n\n线框 $MN$ 穿过磁场 Ⅰ、Ⅱ 过程，线框 $MN$ 速度变化量\n\n$$\n \\Delta v=\\Delta v_{1}+\\Delta v_{2}+\\Delta v_{3}=-\\frac{14B^{2}L^{3}}{mR} \n$$\n\n根据 $v'-v_{0}=\\Delta v$，可得线框 $MN$ 与右侧挡板碰撞前的速度大小为 $v'=\\frac{2012B^{2}L^{3}}{mR}$。根据题意线框与挡板的碰撞均为弹性碰撞，可知 $MN$ 与右侧挡板首次碰撞后瞬间线框的速度大小\n\n$$\n v=v'=\\frac{2012B^{2}L^{3}}{mR} \n$$\n\n故 C 正确；\n\nD．根据 C 选项分析可知线框完整穿过一次磁场 Ⅰ、Ⅱ，线框 $MN$ 速度变化量为 $\\Delta v=-\\frac{14B^{2}L^{3}}{mR}$。根据计算可知线框 $MN$ 完整穿过磁场 Ⅰ、Ⅱ 144 次后，速度为 $v''=v_{0}+144\\Delta v=\\frac{10B^{2}L^{3}}{mR}$。又 144 为偶数，可知线框 $MN$ 第 145 次由左侧进入磁场 Ⅰ，刚好完全进入磁场 Ⅱ 时，速度变化量为\n\n$$\n \\Delta v'=-\\left(\\frac{B^{2}L^{3}}{mR}+\\frac{9B^{2}L^{3}}{mR}\\right)=-\\frac{10B^{2}L^{3}}{mR} \n$$\n\n可知线框 $MN$ 恰好停在磁场 Ⅱ 区域，穿过线框的磁通量为 $\\Phi=2BL^{2}$，故 D 错误。\n\n故选 AC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "测定玻璃折射率"
+      ],
+      "stem_md": "如图 [2026黑吉辽11a]，某同学利用激光测距仪分别在①、②位置测量玻璃砖厚度时，发现两次示数差异较大。他猜想这可能与玻璃砖的折射率有关，于是设计了如下验证实验。\n\n如图 [2026黑吉辽11b]，在白纸上描出玻璃砖的两个边 $a$ 和 $a'$，使激光沿纸面以某一角度入射到玻璃砖侧面，在光束 1 上靠近光源处标记点 $M$，在光束 1 与 $a$ 的交点处标记点 $O$，在光束 2 与 $a'$ 的交点处标记点 $N$。\n\n移走测距仪和玻璃砖。如图 [2026黑吉辽11c]，过 $O$ 点作 $a$ 的垂线 $b$，连接 $MO$ 和 $ON$，以 $O$ 为圆心、$ON$ 为半径作圆弧，与 $MO$ 交于 $P$ 点。分别测量 $N$、$P$ 到 $b$ 的距离，记为 $x_{N}$ 和 $x_{P}$。\n\n改变入射角多次测量，记录多组数据，计算玻璃砖折射率 $n$ 及其平均值。结果表明，测距仪在①、②位置测量时的示数比值与此平均值近似相等。\n\n回答下列问题：\n\n（1）上述实验过程中，下列说法正确的是  ______ （单选）。\n\t\n\n(A) 点 $M$ 只能标记在光束 1 上靠近光源处  (B) 点 $N$ 只能标记在光束 2 与 $a'$ 的交点处  (C) 只能以 $ON$ 为半径作圆弧\n（2）处理数据时，$n=$  ______ （用 $x_{N}$、$x_{P}$ 表示）。\n（3）该同学推测，测距仪是通过测量激光的传播时间 $\\Delta t$ 来计算距离的，则该测距仪示数是通过  ______ （选填“$c\\frac{\\Delta t}{2}$”或“$v\\frac{\\Delta t}{2}$”，$c$ 和 $v$ 分别是激光在真空和介质中的速度）计算的。\n（4）该同学将深度为 $16.0\\,\\mathrm{cm}$ 的不锈钢杯装满水（折射率为 1.33）后，测量此杯深度，若测距仪的示数接近  ______  $\\,\\mathrm{cm}$（保留至小数点后 1 位），则符合他的推测。\n\n![物理配图](assets/2026/physics/黑吉辽/11a.png) ![物理配图](assets/2026/physics/黑吉辽/11b.png) ![物理配图](assets/2026/physics/黑吉辽/11c.png)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/11a.png",
+        "assets/2026/physics/黑吉辽/11b.png",
+        "assets/2026/physics/黑吉辽/11c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）B\n（2）$\\frac{x_{P}}{x_{N}}$\n（3）$c\\frac{\\Delta t}{2}$\n（4）$21.3$",
+        "sub_answers": [
+          "B",
+          "$\\frac{x_{P}}{x_{N}}$",
+          "$c\\frac{\\Delta t}{2}$",
+          "$21.3$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）AB．实验中标记点 $M$ 和点 $N$ 是为了确定入射光线和折射光线的方向，点 $M$ 的位置可以选取入射光线上的任意位置，光线在玻璃砖中发生折射，玻璃砖上不能标记，只能标记光从玻璃砖中射出的点 $N$，故 A 错误、B 正确；\n\nC．作圆弧时，半径的长度可以任意选择，再用几何关系得出入射角和折射角的正弦值的表达式即可，故 C 错误。\n\n故选 B。\n\n（2）根据题图可得入射角正弦值的表达式为 $\\frac{x_{P}}{ON}$，折射角的表达式为 $\\frac{x_{N}}{ON}$，则折射率为\n\n$$\n n=\\frac{\\frac{x_{P}}{ON}}{\\frac{x_{N}}{ON}}=\\frac{x_{P}}{x_{N}} \n$$\n\n（3）测距仪默认激光在真空中的速度 $c$ 计算距离，激光往返，因此示数按 $d=c\\frac{\\Delta t}{2}$ 计算。\n\n（4）设实际深度为 $h=16.0\\,\\mathrm{cm}$，水的折射率 $n=1.33$，激光往返时间 $\\Delta t=\\frac{2h}{v}$，其中 $v=\\frac{c}{n}$，测距仪示数 $d=c\\frac{\\Delta t}{2}$，联立可得 $d\\approx21.3\\,\\mathrm{cm}$。即测距仪的示数接近 $21.3\\,\\mathrm{cm}$，则符合他的推测。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "电容"
+      ],
+      "stem_md": "某同学从教材的“拓展学习”栏目中学习到平行板电容器的电容 $C=\\frac{\\varepsilon_{\\mathrm{r}}S}{4\\pi kd}$。为验证 $C$ 与极板间距 $d$、正对面积 $S$ 的关系，他与人工智能讨论得知，用数字式多用电表可以测量电容，测量过程中电路存在额外电容，每次应扣除额外电容，以获得电容的测量值。据此，设计并完成如下实验。\n\n实验器材：厚度为 $d_{0}$ 的绝缘塑料板若干、面积均为 $S_{0}$（已知）的矩形单面覆铜板两块、数字式多用电表、螺旋测微器、绝缘重物等。\n\n（1）用螺旋测微器测量 20 层塑料板的厚度。测量结果如图 [2026黑吉辽12a] 所示，读数为  ______  $\\,\\mathrm{mm}$。\n（2）将两极板覆铜面相对，中间夹入 10 层塑料板并用重物压紧，使正对面积为 $S_{0}$，用多用电表测量电容并记录数据。断开表笔，将极板短接放电。保持正对面积为 $S_{0}$ 不变，每次增加 2 层塑料板，重复上述操作直至 20 层。作 $C-\\frac{1}{d}$ 图线如图 [2026黑吉辽12b] 所示，由此确定 $C$ 与 $\\frac{1}{d}$ 成正比。由图线，极板间夹 15 层塑料板时，电容为  ______  $\\,\\mathrm{pF}$（保留至整数）。\n（3）保持极板间 20 层塑料板不变，使两极板正对面积依次为 $S_{0}$、$\\frac{3}{4}S_{0}$、$\\frac{2}{3}S_{0}$、$\\frac{1}{2}S_{0}$、$\\frac{1}{3}S_{0}$、$\\frac{1}{4}S_{0}$，用重物压紧，测量电容并记录数据。作 $C-S$ 图线如图 [2026黑吉辽12c] 所示，由此确定 $C$ 与 $S$ 成正比。图（c）中某次测量值明显偏离拟合直线，排除仪器故障和数据处理错误，从实验操作角度分析，写出一条可能的原因： ______ 。\n（4）若将图（b）、图（c）改绘为 $C-\\frac{d_{0}}{d}$、$C-\\frac{S}{S_{0}}$ 图线，两图线的斜率分别为 $k_{1}$、$k_{2}$，则理论上 $\\frac{k_{1}}{k_{2}}=$  ______ （选填“20”“1”或“0.05”）。\n\n![物理配图](assets/2026/physics/黑吉辽/12a.png) ![物理配图](assets/2026/physics/黑吉辽/12b.png) ![物理配图](assets/2026/physics/黑吉辽/12c.png)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/12a.png",
+        "assets/2026/physics/黑吉辽/12b.png",
+        "assets/2026/physics/黑吉辽/12c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$1.804$\n（2）$157$\n（3）塑料板没有压紧（或正对面积取值偏大）\n（4）$20$",
+        "sub_answers": [
+          "$1.804$",
+          "$157$",
+          "塑料板没有压紧（或正对面积取值偏大）",
+          "$20$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）螺旋测微器的读数为\n\n$$\n 1.5\\,\\mathrm{mm}+30.4\\times0.01\\,\\mathrm{mm}=1.804\\,\\mathrm{mm} \n$$\n\n$$\n \\frac{1}{d}=\\frac{1}{\\frac{1.804}{20}\\times15}\\,\\mathrm{mm}^{-1}\\approx0.74\\,\\mathrm{mm}^{-1} \n$$\n\n（2）当极板间夹 15 层塑料板时结合题图可得电容约为 $157\\,\\mathrm{pF}$。\n\n（3）根据题图可知测量值明显偏离拟合直线，电容的测量值偏小，根据 $C=\\frac{\\varepsilon_{r}S}{4\\pi kd}$ 可知出现的原因是塑料板没有压紧或正对面积取值偏大。\n\n（4）根据平行板电容公式 $C=\\frac{\\varepsilon_{r}S}{4\\pi kd}$。\n\n对 $C-\\frac{d_{0}}{d}$ 图线有\n\n$$\n C=\\frac{\\varepsilon_{\\mathrm{r}}S_{0}}{4\\pi kd}=\\frac{\\varepsilon_{\\mathrm{r}}S_{0}}{4\\pi kd_{0}}\\cdot\\frac{d_{0}}{d} \n$$\n\n对 $C-\\frac{S}{S_{0}}$ 图线有\n\n$$\n C=\\frac{\\varepsilon_{\\mathrm{r}}S}{4\\pi k\\cdot20d_{0}}=\\frac{\\varepsilon_{\\mathrm{r}}S_{0}}{4\\pi k\\cdot20d_{0}}\\cdot\\frac{S}{S_{0}} \n$$\n\n则 $k_{1}=\\frac{\\varepsilon_{\\mathrm{r}}S_{0}}{4\\pi kd_{0}}$，$k_{2}=\\frac{\\varepsilon_{\\mathrm{r}}S_{0}}{4\\pi k\\cdot20d_{0}}$，可得 $\\frac{k_{1}}{k_{2}}=20$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 10,
+      "difficulty": 650,
+      "topics": [
+        "运动和力",
+        "加速减速模型"
+      ],
+      "stem_md": "某科研机构设计了模拟月球重力环境的实验塔，简化模型如图所示。在竖直向上的电磁力 $F=3\\times10^{4}\\,\\mathrm{N}$ 的驱动下，质量 $m=500\\,\\mathrm{kg}$ 的实验舱由静止开始沿塔身竖直向上做匀加速直线运动，上升 $h=6.25\\,\\mathrm{m}$ 时，立即减小电磁力，使实验舱向上做匀减速直线运动。减速过程中，舱内水平台面上的设备所受支持力为其重力的 $\\frac{1}{6}$，从而模拟月球重力环境。不计摩擦力与空气阻力，取重力加速度 $g=10\\,\\mathrm{m}/\\mathrm{s}^2$。求上升过程中\n\n（1）实验舱的最大速度 $v_{m}$；\n（2）舱内处于模拟的月球重力环境的时间 $t$。\n\n![物理配图](assets/2026/physics/黑吉辽/13.svg)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/13.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$v_{m}=25\\,\\mathrm{m}/\\mathrm{s}$\n（2）$t=3\\,\\mathrm{s}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）加速阶段，由动能定理有\n\n$$\n (F-mg)h=\\frac{1}{2}mv_{m}^{2} \n$$\n\n解得 $v_{m}=25\\,\\mathrm{m}/\\mathrm{s}$。\n\n（2）减速阶段，由动量定理得\n\n$$\n -\\left(mg-\\frac{1}{6}mg\\right)t=0-mv_{m} \n$$\n\n解得 $t=3\\,\\mathrm{s}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 12,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图，光滑水平面上一质量 $m_{A}=0.4\\,\\mathrm{kg}$ 的木板，其右端通过轻弹簧连接质量 $m_{B}=0.1\\,\\mathrm{kg}$ 的物块，此时弹簧伸长量 $x_{0}=0.1\\,\\mathrm{m}$，物块和木板均静止。质量 $m_{C}=0.1\\,\\mathrm{kg}$ 的小球（可视为质点）通过长 $L=0.9\\,\\mathrm{m}$ 的轻绳悬于 $O$ 点。小球从绳与竖直方向成 $\\theta=60^{\\circ}$ 处由静止释放，摆至最低点时与木板右端发生弹性碰撞，时间极短。取重力加速度 $g=10\\,\\mathrm{m}/\\mathrm{s}^2$。\n\n（1）求碰撞后瞬间木板的速度大小 $v_{A}$。\n（2）弹簧的压缩量第一次为 $x_{0}$ 时，物块速度大小为 $v_{B}=0.8\\,\\mathrm{m}/\\mathrm{s}$，方向向左。求木板与物块间的动摩擦因数 $\\mu$。\n\n![物理配图](assets/2026/physics/黑吉辽/14.svg)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/14.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$v_{A}=1.2\\,\\mathrm{m}/\\mathrm{s}$\n（2）$\\mu=0.28$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）$C$ 下摆过程，由机械能守恒定律有\n\n$$\n m_{C}gL\\left(1-\\cos60^{\\circ}\\right)=\\frac{1}{2}m_{C}v_{0}^{2} \n$$\n\n解得 $v_{0}=3\\,\\mathrm{m}/\\mathrm{s}$。\n\n$C$ 与 $A$ 碰撞，由动量守恒定律和能量守恒定律有\n\n$$\n m_{C}v_{0}=m_{C}v_{C}+m_{A}v_{A},  \\frac{1}{2}m_{C}v_{0}^{2}=\\frac{1}{2}m_{C}v_{C}^{2}+\\frac{1}{2}m_{A}v_{A}^{2} \n$$\n\n联立解得碰撞后瞬间木板的速度大小 $v_{A}=1.2\\,\\mathrm{m}/\\mathrm{s}$。\n\n（2）$A$、$C$ 碰后，当弹簧的压缩量第一次为 $x_{0}$ 时，以向左为正方向，由动量守恒定律有\n\n$$\n m_{A}v_{A}=m_{B}v_{B}+m_{A}v_{A}' \n$$\n\n解得 $v_{A}'=1\\,\\mathrm{m}/\\mathrm{s}$。\n\n由题意可知弹簧的弹性势能不变，由能量守恒定律有\n\n$$\n \\frac{1}{2}m_{A}v_{A}^{2}=\\frac{1}{2}m_{A}v_{A}'^{2}+\\frac{1}{2}m_{B}v_{B}^{2}+\\mu m_{B}g\\left(2x_{0}\\right) \n$$\n\n解得 $\\mu=0.28$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-黑吉辽-q15",
+      "number": 15,
+      "section": "单选题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在组合场中的运动"
+      ],
+      "stem_md": "某些材料的激发态可视为准粒子的集合，激发态寿命可由“时间分辨-能量分析仪”测量，简化原理如图 [2026黑吉辽15a] 所示，电子源释放初速度可忽略的电子，经电压为 $U_{1}$ 的加速电场加速，穿过处于激发态的样品时，部分电子与准粒子作用后动能发生变化，相互作用时间不计。为筛选出动能变化为特定值的电子，调节匀强磁场的磁感应强度为 $B_{0}$，使筛选出的电子沿半径为 $R$ 的圆弧形中心线运动，从狭缝出射后，沿电场中心线且平行于极板方向进入偏转电场，偏转后打在荧光屏上形成光斑。\n\n已知电子电荷量大小为 $e$，质量为 $m$；偏转电场可视为匀强电场，M、N 极板长度为 $L$、间距为 $d$；荧光屏到极板边缘的距离为 $5L$。忽略电子间相互作用及电、磁场边缘效应。\n\n（1）求筛选出的电子通过样品前后的动能变化量 $\\Delta E_{k}$。\n（2）求 M、N 间电压为 $U_{2}$ 时，电子到达荧光屏上的偏移距离 $x_{0}$。\n（3）样品被激发时，电子源开始每隔相同时间发射持续时间极短、电子数目相近的脉冲，同时 M、N 间电压随时间线性变化，变化率为 $\\beta$（$\\beta<0$），使先后到达荧光屏上的电子脉冲形成间距为 $\\Delta x$ 的光斑，如图 [2026黑吉辽15b] 所示。每个脉冲经过偏转电场时间极短，在此时间内电子所受电场力可视为恒定。样品被激发后，筛选出的电子数随激发态准粒子数的衰减成比例减少，导致光斑相对强度也相应成比例减弱，相对强度与各个光斑中心位置 $x$ 的关系如图 [2026黑吉辽15c] 所示。若样品的激发态寿命 $\\tau$ 定义为准粒子数衰减一半所需的时间，求 $\\tau$。\n\n![物理配图](assets/2026/physics/黑吉辽/15a.png)\n\n![物理配图](assets/2026/physics/黑吉辽/15b.png) ![物理配图](assets/2026/physics/黑吉辽/15c.png)",
+      "figures": [
+        "assets/2026/physics/黑吉辽/15a.png",
+        "assets/2026/physics/黑吉辽/15b.png",
+        "assets/2026/physics/黑吉辽/15c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{e^{2}B_{0}^{2}R^{2}}{2m}-eU_{1}$\n（2）$\\frac{11mL^{2}U_{2}}{2dR^{2}B_{0}^{2}e}$\n（3）$-\\frac{8dR^{2}B_{0}^{2}e\\Delta x}{11\\beta mL^{2}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）电子在加速电场中，由动能定理有\n\n$$\n eU_{1}=\\frac{1}{2}mv_{1}^{2} \n$$\n\n电子在筛选器中由牛顿第二定律有\n\n$$\n ev_{2}B_{0}=\\frac{mv_{2}^{2}}{R} \n$$\n\n电子通过样品前后的动能变化量\n\n$$\n \\Delta E_{k}=\\frac{1}{2}mv_{2}^{2}-\\frac{1}{2}mv_{1}^{2} \n$$\n\n联立可得\n\n$$\n \\Delta E_{k}=\\frac{e^{2}B_{0}^{2}R^{2}}{2m}-eU_{1} \n$$\n\n（2）偏转电场中做类平抛运动，垂直电场方向有 $L=v_{2}t$，沿着电场方向有 $x=\\frac{1}{2}at^{2}$，根据牛顿第二定律 $e\\frac{U_{2}}{d}=ma$。出偏转电场后，电子做匀速直线运动，根据几何关系有\n\n$$\n \\frac{x_{0}}{x}=\\frac{\\frac{L}{2}+5L}{\\frac{L}{2}} \n$$\n\n联立解得\n\n$$\n x_{0}=\\frac{11mL^{2}U_{2}}{2dR^{2}B_{0}^{2}e} \n$$\n\n（3）由题意可知 $U_{2}=\\beta t+U_{0}$，将 $U_{2}$ 表达式代入 $x_{0}=\\frac{11mL^{2}U_{2}}{2dR^{2}B_{0}^{2}e}$ 可得\n\n$$\n x_{0}=\\frac{11mL^{2}}{2dR^{2}B_{0}^{2}e}\\left(\\beta t+U_{0}\\right) \n$$\n\n结合题图（相对强度由 8408 到 4204）可得\n\n$$\n 4\\Delta x=-\\frac{11mL^{2}}{2dR^{2}B_{0}^{2}e}\\cdot\\beta\\tau \n$$\n\n解得\n\n$$\n \\tau=-\\frac{8dR^{2}B_{0}^{2}e\\Delta x}{11\\beta mL^{2}} \n$$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

@@ -1,0 +1,861 @@
+{
+  "id": "2024-physics-山东",
+  "year": 2024,
+  "subject": "物理",
+  "region": "山东卷",
+  "region_key": "山东",
+  "format_tier": "structured_latex",
+  "question_count": 18,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2024-physics-山东-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "原子和原子核",
+        "半衰期"
+      ],
+      "stem_md": "2024 年是中国航天大年，神舟十八号、嫦娥六号等已陆续飞天，部分航天器装载了具有抗干扰性强的核电池。已知 \\ce{^{90}_{38}Sr} 衰变为 \\ce{^{90}_{39}Y} 的半衰期约为 29 年；\\ce{^{238}_{94}Pu} 衰变为 \\ce{^{234}_{92}U} 的半衰期约 87 年。现用相同数目的 \\ce{^{90}_{38}Sr} 和 \\ce{^{238}_{94}Pu} 各做一块核电池，下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "\\ce{^{90}_{38}Sr} 衰变为 \\ce{^{90}_{39}Y} 时产生 $\\alpha$ 粒子",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "\\ce{^{238}_{94}Pu} 衰变为 \\ce{^{234}_{92}U} 时产生 $\\beta$ 粒子",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "50 年后，剩余的 \\ce{^{90}_{38}Sr} 数目大于 \\ce{^{238}_{94}Pu} 的数目",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "87 年后，剩余的 \\ce{^{90}_{38}Sr} 数目小于 \\ce{^{238}_{94}Pu} 的数目",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据质量数守恒和电荷数守恒可知 \\ce{^{90}_{38}Sr} 衰变为 \\ce{^{90}_{39}Y} 时产生电子，即 $\\beta$ 粒子，故 A 错误；\n\nB．根据质量数守恒和电荷数守恒可知 \\ce{^{238}_{94}Pu} 衰变为 \\ce{^{234}_{92}U} 时产生 \\ce{^{4}_{2}He}，即 $\\alpha$ 粒子，故 B 错误；\n\nCD．根据题意可知 \\ce{^{238}_{94}Pu} 的半衰期大于 \\ce{^{90}_{38}Sr} 的半衰期，现用相同数目的 \\ce{^{90}_{38}Sr} 和 \\ce{^{238}_{94}Pu} 各做一块核电池，经过相同的时间，\\ce{^{90}_{38}Sr} 经过的半衰期的次数多，所以 \\ce{^{90}_{38}Sr} 数目小于 \\ce{^{238}_{94}Pu} 的数目，故 D 正确，C 错误。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "力物体的平衡",
+        "三力平衡"
+      ],
+      "stem_md": "如图所示，国产人形机器人“天工”能平稳通过斜坡。若它可以在倾角不大于 $30^{\\circ}$ 的斜坡上稳定地站立和行走，且最大静摩擦力等于滑动摩擦力，则它的脚和斜面间的动摩擦因数不能小于（  ）\n\n![物理配图](assets/2024/physics/山东/02.jpg)",
+      "figures": [
+        "assets/2024/physics/山东/02.jpg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{1}{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{\\sqrt{3}}{3}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{\\sqrt{2}}{2}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{\\sqrt{3}}{2}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意可知机器人“天工”它可以在倾角不大于 $30^{\\circ}$ 的斜坡上稳定地站立和行走，对“天工”分析有\n\n$mg\\sin30^{\\circ} \\le \\mu mg\\cos30^{\\circ}$\n\n可得 $\\mu \\ge \\frac{\\sqrt{3}}{3}$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "直线运动",
+        "匀变速直线运动"
+      ],
+      "stem_md": "如图所示，固定的光滑斜面上有一木板，其下端与斜面上 A 点距离为 $L$。木板由静止释放，若木板长度 $L$，通过 A 点的时间间隔为 $\\Delta t_{1}$；若木板长度为 $2L$，通过 A 点的时间间隔为 $\\Delta t_{2}$。$\\Delta t_{2}:\\Delta t_{1}$ 为（  ）\n\n![物理配图](assets/2024/physics/山东/03.png)",
+      "figures": [
+        "assets/2024/physics/山东/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "($\\sqrt{3}-1$)$:$($\\sqrt{2}-1$)",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "($\\sqrt{3}-\\sqrt{2}$)$:$($\\sqrt{2}-1$)",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "($\\sqrt{3}+1$)$:$($\\sqrt{2}+1$)",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "($\\sqrt{3}+\\sqrt{2}$)$:$($\\sqrt{2}+1$)",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "木板在斜面上运动时，木板的加速度不变，设加速度为 $a$，木板从静止释放到下端到达 A 点的过程，根据运动学公式有 $L = \\frac{1}{2}at_{0}^{2}$；\n\n木板从静止释放到上端到达 A 点的过程，当木板长度为 $L$ 时，有 $2L = \\frac{1}{2}at_{1}^{2}$；\n\n当木板长度为 $2L$ 时，有 $3L = \\frac{1}{2}at_{2}^{2}$；\n\n又 $\\Delta t_{1} = t_{1} - t_{0}$，$\\Delta t_{2} = t_{2} - t_{0}$\n\n联立解得 $\\Delta t_{2}:\\Delta t_{1} = (\\sqrt{3}-1):(\\sqrt{2}-1)$\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "光学",
+        "光的干涉"
+      ],
+      "stem_md": "检测球形滚珠直径是否合格的装置如图甲所示，将标准滚珠 a 与待测滚珠 b、c 放置在两块平板玻璃之间，用单色平行光垂直照射平板玻璃，形成如图乙所示的干涉条纹。若待测滚珠与标准滚珠的直径相等为合格，下列说法正确的是（  ）\n\n![物理配图](assets/2024/physics/山东/04.png)",
+      "figures": [
+        "assets/2024/physics/山东/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "滚珠 b、c 均合格",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "滚珠 b、c 均不合格",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "滚珠 b 合格，滚珠 c 不合格",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "滚珠 b 不合格，滚珠 c 合格",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "单色平行光垂直照射平板玻璃，上、下玻璃上表面的反射光在上玻璃上表面发生干涉，形成干涉条纹，光程差为两块玻璃距离的两倍，根据光的干涉知识可知，同一条干涉条纹位置处光的波程差相等，即滚珠 $a$ 的直径与滚珠 $b$ 的直径相等，即滚珠 $b$ 合格，不同的干涉条纹位置处光的波程差不同，则滚珠 $a$ 的直径与滚珠 $c$ 的直径不相等，即滚珠 $c$ 不合格。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "开普勒定律"
+      ],
+      "stem_md": "“鹊桥二号”中继星环绕月球运行，其 24 小时椭圆轨道的半长轴为 $a$。已知地球同步卫星的轨道半径为 $r$，则月球与地球质量之比可表示为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\sqrt{\\frac{r^{3}}{a^{3}}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\sqrt{\\frac{a^{3}}{r^{3}}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{r^{3}}{a^{3}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{a^{3}}{r^{3}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "“鹊桥二号”中继星在 24 小时椭圆轨道运行时，根据开普勒第三定律 $\\frac{a^{3}}{T^{2}} = k$\n\n同理，对地球的同步卫星根据开普勒第三定律 $\\frac{r^{3}}{T'^{2}} = k'$\n\n又开普勒常量与中心天体的质量成正比，所以 $\\frac{M_{\\text{月}}}{M_{\\text{地}}} = \\frac{k}{k'}$\n\n联立可得 $\\frac{M_{\\text{月}}}{M_{\\text{地}}} = \\frac{a^{3}}{r^{3}}$\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "热力学第一定律"
+      ],
+      "stem_md": "一定质量理想气体经历如图所示的循环过程，$a \\to b$ 过程是等压过程，$b \\to c$ 过程中气体与外界无热量交换，$c \\to a$ 过程是等温过程。下列说法正确的是（  ）\n\n![物理配图](assets/2024/physics/山东/06.png)",
+      "figures": [
+        "assets/2024/physics/山东/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$a \\to b$ 过程，气体从外界吸收的热量全部用于对外做功",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$b \\to c$ 过程，气体对外做功，内能增加",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$a \\to b \\to c$ 过程，气体从外界吸收的热量全部用于对外做功",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$a \\to b$ 过程，气体从外界吸收的热量等于 $c \\to a$ 过程放出的热量",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．$a \\to b$ 过程压强不变，是等压变化且体积增大，气体对外做功 $W < 0$，由盖-吕萨克定律可知 $T_{b} > T_{a}$\n\n即内能增大，$\\Delta U_{ab} > 0$，根据热力学第一定律 $\\Delta U = Q + W$ 可知 $a \\to b$ 过程，气体从外界吸收的热量一部分用于对外做功，另一部分用于增加内能，A 错误；\n\nB．方法一：$b \\to c$ 过程中气体与外界无热量交换，即 $Q_{bc} = 0$\n\n又由气体体积增大可知 $W_{bc} < 0$，由热力学第一定律 $\\Delta U = Q + W$ 可知气体内能减少。\n\n方法二：$c \\to a$ 过程为等温过程，所以 $T_{c} = T_{a}$。\n\n结合 $T_{b} > T_{a}$ 分析可知 $T_{b} > T_{c}$。\n\n所以 $b$ 到 $c$ 过程气体的内能减少。故 B 错误；\n\nC．$c \\to a$ 过程为等温过程，可知 $T_{c} = T_{a}$，$\\Delta U_{ac} = 0$。\n\n根据热力学第一定律可知 $a \\to b \\to c$ 过程，气体从外界吸收的热量全部用于对外做功，C 正确；\n\nD．根据热力学第一定律结合上述解析可知：$a \\to b \\to c \\to a$ 一整个热力学循环过程 $\\Delta U = 0$，整个过程气体对外做功，因此热力学第一定律可得\n\n$\\Delta U = Q_{ab} - Q_{ca} - W = 0$\n\n故 $a \\to b$ 过程气体从外界吸收的热量 $Q_{ab}$ 不等于 $c \\to a$ 过程放出的热量 $- Q_{ca}$，D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "功和能",
+        "功能原理"
+      ],
+      "stem_md": "如图所示，质量均为 $m$ 的甲、乙两同学，分别坐在水平放置的轻木板上，木板通过一根原长为 $l$ 的轻质弹性绳连接，连接点等高且间距为 $d$（$d < l$）。两木板与地面间动摩擦因数均为 $\\mu$，弹性绳劲度系数为 $k$，被拉伸时弹性势能 $E = \\frac{1}{2}kx^{2}$（$x$ 为绳的伸长量）。现用水平力 $F$ 缓慢拉动乙所坐木板，直至甲所坐木板刚要离开原位置，此过程中两人与所坐木板保持相对静止，$k$ 保持不变，最大静摩擦力等于滑动摩擦力，重力加速度大小为 $g$，则 $F$ 所做的功等于（  ）\n\n![物理配图](assets/2024/physics/山东/07.png)",
+      "figures": [
+        "assets/2024/physics/山东/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{(\\mu mg)^{2}}{2k} + \\mu mg(l - d)$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{3(\\mu mg)^{2}}{2k} + \\mu mg(l - d)$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{3(\\mu mg)^{2}}{2k} + 2\\mu mg(l - d)$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{(\\mu mg)^{2}}{2k} + 2\\mu mg(l - d)$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "当甲所坐木板刚要离开原位置时，对甲及其所坐木板整体有 $kx_{0} = \\mu mg$\n\n解得弹性绳的伸长量 $x_{0}=\\frac{\\mu mg}{k}$\n\n则此时弹性绳的弹性势能为\n\n$E_{0}=\\frac{1}{2}kx_{0}^{2}=\\frac{\\mu^{2}m^{2}g^{2}}{2k}$\n\n从开始拉动乙所坐木板到甲所坐木板刚要离开原位置的过程，乙所坐木板的位移为 $x_{1}=x_{0}+l-d$\n\n则由功能关系可知该过程 $F$ 所做的功\n\n$W = E_{0} + \\mu mgx_{1} = \\frac{3(\\mu mg)^{2}}{2k} + \\mu mg(l - d)$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "电磁感应",
+        "切割磁感线电动势"
+      ],
+      "stem_md": "如图甲所示，在 $- d \\le x \\le d$，$- d \\le y \\le d$ 的区域中存在垂直 $Oxy$ 平面向里、磁感应强度大小为 $B$ 的匀强磁场（用阴影表示磁场的区域），边长为 $2d$ 的正方形线圈与磁场边界重合。线圈以 $y$ 轴为转轴匀速转动时，线圈中产生的交变电动势如图乙所示。若仅磁场的区域发生了变化，线圈中产生的电动势变为图丙所示实线部分，则变化后磁场的区域可能为（  ）\n\n![物理配图](assets/2024/physics/山东/08a.png)",
+      "figures": [
+        "assets/2024/physics/山东/08a.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2024/physics/山东/08b1.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2024/physics/山东/08b2.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2024/physics/山东/08b3.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2024/physics/山东/08b4.png"
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意可知，磁场区域变化前线圈产生的感应电动势为 $e = E\\sin\\omega t$\n\n由题图丙可知，磁场区域变化后，当 $E\\sin\\omega t = \\frac{\\sqrt{3}}{2}E$ 时，线圈的侧边开始切割磁感线，即当线圈旋转 $\\frac{\\pi}{3}$ 时开始切割磁感线，由几何关系可知磁场区域平行于 $x$ 轴的边长变为\n\n$d' = 2d\\cos\\frac{\\pi}{3} = d$\n\nC 正确。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "机械波",
+        "波的图象"
+      ],
+      "stem_md": "甲、乙两列简谐横波在同一均匀介质中沿 $x$ 轴相向传播，波速均为 $2 \\,\\mathrm{m}/\\mathrm{s}$。$t = 0$ 时刻二者在 $x = 2 \\,\\mathrm{m}$ 处相遇，波形图如图所示。关于平衡位置在 $x = 2 \\,\\mathrm{m}$ 处的质点 P，下列说法正确的是（  ）\n\n![物理配图](assets/2024/physics/山东/09.png)",
+      "figures": [
+        "assets/2024/physics/山东/09.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$t = 0.5 \\,\\mathrm{s}$ 时，P 偏离平衡位置的位移为 0",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$t = 0.5 \\,\\mathrm{s}$ 时，P 偏离平衡位置的位移为 $- 2 \\,\\mathrm{cm}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$t = 1.0 \\,\\mathrm{s}$ 时，P 向 $y$ 轴正方向运动",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$t = 1.0 \\,\\mathrm{s}$ 时，P 向 $y$ 轴负方向运动",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．在 $0.5 \\,\\mathrm{s}$ 内，甲、乙两列波传播的距离均为\n\n$\\Delta x = v\\Delta t = 2 \\times 0.5 \\,\\mathrm{m} = 1 \\,\\mathrm{m}$\n\n根据波形平移法可知，$t = 0.5 \\,\\mathrm{s}$ 时，$x = 1 \\,\\mathrm{m}$ 处甲波的波谷刚好传到 P 处，$x = 3 \\,\\mathrm{m}$ 处乙波的平衡位置振动刚好传到 P 处，根据叠加原理可知，$t = 0.5 \\,\\mathrm{s}$ 时，P 偏离平衡位置的位移为 $- 2 \\,\\mathrm{cm}$，故 A 错误，B 正确；\n\nCD．在 $1.0 \\,\\mathrm{s}$ 内，甲、乙两列波传播的距离均为\n\n$\\Delta x' = v\\Delta t' = 2 \\times 1.0 \\,\\mathrm{m} = 2 \\,\\mathrm{m}$\n\n根据波形平移法可知，$t = 1.0 \\,\\mathrm{s}$ 时，$x = 0$ 处甲波的平衡位置振动刚好传到 P 处，$x = 4 \\,\\mathrm{m}$ 处乙波的平衡位置振动刚好传到 P 处，且此时两列波的振动都向 $y$ 轴正方向运动，根据叠加原理可知，$t = 1.0 \\,\\mathrm{s}$ 时，P 向 $y$ 轴正方向运动，故 C 正确，D 错误。\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "带电粒子的直线运动"
+      ],
+      "stem_md": "如图所示，带电量为 $+q$ 的小球被绝缘棒固定在 O 点，右侧有固定在水平面上、倾角为 $30^{\\circ}$ 的光滑绝缘斜面。质量为 $m$、带电量为 $+q$ 的小滑块从斜面上 A 点由静止释放，滑到与小球等高的 B 点时加速度为零，滑到 C 点时速度为零。已知 AC 间的距离为 $s$，重力加速度大小为 $g$，静电力常量为 $k$，下列说法正确的是（  ）\n\n![物理配图](assets/2024/physics/山东/10.png)",
+      "figures": [
+        "assets/2024/physics/山东/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "OB 的距离 $l = \\sqrt{\\frac{\\sqrt{3}kq^{2}}{mg}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "OB 的距离 $l = \\sqrt{\\frac{\\sqrt{3}kq^{2}}{3mg}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "从 A 到 C，静电力对小滑块做功 $W = - mgs$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "AC 之间的电势差 $U_{AC} = - \\frac{mgs}{2q}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．由题意知小滑块在 B 点处的加速度为零，则根据受力分析有沿斜面方向\n\n$mg\\sin30^{\\circ} = \\frac{kq^{2}}{l^{2}}\\cos30^{\\circ}$\n\n解得 $l = \\sqrt{\\frac{\\sqrt{3}kq^{2}}{mg}}$\n\nA 正确，B 错误；\n\nC．因为滑到 C 点时速度为零，小滑块从 A 到 C 的过程，静电力对小滑块做的功为 $W$，根据动能定理有\n\n$W + mgs\\sin30^{\\circ} = 0$\n\n解得 $W = - \\frac{mgs}{2}$\n\n故 C 错误；\n\nD．根据电势差与电场强度的关系可知 AC 之间的电势差\n\n$U_{AC} = \\frac{W}{q} = - \\frac{mgs}{2q}$\n\n故 D 正确。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q11",
+      "number": 11,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电磁感应",
+        "电磁感应能量分析"
+      ],
+      "stem_md": "如图所示，两条相同的半圆弧形光滑金属导轨固定在水平桌面上，其所在平面竖直且平行，导轨最高点到水平桌面的距离等于半径，最低点的连线 $OO'$ 与导轨所在竖直面垂直。空间充满竖直向下的匀强磁场（图中未画出），导轨左端由导线连接。现将具有一定质量和电阻的金属棒 MN 平行 $OO'$ 放置在导轨图示位置，由静止释放。MN 运动过程中始终平行于 $OO'$ 且与两导轨接触良好，不考虑自感影响，下列说法正确的是（  ）\n\n![物理配图](assets/2024/physics/山东/11.png)",
+      "figures": [
+        "assets/2024/physics/山东/11.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "MN 最终一定静止于 $OO'$ 位置",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "MN 运动过程中安培力始终做负功",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "从释放到第一次到达 $OO'$ 位置过程中，MN 的速率一直在增大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "从释放到第一次到达 $OO'$ 位置过程中，MN 中电流方向由 M 到 N",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "ABD",
+        "choices": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由于金属棒 MN 运动过程切割磁感线产生感应电动势，回路有感应电流，产生焦耳热，金属棒 MN 的机械能不断减小，由于金属导轨光滑，所以经过多次往返运动，MN 最终一定静止于 $OO'$ 位置，故 A 正确；\n\nB．当金属棒 MN 向右运动，根据右手定则可知，MN 中电流方向由 M 到 N，根据左手定则，可知金属棒 MN 受到的安培力水平向左，则安培力做负功；当金属棒 MN 向左运动，根据右手定则可知，MN 中电流方向由 N 到 M，根据左手定则，可知金属棒 MN 受到的安培力水平向右，则安培力做负功；可知 MN 运动过程中安培力始终做负功，故 B 正确；\n\nC．金属棒 MN 从释放到第一次到达 $OO'$ 位置过程中，由于在 $OO'$ 位置重力沿切线方向的分力为 0，可知在到达 $OO'$ 位置之前的位置，重力沿切线方向的分力已经小于安培力沿切线方向的分力，金属棒 MN 已经做减速运动，故 C 错误；\n\nD．从释放到第一次到达 $OO'$ 位置过程中，根据右手定则可知，MN 中电流方向由 M 到 N，故 D 正确。\n\n故选 ABD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q12",
+      "number": 12,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 350,
+      "topics": [
+        "曲线运动",
+        "斜抛运动"
+      ],
+      "stem_md": "如图所示，工程队向峡谷对岸平台抛射重物，初速度 $v_{0}$ 大小为 $20 \\,\\mathrm{m}/\\mathrm{s}$，与水平方向的夹角为 $30^{\\circ}$，抛出点 P 和落点 Q 的连线与水平方向夹角为 $30^{\\circ}$，重力加速度大小取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$，忽略空气阻力。重物在此运动过程中，下列说法正确的是（  ）\n\n![物理配图](assets/2024/physics/山东/12.png)",
+      "figures": [
+        "assets/2024/physics/山东/12.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "运动时间为 $2\\sqrt{3} \\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "落地速度与水平方向夹角为 $60^{\\circ}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "重物离 PQ 连线的最远距离为 $10 \\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "轨迹最高点与落点的高度差为 $45 \\,\\mathrm{m}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AC．将初速度分解为沿 PQ 方向分速度 $v_{1}$ 和垂直 PQ 分速度 $v_{2}$，则有 $v_{1}=v_{0}\\cos60^{\\circ}=10 \\,\\mathrm{m}/\\mathrm{s}$，$v_{2}=v_{0}\\sin60^{\\circ}=10\\sqrt{3} \\,\\mathrm{m}/\\mathrm{s}$\n\n将重力加速度分解为沿 PQ 方向分速度 $a_{1}$ 和垂直 PQ 分速度 $a_{2}$，则有\n\n$a_{1}=g\\sin30^{\\circ}=5 \\,\\mathrm{m}/\\mathrm{s}^2$，$a_{2}=g\\cos30^{\\circ}=5\\sqrt{3} \\,\\mathrm{m}/\\mathrm{s}^2$\n\n垂直 PQ 方向根据对称性可得重物运动时间为\n\n$t=2\\frac{v_{2}}{a_{2}}=4 \\,\\mathrm{s}$\n\n重物离 PQ 连线的最远距离为\n\n$d_{\\max}=\\frac{v_{2}^{2}}{2a_{2}}=10\\sqrt{3} \\,\\mathrm{m}$\n\n故 AC 错误；\n\nB．重物落地时竖直分速度大小为\n\n$v_{y}=-v_{0}\\sin30^{\\circ}+gt=30 \\,\\mathrm{m}/\\mathrm{s}$\n\n则落地速度与水平方向夹角正切值为\n\n$\\tan\\theta=\\frac{v_{y}}{v_{x}}=\\frac{v_{y}}{v_{0}\\cos30^{\\circ}}=\\sqrt{3}$\n\n可得 $\\theta=60^{\\circ}$\n\n故 B 正确；\n\nD．从抛出到最高点所用时间为\n\n$t_{1}=\\frac{v_{0}\\sin30^{\\circ}}{g}=1 \\,\\mathrm{s}$\n\n则从最高点到落地所用时间为\n\n$t_{2}=t-t_{1}=3 \\,\\mathrm{s}$\n\n轨迹最高点与落点的高度差为\n\n$h=\\frac{1}{2}gt_{2}^{2}=45 \\,\\mathrm{m}$\n\n故 D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q13",
+      "number": 13,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 650,
+      "topics": [
+        "运动和力",
+        "验证动量守恒实验"
+      ],
+      "stem_md": "在第四次“天宫课堂”中，航天员演示了动量守恒实验。受此启发，某同学使用如图甲所示的装置进行了碰撞实验，气垫导轨两端分别安装 a、b 两个位移传感器，a 测量滑块 A 与它的距离 $x_{A}$，b 测量滑块 B 与它的距离 $x_{B}$。部分实验步骤如下：\n\n①测量两个滑块的质量，分别为 $200.0 \\,\\mathrm{g}$ 和 $400.0 \\,\\mathrm{g}$；\n\n②接通气源，调整气垫导轨水平；\n\n③拨动两滑块，使 A、B 均向右运动；\n\n④导出传感器记录的数据，绘制 $x_{A}$、$x_{B}$ 随时间变化的图像，分别如图乙、图丙所示。\n\n回答以下问题：\n\n（1）从图像可知两滑块在 $t = $ ______ $\\,\\mathrm{s}$ 时发生碰撞；\n（2）滑块 B 碰撞前的速度大小 $v = $ ______ $\\,\\mathrm{m}/\\mathrm{s}$（保留 2 位有效数字）；\n（3）通过分析，得出质量为 $200.0 \\,\\mathrm{g}$ 的滑块是 ______ （填“A”或“B”）。\n\n![物理配图](assets/2024/physics/山东/13.png)",
+      "figures": [
+        "assets/2024/physics/山东/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$1.0$\n（2）$0.20$\n（3）B",
+        "sub_answers": [
+          "1.0",
+          "0.20",
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由 $x-t$ 图像的斜率表示速度可知两滑块的速度在 $t = 1.0 \\,\\mathrm{s}$ 时发生突变，即这个时候发生了碰撞；\n\n（2）根据 $x-t$ 图像斜率的绝对值表示速度大小可知碰撞前瞬间 B 的速度大小为\n\n$v=\\left|\\frac{90-110}{1.0}\\right|\\,\\mathrm{cm}/\\mathrm{s}=0.20 \\,\\mathrm{m}/\\mathrm{s}$\n\n（3）由题图乙知，碰撞前 A 的速度大小 $v_{A}=0.50 \\,\\mathrm{m}/\\mathrm{s}$，碰撞后 A 的速度大小约为 $v_{A}'=0.36 \\,\\mathrm{m}/\\mathrm{s}$，由题图丙可知，碰撞后 B 的速度大小为 $v_{B}'=0.5 \\,\\mathrm{m}/\\mathrm{s}$，A 和 B 碰撞过程动量守恒，则有\n\n$m_{A}v_{A}+m_{B}v=m_{A}v_{A}'+m_{B}v_{B}'$\n\n代入数据解得 $\\frac{m_{A}}{m_{B}} \\approx 2$\n\n所以质量为 $200.0 \\,\\mathrm{g}$ 的滑块是 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q14",
+      "number": 14,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "电路",
+        "测量电阻率"
+      ],
+      "stem_md": "某学习小组对两种型号铅笔芯的电阻率进行测量。实验器材如下：\n\n学生电源（输出电压 $0 \\sim 16 \\,\\mathrm{V}$）；\n\n滑动变阻器（最大阻值 $10 \\,\\Omega$，额定电流 $2 \\,\\mathrm{A}$）；\n\n电压表 V（量程 $3 \\,\\mathrm{V}$，内阻未知）；\n\n电流表 A（量程 $3 \\,\\mathrm{A}$，内阻未知）；\n\n待测铅笔芯 $R$（X 型号、Y 型号）；\n\n游标卡尺，螺旋测微器，开关 S，单刀双掷开关 K，导线若干。\n\n回答以下问题：\n\n（1）使用螺旋测微器测量铅笔芯直径，某次测量结果如图甲所示，该读数为 ______ $\\,\\mathrm{mm}$；\n（2）把待测铅笔芯接入图乙所示电路，闭合开关 S 后，将滑动变阻器滑片由最右端向左调节到合适位置，将单刀双掷开关 K 分别掷到 1、2 端，观察到电压表示数变化比电流表示数变化更明显，则测量铅笔芯电阻时应将 K 掷到 ______ （填“1”或“2”）端；\n（3）正确连接电路，得到 Y 型号铅笔芯 $I - U$ 图像如图丙所示，求得电阻 $R_{Y} = $ ______ $\\,\\Omega$（保留 3 位有效数字）；采用同样方法得到 X 型号铅笔芯的电阻为 $1.70 \\,\\Omega$；\n（4）使用游标卡尺测得 X、Y 型号铅笔芯的长度分别为 $40.68 \\,\\mathrm{mm}$、$60.78 \\,\\mathrm{mm}$，使用螺旋测微器测得 X、Y 型号铅笔芯直径近似相等，则 X 型号铅笔芯的电阻率 ______ （填“大于”或“小于”）Y 型号铅笔芯的电阻率。\n\n![物理配图](assets/2024/physics/山东/14a.png)\n\n![物理配图](assets/2024/physics/山东/14b.png)",
+      "figures": [
+        "assets/2024/physics/山东/14a.png",
+        "assets/2024/physics/山东/14b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$2.450$\n（2）$1$\n（3）$1.91$\n（4）大于",
+        "sub_answers": [
+          "2.450",
+          "1",
+          "1.91",
+          "大于"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据螺旋测微器的读数规则可知，其读数为\n\n$d = 2 \\,\\mathrm{mm} + 0.01 \\times 45.0 \\,\\mathrm{mm} = 2.450 \\,\\mathrm{mm}$\n\n（2）由于电压表示数变化更明显，说明电流表分压较多，因此电流表应采用外接法，即测量铅笔芯电阻时应将 K 掷到 1 端；\n\n（3）根据图丙的 $I - U$ 图像，结合欧姆定律有\n\n$R_{Y}=\\frac{2.50 \\,\\mathrm{V}}{1.31 \\,\\mathrm{A}}=1.91 \\,\\Omega$\n\n（4）根据电阻定律 $R = \\rho \\frac{l}{S}$\n\n可得 $\\rho=\\frac{RS}{l}$\n\n两种材料的横截面积近似相等，分别代入数据可知 $\\rho_{X} > \\rho_{Y}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "某光学组件横截面如图所示，半圆形玻璃砖圆心为 O 点，半径为 $R$；直角三棱镜 FG 边的延长线过 O 点，EG 边平行于 AB 边且长度等于 $R$，$\\angle FEG = 30^{\\circ}$。横截面所在平面内，单色光线以 $\\theta$ 角入射到 EF 边发生折射，折射光线垂直 EG 边射出。已知玻璃砖和三棱镜对该单色光的折射率均为 1.5。\n\n（1）求 $\\sin\\theta$；\n（2）以 $\\theta$ 角入射的单色光线，若第一次到达半圆弧 AMB 可以发生全反射，求光线在 EF 上入射点 D（图中未标出）到 E 点距离的范围。\n\n![物理配图](assets/2024/physics/山东/15.png)",
+      "figures": [
+        "assets/2024/physics/山东/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\sin\\theta = 0.75$\n（2）$0 < x \\le \\frac{2\\sqrt{3}}{9}R$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题意设光在三棱镜中的折射角为 $\\alpha$，则根据折射定律有\n\n$n=\\frac{\\sin\\theta}{\\sin\\alpha}$\n\n由于折射光线垂直 EG 边射出，根据几何关系可知\n\n$\\alpha = \\angle FEG = 30^{\\circ}$\n\n代入数据解得 $\\sin\\theta = 0.75$\n\n（2）根据题意作出单色光第一次到达半圆弧 AMB 恰好发生全反射的光路图如图。\n\n![物理配图](assets/2024/physics/山东/15_an.jpg)\n\n则根据几何关系可知 FE 上从 P 点到 E 点以 $\\theta$ 角入射的单色光线第一次到达半圆弧 AMB 都可以发生全反射，根据全反射临界角公式有\n\n$\\sin C = \\frac{1}{n}$\n\n设 P 点到 FG 的距离为 $l$，则根据几何关系有 $l = R \\sin C$\n\n又因为 $x_{PE} = \\frac{R - l}{\\cos30^{\\circ}}$\n\n联立解得 $x_{PE} = \\frac{2\\sqrt{3}}{9}R$\n\n所以光线在 EF 上的入射点 D 到 E 点的距离范围为 $0 < x \\le \\frac{2\\sqrt{3}}{9}R$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2024/physics/山东/15_an.jpg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q16",
+      "number": 16,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "图甲为战国时期青铜汲酒器，根据其原理制作了由中空圆柱形长柄和储液罐组成的汲液器，如图乙所示。长柄顶部封闭，横截面积 $S_{1} = 1.0 \\,\\mathrm{cm}^2$，长度 $H = 100.0 \\,\\mathrm{cm}$，侧壁有一小孔 A。储液罐的横截面积 $S_{2} = 90.0 \\,\\mathrm{cm}^2$，高度 $h = 20.0 \\,\\mathrm{cm}$，罐底有一小孔 B。汲液时，将汲液器竖直浸入液体，液体从孔 B 进入，空气由孔 A 排出；当内外液面相平时，长柄浸入液面部分的长度为 $x$；堵住孔 A，缓慢地将汲液器竖直提出液面，储液罐内刚好储满液体。已知液体密度 $\\rho = 1.0 \\times 10^{3} \\,\\mathrm{kg}/\\mathrm{m}^3$，重力加速度大小 $g = 10 \\,\\mathrm{m}/\\mathrm{s}^2$，大气压 $p_{0} = 1.0 \\times 10^{5} \\,\\mathrm{Pa}$。整个过程温度保持不变，空气可视为理想气体，忽略器壁厚度。\n\n（1）求 $x$；\n（2）松开孔 A，从外界进入压强为 $p_{0}$、体积为 $V$ 的空气，使满储液罐中液体缓缓流出，堵住孔 A，稳定后罐中恰好剩余一半的液体，求 $V$。\n\n![物理配图](assets/2024/physics/山东/16.png)",
+      "figures": [
+        "assets/2024/physics/山东/16.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$x = 2 \\,\\mathrm{cm}$\n（2）$V = 8.92 \\times 10^{-4} \\,\\mathrm{m}^3$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题意可知缓慢地将汲液器竖直提出液面过程，气体发生等温变化，所以有\n\n$p_{1}(H-x)S_{1}=p_{2}HS_{1}$\n\n又因为 $p_{1}=p_{0}$，$p_{2}+\\rho gh=p_{0}$\n\n代入数据联立解得 $x = 2 \\,\\mathrm{cm}$\n\n（2）当外界气体进入后，以所有气体为研究对象有\n\n$p_{0}V+p_{2}HS_{1}=p_{3}\\left(HS_{1}+\\frac{h}{2}S_{2}\\right)$\n\n又因为 $p_{3} + \\rho g \\cdot \\frac{h}{2} = p_{0}$\n\n代入数据联立解得 $V = 8.92 \\times 10^{-4} \\,\\mathrm{m}^3$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q17",
+      "number": 17,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 14,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图甲所示，质量为 $M$ 的轨道静止在光滑水平面上，轨道水平部分的上表面粗糙，竖直半圆形部分的表面光滑，两部分在 P 点平滑连接，Q 为轨道的最高点。质量为 $m$ 的小物块静置在轨道水平部分上，与水平轨道间的动摩擦因数为 $\\mu$，最大静摩擦力等于滑动摩擦力。已知轨道半圆形部分的半径 $R = 0.4 \\,\\mathrm{m}$，重力加速度大小 $g = 10 \\,\\mathrm{m}/\\mathrm{s}^2$。\n\n（1）若轨道固定，小物块以一定的初速度沿轨道运动到 Q 点时，受到轨道的弹力大小等于 $3mg$，求小物块在 Q 点的速度大小 $v$；\n（2）若轨道不固定，给轨道施加水平向左的推力 $F$，小物块处在轨道水平部分时，轨道加速度 $a$ 与 $F$ 对应关系如图乙所示。（i）求 $\\mu$ 和 $m$；（ii）初始时，小物块静置在轨道最左端，给轨道施加水平向左的推力 $F = 8 \\,\\mathrm{N}$，当小物块到 P 点时撤去 $F$，小物块从 Q 点离开轨道时相对地的速度大小为 $7 \\,\\mathrm{m}/\\mathrm{s}$。求轨道水平部分的长度 $L$。\n\n![物理配图](assets/2024/physics/山东/17.png)",
+      "figures": [
+        "assets/2024/physics/山东/17.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$v = 4 \\,\\mathrm{m}/\\mathrm{s}$\n（2）（i）$m = 1 \\,\\mathrm{kg}$，$\\mu = 0.2$；（ii）$L = 4.5 \\,\\mathrm{m}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意可知小物块在 Q 点由合力提供向心力有\n\n$mg+3mg=m\\frac{v^{2}}{R}$\n\n代入数据解得 $v = 4 \\,\\mathrm{m}/\\mathrm{s}$\n\n（2）（i）根据题意可知当 $F \\le 4 \\,\\mathrm{N}$ 时，小物块与轨道是一起向左加速，根据牛顿第二定律可知 $F = (M + m)a$\n\n根据图乙有 $k=\\frac{1}{M+m}=0.5\\,\\mathrm{kg}^{-1}$\n\n当外力 $F > 4 \\,\\mathrm{N}$ 时，轨道与小物块有相对滑动，则对轨道有 $F - \\mu mg = Ma$\n\n结合题图乙有 $a=\\frac{1}{M}F-\\frac{\\mu mg}{M}$\n\n可知 $k=\\frac{1}{M}=1\\,\\mathrm{kg}^{-1}$\n\n截距 $b = -\\frac{\\mu mg}{M} = -2 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n联立以上各式可得 $M = 1 \\,\\mathrm{kg}$，$m = 1 \\,\\mathrm{kg}$，$\\mu = 0.2$\n\n（ii）由图乙可知，当 $F = 8 \\,\\mathrm{N}$ 时，轨道的加速度为 $6 \\,\\mathrm{m}/\\mathrm{s}^2$，小物块的加速度为 $a_{2} = \\mu g = 2 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n当小物块运动到 P 点时，经过 $t_{0}$ 时间，则轨道有 $v_{1} = a_{1}t_{0}$\n\n小物块有 $v_{2} = a_{2}t_{0}$\n\n在这个过程中系统机械能守恒有\n\n$\\frac{1}{2}Mv_{1}^{2} + \\frac{1}{2}mv_{2}^{2} = \\frac{1}{2}Mv_{3}^{2} + \\frac{1}{2}mv_{4}^{2} + 2mgR$\n\n水平方向动量守恒，以水平向左为正方向，则有\n\n$Mv_{1} + mv_{2} = Mv_{3} + mv_{4}$\n\n联立解得 $t_{0} = 1.5 \\,\\mathrm{s}$\n\n根据运动学公式有 $L = \\frac{1}{2}a_{1}t_{0}^{2} - \\frac{1}{2}a_{2}t_{0}^{2}$\n\n代入数据解得 $L = 4.5 \\,\\mathrm{m}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-山东-q18",
+      "number": 18,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 250,
+      "topics": [
+        "磁场",
+        "带电粒子在组合场中的运动"
+      ],
+      "stem_md": "如图所示，在 $Oxy$ 坐标系 $x > 0$，$y > 0$ 区域内充满垂直纸面向里，磁感应强度大小为 $B$ 的匀强磁场。磁场中放置一长度为 $L$ 的挡板，其两端分别位于 $x$、$y$ 轴上 M、N 两点，$\\angle OMN = 60^{\\circ}$，挡板上有一小孔 K 位于 MN 中点。$\\triangle OMN$ 之外的第一象限区域存在恒定匀强电场。位于 $y$ 轴左侧的粒子发生器在 $0 < y < \\frac{\\sqrt{3}}{2}L$ 的范围内可以产生质量为 $m$，电荷量为 $+q$ 的无初速度的粒子。粒子发生器与 $y$ 轴之间存在水平向右的匀强加速电场，加速电压大小可调，粒子经此电场加速后进入磁场，挡板厚度不计，粒子可沿任意角度穿过小孔，碰撞挡板的粒子不予考虑，不计粒子重力及粒子间相互作用力。\n\n（1）求使粒子垂直挡板射入小孔 K 的加速电压 $U_{0}$；\n（2）调整加速电压，当粒子以最小的速度从小孔 K 射出后恰好做匀速直线运动，求第一象限中电场强度的大小和方向；\n（3）当加速电压为 $\\frac{qB^{2}L^{2}}{24m}$ 时，求粒子从小孔 K 射出后，运动过程中距离 $y$ 轴最近位置的坐标。\n\n![物理配图](assets/2024/physics/山东/18.png)",
+      "figures": [
+        "assets/2024/physics/山东/18.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$U_{0} = \\frac{qB^{2}L^{2}}{8m}$\n（2）$E = \\frac{qB^{2}L}{4m}$，方向沿 $x$ 轴正方向\n（3）$d_{m} = \\frac{(3 - \\sqrt{3})L}{12}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意，作出粒子垂直挡板射入小孔 K 的运动轨迹如图所示。\n\n![物理配图](assets/2024/physics/山东/18_an1.jpg)\n\n根据几何关系可知粒子在磁场中做圆周运动的轨迹半径为\n\n$r = x_{SK} = \\frac{L}{2}$\n\n在 $\\triangle OMN$ 区域根据洛伦兹力提供向心力有\n\n$qvB = m\\frac{v^{2}}{r}$\n\n在匀强加速电场中由动能定理有\n\n$U_{0}q = \\frac{1}{2}mv^{2}$\n\n联立解得 $U_{0} = \\frac{qB^{2}L^{2}}{8m}$\n\n（2）根据题意，当轨迹半径最小时，粒子速度最小，则作出粒子以最小的速度从小孔 K 射出的运动轨迹如图所示。\n\n![物理配图](assets/2024/physics/山东/18_an2.jpg)\n\n根据几何关系可知粒子在磁场中做圆周运动的轨迹半径为\n\n$r' = x_{NK}\\cos60^{\\circ} = \\frac{L}{4}$\n\n在 $\\triangle OMN$ 区域根据洛伦兹力提供向心力有\n\n$qv'B = m\\frac{v'^{2}}{r'}$\n\n粒子从小孔 K 射出后恰好做匀速直线运动，由左手定则可知粒子经过小孔 K 后受到的洛伦兹力沿 $x$ 轴负方向，则粒子经过小孔 K 后受到的电场力沿 $x$ 轴正方向，又粒子带正电，则 $\\triangle OMN$ 之外第一象限区域电场强度的方向沿 $x$ 轴正方向，大小满足\n\n$qv'B = Eq$\n\n联立可得 $E = \\frac{qB^{2}L}{4m}$\n\n（3）在匀强加速电场中由动能定理有\n\n$Uq = \\frac{1}{2}mv''^{2}$\n\n可得 $v'' = \\frac{\\sqrt{3}qBL}{6m}$\n\n在 $\\triangle OMN$ 区域根据洛伦兹力提供向心力有\n\n$qv''B = m\\frac{v''^{2}}{r''}$\n\n可得粒子在 $\\triangle OMN$ 区域运动的轨迹半径\n\n$r'' = \\frac{\\sqrt{3}}{6}L$\n\n作出从小孔 K 射出的粒子的运动轨迹如图所示。\n\n![物理配图](assets/2024/physics/山东/18_an3.jpg)\n\n粒子从 K 射出时，$v''$ 越偏向 $y$ 轴，离 $y$ 轴越近，由几何关系有\n\n$\\sin\\theta = \\frac{\\frac{L}{4}}{r''} = \\frac{\\sqrt{3}}{2}$\n\n则有 $\\theta = 60^{\\circ}$\n\n由配速法将运动分解为 $y$ 轴方向的匀速直线运动和沿 $x$ 方向的匀速圆周运动，其中\n\n$v''_{y} = v''\\sin\\theta = \\frac{qBL}{4m}$\n\n$v''_{x} = v''\\cos\\theta = \\frac{qBL}{4\\sqrt{3}m}$\n\n匀速圆周运动的半径为\n\n$r_{y} = \\frac{mv''_{x}}{qB} = \\frac{\\sqrt{3}}{12}L$\n\n故最小距离为\n\n$d_{m} = \\frac{L}{4} - r_{y} = \\frac{(3 - \\sqrt{3})L}{12}$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2024/physics/山东/18_an1.jpg",
+        "assets/2024/physics/山东/18_an2.jpg",
+        "assets/2024/physics/山东/18_an3.jpg"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

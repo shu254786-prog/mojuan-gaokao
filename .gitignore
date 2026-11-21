@@ -1,0 +1,35 @@
+# Unrelated root experiments/media outside gaokao project
+/*.mp4
+/*.wav
+/*.html
+/*.py
+/*.jpg
+/新建文件夹/
+
+# Dependencies & build outputs
+node_modules/
+gaokao-app/node_modules/
+gaokao-app/dist/
+.vite/
+
+# Oversized raw media, crawled web packs, PDFs & upstream clones (see README.md)
+gaokao-papers/collected/
+gaokao-papers/_stubs_filtered/
+gaokao-papers/sources/
+*.pdf
+
+# Python caches & logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/

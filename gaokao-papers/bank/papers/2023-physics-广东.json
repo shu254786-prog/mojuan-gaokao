@@ -1,0 +1,719 @@
+{
+  "id": "2023-physics-广东",
+  "year": 2023,
+  "subject": "物理",
+  "region": "广东卷",
+  "region_key": "广东",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2023-physics-广东-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 950,
+      "topics": [
+        "原子和原子核",
+        "人工核反应"
+      ],
+      "stem_md": "理论认为，大质量恒星塌缩成黑洞的过程，受核反应 $\\ce{^{12}_{6}C + Y -> ^{16}_{8}O}$ 的影响。下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "Y 是 $\\alpha$ 粒子，$\\beta$ 射线穿透能力比 $\\gamma$ 射线强",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "Y 是 $\\beta$ 粒子，$\\beta$ 射线电离能力比 $\\gamma$ 射线强",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "Y 是 $\\alpha$ 粒子，$\\alpha$ 射线穿透能力比 $\\gamma$ 射线强",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "Y 是 $\\alpha$ 粒子，$\\alpha$ 射线电离能力比 $\\gamma$ 射线强",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据受核反应满足质量数和电荷数守恒可知，Y 是 $\\alpha$ 粒子（$\\ce{^{4}_{2}He}$），三种射线的穿透能力，$\\gamma$ 射线最强，$\\alpha$ 射线最弱；三种射线的电离能力，$\\alpha$ 射线最强，$\\gamma$ 射线最弱。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "力物体的平衡",
+        "多力平衡"
+      ],
+      "stem_md": "如图所示，可视为质点的机器人通过磁铁吸附在船舷外壁面检测船体。壁面可视为斜面，与竖直方向夹角为 $\\theta$。船和机器人保持静止时，机器人仅受重力 $G$、支持力 $F_{N}$、摩擦力 $F_{f}$ 和磁力 $F$ 的作用，磁力垂直壁面。下列关系式正确的是（  ）\n\n![物理配图](assets/2023/physics/广东/02.png)",
+      "figures": [
+        "assets/2023/physics/广东/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$F_{f} = G$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$F = F_{N}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$F_{f} = G\\cos\\theta$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$F = G\\sin\\theta$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "如图所示，将重力垂直于斜面方向和沿斜面方向分解。\n\n![物理配图](assets/2023/physics/广东/02_an.png)\n\nAC．沿斜面方向，由平衡条件得 $F_{f} = G\\cos\\theta$\n\n故 A 错误，C 正确；\n\nBD．垂直斜面方向，由平衡条件得\n\n$F = G\\sin\\theta + F_{N}$\n\n故 BD 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/广东/02_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "直线运动",
+        "竖直上下抛运动"
+      ],
+      "stem_md": "铯原子喷泉钟是定标“秒”的装置。在喷泉钟的真空系统中，可视为质点的铯原子团在激光的推动下，获得一定的初速度。随后激光关闭，铯原子团仅在重力的作用下做竖直上抛运动，到达最高点后再做一段自由落体运动。取竖直向上为正方向。下列可能表示激光关闭后铯原子团速度 $v$ 或加速度 $a$ 随时间 $t$ 变化的图像是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2023/physics/广东/03a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2023/physics/广东/03b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2023/physics/广东/03c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2023/physics/广东/03d.png"
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．铯原子团仅在重力的作用，加速度 $g$ 竖直向下，大小恒定，在 $v - t$ 图像中，斜率为加速度，故斜率不变，所以图像应该是一条倾斜的直线，故选项 AB 错误；\n\nCD．因为加速度恒定，且方向竖直向下，故为负值，故选项 C 错误，选项 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "机械波",
+        "波长频率波速"
+      ],
+      "stem_md": "渔船常用回声探测器发射的声波探测水下鱼群与障碍物，声波在水中传播速度为 $1500 \\,\\mathrm{m}/\\mathrm{s}$，若探测器发出频率为 $1.5\\times10^{6} \\,\\mathrm{Hz}$ 的声波，下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "两列声波相遇时一定会发生干涉",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "声波由水中传播到空气中，波长会改变",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "该声波遇到尺寸约为 $1 \\,\\mathrm{m}$ 的被探测物时会发生明显衍射",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "探测器接收到的回声频率与被探测物相对探测器运动的速度无关",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AD．根据多普勒效应可知，探测器接收到的回声频率与被探测物相对探测器运动的速度有关，而两列声波发生干涉的条件是频率相等，所以两列声波相遇时不一定发生干涉，故 AD 错误；\n\nB．声波由水中传播到空气中时，声波的波速发生变化，所以波长会发生改变，故 B 正确；\n\nC．根据波长的计算公式可得\n\n$\\lambda = \\frac{v}{f} = \\frac{1500}{1.5\\times10^{6}} \\,\\mathrm{m} = 1\\times10^{-3} \\,\\mathrm{m}$\n\n当遇到尺寸约 $1 \\,\\mathrm{m}$ 的被探测物时不会发生明显衍射，故 C 错误；\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "磁场",
+        "质谱仪回旋加速器"
+      ],
+      "stem_md": "某小型医用回旋加速器，最大回旋半径为 $0.5 \\,\\mathrm{m}$，磁感应强度大小为 $1.12 \\,\\mathrm{T}$，质子加速后获得的最大动能为 $1.5\\times10^{7} \\,\\mathrm{eV}$。根据给出的数据，可计算质子经该回旋加速器加速后的最大速率约为（忽略相对论效应，$1 \\,\\mathrm{eV} = 1.6\\times10^{-19} \\,\\mathrm{J}$）（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$3.6\\times10^{6} \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$1.2\\times10^{7} \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$5.4\\times10^{7} \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$2.4\\times10^{8} \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "洛伦兹力提供向心力有 $qvB = m\\frac{v^{2}}{R}$\n\n质子加速后获得的最大动能为 $E_{k} = \\frac{1}{2}mv^{2}$\n\n解得最大速率约为 $v = 5.4\\times10^{7} \\,\\mathrm{m}/\\mathrm{s}$\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "用一台理想变压器对电动汽车充电，该变压器原、副线圈的匝数比为 $1:2$，输出功率为 $8.8 \\,\\mathrm{kW}$，原线圈的输入电压 $u = 220\\sqrt{2}\\sin 100\\pi t \\,\\mathrm{V}$。关于副线圈输出电流的有效值和频率正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$20 \\,\\mathrm{A}$，$50 \\,\\mathrm{Hz}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$20\\sqrt{2} \\,\\mathrm{A}$，$50 \\,\\mathrm{Hz}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$20 \\,\\mathrm{A}$，$100 \\,\\mathrm{Hz}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$20\\sqrt{2} \\,\\mathrm{A}$，$100 \\,\\mathrm{Hz}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题可知原线圈输入电压的有效值为\n\n$U_{1} = \\frac{220\\sqrt{2}}{\\sqrt{2}} \\,\\mathrm{V} = 220 \\,\\mathrm{V}$\n\n原线圈电流为\n\n$I_{1} = \\frac{P}{U_{1}} = \\frac{8.8\\times10^{3}}{220} \\,\\mathrm{A} = 40 \\,\\mathrm{A}$\n\n副线圈输出电流的有效值为\n\n$I_{2} = \\frac{n_{1}}{n_{2}}I_{1} = 20 \\,\\mathrm{A}$\n\n变压器无法改变电流的频率，故\n\n$f = \\frac{\\omega}{2\\pi} = \\frac{100\\pi}{2\\pi} \\,\\mathrm{Hz} = 50 \\,\\mathrm{Hz}$\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "曲线运动",
+        "天体运动"
+      ],
+      "stem_md": "如图 [2023广东07a] 所示，太阳系外的一颗行星 P 绕恒星 Q 做匀速圆周运动。由于 P 的遮挡，探测器探测到 Q 的亮度随时间做如图 [2023广东07b] 所示的周期性变化，该周期与 P 的公转周期相同。已知 Q 的质量为 $M$，引力常量为 $G$。关于 P 的公转，下列说法正确的是（  ）\n\n![物理配图](assets/2023/physics/广东/07a.png) ![物理配图](assets/2023/physics/广东/07b.png)",
+      "figures": [
+        "assets/2023/physics/广东/07a.png",
+        "assets/2023/physics/广东/07b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "周期为 $2t_{1} - t_{0}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "半径为 $\\sqrt[3]{\\frac{GM(t_{1} - t_{0})^{2}}{4\\pi^{2}}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "角速度的大小为 $\\frac{\\pi}{t_{1} - t_{0}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "加速度的大小为 $\\sqrt[3]{\\frac{2\\pi GM}{t_{1} - t_{0}}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由图（b）可知探测器探测到 Q 的亮度随时间变化的周期为 $T = t_{1} - t_{0}$，则 P 的公转周期为 $t_{1} - t_{0}$，故 A 错误；\n\nB．P 绕恒星 Q 做匀速圆周运动，由万有引力提供向心力可得\n\n$\\frac{GMm}{r^{2}} = m\\frac{4\\pi^{2}}{T^{2}}r$\n\n解得半径为 $r = \\sqrt[3]{\\frac{GMT^{2}}{4\\pi^{2}}} = \\sqrt[3]{\\frac{GM(t_{1} - t_{0})^{2}}{4\\pi^{2}}}$\n\n故 B 正确；\n\nC．P 的角速度为 $\\omega = \\frac{2\\pi}{T} = \\frac{2\\pi}{t_{1} - t_{0}}$\n\n故 C 错误；\n\nD．P 的加速度大小为\n\n$a = \\omega^{2}r = \\left(\\frac{2\\pi}{t_{1} - t_{0}}\\right)^{2} \\cdot \\sqrt[3]{\\frac{GM(t_{1} - t_{0})^{2}}{4\\pi^{2}}} = \\frac{2\\pi}{t_{1} - t_{0}} \\cdot \\sqrt[3]{\\frac{2\\pi GM}{t_{1} - t_{0}}}$\n\n故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "竖直平面圆周运动"
+      ],
+      "stem_md": "人们用滑道从高处向低处运送货物。如图所示，可看作质点的货物从 $\\frac{1}{4}$ 圆弧滑道顶端 P 点静止释放，沿滑道运动到圆弧末端 Q 点时速度大小为 $6 \\,\\mathrm{m}/\\mathrm{s}$。已知货物质量为 $20 \\,\\mathrm{kg}$，滑道高度 $h$ 为 $4 \\,\\mathrm{m}$，且过 Q 点的切线水平，重力加速度取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$。关于货物从 P 点运动到 Q 点的过程，下列说法正确的有（  ）\n\n![物理配图](assets/2023/physics/广东/08.png)",
+      "figures": [
+        "assets/2023/physics/广东/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "重力做的功为 $360 \\,\\mathrm{J}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "克服阻力做的功为 $440 \\,\\mathrm{J}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "经过 Q 点时向心加速度大小为 $9 \\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "经过 Q 点时对轨道的压力大小为 $380 \\,\\mathrm{N}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BCD",
+        "choices": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．重力做的功为 $W_{G} = mgh = 800 \\,\\mathrm{J}$。A 错误；\n\nB．下滑过程据动能定理可得 $W_{G} - W_{f} = \\frac{1}{2}mv_{Q}^{2}$，代入数据解得，克服阻力做的功为 $W_{f} = 440 \\,\\mathrm{J}$。B 正确；\n\nC．经过 Q 点时向心加速度大小为 $a = \\frac{v_{Q}^{2}}{h} = 9 \\,\\mathrm{m}/\\mathrm{s}^2$。C 正确；\n\nD．经过 Q 点时，据牛顿第二定律可得 $F - mg = ma$\n\n解得货物受到的支持力大小为 $F = 380 \\,\\mathrm{N}$\n\n据牛顿第三定律可知，货物对轨道的压力大小为 $380 \\,\\mathrm{N}$，D 正确。\n\n故选 BCD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "电场",
+        "电势能电势差电场力做功"
+      ],
+      "stem_md": "电子墨水是一种无光源显示技术，它利用电场调控带电颜料微粒的分布，使之在自然光的照射下呈现出不同颜色。透明面板下有一层胶囊，其中每个胶囊都是一个像素。如图所示，胶囊中有带正电的白色微粒和带负电的黑色微粒。当胶囊下方的电极极性由负变正时，微粒在胶囊内迁移（每个微粒电量保持不变），像素由黑色变成白色。下列说法正确的有（  ）\n\n![物理配图](assets/2023/physics/广东/09a.png) ![物理配图](assets/2023/physics/广东/09b.png)",
+      "figures": [
+        "assets/2023/physics/广东/09a.png",
+        "assets/2023/physics/广东/09b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "像素呈黑色时，黑色微粒所在区域的电势高于白色微粒所在区域的电势",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "像素呈白色时，黑色微粒所在区域的电势低于白色微粒所在区域的电势",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "像素由黑变白的过程中，电场力对白色微粒做正功",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "像素由白变黑的过程中，电场力对黑色微粒做负功",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．像素呈黑色时，当胶囊下方的电极带负电，像素胶囊里电场线方向向下，所以黑色微粒所在的区域的电势高于白色微粒所在区域的电势，故 A 正确；\n\nB．像素呈白色时，当胶囊下方的电极带正电，像素胶囊里电场线方向向上，所以黑色微粒所在的区域的电势高于白色微粒所在区域的电势，故 B 错误；\n\nC．像素由黑变白的过程中，白色微粒受到的电场力向上，位移向上，电场力对白色微粒做正功，故 C 正确；\n\nD．像素由白变黑的过程中，黑色微粒受到的电场力向下，位移向下，电场力对黑色微粒做正功，故 D 错误。\n\n故选 AC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量守恒定律"
+      ],
+      "stem_md": "某同学受电动窗帘的启发，设计了如图所示的简化模型。多个质量均为 $1 \\,\\mathrm{kg}$ 的滑块可在水平滑轨上滑动，忽略阻力。开窗帘过程中，电机对滑块 1 施加一个水平向右的恒力 $F$，推动滑块 1 以 $0.40 \\,\\mathrm{m}/\\mathrm{s}$ 的速度与静止的滑块 2 碰撞，碰撞时间为 $0.04 \\,\\mathrm{s}$，碰撞结束后瞬间两滑块的共同速度为 $0.22 \\,\\mathrm{m}/\\mathrm{s}$。关于两滑块的碰撞过程，下列说法正确的有（  ）\n\n![物理配图](assets/2023/physics/广东/10.png)",
+      "figures": [
+        "assets/2023/physics/广东/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "该过程动量守恒",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "滑块 1 受到合外力的冲量大小为 $0.18 \\,\\mathrm{N}\\cdot\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "滑块 2 受到合外力的冲量大小为 $0.40\\,\\mathrm{N}\\cdot a$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "滑块 2 受到滑块 1 的平均作用力大小为 $5.5 \\,\\mathrm{N}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．取向右为正方向，滑块 1 和滑块 2 组成的系统的初动量为\n\n$p_{1} = mv_{1} = 1\\times0.40 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s} = 0.40 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$\n\n碰撞后的动量为\n\n$p_{2} = 2mv_{2} = 2\\times1\\times0.22 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s} = 0.44 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$\n\n则滑块的碰撞过程动量不守恒，故 A 错误；\n\nB．对滑块 1，取向右为正方向，则有\n\n$I_{1} = mv_{2} - mv_{1} = (1\\times0.22 - 1\\times0.40) \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s} = -0.18 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$\n\n负号表示方向水平向左，故 B 正确；\n\nC．对滑块 2，取向右为正方向，则有\n\n$I_{2} = mv_{2} = 1\\times0.22 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s} = 0.22 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$\n\n故 C 错误；\n\nD．对滑块 2 根据动量定理有 $F\\Delta t = I_{2}$\n\n解得 $F = 5.5 \\,\\mathrm{N}$\n\n则滑块 2 受到滑块 1 的平均作用力大小为 $5.5 \\,\\mathrm{N}$，故 D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 7,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "测定玻璃折射率"
+      ],
+      "stem_md": "某同学用激光笔和透明长方体玻璃砖测量玻璃的折射率，实验过程如下：\n\n（1）将玻璃砖平放在水平桌面上的白纸上，用大头针在白纸上标记玻璃砖的边界。\n（2）① 激光笔发出的激光从玻璃砖上的 M 点水平入射，到达 ef 面上的 O 点后反射到 N 点射出，用大头针在白纸上标记 O 点、M 点和激光笔出光孔 Q 的位置；\n② 移走玻璃砖，在白纸上描绘玻璃砖的边界和激光的光路，作 QM 连线的延长线与 ef 面的边界交于 P 点，如图 [2023广东11a] 所示；\n③ 用刻度尺测量 PM 和 OM 的长度 $d_{1}$ 和 $d_{2}$，PM 的示数如图 [2023广东11b] 所示，$d_{1}$ 为 ______  $\\,\\mathrm{cm}$。测得 $d_{2}$ 为 $3.40 \\,\\mathrm{cm}$。\n（3）利用所测量的物理量，写出玻璃砖折射率的表达式 $n$ =  ______ ；由测得的数据可得折射率 $n$ 为 ______ （结果保留 3 位有效数字）。\n（4）相对误差的计算式为 $\\delta = \\frac{\\text{测量值} - \\text{真实值}}{\\text{真实值}} \\times 100\\%$。为了减小 $d_{1}$、$d_{2}$ 测量的相对误差，实验中激光在 M 点入射时应尽量使入射角 ______ 。\n\n![物理配图](assets/2023/physics/广东/11a.png) ![物理配图](assets/2023/physics/广东/11b.png)",
+      "figures": [
+        "assets/2023/physics/广东/11a.png",
+        "assets/2023/physics/广东/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）—\n（2）$2.25$\n（3）$\\frac{d_{2}}{d_{1}}$，$1.51$\n（4）稍小一些",
+        "sub_answers": [
+          "2.25",
+          "$\\frac{d_{2}}{d_{1}}$",
+          "1.51",
+          "稍小一些"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（2）③刻度尺的最小分度为 $0.1 \\,\\mathrm{cm}$，由图可知，$d_{1}$ 为 $2.25 \\,\\mathrm{cm}$；\n\n（3）玻璃砖折射率的表达式\n\n$n = \\frac{\\sin i}{\\sin r} = \\frac{\\frac{fM}{MP}}{\\frac{fM}{OM}} = \\frac{OM}{PM} = \\frac{d_{2}}{d_{1}}$\n\n代入数据可知 $n = \\frac{3.40}{2.25} = 1.51$\n\n（4）为了减小 $d_{1}$、$d_{2}$ 测量的相对误差，实验中 $d_{1}$、$d_{2}$ 要尽量稍大一些，即激光在 M 点入射时应尽量使入射角稍小一些。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 10,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "测量电阻率"
+      ],
+      "stem_md": "某兴趣小组设计了测量盐水电导率的实验。所用器材有：电源 $E$（电动势恒定，内阻可忽略）；毫安表（量程 $15 \\,\\mathrm{mA}$，内阻可忽略）；电阻 $R_{1}$（阻值 $500 \\,\\Omega$）、$R_{2}$（阻值 $500 \\,\\Omega$）、$R_{3}$（阻值 $600 \\,\\Omega$）和 $R_{4}$（阻值 $200 \\,\\Omega$）；开关 $\\mathrm{S}_{1}$ 和 $\\mathrm{S}_{2}$；装有耐腐蚀电极板和温度计的有机玻璃样品池；导线若干。请完成下列实验操作和计算。\n\n（1）图 [2023广东12a] 为实验原理图。在图 [2023广东12b] 的实物图中，已正确连接了部分电路，只有 $R_{4}$ 一端的导线还末连接，该导线应接到 $R_{3}$ 的 ______ （填“左”或“右”）端接线柱。\n（2）① 测量并记录样品池内壁的长宽高。在样品池中注满待测盐水。\n② 闭合开关 $\\mathrm{S}_{1}$， ______ 开关 $\\mathrm{S}_{2}$，毫安表的示数为 $10.0 \\,\\mathrm{mA}$，记录此时毫安表的示数；计算得到流过样品池的电流 $I_{1}$ 为 ______  $\\,\\mathrm{mA}$。\n③ ______ 开关 $\\mathrm{S}_{2}$，毫安表的示数为 $15.0 \\,\\mathrm{mA}$，记录此时毫安表的示数；计算得到流过样品池的电流 $I_{2}$ 为 ______  $\\,\\mathrm{mA}$。\n④ 断开开关 $\\mathrm{S}_{1}$，测量并记录盐水的温度。\n（3）根据上述数据，计算得到样品池两电极板间待测盐水的电阻为 ______  $\\,\\Omega$，进而可求得该温度时待测盐水的电导率。\n\n![物理配图](assets/2023/physics/广东/12a.png) ![物理配图](assets/2023/physics/广东/12b.png)",
+      "figures": [
+        "assets/2023/physics/广东/12a.png",
+        "assets/2023/physics/广东/12b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）右\n（2）②断开，$40.0$；③闭合，$60.0$\n（3）$100$",
+        "sub_answers": [
+          "右",
+          "断开",
+          "40.0",
+          "闭合",
+          "60.0",
+          "100"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据图（a）为电路可知，$R_{4}$ 一端的导线应接到 $R_{3}$ 的右端接线柱；\n\n（2）②闭合开关 $\\mathrm{S}_{1}$，断开开关 $\\mathrm{S}_{2}$，毫安表的示数为 $10.0 \\,\\mathrm{mA}$，则通过电阻 $R_{4}$ 的电流为 $I_{4} = \\frac{I_{3}R_{3}}{R_{4}}$\n\n根据电路构造可知，流过样品池的电流为\n\n$I_{1} = I_{3} + I_{4} = 40.0 \\,\\mathrm{mA}$\n\n③闭合开关 $\\mathrm{S}_{2}$，毫安表的示数为 $15.0 \\,\\mathrm{mA}$，则流过 $R_{4}$ 的电流为\n\n$I_{4}' = \\frac{I_{3}'R_{3}}{R_{4}}$\n\n流过样品池的电流 $I_{2}$ 为\n\n$I_{2} = I_{3}' + I_{4}' = 60.0 \\,\\mathrm{mA}$\n\n（3）设待测盐水的电阻为 $R_{0}$，根据闭合电路欧姆定律，开关 $\\mathrm{S}_{2}$ 断开时\n\n$E = I_{1}\\left(R_{0} + R_{2} + \\frac{R_{3}R_{4}}{R_{3} + R_{4}}\\right)$\n\n开关 $\\mathrm{S}_{2}$ 闭合时\n\n$E = I_{2}\\left(R_{0} + \\frac{R_{1}R_{2}}{R_{1} + R_{2}} + \\frac{R_{3}R_{4}}{R_{3} + R_{4}}\\right)$\n\n代入数据解得 $R_{0} = 100 \\,\\Omega$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 9,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "气体多过程"
+      ],
+      "stem_md": "在驻波声场作用下，水中小气泡周围液体的压强会发生周期性变化，使小气泡周期性膨胀和收缩，气泡内气体可视为质量不变的理想气体，其膨胀和收缩过程可简化为如图所示的 $p - V$ 图像，气泡内气体先从压强为 $p_{0}$、体积为 $V_{0}$、温度为 $T_{0}$ 的状态 A 等温膨胀到体积为 $5V_{0}$、压强为 $p_{B}$ 的状态 B，然后从状态 B 绝热收缩到体积为 $V_{0}$、压强为 $1.9p_{0}$、温度为 $T_{C}$ 的状态 C，B 到 C 过程中外界对气体做功为 $W$。已知 $p_{0}$、$V_{0}$、$T_{0}$ 和 $W$。求：\n\n（1）$p_{B}$ 的表达式；\n（2）$T_{C}$ 的表达式；\n（3）B 到 C 过程，气泡内气体的内能变化了多少？\n\n![物理配图](assets/2023/physics/广东/13.png)",
+      "figures": [
+        "assets/2023/physics/广东/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$p_{B} = \\frac{1}{5}p_{0}$\n（2）$T_{C} = 1.9T_{0}$\n（3）$\\Delta U = W$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题可知，根据玻意耳定律可得 $p_{A}V_{A} = p_{B}V_{B}$\n\n解得 $p_{B} = \\frac{1}{5}p_{0}$\n\n（2）根据理想气体状态方程可知 $\\frac{p_{B}V_{B}}{T_{B}} = \\frac{p_{C}V_{C}}{T_{C}}$\n\n解得 $T_{C} = 1.9T_{0}$\n\n（3）根据热力学第一定律可知 $\\Delta U = W + Q$，其中 $Q = 0$，故气体内能增加 $\\Delta U = W$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 13,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "线圈过有界磁场"
+      ],
+      "stem_md": "光滑绝缘的水平面上有垂直平面的匀强磁场，磁场被分成区域 Ⅰ 和 Ⅱ，宽度均为 $h$，其俯视图如图 [2023广东14a] 所示，两磁场磁感应强度随时间 $t$ 的变化如图 [2023广东14b] 所示，$0 \\sim \\tau$ 时间内，两区域磁场恒定，方向相反，磁感应强度大小分别为 $2B_{0}$ 和 $B_{0}$，一电阻为 $R$、边长为 $h$ 的刚性正方形金属框 abcd，平放在水平面上，ab、cd 边与磁场边界平行。$t = 0$ 时，线框 ab 边刚好跨过区域 Ⅰ 的左边界以速度 $v$ 向右运动。在 $\\tau$ 时刻，ab 边运动到距区域 Ⅰ 的左边界 $\\frac{h}{2}$ 处，线框的速度近似为零，此时线框被固定，如图 [2023广东14a] 中的虚线框所示。随后在 $\\tau \\sim 2\\tau$ 时间内，Ⅰ 区磁感应强度线性减小到 0，Ⅱ 区磁场保持不变；$2\\tau \\sim 3\\tau$ 时间内，Ⅱ 区磁感应强度也线性减小到 0。求：\n\n（1）$t = 0$ 时线框所受的安培力 $F$；\n（2）$t = 1.2\\tau$ 时穿过线框的磁通量 $\\Phi$；\n（3）$2\\tau \\sim 3\\tau$ 时间内，线框中产生的热量 $Q$。\n\n![物理配图](assets/2023/physics/广东/14a.png) ![物理配图](assets/2023/physics/广东/14b.png)",
+      "figures": [
+        "assets/2023/physics/广东/14a.png",
+        "assets/2023/physics/广东/14b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$F = \\frac{9B_{0}^{2}h^{2}v}{R}$，方向水平向左\n（2）$\\Phi = \\frac{1}{2}B_{0}h^{2}$\n（3）$Q = \\frac{B_{0}^{2}h^{4}}{4\\tau R}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由图可知 $t = 0$ 时线框切割磁感线的感应电动势为\n\n$E = 2B_{0}hv + B_{0}hv = 3B_{0}hv$\n\n则感应电流大小为 $I = \\frac{E}{R} = \\frac{3B_{0}hv}{R}$\n\n所受的安培力为 $F = 2B_{0}\\frac{3B_{0}hv}{R}h + B_{0}\\frac{3B_{0}hv}{R}h = \\frac{9B_{0}^{2}h^{2}v}{R}$\n\n方向水平向左；\n\n（2）在 $\\tau$ 时刻，ab 边运动到距区域 Ⅰ 的左边界 $\\frac{h}{2}$ 处，线框的速度近似为零，此时线框被固定，则 $t = 1.2\\tau$ 时穿过线框的磁通量为\n\n$\\Phi = 2B_{0}h \\cdot \\frac{1}{2}h - B_{0}h \\cdot \\frac{1}{2}h = \\frac{1}{2}B_{0}h^{2}$\n\n方向垂直纸面向里；\n\n（3）$2\\tau \\sim 3\\tau$ 时间内，Ⅱ 区磁感应强度也线性减小到 0，则有\n\n$E' = \\frac{\\Delta\\Phi}{\\Delta t} = \\frac{B_{0}\\frac{1}{2}h^{2}}{\\tau} = \\frac{B_{0}h^{2}}{2\\tau}$\n\n感应电流大小为\n\n$I' = \\frac{E'}{R} = \\frac{B_{0}h^{2}}{2\\tau R}$\n\n则 $2\\tau \\sim 3\\tau$ 时间内，线框中产生的热量为\n\n$Q = I'^{2}Rt = \\frac{B_{0}^{2}h^{4}}{4\\tau R}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-广东-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 15,
+      "difficulty": 350,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图为某药品自动传送系统的示意图。该系统由水平传送带、竖直螺旋滑槽和与滑槽平滑连接的平台组成，滑槽高为 $3L$，平台高为 $L$。药品盒 A、B 依次被轻放在以速度 $v_{0}$ 匀速运动的传送带上，在与传送带达到共速后，从 M 点进入滑槽，A 刚好滑到平台最右端 N 点停下，随后滑下的 B 以 $2v_{0}$ 的速度与 A 发生正碰，碰撞时间极短，碰撞后 A、B 恰好落在桌面上圆盘内直径的两端。已知 A、B 的质量分别为 $m$ 和 $2m$，碰撞过程中损失的能量为碰撞前瞬间总动能的 $\\frac{1}{4}$。A 与传送带间的动摩擦因数为 $\\mu$，重力加速度为 $g$，AB 在滑至 N 点之前不发生碰撞，忽略空气阻力和圆盘的高度，将药品盒视为质点。求：\n\n（1）A 在传送带上由静止加速到与传送带共速所用的时间 $t$；\n（2）B 从 M 点滑至 N 点的过程中克服阻力做的功 $W$；\n（3）圆盘的圆心到平台右端 N 点的水平距离 $s$。\n\n![物理配图](assets/2023/physics/广东/15.png)",
+      "figures": [
+        "assets/2023/physics/广东/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$t = \\frac{v_{0}}{\\mu g}$\n（2）$W = 6mgL - 3mv_{0}^{2}$\n（3）$s = \\frac{3v_{0}}{2}\\sqrt{\\frac{2L}{g}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）A 在传送带上运动时的加速度 $a = \\mu g$\n\n由静止加速到与传送带共速所用的时间 $t = \\frac{v_{0}}{a} = \\frac{v_{0}}{\\mu g}$\n\n（2）B 从 M 点滑至 N 点的过程中克服阻力做的功\n\n$W = \\frac{1}{2} \\cdot 2mv_{0}^{2} + 2\\,\\mathrm{mg} \\cdot 3L - \\frac{1}{2} \\cdot 2m(2v_{0})^{2} = 6mgL - 3mv_{0}^{2}$\n\n（3）AB 碰撞过程由动量守恒定律和能量关系可知\n\n$2m \\cdot 2v_{0} = mv_{1} + 2mv_{2}$\n\n$\\frac{1}{2} \\cdot 2m \\cdot (2v_{0})^{2} - \\left(\\frac{1}{2}mv_{1}^{2} + \\frac{1}{2} \\cdot 2mv_{2}^{2}\\right) = \\frac{1}{4}\\left[\\frac{1}{2} \\cdot 2m \\cdot (2v_{0})^{2}\\right]$\n\n解得 $v_{1} = 2v_{0}$，$v_{2} = v_{0}$（另一组 $v_{1} = \\frac{2}{3}v_{0}$，$v_{2} = \\frac{5}{3}v_{0}$ 舍掉）\n\n两物体平抛运动的时间 $t_{1} = \\sqrt{\\frac{2L}{g}}$\n\n则 $s - r = v_{2}t_{1}$，$s + r = v_{1}t_{1}$\n\n解得 $s = \\frac{3v_{0}}{2}\\sqrt{\\frac{2L}{g}}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

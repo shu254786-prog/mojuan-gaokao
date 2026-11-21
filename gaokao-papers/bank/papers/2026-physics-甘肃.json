@@ -1,0 +1,716 @@
+{
+  "id": "2026-physics-甘肃",
+  "year": 2026,
+  "subject": "物理",
+  "region": "甘肃卷",
+  "region_key": "甘肃",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2026-physics-甘肃-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "原子和原子核",
+        "原子核的组成"
+      ],
+      "stem_md": "铅（Pb）205 放射性核素的半衰期约为 1700 万年，对其丰度的研究为推断太阳的形成时间提供了重要的科学依据。天体环境中，形成铅 205 的重要机制之一是铊（Tl）核的束缚态 $\\beta$ 衰变，其方程为 \\ce{^{Y}_{81} Tl -> ^{205}_{X} Pb + ^{0}_{-1} e}。下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$X = 81$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$Y = 206$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "\\ce{^{Y}_{81} Tl} 核的中子数为 124",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "\\ce{^{Y}_{81} Tl} 核与 \\ce{^{205}_{X} Pb} 核质量数不同",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "ABD．根据题意，由质量数守恒和电荷数守恒可得 $X = 81 - (-1) = 82$，$Y = 205$，则 \\ce{^{Y}_{81} Tl} 核与 \\ce{^{205}_{X} Pb} 核质量数相同，故 ABD 错误；\n\nC．\\ce{^{Y}_{81} Tl} 核的中子数为 $Y - 81 = 205 - 81 = 124$，故 C 正确。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "电磁感应",
+        "楞次定律"
+      ],
+      "stem_md": "如图，边长为 $l$ 的正方形回路内，存在半径为 $r$ 的圆形匀强磁场区域，磁感应强度 $B$ 的方向与回路所在平面垂直、变化率 $\\frac{\\Delta B}{\\Delta t}=C$（$C$ 为常量）。除了电阻 $R$，不计其他电阻，则通过电阻 $R$ 的电流大小为 （  ）\n\n![物理配图](assets/2026/physics/甘肃/02.png)",
+      "figures": [
+        "assets/2026/physics/甘肃/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$0$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{C\\pi r^{2}}{R}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{Cl^{2}}{R}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{C(l^{2}-\\pi r^{2})}{R}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据法拉第电磁感应定律可得，回路产生的电动势为 $E = \\frac{\\Delta \\Phi}{\\Delta t} = \\frac{\\Delta B}{\\Delta t}S = C\\pi r^{2}$\n\n则通过电阻 $R$ 的电流大小为 $I = \\frac{E}{R} = \\frac{C\\pi r^{2}}{R}$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "万有引力定律"
+      ],
+      "stem_md": "关于地球的重力加速度，考虑地球自转，下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "两极地表的重力加速度最大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "地球表面的重力加速度处处相等",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "地球表面的重力加速度方向处处指向地心",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "同一地点上空，距离地面越高，重力加速度越大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．两极处物体随地球自转的轨道半径为 $0$，自转向心力为 $0$，万有引力全部等于重力，满足 $mg = \\frac{GMm}{R^{2}}$；其余纬度处万有引力需分出一部分提供自转向心力，重力小于万有引力，因此两极地表重力加速度最大，故 A 正确；\n\nB．不同纬度处物体随地球自转的轨道半径不同，自转向心力不同，重力加速度随纬度升高而增大，且同一纬度处海拔越高重力加速度越小，并非处处相等，故 B 错误；\n\nC．重力是万有引力的一个分力，仅赤道和两极处重力方向指向地心，其余位置重力方向为竖直向下，不指向地心，故 C 错误；\n\nD．同一地点上空，距离地面高度为 $h$ 处，重力加速度近似满足 $g' = \\frac{GM}{(R + h)^{2}}$，$h$ 越大 $g'$ 越小，故 D 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "运动和力",
+        "超重失重"
+      ],
+      "stem_md": "2025 年 11 月，人形机器人“夸父”担任第十五届全运会 0 号火炬手，以拟人姿态奔跑完成百米火炬传递。已知机器人的质量为 $45\\,\\mathrm{kg}$，鞋底与地面的动摩擦因数为 $0.8$，重力加速度取 $10\\,\\mathrm{m}/\\mathrm{s}^2$。若最大静摩擦力等于滑动摩擦力，考虑奔跑时竖直方向的重心起伏，下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "机器人奔跑时，竖直方向合力恒为零",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "机器人奔跑时，受到的静摩擦力恒为 $360\\,\\mathrm{N}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "机器人奔跑时，支持力与重力是一对作用力与反作用力",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "机器人单脚着地时，地面给机器人的支持力可能大于 $450\\,\\mathrm{N}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意可知，机器人重力 $G = mg = 450\\,\\mathrm{N}$\n\n最大静摩擦力 $f_{m} = \\mu F_{N}$\n\nA．机器人奔跑时存在竖直方向的重心起伏，即竖直方向有加速度，由牛顿第二定律可知竖直方向合力不为零，故 A 错误；\n\nB．静摩擦力的大小随运动状态动态变化，如：当脚离地时不受静摩擦力，不可能恒为 $360\\,\\mathrm{N}$，故 B 错误；\n\nC．作用力与反作用力是两个相互作用物体之间的相互力，支持力是地面给机器人的力、重力是地球给机器人的力，两个力作用在同一物体上，不属于作用力与反作用力，故 C 错误；\n\nD．当机器人竖直方向有向上的加速度时处于超重状态，由牛顿第二定律 $N - mg = ma$ 得 $N = mg + ma > 450\\,\\mathrm{N}$，因此支持力可能大于 $450\\,\\mathrm{N}$，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图，一同位素电磁分离器主要有加速电场 Ⅰ、匀强磁场 Ⅱ 及接收器 Ⅲ。从 $S$ 点进入电场的碳 12 和碳 13 两种同价阳离子经电场加速后垂直射入磁场，偏转后均被接收器接收。忽略离子的初速度及重力，则碳 12 和碳 13 离子 （  ）\n\n![物理配图](assets/2026/physics/甘肃/05.png)",
+      "figures": [
+        "assets/2026/physics/甘肃/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "离开电场时的动量之比为 $1:1$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在电场中的加速度之比为 $12:13$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "到达接收器的动能之比为 $12:13$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在磁场中运动的轨道半径之比为 $\\sqrt{12}:\\sqrt{13}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．粒子在经过电场过程中，根据动能定理可得 $qU = \\frac{1}{2}mv^{2}$，可得 $v = \\sqrt{\\frac{2qU}{m}}$\n\n则粒子离开电场时的动量为 $p = mv = \\sqrt{2qmU} \\propto \\sqrt{m}$\n\n则碳 12 和碳 13 离子离开电场时的动量之比为 $\\sqrt{12}:\\sqrt{13}$，故 A 错误；\n\nB．粒子在电场中，根据牛顿第二定律可得 $a = \\frac{qE}{m} \\propto \\frac{1}{m}$\n\n可知碳 12 和碳 13 离子在电场中的加速度之比为 $13:12$，故 B 错误；\n\nC．由于洛伦兹力对粒子不做功，所以粒子到达接收器的动能等于粒子离开电场时的动能，根据 $qU = \\frac{1}{2}mv^{2}$\n\n可知碳 12 和碳 13 离子到达接收器的动能之比为 $1:1$，故 C 错误；\n\nD．在磁场中，由洛伦兹力提供向心力得 $qvB = m\\frac{v^{2}}{r}$\n\n可得 $r = \\frac{mv}{qB} = \\frac{1}{B}\\sqrt{\\frac{2mU}{q}} \\propto \\sqrt{m}$\n\n则碳 12 和碳 13 离子在磁场中运动的轨道半径之比为 $\\sqrt{12}:\\sqrt{13}$，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "机械波",
+        "机械波的产生"
+      ],
+      "stem_md": "简谐横波沿 $x$ 轴的负方向传播，$M$ 为介质中一个质点，某时刻的波形图如图所示。下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/甘肃/06.svg)",
+      "figures": [
+        "assets/2026/physics/甘肃/06.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "此刻 $M$ 点沿 $x$ 轴的负方向运动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "此刻 $M$ 点的加速度方向沿 $y$ 轴的负方向",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "此刻后很短时间内 $M$ 点的速度逐渐减小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "经过四分之一周期，$M$ 点通过的路程为 $A_{0}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AC．根据题意，由同侧法可知，此刻 $M$ 点沿 $y$ 轴的负方向运动，靠近平衡位置，则此刻后很短时间内 $M$ 点的速度逐渐增大，故 AC 错误；\n\nB．由图可知，此刻 $M$ 点在 $x$ 轴上方，则 $M$ 点的加速度方向沿 $y$ 轴的负方向，故 B 正确；\n\nD．因该时刻质点 $M$ 不在平衡位置，也不在波峰波谷位置，可知从该时刻经过四分之一个周期，质点 $M$ 通过的路程不等于 $A_{0}$，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电场",
+        "电势能电势差电场力做功"
+      ],
+      "stem_md": "如图，圆所在的空间存在平行于圆面的匀强电场，圆心为 $O$、半径为 $R$，$MN = 2R$，$PN = R$。将正电荷 $q$ 从 $M$ 点移到 $N$ 点，静电力做功 $W$；从 $N$ 点移到 $P$ 点，静电力做功 $-0.5W$。下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/甘肃/07.svg)",
+      "figures": [
+        "assets/2026/physics/甘肃/07.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$P$、$O$ 两点间的电势差为 $\\frac{W}{q}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "电场强度的大小为 $\\frac{\\sqrt{3}W}{3qR}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电场强度的方向与 $MN$ 的夹角为 $60{}^\\circ$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "将 $q$ 从 $M$ 点移到 $P$ 点，静电力做功 $1.5W$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．将正电荷 $q$ 从 $M$ 点移到 $N$ 点，静电力做功 $W$，由于 $O$ 点为 $MN$ 的中点，所以将正电荷 $q$ 从 $O$ 点移到 $N$ 点，静电力做功 $0.5W$；将正电荷 $q$ 从 $N$ 点移到 $P$ 点，静电力做功 $-0.5W$，则将正电荷 $q$ 从 $P$ 点移到 $N$ 点，静电力做功 $0.5W$，可知 $O$、$P$ 两点电势相等，则 $P$、$O$ 两点间的电势差为 $0$，故 A 错误；\n\nBC．$P$、$O$ 连线为等势线，所以电场强度的方向与 $PO$ 垂直指向 $N$ 点，根据几何关系可知电场强度的方向与 $MN$ 的夹角为 $30{}^\\circ$；设电场强度的大小为 $E$，则有 $qER\\cos30{}^\\circ = 0.5W$，解得 $E = \\frac{\\sqrt{3}W}{3qR}$，故 B 正确，C 错误；\n\nD．将 $q$ 从 $M$ 点移到 $O$ 点，静电力做功 $0.5W$，由于 $O$、$P$ 两点电势相等，所以将 $q$ 从 $M$ 点移到 $P$ 点，静电力做功 $0.5W$，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 550,
+      "topics": [
+        "功和能",
+        "交通工具启动"
+      ],
+      "stem_md": "汽车在平直公路上行驶，阻力 $f$ 保持不变。某时刻，以速度 $v$、加速度 $a$ 加速前进，发动机的实际功率正好等于额定功率 $P$。从此时开始，发动机始终在额定功率下工作。下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "汽车的牵引力大小将逐渐趋于 $f$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "经过时间 $t$ 后，汽车的速度为 $v + at$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "汽车的速度会先增大后减小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "汽车能达到的速度最大值为 $\\frac{P}{f}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "ACD．根据题意，由牛顿第二定律有 $F - f = ma$\n\n从此时开始，发动机始终在额定功率下工作，由 $F = \\frac{P}{v}$ 可知，随着速度 $v$ 逐渐增大，$F$ 逐渐减小，加速度逐渐减小，当加速度减小到 $0$ 时，速度最大，之后汽车做匀速直线运动，最大速度为 $v_{m} = \\frac{P}{f}$\n\n即从此时开始，汽车的牵引力大小将逐渐趋于 $f$，汽车的速度会先增大后不变，故 AD 正确，C 错误；\n\nB．由上述分析可知，汽车的加速度逐渐减小，则经过时间 $t$ 后，汽车的速度小于 $v + at$，故 B 错误。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 550,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "如图 [2026甘肃09a]，理想变压器原、副线圈匝数比为 $1:3$，电阻 $R_{1} = 5\\,\\Omega$，$R_{2} = 10\\,\\Omega$，$A_{1}$、$A_{2}$ 为理想电流表，V 为理想电压表，$S_{1}$、$S_{2}$ 为开关。交流电源 AC 的输出电压 $u$ 随时间 $t$ 的变化规律如图 [2026甘肃09b] 所示。闭合开关 $S_{1}$、$S_{2}$，则 （  ）\n\n![物理配图](assets/2026/physics/甘肃/09a.png) ![物理配图](assets/2026/physics/甘肃/09b.png)",
+      "figures": [
+        "assets/2026/physics/甘肃/09a.png",
+        "assets/2026/physics/甘肃/09b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "两电流表示数相同",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "电压表的示数为 $9\\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电源输出的交流电频率为 $50\\,\\mathrm{Hz}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "电阻 $R_{2}$ 消耗的功率是电源输出功率的 $\\frac{1}{3}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BCD",
+        "choices": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "C．由题图可知，电源输出的交流电周期为 $0.02\\,\\mathrm{s}$，则频率为 $f = \\frac{1}{T} = 50\\,\\mathrm{Hz}$，故 C 正确；\n\nAB．由题图可知，电源输出的交流电的有效值为 $U_{1} = \\frac{3\\sqrt{2}}{\\sqrt{2}}\\,\\mathrm{V} = 3\\,\\mathrm{V}$\n\n由原、副线圈匝数与电压关系可得，副线圈输出电压为 $U_{2} = \\frac{n_{2}}{n_{1}}U_{1} = 9\\,\\mathrm{V}$\n\n即电压表的示数为 $9\\,\\mathrm{V}$，由欧姆定律可知，通过电阻 $R_{1}$ 的电流为 $I_{R_{1}} = \\frac{U_{2}}{R_{1}} = 1.8\\,\\mathrm{A}$\n\n即电流表 $A_{2}$ 的示数为 $1.8\\,\\mathrm{A}$，通过电阻 $R_{2}$ 的电流为 $I_{R_{2}} = \\frac{U_{2}}{R_{2}} = 0.9\\,\\mathrm{A}$\n\n则副线圈的电流为 $I_{2} = I_{R_{1}} + I_{R_{2}} = 2.7\\,\\mathrm{A}$，原线圈电流为 $I_{1} = \\frac{n_{2}}{n_{1}}I_{2} = 8.1\\,\\mathrm{A}$\n\n即电流表 $A_{1}$ 的示数为 $8.1\\,\\mathrm{A}$，故 A 错误，B 正确；\n\nD．电阻 $R_{2}$ 消耗的功率是 $P_{2} = I_{R_{2}}^{2}R_{2} = 8.1\\,\\mathrm{W}$\n\n电源输出功率 $P_{1} = U_{1}I_{1} = 24.3\\,\\mathrm{W}$\n\n则有 $P_{2} = \\frac{1}{3}P_{1}$，故 D 正确。\n\n故选 BCD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "双缝干涉测量波长"
+      ],
+      "stem_md": "如图，在双缝干涉测量光波长的实验中，用波长为 $488\\,\\mathrm{nm}$ 的激光照射挡板上的双缝，测得光屏上相邻两条亮条纹的间距为 $2.44\\,\\mathrm{mm}$。用待测激光照射该双缝，测得光屏上相邻两条亮条纹的间距为 $2.66\\,\\mathrm{mm}$。则 （  ）\n\n![物理配图](assets/2026/physics/甘肃/10.svg)",
+      "figures": [
+        "assets/2026/physics/甘肃/10.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "待测激光的波长为 $532\\,\\mathrm{nm}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "待测激光的频率为 $1.77\\times10^{14}\\,\\mathrm{Hz}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "若向右平移挡板，条纹间距减小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "若向上平移挡板，条纹间距不变",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "ACD",
+        "choices": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据相邻亮条纹间距公式 $\\Delta x = \\frac{L}{d}\\lambda$，可得 $\\lambda = \\frac{d\\Delta x}{L} \\propto \\Delta x$\n\n则待测激光的波长为 $\\lambda_{\\text{测}} = \\frac{\\Delta x_{\\text{测}}}{\\Delta x_{1}}\\lambda_{1} = \\frac{2.66}{2.44}\\times488\\,\\mathrm{nm} = 532\\,\\mathrm{nm}$，故 A 正确；\n\nB．待测激光的频率为 $f_{\\text{测}} = \\frac{c}{\\lambda_{\\text{测}}} = \\frac{3\\times10^{8}}{532\\times10^{-9}}\\,\\mathrm{Hz} \\approx 5.64\\times10^{14}\\,\\mathrm{Hz}$，故 B 错误；\n\nC．若向右平移挡板，则 $L$ 减小，根据 $\\Delta x = \\frac{L}{d}\\lambda$ 可知，条纹间距减小，故 C 正确；\n\nD．若向上平移挡板，由于 $L$、$d$ 不变，根据 $\\Delta x = \\frac{L}{d}\\lambda$ 可知，条纹间距不变，故 D 正确。\n\n故选 ACD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "曲线运动",
+        "研究平抛运动实验"
+      ],
+      "stem_md": "某实验小组用如图所示的装置验证动量守恒定律。实验前，安装调节好实验装置，在水平底板上铺一张白纸，纸上放复写纸，记下重垂线所指的位置 $O$。\n\n实验步骤如下：\n\n第一步：用天平分别测出两小球的质量 $m_{1}$ 和 $m_{2}$。\n\n第二步：将入射小球 $m_{1}$ 从斜槽轨道 $S$ 处由静止释放。重复实验，找到其多次落点的中心位置 $A$。\n\n第三步：将被碰小球 $m_{2}$ 静置于斜槽轨道末端，再将 $m_{1}$ 从 $S$ 处由静止释放，与 $m_{2}$ 碰撞。重复实验，分别找到 $m_{1}$ 和 $m_{2}$ 相碰后各自多次落点的中心位置 $B$ 和 $C$。\n\n第四步：分别测出 $O$ 点到各个落点中心的距离 $OA$、$OB$ 和 $OC$。\n\n回答以下问题：\n\n（1）关于实验装置和操作，下列说法正确的是  ______ （多选，填正确答案标号）。\n\t\n\n(A) 两个小球的材质应相同  (B) 两个小球的大小应相等  (C) 斜槽轨道表面必须光滑  (D) 斜槽轨道末端应调节至水平\n（2）改变被碰小球的质量 $m_{2}$，进行多组实验，测量出对应的 $OB$ 和 $OC$ 值。以 $m_{2}$ 为横坐标，以  ______ （单选，填正确答案标号）为纵坐标描点，若这些点都近似在一条直线上，则说明动量守恒定律成立。\n\t\n\n(A) $\\frac{OA - OB}{OC}$  (B) $\\frac{OC - OB}{OB}$  (C) $\\frac{OA - OB}{OA}$  (D) $\\frac{OC - OB}{OC}$\n（3）若 $m_{1} = 3m_{2}$，且碰撞近似为弹性碰撞，则 $OA$ 与 $OB$ 的比值应为  ______ 。\n\n![物理配图](assets/2026/physics/甘肃/11.png)",
+      "figures": [
+        "assets/2026/physics/甘肃/11.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）BD\n（2）A\n（3）$2$",
+        "sub_answers": [
+          "BD",
+          "A",
+          "2"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）AB．为了保证两小球发生对心正碰，两个小球的大小应相等；为了保证碰撞后入射小球不反弹，入射小球的质量应大于被碰小球的质量，所以两个小球的材质不相同，故 A 错误，B 正确；\n\n\tC．为了保证每次碰撞前瞬间入射小球的速度相同，每次应从同一位置静止释放入射小球，但斜槽轨道表面不需要光滑，故 C 错误；\n\n\tD．为了保证小球抛出时的速度处于水平方向，斜槽轨道末端应调节至水平，故 D 正确。故选 BD。\n（2）设碰撞前瞬间入射小球的速度为 $v_{0}$，碰撞后瞬间入射小球和被碰小球的速度分别为 $v_{1}$、$v_{2}$；根据动量守恒可得 $m_{1}v_{0} = m_{1}v_{1} + m_{2}v_{2}$\n\n\t由于两小球在空中下落高度相同，运动时间相等，则有 $v_{0} = \\frac{OA}{t}$，$v_{1} = \\frac{OB}{t}$，$v_{2} = \\frac{OC}{t}$\n\n\t联立可得 $m_{1} \\cdot OA = m_{1} \\cdot OB + m_{2} \\cdot OC$\n\n\t整理可得 $\\frac{OA - OB}{OC} = \\frac{1}{m_{1}}m_{2}$\n\n\t则以 $m_{2}$ 为横坐标，以 $\\frac{OA - OB}{OC}$ 为纵坐标描点，若这些点都近似在一条直线上，则说明动量守恒定律成立。故选 A。\n（3）若 $m_{1} = 3m_{2}$，且碰撞近似为弹性碰撞，根据动量守恒和机械能守恒可得\n\n\t$m_{1}v_{0} = m_{1}v_{1} + m_{2}v_{2}$，$\\frac{1}{2}m_{1}v_{0}^{2} = \\frac{1}{2}m_{1}v_{1}^{2} + \\frac{1}{2}m_{2}v_{2}^{2}$\n\n\t联立可得 $v_{1} = \\frac{m_{1} - m_{2}}{m_{1} + m_{2}}v_{0}$\n\n\t又 $v_{0} = \\frac{OA}{t}$，$v_{1} = \\frac{OB}{t}$，可得 $\\frac{OA}{OB} = \\frac{m_{1} + m_{2}}{m_{1} - m_{2}} = 2$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 9,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "伏安法测电阻"
+      ],
+      "stem_md": "热敏电阻是传感器中常见的感知温度的敏感元件。某实验小组采用如图 [2026甘肃12a] 所示的电路图测量一热敏电阻在某温度下的阻值。实验器材有：待测热敏电阻 $R_{T}$（阻值约几千欧姆）、电源 $E$（电动势 $3\\,\\mathrm{V}$，内阻很小）、毫安表（内阻很小）、滑动变阻器 $R_{0}$（最大阻值 $20\\,\\Omega$）、定值电阻 $R_{1}$（阻值 $2.0\\,\\mathrm{k}\\Omega$）、开关 $S_{1}$ 和 $S_{2}$、温控装置、导线若干。\n\n主要实验步骤及问题如下：\n\n（1）断开开关，连接电路，通过温控装置将热敏电阻的工作温度升至目标温度，并保持稳定。\n（2）闭合开关 $S_{1}$ 前，应将 $R_{0}$ 的滑片置于  ______ （填“M”或“N”）端。实验中 $R_{0}$ 的作用是  ______ （填“限流”或“分压”）。\n（3）闭合 $S_{1}$，调节 $R_{0}$ 的滑片至某一位置，记录毫安表的示数 $I_{1}$；保持滑片位置不变，闭合 $S_{2}$，记录毫安表的示数 $I_{2}$。该温度下热敏电阻的阻值 $R_{T} =$  ______ （用 $I_{1}$、$I_{2}$ 和 $R_{1}$ 表示）。\n（4）某次测量时，毫安表选择 $1.5\\,\\mathrm{mA}$ 量程，其指针稳定在图 [2026甘肃12b] 所示位置，则读数为  ______ $\\,\\mathrm{mA}$。\n（5）改变 $R_{0}$ 的滑片位置，重复实验步骤（3），记录多组 $I_{1}$ 和 $I_{2}$ 数据。以 $I_{1}$ 为横坐标，$I_{2}$ 为纵坐标描点作直线图。若直线的斜率为 $1.6$，可求得该温度下热敏电阻 $R_{T}$ 的阻值为  ______ $\\,\\mathrm{k}\\Omega$（保留 2 位有效数字）。\n\n![物理配图](assets/2026/physics/甘肃/12a.png) ![物理配图](assets/2026/physics/甘肃/12b.png)",
+      "figures": [
+        "assets/2026/physics/甘肃/12a.png",
+        "assets/2026/physics/甘肃/12b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$N$，分压\n（2）$R_{T} = \\frac{I_{1}R_{1}}{I_{2} - I_{1}}$\n（3）$1.292\\,\\mathrm{mA}$\n（4）$3.3\\,\\mathrm{k}\\Omega$",
+        "sub_answers": [
+          "N",
+          "分压",
+          "$\\frac{I_{1}R_{1}}{I_{2} - I_{1}}$",
+          "$1.292$",
+          "$3.3$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（2）由题图可知，实验中 $R_{0}$ 采用的分压接法，闭合开关 $S_{1}$ 前，应将 $R_{0}$ 的滑片置于 $N$ 端，其作用是分压。\n\n（3）根据题意，由欧姆定律有 $I_{1}R_{1} = (I_{2} - I_{1})R_{T}$\n\n解得 $R_{T} = \\frac{I_{1}R_{1}}{I_{2} - I_{1}}$\n\n（4）由题图可知，毫安表的最小分度为 $0.01\\,\\mathrm{mA}$，则读数为 $129.2\\times0.01\\,\\mathrm{mA} = 1.292\\,\\mathrm{mA}$\n\n（5）根据题意，由欧姆定律有 $I_{1}R_{1} = (I_{2} - I_{1})R_{T}$\n\n整理可得 $I_{2} = \\frac{R_{1} + R_{T}}{R_{T}}I_{1}$\n\n则有 $\\frac{R_{1} + R_{T}}{R_{T}} = 1.6$\n\n解得 $R_{T} \\approx 3.3\\,\\mathrm{k}\\Omega$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 10,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "气体多过程"
+      ],
+      "stem_md": "如图，汽缸内壁光滑，横截面积为 $S$，用质量为 $m$ 的活塞封闭一定量的理想气体，活塞与缸底用一轻质弹簧连接。汽缸水平放置时，缸内气体温度为 $T_{0}$，弹簧为原长 $l$。现将汽缸与水平面成 $\\theta = 30{}^\\circ$ 角放置，缸内气体温度保持不变，弹簧长度变为 $\\frac{2}{3}l$。已知大气压强为 $p_{0}$，重力加速度为 $g$，忽略弹簧体积。\n\n（1）求弹簧的劲度系数 $k$。\n（2）若加热缸内气体使弹簧恢复为原长 $l$，则气体压强和温度分别变为多少？\n\n![物理配图](assets/2026/physics/甘肃/13a.png) ![物理配图](assets/2026/physics/甘肃/13b.png)",
+      "figures": [
+        "assets/2026/physics/甘肃/13a.png",
+        "assets/2026/physics/甘肃/13b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{3(mg - p_{0}S)}{2l}$\n（2）$p_{0} + \\frac{mg}{2S}$，$\\frac{2p_{0}S + mg}{2p_{0}S}T_{0}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意，设弹簧长度变为 $\\frac{2}{3}l$ 时，气体的压强为 $p_{1}$，由于缸内气体温度保持不变，由玻意耳定律有 $p_{0}Sl = p_{1}S \\cdot \\frac{2}{3}l$\n\n解得 $p_{1} = \\frac{3}{2}p_{0}$\n\n对活塞受力分析，由平衡条件有 $mg\\sin30{}^\\circ + p_{0}S = p_{1}S + k\\left(l - \\frac{2}{3}l\\right)$\n\n解得 $k = \\frac{3(mg - p_{0}S)}{2l}$\n\n（2）设弹簧恢复为原长 $l$，气体压强为 $p_{2}$ 和温度为 $T_{2}$，由平衡条件有 $p_{2}S = p_{0}S + mg\\sin30{}^\\circ$\n\n解得 $p_{2} = p_{0} + \\frac{mg}{2S}$\n\n初始水平放置状态和加热后弹簧恢复原长的状态体积相等，由查理定律有 $\\frac{p_{0}}{T_{0}} = \\frac{p_{2}}{T_{2}}$\n\n解得 $T_{2} = \\frac{p_{2}}{p_{0}}T_{0} = \\frac{2p_{0}S + mg}{2p_{0}S}T_{0}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q14",
+      "number": 14,
+      "section": "单选题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 450,
+      "topics": [
+        "功和能",
+        "动能定理求路程"
+      ],
+      "stem_md": "如图，水平地面 $A$ 点左侧光滑，右侧 $AB$ 部分粗糙。质量为 $M$、右侧为 $\\frac{1}{4}$ 光滑圆弧的大物块静置在地面光滑部分，且圆弧底端与地面相切于 $A$ 点。质量为 $m$ 的小物块从圆弧顶端由静止释放，并沿圆弧下滑，在 $B$ 点与墙壁发生弹性碰撞，返回至 $A$ 点时恰好与大物块速度相同。已知 $M = 4\\,\\mathrm{kg}$，$m = 1\\,\\mathrm{kg}$，圆弧半径 $R = 1\\,\\mathrm{m}$，$A$、$B$ 间距 $L = 1.5\\,\\mathrm{m}$。重力加速度 $g$ 取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，小物块视为质点。求：\n\n（1）两物块分离前的瞬间，小物块和大物块各自速度的大小。\n（2）两物块分离前的瞬间，小物块受到支持力的大小。\n（3）小物块与粗糙地面之间的动摩擦因数。\n\n![物理配图](assets/2026/physics/甘肃/14.svg)",
+      "figures": [
+        "assets/2026/physics/甘肃/14.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$4\\,\\mathrm{m}/\\mathrm{s}$，$1\\,\\mathrm{m}/\\mathrm{s}$\n（2）$35\\,\\mathrm{N}$\n（3）$0.25$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意，设小物块和大物块各自速度的大小分别为 $v_{1}$ 和 $v_{2}$，水平向右为正方向，由动量守恒定律有 $mv_{1} - Mv_{2} = 0$\n\n由机械能守恒定律有 $mgR = \\frac{1}{2}mv_{1}^{2} + \\frac{1}{2}Mv_{2}^{2}$\n\n代入数据解得 $v_{1} = 4\\,\\mathrm{m}/\\mathrm{s}$，$v_{2} = 1\\,\\mathrm{m}/\\mathrm{s}$\n\n（2）两物块分离前的瞬间，由牛顿第二定律有 $F_{N} - mg = m\\frac{(v_{1} + v_{2})^{2}}{R}$\n\n代入数据解得 $F_{N} = 35\\,\\mathrm{N}$\n\n（3）根据题意可知，小物块在 $B$ 点与墙壁发生弹性碰撞，速度反向，大小不变，大物块分离后向左做匀速直线运动，则从 $A$ 点到返回 $A$ 点过程中，由动能定理有\n\n$-2\\mu mgL = \\frac{1}{2}mv_{2}^{2} - \\frac{1}{2}mv_{1}^{2}$\n\n代入数据解得 $\\mu = 0.25$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-甘肃-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "电磁感应",
+        "电磁感应能量分析"
+      ],
+      "stem_md": "散热控温是保证高功率器件安全可靠运行的重要措施。某研究小组基于电磁阻尼现象，设计了一款液态合金导体温控器，充满管路的液态合金在压强差驱动下持续流动，吸收并带走高功率器件产生的热量。温控器处于匀强磁场 $B$ 中的管路如图所示，其前后面为垂直于磁场的绝缘板，上下面为用导线短路的导电板。温控器工作时，通过调节管路中压强差和磁场的大小使液态合金以目标速率 $v$ 稳定流动，实现散热功率动态匹配。已知该段管路长度为 $d$，矩形横截面的宽度为 $a$、高度为 $b$，其中的液态合金左右两侧的压强差为 $\\Delta p$，温差为 $\\Delta T$，受到的黏滞阻力 $f = -kv$（$k$ 为常量）；液态合金密度为 $\\rho_{0}$、电阻率为 $\\rho$、比热容为 $c$。设液态合金克服黏滞阻力和安培力做功产生的热量完全被液态合金吸收，$\\rho_{0}$、$\\rho$ 和 $c$ 不随温度变化，不计短路导线与金属板的电阻。\n\n（1）求 $\\Delta p$ 产生的驱动力及其功率。\n（2）求流速 $v$ 与压强差 $\\Delta p$ 和磁感应强度 $B$ 之间的关系。\n（3）求单位时间内液态合金从高功率器件吸收的热量；要使液态合金从高功率器件吸热，给出 $\\Delta p$ 与 $\\Delta T$ 之间所满足的关系。\n\n![物理配图](assets/2026/physics/甘肃/15.svg)",
+      "figures": [
+        "assets/2026/physics/甘肃/15.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\Delta pab$，$\\Delta pabv$\n（2）$\\frac{\\Delta pab\\rho}{B^{2}adb + k\\rho}$\n（3）$c\\rho_{0}abv\\Delta T - \\Delta pabv$，$\\Delta p < c\\rho_{0}\\Delta T$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意可知，$\\Delta p$ 产生的驱动力为 $F = \\Delta pS$\n\n又有 $S = ab$\n\n可得 $F = \\Delta pab$\n\n驱动力的功率为 $P = Fv = \\Delta pabv$\n\n（2）根据题意可知，由平衡条件有 $F = F_{A} + kv$\n\n液态合金以目标速率 $v$ 稳定流动时，感应电动势为 $E = Bbv$\n\n液态合金的电阻为 $R = \\rho\\frac{b}{ad}$\n\n感应电流为 $I = \\frac{E}{R} = \\frac{Badv}{\\rho}$\n\n则安培力 $F_{A} = BIb = \\frac{B^{2}advb}{\\rho}$\n\n则有 $\\Delta pab = \\frac{B^{2}advb}{\\rho} + kv$\n\n整理可得流速 $v$ 与压强差 $\\Delta p$ 和磁感应强度 $B$ 之间的关系 $v = \\frac{\\Delta pab\\rho}{B^{2}adb + k\\rho}$\n\n（3）根据题意可知，$\\Delta t$ 时间内黏滞阻力和安培力做功为\n\n$W = (F_{A} + kv)v\\Delta t = Fv\\Delta t = \\Delta pabv\\Delta t$\n\n$\\Delta t$ 时间内液态合金吸收的热量为 $Q = cm\\Delta T = c\\rho_{0}abv\\Delta t\\Delta T$\n\n单位时间内液态合金从高功率器件吸收的热量 $Q' = \\frac{Q - W}{\\Delta t} = c\\rho_{0}abv\\Delta T - \\Delta pabv$\n\n要使液态合金从高功率器件吸热，则有 $Q' > 0$\n\n整理可得 $\\Delta p$ 与 $\\Delta T$ 之间所满足的关系 $\\Delta p < c\\rho_{0}\\Delta T$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

@@ -1,0 +1,730 @@
+{
+  "id": "2026-physics-河南",
+  "year": 2026,
+  "subject": "物理",
+  "region": "河南卷",
+  "region_key": "河南",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2026-physics-河南-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "机械振动",
+        "单摆"
+      ],
+      "stem_md": "将一单摆的摆球拉开一个小角度后释放，单摆摆动的振幅为 $A_{0}$，周期为 $T_{0}$。若将此摆移到月球上，拉开相同的角度，则摆球的振动图像可能正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2026/physics/河南/01a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2026/physics/河南/01b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2026/physics/河南/01c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2026/physics/河南/01d.png"
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据单摆周期公式 $T=2\\pi\\sqrt{\\frac{L}{g}}$ 可知，当移到月球上后，重力加速度减小，单摆的周期变大；摆长不变，拉开相同的角度，振幅不变。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电场",
+        "电场中的图象"
+      ],
+      "stem_md": "在 $x$ 坐标轴上放置电荷量为 $Q_{M}$ 和 $Q_{N}$ 的两点电荷，其坐标分别为 $x_{M}= -a$，$x_{N}=a$。电荷量为 $q$（$q>0$）的试探电荷沿 $x$ 轴移动，所受静电力 $F$ 随 $x$ 变化的图像如图所示。取 $x$ 轴的正向为 $F$ 的正方向，则 （  ）\n\n![物理配图](assets/2026/physics/河南/02.svg)",
+      "figures": [
+        "assets/2026/physics/河南/02.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$Q_{M}>0$，$|Q_{M}|>|Q_{N}|$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$Q_{M}>0$，$|Q_{M}|<|Q_{N}|$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$Q_{M}<0$，$|Q_{M}|>|Q_{N}|$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$Q_{M}<0$，$|Q_{M}|<|Q_{N}|$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由图像可知在 $0\\sim\\frac{a}{2}$ 间存在一点，设坐标为 $x_{0}$，试探电荷在此处受到的静电力为零，可知两点电荷带同种电荷，根据库仑定律有 $\\frac{kQ_{M}q}{(a+x_{0})^{2}}=\\frac{kQ_{N}q}{(a-x_{0})^{2}}$\n\n由于 $(a+x_{0})^{2}>(a-x_{0})^{2}$，故可得 $|Q_{M}|>|Q_{N}|$；\n\n根据图像可知在 $x=0$ 处时，试探电荷受到的静电力沿 $x$ 轴的正向，根据前面分析由于 $|Q_{M}|>|Q_{N}|$，在 $x=0$ 处时，试探电荷到两点电荷间的距离相等，可知试探电荷在此处受到的静电力的合力方向与点电荷 $Q_{M}$ 对试探电荷的静电力的方向相同，故可知 $Q_{M}>0$。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "如图，一棱镜的横截面视为半径 $R$ 的半圆与等腰三角形的组合，半圆直径与三角形底边重合，等腰三角形的顶角为 $120^{\\circ}$。在横截面所在平面内，一束光从 $P$ 点垂直于三角形底边入射，从 $Q$ 点射出。已知 $P$、$Q$ 到三角形底边距离均为 $\\frac{R}{2}$，出射光线与入射光线平行，则棱镜的折射率为 （  ）\n\n![物理配图](assets/2026/physics/河南/03.png)",
+      "figures": [
+        "assets/2026/physics/河南/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\sqrt{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{3}{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\sqrt{3}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$2$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意一束光从 $P$ 点垂直于三角形底边入射，从 $Q$ 点射出。已知 $P$、$Q$ 到三角形底边距离均为 $\\frac{R}{2}$，画出光路图如图所示\n\n![物理配图](assets/2026/physics/河南/03_an.jpg)\n\n根据几何关系有 $\\angle 1=\\angle 2+\\angle 3$，$\\angle 6=60^{\\circ}$，$\\sin\\angle 4=\\frac{\\frac{1}{2}R}{R}$\n\n根据反射定律可得 $\\angle 5=\\angle 6$\n\n综上可得 $\\angle 1=60^{\\circ}$，$\\angle 2=30^{\\circ}$\n\n根据折射定律有 $n=\\frac{\\sin\\angle 1}{\\sin\\angle 2}$\n\n代入数据可得 $n=\\sqrt{3}$\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/河南/03_an.jpg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "为确定一变压器副线圈 $cd$ 的匝数，某同学在变压器铁芯上缠绕 10 匝线圈 $ef$，如图所示。原线圈 $ab$ 接入一正弦交流电源，$c$、$d$ 两端电压为 $10\\,\\mathrm{V}$；若将 $d$、$e$ 两端连接，$ab$ 接入的电源不变，$c$、$f$ 两端电压为 $11\\,\\mathrm{V}$，变压器视为理想变压器，则副线圈 $cd$ 的匝数为 （  ）\n\n![物理配图](assets/2026/physics/河南/04.png)",
+      "figures": [
+        "assets/2026/physics/河南/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "200",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "190",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "110",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "100",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设电源电压为 $U_{1}$，$a$、$b$ 两端的线圈匝数为 $n_{1}$，$c$、$d$ 两端的线圈匝数为 $n_{2}$，$e$、$f$ 两端的线圈匝数为 $n_{3}=10$，根据变压器电压和匝数关系可得 $\\frac{U_{1}}{U_{cd}}=\\frac{n_{1}}{n_{2}}$，$\\frac{U_{1}}{U_{cf}}=\\frac{n_{1}}{n_{2}+n_{3}}$\n\n联立，解得 $n_{2}=100$\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "天体运动"
+      ],
+      "stem_md": "“土星环”是由绕土星运动的颗粒组成的带状薄圆环，图为拍摄的真实照片。已知土星的平均密度约为 $7.0\\times10^{2}\\,\\mathrm{kg}/\\mathrm{m}^3$，引力常量 $G=6.67\\times10^{-11}\\,\\mathrm{N}\\cdot\\,\\mathrm{m}^{2}/\\,\\mathrm{kg}^{2}$，由照片信息估算位于“土星环”上的中间颗粒绕土星做圆周运动的周期是 （  ）\n\n![物理配图](assets/2026/physics/河南/05.jpg)",
+      "figures": [
+        "assets/2026/physics/河南/05.jpg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$2.0\\times10^{3}\\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$4.0\\times10^{4}\\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$2.0\\times10^{5}\\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$4.0\\times10^{5}\\,\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设土星半径为 $R$，质量为 $M$，土星环上颗粒的轨道半径为 $r$，周期为 $T$。颗粒绕土星做匀速圆周运动，由万有引力提供向心力，有 $G\\frac{Mm}{r^{2}}=m\\left(\\frac{2\\pi}{T}\\right)^{2}r$\n\n其中土星质量 $M=\\rho V=\\rho\\cdot\\frac{4}{3}\\pi R^{3}$\n\n联立解得周期 $T$ 的表达式 $T=\\sqrt{\\frac{3\\pi}{G\\rho}\\cdot\\left(\\frac{r}{R}\\right)^{3}}$\n\n由照片信息可得 $r\\approx2R$\n\n代入数据解得 $T\\approx4.0\\times10^{4}\\,\\mathrm{s}$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图，间距为 $l$ 的两虚线 $a$、$b$ 间存在方向垂直于纸面向外的匀强磁场，虚线 $b$ 上方存在方向垂直于纸面向里的匀强磁场。一带电粒子在纸面内垂直于虚线 $a$ 从 $O$ 点射入磁场，一段时间后又从 $O$ 点射出磁场。已知该粒子在下方磁场中运动的圆轨迹半径为 $\\frac{5}{3}l$，不计重力，则上、下磁场的磁感应强度大小之比为 （  ）\n\n![物理配图](assets/2026/physics/河南/06.png)",
+      "figures": [
+        "assets/2026/physics/河南/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "2:1",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "3:1",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "4:1",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "5:1",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据运动的对称性，可得粒子在磁场中的运动轨迹，如图所示\n\n![物理配图](assets/2026/physics/河南/06_an.jpg)\n\n带电粒子在磁场中运动时，由洛伦兹力提供向心力，有 $qvB=\\frac{mv^{2}}{r}$\n\n整理得磁感应强度 $B=\\frac{mv}{qr}$\n\n由于粒子的 $\\frac{mv}{q}$ 不变，因此磁感应强度 $B\\propto\\frac{1}{r}$，即 $\\frac{B_{\\text{上}}}{B_{\\text{下}}}=\\frac{r_{\\text{下}}}{r_{\\text{上}}}$\n\n由几何关系，可知 $\\triangle O_{2}BC$ 与 $\\triangle O_{1}AB$ 相似，则 $\\frac{r_{\\text{下}}}{r_{\\text{上}}}=\\frac{O_{1}A}{BC}$\n\n由勾股定理得 $O_{1}A=\\sqrt{r_{\\text{下}}^{2}-l^{2}}=\\frac{4l}{3}$\n\n且 $BC=AO=r_{\\text{下}}-O_{1}A=\\frac{l}{3}$\n\n联立解得 $\\frac{B_{\\text{上}}}{B_{\\text{下}}}=\\frac{O_{1}A}{BC}=\\frac{4}{1}$\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/河南/06_an.jpg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "曲线运动",
+        "平抛运动"
+      ],
+      "stem_md": "如图 [2026河南07a]，网球运动员将球沿水平方向击出，球运动轨迹所在平面与球网面的夹角为 $45^{\\circ}$，球恰好擦过球网上沿的 $P$ 点，图 [2026河南07b] 为球运动轨迹在球网所在平面的投影，轨迹投影在 $P$ 点的切线与球网上沿的夹角为 $\\varphi$。已知击出时球的速度大小为 $20\\,\\mathrm{m}/\\mathrm{s}$，$\\tan\\varphi=0.2$，重力加速度大小取 $g=10\\,\\mathrm{m}/\\mathrm{s}^2$，不计阻力，则击球点到球网面的距离为 （  ）\n\n![物理配图](assets/2026/physics/河南/07a.png) ![物理配图](assets/2026/physics/河南/07b.png)",
+      "figures": [
+        "assets/2026/physics/河南/07a.png",
+        "assets/2026/physics/河南/07b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$4\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$6\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$8\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$10\\,\\mathrm{m}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "网球被水平击出后做平抛运动，初速度大小为 $v_{0}=20\\,\\mathrm{m}/\\mathrm{s}$，轨迹平面与球网面夹角为 $45^{\\circ}$，将初速度 $v_{0}$ 分解，垂直于球网面的速度 $v_{z}=v_{0}\\sin45^{\\circ}$\n\n平行于球网面的速度 $v_{x}=v_{0}\\cos45^{\\circ}$\n\n网球在竖直方向做自由落体运动，设从击球点到 $P$ 点的运动时间为 $t$，网球在 $P$ 点的竖直速度 $v_{y}=gt$\n\n$P$ 点的切线与球网上沿夹角为 $\\varphi$，切线斜率满足 $\\tan\\varphi=\\frac{v_{y}}{v_{x}}$\n\n代入 $v_{y}=gt$，$v_{x}=v_{0}\\cos45^{\\circ}$，得 $t=\\frac{v_{0}\\tan\\varphi\\cos45^{\\circ}}{g}$\n\n网球在垂直于球网方向匀速运动，位移 $d=v_{z}t$\n\n代入 $v_{z}=v_{0}\\sin45^{\\circ}$ 和 $t$ 的表达式，得 $d=\\frac{v_{0}^{2}\\tan\\varphi\\sin45^{\\circ}\\cos45^{\\circ}}{g}$\n\n解得 $d=4\\,\\mathrm{m}$\n\n因此击球点到球网面的距离为 $4\\,\\mathrm{m}$。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "光的电磁说"
+      ],
+      "stem_md": "不同材料的金属板 M、N 的逸出功分别为 $W_{1}$ 和 $W_{2}$。用波长为 $\\lambda_{1}$ 的光照射，M、N 均能发生光电效应，出射光电子的最大初动能分别为 $E_{1}$ 和 $E_{2}$；改用波长为 $\\lambda_{2}$ 的光照射，仅 M 能发生光电效应，出射光电子的最大初动能为 $E_{3}$。则 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$W_{1}<W_{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\lambda_{1}>\\lambda_{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$E_{1}<E_{2}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$E_{1}>E_{3}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．波长为 $\\lambda_{2}$ 的光照射时，仅 M 能发生光电效应，说明 $\\frac{hc}{\\lambda_{2}}>W_{1}$，$\\frac{hc}{\\lambda_{2}}<W_{2}$，可得 $W_{1}<W_{2}$，故 A 正确；\n\nB．波长为 $\\lambda_{1}$ 的光照射时，N 也能发生光电效应，说明 $\\frac{hc}{\\lambda_{1}}>W_{2}$。结合 $\\frac{hc}{\\lambda_{2}}<W_{2}$ 可得 $\\frac{hc}{\\lambda_{1}}>\\frac{hc}{\\lambda_{2}}$，化简得 $\\lambda_{1}<\\lambda_{2}$，故 B 错误；\n\nC．波长为 $\\lambda_{1}$ 的光照射时，$E_{1}=\\frac{hc}{\\lambda_{1}}-W_{1}$，$E_{2}=\\frac{hc}{\\lambda_{1}}-W_{2}$；已知 $W_{1}<W_{2}$，因此 $E_{1}>E_{2}$，故 C 错误；\n\nD．根据爱因斯坦光电效应方程 $E_{1}=\\frac{hc}{\\lambda_{1}}-W_{1}$，$E_{3}=\\frac{hc}{\\lambda_{2}}-W_{1}$；因为 $\\lambda_{1}<\\lambda_{2}$，所以 $E_{1}>E_{3}$，故 D 正确。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "楞次定律"
+      ],
+      "stem_md": "某种呼吸监测装置的原理如图 [2026河南09a] 所示。呼吸气流可从绕有线圈的空心圆管左端进出，使位于圆管右端的磁性薄膜运动。呼气时薄膜向右运动，吸气时薄膜向左运动。图 [2026河南09b] 为电压传感器显示的电压 $U$ 随时间 $t$ 变化的图像，$U$ 为正时 b 点电势高于 a 点，下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/河南/09a.png) ![物理配图](assets/2026/physics/河南/09b.png)",
+      "figures": [
+        "assets/2026/physics/河南/09a.png",
+        "assets/2026/physics/河南/09b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "若磁性薄膜的 N 极在右侧，则吸气时 a 点电势高",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "若磁性薄膜的 N 极在右侧，则吸气时 b 点电势高",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "若图 [2026河南09b] 中 P 点对应呼气，则磁性薄膜的 S 极在右侧",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "若图 [2026河南09b] 中 Q 点对应呼气，则磁性薄膜的 S 极在右侧",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．若磁性薄膜的 N 极在右侧，则通过线圈的磁场方向向右，吸气时薄膜向左运动，通过线圈的磁场增强，由楞次定律可知感应磁场方向向左，则线圈中电流方向由 a 到 b，即 b 点电势高于 a 点，故 A 错误，B 正确；\n\nC．由题图 [2026河南09b] 可知，P 点对应的电压为正，即由题意可知此时 b 点电势高于 a 点电势，线圈中的感应电流由 a 到 b，通过线圈的感应磁场方向向左，若 P 点对应呼气，则线圈中的原磁场减弱，即原磁场方向应向左，磁性薄膜的 S 极在右侧，故 C 正确；\n\nD．由题图 [2026河南09b] 可知，Q 点对应的电压为负，即由题意可知此时 b 点电势低于 a 点电势，线圈中的感应电流由 b 到 a，通过线圈的感应磁场方向向右，若 Q 点对应呼气，则线圈中的原磁场减弱，即原磁场方向应向右，磁性薄膜的 S 极应在左侧，故 D 错误。\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 350,
+      "topics": [
+        "直线运动",
+        "多段匀变速直线运动"
+      ],
+      "stem_md": "智能飞行器飞行表演中，两飞行器 M、N 位于同一高度，沿同一直线同向匀速飞行。依据表演要求，M 保持飞行速度不变，N 先匀加速后匀减速调整与 M 的间距，20 s 以内完成调整。从开始调整时计时，N 传回的数据如表所示，则调整过程中 （  ）\n\n{\\footnotesize\\setlength{\\tabcolsep}{3pt}\n\n<table class=\"exam-table\"><tr><th>时间（$\\,\\mathrm{s}$）</th><th>0</th><th>2</th><th>4</th><th>6</th><th>8</th><th>10</th><th>12</th><th>14</th><th>16</th><th>18</th><th>20</th></tr><tr><td>间距（$\\,\\mathrm{m}$）</td><td>281</td><td>294</td><td>297</td><td>290</td><td>273</td><td>248</td><td>227</td><td>212</td><td>203</td><td>200</td><td>200</td></tr></table>\n}",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$10\\,\\mathrm{s}$ 末 N 的速度达到最大值",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$7\\,\\mathrm{s}$ 末 N 与 M 的间距为 $281.5\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "N 加速阶段的加速度大小为 $2.5\\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "N 与 M 的相对速度的最大值为 $13.5\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "CD",
+        "choices": [
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "ACD．以 M 飞行器为参考系，分别求出 N 在相邻 $2\\,\\mathrm{s}$ 内相对 M 的位移如表\n\n{\\footnotesize\\setlength{\\tabcolsep}{3pt}\n\n<table class=\"exam-table\"><tr><th>时间区间（$\\,\\mathrm{s}$）</th><th>$0\\sim2$</th><th>$2\\sim4$</th><th>$4\\sim6$</th><th>$6\\sim8$</th><th>$8\\sim10$</th><th>$10\\sim12$</th><th>$12\\sim14$</th><th>$14\\sim16$</th><th>$16\\sim18$</th><th>$18\\sim20$</th></tr><tr><td>相对位移</td><td>$X_{1}$</td><td>$X_{2}$</td><td>$X_{3}$</td><td>$X_{4}$</td><td>$X_{5}$</td><td>$X_{6}$</td><td>$X_{7}$</td><td>$X_{8}$</td><td>$X_{9}$</td><td>$X_{10}$</td></tr><tr><td></td><td>13</td><td>3</td><td>$-7$</td><td>$-17$</td><td>$-25$</td><td>$-21$</td><td>$-15$</td><td>$-9$</td><td>$-3$</td><td>0</td></tr></table>\n}\n\n由于 $X_{2}-X_{1}=X_{3}-X_{2}=X_{4}-X_{3}=-10\\,\\mathrm{m}$，$X_{5}-X_{4}=-8\\,\\mathrm{m}$\n\n$X_{7}-X_{6}=X_{8}-X_{7}=X_{9}-X_{8}=6\\,\\mathrm{m}$\n\n故 $0\\sim8\\,\\mathrm{s}$ 内 N 做匀加速直线运动，同理 $10\\sim18\\,\\mathrm{s}$ 内 N 以另一加速度做匀减速直线运动，$8\\,\\mathrm{s}$ 至 $10\\,\\mathrm{s}$ 内的某时刻，N 匀加速运动结束开始做匀减速，所以 $8\\sim10\\,\\mathrm{s}$ 内的某时刻，N 的速度达到最大值，设加速阶段的加速度为 $a_{1}$，则由 $\\Delta x=a_{1}T^{2}=-10\\,\\mathrm{m}$\n\n可得 $a_{1}=-2.5\\,\\mathrm{m}/\\mathrm{s}^2$\n\n设减速阶段的加速度为 $a_{2}$，则由 $\\Delta x'=a_{2}T^{2}=6\\,\\mathrm{m}$\n\n解得 $a_{2}=1.5\\,\\mathrm{m}/\\mathrm{s}^2$\n\n以 M 飞行器为参考系，N 在第 $6\\,\\mathrm{s}$ 时的速度 $v_{6}=\\frac{X_{3}+X_{4}}{2T}=-6\\,\\mathrm{m}/\\mathrm{s}$\n\n第 $12\\,\\mathrm{s}$ 时的速度 $v_{12}=\\frac{X_{6}+X_{7}}{2T}=-9\\,\\mathrm{m}/\\mathrm{s}$\n\n则由 $v_{6}+a_{1}t=v_{12}-a_{2}(6\\,\\mathrm{s}-t)$\n\n解得 $t=3\\,\\mathrm{s}$\n\n即第 $9\\,\\mathrm{s}$ 时 N 的速度最大，N 相对于 M 的速度最大值为 $v=v_{6}+a_{1}t=-13.5\\,\\mathrm{m}/\\mathrm{s}$，故 A 错误，CD 正确；\n\nB．$7\\,\\mathrm{s}$ 末时 N 与 M 的间距为\n\n$x=290\\,\\mathrm{m}+v_{6}\\times1\\,\\mathrm{s}+\\frac{1}{2}a_{1}(1\\,\\mathrm{s})^{2}=282.75\\,\\mathrm{m}$\n\n故 B 错误。\n\n故选 CD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "验证牛顿第二定律"
+      ],
+      "stem_md": "某实验小组利用图 [2026河南11a] 所示装置验证牛顿第二定律。实验器材有：气垫导轨、滑块、光电门、数字计时器、遮光条、游标卡尺、垫块若干等。完成下列问题：\n\n![物理配图](assets/2026/physics/河南/11a.png) ![物理配图](assets/2026/physics/河南/11b.png)\n\n（1）用游标卡尺测量遮光条的宽度 $\\Delta x$，示数如图 [2026河南11b] 所示，则 $\\Delta x=$  ______  $\\,\\mathrm{mm}$。\n（2）调整好装置，释放滑块。数字计时器记录滑块通过光电门 1 的遮光时间为 $\\Delta t=10.20\\, \\mathrm{ms}$，则滑块通过光电门 1 的速度大小 $v_{1}=$  ______  $\\,\\mathrm{m}/\\mathrm{s}$（保留 2 位有效数字）。\n（3）记录滑块通过光电门 2 的遮光时间，计算滑块通过光电门 2 的速度大小 $v_{2}$，测出两光电门间距为 $s$，则滑块下滑的加速度 $a=$  ______ （用 $v_{1}$、$v_{2}$、$s$ 表示）。测得气垫导轨两支脚间距为 $L$，垫高为 $h$，理论上 $a=$  ______ （用 $L$、$h$、重力加速度大小 $g$ 表示），若两者在误差允许范围内相等，即验证了牛顿第二定律。",
+      "figures": [
+        "assets/2026/physics/河南/11a.png",
+        "assets/2026/physics/河南/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）5.10\n（2）0.50\n（3）$\\frac{v_{2}^{2}-v_{1}^{2}}{2s}$，$\\frac{gh}{L}$",
+        "sub_answers": [
+          "5.10",
+          "0.50",
+          "$\\frac{v_{2}^{2}-v_{1}^{2}}{2s}$",
+          "$\\frac{gh}{L}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）游标卡尺的读数，即遮光条的宽度为 $\\Delta x=5\\,\\mathrm{mm}+2\\times0.05\\,\\mathrm{mm}=5.10\\,\\mathrm{mm}$\n\n（2）滑块经过光电门的时间极短，用滑块经过光电门的平均速度代替瞬时速度，滑块通过光电门 1 的速度大小\n\n$$\n v_{1}=\\frac{d}{\\Delta t}=\\frac{5.10\\times10^{-3}}{10.20\\times10^{-3}}\\,\\mathrm{m}/\\mathrm{s}=0.50\\,\\mathrm{m}/\\mathrm{s} \n$$\n\n（3）根据速度位移关系有 $v_{2}^{2}-v_{1}^{2}=2as$\n\n可得 $a=\\frac{v_{2}^{2}-v_{1}^{2}}{2s}$\n\n根据几何关系可得导轨与水平方向夹角的正弦值为 $\\sin\\theta=\\frac{h}{L}$\n\n若不考虑阻力，即理论上，根据牛顿第二定律有 $mg\\sin\\theta=ma$\n\n可得 $a=\\frac{gh}{L}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 9,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "电容器充放电实验"
+      ],
+      "stem_md": "某实验小组探究电容器充放电特性并测量新能源电池的电动势，图 [2026河南12a] 为设计的电路原理图。实验器材有：电池（电动势 $E$，内阻不计），定值电阻 $R_{1}$、$R_{2}$（阻值均未知），电容器 $C$，电流传感器（内阻可忽略），电压传感器（内阻很大），数据采集分析系统，开关 S，导线若干等。完成下列问题：\n\n![物理配图](assets/2026/physics/河南/12a.png) ![物理配图](assets/2026/physics/河南/12b.png)\n\n（1）根据图 [2026河南12a] 所示原理图，完成图 [2026河南12b] 中实物图的连线。\n（2）使电流传感器和电压传感器正常工作，闭合 S，给电容器充电，直至电压传感器示数稳定。然后断开 S，电容器放电。图中 A、B、C、D 为电流传感器和电压传感器采集的电流-时间（$i_{C}-t$）和电压-时间（$u_{C}-t$）图像，属于充电过程的是  ______ （填写图像对应的标号）。\n\t\n\n![物理配图](assets/2026/physics/河南/12c.png) ![物理配图](assets/2026/physics/河南/12d.png) ![物理配图](assets/2026/physics/河南/12e.png) ![物理配图](assets/2026/physics/河南/12f.png)\n（3）经数据采集分析系统合成，得到电容器在充放电过程中的 $u_{C}-i_{C}$ 图像，如图 [2026河南12g] 所示。设放电过程 $PQ$ 段的斜率为 $k_{1}$，由图作直线可得 $|k_{1}|=$  ______  $\\,\\Omega$（保留 3 位有效数字），其对应于  ______  的阻值 $R_{1}$（填“$R_{1}$”或“$R_{2}$”）。\n（4）对充电过程 $MN$ 段，设流经 $R_{1}$、$R_{2}$ 的电流分别为 $i_{1}$ 和 $i_{2}$，则 $i_{1}=i_{2}+i_{C}$。电容器两端电压可表示为 $u_{C}=k_{2}i_{C}+b$，其中斜率 $k_{2}=$  ______ （用 $R_{1}$、$R_{2}$ 表示），截距 $b=$  ______ （用 $R_{1}$、$R_{2}$、$E$ 表示）。由图 [2026河南12g] 作直线求出 $k_{2}$ 和 $b$，得 $E=$  ______  $\\,\\mathrm{V}$（保留 3 位有效数字）。\n\n![物理配图](assets/2026/physics/河南/12g.png)",
+      "figures": [
+        "assets/2026/physics/河南/12g.png",
+        "assets/2026/physics/河南/12a.png",
+        "assets/2026/physics/河南/12b.png",
+        "assets/2026/physics/河南/12c.png",
+        "assets/2026/physics/河南/12d.png",
+        "assets/2026/physics/河南/12e.png",
+        "assets/2026/physics/河南/12f.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）如图所示\n（2）AD\n（3）$10.0\\,\\Omega$，$R_{2}$\n（4）$-\\frac{R_{1}R_{2}}{R_{1}+R_{2}}$，$\\frac{ER_{2}}{R_{1}+R_{2}}$，$3.55\\,\\mathrm{V}$",
+        "sub_answers": [
+          "AD",
+          "10.0",
+          "$R_{2}$",
+          "$-\\frac{R_{1}R_{2}}{R_{1}+R_{2}}$",
+          "$\\frac{ER_{2}}{R_{1}+R_{2}}$",
+          "3.55"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据电路图可知实物连接图如图所示\n\n![物理配图](assets/2026/physics/河南/12_an.png)\n\n（2）AB．充电电流 $i_{C}$ 初始最大，逐渐衰减到 0（方向为正），故 A 正确，B 错误；CD．电容器电压 $u_{C}$ 从 0 逐渐升高，最终稳定在两端的分压值 $R_{2}$，故 C 错误，D 正确。\n\n故选 AD。\n\n（3）根据题图可得斜率的绝对值 $|k_{1}|=\\frac{0-2.0}{0-(-0.2)}\\,\\Omega=10.0\\,\\Omega$\n\n放电时，电容器仅通过 $R_{2}$ 放电，即其对应于 $R_{2}$ 的阻值。\n\n（4）充电时，有 $E=i_{1}R_{1}+u_{C}$\n\n又 $i_{1}=i_{2}+i_{C}$，\n\n$i_{2}=\\frac{u_{C}}{R_{2}}$\n\n联立可得 $u_{C}=-\\frac{R_{1}R_{2}}{R_{1}+R_{2}}i_{C}+\\frac{ER_{2}}{R_{1}+R_{2}}$\n\n与 $u_{C}=k_{2}i_{C}+b$ 对比可知 $k_{2}=-\\frac{R_{1}R_{2}}{R_{1}+R_{2}}$，$b=\\frac{ER_{2}}{R_{1}+R_{2}}$\n\n根据题图可得 $-\\frac{R_{1}R_{2}}{R_{1}+R_{2}}=\\frac{0.8-2.7}{1.0-0.08}$，$\\frac{ER_{2}}{R_{1}+R_{2}}=2.9$\n\n解得 $E\\approx3.55\\,\\mathrm{V}$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/河南/12_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 10,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "机械装置的润滑油系统常用图示设备稳定油压。气腔内充有氮气，当润滑油系统油压过高时，油会泵入油腔，压缩皮囊；油压降低时，皮囊膨胀，油从油腔泵出。设备的工作温度为 $T_{1}=300\\,\\mathrm{K}$、气腔内氮气压强为 $p_{1}=0.25\\, \\mathrm{MPa}$ 时，气腔体积为 $V_{1}=6\\,\\mathrm{L}$。氮气视为理想气体。\n\n（1）某次泵油，氮气压强从 $p_{1}$ 变为 $p_{2}=0.2\\, \\mathrm{MPa}$，求泵出油的体积；（泵油过程为等温过程）\n（2）若使设备在 $T_{2}=270\\,\\mathrm{K}$ 时也能正常工作，需要对气腔补气，以满足在压强为 $p_{1}$ 时气腔体积仍为 $V_{1}$，求补充氮气的质量与气腔内原有氮气质量之比。（补气过程为等温过程）\n\n![物理配图](assets/2026/physics/河南/13.svg)",
+      "figures": [
+        "assets/2026/physics/河南/13.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$1.5\\,\\mathrm{L}$\n（2）$\\frac{1}{9}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）泵油过程氮气温度不变，做等温变化，由玻意耳定律有 $p_{1}V_{1}=p_{2}V_{2}$\n\n代入数据解得 $V_{2}=7.5\\,\\mathrm{L}$\n\n泵出油的体积 $\\Delta V=V_{2}-V_{1}=1.5\\,\\mathrm{L}$\n\n（2）对原有氮气，由理想气体状态方程 $\\frac{p_{1}V_{1}}{T_{1}}=\\frac{p_{1}V_{3}}{T_{2}}$\n\n代入数据解得 $V_{3}=5.4\\,\\mathrm{L}$\n\n同温同压下，气体质量之比等于体积之比，即 $\\frac{\\Delta m}{m_{0}}=\\frac{V_{1}-V_{3}}{V_{3}}=\\frac{1}{9}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 12,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "带电粒子的偏转"
+      ],
+      "stem_md": "反射式飞行时间质谱仪是通过测量离子在真空中的飞行时间来对其进行质量分析的仪器。原理如图所示，离子源 O 产生不同种类、初速度为零的正离子，离子经匀强电场加速后从 A 点射出，进入无场区做直线运动，然后从 B 点进入匀强反射电场，最后从反射电场射出。已知 A、B 间的距离为 $s_{0}$；加速电场和反射电场两极板间的电压分别为 $U_{1}$ 和 $U_{2}$（$U_{2}>U_{1}$），间距分别为 $d_{1}$ 和 $d_{2}$；反射电场方向与 AB 的夹角为 $\\theta$。不计离子重力。\n\n（1）证明从离子源 O 产生的正离子都能从同一点射出反射电场；\n（2）测得两种离子从 O 到射出反射电场所用时间之比 $\\frac{\\tau_{1}}{\\tau_{2}}=\\frac{2}{3}$，求其比荷之比 $\\frac{\\alpha_{1}}{\\alpha_{2}}$。\n\n![物理配图](assets/2026/physics/河南/14.svg)",
+      "figures": [
+        "assets/2026/physics/河南/14.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$y=v_{\\perp}t_{3}=\\frac{4U_{1}d_{2}\\sin\\theta\\cos\\theta}{U_{2}}$，与离子比荷无关，结合沿电场方向最大位移与比荷无关，可得出所有正离子均从同一点射出反射电场。\n（2）$\\frac{9}{4}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）设离子电荷量为 $q$、质量为 $m$，经加速电场加速后速度为 $v$，由动能定理有 $qU_{1}=\\frac{1}{2}mv^{2}$\n\n离子进入反射电场，沿电场方向分速度 $v_{\\parallel}=v\\cos\\theta$\n\n加速度大小 $a=\\frac{qU_{2}}{md_{2}}$\n\n离子在反射电场中垂直电场方向分速度 $v_{\\perp}=v\\sin\\theta$\n\n由于 $U_{2}>U_{1}$，则粒子在反射电场往返时间 $t_{3}=\\frac{2v_{\\parallel}}{a}=\\frac{2d_{2}\\cos\\theta}{U_{2}}\\sqrt{\\frac{2mU_{1}}{q}}$\n\n可得垂直电场方向位移 $y=v_{\\perp}t_{3}=\\frac{4U_{1}d_{2}\\sin\\theta\\cos\\theta}{U_{2}}$\n\n与离子比荷无关，结合沿电场方向最大位移与比荷无关，可得出所有正离子均从同一点射出反射电场。\n\n（2）在加速电场中，根据位移时间关系 $d_{1}=\\frac{1}{2}a't_{1}^{2}$\n\n其中 $a'=\\frac{qU_{1}}{md_{1}}$\n\n可得加速电场中运动时间 $t_{1}=d_{1}\\sqrt{\\frac{2m}{qU_{1}}}$\n\n无场区运动时间 $t_{2}=\\frac{s_{0}}{v}=s_{0}\\sqrt{\\frac{m}{2qU_{1}}}$\n\n离子从 O 到射出反射电场所用时间 $t=t_{1}+t_{2}+t_{3}=d_{1}\\sqrt{\\frac{2m}{qU_{1}}}+s_{0}\\sqrt{\\frac{m}{2qU_{1}}}+\\frac{2d_{2}\\cos\\theta}{U_{2}}\\sqrt{\\frac{2mU_{1}}{q}}$\n\n可知 $t\\propto\\sqrt{\\frac{m}{q}}$，即 $\\frac{\\tau_{1}}{\\tau_{2}}=\\sqrt{\\frac{\\alpha_{2}}{\\alpha_{1}}}$\n\n可得 $\\frac{\\alpha_{1}}{\\alpha_{2}}=\\frac{9}{4}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-河南-q15",
+      "number": 15,
+      "section": "单选题",
+      "type": "open_ended",
+      "score": 17,
+      "difficulty": 350,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图，水平地面上的球壳内下端有一小球，球壳的直径 $D=0.25\\,\\mathrm{m}$，上端距天花板的距离为 $h=6\\,\\mathrm{m}$。现以 $v_{0}=11\\,\\mathrm{m}/\\mathrm{s}$ 的初速度把球壳连同小球一起竖直向上抛出，球壳与天花板碰撞后经过 $\\Delta t=0.1\\,\\mathrm{s}$，小球与球壳发生第 1 次碰撞。所有的碰撞均为弹性碰撞、时间极短，不计球壳厚度和空气阻力，重力加速度大小取 $g=10\\,\\mathrm{m}/\\mathrm{s}^2$。\n\n（1）求小球的直径；\n（2）求小球与球壳第 1 次碰撞后瞬间两者速度差的大小，及它们前两次碰撞的时间间隔；\n（3）若小球与球壳第 8 次碰撞前瞬间球壳的速度大小为 $v_{1}=6\\,\\mathrm{m}/\\mathrm{s}$，求球壳首次碰地时的速度大小。\n\n![物理配图](assets/2026/physics/河南/15.svg)",
+      "figures": [
+        "assets/2026/physics/河南/15.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$0.05\\,\\mathrm{m}$\n（2）$2\\,\\mathrm{m}/\\mathrm{s}$，$0.1\\,\\mathrm{s}$\n（3）$\\sqrt{88}\\,\\mathrm{m}/\\mathrm{s}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）从抛出至球壳与天花板相碰，小球和球壳一起做竖直上抛运动，末速度大小设为 $v$，根据速度位移关系式 $v_{0}^{2}-v^{2}=2gh$\n\n解得 $v=1\\,\\mathrm{m}/\\mathrm{s}$\n\n球壳与天花板发生弹性碰撞后以原速率反弹，然后向下做匀加速直线运动，小球继续上升，设小球直径为 $d$，从球壳与天花板碰撞后到小球与球壳第 1 次碰撞，小球与球壳的位移大小之和为 $D-d$，则 $v\\Delta t+\\frac{1}{2}g(\\Delta t)^{2}+\\left[v\\Delta t-\\frac{1}{2}g(\\Delta t)^{2}\\right]=D-d$\n\n解得 $d=0.05\\,\\mathrm{m}$\n\n（2）设球壳质量为 $M$，小球质量为 $m$，球壳与小球发生第 1 次碰撞前速度分别为 $v_{10}$、$u_{10}$，以竖直向下为正方向，则 $v_{10}=v+g\\Delta t=2\\,\\mathrm{m}/\\mathrm{s}$，$u_{10}=v-g\\Delta t=0$\n\n球壳与小球发生弹性碰撞，设碰后速度分别为 $v_{11}$、$u_{11}$\n\n由动量守恒定律 $Mv_{10}+mu_{10}=Mv_{11}+mu_{11}$\n\n由机械能守恒定律 $\\frac{1}{2}Mv_{10}^{2}+\\frac{1}{2}mu_{10}^{2}=\\frac{1}{2}Mv_{11}^{2}+\\frac{1}{2}mu_{11}^{2}$\n\n碰后速度差的大小 $\\Delta u=u_{11}-v_{11}=2\\,\\mathrm{m}/\\mathrm{s}$\n\n拓展：发生弹性碰撞，恢复系数 $e=\\frac{u_{11}-v_{11}}{v_{10}-u_{10}}=1$\n\n第 1 次碰撞后，球壳与小球均做加速度向下、大小为 $g$ 的匀变速直线运动，设两次碰撞时间间隔为 $\\Delta t_{1}$，两者的相对速度大小始终为 $\\Delta u=2\\,\\mathrm{m}/\\mathrm{s}$，两者的相对位移大小为 $D-d$，有 $D-d=\\Delta u\\Delta t_{1}$\n\n解得 $\\Delta t_{1}=0.1\\,\\mathrm{s}$\n\n（3）取向下为正，第一次碰前：壳速 $v_{10}=2\\,\\mathrm{m}/\\mathrm{s}$，球速 $u_{10}=0$\n\n弹性碰撞，每次碰撞后相对速度大小恒为 $2\\,\\mathrm{m}/\\mathrm{s}$，时间间隔 $\\Delta t=0.1\\,\\mathrm{s}$\n\n设每次碰撞壳速改变量为 $\\Delta v_{s}$（碰前壳快时减速，球快时加速），大小 $\\Delta v_{s}=\\frac{4m}{M+m}$\n\n从第 1 次碰前到第 8 次碰前，经历 7 次碰撞和 7 个 $0.1\\,\\mathrm{s}$ 的重力加速（每次加 $1\\,\\mathrm{m}/\\mathrm{s}$）\n\n递推球壳碰前速度\n\n①碰前：2\n\n②碰前：$2\\rightarrow3-\\Delta v_{s}$\n\n③碰前：$(3-\\Delta v_{s})\\rightarrow4$\n\n④碰前：$4\\rightarrow5-\\Delta v_{s}$\n\n⑤碰前：6\n\n⑥碰前：$7-\\Delta v_{s}$\n\n⑦碰前：8\n\n⑧碰前：$9-\\Delta v_{s}$\n\n已知⑧碰前壳速为 $6\\,\\mathrm{m}/\\mathrm{s}$，故 $9-\\Delta v_{s}=6$\n\n解得 $\\Delta v_{s}=3\\,\\mathrm{m}/\\mathrm{s}$\n\n由 $\\Delta v_{s}=\\frac{4m}{M+m}=3$\n\n得 $M:m=1:3$\n\n则可推导出所有速度如表所示（速度单位均为 $\\,\\mathrm{m}/\\mathrm{s}$，+向上，$-$向下）\n\n<table class=\"exam-table\"><tr><th>碰撞序号</th><th>时刻（$\\,\\mathrm{s}$）</th><th>碰前壳速</th><th>碰前球速</th><th>碰后壳速</th><th>碰后球速</th></tr><tr><td>天花板碰</td><td>0</td><td>---</td><td>---</td><td>$-1$</td><td>$+1$</td></tr><tr><td>①</td><td>0.1</td><td>$-2$</td><td>0</td><td>$+1$</td><td>$-1$</td></tr><tr><td>②</td><td>0.2</td><td>0</td><td>$-2$</td><td>$-3$</td><td>$-1$</td></tr><tr><td>③</td><td>0.3</td><td>$-4$</td><td>$-2$</td><td>$-1$</td><td>$-3$</td></tr><tr><td>④</td><td>0.4</td><td>$-2$</td><td>$-4$</td><td>$-5$</td><td>$-3$</td></tr><tr><td>⑤</td><td>0.5</td><td>$-6$</td><td>$-4$</td><td>$-3$</td><td>$-5$</td></tr><tr><td>⑥</td><td>0.6</td><td>$-4$</td><td>$-6$</td><td>$-7$</td><td>$-5$</td></tr><tr><td>⑦</td><td>0.7</td><td>$-8$</td><td>$-6$</td><td>$-5$</td><td>$-7$</td></tr><tr><td>⑧</td><td>0.8</td><td>$-6$</td><td>$-8$</td><td>$-9$</td><td>$-7$</td></tr><tr><td>⑨</td><td>0.9</td><td>$-10$</td><td>$-8$</td><td>$-7$</td><td>$-9$</td></tr><tr><td>⑩</td><td>1.0</td><td>$-8$</td><td>$-10$</td><td>$-11$</td><td>$-9$</td></tr><tr><td>11</td><td>1.1</td><td>$-12$</td><td>$-10$</td><td>$-9$</td><td>$-11$</td></tr></table>\n\n利用上表壳速，每段 $0.1\\,\\mathrm{s}$ 匀变速，位移 $\\Delta y=v_{0}t+\\frac{1}{2}at^{2}$，逐段累加球壳位置：\n\n<table class=\"exam-table\"><tr><th>时段</th><th>壳初速</th><th>位移</th><th>累加位置 $y$</th></tr><tr><td>$0\\rightarrow0.1\\,\\mathrm{s}$</td><td>$-1$</td><td>$-0.15$</td><td>5.975</td></tr><tr><td>$0.1\\rightarrow0.2\\,\\mathrm{s}$</td><td>$+1$</td><td>$+0.05$</td><td>6.025</td></tr><tr><td>$0.2\\rightarrow0.3\\,\\mathrm{s}$</td><td>$-3$</td><td>$-0.35$</td><td>5.675</td></tr><tr><td>$0.3\\rightarrow0.4\\,\\mathrm{s}$</td><td>$-1$</td><td>$-0.15$</td><td>5.525</td></tr><tr><td>$0.4\\rightarrow0.5\\,\\mathrm{s}$</td><td>$-5$</td><td>$-0.55$</td><td>4.975</td></tr><tr><td>$0.5\\rightarrow0.6\\,\\mathrm{s}$</td><td>$-3$</td><td>$-0.35$</td><td>4.625</td></tr><tr><td>$0.6\\rightarrow0.7\\,\\mathrm{s}$</td><td>$-7$</td><td>$-0.75$</td><td>3.875</td></tr><tr><td>$0.7\\rightarrow0.8\\,\\mathrm{s}$</td><td>$-5$</td><td>$-0.55$</td><td>3.325</td></tr><tr><td>$0.8\\rightarrow0.9\\,\\mathrm{s}$</td><td>$-9$</td><td>$-0.95$</td><td>2.375</td></tr><tr><td>$0.9\\rightarrow1.0\\,\\mathrm{s}$</td><td>$-7$</td><td>$-0.75$</td><td>1.625</td></tr><tr><td>$1.0\\rightarrow1.1\\,\\mathrm{s}$</td><td>$-11$</td><td>$-1.15$</td><td>0.475</td></tr></table>\n\n$t=1.1\\,\\mathrm{s}$（第11次碰前）球壳质心位于 $y=0.475\\,\\mathrm{m}$。\n\n此时碰撞后壳速变为 $-9\\,\\mathrm{m}/\\mathrm{s}$（见上表11碰后），随后匀加速下降至触地（质心触地高度 $0.125\\,\\mathrm{m}$），下落距离 $\\Delta h=0.475-0.125=0.35\\,\\mathrm{m}$\n\n由运动学公式可知 $v_{\\text{地}}=\\sqrt{9^{2}+2\\times10\\times0.35}\\,\\mathrm{m}/\\mathrm{s}=\\sqrt{88}\\,\\mathrm{m}/\\mathrm{s}$\n\n则触地速度大小为 $\\sqrt{88}\\,\\mathrm{m}/\\mathrm{s}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

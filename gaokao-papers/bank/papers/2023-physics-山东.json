@@ -1,0 +1,864 @@
+{
+  "id": "2023-physics-山东",
+  "year": 2023,
+  "subject": "物理",
+  "region": "山东卷",
+  "region_key": "山东",
+  "format_tier": "structured_latex",
+  "question_count": 18,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2023-physics-山东-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "原子和原子核",
+        "玻尔模型"
+      ],
+      "stem_md": "“梦天号”实验舱携带世界首套可相互比对的冷原子钟组发射升空，对提升我国导航定位、深空探测等技术具有重要意义。如图所示为某原子钟工作的四能级体系，原子吸收频率为 $\\nu_{0}$ 的光子从基态能级 I 跃迁至激发态能级 Ⅱ，然后自发辐射出频率为 $\\nu_{1}$ 的光子，跃迁到钟跃迁的上能级 2，并在一定条件下可跃迁到钟跃迁的下能级 1，实现受激辐射，发出钟激光，最后辐射出频率为 $\\nu_{3}$ 的光子回到基态。该原子钟产生的钟激光的频率 $\\nu_{2}$ 为（  ）\n\n![物理配图](assets/2023/physics/山东/01.png)",
+      "figures": [
+        "assets/2023/physics/山东/01.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\nu_{0} + \\nu_{1} + \\nu_{3}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\nu_{0} + \\nu_{1} - \\nu_{3}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\nu_{0} - \\nu_{1} + \\nu_{3}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\nu_{0} - \\nu_{1} - \\nu_{3}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "原子吸收频率为 $\\nu_{0}$ 的光子从基态能级 I 跃迁至激发态能级 Ⅱ 时有 $E_{\\text{Ⅱ}} - E_{\\text{I}} = h\\nu_{0}$\n\n且从激发态能级 Ⅱ 向下跃迁到基态 I 的过程有 $E_{\\text{Ⅱ}} - E_{\\text{I}} = h\\nu_{1} + h\\nu_{2} + h\\nu_{3}$\n\n联立解得 $\\nu_{2} = \\nu_{0} - \\nu_{1} - \\nu_{3}$\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "力物体的平衡",
+        "胡克定律"
+      ],
+      "stem_md": "餐厅暖盘车的储盘装置示意图如图所示，三根完全相同的弹簧等间距竖直悬挂在水平固定圆环上，下端连接托盘。托盘上叠放若干相同的盘子，取走一个盘子，稳定后余下的正好升高补平。已知单个盘子的质量为 $300 \\,\\mathrm{g}$，相邻两盘间距 $1.0 \\,\\mathrm{cm}$，重力加速度大小取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$。弹簧始终在弹性限度内，每根弹簧的劲度系数为（  ）\n\n![物理配图](assets/2023/physics/山东/02.png)",
+      "figures": [
+        "assets/2023/physics/山东/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$10 \\,\\mathrm{N}/\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$100 \\,\\mathrm{N}/\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$200 \\,\\mathrm{N}/\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$300 \\,\\mathrm{N}/\\mathrm{m}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题知，取走一个盘子，稳定后余下的正好升高补平，则说明一个盘子的重力可以使弹簧形变相邻两盘间距，则有 $mg = 3kx$\n\n解得 $k = 100 \\,\\mathrm{N}/\\mathrm{m}$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "天体运动"
+      ],
+      "stem_md": "牛顿认为物体落地是由于地球对物体的吸引，这种吸引力可能与天体间（如地球与月球）的引力具有相同的性质、且都满足 $F \\propto \\frac{Mm}{r^{2}}$。已知地月之间的距离 $r$ 大约是地球半径的 60 倍，地球表面的重力加速度为 $g$，根据牛顿的猜想，月球绕地球公转的周期为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$30\\pi\\sqrt{\\frac{r}{g}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$30\\pi\\sqrt{\\frac{g}{r}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$120\\pi\\sqrt{\\frac{r}{g}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$120\\pi\\sqrt{\\frac{g}{r}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设地球半径为 $R$，由题知，地球表面的重力加速度为 $g$，则有\n\n$mg = G \\frac{M_{\\text{地}} m}{R^{2}}$\n\n月球绕地球公转有\n\n$G\\frac{M_{\\text{地}}m_{\\text{月}}}{r^{2}}=m_{\\text{月}}\\frac{4\\pi^{2}}{T^{2}}r$\n\n$r = 60R$\n\n联立有 $T = 120\\pi \\sqrt{\\frac{r}{g}}$\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "功和能",
+        "功率"
+      ],
+      "stem_md": "《天工开物》中记载了古人借助水力使用高转筒车往稻田里引水的场景。引水过程简化如下：两个半径均为 $R$ 的水轮，以角速度 $\\omega$ 匀速转动。水筒在筒车上均匀排布，单位长度上有 $n$ 个，与水轮间无相对滑动。每个水筒离开水面时装有质量为 $m$ 的水，其中的 60\\% 被输送到高出水面 $H$ 处灌入稻田。当地的重力加速度为 $g$，则筒车对灌入稻田的水做功的功率为（  ）\n\n![物理配图](assets/2023/physics/山东/04.png)",
+      "figures": [
+        "assets/2023/physics/山东/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{2}{5}nmg\\omega^{2}RH$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{3}{5}nmg\\omega RH$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{3}{5}nmg\\omega^{2}RH$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$nmg\\omega RH$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题知，水筒在筒车上均匀排布，单位长度上有 $n$ 个，且每个水筒离开水面时装有质量为 $m$ 的水、其中的 60\\% 被输送到高出水面 $H$ 处灌入稻田，则水轮转一圈灌入农田的水的总质量为 $m_{\\text{总}} = 2\\pi Rnm \\times 60\\% = 1.2\\pi Rnm$\n\n则水轮转一圈灌入稻田的水克服重力做的功 $W = 1.2\\pi RnmgH$\n\n则筒车对灌入稻田的水做功的功率为 $P = \\frac{W}{T}$，$T = \\frac{2\\pi}{\\omega}$\n\n联立有 $P = \\frac{3}{5}nmg\\omega RH$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "光的干涉"
+      ],
+      "stem_md": "如图所示为一种干涉热膨胀仪原理图。G 为标准石英环，C 为待测柱形样品，C 的上表面与上方标准平面石英板之间存在劈形空气层。用单色平行光垂直照射上方石英板，会形成干涉条纹。已知 C 的膨胀系数小于 G 的膨胀系数，当温度升高时，下列说法正确的是（  ）\n\n![物理配图](assets/2023/physics/山东/05.png)",
+      "figures": [
+        "assets/2023/physics/山东/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "劈形空气层的厚度变大，条纹向左移动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "劈形空气层的厚度变小，条纹向左移动",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "劈形空气层的厚度变大，条纹向右移动",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "劈形空气层的厚度变小，条纹向右移动",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题知，C 的膨胀系数小于 G 的膨胀系数，当温度升高时，G 增长的高度大于 C 增长的高度，则劈形空气层的厚度变大，且同一厚度的空气膜向劈尖移动，则条纹向左移动。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 450,
+      "topics": [
+        "直线运动",
+        "匀变速直线运动"
+      ],
+      "stem_md": "如图所示，电动公交车做匀减速直线运动进站，连续经过 R、S、T 三点，已知 ST 间的距离是 RS 的两倍，RS 段的平均速度是 $10 \\,\\mathrm{m}/\\mathrm{s}$，ST 段的平均速度是 $5 \\,\\mathrm{m}/\\mathrm{s}$，则公交车经过 T 点时的瞬时速度为（  ）\n\n![物理配图](assets/2023/physics/山东/06.png)",
+      "figures": [
+        "assets/2023/physics/山东/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$3 \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$2 \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$1 \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$0.5 \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题知，电动公交车做匀减速直线运动，且设 RS 间的距离为 $x$，则根据题意有\n\n$\\overline{v}_{RS}=\\frac{x}{t_{1}}=\\frac{v_{R}+v_{S}}{2}$，$\\overline{v}_{ST}=\\frac{2x}{t_{2}}=\\frac{v_{S}+v_{T}}{2}$\n\n联立解得 $t_{2}=4t_{1}$，$v_{T}=v_{R}-10$\n\n再根据匀变速直线运动速度与时间的关系有 $v_{T}=v_{R}-a\\cdot5t_{1}$\n\n则 $at_{1}=2 \\,\\mathrm{m}/\\mathrm{s}$，其中还有 $v_{\\frac{t_{1}}{2}}=v_{R}-a\\cdot\\frac{t_{1}}{2}$\n\n解得 $v_{R}=11 \\,\\mathrm{m}/\\mathrm{s}$\n\n联立解得 $v_{T}=1 \\,\\mathrm{m}/\\mathrm{s}$\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 650,
+      "topics": [
+        "电磁感应",
+        "远距离输电"
+      ],
+      "stem_md": "某节能储能输电网络如图所示，发电机的输出电压 $U_{1}=250 \\,\\mathrm{V}$，输出功率 $500 \\,\\mathrm{kW}$。降压变压器的匝数比 $n_{3}:n_{4}=50:1$，输电线总电阻 $R=62.5 \\,\\Omega$。其余线路电阻不计，用户端电压 $U_{4}=220 \\,\\mathrm{V}$，功率 $88 \\,\\mathrm{kW}$，所有变压器均为理想变压器。下列说法正确的是（  ）\n\n![物理配图](assets/2023/physics/山东/07.png)",
+      "figures": [
+        "assets/2023/physics/山东/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "发电机的输出电流为 $368 \\,\\mathrm{A}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "输电线上损失的功率为 $4.8 \\,\\mathrm{kW}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "输送给储能站的功率为 $408 \\,\\mathrm{kW}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "升压变压器的匝数比 $n_{1}:n_{2}=1:44$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由题知，发电机的输出电压 $U_{1}=250 \\,\\mathrm{V}$，输出功率 $500 \\,\\mathrm{kW}$，则有\n\n$I_{1}=\\frac{P}{U_{1}}=2\\times10^{3} \\,\\mathrm{A}$\n\nA 错误；\n\nBD．由题知，用户端电压 $U_{4}=220 \\,\\mathrm{V}$，功率 $88 \\,\\mathrm{kW}$，则有\n\n$\\frac{U_{3}}{U_{4}}=\\frac{I_{4}}{I_{3}}=\\frac{n_{3}}{n_{4}}$\n\n$P' = U_{4}I_{4}$\n\n联立解得 $I_{4}=400 \\,\\mathrm{A}$，$I_{3}=8 \\,\\mathrm{A}$，$U_{3}=11\\,000 \\,\\mathrm{V}$\n\n则输电线上损失的功率为 $P_{\\text{损}}=I_{3}^{2}R=4 \\,\\mathrm{kW}$\n\n且 $U_{2}=U_{3}+I_{3}R=11\\,500 \\,\\mathrm{V}$\n\n再根据 $\\frac{U_{1}}{U_{2}}=\\frac{n_{1}}{n_{2}}$，解得 $\\frac{n_{1}}{n_{2}}=\\frac{1}{46}$\n\nBD 错误；\n\nC．根据理想变压器无功率损失有 $P = U_{2}I_{3} + P_{\\text{储}}$\n\n代入数据有 $P_{\\text{储}} = 408 \\,\\mathrm{kW}$\n\nC 正确。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "加速减速模型"
+      ],
+      "stem_md": "质量为 $M$ 的玩具动力小车在水平面上运动时，牵引力 $F$ 和受到的阻力 $f$ 均为恒力，如图所示，小车用一根不可伸长的轻绳拉着质量为 $m$ 的物体由静止开始运动。当小车拖动物体行驶的位移为 $s_{1}$ 时，小车达到额定功率，轻绳从物体上脱落。物体继续滑行一段时间后停下，其总位移为 $s_{2}$。物体与地面间的动摩擦因数不变，不计空气阻力。小车的额定功率 $P_{0}$ 为（  ）\n\n![物理配图](assets/2023/physics/山东/08.png)",
+      "figures": [
+        "assets/2023/physics/山东/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\sqrt{\\frac{2F^{2}(F-f)(s_{2}-s_{1})s_{1}}{(M+m)s_{2}-Ms_{1}}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\sqrt{\\frac{2F^{2}(F-f)(s_{2}-s_{1})s_{1}}{(M+m)s_{2}-ms_{1}}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\sqrt{\\frac{2F^{2}(F-f)(s_{2}-s_{1})s_{2}}{(M+m)s_{2}-Ms_{1}}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\sqrt{\\frac{2F^{2}(F-f)(s_{2}-s_{1})s_{2}}{(M+m)s_{2}+ms_{1}}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设物体与地面间的动摩擦因数为 $\\mu$，当小车拖动物体行驶的位移为 $s_{1}$ 的过程中有\n\n$F - f - \\mu mg = (m + M)a$\n\n$v^{2}=2as_{1}$\n\n$P_{0}=Fv$\n\n轻绳从物体上脱落后\n\n$a_{2}=\\mu g$\n\n$v^{2}=2a_{2}(s_{2}-s_{1})$\n\n联立有 $P_{0}=\\sqrt{\\frac{2F^{2}(F-f)(s_{2}-s_{1})s_{1}}{(M+m)s_{2}-Ms_{1}}}$\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "热力学第一定律"
+      ],
+      "stem_md": "一定质量的理想气体，初始温度为 $300 \\,\\mathrm{K}$，压强为 $1\\times10^{5} \\,\\mathrm{Pa}$。经等容过程，该气体吸收 $400 \\,\\mathrm{J}$ 的热量后温度上升 $100 \\,\\mathrm{K}$；若经等压过程，需要吸收 $600 \\,\\mathrm{K}$ 的热量才能使气体温度上升 $100 \\,\\mathrm{K}$。下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "初始状态下，气体的体积为 $6 \\,\\mathrm{L}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "等压过程中，气体对外做功 $400 \\,\\mathrm{J}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "等压过程中，气体体积增加了原体积的 $\\frac{1}{4}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "两个过程中，气体的内能增加量都为 $400 \\,\\mathrm{J}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "C．令理想气体的初始状态的压强、体积和温度分别为\n\n$p_{1}=p_{0}$，$V_{1}=V_{0}$，$T_{1}=300 \\,\\mathrm{K}$\n\n等容过程为状态二\n\n$p_{2}=?$，$V_{2}=V_{1}=V_{0}$，$T_{2}=400 \\,\\mathrm{K}$\n\n等压过程为状态三\n\n$p_{3}=p_{0}$，$V_{3}=?$，$T_{3}=400 \\,\\mathrm{K}$\n\n由理想气体状态方程可得\n\n$\\frac{p_{1}V_{1}}{T_{1}}=\\frac{p_{2}V_{2}}{T_{2}}=\\frac{p_{3}V_{3}}{T_{3}}$\n\n解得 $p_{2}=\\frac{4}{3}p_{0}$，$V_{3}=\\frac{4}{3}V_{0}$\n\n体积增加了原来的 $\\frac{1}{3}$，C 错误；\n\nD．等容过程中气体做功为零，由热力学第一定律\n\n$\\Delta U = W + Q = 400 \\,\\mathrm{J}$\n\n两个过程的初末温度相同即内能变化相同，因此内能增加都为 $400 \\,\\mathrm{J}$，D 正确；\n\nAB．等压过程内能增加了 $400 \\,\\mathrm{J}$，吸收热量为 $600 \\,\\mathrm{J}$，由热力学第一定律可知气体对外做功为 $200 \\,\\mathrm{J}$，即做功的大小为\n\n$W = p_{0}\\left(\\frac{4}{3}V_{0} - V_{0}\\right) = 200 \\,\\mathrm{J}$\n\n解得 $V_{0}=6 \\,\\mathrm{L}$\n\nA 正确 B 错误；\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "机械波",
+        "波的多解性"
+      ],
+      "stem_md": "如图所示，沿水平方向做简谐振动的质点，依次通过相距 $L$ 的 A、B 两点。已知质点在 A 点的位移大小为振幅的一半，B 点位移大小是 A 点的 $\\sqrt{3}$ 倍，质点经过 A 点时开始计时，$t$ 时刻第二次经过 B 点，该振动的振幅和周期可能是（  ）\n\n![物理配图](assets/2023/physics/山东/10.png)",
+      "figures": [
+        "assets/2023/physics/山东/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{2L}{\\sqrt{3}-1}$，$3t$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{2L}{\\sqrt{3}-1}$，$4t$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{2L}{\\sqrt{3}+1}$，$\\frac{12}{5}t$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{2L}{\\sqrt{3}+1}$，$\\frac{12}{7}t$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．当 AB 两点在平衡位置的同侧时有\n\n$\\frac{1}{2}A=A\\sin\\varphi_{a}$，$\\frac{\\sqrt{3}}{2}A=A\\sin\\varphi_{b}$\n\n可得 $\\varphi_{a}=\\frac{\\pi}{6}$；$\\varphi_{b}=\\frac{\\pi}{3}$ 或者 $\\varphi_{b}=\\frac{2\\pi}{3}$\n\n因此可知第二次经过 B 点时 $\\varphi_{b}=\\frac{2\\pi}{3}$\n\n$\\frac{\\frac{2}{3}\\pi-\\frac{\\pi}{6}}{2\\pi}T=t$\n\n解得 $T = 4t$\n\n此时位移关系为 $\\frac{\\sqrt{3}}{2}A - \\frac{1}{2}A = L$\n\n解得 $A = \\frac{2L}{\\sqrt{3} - 1}$\n\n故 A 错误，B 正确；\n\nCD．当 AB 两点在平衡位置两侧时有\n\n$-\\frac{1}{2}A = A \\sin \\varphi_{a}$，$\\frac{\\sqrt{3}}{2}A = A \\sin \\varphi_{b}$\n\n解得 $\\varphi_{a} = -\\frac{\\pi}{6}$ 或者 $\\varphi_{a} = -\\frac{5\\pi}{6}$（由图中运动方向舍去），$\\varphi_{b} = \\frac{\\pi}{3}$ 或者 $\\varphi_{b} = \\frac{2\\pi}{3}$\n\n当第二次经过 B 点时 $\\varphi_{b} = \\frac{2\\pi}{3}$，则\n\n$\\frac{\\frac{2}{3}\\pi - \\left(-\\frac{\\pi}{6}\\right)}{2\\pi}T = t$\n\n解得 $T = \\frac{12}{5}t$\n\n此时位移关系为 $\\frac{\\sqrt{3}}{2}A + \\frac{1}{2}A = L$\n\n解得 $A = \\frac{2L}{\\sqrt{3} + 1}$\n\nC 正确 D 错误；\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q11",
+      "number": 11,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "电场线"
+      ],
+      "stem_md": "如图所示，正六棱柱上下底面的中心为 O 和 O$'$，A、D 两点分别固定等量异号的点电荷，下列说法正确的是（  ）\n\n![物理配图](assets/2023/physics/山东/11.png)",
+      "figures": [
+        "assets/2023/physics/山东/11.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "F$'$ 点与 C$'$ 点的电场强度大小相等",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "B$'$ 点与 E$'$ 点的电场强度方向相同",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "A$'$ 点与 F$'$ 点的电势差小于 O$'$ 点与 D$'$ 点的电势差",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "将试探电荷 $+ q$ 由 F 点沿直线移动到 O 点，其电势能先增大后减小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "ACD",
+        "choices": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "D．将六棱柱的上表面拿出。由几何条件可知正电荷在 OF 中点 K 的场强方向垂直 OF，则 K 点的合场强与 OF 的夹角为锐角，在 F 点的场强和 OF 的夹角为钝角，因此将正电荷从 F 移到 O 点过程中电场力先做负功后做正功，电势能先增大后减小，D 正确；\n\nC．由等量异种电荷的电势分布可知\n\n$\\varphi_{A} = \\varphi > 0$，$\\varphi_{D} = -\\varphi < 0$，$\\varphi_{O} = 0$，$\\varphi_{F} > 0$\n\n因此\n\n$\\varphi_{A'} - \\varphi_{F'} = \\varphi - \\varphi_{F'} < \\varphi_{O'} - \\varphi_{D'} = \\varphi$\n\nC 正确；\n\nAB．由等量异种电荷的对称性可知 F$'$ 和 C$'$ 电场强度大小相等，B$'$ 和 E$'$ 电场强度方向不同，A 正确 B 错误；\n\n故选 ACD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q12",
+      "number": 12,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 350,
+      "topics": [
+        "电磁感应",
+        "双杆问题"
+      ],
+      "stem_md": "足够长 U 形导轨平置在光滑水平绝缘桌面上，宽为 $1 \\,\\mathrm{m}$，电阻不计。质量为 $1 \\,\\mathrm{kg}$、长为 $1 \\,\\mathrm{m}$、电阻为 $1 \\,\\Omega$ 的导体棒 MN 放置在导轨上，与导轨形成矩形回路并始终接触良好，Ⅰ 和 Ⅱ 区域内分别存在竖直方向的匀强磁场，磁感应强度分别为 $B_{1}$ 和 $B_{2}$，其中 $B_{1} = 2 \\,\\mathrm{T}$，方向向下。用不可伸长的轻绳跨过固定轻滑轮将导轨 CD 段中点与质量为 $0.1 \\,\\mathrm{kg}$ 的重物相连，绳与 CD 垂直且平行于桌面。如图所示，某时刻 MN、CD 同时分别进入磁场区域 Ⅰ 和 Ⅱ 并做匀速直线运动，MN、CD 与磁场边界平行。MN 的速度 $v_{1} = 2 \\,\\mathrm{m}/\\mathrm{s}$，CD 的速度为 $v_{2}$ 且 $v_{2} > v_{1}$，MN 和导轨间的动摩擦因数为 0.2。重力加速度大小取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$，下列说法正确的是（  ）\n\n![物理配图](assets/2023/physics/山东/12.png)",
+      "figures": [
+        "assets/2023/physics/山东/12.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$B_{2}$ 的方向向上",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$B_{2}$ 的方向向下",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$v_{2} = 5 \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$v_{2} = 3 \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．导轨的速度 $v_{2} > v_{1}$，因此对导体棒受力分析可知导体棒受到向右的摩擦力以及向左的安培力，摩擦力大小为 $f = \\mu mg = 2 \\,\\mathrm{N}$\n\n导体棒的安培力大小为 $F_{1} = f = 2 \\,\\mathrm{N}$\n\n由左手定则可知导体棒的电流方向为 N$\\to$M$\\to$D$\\to$C$\\to$N，导体框受到向左的摩擦力，向右的拉力和向右的安培力，安培力大小为 $F_{2} = f - m_{0}g = 1 \\,\\mathrm{N}$\n\n由左手定则可知 $B_{2}$ 的方向为垂直直面向里，A 错误 B 正确；\n\nCD．对导体棒分析 $F_{1} = B_{1}IL$\n\n对导体框分析 $F_{2} = B_{2}IL$\n\n电路中的电流为 $I = \\frac{B_{1}Lv_{1} - B_{2}Lv_{2}}{r}$\n\n联立解得 $v_{2} = 3 \\,\\mathrm{m}/\\mathrm{s}$\n\nC 错误 D 正确；\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q13",
+      "number": 13,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "验证玻意耳定律"
+      ],
+      "stem_md": "利用图 [2023山东13a]所示实验装置可探究等温条件下气体压强与体积的关系。将带有刻度的注射器竖直固定在铁架台上，注射器内封闭一定质量的空气，下端通过塑料管与压强传感器相连。活塞上端固定一托盘，托盘中放入砝码，待气体状态稳定后，记录气体压强 $p$ 和体积 $V$（等于注射器示数 $V_{0}$ 与塑料管容积 $\\Delta V$ 之和），逐次增加砝码质量，采集多组数据并作出拟合曲线如图 [2023山东13b]所示。\n\n回答以下问题：\n\n（1）在实验误差允许范围内，图 [2023山东13b]中的拟合曲线为一条过原点的直线，说明在等温情况下，一定质量的气体 ______ 。\n\n\tA．$p$ 与 $V$ 成正比    B．$p$ 与 $\\frac{1}{V}$ 成正比\n（2）若气体被压缩到 $V = 10.0 \\,\\mathrm{mL}$，由图 [2023山东13b]可读出封闭气体压强为 ______  $\\,\\mathrm{Pa}$（保留 3 位有效数字）。\n（3）某组同学进行实验时，一同学在记录数据时漏掉了 $\\Delta V$，则在计算 $pV$ 乘积时，他的计算结果与同组正确记录数据同学的计算结果之差的绝对值会随 $p$ 的增大而 ______ （填“增大”或“减小”）。\n\n![物理配图](assets/2023/physics/山东/13a.png) ![物理配图](assets/2023/physics/山东/13b.png)",
+      "figures": [
+        "assets/2023/physics/山东/13a.png",
+        "assets/2023/physics/山东/13b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）B\n（2）$204\\times10^{3}$\n（3）增大",
+        "sub_answers": [
+          "B",
+          "$204\\times10^{3}$",
+          "增大"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）在实验误差允许范围内，图乙中的拟合曲线为一条过原点的直线，说明在等温情况下，一定质量的气体，$p$ 与 $\\frac{1}{V}$ 成正比。\n\n故选 B。\n\n（2）若气体被压缩到 $V = 10.0 \\,\\mathrm{mL}$，则有 $\\frac{1}{V} = 100\\times10^{-3} \\,\\mathrm{mL}^{-1}$\n\n由图乙可读出封闭气体压强为\n\n$p = 204\\times10^{3} \\,\\mathrm{Pa}$\n\n（3）某组同学进行实验时，一同学在记录数据时漏掉了 $\\Delta V$，则在计算 $pV$ 乘积时，根据\n\n$p(V_{0} + \\Delta V) - pV_{0} = p\\Delta V$\n\n可知他的计算结果与同组正确记录数据同学的计算结果之差的绝对值会随 $p$ 的增大而增大。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q14",
+      "number": 14,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "电路",
+        "电容"
+      ],
+      "stem_md": "电容储能已经在电动汽车，风、光发电、脉冲电源等方面得到广泛应用。某同学设计图 [2023山东14a]所示电路，探究不同电压下电容器的充、放电过程，器材如下：\n\n电容器 $C$（额定电压 $10 \\,\\mathrm{V}$，电容标识不清）；\n\n电源 $E$（电动势 $12 \\,\\mathrm{V}$，内阻不计）；\n\n电阻箱 $R_{1}$（阻值 $0 \\sim 99999.9 \\,\\Omega$）；\n\n滑动变阻器 $R_{2}$（最大阻值 $20 \\,\\Omega$，额定电流 $2 \\,\\mathrm{A}$）；\n\n电压表 V（量程 $15 \\,\\mathrm{V}$，内阻很大）；\n\n发光二极管 D$_{1}$、D$_{2}$，开关 S$_{1}$、S$_{2}$，电流传感器，计算机，导线若干。\n\n回答以下问题：\n\n（1）按照图 [2023山东14a]连接电路，闭合开关 S$_{1}$，若要升高电容器充电电压，滑动变阻器滑片应向 ______ 端滑动（填“a”或“b”）。\n（2）调节滑动变阻器滑片位置，电压表表盘如图 [2023山东14b]所示，示数为 ______  $\\,\\mathrm{V}$（保留 1 位小数）。\n（3）继续调节滑动变阻器滑片位置，电压表示数为 $8.0 \\,\\mathrm{V}$ 时，开关 S$_{2}$ 掷向 1，得到电容器充电过程的 $I - t$ 图像，如图 [2023山东14c]所示。借鉴“用油膜法估测油酸分子的大小”实验中估算油膜面积的方法，根据图像可估算出充电结束后，电容器存储的电荷量为 ______  $\\,\\mathrm{C}$（结果保留 2 位有效数字）。\n（4）本电路中所使用电容器的电容约为 ______  $\\,\\mathrm{F}$（结果保留 2 位有效数字）。\n（5）电容器充电后，将开关 S$_{2}$ 掷向 2，发光二极管 ______ （填“D$_{1}$”或“D$_{2}$”）闪光。\n\n![物理配图](assets/2023/physics/山东/14a.png) ![物理配图](assets/2023/physics/山东/14b.png) ![物理配图](assets/2023/physics/山东/14c.png)",
+      "figures": [
+        "assets/2023/physics/山东/14a.png",
+        "assets/2023/physics/山东/14b.png",
+        "assets/2023/physics/山东/14c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）b\n（2）6.5\n（3）$3.5\\times10^{-3}$\n（4）$4.4\\times10^{-4}$\n（5）D$_{1}$",
+        "sub_answers": [
+          "b",
+          "6.5",
+          "$3.5\\times10^{-3}$",
+          "$4.4\\times10^{-4}$",
+          "D$_{1}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）滑动变阻器分压式接法，故向 b 端滑动充电电压升高；\n\n（2）量程 $15 \\,\\mathrm{V}$，每个小格 $0.5 \\,\\mathrm{V}$，$\\frac{1}{5}$ 估读，故 $6.5 \\,\\mathrm{V}$；\n\n（3）$I - t$ 图像所围的面积，等于电容器存储的电荷量，35 个小格，故电容器存储的电荷量为 $3.5\\times10^{-3} \\,\\mathrm{C}$；\n\n（4）由电容的定义式 $C = \\frac{Q}{U}$ 得：$C = 4.4\\times10^{-4} \\,\\mathrm{C}$；\n\n（5）开关 S$_{2}$ 掷向 2，电容器放电，故 D$_{1}$ 闪光。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "斜抛运动"
+      ],
+      "stem_md": "电磁炮灭火消防车（图 [2023山东15a]）采用电磁弹射技术投射灭火弹进入高层建筑快速灭火。电容器储存的能量通过电磁感应转化成灭火弹的动能，设置储能电容器的工作电压可获得所需的灭火弹出膛速度。如图 [2023山东15b]所示，若电磁炮正对高楼，与高楼之间的水平距离 $L = 60 \\,\\mathrm{m}$，灭火弹出膛速度 $v_{0} = 50 \\,\\mathrm{m}/\\mathrm{s}$，方向与水平面夹角 $\\theta = 53{}^\\circ$，不计炮口离地面高度及空气阻力，取重力加速度大小 $g = 10 \\,\\mathrm{m}/\\mathrm{s}^2$，$\\sin 53{}^\\circ = 0.8$。\n\n（1）求灭火弹击中高楼位置距地面的高度 $H$；\n（2）已知电容器储存的电能 $E = \\frac{1}{2}CU^{2}$，转化为灭火弹动能的效率 $\\eta = 15\\%$，灭火弹的质量为 $3 \\,\\mathrm{kg}$，电容 $C = 2.5\\times10^{4} \\,\\mu\\mathrm{F}$，电容器工作电压 $U$ 应设置为多少？\n\n![物理配图](assets/2023/physics/山东/15a.jpg) ![物理配图](assets/2023/physics/山东/15b.png)",
+      "figures": [
+        "assets/2023/physics/山东/15a.jpg",
+        "assets/2023/physics/山东/15b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$60 \\,\\mathrm{m}$\n（2）$U = 1000\\sqrt{2} \\,\\mathrm{V}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）灭火弹做斜向上抛运动，则水平方向上有 $L = v_{0}\\cos\\theta\\cdot t$\n\n竖直方向上有 $H = v_{0}\\sin\\theta\\cdot t - \\frac{1}{2}gt^{2}$\n\n代入数据联立解得 $H = 60 \\,\\mathrm{m}$\n\n（2）根据题意可知 $E_{k} = \\eta E = 15\\%\\times\\frac{1}{2}CU^{2}$\n\n又因为 $E_{k} = \\frac{1}{2}mv_{0}^{2}$\n\n联立可得 $U = 1000\\sqrt{2} \\,\\mathrm{V}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q16",
+      "number": 16,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "一种反射式光纤位移传感器可以实现微小位移测量，其部分原理简化如图所示。两光纤可等效为圆柱状玻璃丝 M、N，相距为 $d$，直径均为 $2a$，折射率为 $n$（$n < \\sqrt{2}$）。M、N 下端横截面平齐且与被测物体表面平行。激光在 M 内多次全反射后从下端面射向被测物体，经被测物体表面镜面反射至 N 下端面，N 下端面被照亮的面积与玻璃丝下端面到被测物体距离有关。\n\n（1）从 M 下端面出射的光与竖直方向的最大偏角为 $\\theta$，求 $\\theta$ 的正弦值；\n（2）被测物体自上而下微小移动，使 N 下端面从刚能接收反射激光到恰好全部被照亮，求玻璃丝下端面到被测物体距离 $b$ 的相应范围（只考虑在被测物体表面反射一次的光线）。\n\n![物理配图](assets/2023/physics/山东/16.png)",
+      "figures": [
+        "assets/2023/physics/山东/16.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\sin\\theta = \\sqrt{n^{2} - 1}$\n（2）$\\frac{d}{2}\\sqrt{\\frac{2 - n^{2}}{n^{2} - 1}} < b < \\frac{d + 2a}{2}\\sqrt{\\frac{2 - n^{2}}{n^{2} - 1}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题意可知当光在两侧刚好发生全反射时从 M 下端面出射的光与竖直方向夹角最大，设光在 M 下端与竖直方向的偏角为 $\\alpha$，此时\n\n$\\sin C = \\frac{1}{n} = \\cos \\alpha$\n\n可得 $\\sin \\alpha = \\sqrt{1 - \\frac{1}{n^{2}}}$\n\n又因为 $n = \\frac{\\sin \\theta}{\\sin \\alpha}$\n\n所以 $\\sin\\theta = n\\sin\\alpha = \\sqrt{n^{2} - 1}$\n\n（2）根据题意要使 N 下端面从刚能接收反射激光到恰好全部被照亮，光路图如图所示。则玻璃丝下端面到被测物体距离 $b$ 的相应范围应该为 $b_{1} < b < b_{2}$\n\n![物理配图](assets/2023/physics/山东/16_an.png)\n\n当距离最近时有\n\n$\\tan\\theta=\\frac{\\frac{d}{2}}{b_{1}}$\n\n当距离最远时有\n\n$\\tan\\theta=\\frac{\\frac{d+2a}{2}}{b_{2}}$\n\n根据（1）可知 $\\tan\\theta=\\sqrt{\\frac{n^{2}-1}{2-n^{2}}}$\n\n联立可得 $b_{1}=\\frac{d}{2}\\sqrt{\\frac{2-n^{2}}{n^{2}-1}}$，$b_{2}=\\frac{d+2a}{2}\\sqrt{\\frac{2-n^{2}}{n^{2}-1}}$\n\n所以满足条件的范围为 $\\frac{d}{2}\\sqrt{\\frac{2-n^{2}}{n^{2}-1}} < b < \\frac{d+2a}{2}\\sqrt{\\frac{2-n^{2}}{n^{2}-1}}$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/山东/16_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q17",
+      "number": 17,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 14,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在组合场中的运动"
+      ],
+      "stem_md": "如图所示，在 $0 \\leq x \\leq 2d$，$0 \\leq y \\leq 2d$ 的区域中，存在沿 $y$ 轴正方向、场强大小为 $E$ 的匀强电场，电场的周围分布着垂直纸面向外的恒定匀强磁场。一个质量为 $m$，电量为 $q$ 的带正电粒子从 OP 中点 A 进入电场（不计粒子重力）。\n\n（1）若粒子初速度为零，粒子从上边界垂直 QN 第二次离开电场后，垂直 NP 再次进入电场，求磁场的磁感应强度 $B$ 的大小；\n（2）若改变电场强度大小，粒子以一定的初速度从 A 点沿 $y$ 轴正方向第一次进入电场、离开电场后从 P 点第二次进入电场，在电场的作用下从 Q 点离开。\n\t\n  （i）求改变后电场强度 $E'$ 的大小和粒子的初速度 $v_{0}$；\n  （ii）通过计算判断粒子能否从 P 点第三次进入电场。\n\n![物理配图](assets/2023/physics/山东/17.svg)",
+      "figures": [
+        "assets/2023/physics/山东/17.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$B = 6\\sqrt{\\frac{mE}{qd}}$\n（2）（i）$v_{0} = 9\\sqrt{\\frac{qEd}{m}}$，$E' = 36E$\n  （ii）不会"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题意粒子在电场中做匀加速直线运动，根据动能定理有\n\n$qE \\cdot 2d = \\frac{1}{2}mv^{2}$\n\n粒子在磁场中做匀速圆周运动，有 $qvB = m\\frac{v^{2}}{R}$\n\n粒子从上边界垂直 QN 第二次离开电场后，垂直 NP 再次进入电场，轨迹如图。\n\n![物理配图](assets/2023/physics/山东/17_an1.png)\n\n注意：此图中虚线区域内没有磁场，它画错了。\n\n根据几何关系可知 $R=\\frac{d}{3}$\n\n联立可得 $B = 6\\sqrt{\\frac{mE}{qd}}$\n\n（2）（i）由题意可知，做出粒子在电场和磁场中运动轨迹如图\n\n![物理配图](assets/2023/physics/山东/17_an2.png)\n\n注意：此图中虚线区域内没有磁场，它画错了。\n\n在磁场中做匀速圆周运动，根据几何关系可知\n\n$R_{1}^{2}=(2d)^{2}+(R_{1}-d)^{2}$\n\n解得 $R_{1}=\\frac{5}{2}d$\n\n所以有 $\\theta = 53{}^\\circ$，$\\alpha = 37{}^\\circ$\n\n洛伦兹力提供向心力\n\n$qv_{1}B=m\\frac{v_{1}^{2}}{R_{1}}$\n\n带电粒子从 A 点开始做匀加速直线运动，根据动能定理有\n\n$qE' \\cdot 2d = \\frac{1}{2}mv_{1}^{2} - \\frac{1}{2}mv_{0}^{2}$\n\n再一次进入电场后做类似斜抛运动，沿 x 方向有\n\n$2d = v_{1} \\cos \\alpha \\cdot t$\n\n沿 y 方向上有 $2d = v_{1} \\sin \\alpha \\cdot t + \\frac{1}{2}at^{2}$\n\n其中根据牛顿第二定律有 $qE' = ma$\n\n联立以上各式解得 $v_{1}=15\\sqrt{\\frac{qEd}{m}}$，$v_{0}=9\\sqrt{\\frac{qEd}{m}}$\n\n$E' = 36E$\n\n（ii）粒子从 P 到 Q 根据动能定理有\n\n$qE' \\cdot 2d = \\frac{1}{2}mv_{2}^{2} - \\frac{1}{2}mv_{1}^{2}$\n\n可得从 Q 射出时的速度为\n\n$v_{2}=3\\sqrt{41}\\frac{qEd}{m}$\n\n此时粒子在磁场中的半径\n\n$R_{2}=\\frac{mv_{2}}{qB}=\\frac{\\sqrt{41}}{2}d$\n\n根据其几何关系可知对应的圆心坐标为 $x = \\frac{5}{2}d$，$y = 4d$\n\n而圆心与 P 的距离为\n\n$l=\\sqrt{\\left(\\frac{5}{2}d-2d\\right)^{2}+\\left(4d-0\\right)^{2}}=\\frac{\\sqrt{65}}{2}d\\neq R_{2}$\n\n故不会再从 P 点进入电场。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/山东/17_an1.png",
+        "assets/2023/physics/山东/17_an2.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-山东-q18",
+      "number": 18,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 250,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图所示，物块 A 和木板 B 置于水平地面上，固定光滑弧形轨道末端与 B 的上表面所在平面相切，竖直挡板 P 固定在地面上。作用在 A 上的水平外力，使 A 与 B 以相同速度 $v_{0}$ 向右做匀速直线运动。当 B 的左端经过轨道末端时，从弧形轨道某处无初速度下滑的滑块 C 恰好到达最低点，并以水平速度 $v$ 滑上 B 的上表面，同时撤掉外力，此时 B 右端与 P 板的距离为 $s$。已知 $v_{0} = 1 \\,\\mathrm{m}/\\mathrm{s}$，$v = 4 \\,\\mathrm{m}/\\mathrm{s}$，$m_{A} = m_{C} = 1 \\,\\mathrm{kg}$，$m_{B} = 2 \\,\\mathrm{kg}$，A 与地面间无摩擦，B 与地面间动摩擦因数 $\\mu_{1} = 0.1$，C 与 B 间动摩擦因数 $\\mu_{2} = 0.5$，B 足够长，使得 C 不会从 B 上滑下。B 与 P、A 的碰撞均为弹性碰撞，不计碰撞时间，取重力加速度大小 $g = 10 \\,\\mathrm{m}/\\mathrm{s}^2$。\n\n（1）求 C 下滑的高度 $H$；\n（2）与 P 碰撞前，若 B 与 C 能达到共速，且 A、B 未发生碰撞，求 $s$ 的范围；\n（3）若 $s = 0.48 \\,\\mathrm{m}$，求 B 与 P 碰撞前，摩擦力对 C 做的功 $W$；\n（4）若 $s = 0.48 \\,\\mathrm{m}$，自 C 滑上 B 开始至 A、B、C 三个物体都达到平衡状态，求这三个物体总动量的变化量 $\\Delta p$ 的大小。\n\n![物理配图](assets/2023/physics/山东/18.png)",
+      "figures": [
+        "assets/2023/physics/山东/18.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$H = 0.8 \\,\\mathrm{m}$\n（2）$0.625 \\,\\mathrm{m} \\leq s \\leq 1.707 \\,\\mathrm{m}$\n（3）$- 6 \\,\\mathrm{J}$\n（4）$9.02 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题意可知滑块 C 静止滑下过程根据动能定理有\n\n$m_{C}gH=\\frac{1}{2}m_{C}v^{2}$\n\n代入数据解得 $H = 0.8 \\,\\mathrm{m}$\n\n（2）滑块 C 刚滑上 B 时可知 C 受到水平向左的摩擦力，为 $f_{2} = \\mu_{2} m_{C} g$\n\n木板 B 受到 C 的摩擦力水平向右，为 $f_{2}' = \\mu_{2} m_{C} g$\n\nB 受到地面的摩擦力水平向左，为 $f_{1} = \\mu_{1} (m_{C} + m_{B}) g$\n\n所以滑块 C 的加速度为\n\n$a_{C}=\\frac{\\mu_{2}m_{C}g}{m_{C}}=\\mu_{2}g=5 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n木板 B 的加速度为\n\n$a_{B}=\\frac{\\mu_{2}m_{C}g-\\mu_{1}(m_{C}+m_{B})g}{m_{B}}=1 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n设经过时间 $t_{1}$，B 和 C 共速，有 $4 - 5 \\times t_{1} = 1 + 1 \\times t_{1}$\n\n代入数据解得 $t_{1}=0.5 \\,\\mathrm{s}$\n\n木板 B 的位移\n\n$S_{B1}=1\\times0.5+\\frac{1}{2}\\times1\\times0.5^{2}=0.625 \\,\\mathrm{m}$\n\n共同的速度 $v_{\\text{共}1}=1+1\\times0.5 \\,\\mathrm{m}/\\mathrm{s}=1.5 \\,\\mathrm{m}/\\mathrm{s}$\n\n此后 B 和 C 共同减速，加速度大小为\n\n$a_{BC}=\\frac{\\mu_{1}(m_{B}+m_{C})g}{m_{B}+m_{C}}=1 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n设再经过 $t_{2}$ 时间，物块 A 恰好追上木板 B，有\n\n$0.625+\\left(1.5t_{2}-\\frac{1}{2}\\times1\\times t_{2}^{2}\\right)=1\\times(0.5+t_{2})$\n\n整理得 $t_{2}^{2}-t_{2}-0.25=0$\n\n解得 $t_{2}=\\frac{1+\\sqrt{2}}{2} \\,\\mathrm{s}$，$t_{2}=\\frac{1-\\sqrt{2}}{2} \\,\\mathrm{s}$（舍去）\n\n此时 B 的位移\n\n$S_{B2}=0.625+\\left(1.5t_{2}-\\frac{1}{2}\\times1\\times t_{2}^{2}\\right)=1\\times(0.5+t_{2})=1+\\frac{\\sqrt{2}}{2}\\approx1.707 \\,\\mathrm{m}$\n\n$v_{\\text{共}2}=v_{\\text{共}1}-a_{BC}\\times t_{2}=1.5-1\\times\\frac{1+\\sqrt{2}}{2} \\,\\mathrm{m}/\\mathrm{s}=\\left(1-\\frac{\\sqrt{2}}{2}\\right) \\,\\mathrm{m}/\\mathrm{s}$\n\n综上可知满足条件的 $s$ 范围为 $0.625 \\,\\mathrm{m} \\leq s \\leq 1.707 \\,\\mathrm{m}$\n\n（3）由于 $s = 0.48 \\,\\mathrm{m} < 0.625 \\,\\mathrm{m}$\n\n所以可知滑块 C 与木板 B 没有共速，对于木板 B，根据运动学公式有\n\n$0.48 = 1 \\times t_{0} + \\frac{1}{2} \\times 1 \\times t_{0}^{2}$\n\n整理后有 $t_{0}^{2} + 2t_{0} - 0.96 = 0$\n\n解得 $t_{0}=0.4 \\,\\mathrm{s}$，$t_{0}'=-2.4 \\,\\mathrm{s}$（舍去）\n\n滑块 C 在这段时间的位移\n\n$s_{C}=4\\times0.4-\\frac{1}{2}\\times5\\times0.4^{2} \\,\\mathrm{m}=1.2 \\,\\mathrm{m}$\n\n所以摩擦力对 C 做的功\n\n$W=-f_{2}s_{C}=-\\mu_{2}m_{C}gs_{C}=-6 \\,\\mathrm{J}$\n\n（4）因为木板 B 足够长，最后的状态一定会是 C 与 B 静止，物块 A 向左匀速运动。木板 B 向右运动 $0.48 \\,\\mathrm{m}$ 时，有\n\n$v_{B0}=1+1\\times0.4 \\,\\mathrm{m}/\\mathrm{s}=1.4 \\,\\mathrm{m}/\\mathrm{s}$，$v_{C0}=4-5\\times0.4 \\,\\mathrm{m}/\\mathrm{s}=2 \\,\\mathrm{m}/\\mathrm{s}$，$s_{A}=1\\times0.4 \\,\\mathrm{m}=0.4 \\,\\mathrm{m}$\n\n此时 A、B 之间的距离为 $s = 0.48 \\,\\mathrm{m} - 0.4 \\,\\mathrm{m} = 0.08 \\,\\mathrm{m}$\n\n由于 B 与挡板发生碰撞不损失能量，故将原速率反弹。接着 B 向左做匀减速运动，可得加速度大小\n\n$a_{B}'=\\frac{\\mu_{2}m_{C}g+\\mu_{1}(m_{B}+m_{C})g}{m_{B}}=4 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n物块 A 和木板 B 相向运动，设经过 $t_{3}$ 时间恰好相遇，则有\n\n$1\\times t_{3}+\\left(1.4t_{3}-\\frac{1}{2}\\times4\\times t_{3}^{2}\\right)=0.08$\n\n整理得 $t_{3}^{2}-1.2t_{3}+0.04=0$\n\n解得 $t_{3}=\\frac{3-2\\sqrt{2}}{5} \\,\\mathrm{s}$，$t_{3}'=\\frac{3+2\\sqrt{2}}{5} \\,\\mathrm{s}$（舍去）\n\n此时有\n\n$v_{B1}=1.4-4\\times\\frac{3-2\\sqrt{2}}{5} \\,\\mathrm{m}/\\mathrm{s}=\\frac{8\\sqrt{2}-5}{5} \\,\\mathrm{m}/\\mathrm{s}$\n\n方向向左；\n\n$v_{C1}=2-5\\times\\frac{3-2\\sqrt{2}}{5} \\,\\mathrm{m}/\\mathrm{s}=\\left(2\\sqrt{2}-1\\right) \\,\\mathrm{m}/\\mathrm{s}$\n\n方向向右。\n\n接着 A、B 发生弹性碰撞，碰前 A 的速度为 $v_{0} = 1 \\,\\mathrm{m}/\\mathrm{s}$，方向向右，以水平向右为正方向，则有\n\n$m_{A} v_{0} + m_{B} \\left(-v_{B1}\\right) = m_{A} v_{A} + m_{B} v_{B}$\n\n$\\frac{1}{2} m_{A} v_{0}^{2} + \\frac{1}{2} m_{B} \\left(-v_{B1}\\right)^{2} = \\frac{1}{2} m_{A} v_{A}^{2} + \\frac{1}{2} m_{B} v_{B}^{2}$\n\n代入数据解得 $v_{A} = -\\frac{32\\sqrt{2} - 25}{15} \\,\\mathrm{m}/\\mathrm{s} \\approx -2.02 \\,\\mathrm{m}/\\mathrm{s}$，$v_{B} = \\frac{15 - 8\\sqrt{2}}{15} \\,\\mathrm{m}/\\mathrm{s} \\approx 0.246 \\,\\mathrm{m}/\\mathrm{s}$\n\n而此时 $v_{C} = v_{C1} = 2 - 5 \\times \\frac{3 - 2\\sqrt{2}}{5} \\,\\mathrm{m}/\\mathrm{s} = \\left(2\\sqrt{2} - 1\\right) \\,\\mathrm{m}/\\mathrm{s} \\approx 1.83 \\,\\mathrm{m}/\\mathrm{s}$\n\n物块 A 向左的速度大于木板 B 和 C 向右的速度，由于摩擦力的作用，最后 B 和 C 静止，A 向左匀速运动，系统的初动量 $p_{\\text{初}} = (m_{A} + m_{B})v_{0} + m_{C}v = 7 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$\n\n末动量 $p_{\\text{末}} = m_{A} v_{A} = -2.02 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$\n\n则整个过程动量的变化量 $\\Delta p = p_{\\text{末}} - p_{\\text{初}} = -9.02 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$\n\n即大小为 $9.02 \\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

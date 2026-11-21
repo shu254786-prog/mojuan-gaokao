@@ -1,0 +1,715 @@
+{
+  "id": "2022-physics-江苏",
+  "year": 2022,
+  "subject": "物理",
+  "region": "江苏卷",
+  "region_key": "江苏",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2022-physics-江苏-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 950,
+      "topics": [
+        "运动和力",
+        "牛顿第二定律"
+      ],
+      "stem_md": "高铁车厢里的水平桌面上放置一本书，书与桌面间的动摩擦因数为 0.4，最大静摩擦力等于滑动摩擦力，取重力加速度 $g = 10\\,\\mathrm{m}/\\mathrm{s}^2$。若书不滑动，则高铁的最大加速度不超过（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$2.0\\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$4.0\\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$6.0\\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$8.0\\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "书放在水平桌面上，若书相对于桌面不滑动，则最大静摩擦力提供加速度 $f_{\\mathrm{m}} = \\mu mg = ma_{\\mathrm{m}}$。\n\n\t解得 $a_{\\mathrm{m}}=\\mu g=4\\,\\mathrm{m}/\\mathrm{s}^2$。\n\n\t书相对高铁静止，故若书不动，高铁的最大加速度为 $4.0\\,\\mathrm{m}/\\mathrm{s}^2$，B 正确，ACD 错误。\n\n\t故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "电路",
+        "电功电功率"
+      ],
+      "stem_md": "如图所示，电路中灯泡均正常发光，阻值分别为 $R_{1} = 2\\,\\Omega$，$R_{2} = 3\\,\\Omega$，$R_{3} = 2\\,\\Omega$，$R_{4} = 4\\,\\Omega$，电源电动势 $E = 12\\,\\mathrm{V}$，内阻不计，四个灯泡中消耗功率最大的是（  ）\n\n![物理配图](assets/2022/physics/江苏/02.png)",
+      "figures": [
+        "assets/2022/physics/江苏/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$R_{1}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$R_{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$R_{3}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$R_{4}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由电路图可知 $R_{3}$ 与 $R_{4}$ 串联后与 $R_{2}$ 并联，再与 $R_{1}$ 串联。并联电路部分的等效电阻为 $R_\\text{并}=\\frac{R_{2}(R_{3}+R_{4})}{R_{2}+R_{3}+R_{4}}=2\\,\\Omega$。\n\n\t由闭合电路欧姆定律可知，干路电流即经过 $R_{1}$ 的电流为 $I_{1}=I=\\frac{E}{R_{1}+R_\\text{并}}=3\\,\\mathrm{A}$。\n\n\t并联部分各支路电流大小与电阻成反比，则 $I_{2}=\\frac{R_{3}+R_{4}}{R_{2}+R_{3}+R_{4}}I=\\frac{1}{2}I=1.5\\,\\mathrm{A}$，$I_{3}=I_{4}=\\frac{R_{2}}{R_{2}+R_{3}+R_{4}}I=\\frac{1}{2}I=1.5\\,\\mathrm{A}$。\n\n\t四个灯泡的实际功率分别为 $P_{1}=I_{1}^{2}R_{1}=18\\,\\mathrm{W}$，$P_{2}=I_{2}^{2}R_{2}=6.75\\,\\mathrm{W}$，$P_{3}=I_{3}^{2}R_{3}=4.5\\,\\mathrm{W}$，$P_{4}=I_{4}^{2}R_{4}=9\\,\\mathrm{W}$。\n\n\t故四个灯泡中功率最大的是 $R_{1}$，A 正确，BCD 错误。\n\n\t故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "磁场",
+        "左手定则"
+      ],
+      "stem_md": "如图所示，两根固定的通电长直导线 a、b 相互垂直，a 平行于纸面，电流方向向右，b 垂直于纸面，电流方向向里，则导线 a 所受安培力方向（  ）\n\n![物理配图](assets/2022/physics/江苏/03.png)",
+      "figures": [
+        "assets/2022/physics/江苏/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "平行于纸面向上",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "平行于纸面向下",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "左半部分垂直纸面向外，右半部分垂直纸面向里",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "左半部分垂直纸面向里，右半部分垂直纸面向外",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据安培定则，可判断出导线 a 左侧部分的空间磁场方向斜向右上，右侧部分的磁场方向斜向下方，根据左手定则可判断出左半部分垂直纸面向外，右半部分垂直纸面向里。\n\n\t\n\n![物理配图](assets/2022/physics/江苏/03_an.png)\n\n\t故 C 正确，ABD 错误。\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/江苏/03_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "光学",
+        "光子说"
+      ],
+      "stem_md": "上海光源通过电子-光子散射使光子能量增加，光子能量增加后（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "频率减小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "波长减小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "动量减小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "速度减小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．根据 $E = h\\nu$ 可知光子的能量增加后，光子的频率增加，又根据 $\\lambda = \\frac{c}{\\nu}$ 可知光子波长减小，故 A 错误，B 正确；\n\n\tCD．根据 $p = \\frac{h}{\\lambda}$ 可知光子的动量增加；又因为光子质量不变，根据 $p = mv$ 可知光子速度增加，故 C 错误，D 错误。\n\n\t故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "电磁感应",
+        "法拉第电磁感应定律"
+      ],
+      "stem_md": "如图所示，半径为 $r$ 的圆形区域内有垂直于纸面的匀强磁场，磁感应强度 $B$ 随时间 $t$ 的变化关系为 $B = B_{0} + kt$，$B_{0}$、$k$ 为常量，则图中半径为 $R$ 的单匝圆形线圈中产生的感应电动势大小为（  ）\n\n![物理配图](assets/2022/physics/江苏/05.png)",
+      "figures": [
+        "assets/2022/physics/江苏/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\pi kr^{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\pi kR^{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\pi B_{0}r^{2}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\pi B_{0}R^{2}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题意可知磁场的变化率为 $\\frac{\\Delta B}{\\Delta t} = \\frac{kt}{t} = k$。\n\n\t根据法拉第电磁感应定律可知 $E = \\frac{\\Delta \\Phi}{\\Delta t} = \\frac{\\Delta B \\pi r^{2}}{\\Delta t} = k \\pi r^{2}$。\n\n\t故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "分子动理论"
+      ],
+      "stem_md": "自主学习活动中，同学们对密闭容器中的氢气性质进行讨论，下列说法中正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "体积增大时，氢气分子的密集程度保持不变",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "压强增大是因为氢气分子之间斥力增大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "因为氢气分子很小，所以氢气在任何情况下均可看成理想气体",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "温度变化时，氢气分子速率分布中各速率区间的分子数占总分子数的百分比会变化",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．密闭容器中的氢气质量不变，分子个数不变，根据 $n=\\frac{N_{0}}{V}$ 可知当体积增大时，单位体积的个数变小，分子的密集程度变小，故 A 错误；\n\n\tB．气体压强产生的原因是大量气体分子对容器壁的持续的、无规则撞击产生的；压强增大并不是因为分子间斥力增大，故 B 错误；\n\n\tC．普通气体在温度不太低，压强不太大的情况下才能看作理想气体，故 C 错误；\n\n\tD．温度是气体分子平均动能的标志，大量气体分子的速率呈现“中间多，两边少”的规律，温度变化时，大量分子的平均速率会变化，即分子速率分布中各速率区间的分子数占总分子数的百分比会变化，故 D 正确。\n\n\t故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "气体图象"
+      ],
+      "stem_md": "如图所示，一定质量的理想气体分别经历 $a \\to b$ 和 $a \\to c$ 两个过程，其中 $a \\to b$ 为等温过程，状态 b、c 的体积相同，则（  ）\n\n![物理配图](assets/2022/physics/江苏/07.png)",
+      "figures": [
+        "assets/2022/physics/江苏/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "状态 a 的内能大于状态 b",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "状态 a 的温度高于状态 c",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$a \\to c$ 过程中气体吸收热量",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$a \\to c$ 过程中外界对气体做正功",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由于 $a \\to b$ 的过程为等温过程，即状态 a 和状态 b 温度相同，分子平均动能相同，对于理想气体状态 a 的内能等于状态 b 的内能，故 A 错误；\n\n\tB．由于状态 b 和状态 c 体积相同，且 $p_{b} < p_{c}$，根据查理定律可知 $T_{b} < T_{c}$，又因为 $T_{a} = T_{b}$，故 $T_{a} < T_{c}$，故 B 错误；\n\n\tCD．因为 $a \\to c$ 过程气体体积增大，气体对外界做正功；而气体温度升高，内能增加，根据 $\\Delta U = W + Q$ 可知气体吸收热量；故 C 正确，D 错误。\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "功和能",
+        "功能中的图象"
+      ],
+      "stem_md": "某滑雪赛道如图所示，滑雪运动员从静止开始沿斜面下滑，经圆弧滑道起跳。将运动员视为质点，不计摩擦力及空气阻力，此过程中，运动员的动能 $E_{k}$ 与水平位移 $x$ 的关系图像正确的是（  ）\n\n![物理配图](assets/2022/physics/江苏/08a.png)",
+      "figures": [
+        "assets/2022/physics/江苏/08a.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2022/physics/江苏/08b.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2022/physics/江苏/08c.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2022/physics/江苏/08d.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2022/physics/江苏/08e.png"
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设斜面倾角为 $\\theta$，不计摩擦力和空气阻力，由题意可知运动员在沿斜面下滑过程中根据动能定理有 $E_{k}=mgx\\tan\\theta$，即 $\\frac{E_{k}}{x}=mg\\tan\\theta$。\n\n\t下滑过程中开始阶段倾角 $\\theta$ 不变，$E_{k}-x$ 图像为一条直线；经过圆弧轨道过程中 $\\theta$ 先减小后增大，即图像斜率先减小后增大。\n\n\t故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q09",
+      "number": 9,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电场",
+        "电场叠加"
+      ],
+      "stem_md": "如图所示，正方形 ABCD 四个顶点各固定一个带正电的点电荷，电荷量相等，O 是正方形的中心，将 A 点的电荷沿 OA 的延长线向无穷远处移动，则（  ）\n\n![物理配图](assets/2022/physics/江苏/09.png)",
+      "figures": [
+        "assets/2022/physics/江苏/09.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在移动过程中，O 点电场强度变小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在移动过程中，C 点的电荷所受静电力变大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在移动过程中，移动的电荷所受静电力做负功",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "当其移动到无穷远处时，O 点的电势高于 A 点",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．O 是等量同种电荷连线的中点，场强为 0，将 A 处的正点电荷沿 OA 方向移至无穷远处，O 点电场强度变大，故 A 不符合题意；\n\n\tB．移动过程中，C 点场强变小，正电荷所受静电力变小，故 B 错误；\n\n\tC．A 点电场方向沿 OA 方向，移动过程中，移动电荷所受静电力做正功，故 C 错误；\n\n\tD．A 点电场方向沿 OA 方向，沿电场线方向电势降低，移动到无穷远处时，O 点的电势高于 A 点电势，故 D 正确。\n\n\t故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q10",
+      "number": 10,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "变加速直线运动"
+      ],
+      "stem_md": "如图所示，轻质弹簧一端固定，另一端与物块 A 连接在一起，处于压缩状态，A 由静止释放后沿斜面向上运动到最大位移时，立即将物块 B 轻放在 A 右侧，A、B 由静止开始一起沿斜面向下运动，下滑过程中 A、B 始终不分离，当 A 回到初始位置时速度为零，A、B 与斜面间的动摩擦因数相同、弹簧未超过弹性限度，则（  ）\n\n![物理配图](assets/2022/physics/江苏/10.png)",
+      "figures": [
+        "assets/2022/physics/江苏/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "当上滑到最大位移的一半时，A 的加速度方向沿斜面向下",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "A 上滑时、弹簧的弹力方向不发生变化",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "下滑时，B 对 A 的压力先减小后增大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "整个过程中 A、B 克服摩擦力所做的总功大于 B 的重力势能减小量",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "B．由于 A、B 在下滑过程中不分离，设在最高点的弹力为 $F$，方向沿斜面向下为正方向，斜面倾角为 $\\theta$，A、B 之间的弹力为 $F_{AB}$，动摩擦因数为 $\\mu$，刚下滑时根据牛顿第二定律对 A、B 有 $F + (m_\\text{A} + m_\\text{B})g \\sin \\theta - \\mu (m_\\text{A} + m_\\text{B})g \\cos \\theta = (m_\\text{A} + m_\\text{B})a$。\n\n\t对 B 有 $m_\\text{B}g \\sin \\theta - \\mu m_\\text{B}g \\cos \\theta - F_{AB} = m_\\text{B}a$。\n\n\t联立可得 $\\frac{F}{m_\\text{A} + m_\\text{B}} = -\\frac{F_{AB}}{m_\\text{B}}$。\n\n\t由于 A 对 B 的弹力 $F_{AB}$ 方向沿斜面向上，故可知在最高点 $F$ 的方向沿斜面向上；由于在最开始弹簧弹力也是沿斜面向上的，弹簧一直处于压缩状态，所以 A 上滑时、弹簧的弹力方向一直沿斜面向上，不发生变化，故 B 正确；\n\n\tA．设弹簧原长在 O 点，A 刚开始运动时距离 O 点为 $x_{1}$，A 运动到最高点时距离 O 点为 $x_{2}$；下滑过程 A、B 不分离，则弹簧一直处于压缩状态，上滑过程根据能量守恒定律可得 $\\frac{1}{2}kx_{1}^{2}=\\frac{1}{2}kx_{2}^{2}+(mg\\sin\\theta+f)(x_{1}-x_{2})$。\n\n\t化简得 $k=\\frac{2(mg\\sin\\theta+f)}{x_{1}+x_{2}}$。\n\n\t当位移为最大位移的一半时有 $F_\\text{合}=k\\left(x_{1}-\\frac{x_{1}-x_{2}}{2}\\right)-(mg\\sin\\theta+f)$，带入 $k$ 值可知 $F_\\text{合}=0$，即此时加速度为 0，故 A 错误；\n\n\tC．根据 B 的分析可知 $\\frac{F}{m_\\text{A}+m_\\text{B}}=-\\frac{F_{AB}}{m_\\text{B}}$。再结合 B 选项的结论可知下滑过程中 $F$ 向上且逐渐变大，则下滑过程 $F_{AB}$ 逐渐变大，根据牛顿第三定律可知 B 对 A 的压力逐渐变大，故 C 错误；\n\n\tD．整个过程中弹力做的功为 0，A 重力做的功为 0，当 A 回到初始位置时速度为零，根据功能关系可知整个过程中 A、B 克服摩擦力所做的总功等于 B 的重力势能减小量，故 D 错误。\n\n\t故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 15,
+      "difficulty": 450,
+      "topics": [
+        "直线运动",
+        "自由落体运动"
+      ],
+      "stem_md": "小明利用手机测量当地的重力加速度，实验场景如图 [2022江苏11a] 所示，他将一根木条平放在楼梯台阶边缘，小球放置在木条上，打开手机的“声学秒表”软件，用钢尺水平击打木条使其转开后、小球下落撞击地面，手机接收到钢尺的击打声开始计时，接收到小球落地的撞击声停止计时，记录下击打声与撞击声的时间间隔 $t$，多次测量不同台阶距离地面的高度 $h$ 及对应的时间间隔 $t$。\n\n（1）现有以下材质的小球，实验中应当选用  ______ 。\n\n\tA．钢球    B．乒乓球    C．橡胶球\n（2）用分度值为 $1\\,\\mathrm{mm}$ 的刻度尺测量某级台阶高度 $h$ 的示数如图 [2022江苏11b] 所示，则 $h =$  ______  $\\,\\mathrm{cm}$。\n（3）作出 $2h - t^{2}$ 图线，如图 [2022江苏11c] 所示，则可得到重力加速度 $g =$  ______  $\\,\\mathrm{m}/\\mathrm{s}^2$。\n（4）在图 [2022江苏11a] 中，将手机放在木条与地面间的中点附近进行测量，若将手机放在地面 A 点，设声速为 $v$，考虑击打声的传播时间，则小球下落时间可表示为 $t' =$  ______ （用 $h$、$t$ 和 $v$ 表示）。\n（5）有同学认为，小明在实验中未考虑木条厚度，用图像法计算的重力加速度 $g$ 必然有偏差。请判断该观点是否正确，简要说明理由  ______ 。\n\n![物理配图](assets/2022/physics/江苏/11a.png) ![物理配图](assets/2022/physics/江苏/11b.png) ![物理配图](assets/2022/physics/江苏/11c.png)",
+      "figures": [
+        "assets/2022/physics/江苏/11a.png",
+        "assets/2022/physics/江苏/11b.png",
+        "assets/2022/physics/江苏/11c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）A\n（2）61.30\n（3）9.55\n（4）$t + \\frac{h}{v}$\n（5）不正确。设木条厚度为 $H$，则台阶距离地面的高度 $h_{1}$ 时的时间为 $t_{1}$，高度 $h_{2}$ 时的时间为 $t_{2}$；则有 $g = \\frac{2(h_{2} - h_{1})}{t_{2}^{2} - t_{1}^{2}}$，可知与 $H$ 无关。",
+        "sub_answers": [
+          "A",
+          "61.30",
+          "9.55",
+          "$t + \\frac{h}{v}$",
+          "不正确。设木条厚度为 $H$，则台阶距离地面的高度 $h_{1}$ 时的时间为 $t_{1}$，高度 $h_{2}$ 时的时间为 $t_{2}$；则有 $g = \\frac{2(h_{2} - h_{1})}{t_{2}^{2} - t_{1}^{2}}$，可知与 $H$ 无关"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）为了减小空气阻力等误差影响，应该选用材质密度较大的小钢球，故选 A。\n（2）刻度尺的分度值为 $1\\,\\mathrm{mm}$，估读到分度值的下一位，由图可知 $h = 61.30\\,\\mathrm{cm}$。\n（3）根据 $h=\\frac{1}{2}gt^{2}$ 可知 $\\frac{2h}{t^{2}}=g$，故在 $2h - t^{2}$ 图像中斜率表示重力加速度，则根据图线有 $g=\\frac{3.27-0.50}{0.35-0.06}\\,\\mathrm{m}/\\mathrm{s}^2\\approx 9.55\\,\\mathrm{m}/\\mathrm{s}^2$。\n（4）下落过程中声音传播的时间为 $t_{1}=\\frac{h}{v}$，则小球下落的时间为 $t' = t + t_{1} = t + \\frac{h}{v}$。\n（5）设木条厚度为 $H$，则台阶距离地面的高度 $h_{1}$ 时的时间为 $t_{1}$，高度 $h_{2}$ 时的时间为 $t_{2}$；则根据前面的分析有 $g=\\frac{2(h_{2}+H)-2(h_{1}+H)}{t_{2}^{2}-t_{1}^{2}}=\\frac{2(h_{2}-h_{1})}{t_{2}^{2}-t_{1}^{2}}$，可知与 $H$ 无关。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 8,
+      "difficulty": 650,
+      "topics": [
+        "光学",
+        "光的折射"
+      ],
+      "stem_md": "如图所示，两条距离为 $D$ 的平行光线，以入射角 $\\theta$ 从空气射入平静水面，反射光线与折射光线垂直，求：\n\n（1）水的折射率 $n$；\n（2）两条折射光线之间的距离 $d$。\n\n![物理配图](assets/2022/physics/江苏/12.png)",
+      "figures": [
+        "assets/2022/physics/江苏/12.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\tan\\theta$\n（2）$D\\tan\\theta$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）设折射角为 $\\gamma$，根据几何关系可得 $\\gamma = 90{}^\\circ - \\theta$，根据折射定律可得 $n=\\frac{\\sin\\theta}{\\sin\\gamma}$，联立可得 $n = \\tan \\theta$。\n（2）如图所示。\n\n\t\n\n![物理配图](assets/2022/physics/江苏/12_an.png)\n\n\t根据几何关系可得 $d=\\frac{D}{\\sin(90{}^\\circ-\\theta)}\\cdot\\sin\\theta=D\\tan\\theta$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/江苏/12_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "利用云室可以知道带电粒子的性质，如图所示，云室中存在磁感应强度大小为 $B$ 的匀强磁场，一个质量为 $m$、速度为 $v$ 的电中性粒子在 A 点分裂成带等量异号电荷的粒子 a 和 b，a、b 在磁场中的径迹是两条相切的圆弧，相同时间内的径迹长度之比 $l_{a}:l_{b} = 3:1$，半径之比 $r_{a}:r_{b} = 6:1$，不计重力及粒子间的相互作用力，求：\n\n（1）粒子 a、b 的质量之比 $m_{a}:m_{b}$；\n（2）粒子 a 的动量大小 $p_{a}$。\n\n![物理配图](assets/2022/physics/江苏/13.png)",
+      "figures": [
+        "assets/2022/physics/江苏/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$2:1$\n（2）$\\frac{6}{7}mv$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）分裂后带电粒子在磁场中偏转做匀速圆周运动，洛伦兹力提供向心力，则有 $qvB = m \\frac{v^{2}}{r}$，解得 $r = \\frac{mv}{qB}$。\n\n\t由题干知半径之比 $r_{a}:r_{b}=6:1$，故 $m_{a}v_{a}:m_{b}v_{b}=6:1$。\n\n\t因为相同时间内的径迹长度之比 $l_{a}:l_{b}=3:1$，则分裂后粒子在磁场中的速度为 $v_{a}:v_{b}=3:1$，联立解得 $m_{a}:m_{b}=2:1$。\n（2）中性粒子在 A 点分裂成带等量异号电荷的粒子 a 和 b，分裂过程中，没有外力作用，动量守恒，根据动量守恒定律 $mv = m_{a}v_{a} + m_{b}v_{b}$。\n\n\t因为分裂后动量关系为 $m_{a}v_{a}:m_{b}v_{b}=6:1$，联立解得 $p_{a}=m_{a}v_{a}=\\frac{6}{7}mv$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 13,
+      "difficulty": 450,
+      "topics": [
+        "曲线运动",
+        "圆周运动的应用"
+      ],
+      "stem_md": "在轨空间站中物体处于完全失重状态，对空间站的影响可忽略，空间站上操控货物的机械臂可简化为两根相连的等长轻质臂杆，每根臂杆长为 $L$，如题图 [2022江苏14a] 所示，机械臂一端固定在空间站上的 O 点，另一端抓住质量为 $m$ 的货物，在机械臂的操控下，货物先绕 O 点做半径为 $2L$、角速度为 $\\omega$ 的匀速圆周运动，运动到 A 点停下，然后在机械臂操控下，货物从 A 点由静止开始做匀加速直线运动，经时间 $t$ 到达 B 点，A、B 间的距离为 $L$。\n\n（1）求货物做匀速圆周运动时受到合力提供的向心力大小 $F_{n}$；\n（2）求货物运动到 B 点时机械臂对其做功的瞬时功率 $P$。\n（3）在机械臂作用下，货物、空间站和地球的位置如题图 [2022江苏14b] 所示，它们在同一直线上，货物与空间站同步做匀速圆周运动，已知空间站轨道半径为 $r$，货物与空间站中心的距离为 $d$，忽略空间站对货物的引力，求货物所受的机械臂作用力与所受的地球引力之比 $F_{1}:F_{2}$。\n\n![物理配图](assets/2022/physics/江苏/14a.png) ![物理配图](assets/2022/physics/江苏/14b.png)",
+      "figures": [
+        "assets/2022/physics/江苏/14a.png",
+        "assets/2022/physics/江苏/14b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$2m\\omega^{2}L$\n（2）$\\frac{4mL^{2}}{t^{3}}$\n（3）$\\frac{r^{3} - (r - d)^{3}}{r^{3}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）质量为 $m$ 的货物绕 O 点做匀速圆周运动，半径为 $2L$，根据牛顿第二定律可知 $F_{n}=m\\omega^{2}\\cdot2L=2m\\omega^{2}L$。\n（2）货物从静止开始以加速度 $a$ 做匀加速直线运动，根据运动学公式可知 $L=\\frac{1}{2}at^{2}$，解得 $a=\\frac{2L}{t^{2}}$，货物到达 B 点时的速度大小为 $v=at=\\frac{2L}{t}$。\n\n\t货物在机械臂的作用下在水平方向上做匀加速直线运动，机械臂对货物的作用力即为货物所受合力 $ma$，所以经过 $t$ 时间，货物运动到 B 点时机械臂对其做功的瞬时功率为 $P = ma v = m \\cdot \\frac{2L}{t^{2}} \\cdot \\frac{2L}{t} = \\frac{4mL^{2}}{t^{3}}$。\n（3）空间站和货物同轴转动，角速度 $\\omega_{0}$ 相同，对质量为 $m_{0}$ 空间站，质量为 $M$ 的地球提供向心力 $G\\frac{Mm_{0}}{r^{2}}=m_{0}\\omega_{0}^{2}r$，解得 $GM = \\omega_{0}^{2} r^{3}$。\n\n\t货物在机械臂的作用力 $F_{1}$ 和万有引力 $F_{2}$ 的作用下做匀速圆周运动，则 $F_{2}-F_{1}=m\\omega_{0}^{2}(r-d)$。\n\n\t货物受到的万有引力 $F_{2}=G\\frac{Mm}{(r-d)^{2}}=\\frac{m\\omega_{0}^{2}r^{3}}{(r-d)^{2}}$，解得机械臂对货物的作用力大小为 $F_{1}=\\frac{m\\omega_{0}^{2}r^{3}}{(r-d)^{2}}-m\\omega_{0}^{2}(r-d)=m\\omega_{0}^{2}\\frac{r^{3}-(r-d)^{3}}{(r-d)^{2}}$，则 $\\frac{F_{1}}{F_{2}} = \\frac{r^{3} - (r - d)^{3}}{r^{3}}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-江苏-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "电场",
+        "带电粒子的偏转"
+      ],
+      "stem_md": "某装置用电场控制带电粒子运动，工作原理如图所示，矩形 ABCD 区域内存在多层紧邻的匀强电场，每层的高度均为 $d$，电场强度大小均为 $E$，方向沿竖直方向交替变化，AB 边长为 $12d$，BC 边长为 $8d$，质量为 $m$、电荷量为 $+q$ 的粒子流从装置左端中点射入电场，粒子初动能为 $E_{k}$，入射角为 $\\theta$，在纸面内运动，不计重力及粒子间的相互作用力。\n\n（1）当 $\\theta = \\theta_{0}$ 时，若粒子能从 CD 边射出，求该粒子通过电场的时间 $t$；\n（2）当 $E_{k} = 4qEd$ 时，若粒子从 CD 边射出电场时与轴线 $OO'$ 的距离小于 $d$，求入射角 $\\theta$ 的范围；\n（3）当 $E_{k} = \\frac{8}{3}qEd$，粒子在 $\\theta$ 为 $-\\frac{\\pi}{2} \\sim \\frac{\\pi}{2}$ 范围内均匀射入电场，求从 CD 边出射的粒子与入射粒子的数量之比 $N:N_{0}$。\n\n![物理配图](assets/2022/physics/江苏/15.png)",
+      "figures": [
+        "assets/2022/physics/江苏/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{8d}{v\\cos\\theta_{0}}\\sqrt{\\frac{m}{2E_{k}}}$\n（2）$-30{}^\\circ < \\theta < 30{}^\\circ$ 或 $-\\frac{\\pi}{6} < \\theta < \\frac{\\pi}{6}$\n（3）$\\frac{90}{37}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）电场方向竖直向上，粒子所受电场力在竖直方向上，粒子在水平方向上做匀速直线运动，速度分解如图所示。\n\n\t\n\n![物理配图](assets/2022/physics/江苏/15_an1.png)\n\n\t粒子在水平方向的速度为 $v_{x}=v\\cos\\theta_{0}$。根据 $E_{k} = \\frac{1}{2} m v^{2}$ 可知 $v = \\sqrt{\\frac{2 E_{k}}{m}}$，解得 $t = \\frac{8d}{v\\cos\\theta_{0}} \\sqrt{\\frac{m}{2E_{k}}}$。\n（2）粒子进入电场时的初动能 $E_{k}=4qEd=\\frac{1}{2}mv_{0}^{2}$。\n\n\t粒子进入电场后只有电场力做功，粒子竖直方向上反复运动后，根据题意可知最终的运动的空间如图所示。\n\n\t\n\n![物理配图](assets/2022/physics/江苏/15_an2.png)\n\n\t若粒子从 $OO'$ 上部分离开 CD 边，则电场力做负功，根据动能定理可知 $-qEx = E_{k1} - E_{k}$。其中 $E_{k1}=\\frac{1}{2}m(v_{y1}^{2}+v_{x1}^{2})$，$E_{k}=\\frac{1}{2}m(v_{y0}^{2}+v_{x0}^{2})$。\n\n\t粒子在水平方向上做匀速直线运动，所以 $v_{x0} = v_{x1}$，竖直方向上 $v_{y0} = v_{0} \\sin \\theta_{1}$，动能定理的方程可化解为 $-qEx = \\frac{1}{2}mv_{y1}^{2} - \\frac{1}{2}mv_{y0}^{2} = \\frac{1}{2}mv_{y1}^{2} - \\frac{1}{2}mv_{0}^{2} \\sin^{2} \\theta_{1}$。\n\n\t当 $v_{y1} = 0$ 时，$x$ 取到最大值，即 $-qEx_{m} = -\\frac{1}{2}mv_{0}^{2} \\sin^{2} \\theta_{1}$，解得粒子在竖直方向上的最大位移为 $x_{m} = 4d \\sin^{2} \\theta_{1}$。\n\n\t根据题意可知 $x_{m} < d$，可知 $\\sin \\theta_{1} < \\frac{1}{2}$，得 $\\theta_{1} < 30{}^\\circ$。\n\n\t粒子在 $OO'$ 上、下部分运动呈现对称性，所以入射角的范围为 $-30{}^\\circ < \\theta < 30{}^\\circ$ 或 $-\\frac{\\pi}{6} < \\theta < \\frac{\\pi}{6}$。\n（3）粒子在水平方向做匀速直线运动，粒子穿过电场所用时间为 $t' = \\frac{8d}{v \\cos \\theta_{2}} \\cdot \\sqrt{\\frac{m}{2E_{k}}} = \\frac{1}{\\cos \\theta_{2}} \\cdot \\sqrt{\\frac{12md}{qE}}$。\n\n\t若粒子恰好能到达 $OO'$ 上方 $5d$ 的位置时速度减小至 0，根据动量定理可知 $-qEt_{1} = 0 - mv_{y1} = 0 - mv_{0} \\sin \\theta_{2} = 0 - \\sqrt{2mE_{k}} \\cdot \\sin \\theta_{2}$，解得 $t_{1} = \\sqrt{\\frac{16md}{qE}} \\cdot \\sin \\theta_{2}$。\n\n\t粒子在竖直方向上再运动 $d$ 的距离恰好从 D 点离开，根据运动学公式可知 $d = \\frac{1}{2} at_{0}^{2}$，解得 $t_{0}=\\sqrt{\\frac{2md}{qE}}$。\n\n\t当 $t_{1} + t_{0} = t$ 时，粒子恰好从 D 点离开，解得 $\\sin \\theta_{2} \\approx 0.6$，则 $\\theta_{2} \\approx 37{}^\\circ$，根据对称性可知粒子入射角的范围为 $-37{}^\\circ < \\theta < 37{}^\\circ$，则从 CD 边出射的粒子与入射粒子的数量之比 $\\frac{N}{N_{0}} \\approx \\frac{90}{37}$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/江苏/15_an1.png",
+        "assets/2022/physics/江苏/15_an2.png"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

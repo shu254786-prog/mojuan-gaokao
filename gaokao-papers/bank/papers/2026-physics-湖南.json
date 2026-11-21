@@ -1,0 +1,727 @@
+{
+  "id": "2026-physics-湖南",
+  "year": 2026,
+  "subject": "物理",
+  "region": "湖南卷",
+  "region_key": "湖南",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2026-physics-湖南-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 950,
+      "topics": [
+        "直线运动",
+        "运动图象"
+      ],
+      "stem_md": "某舰载机起飞时，在第 2 s 内的 $v-t$ 图像如图所示，该段时间内舰载机加速度的大小为 （  ）\n\n![物理配图](assets/2026/physics/湖南/01.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/01.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$10 \\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$20 \\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$30 \\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$40 \\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据加速度的定义式\n$a=\\frac{\\Delta v}{\\Delta t}=\\frac{50-30}{1}\\,\\mathrm{m}/\\mathrm{s}^2=20\\,\\mathrm{m}/\\mathrm{s}^2$\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "原子和原子核",
+        "天然放射性"
+      ],
+      "stem_md": "关于原子核衰变，下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "原子核发生 $\\alpha$ 衰变时，电荷数增大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "原子核发生 $\\alpha$ 衰变时，质量数增大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "衰变产生的 $\\alpha$ 粒子穿透能力强，可以穿透几厘米厚的铅板",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "理论研究表明，\\ce{^{216}_{86}Rn}（氡核）可能在一次衰变过程中放出两个 $\\alpha$ 粒子，则其衰变方程为 \\ce{^{216}_{86}Rn -> 2^{4}_{2}He + ^{208}_{82}Pb}",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．$\\alpha$ 衰变放出的 $\\alpha$ 粒子为 \\ce{^{4}_{2}He}，衰变过程电荷数守恒，因此母核电荷数减少 2，而非增大，故 A 错误；\n\nB．$\\alpha$ 粒子质量数为 4，衰变过程质量数守恒，因此母核质量数减少 4，而非增大，故 B 错误；\n\nC．$\\alpha$ 粒子电离能力强、穿透能力极弱，一张白纸即可将其挡住，穿透能力强、可穿透几厘米厚铅板的是 $\\gamma$ 射线，故 C 错误；\n\nD．衰变方程满足电荷数守恒和质量数守恒：左边电荷数为 86，右边 $2 \\times 2 + 82 = 86$；左边质量数为 216，右边 $2 \\times 4 + 208 = 216$，守恒关系成立，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "天体运动"
+      ],
+      "stem_md": "郭守敬望远镜是我国首个天文领域大科学装置，积累了大量的观测数据。分析观测数据表明，某行星绕一恒星做匀速圆周运动的周期为 $T$，轨道半径为该恒星半径的 $n$ 倍。不考虑其他星体的影响，引力常量为 $G$，则该恒星的平均密度为 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{3\\pi n^{3}}{GT}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{3\\pi}{GT}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{3\\pi n^{3}}{GT^{2}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{3\\pi}{GT^{2}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设恒星半径为 $R$，由题意得行星轨道半径 $r = nR$。\n\n行星绕恒星做匀速圆周运动，万有引力提供向心力，有 $G\\frac{Mm}{r^{2}}=m\\frac{4\\pi^{2}}{T^{2}}r$。\n\n整理得恒星质量 $M=\\frac{4\\pi^{2}r^{3}}{GT^{2}}$。\n\n恒星为均匀球体，体积 $V=\\frac{4}{3}\\pi R^{3}$，平均密度 $\\rho=\\frac{M}{V}$，将 $r=nR$ 代入得\n$\\rho=\\frac{\\frac{4\\pi^{2}(nR)^{3}}{GT^{2}}}{\\frac{4}{3}\\pi R^{3}}=\\frac{3\\pi n^{3}}{GT^{2}}$\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "机械波",
+        "波的多解性"
+      ],
+      "stem_md": "如图，均匀介质中有且仅有一个点波源产生简谐横波在 $xy$ 平面内传播，$A(4, 3)$、$B(4, 0)$ 在 $xy$ 平面内。某时刻，$A$ 处质点位于波峰，$B$ 处质点位于波谷。下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/湖南/04.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/04.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "若波源在 $(0, 0)$ 处，波长可能为 $1 \\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "若波源在 $(0, 0)$ 处，波长可能为 $2 \\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "若波源在 $(0, 3)$ 处，波长可能为 $3 \\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "若波源在 $(0, 3)$ 处，波长可能为 $4 \\,\\mathrm{m}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "已知某时刻 $A$ 处质点位于波峰，$B$ 处质点位于波谷，因此 $A$、$B$ 两点的波程差应满足半波长的奇数倍\n$\\Delta r = \\left(n + \\frac{1}{2}\\right)\\lambda$\n（$n=0, 1, 2, \\cdots$）\n\nAB．若波源在 $(0, 0)$，由坐标可推得 $A$ 点到波源距离 $r_A = \\sqrt{4^2 + 3^2}\\,\\mathrm{m} = 5\\,\\mathrm{m}$\n\n$B$ 点到波源距离 $r_B = 4\\,\\mathrm{m}$\n\n波程差 $\\Delta r = 1\\,\\mathrm{m}$\n\n代入得 $1 = (n + 0.5)\\lambda$\n\n解得 $\\lambda = \\frac{2}{2n + 1}\\,\\mathrm{m}$\n\n当 $\\lambda = 1\\,\\mathrm{m}$ 时，$2n + 1 = 2$，$n = 0.5$（非整数）\n\n当 $\\lambda = 2\\,\\mathrm{m}$ 时，$2n + 1 = 1$，$n = 0$\n\n故 A 错误，故 B 正确；\n\nCD．若波源在 $(0, 3)$，则 $A$ 点到波源距离 $r_{A}^{\\prime}=4\\,\\mathrm{m}$\n\n$B$ 点到波源距离 $r_{B}^{\\prime}=\\sqrt{4^{2}+3^{2}}\\,\\mathrm{m}=5\\,\\mathrm{m}$\n\n波程差仍为 $1\\,\\mathrm{m}$，同样有 $\\lambda=\\frac{2}{2n+1}\\,\\mathrm{m}$\n\n当 $\\lambda = 3\\,\\mathrm{m}$ 时，$2n + 1 = \\frac{2}{3}$，无整数解\n\n当 $\\lambda = 4\\,\\mathrm{m}$ 时，$2n + 1 = 0.5$，无整数解\n\n故 CD 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电路",
+        "闭合电路欧姆定律"
+      ],
+      "stem_md": "如图，电阻 $R$ 的阻值为 $10 \\,\\Omega$，电流表为理想电表，两个电池组完全相同。若将 a、b 端分别接入 d、e 端，电流表示数为 $1.0 \\,\\mathrm{A}$；若将 a、c 端分别接入 d、e 端，电流表示数为 $1.5 \\,\\mathrm{A}$。则单个电池组的电动势和内阻分别为 （  ）\n\n![物理配图](assets/2026/physics/湖南/05.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/05.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$15 \\,\\mathrm{V}$，$5 \\,\\Omega$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$15 \\,\\mathrm{V}$，$10 \\,\\Omega$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$30 \\,\\mathrm{V}$，$5 \\,\\Omega$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$30 \\,\\mathrm{V}$，$10 \\,\\Omega$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设单个电池组的电动势为 $E$，内阻为 $r$，根据闭合电路欧姆定律分两种情况列方程求解：\n\na、b 接 d、e 时：只有单个电池接入电路，根据闭合电路欧姆定律：$E = I_{1}(R + r)$\n\na、c 接 d、e 时：两个电池串联，总电动势为 $2E$，总内阻为 $2r$，同理得：$2E = I_{2}(R + 2r)$\n\n联立解得：$E = 15 \\,\\mathrm{V}$，$r = 5 \\,\\Omega$\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电场",
+        "电势差与电场强度的关系"
+      ],
+      "stem_md": "如图，三个足够大的金属板 A、B、C 平行放置，B 板到 A、C 板的距离分别为 $d_{1}$、$d_{2}$，$d_{1} < d_{2}$。$a$ 点到 A、B 板的距离相等，$b$ 点到 B、C 板的距离相等。A、C 板均接地，B 板带电。关于 $a$、$b$ 两点的电场强度 $E_{a}$、$E_{b}$ 和电势 $\\varphi_{a}$、$\\varphi_{b}$，下列关系正确的是 （  ）\n\n![物理配图](assets/2026/physics/湖南/06.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/06.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$E_{a} > E_{b}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$E_{a} < E_{b}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\varphi_{a} > \\varphi_{b}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\varphi_{a} < \\varphi_{b}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．A、C 板均接地，电势为 0，B 板是等势体，因此\n\nBA 间、BC 间的电势差相等，都等于 $U = \\varphi_{B}$\n\n平行板内部为匀强电场，电场强度满足 $E = \\frac{U}{d}$，已知 $d_1 < d_2$，故 $E_1 > E_2$，故 A 正确，B 错误；\n\nCD．$a$ 点到 A 板的距离为 $\\frac{d_{1}}{2}$，电势 $\\varphi_{a}=E_{a}\\cdot\\frac{d_{1}}{2}=\\frac{U}{d_{1}}\\cdot\\frac{d_{1}}{2}=\\frac{U}{2}$\n\n$b$ 点到 C 板的距离为 $\\frac{d_{2}}{2}$，电势 $\\varphi_{b}=E_{b}\\cdot\\frac{d_{2}}{2}=\\frac{U}{d_{2}}\\cdot\\frac{d_{2}}{2}=\\frac{U}{2}$\n\n因此 $\\varphi_{a} = \\varphi_{b}$，故 CD 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "气体性质",
+        "理想气体状态方程"
+      ],
+      "stem_md": "如图，一心形玩具气球内密封一定质量的理想气体和一个充有同种气体的弹性小气球，心形气球体积始终不变。在心形气球内，小气球内部气体压强大于外部气体压强，整个系统导热良好。初始时，小气球的体积为心形气球体积的一半。当温度缓慢升高时，忽略温度变化对气球材料性质的影响，下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/湖南/07.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/07.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "小气球外部气体压强不变",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "小气球内部气体分子数与外部相等",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "小气球内部气体体积不变",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "小气球内部气体体积变大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设心形气球总体积为 $V$（恒定），小气球体积为 $V_1$，外部气体体积 $V_2 = V - V_1$，小气球内气体物质的量 $n_1$，压强 $p_1$，外部气体物质的量 $n_2$，压强 $p_2$。\n\n由于忽略温度对气球材料性质的影响，弹性气球的压强差 $\\Delta p = p_1 - p_2$ 为恒定值。\n\n根据理想气体状态方程 $pV = nRT$，得：$p_1V_1 = n_1RT$，$p_2V_2 = n_2RT$\n\n$\\Delta p = RT\\left(\\frac{n_1}{V_1} - \\frac{n_2}{V - V_1}\\right)$\n\n整理得：\n\nCD．$\\Delta p$ 为定值，温度 $T$ 升高时，等式要求 $\\left(\\frac{n_{1}}{V_{1}} - \\frac{n_{2}}{V - V_{1}}\\right)$ 减小。而 $\\left(\\frac{n_{1}}{V_{1}} - \\frac{n_{2}}{V - V_{1}}\\right)$ 随 $V_{1}$ 增大单调递减，因此 $V_{1}$（小气球体积）一定变大，故 C 错误，D 正确；\n\nA．温度升高后，小气球体积 $V_{1}$ 增大，因此 $V_{2}=V-V_{1}$ 减小，由 $p_{2}=\\frac{n_{2}RT}{V_{2}}$，$T$ 升高、$V_{2}$ 减小，$p_{2}$ 一定增大，A 错误；\n\nB．初始时 $V_{1}=V_{2}=\\frac{V}{2}$，已知 $p_{1}>p_{2}$，由 $pV=nRT$ 得 $n_{1}>n_{2}$，分子数不相等，故 B 错误。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "热力学第二定律"
+      ],
+      "stem_md": "如图，一块高功率芯片上方紧贴着一个均热板散热器。均热板是一个完全密封的扁平纯铜空腔，空腔内部注有微量的水。在正常工作过程中，水从高温芯片处吸收热量汽化，水蒸气在低温冷凝端放出热量变回液态水，并回流到底部。下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/湖南/08.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/08.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "空腔内高温处所有水分子的运动速率都比低温处水分子的运动速率大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "一定量的水吸收热量变成相同温度的水蒸气，内能变大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "该均热板可以从高温物体吸热，向低温物体放热，不对外界做功",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "该均热板可以从低温物体吸热，向高温物体放热，而不产生其他影响",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．温度是分子平均动能的统计标志，仅反映整体的平均水平，高温处仍存在速率小的水分子，低温处也存在速率大的水分子，并非所有水分子的运动速率都满足高温处大于低温处，故 A 错误；\n\nB．一定量的水变为同温度的水蒸气，温度不变则分子总动能不变。汽化过程吸收热量，且汽化后分子间距大幅增大，分子势能增加，因此总内能变大，故 B 正确；\n\nC．该过程中，均热板从高温的芯片吸热，向低温的冷凝端放热，整个过程循环进行，均热板自身状态复原，不需要对外界做功，仅依靠水传递热量，符合物理规律，故 C 正确；\n\nD．根据热力学第二定律，不可能从低温物体吸热、向高温物体放热，同时不产生其他影响，该描述违反热力学第二定律，故 D 错误。\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 550,
+      "topics": [
+        "力物体的平衡",
+        "多力平衡"
+      ],
+      "stem_md": "如图，某同学将两个相同的球形氦气球用等长的轻绳系在一起，拉着绳使气球随人一起做水平匀速运动。运动过程中，球心始终在绳的延长线上且球心连线水平，两绳所构成的平面与水平面的夹角为 $\\theta$（$\\theta < 90{^\\circ}$），两球间的弹力为 $F$。气球受到空气阻力的大小与相对空气的速率成正比，空气始终相对于地面静止，忽略气球形状的变化。该同学沿原方向运动速度缓慢增大，下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/湖南/09.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/09.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\theta$ 增大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\theta$ 减小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$F$ 增大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$F$ 减小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．根据题意，设每根绳子的拉力为 $T$，两根绳子之间的夹角为 $2\\alpha$，每个气球受到空气阻力 $f = kv$，浮力为 $F_{\\text{浮}}$，对整体受力分析，由平衡条件，竖直方向上有 $2F_{\\text{浮}} = 2G + 2T \\cos \\alpha \\sin \\theta$\n\n水平方向上有 $2kv = 2T \\cos \\alpha \\cos \\theta$\n\n整理可得 $\\tan\\theta=\\frac{F_{\\text{浮}}-G}{kv}$\n\n运动速度缓慢增大，$\\tan\\theta$ 减小，则 $\\theta$ 减小，$T$ 增大，故 A 错误，B 正确；\n\nCD．对单个气球受力分析，由平衡条件有 $T\\sin\\alpha = F$\n\n由于 $\\alpha$ 不变，$T$ 增大，则 $F$ 增大，故 C 正确，D 错误。\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 450,
+      "topics": [
+        "力物体的平衡",
+        "力"
+      ],
+      "stem_md": "某小组设计了一磁悬浮装置。如图，环形通电线圈固定在水平面上，其上方固定一半径为 $R$ 的环形细管道，管道任意处磁场方向与竖直方向夹角为 $45{^\\circ}$。质量为 $m$ 的带正电小球在环形管道中以某一速率做匀速圆周运动，此时小球与管道间无弹力，重力加速度为 $g$。下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/湖南/10.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/10.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "从管道上方俯视，小球沿顺时针方向做圆周运动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "小球做圆周运动的周期为 $\\pi\\sqrt{\\frac{R}{g}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "小球做圆周运动的半个周期内洛伦兹力的冲量大小为 $m\\sqrt{(2 + \\pi^{2})gR}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "若小球的绕行方向不变，速率为其做匀速圆周运动速率的 2 倍，则小球与管道间的弹力大小为 $\\sqrt{5}mg$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据题意可知，小球所受洛伦兹力的水平分力提供小球做圆周运动的向心力，由左手定则可知，从管道上方俯视，小球沿顺时针方向做圆周运动，故 A 正确；\n\nB．设磁感应强度为 $B$，小球的速度为 $v$，此时小球与管道间无弹力，竖直方向上有 $mg = qvB \\cos 45{^\\circ}$\n\n水平方向上有 $qvB \\sin 45{^\\circ} = m \\frac{v^{2}}{R}$\n\n解得 $v = \\sqrt{gR}$\n\n则小球做圆周运动的周期为 $T = \\frac{2\\pi R}{v} = 2\\pi\\sqrt{\\frac{R}{g}}$，故 B 错误；\n\nC．根据题意，水平方向上，由动量定理有 $I_x = \\Delta p = -mv - mv = -2m\\sqrt{gR}$\n\n竖直方向有 $I_y = qvB \\cos 45{^\\circ} \\cdot \\frac{T}{2} = m\\pi\\sqrt{gR}$\n\n则小球做圆周运动的半个周期内洛伦兹力的冲量大小为 $I = \\sqrt{I_x^2 + I_y^2} = m\\sqrt{(4 + \\pi^2)gR}$，故 C 错误；\n\nD．若小球的绕行方向不变，速率为其做匀速圆周运动速率的 2 倍，竖直方向上有 $mg + F_{N_y} = q \\cdot 2vB \\cos 45{^\\circ}$\n\n水平方向上有 $q \\cdot 2vB \\sin 45{^\\circ} + F_{N_x} = m \\frac{(2v)^2}{R}$\n\n小球与管道间的弹力大小 $F_N = \\sqrt{F_{N_y}^2 + F_{N_x}^2}$\n\n联立解得 $F_N = \\sqrt{5}mg$，故 D 正确。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 650,
+      "topics": [
+        "机械振动",
+        "单摆测重力加速度"
+      ],
+      "stem_md": "某同学借助视频分析软件进行“用单摆测量重力加速度”的实验，步骤如下：\n\n（1）准备好单摆，用支架将手机竖直放置。\n（2）打开手机录像，将单摆拉离平衡位置 $4{^\\circ}$ 摆角由静止释放。\n\n回答下列问题：\n\n![物理配图](assets/2026/physics/湖南/11a.svg) ![物理配图](assets/2026/physics/湖南/11b.svg)\n\n（1）将录制的视频导入软件进行分析，得到摆球的 $v-t$ 图像，拟合后如图 [2026湖南11a] 所示，可知此单摆的周期 $T$ 为  ______  $\\mathrm{s}$。\n（2）如图 [2026湖南11b] 所示，用刻度尺测量单摆摆长，该同学将刻度尺竖直放置，刻度尺 0 刻度线与单摆悬点对齐，读出  ______ （填“$a$”“$b$”或“$c$”）位置的读数，该读数即为摆长 $l$。\n（3）重力加速度 $g =$  ______ （用题中给出的字母“$T$”和“$l$”表示）。\n（4）该同学发现所得实验结果小于当地重力加速度，可能的原因是刻度尺 0 刻度线  ______ （填“高于”或“低于”）悬点。",
+      "figures": [
+        "assets/2026/physics/湖南/11a.svg",
+        "assets/2026/physics/湖南/11b.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$0.6\\pi$\n（2）$b$\n（3）$\\frac{4\\pi^{2}l}{T^{2}}$\n（4）低于",
+        "sub_answers": [
+          "$0.6\\pi$",
+          "$b$",
+          "$\\frac{4\\pi^{2}l}{T^{2}}$",
+          "低于"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意，由图 1 可知，单摆的周期 $T$ 为 $0.6\\pi \\,\\mathrm{s}$。\n\n（2）如图 2，用刻度尺测量单摆摆长，该同学将刻度尺竖直放置，刻度尺 0 刻度线与单摆悬点对齐，应读出球心所在位置的读数，即 $b$ 位置的读数，该读数即为摆长 $l$。\n\n（3）由单摆周期公式 $T = 2\\pi\\sqrt{\\frac{l}{g}}$ 可得重力加速度 $g = \\frac{4\\pi^{2}l}{T^{2}}$。\n\n（4）若该同学发现所得实验结果小于当地重力加速度，可知摆长测量值偏小，即刻度尺 0 刻度线低于悬点。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 9,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "霍尔元件"
+      ],
+      "stem_md": "某探究小组用霍尔元件设计了一个测量微小位移的实验装置。\n\n（1）将螺旋测微器通过铜杆连接霍尔元件。霍尔元件伸入两块磁感应强度相同、同极相对放置的磁体间隙中，并处于两磁体中心竖直线上。以中心竖直线为 $z$ 轴，其示意图如图 [2026湖南12a] 所示；霍尔元件上的导线与外部工作电路连接，其示意图如图 [2026湖南12b] 所示。\n\n\t\n\n![物理配图](assets/2026/physics/湖南/12a.svg) ![物理配图](assets/2026/physics/湖南/12b.svg)\n（2）将电压表接在霍尔元件的  ______ （填“a、b”或“c、d”）两端，闭合开关 S，测量其霍尔电压，电压表指针如图 [2026湖南12c] 所示，此时电压为  ______  $\\mathrm{mV}$。\n（3）旋转螺旋测微器的旋钮，使霍尔元件沿 $z$ 轴移动至霍尔电压为 0 处，该处磁感应强度为 0，此时的螺旋测微器读数如图 [2026湖南12d] 所示，该读数为  ______  $\\mathrm{mm}$。\n\n\t\n\n![物理配图](assets/2026/physics/湖南/12c.svg) ![物理配图](assets/2026/physics/湖南/12d.svg)\n（4）保持电流不变，旋转螺旋测微器的旋钮，读出霍尔元件在不同位置的霍尔电压，得到 10 组数据如下表所示。\n\n\t\n\t\n<table class=\"exam-table\"><tr><th>序号</th><th>$z/\\mathrm{mm}$</th><th>$U/\\mathrm{mV}$</th></tr><tr><td>1</td><td>11.670</td><td>9</td></tr><tr><td>2</td><td>11.960</td><td>16</td></tr><tr><td>3</td><td>12.302</td><td>25</td></tr><tr><td>4</td><td>12.633</td><td>35</td></tr><tr><td>5</td><td>12.952</td><td>42</td></tr><tr><td>6</td><td>13.270</td><td>48</td></tr><tr><td>7</td><td>13.594</td><td>57</td></tr><tr><td>8</td><td>13.930</td><td>67</td></tr><tr><td>9</td><td>14.246</td><td>74</td></tr><tr><td>10</td><td>14.585</td><td>81</td></tr></table>\n\n\t\n（5）在图 [2026湖南12e] 中描出第 4、5 组测量数据的坐标点，并作出 $z-U$ 图像。\n\n\t\n\n![物理配图](assets/2026/physics/湖南/12e.svg)\n（6）用此装置测量微小位移。取下螺旋测微器，将待测物体与铜杆连接，待测物体在 $z$ 轴方向移动，其位移与霍尔元件的位移相等。某次测量中待测物体移动前电压表示数为 $20 \\,\\mathrm{mV}$，移动后电压表示数为 $60 \\,\\mathrm{mV}$，根据图像，此过程中物体位移的大小为  ______  $\\mathrm{mm}$（保留 2 位小数）。",
+      "figures": [
+        "assets/2026/physics/湖南/12e.svg",
+        "assets/2026/physics/湖南/12a.svg",
+        "assets/2026/physics/湖南/12b.svg",
+        "assets/2026/physics/湖南/12c.svg",
+        "assets/2026/physics/湖南/12d.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）c、d，$50 \\,\\mathrm{mV}$\n（2）$11.350 \\,\\mathrm{mm}$\n（3）$1.55 \\,\\mathrm{mm}$",
+        "sub_answers": [
+          "c、d",
+          "50",
+          "11.350",
+          "1.55"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）霍尔元件伸入两块磁感应强度相同、同极相对放置的磁体间隙中，并处于两磁体中心竖直线上。\n\n（2）由霍尔效应原理可知，霍尔电压会出现在垂直电流和磁场方向上，结合图 2 可知，将电压表接在霍尔元件的 c、d 两端。\n\n由图 3 可知，电压表的最小刻度为 $2 \\,\\mathrm{mV}$，则此时电压为 $50 \\,\\mathrm{mV}$。\n\n（3）图 4 中螺旋测微器读数为 $11 \\,\\mathrm{mm} + 35.0 \\times 0.01 \\,\\mathrm{mm} = 11.350 \\,\\mathrm{mm}$。\n\n（4）数据如上表所示。\n\n（5）根据表格中数据，在图 5 中描出第 4、5 组测量数据的坐标点，并作出 $z-U$ 图像，如图所示\n\n![物理配图](assets/2026/physics/湖南/12_an.svg)\n\n（6）根据图像可知，电压表示数为 $20 \\,\\mathrm{mV}$ 时，有 $z_{1} = 12.15 \\,\\mathrm{mm}$，移动后电压表示数为 $60 \\,\\mathrm{mV}$ 时，有 $z_{2} = 13.70 \\,\\mathrm{mm}$，则此过程中物体位移的大小为 $z = z_{2} - z_{1} = 1.55 \\,\\mathrm{mm}$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/湖南/12_an.svg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 10,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "车载摄像头需要有较大的拍摄角度。一摄像头由于结构限制，拍摄角度为 $120{^\\circ}$。如图，将摄像头嵌入均匀透明介质，介质截面为矩形。只考虑该截面内光线传播情况，通过空气与介质间界面的折射，可将实际拍摄角度扩大。\n\n（1）若希望几乎贴着介质表面入射的光线 1 能够以图示路径恰好射入摄像头，即拍摄角度扩大为 $180{^\\circ}$，求介质的折射率；\n（2）若介质折射率为 $1.8$，从侧后方向入射的光线 2 能够以图示路径折射之后发生一次全反射，然后恰好射入摄像头，求光线 2 的入射角 $\\theta$ 的正弦值。\n\n![物理配图](assets/2026/physics/湖南/13.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/13.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{2\\sqrt{3}}{3}$\n（2）$0.9$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）如图所示\n\n![物理配图](assets/2026/physics/湖南/13_an.svg)\n\n根据几何关系可知光线 1 的折射角为 $60{^\\circ}$，入射角为 $90{^\\circ}$\n\n可得 $n=\\frac{\\sin 90{^\\circ}}{\\sin 60{^\\circ}}=\\frac{2\\sqrt{3}}{3}$\n\n（2）根据几何关系可得光线 2 在玻璃砖中的折射角为 $\\beta = 30{^\\circ}$\n\n根据折射定律 $n' = \\frac{\\sin \\theta}{\\sin \\beta}$\n\n其中 $n' = 1.8$\n\n解得 $\\sin\\theta = 0.9$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/湖南/13_an.svg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 14,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "电磁感应含容电路"
+      ],
+      "stem_md": "某小组制作了一储能器，其两端电压 $U$ 与其储存的电荷量 $q$ 间的函数关系近似为 $U = kq$（$k$ 为常量）。将该储能器接入如图所示电路，$a$、$b$、$c$ 为固定的三个触点。两足够长的平行金属导轨固定于水平面上，电阻不计，间距为 $L$。导轨间有竖直向下的匀强磁场，磁感应强度为 $B$。质量为 $m$ 的导体棒垂直导轨放置，接入电路的阻值为 $r$。电源电动势为 $E$，内阻不计。定值电阻阻值为 $R$。$t_{0}$ 时刻开关 S 与 a 连接，直到导体棒做匀速运动，再于 $t_{1}$ 时刻切换开关与 b 或 c 连接。运动过程中导体棒与导轨始终垂直且接触良好，忽略摩擦。\n\n（1）求 $t_{0}$ 时刻导体棒加速度 $a_{0}$ 的大小；\n（2）若 $t_{1}$ 时刻开关与 b 连接，储能器接入电路前电压为 0，当储能器电压为 $U_{0}$ 时（此时电路中电流不为 0），求导体棒速度 $v$ 的大小；\n（3）若 $t_{1}$ 时刻开关与 c 连接，求从 $t_{0}$ 时刻起到导体棒静止的过程中，导体棒上产生的焦耳热 $Q$。\n\n![物理配图](assets/2026/physics/湖南/14.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/14.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$a_{0} = \\frac{BEL}{mr}$\n（2）$v = \\frac{E}{BL} - \\frac{BLU_{0}}{mk}$\n（3）$Q = \\frac{(R + 2r)mE^{2}}{2(R + r)B^{2}L^{2}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）$t_{0}$ 时刻开关 S 与 a 连接，流过导体棒的电流 $I = \\frac{E}{r}$\n\n导体棒所受的安培力 $F = BIL$\n\n根据牛顿第二定律 $F = ma_{0}$\n\n联立可得 $a_{0} = \\frac{BEL}{mr}$\n\n（2）当导体棒匀速运动时，导体棒产生的电动势等于电源电动势，设此时导体棒速度为 $v_{0}$，即 $E = BLv_{0}$\n\n当储能器电压为 $U_{0}$ 时（此时电路中电流不为 0），对导体棒根据动量定理有\n$-\\sum BIL \\cdot t = mv - mv_{0}$\n\n又 $q = \\sum I \\cdot t$\n\n可得 $-BLq = mv - mv_{0}$\n\n根据题意 $U = kq$\n\n联立可得 $v = \\frac{E}{BL} - \\frac{BLU_{0}}{mk}$\n\n（3）从 $t_{0} \\sim t_{1}$ 过程对导体棒，根据动量定理 $BIL \\cdot t = mv_{0}$\n\n又 $q' = \\bar{I} \\cdot t$\n\n可得 $q' = \\frac{mE}{B^{2}L^{2}}$\n\n导体棒上产生的焦耳热 $Q_{1} = q_{1}E - \\frac{1}{2}mv_{0}^{2}$\n\n可得 $Q_{1} = \\frac{mE^{2}}{2B^{2}L^{2}}$\n\n从 $t_{1}$ 时刻到导体棒静止过程中，根据能量守恒定律可知电路中产生的焦耳热为 $Q_{\\text{总}} = \\frac{1}{2}mv_{0}^{2}$\n\n导体棒产生的焦耳热为 $Q_{2} = \\frac{r}{R + r} \\cdot Q_{\\text{总}}$\n\n可得 $Q_{2}=\\frac{mrE^{2}}{2(R+r)B^{2}L^{2}}$\n\n从 $t_{0}$ 时刻起到导体棒静止的过程中，导体棒上产生的焦耳热\n$Q=Q_{1}+Q_{2}=\\frac{(R+2r)mE^{2}}{2(R+r)B^{2}L^{2}}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-湖南-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图，长为 $L$ 的轻杆竖直放置，上端固定一质量为 $m$ 的小球，下端连接于水平地面上某固定点，杆可绕该点无摩擦转动。小球内部安装了质量不计的智能弹射装置。受轻微扰动后，小球和杆从静止开始一起运动，当两者间弹力为 0 时，小球脱离轻杆，重力加速度为 $g$，不计空气阻力。\n\n（1）求小球接触地面瞬间的速度 $v$ 的大小；\n（2）求小球接触地面瞬间的速度与水平面夹角 $\\alpha$ 的正切值；\n（3）小球与地面碰撞前后，竖直方向分速度大小相等、方向相反，水平方向分速度相等。碰撞后瞬间，智能弹射装置工作，小球在极短时间内分裂成两部分，两部分速度方向均与小球分裂前瞬间的速度方向成 $\\theta$ 角（$\\theta$ 已知，且 $0 < \\theta < \\alpha$）。设两部分质量之比为 $k$，弹射装置释放的能量为 $E$。\n\t\n  （i）求 $E$ 与 $k$ 的关系；\n  （ii）当 $E$ 最小时，若分裂后两部分第一次落地时刻相同，求两部分第一次落地点的间距 $d$。\n\n![物理配图](assets/2026/physics/湖南/15.svg)",
+      "figures": [
+        "assets/2026/physics/湖南/15.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$v = \\sqrt{2gL}$\n（2）$\\tan\\alpha = \\frac{\\sqrt{23}}{2}$\n（3）（i）$E = \\left[\\frac{(1 + k)^{2}}{4k\\cos^{2}\\theta} - 1\\right]mgL$\n  （ii）$d = \\frac{8}{9}\\sqrt{69}L\\tan\\theta$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据机械能守恒定律有 $mgL=\\frac{1}{2}mv^{2}$\n\n解得小球接触地面瞬间的速度的大小 $v = \\sqrt{2gL}$\n\n（2）设小球脱离轻杆时，轻杆与竖直方向的夹角为 $\\beta$，如图所示\n\n![物理配图](assets/2026/physics/湖南/15_an1.jpg)\n\n设此时小球的速度为 $v_{1}$，根据机械能守恒定律\n$mgL(1-\\cos\\beta)=\\frac{1}{2}mv_{1}^{2}$\n\n对小球，根据牛顿第二定律\n$mg\\cos\\beta=m\\frac{v_{1}^{2}}{L}$\n\n解得 $\\cos\\beta=\\frac{2}{3},  v_{1}=\\sqrt{\\frac{2gL}{3}}$\n\n此时小球水平方向分速度 $v_{x1}=v_{1}\\cos\\beta$\n\n竖直方向分速度 $v_{y1}=v_{1}\\sin\\beta$\n\n竖直方向，根据速度位移关系 $v_{y}^{2}-v_{y1}^{2}=2g \\cdot L\\cos\\beta$\n\n$\\tan\\alpha=\\frac{v_{y}}{v_{x1}}$\n\n小球接触地面瞬间的速度与水平面夹角 $\\alpha$ 的正切值\n联立解得 $\\tan\\alpha=\\frac{\\sqrt{23}}{2}$\n\n（3）（i）设其中一部分的质量为 $m_{0}$，则另一部分质量为 $km_{0}$，如图所示\n\n![物理配图](assets/2026/physics/湖南/15_an2.jpg)\n\n根据动量守恒定律有 $km_{0}v_{2}\\sin\\theta=m_{0}v_{3}\\sin\\theta$，$km_{0}v_{2}\\cos\\theta+m_{0}v_{3}\\cos\\theta=mv$\n\n弹射装置释放的能量\n$E=\\frac{1}{2}km_{0}v_{2}^{2}+\\frac{1}{2}m_{0}v_{3}^{2}-\\frac{1}{2}mv^{2}$\n\n联立可得 $E = \\left[\\frac{(1 + k)^{2}}{4k\\cos^{2}\\theta} - 1\\right]mgL$\n\n（ii）根据数学知识可知，当 $k=1$ 时，$E$ 最小为 $E_{\\min}=mgL\\tan^{2}\\theta$\n\n即有 $m_0v_2\\sin\\theta=m_0v_3\\sin\\theta$，$m_0v_2\\cos\\theta+m_0v_3\\cos\\theta=mv$，\n$E_{\\min}=\\frac{1}{2}m_0v_2^2+\\frac{1}{2}m_0v_3^2-\\frac{1}{2}mv^2$\n\n两小球同时落地，运动时间为\n$t=2 \\cdot \\frac{v_{2}\\sin\\alpha}{g}=2 \\cdot \\frac{v_{3}\\sin\\alpha}{g}$\n\n可得 $\\left|v_{3}\\right|=\\left|v_{2}\\right|$\n\n两小球的距离 $d = 2v_{2} \\sin \\theta \\cdot t$\n\n由 $\\tan\\alpha=\\frac{\\sqrt{23}}{2}$ 可得 $\\sin\\alpha=\\sqrt{\\frac{23}{27}}$\n\n联立可得 $d=\\frac{8}{9}\\sqrt{69}L\\tan\\theta$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/湖南/15_an1.jpg",
+        "assets/2026/physics/湖南/15_an2.jpg"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

@@ -1,0 +1,732 @@
+{
+  "id": "2024-physics-福建",
+  "year": 2024,
+  "subject": "物理",
+  "region": "福建卷",
+  "region_key": "福建",
+  "format_tier": "structured_latex",
+  "question_count": 16,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2024-physics-福建-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 945,
+      "topics": [
+        "原子和原子核",
+        "天然放射性"
+      ],
+      "stem_md": "2024 年我国研发出一款安全性高、稳定发电时间长的新微型原子能电池。该电池将 $\\ce{^{63}_{28}Ni}$ 衰变释放的能量转化为电能，衰变方程为 $\\ce{^{63}_{28}Ni -> ^{63}_{29}Cu + X + ^0_0 \\bar{\\nu}_{e}}$，式中 $\\bar{\\nu}_{e}$ 是质量可忽略不计的中性粒子，则 X 表示的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\ce{^{4}_{2}He}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\ce{^{0}_{-1}e}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\ce{^{0}_{1}e}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\ce{^{1}_{0}n}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据质量数和电荷数守恒可知，X 的质量数为 0，电荷数 $-1$，则 X 为 $\\ce{^{0}_{-1}e}$。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 866,
+      "topics": [
+        "机械振动",
+        "振动图象"
+      ],
+      "stem_md": "如图 [2024福建02a]，装有砂粒的试管竖直静浮于水中，将其提起一小段距离后释放，一段时间内试管在竖直方向的振动可视为简谐运动。取竖直向上为正方向，以某时刻作为计时起点，试管振动图像如图 [2024福建02b]所示，则试管（  ）\n\n![物理配图](assets/2024/physics/福建/02a.png) ![物理配图](assets/2024/physics/福建/02b.png)",
+      "figures": [
+        "assets/2024/physics/福建/02a.png",
+        "assets/2024/physics/福建/02b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "振幅为 $2.0 \\,\\mathrm{cm}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "振动频率为 $2.5 \\,\\mathrm{Hz}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在 $t = 0.1 \\,\\mathrm{s}$ 时速度为零",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在 $t = 0.2 \\,\\mathrm{s}$ 时加速度方向竖直向下",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．根据图像（b）可知，振幅为 $1.0 \\,\\mathrm{cm}$；周期为 $T = 0.4 \\,\\mathrm{s}$\n\n则频率为 $f = \\frac{1}{T} = 2.5 \\,\\mathrm{Hz}$\n\n故 A 错误，B 正确；\n\nC．根据图像可知，$t = 0.1 \\,\\mathrm{s}$ 时质点处于平衡位置，此时速度最大，故 C 错误；\n\nD．根据图像可知，$t = 0.2 \\,\\mathrm{s}$ 时质点处于负向最大位置处，则此时加速度方向竖直向上，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 770,
+      "topics": [
+        "直线运动",
+        "运动图象"
+      ],
+      "stem_md": "某公司在封闭公路上对一新型电动汽车进行直线加速和刹车性能测试，某次测试的速度-时间图像如图所示。已知 $0 \\sim 3.0 \\,\\mathrm{s}$ 和 $3.5 \\sim 6.0 \\,\\mathrm{s}$ 内图线为直线，$3.0 \\sim 3.5 \\,\\mathrm{s}$ 内图线为曲线，则该车（  ）\n\n![物理配图](assets/2024/physics/福建/03.png)",
+      "figures": [
+        "assets/2024/physics/福建/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在 $0 \\sim 3.0 \\,\\mathrm{s}$ 的平均速度为 $10 \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在 $3.0 \\sim 6.0 \\,\\mathrm{s}$ 做匀减速直线运动",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在 $0 \\sim 3.0 \\,\\mathrm{s}$ 内的位移比在 $3.0 \\sim 6.0 \\,\\mathrm{s}$ 内的大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在 $0 \\sim 3.0 \\,\\mathrm{s}$ 的加速度大小比 $3.5 \\sim 6.0 \\,\\mathrm{s}$ 的小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据 $v-t$ 图像可知，在 $0 \\sim 3.0 \\,\\mathrm{s}$ 内汽车做匀加速直线运动，平均速度为 $\\bar{v} = \\frac{0 + 30}{2} \\,\\mathrm{m}/\\mathrm{s} = 15 \\,\\mathrm{m}/\\mathrm{s}$\n\n故 A 错误；\n\nB．根据 $v-t$ 图像可知，在 $3.0 \\sim 3.5 \\,\\mathrm{s}$ 内速度-时间图像为曲线，汽车做非匀变速运动，在 $3.5 \\sim 6.0 \\,\\mathrm{s}$ 内图像为倾斜的直线，汽车做匀减速直线运动，故 B 错误；\n\nC．根据 $v-t$ 图像与横轴围成的面积表示位移大小，在图中做一条辅助线，如图所示：\n\n![物理配图](assets/2024/physics/福建/03_an.png)\n\n可得在 $0 \\sim 3.0 \\,\\mathrm{s}$ 汽车的位移大小为\n\n$x_{1}=\\frac{1}{2}\\times30\\times3 \\,\\mathrm{m} = 45 \\,\\mathrm{m}$\n\n在 $3.0 \\sim 6.0 \\,\\mathrm{s}$ 汽车的位移大小\n\n$x_{2}>\\frac{1}{2}\\times30\\times(6-3.0) \\,\\mathrm{m} = 45 \\,\\mathrm{m}$\n\n可知 $0 \\sim 3.0 \\,\\mathrm{s}$ 的位移比 $3.0 \\sim 6.0 \\,\\mathrm{s}$ 的小，故 C 错误。\n\nD．根据 $v-t$ 图像的斜率绝对值表示加速度大小，可知在 $0 \\sim 3.0 \\,\\mathrm{s}$ 的汽车加速度为 $a_{1} = \\frac{30}{3} \\,\\mathrm{m}/\\mathrm{s}^2 = 10 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n在 $3.5 \\sim 6.0 \\,\\mathrm{s}$ 的汽车加速度约为 $a_{2} \\approx \\frac{0 - 29}{6 - 3.5} \\,\\mathrm{m}/\\mathrm{s}^2 = -11.6 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n负号表示加速度方向和速度相反，则在 $0 \\sim 3.0 \\,\\mathrm{s}$ 的加速度大小比 $3.5 \\sim 6.0 \\,\\mathrm{s}$ 的小，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2024/physics/福建/03_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 715,
+      "topics": [
+        "电磁感应",
+        "法拉第电磁感应定律"
+      ],
+      "stem_md": "拓扑结构在现代物理学中具有广泛的应用。现有一条绝缘纸带，两条平行长边镶有铜丝，将纸带一端扭转 $180^{\\circ}$，与另一端连接，形成拓扑结构的莫比乌斯环，如图所示。连接后，纸环边缘的铜丝形成闭合回路，纸环围合部分可近似为半径为 $R$ 的扁平圆柱。现有一匀强磁场从圆柱中心区域垂直其底面穿过，磁场区域的边界是半径为 $r$ 的圆（$r < R$）。若磁感应强度大小 $B$ 随时间 $t$ 的变化关系为 $B = kt$（$k$ 为常量），则回路中产生的感应电动势大小为（  ）\n\n![物理配图](assets/2024/physics/福建/04.svg)",
+      "figures": [
+        "assets/2024/physics/福建/04.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$0$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$k\\pi R^{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$2k\\pi r^{2}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$2k\\pi R^{2}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题意可知，铜丝构成的“莫比乌斯环”形成了两匝（$n=2$）线圈串联的闭合回路，穿过回路的磁场有效面积为 $S=\\pi r^{2}$\n\n根据法拉第电磁感应定律可知，回路中产生的感应电动势大小为\n\n$E=n\\frac{\\Delta\\Phi}{\\Delta t}=n\\frac{\\Delta B\\cdot S}{\\Delta t}=2k\\pi r^{2}$\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q05",
+      "number": 5,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 770,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "据报道，我国计划发射的“巡天号”望远镜将运行在离地面约 $400 \\,\\mathrm{km}$ 的轨道上，其视场比“哈勃”望远镜的更大。已知“哈勃”运行在离地面约 $550 \\,\\mathrm{km}$ 的轨道上，若两望远镜绕地球近似做匀速圆周运动，则“巡天号”（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "角速度大小比“哈勃”的小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "线速度大小比“哈勃”的小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "运行周期比“哈勃”的小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "向心加速度大小比“哈勃”的大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "CD",
+        "choices": [
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据万有引力提供向心力可得\n\n$\\frac{GMm}{r^{2}}=m\\omega^{2}r=m\\frac{v^{2}}{r}=m\\frac{4\\pi^{2}}{T^{2}}r=ma$\n\n可得\n\n$\\omega=\\sqrt{\\frac{GM}{r^{3}}}$，$v=\\sqrt{\\frac{GM}{r}}$，$T=\\sqrt{\\frac{4\\pi^{2}r^{3}}{GM}}$，$a=\\frac{GM}{r^{2}}$\n\n由于巡天号的轨道半径小于哈勃号的轨道半径，则有\n\n$\\omega_{\\text{巡}} > \\omega_{\\text{哈}}$，$v_{\\text{巡}} > v_{\\text{哈}}$，$T_{\\text{巡}} < T_{\\text{哈}}$，$a_{\\text{巡}} > a_{\\text{哈}}$\n\n故选 CD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q06",
+      "number": 6,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 640,
+      "topics": [
+        "磁场",
+        "安培力"
+      ],
+      "stem_md": "如图，用两根不可伸长的绝缘细绳将半径为 $r$ 的半圆形铜环竖直悬挂在匀强磁场中，磁场的磁感应强度大小为 $B$，方向垂直纸面向外，铜环两端 a、b 处于同一水平线。若环中通有大小为 $I$、方向从 a 到 b 的电流，细绳处于绷直状态，则（  ）\n\n![物理配图](assets/2024/physics/福建/06.png)",
+      "figures": [
+        "assets/2024/physics/福建/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "两根细绳拉力均比未通电流时的大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "两根细绳拉力均比未通电流时的小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "铜环所受安培力大小为 $2rBI$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "铜环所受安培力大小为 $\\pi rBI$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "方法一",
+          "tier": "standard",
+          "content_md": "微元法\n\nAB．如图，取通电半圆形铜环的一小段 $\\Delta l$，可将其视为直导线，根据左手定则可知，该小段导线受到的安培力方向如图所示，其大小 $\\Delta F = BI\\Delta l$\n\n![物理配图](assets/2024/physics/福建/06_an.png)\n\n根据对称性可得，如图所示，对称的两小段所受的安培力在水平方向的分力大小相等，方向相反，相互抵消，则通电后半圆形铜环受到的安培力竖直向下，根据受力分析可知，通电后两绳拉力变大，故 A 正确，B 错误；\n\nCD．对每小段导线所受安培力在竖直方向的分力求和，可得 $F = \\Sigma F_{y} = \\Sigma BI\\Delta l\\sin\\theta = 2rBI$\n\n故 C 正确，D 错误。\n\n故选 AC。"
+        },
+        {
+          "id": "method_2",
+          "label": "方法二",
+          "tier": "alternative",
+          "content_md": "等效法\n\n通电半圆形铜环可等效为等效长度为直径 ab，电流方向 a$\\to$b，根据左手定则可知半圆形铜环受到的安培力方向竖直向下，大小 $F = BI\\times 2r = 2rBI$\n\n根据受力分析可得，通电后，绳子拉力 $T = mg + F = mg + 2rBI > mg$\n\n两根细绳拉力均比未通电流时的大。\n\n故选 AC。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2024/physics/福建/06_an.png"
+      ],
+      "has_multi_method": true
+    },
+    {
+      "qid": "2024-physics-福建-q07",
+      "number": 7,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 501,
+      "topics": [
+        "运动和力",
+        "动量定理"
+      ],
+      "stem_md": "如图（a），水平地面上固定有一倾角为 $\\theta$ 的足够长光滑斜面，一质量为 $m$ 的滑块锁定在斜面上。$t = 0$ 时解除锁定，同时对滑块施加沿斜面方向的拉力 $F$，$F$ 随时间 $t$ 的变化关系如图（b）所示，取沿斜面向下为正方向，重力加速度大小为 $g$，则滑块（  ）\n\n![物理配图](assets/2024/physics/福建/07a.png) ![物理配图](assets/2024/physics/福建/07b.png)",
+      "figures": [
+        "assets/2024/physics/福建/07a.png",
+        "assets/2024/physics/福建/07b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在 $0 \\sim 4t_{0}$ 内一直沿斜面向下运动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在 $0 \\sim 4t_{0}$ 内所受合外力的总冲量大小为零",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在 $t_{0}$ 时动量大小是在 $2t_{0}$ 时的一半",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在 $2t_{0} \\sim 3t_{0}$ 内的位移大小比在 $3t_{0} \\sim 4t_{0}$ 内的小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据图像可知当 $F = 2mg\\sin\\theta$ 时，物块加速度为\n\n$a = \\frac{2mg\\sin\\theta + mg\\sin\\theta}{m} = 3g\\sin\\theta$\n\n方向沿斜面向下；当 $F = -2mg\\sin\\theta$ 时，物块加速度大小为\n\n$a = \\frac{2mg\\sin\\theta - mg\\sin\\theta}{m} = g\\sin\\theta$\n\n方向沿斜面向上，作出物块 $0 \\sim 4t_{0}$ 内的 $v-t$ 图像\n\n![物理配图](assets/2024/physics/福建/07_an.png)\n\nA．根据图像可知 $0 \\sim 4t_{0}$，物体一直沿斜面向下运动，故 A 正确；\n\nB．根据图像可知 $0 \\sim 4t_{0}$，物块的末速度不等于 0，根据动量定理 $I_{\\text{合}} = \\Delta p \\neq 0$。故 B 错误；\n\nC．根据图像可知 $t_{0}$ 时物块速度大于 $2t_{0}$ 时物块的速度，故 $t_{0}$ 时动量不是 $2t_{0}$ 时的一半，故 C 错误；\n\nD．$v-t$ 图像与横轴围成的面积表示位移，故由图像可知 $2t_{0} \\sim 3t_{0}$ 过程物体的位移小于 $3t_{0} \\sim 4t_{0}$ 的位移，故 D 正确。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2024/physics/福建/07_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 480,
+      "topics": [
+        "曲线运动",
+        "平抛运动"
+      ],
+      "stem_md": "如图，某同学在水平地面上先后两次从 H 点抛出沙包，分别落在正前方地面 Q$_{1}$ 和 Q$_{2}$ 处。沙包的两次运动轨迹处于同一竖直平面，且交于 P 点，H 点正下方地面处设为 O 点。已知两次运动轨迹的最高点离地高度均为 $3.2 \\,\\mathrm{m}$，OH = $1.4 \\,\\mathrm{m}$，OQ$_{1}$ = $8.4 \\,\\mathrm{m}$，OQ$_{2}$ = $9.8 \\,\\mathrm{m}$，沙包质量为 $0.2 \\,\\mathrm{kg}$，忽略空气阻力，重力加速度大小取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$，则沙包（  ）\n\n![物理配图](assets/2024/physics/福建/08.png)",
+      "figures": [
+        "assets/2024/physics/福建/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "第一次运动过程中上升与下降时间之比 $\\sqrt{7}:4$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "第一次经 P 点时的机械能比第二次的小 $1.3 \\,\\mathrm{J}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "第一次和第二次落地前瞬间的动能之比为 $72:85$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "第一次抛出时速度方向与落地前瞬间速度方向的夹角比第二次的大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．沙包从抛出到最高点的运动可视为平抛运动的“逆运动”，则可得第一次抛出上升的高度为 $h_{1}=3.2 \\,\\mathrm{m} - 1.4 \\,\\mathrm{m} = 1.8 \\,\\mathrm{m}$\n\n上升时间为 $t_{\\text{上}1}=\\sqrt{\\frac{2h_{1}}{g}}=0.6 \\,\\mathrm{s}$\n\n最高点距水平地面高为 $h_{0}=3.2 \\,\\mathrm{m}$，故下降的时间为 $t_{\\text{下}1}=\\sqrt{\\frac{2h_{0}}{g}}=0.8 \\,\\mathrm{s}$\n\n故一次抛出上升时间，下降时间比值为 $3:4$，故 A 错误；\n\nBC．两条轨迹最高点等高、沙包抛出的位置相同，故可知两次从抛出到落地的时间相等为\n\n$t=t_{\\text{上}1}+t_{\\text{下}1}=1.4 \\,\\mathrm{s}$\n\n故可得第一次、第二次抛出时水平方向的分速度分别为\n\n$v_{x1}=\\frac{OQ_{1}}{t}=6 \\,\\mathrm{m}/\\mathrm{s}$，$v_{x2}=\\frac{OQ_{2}}{t}=7 \\,\\mathrm{m}/\\mathrm{s}$\n\n由于两条轨迹最高点等高，故抛出时竖直方向的分速度也相等，为\n\n$v_{y}=gt_{\\text{上}1}=6 \\,\\mathrm{m}/\\mathrm{s}$\n\n由于沙包在空中运动过程中只受重力，机械能守恒，故第一次过 P 点比第二次机械能少\n\n$\\Delta E = \\frac{1}{2} m \\left(\\sqrt{v_{x2}^{2} + v_{y}^{2}}\\right)^{2} - \\frac{1}{2} m \\left(\\sqrt{v_{x1}^{2} + v_{y}^{2}}\\right)^{2} = 1.3 \\,\\mathrm{J}$\n\n从抛出到落地瞬间根据动能定理可得\n\n$E_{k1} = E_{k01} + mgh_{OH} = \\frac{1}{2} m (v_{x1}^{2} + v_{y}^{2}) + mgh_{OH} = 10 \\,\\mathrm{J}$\n\n$E_{k2} = E_{k02} + mgh_{OH} = \\frac{1}{2} m (v_{x2}^{2} + v_{y}^{2}) + mgh_{OH} = 11.3 \\,\\mathrm{J}$\n\n则故落地瞬间，第一次、第二次动能之比为 $100:113$，故 B 正确，C 错误；\n\nD．根据前面分析可知两次抛出时竖直方向的分速度相同，两次落地时物体在竖直方向的分速度也相同，由于第一次的水平分速度较小，物体在水平方向速度不变，如图所示，故可知第一次抛出时速度与水平方向的夹角较大，第一次落地时速度与水平方向的夹角也较大，故可知第一次抛出时速度方向与落地瞬间速度方向夹角比第二次大，故 D 正确。\n\n![物理配图](assets/2024/physics/福建/08_an.png)\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2024/physics/福建/08_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q09",
+      "number": 9,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 3,
+      "difficulty": 790,
+      "topics": [
+        "气体性质",
+        "查理定律"
+      ],
+      "stem_md": "夜间环境温度为 $17 \\,{}^\\circ\\mathrm{C}$ 时，某汽车轮胎的胎压为 2.9 个标准大气压，胎内气体视为理想气体，温度与环境温度相同，体积和质量都保持不变。次日中午，环境温度升至 $27 \\,{}^\\circ\\mathrm{C}$，此时胎压为 ______ 个标准大气压，胎内气体的内能 ______ （填“大于”“等于”或“小于”）$17 \\,{}^\\circ\\mathrm{C}$ 时的内能。（计算时 $0 \\,{}^\\circ\\mathrm{C}$ 取 $273 \\,\\mathrm{K}$）",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "3.0，大于",
+        "sub_answers": [
+          "3.0",
+          "大于"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）设大气压强为 $p_{0}$，初始时\n\n$T_{1} = (17 + 273) \\,\\mathrm{K} = 290 \\,\\mathrm{K}$，$p_{1} = 2.9p_{0}$\n\n末状态时\n\n$T_{2} = (27 + 273) \\,\\mathrm{K} = 300 \\,\\mathrm{K}$\n\n根据查理定律 $\\frac{p_{1}}{T_{1}} = \\frac{p_{2}}{T_{2}}$\n\n代入数值解得 $p_{2} = 3p_{0}$\n\n（2）一定质量的理想气体的内能只与温度有关，故温度升高时内能增大，故 $27 \\,{}^\\circ\\mathrm{C}$ 时胎内气体的内能大于 $17 \\,{}^\\circ\\mathrm{C}$ 时的内能。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q10",
+      "number": 10,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 3,
+      "difficulty": 717,
+      "topics": [
+        "光学",
+        "光的折射"
+      ],
+      "stem_md": "镀有反射膜的三棱镜常用在激光器中进行波长的选择。如图，一束复色光以一定入射角 $i$（$i \\neq 0$）进入棱镜后，不同颜色的光以不同角度折射，只有折射后垂直入射到反射膜的光才能原路返回形成激光输出。若复色光含蓝、绿光，已知棱镜对蓝光的折射率大于绿光，则蓝光在棱镜中的折射角 ______ （填“大于”“等于”或“小于”）绿光的折射角；若激光器输出的是蓝光，当要调为绿光输出时，需将棱镜以过入射点 O 且垂直纸面的轴 ______ （填“顺时针”或“逆时针”）转动一小角度。\n\n![物理配图](assets/2024/physics/福建/10.png)",
+      "figures": [
+        "assets/2024/physics/福建/10.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "小于，逆时针",
+        "sub_answers": [
+          "小于",
+          "逆时针"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由于棱镜对蓝光折射率大于绿光，根据折射定律 $n=\\frac{\\sin i}{\\sin r}$ 可得，入射角相同，棱镜中蓝光折射角小于绿光折射角；\n\n（2）此时输出激光为蓝光，要变为绿光，即由蓝光的折射光线垂直入射到反射膜改为绿光的折射光线垂直入射到反射膜，根据折射定律 $n=\\frac{\\sin i}{\\sin r}$，需要减小入射角 $i$，由于入射光线不动，应逆时针转动棱镜。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q11",
+      "number": 11,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 3,
+      "difficulty": 640,
+      "topics": [
+        "电场",
+        "电场叠加"
+      ],
+      "stem_md": "如图，圆心为 O 点、半径为 $R$ 的圆周上有 A、B、C、D、E、F、G、H 八个等分点，G 点固定有一带电量为 $-Q$（$Q > 0$）的点电荷，其余各点均固定有带电量为 $+Q$ 的点电荷。已知静电力常量为 $k$，则 O 点的电场强度大小为 ______ 。M、N 分别为 OC、OG 的中点，则 M 点的电势 ______ （填“大于”“等于”或“小于”）N 点的电势；将一带电量为 $+q$（$q > 0$）的点电荷从 M 点沿图中 MN 弧线移动到 N 点，电场力对该点电荷所做的总功 ______ （填“大于零”“等于零”或“小于零”）。\n\n![物理配图](assets/2024/physics/福建/11.png)",
+      "figures": [
+        "assets/2024/physics/福建/11.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "$\\frac{2kQ}{R^{2}}$，大于，大于零",
+        "sub_answers": [
+          "$\\frac{2kQ}{R^{2}}$",
+          "大于",
+          "大于零"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据对称性可得 A 点和 E 点、B 点和 F 点、D 点和 H 点处的点电荷在 O 点处产生的电场强度矢量和均为 0，所以 O 点的电场强度等于 C 点和 G 点处的点电荷在 O 点处产生的电场强度矢量和，由电场叠加原理可得，O 点场强大小为\n\n$E_{O}=\\frac{kQ}{R^{2}}+\\frac{kQ}{R^{2}}=\\frac{2kQ}{R^{2}}$\n\n（2）电势是标量，取无穷远处为 0 电势，则 M 点、N 点的电势分别为\n\n$\\varphi_{M}=\\varphi_{AM}+\\varphi_{BM}+\\varphi_{CM}+\\varphi_{DM}+\\varphi_{EM}+\\varphi_{FM}+\\varphi_{GM}+\\varphi_{HM}$\n\n$\\varphi_{N}=\\varphi_{AN}+\\varphi_{BN}+\\varphi_{CN}+\\varphi_{DN}+\\varphi_{EN}+\\varphi_{FN}+\\varphi_{GN}+\\varphi_{HN}$\n\n根据点电荷的电势 $\\varphi=\\frac{kQ}{r}$ 和对称性可知\n\n$\\varphi_{AM}=\\varphi_{AN}=\\varphi_{EM}=\\varphi_{EN}$，$\\varphi_{BM}=\\varphi_{FN}=\\varphi_{DM}=\\varphi_{HN}$，$\\varphi_{FM}=\\varphi_{BN}=\\varphi_{HM}=\\varphi_{DN}$\n\n$\\varphi_{CM}>\\varphi_{CN}>0$，$0>\\varphi_{GM}>\\varphi_{GN}$\n\n可得 $\\varphi_{M}-\\varphi_{N}=\\varphi_{CM}+\\varphi_{GM}-(\\varphi_{CN}+\\varphi_{GN})>0$\n\n则 $\\varphi_{M} > \\varphi_{N}$\n\n（3）将 $+q$ 点电荷从 M 沿 MN 移动到 N 点，电势能减小，故电场力对该点电荷所做的总功大于零。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 0,
+      "difficulty": 688,
+      "topics": [
+        "运动和力",
+        "动量守恒定律"
+      ],
+      "stem_md": "某小组基于动量守恒定律测量玩具枪子弹离开枪口的速度大小，实验装置如图 [2024福建12a]所示。所用器材有：玩具枪、玩具子弹、装有挡光片的小车、轨道、光电门、光电计时器、十分度游标卡尺、电子秤等。实验步骤如下：\n\n（1）用电子秤分别测量小车的质量 $M$ 和子弹的质量 $m$；\n（2）用游标卡尺测量挡光片宽度 $d$，示数如图 [2024福建12b]所示，宽度 $d = $ ______ $\\,\\mathrm{cm}$；\n（3）平衡小车沿轨道滑行过程中的阻力。在轨道上安装光电门 A 和 B，让装有挡光片的小车以一定初速度由右向左运动，若测得挡光片经过 A、B 的挡光时间分别为 $13.56 \\, \\mathrm{ms}$、$17.90 \\, \\mathrm{ms}$，则应适当调高轨道的 ______ （填“左”或“右”）端。经过多次调整，直至挡光时间相等；\n（4）让小车处于 A 的右侧，枪口靠近小车，发射子弹，使子弹沿轨道方向射出并粘在小车上，小车向左运动经过光电门 A，测得挡光片经过 A 的挡光时间 $\\Delta t$；\n（5）根据上述测量数据，利用公式 $v = $ ______ （用 $d$、$m$、$M$、$\\Delta t$ 表示）即可得到子弹离开枪口的速度大小 $v$；\n（6）重复步骤（4）五次，并计算出每次的 $v$ 值，填入下表；\n\n\t\n\t\n<table class=\"exam-table\"><tr><th>次数</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr><tr><td>速度 $v$（$\\,\\mathrm{m}/\\mathrm{s}$）</td><td>59.1</td><td>60.9</td><td>60.3</td><td>58.7</td><td>59.5</td></tr></table>\n\n\t\n（7）根据表中数据，可得子弹速度大小 $v$ 的平均值为 ______ $\\,\\mathrm{m}/\\mathrm{s}$。（结果保留 3 位有效数字）\n\n![物理配图](assets/2024/physics/福建/12a.png) ![物理配图](assets/2024/physics/福建/12b.png)",
+      "figures": [
+        "assets/2024/physics/福建/12a.png",
+        "assets/2024/physics/福建/12b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）（空）\n（2）0.99\n（3）右\n（4）（空）\n（5）$\\frac{(m + M)d}{m\\Delta t}$\n（6）（空）\n（7）59.7",
+        "sub_answers": [
+          "0.99",
+          "右",
+          "$\\frac{(m + M)d}{m\\Delta t}$",
+          "59.7"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（2）游标卡尺的分度值为 $0.1 \\,\\mathrm{mm}$，则挡光片的宽度为\n\n$d = 0.9 \\,\\mathrm{cm} + 9 \\times 0.1 \\,\\mathrm{mm} = 0.99 \\,\\mathrm{cm}$\n\n（3）小车经过光电门的速度为 $v_{\\text{车}} = \\frac{d}{\\Delta t}$\n\n测得挡光片经过 A、B 的挡光时间分别为 $13.56 \\, \\mathrm{ms}$、$17.90 \\, \\mathrm{ms}$，可知小车经过光电门 A 的速度大于经过光电门 B 的速度，故应适当调高轨道的右端；\n\n（5）小车经过光电门的速度为 $v_{\\text{车}} = \\frac{d}{\\Delta t}$。\n\n子弹粘上小车的过程，根据动量守恒定律有 $mv = (M + m)v_{\\text{车}}$\n\n解得 $v = \\frac{(m + M)d}{m\\Delta t}$\n\n（7）根据表格数据，可得子弹速度大小 $v$ 的平均值为 $\\bar{v} = \\frac{v_{1} + v_{2} + v_{3} + v_{4} + v_{5}}{5} = 59.7 \\,\\mathrm{m}/\\mathrm{s}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q13",
+      "number": 13,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 7,
+      "difficulty": 551,
+      "topics": [
+        "电路",
+        "伏安法测电阻"
+      ],
+      "stem_md": "某实验小组探究不同电压下红光和蓝光发光元件的电阻变化规律，并设计一款彩光电路。所用器材有：红光和蓝光发光元件各一个、电流表（量程 $30 \\,\\mathrm{mA}$）、电压表（量程 $3 \\,\\mathrm{V}$）、滑动变阻器（最大阻值 $20 \\,\\Omega$，额定电流 $1 \\,\\mathrm{A}$）、5 号电池（电动势 $1.5 \\,\\mathrm{V}$）两节、开关、导线若干。\n\n（1）图（a）为发光元件的电阻测量电路图，按图接好电路；\n（2）滑动变阻器滑片先置于 ______ （填“a”或“b”）端，再接通开关 S，多次改变滑动变阻器滑片的位置，记录对应的电流表示数 $I$ 和电压表示数 $U$；\n（3）某次电流表示数为 $10.0 \\,\\mathrm{mA}$ 时，电压表示数如图（b）所示，示数为 ______ $\\,\\mathrm{V}$，此时发光元件的电阻为 ______ $\\,\\Omega$（结果保留 3 位有效数字）；\n（4）测得红光和蓝光发光元件的伏安特性曲线如图（c）中的 Ⅰ 和 Ⅱ 所示。从曲线可知，电流在 $1.0 \\sim 18.0 \\,\\mathrm{mA}$ 范围内，两个发光元件的电阻随电压变化的关系均是： ______ ；\n（5）根据所测伏安特性曲线，实验小组设计一款电路，可使红光和蓝光发光元件同时在 $10.0 \\,\\mathrm{mA}$ 的电流下工作。在图（d）中补充两条导线完成电路设计。\n\n![物理配图](assets/2024/physics/福建/13a.png) ![物理配图](assets/2024/physics/福建/13b.png) ![物理配图](assets/2024/physics/福建/13c.png) ![物理配图](assets/2024/physics/福建/13d.png)",
+      "figures": [
+        "assets/2024/physics/福建/13a.png",
+        "assets/2024/physics/福建/13b.png",
+        "assets/2024/physics/福建/13c.png",
+        "assets/2024/physics/福建/13d.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）（空）\n（2）a\n（3）2.82，282\n（4）电阻随电压增大而减小\n（5）如图",
+        "sub_answers": [
+          "a",
+          "2.82",
+          "282",
+          "电阻随电压增大而减小"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（2）实验电路中滑动变阻器采用分压式接法，为了保护用电器，开关 S 闭合前应将滑动变阻器的滑片置于 a 端，使测量部分电路两端电压为 0；\n\n（3）电压表量程为 $3 \\,\\mathrm{V}$，分度值为 $0.1 \\,\\mathrm{V}$，所以图（b）所示电压表示数为 $2.82 \\,\\mathrm{V}$；\n\n根据欧姆定律可知，发光元件的电阻为 $R = \\frac{U}{I} = \\frac{2.82}{10.0 \\times 10^{-3}} \\,\\Omega = 282 \\,\\Omega$。\n\n（4）根据欧姆定律 $R = \\frac{U}{I}$ 可知，电流在 $1.0 \\sim 18.0 \\,\\mathrm{mA}$ 范围内，两个发光元件的电阻随电压增大而减小；\n\n（5）由图（c）可知，电流为 $10.0 \\,\\mathrm{mA}$ 时蓝光发光元件的电压大于红光发光元件，因此可将滑动变阻器 $R_{2}$ 与红光发光元件串联后再与蓝光发光元件并联后接入电路，如图所示\n\n![物理配图](assets/2024/physics/福建/13_an.png)"
+        }
+      ],
+      "solution_figures": [
+        "assets/2024/physics/福建/13_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 11,
+      "difficulty": 766,
+      "topics": [
+        "功和能",
+        "功"
+      ],
+      "stem_md": "我国古代劳动人民创造了璀璨的农耕文明。图（a）为《天工开物》中描绘的利用耕牛整理田地的场景，简化的物理模型如图（b）所示，人站立的农具视为与水平地面平行的木板，两条绳子相互平行且垂直于木板边缘。已知绳子与水平地面夹角 $\\theta$ 为 $25.5^\\circ$，$\\sin25.5^\\circ = 0.43$，$\\cos25.5^\\circ = 0.90$。当每条绳子拉力 $F$ 的大小为 $250 \\,\\mathrm{N}$ 时，人与木板沿直线匀速前进，在 $15 \\,\\mathrm{s}$ 内前进了 $20 \\,\\mathrm{m}$，求此过程中：\n\n（1）地面对木板的阻力大小；\n（2）两条绳子拉力所做的总功；\n（3）两条绳子拉力的总功率。\n\n![物理配图](assets/2024/physics/福建/14a.png) ![物理配图](assets/2024/physics/福建/14b.png)",
+      "figures": [
+        "assets/2024/physics/福建/14a.png",
+        "assets/2024/physics/福建/14b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$450 \\,\\mathrm{N}$\n（2）$9.0\\times10^{3} \\,\\mathrm{J}$\n（3）$600 \\,\\mathrm{W}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由于木板匀速运动则有 $2F\\cos\\theta = f$\n\n解得 $f = 450 \\,\\mathrm{N}$\n\n（2）根据功的定义式有 $W = 2Fl\\cos\\theta$\n\n解得 $W = 9.0 \\times 10^{3} \\,\\mathrm{J}$\n\n（3）根据功率的定义 $P = \\frac{W}{t}$，有 $P = 600 \\,\\mathrm{W}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q15",
+      "number": 15,
+      "section": "单选题",
+      "type": "open_ended",
+      "score": 12,
+      "difficulty": 627,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图，直角坐标系 $xOy$ 中，第 Ⅰ 象限内存在垂直纸面向外的匀强磁场。第 Ⅱ、Ⅲ 象限中有两平行板电容器 $C_{1}$、$C_{2}$，其中 $C_{1}$ 垂直 $x$ 轴放置，极板与 $x$ 轴相交处存在小孔 M、N；$C_{2}$ 垂直 $y$ 轴放置，上、下极板右端分别紧贴 $y$ 轴上的 P、O 点。一带电粒子从 M 静止释放，经电场直线加速后从 N 射出，紧贴 $C_{2}$ 下极板进入 $C_{2}$，而后从 P 进入第 Ⅰ 象限；经磁场偏转后恰好垂直 $x$ 轴离开，运动轨迹如图中虚线所示。已知粒子质量为 $m$、带电量为 $q$，O、P 间距离为 $d$，$C_{1}$、$C_{2}$ 的板间电压大小均为 $U$，板间电场视为匀强电场，不计重力，忽略边缘效应。求：\n\n（1）粒子经过 N 时的速度大小；\n（2）粒子经过 P 时速度方向与 $y$ 轴正向的夹角；\n（3）磁场的磁感应强度大小。\n\n![物理配图](assets/2024/physics/福建/15.png)",
+      "figures": [
+        "assets/2024/physics/福建/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\sqrt{\\frac{2qU}{m}}$\n（2）$45^\\circ$\n（3）$\\frac{1}{d}\\sqrt{\\frac{2mU}{q}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）粒子从 M 到 N 的运动过程中，根据动能定理有 $qU = \\frac{1}{2}mv_{N}^{2}$\n\n解得 $v_{N}=\\sqrt{\\frac{2qU}{m}}$\n\n（2）粒子在 $C_{2}$ 中，根据牛顿运动定律有 $\\frac{qU}{d}=ma$\n\n根据匀变速直线运动规律有 $d=\\frac{1}{2}at^{2}$，$v_{y}=at$\n\n又 $\\tan\\theta=\\frac{v_{N}}{v_{y}}$\n\n解得 $\\theta = 45^{\\circ}$\n\n（3）粒子在 P 处时的速度大小为 $v_{P}=\\sqrt{v_{N}^{2}+v_{y}^{2}}$\n\n在磁场中运动时根据牛顿第二定律有 $qv_{P}B=\\frac{mv_{P}^{2}}{R}$\n\n由几何关系可知 $R = 2d$\n\n解得 $B = \\frac{1}{d} \\sqrt{\\frac{2mU}{q}}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-福建-q16",
+      "number": 16,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 0,
+      "difficulty": 231,
+      "topics": [
+        "运动和力",
+        "牛顿定律的应用"
+      ],
+      "stem_md": "如图，木板 A 放置在光滑水平桌面上，通过两根相同的水平轻弹簧 M、N 与桌面上的两个固定挡板相连。小物块 B 放在 A 的最左端，通过一条跨过轻质定滑轮的轻绳与带正电的小球 C 相连，轻绳绝缘且不可伸长，B 与滑轮间的绳子与桌面平行。桌面右侧存在一竖直向上的匀强电场，A、B、C 均静止，M、N 处于原长状态，轻绳处于自然伸直状态。$t = 0$ 时撤去电场，C 向下加速运动，下降 $0.2 \\,\\mathrm{m}$ 后开始匀速运动，C 开始做匀速运动瞬间弹簧 N 的弹性势能为 $0.1 \\,\\mathrm{J}$。已知 A、B、C 的质量分别为 $0.3 \\,\\mathrm{kg}$、$0.4 \\,\\mathrm{kg}$、$0.2 \\,\\mathrm{kg}$，小球 C 的带电量为 $1\\times10^{-6} \\,\\mathrm{C}$，重力加速度大小取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$，最大静摩擦力等于滑动摩擦力，弹簧始终处在弹性限度内，轻绳与滑轮间的摩擦力不计。\n\n（1）求匀强电场的场强大小；\n（2）求 A 与 B 间的滑动摩擦因数及 C 做匀速运动时的速度大小；\n（3）若 $t = 0$ 时电场方向改为竖直向下，当 B 与 A 即将发生相对滑动瞬间撤去电场，A、B 继续向右运动，一段时间后，A 从右向左运动。求 A 第一次从右向左运动过程中最大速度的大小。（整个过程 B 未与 A 脱离，C 未与地面相碰）\n\n![物理配图](assets/2024/physics/福建/16.png)",
+      "figures": [
+        "assets/2024/physics/福建/16.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$2\\times10^{6} \\,\\mathrm{N}/\\mathrm{C}$\n（2）$0.5$，$\\frac{2}{3} \\,\\mathrm{m}/\\mathrm{s}$\n（3）$\\frac{2\\sqrt{2}}{3} \\,\\mathrm{m}/\\mathrm{s}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）撤去电场前，A、B、C 均静止，M、N 处于原长状态，对 A、B 整体分析可知，此时绳中拉力为 0，对 C 根据共点力平衡条件有 $qE = m_{C}g$\n\n解得 $E = 2 \\times 10^{6} \\,\\mathrm{N}/\\mathrm{C}$\n\n（2）C 开始做匀速直线运动后，对 C 和 B 根据共点力平衡条件分别有\n\n$T_{1}=m_{C}g$，$T_{1}=f_{B}$\n\n其中 $f_{B} = \\mu m_{B} g$\n\n解得 $\\mu = 0.5$\n\nC 开始匀速运动瞬间，A、B 刚好发生相对滑动，此时 A、B、C 三者速度大小相等，M、N 两弹簧的弹性势能相同，C 下降 $0.2 \\,\\mathrm{m}$ 的过程中，对 A、B、C 及弹簧 M、N 组成的系统，由能量守恒定律有\n\n$m_{\\mathrm{C}}gh = \\frac{1}{2}(m_{\\mathrm{A}} + m_{\\mathrm{B}} + m_{\\mathrm{C}})v^{2} + 2E_{\\mathrm{p}}$\n\n解得 $v = \\frac{2}{3} \\,\\mathrm{m}/\\mathrm{s}$\n\n（3）由第（2）问可知，弹簧的劲度系数满足 $2kx_{0} = \\mu m_{B}g$，其中 $x_{0} = 0.2 \\,\\mathrm{m}$，解得 $k = 5 \\,\\mathrm{N}/\\mathrm{m}$。\n\n当电场方向改为竖直向下时，设 B 与 A 即将发生相对滑动时 C 下降高度为 $h'$，此时 A、B 加速度相同，对 A 根据牛顿第二定律可得 $f - 2kh' = m_{A}a$\n\n对 B、C 整体根据牛顿第二定律可得 $qE + m_{C}g - f = (m_{B} + m_{C})a$\n\n其中 $f = \\mu m_{B}g = 2 \\,\\mathrm{N}$，联立解得 $h' = 0.1 \\,\\mathrm{m}$。\n\n在 C 下降 $h'$ 的过程中，对 A、B、C 及弹簧 M、N 组成的系统，由能量守恒定律有\n\n$qEh' + m_{C}gh' = \\frac{1}{2}(m_{A} + m_{B} + m_{C})v'^{2} + 2 \\times \\frac{1}{2}kh'^{2}$\n\n解得 $v'^{2} = \\frac{7}{9} \\,\\mathrm{m}/\\mathrm{s}^2$\n\n撤去电场后，A、B 仍一起向右运动，当弹簧形变量达到 $x_{0} = 0.2 \\,\\mathrm{m}$ 时 A、B 再次即将发生相对滑动，此时 A 的速度最大。对系统从撤去电场到 A 速度最大过程，由能量守恒定律有\n\n$m_{C}g(x_{0} - h') = \\frac{1}{2}(m_{A} + m_{B} + m_{C})v_{\\text{max}}^{2} + 2 \\times \\frac{1}{2}kx_{0}^{2} - \\left[\\frac{1}{2}(m_{A} + m_{B} + m_{C})v'^{2} + 2 \\times \\frac{1}{2}kh'^{2}\\right]$\n\n解得 $v_{\\text{max}} = \\frac{2\\sqrt{2}}{3} \\,\\mathrm{m}/\\mathrm{s}$\n\n此后 A 做简谐运动，所以 A 第一次从右向左运动过程中的最大速度为 $v_{\\text{max}}' = v_{\\text{max}} = \\frac{2\\sqrt{2}}{3} \\,\\mathrm{m}/\\mathrm{s}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 1,
+  "enriched_count": 0
+}

@@ -1,0 +1,723 @@
+{
+  "id": "2026-physics-陕晋青宁",
+  "year": 2026,
+  "subject": "物理",
+  "region": "陕晋青宁卷",
+  "region_key": "陕晋青宁",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2026-physics-陕晋青宁-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 950,
+      "topics": [
+        "直线运动",
+        "路程与位移"
+      ],
+      "stem_md": "现代科技为物资运输提供了多种方式。某物流企业分别利用无人机和新能源货车从山上装货点 P 运输货物至山下仓库 Q，两种方式中一定相同的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "位移",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "路程",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "时间",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "平均速度",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．位移是从初位置指向末位置的有向线段，仅由初、末位置决定，两种运输方式的初位置都是 P、末位置都是 Q，故位移一定相同，A 正确；\n\nB．路程是物体运动轨迹的长度，无人机和货车的行驶路径不同，运动轨迹长度不一定相等，故路程不一定相同，B 错误；\n\nC．运动时间由运动路程和运行速率共同决定，两者的路程、运行速率均无确定关系，故时间不一定相同，C 错误；\n\nD．平均速度的定义为 $\\overline{v}=\\frac{x}{t}$，两者位移 $x$ 相同，但运动时间 $t$ 不一定相同，故平均速度不一定相同，D 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "力物体的平衡",
+        "多力平衡"
+      ],
+      "stem_md": "我国科研人员利用仿生机器鱼研究湖泊生态，当仿生机器鱼在湖中匀速直线下潜时，它受到水的合力方向是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "斜向下",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "竖直向下",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "斜向上",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "竖直向上",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "仿生机器鱼做匀速直线运动，处于平衡状态，所受合外力为 0。机器鱼受两个外力：竖直向下的重力 $G$，以及水对其施加的所有作用力的合力 $F$（包含浮力、水的阻力等）。根据平衡条件有 $G+F=0$，可得 $F=-G$，\n\n即水的合力与重力大小相等、方向相反，为竖直向上。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "交流电",
+        "交流电"
+      ],
+      "stem_md": "下列处于匀强磁场的导体回路中能产生交变电流的是 （  ）\n\n![物理配图](assets/2026/physics/陕晋青宁/03a.pdf) ![物理配图](assets/2026/physics/陕晋青宁/03b.pdf) ![物理配图](assets/2026/physics/陕晋青宁/03c.pdf) ![物理配图](assets/2026/physics/陕晋青宁/03d.pdf)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/03a.pdf",
+        "assets/2026/physics/陕晋青宁/03b.pdf",
+        "assets/2026/physics/陕晋青宁/03c.pdf",
+        "assets/2026/physics/陕晋青宁/03d.pdf"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "甲图中绕轴匀速转动的导体环",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "乙图中绕轴匀速转动的导体框",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "丙图中在固定导轨上匀速运动的导体棒所在回路",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "丁图中匀速运动的导体框",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．甲：导体环绕轴匀速转动，磁通量不改变，不产生交变电流，故 A 错误；\n\nB．乙：导体框绕轴匀速转动，$\\Phi=BS\\cos\\omega t$，$\\frac{\\Delta\\Phi}{\\Delta t}$ 周期性变化，产生交变电流，故 B 正确；\n\nC．丙：导体棒匀速运动，感应电动势 $E=BLv$，电流恒定，故 C 错误；\n\nD．丁：导体框匀速运动，$\\Phi$ 不变，无感应电流，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "正电子 $e^{+}$ 与电子 $e^{-}$ 湮灭产生的光子是探测中微子的重要信号。一个静止的正电子与一个静止的电子湮灭转化为两个 $\\gamma$ 光子，该过程动量和能量都守恒。已知正电子与电子的质量均为 $m$，光速为 $c$，普朗克常量为 $h$，则这两个 $\\gamma$ 光子 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "总能量为 $mc^{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "频率均为 $\\frac{mc^{2}}{h}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "总动量为 $2mc$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "波长均为 $\\frac{mc}{h}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "静止的正电子和电子总静能为 $2mc^{2}$，总动量为 0，湮灭过程满足能量守恒和动量守恒，因此两个光子总能量为 $2mc^{2}$，总动量为 0，两光子反向运动，每个光子的能量、动量大小均相等，单个光子能量为 $mc^{2}$，动量大小 $p=\\frac{E}{c}=mc$，\n\nA．两个光子总能量等于正负电子总静能 $2mc^{2}$，并非 $mc^{2}$，故 A 错误；\n\nB．单个光子能量满足 $E=h\\nu=mc^{2}$，解得频率 $\\nu=\\frac{mc^{2}}{h}$，故 B 正确；\n\nC．初始系统总动量为 0，由动量守恒可知两个光子总动量为 0，并非 $2mc$，故 C 错误；\n\nD．光子动量满足 $p=\\frac{h}{\\lambda}=mc$，\n\n解得波长 $\\lambda=\\frac{h}{mc}$，并非 $\\frac{mc}{h}$，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "我国自主建设运行的北斗全球卫星导航系统空间段由多颗卫星组成。若轨道半径不同的两颗卫星绕地球做匀速圆周运动，角速度大小分别为 $\\omega_{1}$、$\\omega_{2}$，线速度大小分别为 $v_{1}$、$v_{2}$，则 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$v_{1}/\\omega_{1}=v_{2}/\\omega_{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$v_{1}/\\omega_{1}^{2}=v_{2}/\\omega_{2}^{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$v_{1}^{2}/\\omega_{1}=v_{2}^{2}/\\omega_{2}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$v_{1}^{3}/\\omega_{1}=v_{2}^{3}/\\omega_{2}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "卫星绕地球做匀速圆周运动，万有引力提供向心力 $G\\frac{Mm}{r^{2}}=m\\omega^{2}r=m\\frac{v^{2}}{r}$，\n\n其中 $G$ 为引力常量，$M$ 为地球质量，$r$ 为轨道半径，$\\omega$ 为角速度，$v$ 为线速度。\n\n推导得 $v=\\sqrt{\\frac{GM}{r}}$，$\\omega=\\sqrt{\\frac{GM}{r^{3}}}$，\n\nA．由 $v=\\omega r$，由于轨道半径不同，则 $v_{1}/\\omega_{1}\\neq v_{2}/\\omega_{2}$，故 A 错误；\n\nB．由以上分析可知，$\\frac{v}{\\omega^{2}}\\propto r^{\\frac{5}{2}}$，与 $r$ 有关，$v_{1}/\\omega_{1}^{2}\\neq v_{2}/\\omega_{2}^{2}$，故 B 错误；\n\nC．由以上分析可知，$\\frac{v^{2}}{\\omega}\\propto\\sqrt{r}$，与 $r$ 有关，$v_{1}^{2}/\\omega_{1}\\neq v_{2}^{2}/\\omega_{2}$，故 C 错误；\n\nD．由以上分析可知，$\\frac{v^{3}}{\\omega}=\\frac{\\left(\\frac{GM}{r}\\right)^{\\frac{3}{2}}}{\\sqrt{\\frac{GM}{r^{3}}}}=GM$，与 $r$ 无关，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "电磁感应中的变加速"
+      ],
+      "stem_md": "电磁泵减速部分的简化工作原理如图。在垂直纸面向外、磁感应强度大小为 $B$ 的匀强磁场中，竖直放置的 U 形光滑金属导轨左右间距为 $L$，水平放置的导体棒 ab 质量为 $m$，与竖直放置且下端固定的绝缘轻弹簧相连，ab 与导轨接触良好且其接入回路的电阻阻值为 $R$。将 ab 自弹簧原长位置由静止释放，ab 第一次到达最低点时下降高度为 $h$，此过程中其最大速度为 $v$。导轨电阻忽略不计，弹簧始终在弹性限度内。在 ab 从静止释放到第一次到达最低点的过程中 （  ）\n\n![物理配图](assets/2026/physics/陕晋青宁/06.svg)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/06.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "流过导体棒的感应电流方向由 a 向 b",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "导体棒所受安培力的冲量为零",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "通过导体棒的电荷量大小为 $\\frac{BLh}{R}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "导体棒的加速度最大值为 $\\frac{B^{2}L^{2}v}{mR}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由右手定则可知，流过导体棒的感应电流方向由 b 向 a，故 A 错误；\n\nB．导体棒下降过程中，安培力大小改变，方向不变，由冲量公式 $I=Ft$ 可知，导体棒所受安培力的冲量不为零，故 B 错误；\n\nC．导体棒下降过程中，感应电动势为 $\\overline{E}=\\frac{\\Delta\\Phi}{\\Delta t}=\\frac{BLh}{\\Delta t}$，\n\n感应电流为 $\\overline{I}=\\frac{\\overline{E}}{R}=\\frac{BLh}{R\\cdot\\Delta t}$，\n\n通过导体棒的电荷量大小为 $q=\\overline{I}\\cdot\\Delta t=\\frac{BLh}{R}$，故 C 正确；\n\nD．根据题意可知，导体棒下降过程中，先做加速度减小的加速运动，再做加速度增大的减速运动，则导体棒的加速度最大值出现在最低点或初始位置，导体棒速度最大时有 $mg=\\frac{B^{2}L^{2}v}{R}+kx'$，\n\n若没有磁场，由能量守恒定律有 $mgx=\\frac{1}{2}kx^{2}$，\n\n可知，在最低点时，有 $kx=2mg$，\n\n此时，加速度为 $a=\\frac{kx-mg}{m}=g$，\n\n有磁场时，由能量守恒定律可知，弹簧的形变量减小，则最低点时加速度小于 $g$，则导体棒的加速度最大值出现在初始位置，此时，导体棒只受重力，加速度为 $g>\\frac{B^{2}L^{2}v}{Rm}$，故 D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "带电粒子的直线运动"
+      ],
+      "stem_md": "飞行时间质谱仪可用于创新药物研发等领域，其简化工作原理如图。开关 S 闭合，在真空室内，电容器极板 AB 间加速电压为 $U$，两极板中央开有小孔，C 为接收端，BC 间为无场漂移区域。有一质量为 $m$、电荷量为 $q$（$q>0$）的带电大分子（不计重力），自漂入（忽略初速度）A 极板小孔起，经加速区域和漂移区域到达 C 端结束，时间探测器显示整个过程时间为 $t$，则 （  ）\n\n![物理配图](assets/2026/physics/陕晋青宁/07.svg)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/07.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "保持 S 闭合，仅 $\\frac{q}{m}$ 变大，$t$ 变长",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "保持 S 闭合，仅 $U$ 增大，$t$ 变长",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "保持 S 闭合，AC 位置不变，仅 B 极板向右移动，$t$ 变长",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "将 S 断开，AC 位置不变，仅 B 极板向右移动，$t$ 变长",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "ABC．根据题意，设 A、B 距离为 $d$，B、C 距离为 $s$，且 $d+s=L$，在 A、B 间有 $\\frac{qU}{d}=ma$，$qU=\\frac{1}{2}mv^{2}$，$v=at_{1}$，\n\n解得 $a=\\frac{qU}{md}$，$v=\\sqrt{\\frac{2qU}{m}}$，$t_{1}=d\\sqrt{\\frac{2m}{qU}}$，\n\n在 B、C 间有 $t_{2}=\\frac{s}{v}=s\\sqrt{\\frac{m}{2qU}}$，\n\n则整个过程时间\n\n$t=t_{1}+t_{2}=d\\sqrt{\\frac{2m}{qU}}+s\\sqrt{\\frac{m}{2qU}}=(d+L)\\sqrt{\\frac{m}{2qU}}$。\n\n保持 S 闭合，$U$ 不变，仅 $\\sqrt{\\frac{q}{m}}$ 变大，$t$ 变短，故 A 错误；\n\nB．结合 A 分析可知，保持 S 闭合，仅 $U$ 增大，$t$ 变短，故 B 错误；\n\nC．结合 A 分析可知，保持 S 闭合，$U$ 不变，AC 位置不变，仅 B 极板向右移动，则 $d$ 增大，$s$ 减小，$L$ 不变，$t$ 变长，故 C 正确；\n\nD．将 S 断开，极板上电荷量 $Q$ 不变，AC 位置不变，仅 B 极板向右移动，A、B 间电场强度 $E=\\frac{U}{d}=\\frac{Q}{Cd}=\\frac{4\\pi kQ}{\\varepsilon S}$ 不变，则加速度不变，则有 $v^{2}=2ad$，$t_{1}=\\frac{d}{\\frac{v}{2}}=\\frac{2d}{v}$，$t_{2}=\\frac{s}{v}$，\n\n则整个过程时间\n\n$t=t_{1}+t_{2}=\\frac{2d+s}{v}=\\frac{d+L}{\\sqrt{2ad}}=\\frac{1}{\\sqrt{2a}}\\left(\\sqrt{d}+\\frac{L}{\\sqrt{d}}\\right)$，\n\n由于 $d$ 增大但小于 $L$，$s$ 减小，$L$ 不变，根据数学知识可知，当 $d=L$ 时，$\\left(\\sqrt{d}+\\frac{L}{\\sqrt{d}}\\right)$ 有最小值，可知，随着 $d$ 增大但小于 $L$，$\\left(\\sqrt{d}+\\frac{L}{\\sqrt{d}}\\right)$ 减小，则总时间 $t$ 减小，故 D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "光的折射"
+      ],
+      "stem_md": "玻璃镜片折射率是影响眼镜厚度的主要因素之一。如图，一束单色光从空气斜射入厚度为 $d$ 的平行玻璃砖左表面，从右表面射出，出射光线相对入射光线侧移量为 $\\Delta x$。现换用折射率较大的玻璃砖，保持入射角不变，下列说法正确的是 （  ）\n\n![物理配图](assets/2026/physics/陕晋青宁/08.svg)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/08.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "若厚度 $d$ 相同，侧移量变小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "若厚度 $d$ 相同，侧移量变大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "若侧移量 $\\Delta x$ 相同，厚度变小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "若侧移量 $\\Delta x$ 相同，厚度变大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．根据题意，画出光路图（蓝色），现换用折射率较大的玻璃砖，保持入射角不变，折射角变小，若厚度 $d$ 相同，画出光路图（黄色），如图所示。\n\n![物理配图](assets/2026/physics/陕晋青宁/08_an1.svg)\n\n由图可知，侧移量变大，故 A 错误，B 正确；\n\nCD．根据题意，画出光路图（蓝色），现换用折射率较大的玻璃砖，保持入射角不变，折射角变小，若侧移量 $\\Delta x$ 相同，画出光路图（黄色），如图所示。\n\n![物理配图](assets/2026/physics/陕晋青宁/08_an2.svg)\n\n由图可知，厚度变小，故 C 正确，D 错误。\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/陕晋青宁/08_an1.svg",
+        "assets/2026/physics/陕晋青宁/08_an2.svg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "机械波",
+        "波的图象"
+      ],
+      "stem_md": "一列简谐横波在均匀介质中沿直线传播，a、b 为介质中平衡位置相距 $0.5\\,\\mathrm{m}$ 的两个质点。$t=0$ 时刻的波形图如图，$0.5\\,\\mathrm{s}$ 时 a 振动至波谷，$1.2\\,\\mathrm{s}$ 时 b 第一次回到波峰，则 （  ）\n\n![物理配图](assets/2026/physics/陕晋青宁/09.svg)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/09.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "波的周期为 $1.2\\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "波速为 $10\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "波的振幅为 $4\\sqrt{3}\\,\\mathrm{cm}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$0\\sim0.6\\,\\mathrm{s}$ 内质点 a 的路程为 $8\\sqrt{2}\\,\\mathrm{cm}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据题意由图可知，$t=0$ 时，质点 b 在波峰，$1.2\\,\\mathrm{s}$ 时 b 第一次回到波峰，则波的周期为 $1.2\\,\\mathrm{s}$，故 A 正确；\n\nB．由于 $t=0.5\\,\\mathrm{s}=\\frac{5}{12}T<\\frac{1}{2}T$ 时 a 振动至波谷，则 $t=0$ 时，质点 a 沿 y 轴负方向振动，则波沿 x 轴正方向传播，质点 a 由波峰振动到此位置的时间为 $\\frac{1}{12}T$，则质点 a 的振动传播到质点 b 需要 $t'=\\frac{1}{12}T=0.1\\,\\mathrm{s}$，则波速为 $v=\\frac{x}{t'}=\\frac{0.5}{0.1}\\,\\mathrm{m}/\\mathrm{s}=5\\,\\mathrm{m}/\\mathrm{s}$，故 B 错误；\n\nCD．设波的振幅为 $A$，结合上述分析可知，质点 a 的振动方程为 $y=A\\sin\\left(\\frac{2\\pi}{T}t+\\frac{2}{3}\\pi\\right)\\,\\mathrm{cm}$，\n\n又有 $t=0$ 时，$y=6\\,\\mathrm{cm}$，\n\n解得 $A=4\\sqrt{3}\\,\\mathrm{cm}$，\n\n$\\Delta t=0.6\\,\\mathrm{s}=\\frac{1}{2}T$，\n\n经过 $t=0.6\\,\\mathrm{s}=\\frac{1}{2}T$ 时间，质点 a 通过的路程为 $s=2A=8\\sqrt{3}\\,\\mathrm{cm}$，故 C 正确，D 错误。\n\n故选 AC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 350,
+      "topics": [
+        "运动和力",
+        "变加速直线运动"
+      ],
+      "stem_md": "如图，物块 N、P、Q 的质量分别为 $m$、$m$、$2m$，Q 通过不可伸长的轻绳绕过两个固定轻质光滑定滑轮与 P 连接，P 与位于正下方的 N 用劲度系数为 $k$ 的轻弹簧相连。初始时托住 N 和 Q，使弹簧处于原长，三个物块均静止。现同时无初速度释放 N 和 Q，运动中，物块均视为质点且不与滑轮相碰，不计空气阻力，弹簧始终在弹性限度内，弹性势能 $E_{\\mathrm{p}}=\\frac{1}{2}kx^{2}$（$x$ 为形变量），重力加速度大小为 $g$。则 （  ）\n\n![物理配图](assets/2026/physics/陕晋青宁/10.svg)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/10.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "释放后瞬间 Q 的加速度大小为 $\\frac{g}{3}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "释放后瞬间轻绳上的拉力大小为 $mg$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "释放后 N 下降的最大距离为 $\\frac{3mg}{4k}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "释放后 N 的速度最大值为 $\\frac{g}{2}\\sqrt{\\frac{3m}{k}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．根据题意可知，初始时弹簧处于原长，释放后瞬间，弹簧形变量不变，设释放后瞬间轻绳上的拉力大小为 $T$，对 Q、P 整体，由牛顿第二定律有 $2mg-mg=(m+2m)a$，对 Q，由牛顿第二定律有 $2mg-F=2ma$，\n\n联立解得 $a=\\frac{g}{3}$，$F=\\frac{4}{3}mg$，故 A 正确，B 错误；\n\nCD．根据题意，把物块 N、P、Q 看成整体，左边受向下的 $2mg$，右边也受向下的 $2mg$，整体合力为零，由动量守恒定律有 $mv_{N}=(m+2m)v_{PQ}$，\n\n则有 $mv_{N}t=(m+2m)v_{PQ}t$，\n\n可得 $mx_{N}=(m+2m)x_{PQ}$，\n\n解得 $v_{N}=3v_{PQ}$，$x_{N}=3x_{PQ}$。\n\n设释放后 N 下降的最大距离为 $x_{N}=h$，则 $x_{PQ}=\\frac{1}{3}h$，此时弹簧形变量为 $\\Delta x_{1}=h+\\frac{1}{3}h$，\n\n由能量守恒定律有 $mgh+2mg\\cdot\\frac{1}{3}h-mg\\cdot\\frac{1}{3}h=\\frac{1}{2}k(\\Delta x_{1})^{2}$，\n\n解得 $h=\\frac{3mg}{2k}$。\n\n释放后 N 的速度最大时为 $v_{N}=v_{m}$，则有 $v_{PQ}=\\frac{1}{3}v_{N}=\\frac{1}{3}v_{m}$，\n\n又有 $k\\Delta x_{2}=mg$，\n\n解得 $\\Delta x_{2}=\\frac{mg}{k}$，\n\n则有 $x_{N}'=\\frac{3mg}{4k}$，$x_{PQ}'=\\frac{mg}{4k}$，\n\n由能量守恒定律有\n\n$mgx_{N}'+2mg\\cdot x_{PQ}'-mg\\cdot x_{PQ}'=\\frac{1}{2}k(\\Delta x_{2})^{2}+\\frac{1}{2}mv_{m}^{2}+\\frac{1}{2}(m+2m)\\left(\\frac{1}{3}v_{m}\\right)^{2}$，\n\n解得 $v_{m}=\\frac{g}{2}\\sqrt{\\frac{3m}{k}}$，故 C 错误，D 正确。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 5,
+      "difficulty": 650,
+      "topics": [
+        "直线运动",
+        "打点计时器公式"
+      ],
+      "stem_md": "某同学使用打点计时器进行“测量速度和加速度”的实验。\n\n（1）下述操作正确的是  ______ （填正确答案标号）。\n\n\t\n\n(A) 先拉动纸带，再开始打点  (B) 先开始打点，再拉动纸带\n（2）该同学用电源频率为 $50\\,\\mathrm{Hz}$ 的打点计时器从左至右打出如图所示的一条纸带。可用某点左右相邻点间的平均速度代表该点的瞬时速度，则 P 点的瞬时速度为  ______  $\\,\\mathrm{m}/\\mathrm{s}$（保留三位有效数字）。\n（3）测得 Q 点的瞬时速度 $v_{Q}=0.560\\,\\mathrm{m}/\\mathrm{s}$，则 P、Q 两点间的平均加速度为  ______  $\\,\\mathrm{m}/\\mathrm{s}^2$（保留三位有效数字）。\n\n![物理配图](assets/2026/physics/陕晋青宁/11.svg)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/11.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）B\n（2）$0.305$\n（3）$1.28$",
+        "sub_answers": [
+          "B",
+          "$0.305$",
+          "$1.28$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）使用打点计时器时，为了使打点稳定并有效利用纸带，应先接通电源开始打点，待打点稳定后再释放纸带拉动其运动。若先拉动纸带再打点，可能导致纸带上打出的点很少甚至没有点，且初始阶段打点不稳定。\n\n故选 B。\n\n（2）由图可知，P 点左侧相邻点对应的刻度为 $x_{1}=2.40\\,\\mathrm{cm}$，右侧相邻点对应的刻度为 $x_{2}=3.62\\,\\mathrm{cm}$。\n\nP 点左右相邻两点间的距离 $\\Delta x=x_{2}-x_{1}$，\n\n打点计时器电源频率为 $50\\,\\mathrm{Hz}$，打点周期 $T=0.02\\,\\mathrm{s}$，根据用某点左右相邻点间的平均速度代表该点的瞬时速度，可得 P 点的瞬时速度 $v_{P}=\\frac{\\Delta x}{2T}=0.305\\,\\mathrm{m}/\\mathrm{s}$。\n\n（3）根据加速度定义式，P、Q 两点间的平均加速度\n\n$a=\\frac{v_{Q}-v_{P}}{10T}=\\frac{0.560-0.305}{0.2}\\,\\mathrm{m}/\\mathrm{s}^2\\approx1.28\\,\\mathrm{m}/\\mathrm{s}^2$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 10,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "电路实验"
+      ],
+      "stem_md": "在电阻阻值测量中常常会用到平衡比较法。某实验小组测量待测电阻 $R_{x}$ 的阻值。\n\n（1）实验步骤如下：\n\n\t①图甲中，开关 $S_{1}$ 断开时灵敏电流表 G（零刻线在表盘正中间）的指针指向正中间，开关 $S_{1}$ 闭合时 G 指针向 A 端偏转。用图乙所示的电路进行实验，开关 $S_{2}$ 闭合前，滑动变阻器 $R$ 的滑片应该置于  ______  端（填“C”或“D”）。\n\n\t②图乙中，a、b、c 是三个完全相同的电阻，$R_{M}$ 为电阻箱，$R_{x}$ 为待测电阻。闭合开关 $S_{2}$，调节滑动变阻器 $R$，发现灵敏电流表 G 指针向 B 端偏转，则此时应调节电阻箱使 $R_{M}$ 阻值  ______ （填“增大”或“减小”），使 G 指零（指针指向正中间）。\n\n\t③读得电阻箱 $R_{M}$ 的阻值为 $846\\,\\Omega$，则待测电阻 $R_{x}$ 的阻值为  ______  $\\,\\Omega$。\n（2）当 a、b、c 三个电阻不完全相同时：\n\n\t①用图乙所示电路按上述步骤使灵敏电流表 G 指零，读得 $R_{M}$ 的阻值记为 $R_{1}$，在不增加实验器材的前提下需增加实验步骤完成实验，该步骤为  ______ （单选，填正确答案标号）。\n\n\t\n\n(A) 交换“a”和“b、c”的位置，调节电阻箱使 G 重新指零，读 $R_{M}$ 阻值  (B) 将滑动变阻器的滑片向 C 滑动，使 G 重新指零，读 $R_{M}$ 阻值  (C) 交换“$R_{M}$”和“b、c”的位置，调节电阻箱使 G 重新指零，读 $R_{M}$ 阻值\n\n\t②按所选步骤读得 $R_{M}$ 的阻值记为 $R_{2}$，则待测电阻 $R_{x}$ 的阻值为  ______ （用 $R_{1}$、$R_{2}$ 表示）。\n\n![物理配图](assets/2026/physics/陕晋青宁/12a.pdf) ![物理配图](assets/2026/physics/陕晋青宁/12b.pdf)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/12a.pdf",
+        "assets/2026/physics/陕晋青宁/12b.pdf"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）①D；②增大；③$423$\n（2）①A；②$\\sqrt{R_{1}R_{2}}$",
+        "sub_answers": [
+          "D",
+          "增大",
+          "$423$",
+          "A",
+          "$\\sqrt{R_{1}R_{2}}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）①为了保护灵敏电流表 G，闭合开关 $S_{2}$ 前，应使测量电路（电桥）两端的电压最小，故滑片应置于 D 端。\n\n②由题意可知，电流从 A 端流入时指针向 A 端偏转。图乙中 G 指针向 B 端偏转，说明 B 端电势高。要使 G 指零，需增大 $\\varphi_{A}$ 或减小 $\\varphi_{B}$。根据电路图可知，增大 $R_{M}$ 可使 $R_{x}$ 分压减小，$\\varphi_{A}$ 升高，故应调节电阻箱使 $R_{M}$ 阻值增大。\n\n③图乙为电桥电路，平衡时满足 $\\frac{R_{x}}{R_{M}}=\\frac{R_{a}}{R_{bc}}$，\n\n已知 a、b、c 为三个完全相同的电阻，代入平衡条件解得 $R_{x}=423\\,\\Omega$。\n\n（2）①当 a、b、c 不完全相同时，为了消除电阻阻值不准确带来的系统误差，可采用交换法。即交换比例臂电阻的位置。原平衡条件为 $\\frac{R_{x}}{R_{1}}=\\frac{R_{a}}{R_{bc}}$，\n\n交换 a 和 b、c 的位置后，新平衡条件为 $\\frac{R_{x}}{R_{2}}=\\frac{R_{bc}}{R_{a}}$，\n\n两式相乘可消去 $R_{a}$ 和 $R_{bc}$，解得 $R_{x}=\\sqrt{R_{1}R_{2}}$，\n\n故选 A。\n\n②由上述分析可知 $R_{x}=\\sqrt{R_{1}R_{2}}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 10,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "某小组设计并完成了“稳定平抛水柱”实验。如图，竖直放置的储水瓶液面上方封闭少量气体，底部竖直细管甲与大气连通、水平细管乙有一阀门 K。初始时 K 关闭，瓶内上方气体体积 $V_{1}=200\\,\\mathrm{mL}$，甲管内恰无水且 A 端口距水面高 $h_{1}=20\\,\\mathrm{cm}$，乙管 B 端口距水面高 $h_{2}=30\\,\\mathrm{cm}$；打开 K，水持续从乙管流出，大气通过甲管进入瓶内，当水面与甲管 A 端口齐平时关闭 K，此时瓶内上方气体的总体积 $V_{2}=1510\\,\\mathrm{mL}$。已知大气压强 $p_{0}=1.00\\times10^{5}\\,\\mathrm{Pa}$、水的密度 $\\rho=1.00\\times10^{3}\\,\\mathrm{kg}/\\mathrm{m}^3$，重力加速度 $g$ 取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，忽略温度变化与瓶体形变，气体均可视为理想气体。求：\n\n（1）初始 K 关闭时，瓶内上方气体压强 $p_{1}$ 和乙管 B 端口处压强 $p_{2}$；\n（2）在打开 K 到关闭 K 的过程中，进入瓶内的空气在大气压强下的体积 $\\Delta V$。\n\n![物理配图](assets/2026/physics/陕晋青宁/13.svg)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/13.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$9.8\\times10^{4}\\,\\mathrm{Pa}$，$1.01\\times10^{5}\\,\\mathrm{Pa}$\n（2）$1314\\,\\mathrm{mL}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）初始 K 关闭时，甲管与大气连通且管内恰无水，说明 A 端口处压强等于大气压强 $p_{0}$。\n\n由液体压强公式可知，瓶内上方气体压强 $p_{1}$ 满足 $p_{1}+\\rho gh_{1}=p_{0}$，\n\n代入数据解得 $p_{1}=9.8\\times10^{4}\\,\\mathrm{Pa}$。\n\n乙管 B 端口处压强 $p_{2}$ 满足 $p_{2}=p_{1}+\\rho gh_{2}$，\n\n代入数据解得 $p_{2}=1.01\\times10^{5}\\,\\mathrm{Pa}$。\n\n（2）当水面与甲管 A 端口齐平时，瓶内上方气体压强等于大气压强 $p_{0}$。设进入瓶内的空气在大气压强下的体积为 $\\Delta V$，对瓶内原有气体和进入的空气整体应用玻意耳定律，有 $p_{1}V_{1}+p_{0}\\Delta V=p_{0}V_{2}$，\n\n代入数据解得 $\\Delta V=1314\\,\\mathrm{mL}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 13,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "牛顿定律的应用"
+      ],
+      "stem_md": "如图，某游乐场有一条滑道，由两段粗糙程度不同的直道组成，其中 $AB$ 段的长度 $l=36\\,\\mathrm{m}$、倾角为 $\\theta$，$BC$ 段水平且足够长。初始时游客甲乘滑板从 $A$ 点由静止下滑，经过 $t=6\\,\\mathrm{s}$ 到达 $B$ 点，此后进入 $BC$ 段继续滑行。游客甲和滑板的总质量 $m=60\\,\\mathrm{kg}$，$AB$ 段、$BC$ 段滑道与滑板间的动摩擦因数分别为 $\\mu_{1}$、$\\mu_{2}$，其中 $\\mu_{2}=\\frac{1}{10}$。重力加速度 $g$ 取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，$\\sin\\theta=\\frac{1}{3}$。游客和滑板整体视为质点，不计空气阻力及在 $B$ 点处的机械能损失。\n\n（1）求 $AB$ 段滑道与滑板间的动摩擦因数 $\\mu_{1}$；\n（2）求 $AB$ 段甲和滑板的机械能损失及动量变化量的大小；\n（3）当甲到达 $B$ 点时，游客乙乘同样滑板恰以 $5\\,\\mathrm{m}/\\mathrm{s}$ 的速度经过 $A$ 点下滑。求乙到达 $B$ 点时与甲的距离。\n\n![物理配图](assets/2026/physics/陕晋青宁/14.svg)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/14.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\mu_{1}=\\frac{\\sqrt{2}}{10}$\n（2）$2880\\,\\mathrm{J}$，$720\\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$\n（3）$40\\,\\mathrm{m}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）当甲从 A 点滑至 B 点根据 $L=\\frac{1}{2}at^{2}$，\n\n代入数据可得 $a=2\\,\\mathrm{m}/\\mathrm{s}^2$。\n\n根据牛顿第二定律有 $mg\\sin\\theta-\\mu_{1}mg\\cos\\theta=ma$，\n\n又因为 $\\sin\\theta=\\frac{1}{3}$，所以 $\\cos\\theta=\\frac{2\\sqrt{2}}{3}$，\n\n代入数据联立可得 $\\mu_{1}=\\frac{\\sqrt{2}}{10}$。\n\n（2）甲从 A 点滑至 B 点损失的机械能等于这个过程中摩擦力做的功，所以有\n\n$\\Delta E=W_{f}=\\mu mg\\cos\\theta\\cdot L=2880\\,\\mathrm{J}$，\n\n根据前面小问可知甲下滑的加速度为 $a=2\\,\\mathrm{m}/\\mathrm{s}^2$；根据运动学公式 $v^{2}=2aL$ 可得甲到达 B 点的速度为 $12\\,\\mathrm{m}/\\mathrm{s}$，\n\n所以 AB 段动量的变化量为 $\\Delta p=mv-0=720\\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$。\n\n（3）乙从 A 滑到 B 的过程根据运动学公式有 $L=v_{0}t'+\\frac{1}{2}at'^{2}$，\n\n代入数据解得 $t'=4\\,\\mathrm{s}$。\n\n甲在地面上做匀减速运动，根据牛顿第二定律有 $\\mu_{2}mg=ma_{2}$，\n\n可得 $a_{2}=1\\,\\mathrm{m}/\\mathrm{s}^2$。\n\n甲到达 B 点的速度为 $v=12\\,\\mathrm{m}/\\mathrm{s}$，在 $4\\,\\mathrm{s}$ 内甲没有停止；\n\n在 $t'=4\\,\\mathrm{s}$ 内，甲运动的距离 $x=vt'-\\frac{1}{2}a_{2}t'^{2}$，\n\n代入数据解得 $x=40\\,\\mathrm{m}$，即甲乙之间的距离为 $40\\,\\mathrm{m}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2026-physics-陕晋青宁-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在组合场中的运动"
+      ],
+      "stem_md": "如图，垂直于 $x$ 轴的足够大绝缘薄挡板 P 紧贴平行金属板放置，挡板 P 有一小孔在原点 $O$ 处，$O$ 点到垂直于 $y$ 轴的两金属板距离相等。在 $xOy$ 平面位于 $(-L,0)$ 处的粒子源以速率 $v_{0}$ 向面内各方向发射质量为 $m$、电荷量为 $q$（$q>0$）的带电粒子。两金属板（上板为正极）间距为 $2L$，板间电压 $U$ 初始为 $\\frac{48mv_{0}^{2}}{25q}$。在 $xOy$ 平面 $y$ 轴右侧，圆心 $O'$ 位于 $(0,L)$、直径在 $y$ 轴、半径为 $L$ 的半圆区域存在方向垂直于平面向里的匀强磁场，其磁感应强度大小为 $\\frac{mv_{0}}{qL}$。在 $x>L$ 处有一垂直于 $x$ 轴的固定弹性绝缘挡板 Q，粒子若碰到 Q 将发生弹性碰撞且电荷量 $q$ 不变。粒子打到金属板或挡板 P 均会被吸收，不计粒子重力及粒子间的相互作用，忽略边缘效应。（$v_{0}$、$m$、$q$、$L$ 均为已知量）\n\n（1）可从小孔进入磁场的粒子，求其从 $O$ 点处射入磁场速度方向与 $x$ 轴正向夹角的正弦值；\n（2）粒子从磁场射出后与挡板 Q 发生碰撞，求其再次射入磁场到达挡板 P 上位置的 $y$ 坐标；\n（3）若仅改变电压 $U$ 的大小（$U>0$），在不同电压下，粒子源发射的所有粒子均无法打到挡板 P 右侧面；进入磁场的所有粒子打到挡板 P 右侧面有 1 个撞击点或 2 个撞击点，求以上三种情况分别对应的电压取值范围（用已知量 $v_{0}$、$m$、$q$ 表示）。\n\n![物理配图](assets/2026/physics/陕晋青宁/15.svg)",
+      "figures": [
+        "assets/2026/physics/陕晋青宁/15.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$0.6$ 或 $0.8$\n（2）$\\frac{2}{5}L$ 或 $\\frac{4}{5}L$\n（3）$U>\\frac{2mv_{0}^{2}}{q}$ 时，无粒子能到达 $O$ 点，均无法打到 P 右侧面；当 $0<U<\\frac{16mv_{0}^{2}}{17q}$ 或 $U=\\frac{2mv_{0}^{2}}{q}$ 时，1 个撞击点；当 $\\frac{16mv_{0}^{2}}{17q}\\leq U<\\frac{2mv_{0}^{2}}{q}$ 时，2 个撞击点。"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）粒子在电场中做类斜抛运动\n\n![物理配图](assets/2026/physics/陕晋青宁/15_an1.jpg)\n\n设粒子初速度方向与 $x$ 轴夹角为 $\\theta$，加速度\n\n$a=\\frac{qU}{m(2L)}=\\frac{24v_{0}^{2}}{25L}$，\n\n方向沿 $y$ 轴正向。粒子从 $(-L,0)$ 运动到 $(0,0)$，水平方向 $L=v_{0}\\cos\\theta\\cdot t$，\n\n竖直方向 $0=-v_{0}\\sin\\theta\\cdot t+\\frac{1}{2}at^{2}$，\n\n联立解得 $v_{0}^{2}\\sin(2\\theta)=aL=\\frac{24}{25}v_{0}^{2}$，\n\n$\\sin(2\\theta)=\\frac{qU}{2mv_{0}^{2}}=\\frac{24}{25}$。\n\n在 $O$ 点，$v_{x}=v_{0}\\cos\\theta$，$v_{y}=-v_{0}\\sin\\theta+at=v_{0}\\sin\\theta$，\n\n设射入磁场速度方向与 $x$ 轴夹角为 $\\beta$，则 $\\tan\\beta=\\frac{v_{y}}{v_{x}}=\\tan\\theta$，\n\n即 $\\beta=\\theta$。\n\n根据 $\\sin(2\\beta)=\\frac{24}{25}$，$\\sin^{2}\\beta+\\cos^{2}\\beta=1$，\n\n解得 $\\sin\\beta=0.6$ 或 $\\sin\\beta=0.8$。\n\n（2）粒子在磁场中做匀速圆周运动，半径 $R=\\frac{mv_{0}}{qB}=L$，\n\n磁场区域半径也为 $L$。由几何关系，粒子从 $O$ 点射入，必从磁场边界另一点射出，且射出速度方向水平向右，如下图\n\n![物理配图](assets/2026/physics/陕晋青宁/15_an2.jpg)\n\n射出点纵坐标 $y_{\\text{出}}=L(1-\\cos\\alpha)$，\n\n当 $\\sin\\alpha=\\frac{3}{5}$ 时，$\\cos\\alpha=\\frac{4}{5}$，$y_{\\text{出}}=\\frac{L}{5}$；\n\n当 $\\sin\\alpha=\\frac{4}{5}$ 时，$\\cos\\alpha=\\frac{3}{5}$，$y_{\\text{出}}=\\frac{2L}{5}$。\n\n粒子与 Q 板弹性碰撞后沿 $x$ 轴负方向返回，再次进入磁场。\n\n![物理配图](assets/2026/physics/陕晋青宁/15_an3.jpg)\n\n由对称性及圆周运动几何关系，粒子再次打到挡板 P 上的位置纵坐标 $y=2y_{\\text{出}}$，\n\n故 $y$ 坐标为 $\\frac{2}{5}L$ 或 $\\frac{4}{5}L$。\n\n（3）根据（1）可知 $k=\\frac{qU}{2mv_{0}^{2}}$。粒子能到达 $O$ 点需满足 $\\sin(2\\theta)=k$，即 $k\\leq1$，$U\\leq\\frac{2mv_{0}^{2}}{q}$，\n\n若 $U>\\frac{2mv_{0}^{2}}{q}$，则 $k>1$，无粒子能到达 $O$ 点，均无法打到 P 右侧面。\n\n当 $U\\leq\\frac{2mv_{0}^{2}}{q}$ 时，存在两个发射角 $\\theta_{1}$、$\\theta_{2}$（假设 $\\theta_{2}$ 大于 $\\theta_{1}$）。粒子在电场中不撞板条件为 $|y_{\\min}|\\leq L$，如下图\n\n![物理配图](assets/2026/physics/陕晋青宁/15_an4.jpg)\n\n右图为刚好到达上极板的临界，根据逆向看，类平抛运动速度偏转角是位移偏转角正切值的 2 倍，可知，此时 $\\tan\\theta=2\\times\\frac{L}{\\frac{1}{2}L}=4$，\n\n根据数学关系可知此时 $\\sin\\theta=\\frac{4\\sqrt{17}}{17}$，$\\cos\\theta=\\frac{\\sqrt{17}}{17}$，\n\n解得对于 $\\theta_{2}$ 需 $k=\\sin(2\\theta)\\geq\\frac{8}{17}$，即 $U\\geq\\frac{16mv_{0}^{2}}{17q}$，\n\n此时 $\\theta_{2}$ 对应粒子轨迹刚好与上极板相切。\n\n综上所述，当 $0<U<\\frac{16mv_{0}^{2}}{17q}$ 时，仅 $\\theta_{1}$ 粒子能进入磁场，1 个撞击点；\n\n当 $\\frac{16mv_{0}^{2}}{17q}\\leq U<\\frac{2mv_{0}^{2}}{q}$ 时，两粒子均能进入且撞击点不同，2 个撞击点；\n\n当 $U=\\frac{2mv_{0}^{2}}{q}$ 时，两粒子轨迹重合，1 个撞击点；\n\n当 $U>\\frac{2mv_{0}^{2}}{q}$，则 $k>1$，无粒子能到达 $O$ 点，均无法打到 P 右侧面。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2026/physics/陕晋青宁/15_an1.jpg",
+        "assets/2026/physics/陕晋青宁/15_an2.jpg",
+        "assets/2026/physics/陕晋青宁/15_an3.jpg",
+        "assets/2026/physics/陕晋青宁/15_an4.jpg"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

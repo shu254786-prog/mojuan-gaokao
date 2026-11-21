@@ -1,0 +1,723 @@
+{
+  "id": "2023-physics-湖北",
+  "year": 2023,
+  "subject": "物理",
+  "region": "湖北卷",
+  "region_key": "湖北",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2023-physics-湖北-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 950,
+      "topics": [
+        "原子和原子核",
+        "玻尔模型"
+      ],
+      "stem_md": "2022 年 10 月，我国自主研发的“夸父一号”太阳探测卫星成功发射。该卫星搭载的莱曼阿尔法太阳望远镜可用于探测波长为 $121.6\\,\\mathrm{nm}$ 的氢原子谱线（对应的光子能量为 $10.2\\,\\mathrm{eV}$）。根据如图所示的氢原子能级图，可知此谱线来源于太阳中氢原子 （  ）\n\n![物理配图](assets/2023/physics/湖北/01.png)",
+      "figures": [
+        "assets/2023/physics/湖北/01.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$n=2$ 和 $n=1$ 能级之间的跃迁",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$n=3$ 和 $n=1$ 能级之间的跃迁",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$n=3$ 和 $n=2$ 能级之间的跃迁",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$n=4$ 和 $n=2$ 能级之间的跃迁",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由图中可知 $n=2$ 和 $n=1$ 的能级差之间的能量差值为 $\\Delta E = E_{2} - E_{1} = -3.4\\,\\mathrm{eV} - (-13.6\\,\\mathrm{eV}) = 10.2\\,\\mathrm{eV}$。与探测器探测到的谱线能量相等，故可知此谱线来源于太阳中氢原子 $n=2$ 和 $n=1$ 能级之间的跃迁。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "天体运动"
+      ],
+      "stem_md": "2022 年 12 月 8 日，地球恰好运行到火星和太阳之间，且三者几乎排成一条直线，此现象被称为“火星冲日”。火星和地球几乎在同一平面内沿同一方向绕太阳做圆周运动，火星与地球的公转轨道半径之比约为 3:2，如图所示。根据以上信息可以得出 （  ）\n\n![物理配图](assets/2023/physics/湖北/02.png)",
+      "figures": [
+        "assets/2023/physics/湖北/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "火星与地球绕太阳运动的周期之比约为 27:8",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "当火星与地球相距最远时，两者的相对速度最大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "火星与地球表面的自由落体加速度大小之比约为 9:4",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "下一次“火星冲日”将出现在 2023 年 12 月 8 日之前",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．火星和地球均绕太阳运动，由于火星与地球的轨道半径之比约为 3:2，根据开普勒第三定律有 $\\frac{r_{\\text{火}}^{3}}{r_{\\text{地}}^{3}} = \\frac{T_{\\text{火}}^{2}}{T_{\\text{地}}^{2}}$\n\n可得 $\\frac{T_{\\text{火}}}{T_{\\text{地}}} = \\sqrt{\\frac{r_{\\text{火}}^{3}}{r_{\\text{地}}^{3}}} = \\frac{3\\sqrt{3}}{2\\sqrt{2}}$\n\n故 A 错误；\n\nB．火星和地球绕太阳匀速圆周运动，速度大小均不变，当火星与地球相距最远时，由于两者的速度方向相反，故此时两者相对速度最大，故 B 正确；\n\nC．在星球表面根据万有引力定律有 $G\\frac{Mm}{r^{2}}=mg$\n\n由于不知道火星和地球的质量比，故无法得出火星和地球表面的自由落体加速度，故 C 错误；\n\nD．火星和地球绕太阳匀速圆周运动，有 $\\omega_{\\text{火}} = \\frac{2\\pi}{T_{\\text{火}}}$，$\\omega_{\\text{地}} = \\frac{2\\pi}{T_{\\text{地}}}$\n\n要发生下一次火星冲日则有 $\\left(\\frac{2\\pi}{T_{\\text{地}}} - \\frac{2\\pi}{T_{\\text{火}}}\\right)t = 2\\pi$\n\n得 $t = \\frac{T_{\\text{火}}T_{\\text{地}}}{T_{\\text{火}} - T_{\\text{地}}} > T_{\\text{地}}$\n\n可知下一次“火星冲日”将出现在 2023 年 12 月 18 日之后，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电场",
+        "电场线"
+      ],
+      "stem_md": "在正点电荷 $Q$ 产生的电场中有 M、N 两点，其电势分别为 $\\varphi_{M}$、$\\varphi_{N}$，电场强度大小分别为 $E_{M}$、$E_{N}$。下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "若 $\\varphi_{M} > \\varphi_{N}$，则 M 点到电荷 $Q$ 的距离比 N 点的远",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "若 $E_{M} < E_{N}$，则 M 点到电荷 $Q$ 的距离比 N 点的近",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "若把带负电的试探电荷从 M 点移到 N 点，电场力做正功，则 $\\varphi_{M} < \\varphi_{N}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "若把带正电的试探电荷从 M 点移到 N 点，电场力做负功，则 $E_{M} > E_{N}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．沿着电场线的方向电势降低，根据正点电荷产生的电场特点可知若 $\\varphi_{M} > \\varphi_{N}$，则 M 点到电荷 $Q$ 的距离比 N 点的近，故 A 错误；\n\nB．电场线的疏密程度表示电场强度的大小，根据正点电荷产生的电场特点可知若 $E_{M} < E_{N}$，则 M 点到电荷 $Q$ 的距离比 N 点的远，故 B 错误；\n\nC．若把带负电的试探电荷从 M 点移到 N 点，电场力做正功，则是逆着电场线运动，电势增加，故有 $\\varphi_{M} < \\varphi_{N}$。故 C 正确；\n\nD．若把带正电的试探电荷从 M 点移到 N 点，电场力做负功，则是逆着电场线运动；根据正点电荷产生的电场特点可知 $E_{M} < E_{N}$。故 D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "功和能",
+        "交通工具启动"
+      ],
+      "stem_md": "两节动车的额定功率分别为 $P_{1}$ 和 $P_{2}$，在某平直铁轨上能达到的最大速度分别为 $v_{1}$ 和 $v_{2}$。现将它们编成动车组，设每节动车运行时受到的阻力在编组前后不变，则该动车组在此铁轨上能达到的最大速度为 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{P_{1}v_{1} + P_{2}v_{2}}{P_{1} + P_{2}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{P_{1}v_{2} + P_{2}v_{1}}{P_{1} + P_{2}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{(P_{1} + P_{2})v_{1}v_{2}}{P_{1}v_{1} + P_{2}v_{2}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{(P_{1} + P_{2})v_{1}v_{2}}{P_{1}v_{2} + P_{2}v_{1}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题意可知两节动车分别有 $P_{1} = f_{1}v_{1}$，$P_{2} = f_{2}v_{2}$\n\n当将它们编组后有 $P_{1} + P_{2} = (f_{1} + f_{2})v$\n\n联立可得 $v = \\frac{(P_{1} + P_{2})v_{1}v_{2}}{P_{1}v_{2} + P_{2}v_{1}}$\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电磁感应",
+        "法拉第电磁感应定律"
+      ],
+      "stem_md": "近场通信（NFC）器件应用电磁感应原理进行通讯，其天线类似一个压平的线圈，线圈尺寸从内到外逐渐变大。如图所示，一正方形 NFC 线圈共 3 匝，其边长分别为 $1.0\\,\\mathrm{cm}$、$1.2\\,\\mathrm{cm}$ 和 $1.4\\,\\mathrm{cm}$，图中线圈外线接入内部芯片时与内部线圈绝缘。若匀强磁场垂直通过此线圈，磁感应强度变化率为 $10^{3}\\, \\mathrm{T}/\\mathrm{s}$，则线圈产生的感应电动势最接近 （  ）\n\n![物理配图](assets/2023/physics/湖北/05.png)",
+      "figures": [
+        "assets/2023/physics/湖北/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$0.30\\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$0.44\\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$0.59\\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$4.3\\,\\mathrm{V}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据法拉第电磁感应定律可知\n\n$E=\\frac{\\Delta\\Phi}{\\Delta t}=\\frac{\\Delta BS}{\\Delta t}=10^{3}\\times\\left(1.0^{2}+1.2^{2}+1.4^{2}\\right)\\times10^{-4}\\,\\mathrm{V}=0.44\\,\\mathrm{V}$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "如图所示，楔形玻璃的横截面 POQ 的顶角为 $30^\\circ$，OP 边上的点光源 S 到顶点 O 的距离为 $d$，垂直于 OP 边的光线 SN 在 OQ 边的折射角为 $45^\\circ$。不考虑多次反射，OQ 边上有光射出部分的长度为 （  ）\n\n![物理配图](assets/2023/physics/湖北/06.png)",
+      "figures": [
+        "assets/2023/physics/湖北/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{1}{2}d$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{\\sqrt{2}}{2}d$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$d$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\sqrt{2}d$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设光纤在 OQ 界面的入射角为 $\\alpha$，折射角为 $\\beta$，几何关系可知 $\\alpha = 30^\\circ$，则有折射定律 $n = \\frac{\\sin\\beta}{\\sin\\alpha} = \\sqrt{2}$。光纤射出 OQ 界面的临界为发生全反射，光路图如下，其中 OB$\\perp$CS。\n\n![物理配图](assets/2023/physics/湖北/06_an.png)\n\n光线在 AB 两点发生全反射，由全反射定律\n\n$\\sin C = \\frac{1}{n} = \\frac{\\sqrt{2}}{2}$\n\n即 AB 两处全反射的临界角为 $45^\\circ$，AB 之间有光线射出，由几何关系可知 $AB = 2AC = 2CS = OS = d$。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/湖北/06_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "机械波",
+        "波与振动图象"
+      ],
+      "stem_md": "一列简谐横波沿 $x$ 轴正向传播，波长为 $100\\,\\mathrm{cm}$，振幅为 $8\\,\\mathrm{cm}$。介质中有 a 和 b 两个质点，其平衡位置分别位于 $x = -\\frac{40}{3}\\,\\mathrm{cm}$ 和 $x = 120\\,\\mathrm{cm}$ 处。某时刻 b 质点的位移为 $y = 4\\,\\mathrm{cm}$，且向 $y$ 轴正方向运动。从该时刻开始计时，a 质点的振动图像为 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2023/physics/湖北/07a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2023/physics/湖北/07b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2023/physics/湖北/07c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2023/physics/湖北/07d.png"
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "ab 之间的距离为\n\n$\\Delta x=\\frac{40}{3}+100=\\frac{4}{3}\\lambda$\n\n此时 b 点的位移 $4\\,\\mathrm{cm}$ 且向 $y$ 轴正方向运动，令此时 b 点的相位为 $\\varphi$，则有 $4 = 8 \\sin \\varphi$\n\n解得\n\n$\\varphi=\\frac{\\pi}{6}$ 或 $\\varphi=\\frac{5\\pi}{6}$（舍去，向下振动）\n\n由 ab 之间的距离关系可知\n\n$\\varphi_{a}-\\varphi=\\frac{\\frac{\\lambda}{3}}{\\lambda}\\cdot2\\pi=\\frac{2}{3}\\pi$\n\n则 $\\varphi_{a}=\\frac{5}{6}\\pi$，可知 a 点此时的位移为\n\n$y=8\\sin\\varphi_{a}=4\\,\\mathrm{cm}$\n\n且向下振动，即此时的波形图为\n\n![物理配图](assets/2023/physics/湖北/07_an.png)\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/湖北/07_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "直线运动",
+        "运动图象"
+      ],
+      "stem_md": "$t=0$ 时刻，质点 P 从原点由静止开始做直线运动，其加速度 $a$ 随时间 $t$ 按图示的正弦曲线变化，周期为 $2t_{0}$。在 $0 \\sim 3t_{0}$ 时间内，下列说法正确的是 （  ）\n\n![物理配图](assets/2023/physics/湖北/08.png)",
+      "figures": [
+        "assets/2023/physics/湖北/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$t=2t_{0}$ 时，P 回到原点",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$t=2t_{0}$ 时，P 的运动速度最小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$t=t_{0}$ 时，P 到原点的距离最远",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$t=\\frac{3}{2}t_{0}$ 时，P 的运动速度与 $t=\\frac{1}{2}t_{0}$ 时相同",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "ABC．质点在 $0 \\sim t_{0}$ 时间内从静止出发先做加速度增大的加速运动再做加速度减小的加速运动，此过程一直向前加速运动，$t_{0} \\sim 2t_{0}$ 时间内加速度和速度反向，先做加速度增加的减速运动再做加速度减小的减速运动，$2t_{0}$ 时刻速度减速到零，此过程一直向前做减速运动，$2t_{0} \\sim 4t_{0}$ 重复此过程的运动，即质点一直向前运动，AC 错误 B 正确；\n\nD．$a-t$ 图像的面积表示速度变化量，$\\frac{1}{2}t_{0} \\sim \\frac{3}{2}t_{0}$ 内速度的变化量为零，因此 $\\frac{1}{2}t_{0}$ 时刻的速度与 $\\frac{3}{2}t_{0}$ 时刻相同，D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "变加速直线运动"
+      ],
+      "stem_md": "如图所示，原长为 $l$ 的轻质弹簧，一端固定在 O 点，另一端与一质量为 $m$ 的小球相连。小球套在竖直固定的粗糙杆上，与杆之间的动摩擦因数为 0.5。杆上 M、N 两点与 O 点的距离均为 $l$，P 点到 O 点的距离为 $\\frac{1}{2}l$，OP 与杆垂直。当小球置于杆上 P 点时恰好能保持静止。设最大静摩擦力等于滑动摩擦力，重力加速度大小为 $g$。小球以某一初速度从 M 点向下运动到 N 点，在此过程中，弹簧始终在弹性限度内。下列说法正确的是 （  ）\n\n![物理配图](assets/2023/physics/湖北/09.png)",
+      "figures": [
+        "assets/2023/physics/湖北/09.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "弹簧的劲度系数为 $\\frac{4\\,\\mathrm{mg}}{l}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "小球在 P 点下方 $\\frac{1}{2}l$ 处的加速度大小为 $(3\\sqrt{2}-4)g$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "从 M 点到 N 点的运动过程中，小球受到的摩擦力先变小再变大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "从 M 点到 P 点和从 P 点到 N 点的运动过程中，小球受到的摩擦力做功相同",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．小球在 P 点受力平衡，则有\n\n$mg = f$，$f = \\mu F_{N}$，$F_{N} = k\\left(l - \\frac{l}{2}\\right)$\n\n联立解得 $k = \\frac{4\\,\\mathrm{mg}}{l}$\n\nA 正确；\n\nC．在 PM 之间任取一点 A，令 AO 与 MN 之间的夹角为 $\\theta$，则此时弹簧的弹力为\n\n$F = k\\left(l - \\frac{l}{2\\sin\\theta}\\right)$\n\n小球受到的摩擦力为 $f_{1} = \\mu F_{N1} = \\mu F \\sin \\theta$\n\n化简得 $f_{1} = \\mu \\left( kl \\sin \\theta - \\frac{kl}{2} \\right)$\n\n$\\theta$ 在 MP 之间增大在 PN 之间变小，即摩擦力先变大后变小，C 错误；\n\nD．根据对称性可知在任意关于 P 点对称的点摩擦力大小相等，因此由对称性可知 M 到 P 和 P 到 N 摩擦力做功大小相等；D 正确；\n\nB．小球运动到 P 点下方 $\\frac{1}{2}l$ 时 $\\theta = 45^\\circ$，此时摩擦力大小为\n\n$f_{1} = \\mu \\left( kl \\frac{\\sqrt{2}}{2} - \\frac{kl}{2} \\right)$\n\n由牛顿第二定律 $mg - f = ma$\n\n联立解得 $a = \\left(2 - \\sqrt{2}\\right)g$\n\nB 错误。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 350,
+      "topics": [
+        "电场",
+        "带电粒子的偏转"
+      ],
+      "stem_md": "一带正电微粒从静止开始经电压 $U_{1}$ 加速后，射入水平放置的平行板电容器，极板间电压为 $U_{2}$。微粒射入时紧靠下极板边缘，速度方向与极板夹角为 $45^\\circ$，微粒运动轨迹的最高点到极板左右两端的水平距离分别为 $2L$ 和 $L$，到两极板距离均为 $d$，如图所示。忽略边缘效应，不计重力。下列说法正确的是 （  ）\n\n![物理配图](assets/2023/physics/湖北/10.png)",
+      "figures": [
+        "assets/2023/physics/湖北/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$L:d=2:1$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$U_{1}:U_{2}=1:1$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "微粒穿过电容器区域的偏转角度的正切值为 2",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "仅改变微粒的质量或者电荷数量，微粒在电容器中的运动轨迹不变",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "B．粒子在电容器中水平方向做匀速直线运动，竖直方向做匀变速直线运动，根据电场强度和电势差的关系及场强和电场力的关系可得\n\n$E=\\frac{U_{2}}{2d}$，$F=qE=ma$\n\n粒子射入电容器后的速度为 $v_{0}$，水平方向和竖直方向的分速度\n\n$v_{x}=v_{0}\\cos45^\\circ=\\frac{\\sqrt{2}}{2}v_{0}$，$v_{y}=v_{0}\\sin45^\\circ=\\frac{\\sqrt{2}}{2}v_{0}$\n\n从射入到运动到最高点由运动学关系\n\n$v_{y}^{2}=2ad$\n\n粒子射入电场时由动能定理可得\n\n$qU_{1}=\\frac{1}{2}mv_{0}^{2}$\n\n联立解得 $U_{1}:U_{2}=1:1$。B 正确；\n\nA．粒子从射入到运动到最高点由运动学可得\n\n$2L=v_{x}t$，$d=\\frac{0+v_{y}}{2}\\cdot t$\n\n联立可得 $L:d=1:1$。A 错误；\n\nC．粒子穿过电容器时从最高点到穿出时由运动学可得\n\n$L = v_{x} t_{1}$，$v_{y1} = at_{1}$\n\n射入电容器到最高点有 $v_{y}=at$\n\n解得 $v_{y1}=\\frac{v_{y}}{2}$\n\n设粒子穿过电容器与水平的夹角为 $\\alpha$，则\n\n$\\tan\\alpha=\\frac{v_{y1}}{v_{x}}=\\frac{1}{2}$\n\n粒子射入磁场和水平的夹角为 $\\beta$，\n\n$\\tan(\\alpha+\\beta)=3$\n\nC 错误；\n\nD．粒子射入到最高点的过程水平方向的位移为 $x$，竖直方向的位移为\n\n$y=\\frac{1}{2}a't^{2}$\n\n联立 $x = v_{x}' t'$，$qU_{1} = \\frac{1}{2}mv^{2}$，$v_{x}' = v \\cos 45^\\circ$\n\n解得 $y=\\frac{U_{2}x^{2}}{4dU_{1}}$\n\n且 $x = v_{x}' t'$，$y = \\frac{0 + v_{y}'}{2} \\cdot t'$\n\n即解得 $x = 2L, y = d = L$\n\n即粒子在运动到最高点的过程中水平和竖直位移均与电荷量和质量无关，射出磁场过程同理\n\n$x = L = v_{x}' t_{1}'$，$v_{y1} = a' t_{1}'$，$y_{1} = \\frac{v_{y1} + 0}{2} t_{1}' = \\frac{x_{1}}{4} = \\frac{L}{4}$\n\n即轨迹不会变化，D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 7,
+      "difficulty": 550,
+      "topics": [
+        "力物体的平衡",
+        "摩擦力"
+      ],
+      "stem_md": "某同学利用测质量的小型家用电子秤，设计了测量木块和木板间动摩擦因数 $\\mu$ 的实验。\n\n如图 [2023湖北11a] 所示，木板和木块 A 放在水平桌面上，电子秤放在水平地面上，木块 A 和放在电子秤上的重物 B 通过跨过定滑轮的轻绳相连。调节滑轮，使其与木块 A 间的轻绳水平，与重物 B 间的轻绳竖直。在木块 A 上放置 $n$（$n=0,1,2,3,4,5$）个砝码（电子秤称得每个砝码的质量 $m_{0}$ 为 $20.0\\,\\mathrm{g}$），向左拉动木板的同时，记录电子秤的对应示数 $m$。\n\n![物理配图](assets/2023/physics/湖北/11a.png) ![物理配图](assets/2023/physics/湖北/11b.png)\n\n（1）实验中，拉动木板时  ______ （填“必须”或“不必”）保持匀速。\n（2）用 $m_{A}$ 和 $m_{B}$ 分别表示木块 A 和重物 B 的质量，则 $m$ 和 $m_{A}$、$m_{B}$、$m_{0}$、$\\mu$、$n$ 所满足的关系式为 $m = $  ______ 。\n（3）根据测量数据在坐标纸上绘制出 $m-n$ 图像，如图 [2023湖北11b] 所示，可得木块 A 和木板间的动摩擦因数 $\\mu = $  ______ （保留 2 位有效数字）。",
+      "figures": [
+        "assets/2023/physics/湖北/11a.png",
+        "assets/2023/physics/湖北/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）不必\n（2）$m_{B} - \\mu(m_{A} + nm_{0})$\n（3）0.40",
+        "sub_answers": [
+          "不必",
+          "$m_{B} - \\mu(m_{A} + nm_{0})$",
+          "0.40"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）木块与木板间的滑动摩擦力与两者之间的相对速度无关，则实验拉动木板时不必保持匀速；\n\n（2）对木块、砝码以及重物 B 分析可知\n\n$\\mu(m_{A} + nm_{0})g + mg = m_{B}g$\n\n解得 $m = m_{B} - \\mu(m_{A} + nm_{0})$\n\n（3）根据 $m = m_{B} - \\mu m_{A} - \\mu m_{0}\\cdot n$\n\n结合图像可知 $\\mu m_{0}$ 为图像斜率 8，则 $\\mu = 0.40$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 10,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "测电动势与内阻"
+      ],
+      "stem_md": "某实验小组为测量干电池的电动势和内阻，设计了如图 [2023湖北12a] 所示电路，所用器材如下：\n\n电压表（量程 $0 \\sim 3\\,\\mathrm{V}$，内阻很大）；\n\n电流表（量程 $0 \\sim 0.6\\,\\mathrm{A}$）；\n\n电阻箱（阻值 $0 \\sim 999.9\\,\\Omega$）；\n\n干电池一节、开关一个和导线若干。\n\n![物理配图](assets/2023/physics/湖北/12a.png) ![物理配图](assets/2023/physics/湖北/12b.png)\n\n（1）根据图 [2023湖北12a]，完成图 [2023湖北12b] 中的实物图连线  ______ 。\n（2）调节电阻箱到最大阻值，闭合开关。逐次改变电阻箱的电阻，记录其阻值 $R$、相应的电流表示数 $I$ 和电压表示数 $U$。根据记录数据作出的 $U-I$ 图像如图 [2023湖北12c] 所示，则干电池的电动势为  ______ $\\,\\mathrm{V}$（保留 3 位有效数字）、内阻为  ______ $\\,\\Omega$（保留 2 位有效数字）。\n（3）该小组根据记录数据进一步探究，作出 $\\frac{1}{I}-R$ 图像如图 [2023湖北12d] 所示。利用图 [2023湖北12d] 中图像的纵轴截距，结合（2）问得到的电动势与内阻，还可以求出电流表内阻为  ______ $\\,\\Omega$（保留 2 位有效数字）。\n（4）由于电压表内阻不是无穷大，本实验干电池内阻的测量值  ______ （填“偏大”或“偏小”）。\n\n![物理配图](assets/2023/physics/湖北/12c.png) ![物理配图](assets/2023/physics/湖北/12d.png)",
+      "figures": [
+        "assets/2023/physics/湖北/12a.png",
+        "assets/2023/physics/湖北/12b.png",
+        "assets/2023/physics/湖北/12c.png",
+        "assets/2023/physics/湖北/12d.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）实物图连线见解析图\n（2）1.58，0.64\n（3）2.5\n（4）偏小",
+        "sub_answers": [
+          "（见解析图）",
+          "1.58",
+          "0.64",
+          "2.5",
+          "偏小"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）实物连线如图：\n\n![物理配图](assets/2023/physics/湖北/12_an.png)\n\n（2）由电路结合闭合电路的欧姆定律可得 $U = E - Ir$，由图像可知 $E = 1.58\\,\\mathrm{V}$，内阻 $r = \\frac{1.58 - 1.37}{0.33}\\,\\Omega = 0.64\\,\\Omega$\n\n（3）根据 $E = I(R + R_{A} + r)$\n\n可得 $\\frac{1}{I} = \\frac{1}{E} \\cdot R + \\frac{R_{A} + r}{E}$\n\n由图像可知 $\\frac{R_{A} + r}{E} = 2$，解得 $R_{A} = 2.5\\,\\Omega$\n\n（4）由于电压表内阻不是无穷大，则实验测得的是电压表内阻与电源内阻的并联值，即实验中测得的电池内阻偏小。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/湖北/12_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 10,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "如图所示，竖直放置在水平桌面上的左右两汽缸粗细均匀，内壁光滑，横截面积分别为 $S$、$2S$，由体积可忽略的细管在底部连通。两汽缸中各有一轻质活塞将一定质量的理想气体封闭，左侧汽缸底部与活塞用轻质细弹簧相连。初始时，两汽缸内封闭气柱的高度均为 $H$，弹簧长度恰好为原长。现往右侧活塞上表面缓慢添加一定质量的沙子，直至右侧活塞下降 $\\frac{1}{3}H$，左侧活塞上升 $\\frac{1}{2}H$。已知大气压强为 $p_{0}$，重力加速度大小为 $g$，汽缸足够长，汽缸内气体温度始终不变，弹簧始终在弹性限度内。求\n\n（1）最终汽缸内气体的压强。\n（2）弹簧的劲度系数和添加的沙子质量。\n\n![物理配图](assets/2023/physics/湖北/13.png)",
+      "figures": [
+        "assets/2023/physics/湖北/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{18}{17}p_{0}$\n（2）$k = \\frac{2p_{0}S}{17H}$，$m = \\frac{2p_{0}S}{17g}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）对左右汽缸内所封的气体，初态压强 $p_{1}=p_{0}$，体积 $V_{1}=SH+2SH=3SH$\n\n末态压强 $p_{2}$，体积 $V_{2}=S\\cdot\\frac{3}{2}H+\\frac{2}{3}H\\cdot2S=\\frac{17}{6}SH$\n\n根据玻意耳定律可得\n\n$p_{1}V_{1}=p_{2}V_{2}$\n\n解得 $p_{2}=\\frac{18}{17}p_{0}$\n\n（2）对右边活塞受力分析可知\n\n$mg + p_{0}\\cdot2S = p_{2}\\cdot2S$\n\n解得 $m = \\frac{2p_{0}S}{17g}$\n\n对左侧活塞受力分析可知\n\n$p_{0}S + k\\cdot\\frac{1}{2}H = p_{2}S$\n\n解得 $k = \\frac{2p_{0}S}{17H}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 15,
+      "difficulty": 550,
+      "topics": [
+        "功和能",
+        "动能定理"
+      ],
+      "stem_md": "如图为某游戏装置原理示意图。水平桌面上固定一半圆形竖直挡板，其半径为 $2R$、内表面光滑，挡板的两端 A、B 在桌面边缘，B 与半径为 $R$ 的固定光滑圆弧轨道 $CDE$ 在同一竖直平面内，过 C 点的轨道半径与竖直方向的夹角为 $60^\\circ$。小物块以某一水平初速度由 A 点切入挡板内侧，从 B 点飞出桌面后，在 C 点沿圆弧切线方向进入轨道 CDE 内侧，并恰好能到达轨道的最高点 D。小物块与桌面之间的动摩擦因数为 $\\frac{1}{2\\pi}$，重力加速度大小为 $g$，忽略空气阻力，小物块可视为质点。求：\n\n（1）小物块到达 D 点的速度大小；\n（2）B 和 D 两点的高度差；\n（3）小物块在 A 点的初速度大小。\n\n![物理配图](assets/2023/physics/湖北/14.png)",
+      "figures": [
+        "assets/2023/physics/湖北/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\sqrt{gR}$\n（2）0\n（3）$\\sqrt{3gR}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题知，小物块恰好能到达轨道的最高点 D，则在 D 点有\n\n$m\\frac{v_{D}^{2}}{R}=mg$\n\n解得 $v_{D} = \\sqrt{gR}$\n\n（2）由题知，小物块从 C 点沿圆弧切线方向进入轨道 $CDE$ 内侧，则在 C 点有 $\\cos60^\\circ=\\frac{v_{B}}{v_{C}}$\n\n小物块从 C 到 D 的过程中，根据动能定理有\n\n$-mg(R+R\\cos60^\\circ)=\\frac{1}{2}mv_{D}^{2}-\\frac{1}{2}mv_{C}^{2}$\n\n则小物块从 B 到 D 的过程中，根据动能定理有\n\n$mgH_{BD}=\\frac{1}{2}mv_{D}^{2}-\\frac{1}{2}mv_{B}^{2}$\n\n联立解得 $v_{B} = \\sqrt{gR}$，$H_{BD} = 0$\n\n（3）小物块从 A 到 B 的过程中，根据动能定理有\n\n$-\\mu mgS = \\frac{1}{2}mv_{B}^{2} - \\frac{1}{2}mv_{A}^{2}$\n\n$S = \\pi\\cdot2R$\n\n解得 $v_{A} = \\sqrt{3gR}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-湖北-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 18,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图所示，空间存在磁感应强度大小为 $B$、垂直于 $xOy$ 平面向里的匀强磁场。$t=0$ 时刻，一带正电粒子甲从点 $P(2a,0)$ 沿 $y$ 轴正方向射入，第一次到达点 $O$ 时与运动到该点的带正电粒子乙发生正碰。碰撞后，粒子甲的速度方向反向、大小变为碰前的 3 倍，粒子甲运动一个圆周时，粒子乙刚好运动了两个圆周。已知粒子甲的质量为 $m$，两粒子所带电荷量均为 $q$。假设所有碰撞均为弹性正碰，碰撞时间忽略不计，碰撞过程中不发生电荷转移，不考虑重力和两粒子间库仑力的影响。求：\n\n（1）第一次碰撞前粒子甲的速度大小；\n（2）粒子乙的质量和第一次碰撞后粒子乙的速度大小；\n（3）$t = \\frac{18\\pi m}{qB}$ 时刻粒子甲、乙的位置坐标，及从第一次碰撞到 $t = \\frac{18\\pi m}{qB}$ 的过程中粒子乙运动的路程。（**本小问不要求写出计算过程，只写出答案即可**）\n\n![物理配图](assets/2023/physics/湖北/15.png)",
+      "figures": [
+        "assets/2023/physics/湖北/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{qBa}{m}$\n（2）$\\frac{m}{2}$，$\\frac{3qBa}{m}$\n（3）甲（$2a$，0），乙（0，0），$\\frac{75}{2}\\pi a$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题知，粒子甲从点 $P(2a,0)$ 沿 $y$ 轴正方向射入到达点 $O$，则说明粒子甲的半径 $r = a$\n\n根据 $qv_{\\text{甲}0}B = m\\frac{v_{\\text{甲}0}^{2}}{r_{\\text{甲}0}}$\n\n解得 $v_{\\text{甲}0} = \\frac{qBa}{m}$\n\n（2）由题知，粒子甲运动一个圆周时，粒子乙刚好运动了两个圆周，则 $T_{\\text{甲}} = 2T_{\\text{乙}}$\n\n根据 $qvB = m\\frac{4\\pi^{2}}{T^{2}}r$，有 $\\frac{T_{\\text{甲}}}{T_{\\text{乙}}} = \\frac{m}{m_{\\text{乙}}}$\n\n则 $m_{\\text{乙}} = \\frac{m}{2}$\n\n粒子甲、乙碰撞过程，取竖直向下为正有\n\n$mv_{\\text{甲}0} + m_{\\text{乙}}v_{\\text{乙}0} = -mv_{\\text{甲}1} + m_{\\text{乙}}v_{\\text{乙}1}$\n\n$\\frac{1}{2}mv_{\\text{甲}0}^{2} + \\frac{1}{2}m_{\\text{乙}}v_{\\text{乙}0}^{2} = \\frac{1}{2}mv_{\\text{甲}1}^{2} + \\frac{1}{2}m_{\\text{乙}}v_{\\text{乙}1}^{2}$\n\n解得 $v_{\\text{乙}0} = -5v_{\\text{甲}0}$，$v_{\\text{乙}1} = 3v_{\\text{甲}0}$\n\n则第一次碰撞后粒子乙的速度大小为 $\\frac{3qBa}{m}$。\n\n（3）已知在 $t_{1}=\\frac{\\pi m}{qB}$ 时，甲、乙粒子发生第一次碰撞且碰撞后有\n\n$v_{\\text{甲}1}=-3v_{\\text{甲}0}$，$v_{\\text{乙}1}=3v_{\\text{甲}0}$\n\n则根据 $qvB = m\\frac{v^{2}}{r}$，可知此时乙粒子的运动半径为 $r_{\\text{乙}1} = \\frac{3}{2}a$\n\n可知在 $t_{2}=\\frac{3\\pi m}{qB}$ 时，甲、乙粒子发生第二次碰撞，且甲、乙粒子发生第一次碰撞到第二次碰撞过程中乙粒子运动了 2 圈，此过程中乙粒子走过的路程为 $s_{1}=3\\pi a$，且在第二次碰撞时有\n\n$mv_{\\text{甲}1} + m_{\\text{乙}}v_{\\text{乙}1} = mv_{\\text{甲}2} + m_{\\text{乙}}v_{\\text{乙}2}$\n\n$\\frac{1}{2}mv_{\\text{甲}1}^{2} + \\frac{1}{2}m_{\\text{乙}}v_{\\text{乙}1}^{2} = \\frac{1}{2}mv_{\\text{甲}2}^{2} + \\frac{1}{2}m_{\\text{乙}}v_{\\text{乙}2}^{2}$\n\n解得 $v_{\\text{甲}2} = v_{\\text{甲}0}$，$v_{\\text{乙}2} = -5v_{\\text{甲}0}$\n\n可知在 $t_{3}=\\frac{5\\pi m}{qB}$ 时，甲、乙粒子发生第三次碰撞，且甲、乙粒子发生第二次碰撞到第三次碰撞过程中乙粒子运动了 2 圈，此过程中乙粒子走过的路程为 $s_{2}=5\\pi a$，且在第三次碰撞时有\n\n$mv_{\\text{甲}2} + m_{\\text{乙}}v_{\\text{乙}2} = mv_{\\text{甲}3} + m_{\\text{乙}}v_{\\text{乙}3}$\n\n$\\frac{1}{2}mv_{\\text{甲}2}^{2} + \\frac{1}{2}m_{\\text{乙}}v_{\\text{乙}2}^{2} = \\frac{1}{2}mv_{\\text{甲}3}^{2} + \\frac{1}{2}m_{\\text{乙}}v_{\\text{乙}3}^{2}$\n\n解得 $v_{\\text{甲}3} = -3v_{\\text{甲}0}$，$v_{\\text{乙}3} = 3v_{\\text{甲}0}$\n\n依次类推\n\n在 $t_{10}=\\frac{17\\pi m}{qB}$ 时，甲、乙粒子发生第十次碰撞，且甲、乙粒子发生第九次碰撞到第十次碰撞过程中乙粒子运动了 2 圈，此过程中乙粒子走过的路程为 $s_{9} = 3\\pi a$\n\n且在第十次碰撞时有\n\n$mv_{\\text{甲}9} + m_{\\text{乙}}v_{\\text{乙}9} = mv_{\\text{甲}10} + m_{\\text{乙}}v_{\\text{乙}10}$\n\n$\\frac{1}{2}mv_{\\text{甲}9}^{2} + \\frac{1}{2}m_{\\text{乙}}v_{\\text{乙}9}^{2} = \\frac{1}{2}mv_{\\text{甲}10}^{2} + \\frac{1}{2}m_{\\text{乙}}v_{\\text{乙}10}^{2}$\n\n解得\n\n$v_{\\text{甲}10} = v_{\\text{甲}0}$，$v_{\\text{乙}10} = -5v_{\\text{甲}0}$\n\n在 $t_{10} = \\frac{17\\pi m}{qB}$ 到 $t = \\frac{18\\pi m}{qB}$ 过程中，甲粒子刚好运动半周，则 $t = \\frac{18\\pi m}{qB}$ 时甲粒子运动到 P 点即 $(2a,0)$ 处。\n\n在 $t_{10} = \\frac{17\\pi m}{qB}$ 到 $t = \\frac{18\\pi m}{qB}$ 过程中，乙粒子刚好运动一周，则 $t = \\frac{18\\pi m}{qB}$ 时乙粒子回到坐标原点，且此过程中乙粒子走过的路程为 $s_{0} = 2.5\\pi a$\n\n故整个过程中乙粒子走过总路程为\n\n$S = 5 \\times 3\\pi a + 4 \\times 5\\pi a + \\frac{5}{2}\\pi a = \\frac{75}{2}\\pi a$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

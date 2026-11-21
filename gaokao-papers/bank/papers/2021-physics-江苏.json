@@ -1,0 +1,712 @@
+{
+  "id": "2021-physics-江苏",
+  "year": 2021,
+  "subject": "物理",
+  "region": "江苏卷",
+  "region_key": "江苏",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2021-physics-江苏-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 950,
+      "topics": [
+        "原子和原子核",
+        "人工核反应"
+      ],
+      "stem_md": "用“中子活化”技术分析某样品的成分，中子轰击样品中的 \\ce{^{14}_{7}N} 产生 \\ce{^{14}_{6}C} 和另一种粒子 X，则 X 是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "质子",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\alpha$粒子",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\beta$粒子",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "正电子",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "该核反应方程为 \\ce{^{14}_{7}N + ^{1}_{0}n -> ^{14}_{6}C + ^{1}_{1}H}，可知 X 是质子。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "电路",
+        "电容"
+      ],
+      "stem_md": "有研究发现，某神经细胞传递信号时，离子从细胞膜一侧流到另一侧形成跨膜电流，若将该细胞膜视为 $1\\times10^{-8}\\,\\mathrm{F}$ 的电容器，在 $2\\, \\mathrm{ms}$ 内细胞膜两侧的电势差从 $-70\\,\\mathrm{mV}$ 变为 $30\\,\\mathrm{mV}$，则该过程中跨膜电流的平均值为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$1.5\\times10^{-7}\\,\\mathrm{A}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$2\\times10^{-7}\\,\\mathrm{A}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$3.5\\times10^{-7}\\,\\mathrm{A}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$5\\times10^{-7}\\,\\mathrm{A}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据 $Q = CU$ 可知：$\\Delta Q = C\\Delta U = 10^{-8}\\,\\mathrm{F} \\times (30 + 70)\\,\\mathrm{mV} = 10^{-9}\\,\\mathrm{C}$。\n\n则该过程中跨膜电流的平均值为 $I = \\frac{\\Delta Q}{t} = \\frac{10^{-9}}{2\\times10^{-3}}\\,\\mathrm{A} = 5\\times10^{-7}\\,\\mathrm{A}$。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "我国航天人发扬“两弹一星”精神砥砺前行，从“东方红一号”到“北斗”不断创造奇迹。“北斗”第 49 颗卫星的发射迈出组网的关键一步。该卫星绕地球做圆周运动，运动周期与地球自转周期相同，轨道平面与地球赤道平面成一定夹角。该卫星（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "运动速度大于第一宇宙速度",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "运动速度小于第一宇宙速度",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "轨道半径大于“静止”在赤道上空的同步卫星",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "轨道半径小于“静止”在赤道上空的同步卫星",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．第一宇宙速度是指绕地球表面做圆周运动的速度，是环绕地球做圆周运动的所有卫星的最大环绕速度，该卫星的运转半径远大于地球的半径，可知运行线速度小于第一宇宙速度，选项 A 错误 B 正确；\n\nCD．根据 $G\\frac{Mm}{r^{2}}=m\\frac{4\\pi^{2}}{T^{2}}r$ 可知 $r=\\sqrt[3]{\\frac{GMT^{2}}{4\\pi^{2}}}$，因为该卫星的运动周期与地球自转周期相同，等于“静止”在赤道上空的同步卫星的周期，可知该卫星的轨道半径等于“静止”在赤道上空的同步卫星的轨道半径，选项 CD 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "机械振动",
+        "简谐振动"
+      ],
+      "stem_md": "如图所示，半径为 $R$ 的圆盘边缘有一钉子 B，在水平光线下，圆盘的转轴 A 和钉子 B 在右侧墙壁上形成影子 O 和 P，以 O 为原点在竖直方向上建立 $x$ 坐标系。$t=0$ 时从图示位置沿逆时针方向匀速转动圆盘，角速度为 $\\omega$，则 P 做简谐运动的表达式为（  ）\n\n![物理配图](assets/2021/physics/江苏/04.png)",
+      "figures": [
+        "assets/2021/physics/江苏/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$x = R\\sin(\\omega t - \\frac{\\pi}{2})$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$x = R\\sin(\\omega t + \\frac{\\pi}{2})$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$x = 2R\\sin(\\omega t - \\frac{\\pi}{2})$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$x = 2R\\sin(\\omega t + \\frac{\\pi}{2})$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由图可知，影子 P 做简谐运动的振幅为 $R$，以向上为正方向，设 P 的振动方程为 $x = R\\sin(\\omega t + \\varphi)$。\n\n由图可知，当 $t=0$ 时，P 的位移为 $R$，所用时间为 $t=\\frac{\\pi}{\\omega}$。\n\n代入振动方程解得 $\\varphi=\\frac{\\pi}{2}$。\n\n则 P 做简谐运动的表达式为 $x = R\\sin(\\omega t + \\frac{\\pi}{2})$。\n\n故 B 正确，ACD 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "磁场",
+        "安培力"
+      ],
+      "stem_md": "在光滑桌面上将长为 $\\pi L$ 的软导线两端固定，固定点的距离为 $2L$，导线通有电流 $I$，处于磁感应强度大小为 $B$、方向竖直向下的匀强磁场中，导线中的张力为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$BIL$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$2BIL$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\pi BIL$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$2\\pi BIL$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "从上向下看导线的图形如图所示。\n\n![物理配图](assets/2021/physics/江苏/05_an.png)\n\n导线的有效长度为 $2L$，则所受的安培力大小 $F = 2BIL$。\n\n设绳子的张力为 $T$，由几何关系可知 $T = \\frac{F}{2}$。\n\n解得 $T = BIL$。\n\n故 A 正确，BCD 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2021/physics/江苏/05_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "光学",
+        "光的干涉"
+      ],
+      "stem_md": "铁丝圈上附有肥皂膜，竖直放置时，肥皂膜上的彩色条纹上疏下密，由此推测肥皂膜前后两个面的侧视形状应当是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2021/physics/江苏/06a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2021/physics/江苏/06b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2021/physics/江苏/06c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2021/physics/江苏/06d.png"
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "薄膜干涉为前后两个面反射回来的光发生干涉形成干涉条纹，在复色光时，出现彩色条纹，由于重力作用，肥皂膜前后表面的厚度从上到下逐渐增大，从而使干涉条纹的间距上密下疏，由于表面张力的作用，使得肥皂膜向内凹陷，故 C 正确，ABD 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "某种材料制成的半圆形透明砖平放在方格纸上，将激光束垂直于 AC 面射入，可以看到光束从圆弧面 ABC 出射，沿 AC 方向缓慢平移该砖，在如图所示位置时，出射光束恰好消失，该材料的折射率为（  ）\n\n![物理配图](assets/2021/physics/江苏/07.png)",
+      "figures": [
+        "assets/2021/physics/江苏/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "1.2",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "1.4",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "1.6",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "1.8",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "画出激光束从玻璃砖射出时恰好发生全反射的入射角如图所示。\n\n![物理配图](assets/2021/physics/江苏/07_an.png)\n\n全反射的条件：$\\sin\\theta=\\frac{1}{n}$。\n\n由几何关系知：$\\sin\\theta=\\frac{5}{6}$。\n\n联立解得：$n=1.2$。\n\n故 A 正确，BCD 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2021/physics/江苏/07_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "光学",
+        "光电效应"
+      ],
+      "stem_md": "如图所示，分别用 1、2 两种材料作 K 极进行光电效应探究，其截止频率 $\\nu_{1}<\\nu_{2}$，保持入射光不变，则光电子到达 A 极时动能的最大值 $E_{km}$ 随电压 $U$ 变化关系的图像是（  ）\n\n![物理配图](assets/2021/physics/江苏/08a.png)",
+      "figures": [
+        "assets/2021/physics/江苏/08a.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2021/physics/江苏/08b.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2021/physics/江苏/08c.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2021/physics/江苏/08d.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2021/physics/江苏/08e.png"
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "光电管所加电压为正向电压，则根据爱因斯坦光电效应方程可知光电子到达 A 极时动能的最大值\n\n$E_{km}=Ue+h\\nu-h\\nu_{\\text{截止}}$\n\n可知 $E_{km}-U$ 图像的斜率相同，均为 $e$；截止频率越大，则图像在纵轴上的截距越小，因 $\\nu_{1}<\\nu_{2}$，则图像 C 正确，ABD 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q09",
+      "number": 9,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "斜抛运动"
+      ],
+      "stem_md": "如图所示，A、B 两篮球从相同高度同时抛出后直接落入篮筐，落入篮筐时的速度方向相同，下列判断正确的是（  ）\n\n![物理配图](assets/2021/physics/江苏/09.png)",
+      "figures": [
+        "assets/2021/physics/江苏/09.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "A 比 B 先落入篮筐",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "A、B 运动的最大高度相同",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "A 在最高点的速度比 B 在最高点的速度小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "A、B 上升到某一相同高度时的速度方向相同",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．若研究两个过程的逆过程，可看做是从篮筐沿同方向斜向上的斜抛运动，落到同一高度上的 A、B 两点，则 A 上升的高度较大，高度决定时间，可知 A 运动时间较长，即 B 先落入篮筐中，AB 错误；\n\nC．因为两球抛射角相同，A 的射程较远，则 A 球的水平速度较大，即在最高点的速度比 B 在最高点的速度大，C 错误；\n\nD．由斜抛运动的对称性可知，当 A、B 上升到与篮筐相同高度时的速度方向相同，D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q10",
+      "number": 10,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "电场",
+        "电场强度"
+      ],
+      "stem_md": "一球面均匀带有正电荷，球内的电场强度处处为零，如图所示，O 为球心，A、B 为直径上的两点，$OA = OB$，现垂直于 AB 将球面均分为左右两部分，C 为截面上的一点，移去左半球面，右半球面所带电荷仍均匀分布，则（  ）\n\n![物理配图](assets/2021/physics/江苏/10.png)",
+      "figures": [
+        "assets/2021/physics/江苏/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "O、C 两点电势相等",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "A 点的电场强度大于 B 点",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "沿直线从 A 到 B 电势先升高后降低",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "沿直线从 A 到 B 电场强度逐渐增大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由于球壳内部的场强为零，补全以后可知在右侧球壳任取一点，该点和 C 连线后过左半边球壳一点，两点对 C 的库仑力为零，即等大反向共线，将左侧沿竖直对称到右侧球面，则可以知道这两个点在 C 点的合场强水平向左，根据叠加原理可知 C 点场强向左，同理 OC 上都是水平向左，因此 OC 是等势线，故 A 正确；\n\nBD．将题中半球壳补成一个完整的球壳，且带电均匀，设左、右半球在 A 点产生的电场强度大小分别为 $E_{1}$ 和 $E_{2}$；由题知，均匀带电球壳内部电场强度处处为零，则知 $E_{1} = E_{2}$，根据对称性，左右半球在 B 点产生的电场强度大小分别为 $E_{2}$ 和 $E_{1}$，且 $E_{1} = E_{2}$。\n\n在图示电场中，A 的电场强度大小为 $E_{2}$，方向向左，B 的电场强度大小为 $E_{1}$，方向向左，所以 A 点的电场强度与 B 点的电场强度相同，沿直线从 A 到 B 电场强度不可能逐渐增大，故 BD 错误；\n\nC．根据电场的叠加原理可知，在 AB 连线上电场线方向向左，沿着电场线方向电势逐渐降低，则沿直线从 A 到 B 电势升高，故 C 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 15,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量守恒定律"
+      ],
+      "stem_md": "小明利用如图 [2021江苏11a] 所示的实验装置验证动量定理。将遮光条安装在滑块上，用天平测出遮光条和滑块的总质量 $M = 200.0\\,\\mathrm{g}$，槽码和挂钩的总质量 $m = 50.0\\,\\mathrm{g}$。实验时，将滑块系在绕过定滑轮悬挂有槽码的细线上。滑块由静止释放，数字计时器记录下遮光条通过光电门 1 和 2 的遮光时间 $\\Delta t_{1}$ 和 $\\Delta t_{2}$，以及这两次开始遮光的时间间隔 $\\Delta t$，用游标卡尺测出遮光条宽度，计算出滑块经过两光电门速度的变化量 $\\Delta v$。\n\n![物理配图](assets/2021/physics/江苏/11a.png) ![物理配图](assets/2021/physics/江苏/11b.png)\n\n（1）游标卡尺测量遮光条宽度如图 [2021江苏11b] 所示，其宽度 $d =$  ______  $\\,\\mathrm{mm}$；\n（2）打开气泵，待气流稳定后调节气垫导轨，直至看到导轨上的滑块能在短时间内保持静止，其目的是  ______ ；\n（3）多次改变光电门 2 的位置进行测量，得到 $\\Delta t$ 和 $\\Delta v$ 的数据如下表，请根据表中数据，在方格纸上作出 $\\Delta v-\\Delta t$ 图线。\n\n\t\n\t\n<table class=\"exam-table\"><tr><th>$\\Delta t/\\,\\mathrm{s}$</th><th>0.721</th><th>0.790</th><th>0.854</th><th>0.913</th><th>0.968</th></tr><tr><td>$\\Delta v/\\,\\mathrm{m}\\cdot\\mathrm{s}^{-1}$</td><td>1.38</td><td>1.52</td><td>1.64</td><td>1.75</td><td>1.86</td></tr></table>\n\n\t\n\n\t\n\n![物理配图](assets/2021/physics/江苏/11c.png)\n（4）查得当地的重力加速度 $g = 9.8\\,\\mathrm{m}/\\mathrm{s}^2$，根据动量定理，$\\Delta v-\\Delta t$ 图线斜率的理论值为  ______  $\\,\\mathrm{m}/\\mathrm{s}^2$；\n（5）实验结果发现，图线斜率的实验值总小于理论值，产生这一误差的两个可能原因是  ______ 。\n\n\tA．选用的槽码质量偏小\n\n\tB．细线与气垫导轨不完全平行\n\n\tC．每次释放滑块的位置不同\n\n\tD．实验中 $\\Delta t$ 的测量值偏大",
+      "figures": [
+        "assets/2021/physics/江苏/11c.png",
+        "assets/2021/physics/江苏/11a.png",
+        "assets/2021/physics/江苏/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$10.20$\n（2）将气垫导轨调至水平\n（3）（作图见解析）\n（4）$1.92\\sim1.97$\n（5）BD",
+        "sub_answers": [
+          "10.20",
+          "将气垫导轨调至水平",
+          "$1.92\\sim1.97$",
+          "BD"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）游标卡尺的读数为 $10\\,\\mathrm{mm} + 4\\times0.05\\,\\mathrm{mm} = 10.20\\,\\mathrm{mm}$。\n\n（2）滑块保持稳定，说明气垫导轨水平。\n\n（3）根据表格中数据描点并用直线连接。\n\n![物理配图](assets/2021/physics/江苏/11_an.png)\n\n（4）取直线与表格交点的最大距离可知图象的斜率为 $k = \\frac{1.9-1.34}{0.99-0.70}\\,\\mathrm{m}/\\mathrm{s}^2 = 1.93\\,\\mathrm{m}/\\mathrm{s}^2$。\n\n（5）根据动量定理 $F\\Delta t = M\\Delta v$ 变形得 $\\frac{\\Delta v}{\\Delta t} = \\frac{F}{M}$。\n\nA．槽码质量偏小，而实际的槽码质量偏大，则合外力 $F$ 偏大，所以图线斜率的实验值偏大，A 错误；\n\nB．细线与气垫导轨不平行，滑块实际所受合外力为 $F$ 的水平分力，所以图线斜率的实验值偏小，B 正确；\n\nC．滑块释放的位置与斜率相关的参量无关，C 错误；\n\nD．$\\Delta t$ 偏大，则 $\\frac{\\Delta v}{\\Delta t}$ 偏小，图线斜率偏小，D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2021/physics/江苏/11_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q12",
+      "number": 12,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 8,
+      "difficulty": 650,
+      "topics": [
+        "电磁感应",
+        "切割磁感线电动势"
+      ],
+      "stem_md": "贯彻新发展理念，我国风力发电发展迅猛，2020 年我国风力发电量高达 4000 亿千瓦时。某种风力发电机的原理如图所示，发电机的线圈固定，磁体在叶片驱动下绕线圈对称轴转动，已知磁体间的磁场为匀强磁场，磁感应强度的大小为 $0.20\\,\\mathrm{T}$，线圈的匝数为 100、面积为 $0.5\\,\\mathrm{m}^2$，电阻为 $0.6\\,\\Omega$，若磁体转动的角速度为 $90\\,\\mathrm{rad}/\\mathrm{s}$，线圈中产生的感应电流为 $50\\,\\mathrm{A}$。求：\n\n（1）线圈中感应电动势的有效值 $E$；\n（2）线圈的输出功率 $P$。\n\n![物理配图](assets/2021/physics/江苏/12.png)",
+      "figures": [
+        "assets/2021/physics/江苏/12.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$E = 6.4\\times10^{2}\\,\\mathrm{V}$\n（2）$P = 3.1\\times10^{4}\\,\\mathrm{W}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）电动势的最大值 $E_{m}=NBS\\omega$。\n\n有效值 $E=\\frac{E_{m}}{\\sqrt{2}}$。\n\n解得 $E=\\frac{NBS\\omega}{\\sqrt{2}}$。\n\n代入数据得 $E=6.4\\times10^{2}\\,\\mathrm{V}$。\n\n（2）输出电压 $U=E-Ir$。\n\n输出功率 $P=IU$。\n\n解得 $P=I(E-Ir)$。\n\n代入数据得 $P=3.1\\times10^{4}\\,\\mathrm{W}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 8,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "热力学第一定律"
+      ],
+      "stem_md": "如图所示，一定质量理想气体被活塞封闭在气缸中，活塞的面积为 $S$，与气缸底部相距 $L$，气缸和活塞绝热性能良好，气体的压强、温度与外界大气相同，分别为 $p_{0}$ 和 $t_{0}$。现接通电热丝加热气体，一段时间后断开，活塞缓慢向右移动距离 $L$ 后停止，活塞与气缸间的滑动摩擦为 $f$，最大静摩擦力等于滑动摩擦力，整个过程中气体吸收的热量为 $Q$，求该过程中\n\n（1）内能的增加量 $\\Delta U$；\n（2）最终温度 $T$。\n\n![物理配图](assets/2021/physics/江苏/13.png)",
+      "figures": [
+        "assets/2021/physics/江苏/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\Delta U = Q - (p_{0}S + f)L$\n（2）$T = \\frac{2(p_{0}S + f)}{p_{0}S}T_{0}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）活塞移动时受力平衡 $p_{1}S = p_{0}S + f$。\n\n气体对外界做功 $W = p_{1}SL$。\n\n根据热力学第一定律 $\\Delta U = Q - W$。\n\n解得 $\\Delta U = Q - (p_{0}S + f)L$。\n\n（2）活塞发生移动前，等容过程 $\\frac{p_{0}}{t_{0}}=\\frac{p_{1}}{t_{1}}$。\n\n活塞向右移动了 $L$，等压过程 $\\frac{V_{1}}{t_{1}}=\\frac{V_{2}}{T}$。\n\n且 $V_{2}=2V_{1}$。\n\n解得 $T = \\frac{2(p_{0}S + f)}{p_{0}S}T_{0}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 13,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "圆周运动的应用"
+      ],
+      "stem_md": "如图所示的离心装置中，光滑水平轻杆固定在竖直转轴的 O 点，小圆环 A 和轻质弹簧套在轻杆上，长为 $2L$ 的细线和弹簧两端分别固定于 O 和 A，质量为 $m$ 的小球 B 固定在细线的中点，装置静止时，细线与竖直方向的夹角为 $37^{\\circ}$，现将装置由静止缓慢加速转动，当细线与竖直方向的夹角增大到 $53^{\\circ}$ 时，A、B 间细线的拉力恰好减小到零，弹簧弹力与静止时大小相等、方向相反，重力加速度为 $g$，取 $\\sin37^{\\circ}=0.6$，$\\cos37^{\\circ}=0.8$，求：\n\n（1）装置静止时，弹簧弹力的大小 $F$；\n（2）环 A 的质量 $M$；\n（3）上述过程中装置对 A、B 所做的总功 $W$。\n\n![物理配图](assets/2021/physics/江苏/14.png)",
+      "figures": [
+        "assets/2021/physics/江苏/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{3mg}{8}$\n（2）$\\frac{9}{64}m$\n（3）$\\frac{31}{30}mgL$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）设 AB、OB 的张力分别为 $F_{1}$、$F_{2}$，A 受力平衡 $F = F_{1}\\sin37^{\\circ}$。\n\nB 受力平衡 $F_{1}\\cos37^{\\circ}+F_{2}\\cos37^{\\circ}=mg$，$F_{1}\\sin37^{\\circ}=F_{2}\\sin37^{\\circ}$。\n\n解得 $F=\\frac{3mg}{8}$。\n\n（2）设装置转动的角速度为 $\\omega$，对 A 有 $F=M\\omega^{2}\\cdot\\frac{8}{5}L$。\n\n对 B 有 $mg\\tan53^{\\circ} = m\\omega^{2}\\cdot\\frac{4}{5}L$。\n\n解得 $M = \\frac{9}{64}m$。\n\n（3）B 上升的高度 $h = \\frac{1}{5}L$，A、B 的动能分别为\n\n$E_{\\mathrm{kA}} = \\frac{1}{2}M\\left(\\omega\\frac{8}{5}L\\right)^{2}$，$E_{\\mathrm{kB}} = \\frac{1}{2}m\\left(\\omega\\frac{4}{5}L\\right)^{2}$。\n\n根据能量守恒定律可知 $W = (E_{\\mathrm{kA}} - 0) + (E_{\\mathrm{kB}} - 0) + mgh$。\n\n解得 $W = \\frac{31}{30}mgL$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-江苏-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图 [2021江苏15a] 所示，回旋加速器的圆形匀强磁场区域以 O 点为圆心，磁感应强度大小为 $B$，加速电压的大小为 $U$、质量为 $m$、电荷量为 $q$ 的粒子从 O 附近飘入加速电场，多次加速后粒子经过 P 点绕 O 做圆周运动，半径为 $R$，粒子在电场中的加速时间可以忽略。为将粒子引出磁场，在 P 位置安装一个“静电偏转器”，如图 [2021江苏15b] 所示，偏转器的两极板 M 和 N 厚度均匀，构成的圆弧形狭缝圆心为 Q、圆心角为 $\\alpha$，当 M、N 间加有电压时，狭缝中产生电场强度大小为 $E$ 的电场，使粒子恰能通过狭缝，粒子在再次被加速前射出磁场，不计 M、N 间的距离。求：\n\n（1）粒子加速到 P 点所需要的时间 $t$；\n（2）极板 N 的最大厚度 $d_{m}$；\n（3）磁场区域的最大半径 $R_{m}$。\n\n![物理配图](assets/2021/physics/江苏/15a.png) ![物理配图](assets/2021/physics/江苏/15b.png)",
+      "figures": [
+        "assets/2021/physics/江苏/15a.png",
+        "assets/2021/physics/江苏/15b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\left(\\frac{qB^{2}R^{2}}{2mU} - 1\\right)\\frac{\\pi m}{qB}$\n（2）$2\\left(\\sqrt{R^{2} - \\frac{2mU}{qB^{2}}} - \\sqrt{R^{2} - \\frac{4mU}{qB^{2}}}\\right)$\n（3）$R + \\frac{2mER}{qB^{2}R - mE}\\sin\\frac{\\alpha}{2}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）设粒子在 P 的速度大小为 $v_{P}$，则根据 $qvB = m\\frac{v^{2}}{r}$ 可知半径表达式为 $R=\\frac{mv_{P}}{qB}$。\n\n根据动能定理粒子在静电场中加速有 $nqU=\\frac{1}{2}mv_{P}^{2}$。\n\n粒子在磁场中运动的周期为 $T=\\frac{2\\pi m}{qB}$。\n\n粒子运动的总时间为 $t=(n-1)\\times\\frac{T}{2}$。\n\n解得 $t=\\left(\\frac{qB^{2}R^{2}}{2mU}-1\\right)\\frac{\\pi m}{qB}$。\n\n（2）由粒子的运动半径 $r = \\frac{mv}{qB}$，结合动能表达式 $E_{k} = \\frac{1}{2}mv^{2}$ 变形得 $r = \\frac{\\sqrt{2mE_{k}}}{qB}$。\n\n则粒子加速到 P 前最后两个半周的运动半径为\n\n$r_{1}=\\frac{\\sqrt{2m(E_{kP}-qU)}}{qB}$，$r_{2}=\\frac{\\sqrt{2m(E_{kP}-2qU)}}{qB}$。\n\n由几何关系 $d_{m}=2(r_{1}-r_{2})$。\n\n结合 $E_{kP}=\\frac{(qBR)^{2}}{2m}$ 解得\n\n$d_{m}=2\\left(\\sqrt{R^{2}-\\frac{2mU}{qB^{2}}}-\\sqrt{R^{2}-\\frac{4mU}{qB^{2}}}\\right)$。\n\n（3）设粒子在偏转器中的运动半径为 $r_{Q}$，则在偏转器中，要使粒子半径变大，电场力应和洛伦兹力反向，共同提供向心力\n\n$qv_{P}B - qE = m\\frac{v_{P}^{2}}{r_{Q}}$。\n\n设粒子离开偏转器的点为 E，圆周运动的圆心为 $O'$。由题意知，$O'$ 在 SQ 上，且粒子飞离磁场的点与 O、$O'$ 在一条直线上。\n\n![物理配图](assets/2021/physics/江苏/15_an1.png)\n\n粒子在偏转器中运动的圆心在 Q 点，从偏转器飞出，即从 E 点离开，又进入回旋加速器中的磁场，此时粒子的运动半径又变为 $R$，然后轨迹发生偏离，从偏转器的 F 点飞出磁场，那么磁场的最大半径即为\n\n$R_{\\mathrm{m}}=OF=R+OO'$。\n\n将等腰三角形 $\\triangle OO'Q$ 放大如图。\n\n![物理配图](assets/2021/physics/江苏/15_an2.png)\n\n虚线为从 Q 点向 $OO'$ 所引垂线，虚线平分 $\\alpha$ 角，则\n\n$OO'=2(r_{Q}-R)$。\n\n解得最大半径为\n\n$R_{\\mathrm{m}}=R+\\frac{2mER}{qB^{2}R-mE}\\sin\\frac{\\alpha}{2}$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2021/physics/江苏/15_an1.png",
+        "assets/2021/physics/江苏/15_an2.png"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

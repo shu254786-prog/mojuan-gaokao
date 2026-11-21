@@ -1,0 +1,774 @@
+{
+  "id": "2022-physics-湖北",
+  "year": 2022,
+  "subject": "物理",
+  "region": "湖北卷",
+  "region_key": "湖北",
+  "format_tier": "structured_latex",
+  "question_count": 16,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2022-physics-湖北-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "原子和原子核",
+        "人工核反应"
+      ],
+      "stem_md": "上世纪四十年代初，我国科学家王淦昌先生首先提出证明中微子存在的实验方案：如果静止原子核 \\ce{^{7}_{4}Be} 俘获核外 K 层电子 \\ce{e}，可生成一个新原子核 X，并放出中微子 $\\nu_{e}$，即 \\ce{^{7}_{4}Be + ^{0}_{-1}e -> X + ^{0}_{0}\\nu_{e}}。根据核反应后原子核 X 的动能和动量，可以间接测量中微子的能量和动量，进而确定中微子的存在。下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "原子核 X 是 \\ce{^{7}_{3}Li}",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "核反应前后的总质子数不变",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "核反应前后总质量数不同",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "中微子 $\\nu_{e}$ 的电荷量与电子的相同",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AC．根据质量数守恒和电荷数守恒有，X 的质量数为 7，电荷数为 3，可知原子核 X 是 \\ce{^{7}_{3}Li}，A 正确、C 错误；\n\n\tB．由选项 A 可知，原子核 X 是 \\ce{^{7}_{3}Li}，则核反应方程为 \\ce{^{7}_{4}Be + ^{0}_{-1}e -> ^{7}_{3}Li + ^{0}_{0}\\nu_{e}}，则反应前的总质子数为 4，反应后的总质子数为 3，B 错误；\n\n\tD．中微子不带电，则中微子 $\\nu_{e}$ 的电荷量与电子的不相同，D 错误。\n\n\t故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "2022 年 5 月，我国成功完成了天舟四号货运飞船与空间站的对接，形成的组合体在地球引力作用下绕地球做圆周运动，周期约 90 分钟。下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "组合体中的货物处于超重状态",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "组合体的速度大小略大于第一宇宙速度",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "组合体的角速度大小比地球同步卫星的大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "组合体的加速度大小比地球同步卫星的小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．组合体在天上只受万有引力的作用，则组合体中的货物处于失重状态，A 错误；\n\n\tB．由题知组合体在地球引力作用下绕地球做圆周运动，而第一宇宙速度为最大的环绕速度，则组合体的速度大小不可能大于第一宇宙速度，B 错误；\n\n\tC．已知同步卫星的周期为 $24\\,\\mathrm{h}$，则根据角速度和周期的关系有 $\\omega=\\frac{2\\pi}{T}$\n\n\t由于 $T_\\text{同} > T_\\text{组合体}$，则组合体的角速度大小比地球同步卫星的大，C 正确；\n\n\tD．由题知组合体在地球引力作用下绕地球做圆周运动，有 $G\\frac{Mm}{r^{2}}=m\\frac{4\\pi^{2}}{T^{2}}r$\n\n\t整理有 $T=2\\pi\\sqrt{\\frac{r^{3}}{GM}}$\n\n\t由于 $T_\\text{同} > T_\\text{组合体}$，则 $r_\\text{同} > r_\\text{组合体}$，且同步卫星和组合体在天上有 $ma=G\\frac{Mm}{r^{2}}$\n\n\t则有 $a_\\text{同} < a_\\text{组合体}$，D 错误。\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "气体性质",
+        "气体图象"
+      ],
+      "stem_md": "一定质量的理想气体由状态 a 变为状态 c，其过程如 $p-V$ 图中 a $\\to$ c 直线段所示，状态 b 对应该线段的中点。下列说法正确的是 （  ）\n\n![物理配图](assets/2022/physics/湖北/03.png)",
+      "figures": [
+        "assets/2022/physics/湖北/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "a $\\to$ b 是等温过程",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "a $\\to$ b 过程中气体吸热",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "a $\\to$ c 过程中状态 b 的温度最低",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "a $\\to$ c 过程中外界对气体做正功",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．根据理想气体的状态方程 $\\frac{pV}{T}=C$ 可知 a $\\to$ b 气体温度升高，内能增加，且体积增大气体对外界做功，则 $W<0$，由热力学第一定律 $\\Delta U=W+Q$ 可知 a $\\to$ b 过程中气体吸热，A 错误、B 正确；\n\n\tC．根据理想气体的状态方程 $\\frac{pV}{T}=C$ 可知，$p-V$ 图像的坐标值的乘积反映温度，a 状态和 c 状态的坐标值的乘积相等，而中间状态的坐标值乘积更大，a $\\to$ c 过程的温度先升高后降低，且状态 b 的温度最高，C 错误；\n\n\tD．a $\\to$ c 过程气体体积增大，外界对气体做负功，D 错误。\n\n\t故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "电场",
+        "带电粒子的平衡"
+      ],
+      "stem_md": "密立根油滴实验装置如图所示，两块水平放置的金属板分别与电源的正负极相接，板间产生匀强电场。用一个喷雾器把密度相同的许多油滴从上板中间的小孔喷入电场，油滴从喷口喷出时由于摩擦而带电。金属板间电势差为 $U$ 时，电荷量为 $q$、半径为 $r$ 的球状油滴在板间保持静止。若仅将金属板间电势差调整为 $2U$，则在板间能保持静止的球状油滴所带电荷量和半径可以为 （  ）\n\n![物理配图](assets/2022/physics/湖北/04.png)",
+      "figures": [
+        "assets/2022/physics/湖北/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$q$，$r$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$2q$，$r$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$2q$，$2r$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$4q$，$2r$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "初始状态下，液滴处于静止状态时，满足 $Eq=mg$\n\n\t即 $\\frac{U}{d}q=\\frac{4}{3}\\pi r^{3}\\cdot\\rho g$\n\n\tAB．当电势差调整为 $2U$ 时，若液滴的半径不变，则满足 $\\frac{2U}{d}q'=\\frac{4}{3}\\pi r^{3}\\cdot\\rho g$\n\n\t可得 $q'=\\frac{q}{2}$，AB 错误；\n\n\tCD．当电势差调整为 $2U$ 时，若液滴的半径变为 $2r$ 时，则满足 $\\frac{2U}{d}q'=\\frac{4}{3}\\pi(2r)^{3}\\cdot\\rho g$\n\n\t可得 $q'=4q$，C 错误，D 正确。\n\n\t故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "功和能",
+        "整体机械能守恒"
+      ],
+      "stem_md": "如图所示，质量分别为 $m$ 和 $2m$ 的小物块 P 和 Q，用轻质弹簧连接后放在水平地面上，P 通过一根水平轻绳连接到墙上。P 的下表面光滑，Q 与地面间的动摩擦因数为 $\\mu$，最大静摩擦力等于滑动摩擦力。用水平拉力将 Q 向右缓慢拉开一段距离，撤去拉力后，Q 恰好能保持静止。弹簧形变始终在弹性限度内，弹簧的劲度系数为 $k$，重力加速度大小为 $g$。若剪断轻绳，P 在随后的运动过程中相对于其初始位置的最大位移大小为 （  ）\n\n![物理配图](assets/2022/physics/湖北/05.png)",
+      "figures": [
+        "assets/2022/physics/湖北/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{\\mu mg}{k}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{2\\mu mg}{k}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{4\\mu mg}{k}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{6\\mu mg}{k}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "Q 恰好能保持静止时，设弹簧的伸长量为 $x$，满足 $kx=2\\mu mg$，若剪断轻绳后，物块 P 与弹簧组成的系统机械能守恒，弹簧的最大压缩量也为 $x$，因此 P 相对于其初始位置的最大位移大小为 $s=2x=\\frac{4\\mu mg}{k}$。\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "直线运动",
+        "多段匀变速直线运动"
+      ],
+      "stem_md": "我国高铁技术全球领先，乘高铁极大节省了出行时间。假设两火车站 W 和 G 间的铁路里程为 $1\\,080\\,\\mathrm{km}$，W 和 G 之间还均匀分布了 4 个车站。列车从 W 站始发，经停 4 站后到达终点站 G。设普通列车的最高速度为 $108\\,\\mathrm{km}/\\mathrm{h}$，高铁列车的最高速度为 $324\\,\\mathrm{km}/\\mathrm{h}$。若普通列车和高铁列车在进站和出站过程中，加速度大小均为 $0.5\\,\\mathrm{m}/\\mathrm{s}^2$，其余行驶时间内保持各自的最高速度匀速运动，两种列车在每个车站停车时间相同，则从 W 到 G 乘高铁列车出行比乘普通列车节省的时间为 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "6 小时 25 分钟",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "6 小时 30 分钟",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "6 小时 35 分钟",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "6 小时 40 分钟",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "$108\\,\\mathrm{km}/\\mathrm{h}=30\\,\\mathrm{m}/\\mathrm{s}$，$324\\,\\mathrm{km}/\\mathrm{h}=90\\,\\mathrm{m}/\\mathrm{s}$\n\n\t由于中间 4 个站均匀分布，因此节省的时间相当于在任意相邻两站间节省的时间的 5 倍为总的节省时间，相邻两站间的距离\n\n\t$x=\\frac{1080\\times 10^{3}}{5}\\,\\mathrm{m}=2.16\\times 10^{5}\\,\\mathrm{m}$\n\n\t普通列车加速时间\n\n\t$t_{1}=\\frac{v_{1}}{a}=\\frac{30}{0.5}\\,\\mathrm{s}=60\\,\\mathrm{s}$\n\n\t加速过程的位移\n\n\t$x_{1}=\\frac{1}{2}at_{1}^{2}=\\frac{1}{2}\\times 0.5\\times 60^{2}\\,\\mathrm{m}=900\\,\\mathrm{m}$\n\n\t根据对称性可知加速与减速位移相等，可得匀速运动的时间\n\n\t$t_{2}=\\frac{x-2x_{1}}{v}=\\frac{2.16\\times 10^{5}-2\\times 900}{30}\\,\\mathrm{s}=7140\\,\\mathrm{s}$\n\n\t同理高铁列车加速时间\n\n\t$t_{1}^{\\prime}=\\frac{v_{1}^{\\prime}}{a}=\\frac{90}{0.5}\\,\\mathrm{s}=180\\,\\mathrm{s}$\n\n\t加速过程的位移\n\n\t$x_{1}^{\\prime}=\\frac{1}{2}at_{1}^{\\prime 2}=\\frac{1}{2}\\times 0.5\\times 180^{2}\\,\\mathrm{m}=8100\\,\\mathrm{m}$\n\n\t根据对称性可知加速与减速位移相等，可得匀速运动的时间\n\n\t$t_{2}^{\\prime}=\\frac{x-2x_{1}^{\\prime}}{v^{\\prime}}=\\frac{2.16\\times 10^{5}-2\\times 8100}{90}\\,\\mathrm{s}=2220\\,\\mathrm{s}$\n\n\t相邻两站间节省的时间\n\n\t$\\Delta t=(t_{2}+2t_{1})-(t_{2}^{\\prime}+2t_{1}^{\\prime})=4680\\,\\mathrm{s}$\n\n\t因此总的节省时间\n\n\t$\\Delta t_{\\text{总}}=5\\Delta t=4680\\times 5\\,\\mathrm{s}=23400\\,\\mathrm{s}=6$ 小时 30 分\n\n\t故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "功和能",
+        "动能定理"
+      ],
+      "stem_md": "一质点做曲线运动，在前一段时间内速度大小由 $v$ 增大到 $2v$，在随后的一段时间内速度大小由 $2v$ 增大到 $5v$。前后两段时间内，合外力对质点做功分别为 $W_{1}$ 和 $W_{2}$，合外力的冲量大小分别为 $I_{1}$ 和 $I_{2}$。下列关系式一定成立的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$W_{2}=3W_{1}$，$I_{2}\\leqslant 3I_{1}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$W_{2}=3W_{1}$，$I_{2}\\geqslant I_{1}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$W_{2}=7W_{1}$，$I_{2}\\leqslant 3I_{1}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$W_{2}=7W_{1}$，$I_{2}\\geqslant I_{1}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据动能定理可知\n\n\t$W_{1}=\\frac{1}{2}m(2v)^{2}-\\frac{1}{2}mv^{2}=\\frac{3}{2}mv^{2}$\n\n\t$W_{2}=\\frac{1}{2}m(5v)^{2}-\\frac{1}{2}m(2v)^{2}=\\frac{21}{2}mv^{2}$\n\n\t可得 $W_{2}=7W_{1}$\n\n\t由于速度是矢量，具有方向，当初、末速度方向相同时，动量变化量最小，方向相反时，动量变化量最大，因此冲量的大小范围是\n\n\t$mv\\leqslant I_{1}\\leqslant 3mv$\n\n\t$3mv\\leqslant I_{2}\\leqslant 7mv$\n\n\t比较可得 $I_{2}\\geqslant I_{1}$ 一定成立。\n\n\t故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "在如图所示的平面内，分界线 SP 将宽度为 $L$ 的矩形区域分成两部分，一部分充满方向垂直于纸面向外的匀强磁场，另一部分充满方向垂直于纸面向里的匀强磁场，磁感应强度大小均为 $B$，SP 与磁场左右边界垂直。离子源从 S 处射入速度大小不同的正离子，离子入射方向与磁场方向垂直且与 SP 成 $30^{\\circ}$ 角。已知离子比荷为 $k$，不计重力。若离子从 P 点射出，设出射方向与入射方向的夹角为 $\\theta$，则离子的入射速度和对应 $\\theta$ 角的可能组合为 （  ）\n\n![物理配图](assets/2022/physics/湖北/08.png)",
+      "figures": [
+        "assets/2022/physics/湖北/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{1}{3}kBL$，$0^{\\circ}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{1}{2}kBL$，$0^{\\circ}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$kBL$，$60^{\\circ}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$2kBL$，$60^{\\circ}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "若粒子通过下部分磁场直接到达 P 点，如图\n\n\t\n\n![物理配图](assets/2022/physics/湖北/08_an1.png)\n\n\t根据几何关系则有 $R=L$，$qvB=m\\frac{v^{2}}{R}$\n\n\t可得 $v=\\frac{qBL}{m}=kBL$\n\n\t根据对称性可知出射速度与 SP 成 $30^{\\circ}$ 角向上，故出射方向与入射方向的夹角为 $\\theta=60^{\\circ}$。当粒子上下均经历一次时，如图\n\n\t\n\n![物理配图](assets/2022/physics/湖北/08_an2.png)\n\n\t因为上下磁感应强度均为 $B$，则根据对称性有 $R=\\frac{1}{2}L$\n\n\t根据洛伦兹力提供向心力有 $qvB=m\\frac{v^{2}}{R}$\n\n\t可得 $v=\\frac{qBL}{2m}=\\frac{1}{2}kBL$\n\n\t此时出射方向与入射方向相同，即出射方向与入射方向的夹角为 $\\theta=0^{\\circ}$。\n\n\t通过以上分析可知当粒子从下部分磁场射出时，需满足\n\n\t$v=\\frac{qBL}{(2n-1)m}=\\frac{1}{2n-1}kBL$（$n=1,2,3\\cdots$）\n\n\t此时出射方向与入射方向的夹角为 $\\theta=60^{\\circ}$；\n\n\t当粒子从上部分磁场射出时，需满足\n\n\t$v=\\frac{qBL}{2nm}=\\frac{1}{2n}kBL$（$n=1,2,3\\cdots$）\n\n\t此时出射方向与入射方向的夹角为 $\\theta=0^{\\circ}$。\n\n\t故可知 BC 正确，AD 错误。\n\n\t故选 BC。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/湖北/08_an1.png",
+        "assets/2022/physics/湖北/08_an2.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "近年来，基于变压器原理的无线充电技术得到了广泛应用，其简化的充电原理图如图所示。发射线圈的输入电压为 $220\\,\\mathrm{V}$，匝数为 1 100 匝，接收线圈的匝数为 50 匝。若工作状态下，穿过接收线圈的磁通量约为发射线圈的 80\\%，忽略其它损耗，下列说法正确的是 （  ）\n\n![物理配图](assets/2022/physics/湖北/09.png)",
+      "figures": [
+        "assets/2022/physics/湖北/09.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "接收线圈的输出电压约为 $8\\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "接收线圈与发射线圈中电流之比约为 $22:1$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "发射线圈与接收线圈中交变电流的频率相同",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "穿过发射线圈的磁通量变化率与穿过接收线圈的相同",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据 $\\frac{n_{1}}{n_{2}}=\\frac{80\\%U_{1}}{U_{2}}$，可得接收线圈的输出电压约为 $U_{2}=8\\,\\mathrm{V}$；\n\n\t$\\frac{n_{1}}{n_{2}}=\\frac{I_{2}}{80\\%I_{1}}$，可得 $\\frac{I_{1}}{I_{2}}=\\frac{88}{5}$。故 B 错误；\n\n\tC．变压器是不改变其交变电流的频率的，故 C 正确；\n\n\tD．由于穿过发射线圈的磁通量与穿过接收线圈的磁通量大小不相同，所以穿过发射线圈的磁通量变化率与穿过接收线圈的不相同，故 D 错误。\n\n\t故选 AC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图所示，一带电粒子以初速度 $v_{0}$ 沿 $x$ 轴正方向从坐标原点 O 射入，并经过点 P（$a > 0$，$b > 0$）。若上述过程仅由方向平行于 $y$ 轴的匀强电场实现，粒子从 O 到 P 运动的时间为 $t_{1}$，到达 P 点的动能为 $E_{k1}$。若上述过程仅由方向垂直于纸面的匀强磁场实现，粒子从 O 到 P 运动的时间为 $t_{2}$，到达 P 点的动能为 $E_{k2}$。下列关系式正确的是 （  ）\n\n![物理配图](assets/2022/physics/湖北/10.png)",
+      "figures": [
+        "assets/2022/physics/湖北/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$t_{1}<t_{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$t_{1}>t_{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$E_{k1}<E_{k2}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$E_{k1}>E_{k2}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．该过程中由方向平行于 $y$ 轴的匀强电场实现，此时粒子做类平抛运动，沿 $x$ 轴正方向做匀速直线运动；当该过程仅由方向垂直于纸面的匀强磁场实现时，此时粒子做匀速圆周运动，沿 $x$ 轴正方向分速度在减小，根据 $t=\\frac{x}{v}$ 可知 $t_{1}<t_{2}$。故 A 正确，B 错误。\n\n\tCD．该过程中由方向平行于 $y$ 轴的匀强电场实现，此时粒子做类平抛运动，到达 P 点时速度大于 $v_{0}$；当该过程仅由方向垂直于纸面的匀强磁场实现时，此时粒子做匀速圆周运动，到达 P 点时速度等于 $v_{0}$，而根据 $E_{k}=\\frac{1}{2}mv^{2}$ 可知 $E_{k1}>E_{k2}$。\n\n\t故 C 错误，D 正确。\n\n\t故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q11",
+      "number": 11,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "磁场",
+        "安培力"
+      ],
+      "stem_md": "如图所示，两平行导轨在同一水平面内。一导体棒垂直放在导轨上，棒与导轨间的动摩擦因数恒定。整个装置置于匀强磁场中，磁感应强度大小恒定，方向与金属棒垂直、与水平向右方向的夹角 $\\theta$ 可调。导体棒沿导轨向右运动，现给导体棒通以图示方向的恒定电流，适当调整磁场方向，可以使导体棒沿导轨做匀加速运动或匀减速运动。已知导体棒加速时，加速度的最大值为 $\\frac{\\sqrt{3}}{3}g$；减速时，加速度的最大值为 $\\sqrt{3}g$，其中 $g$ 为重力加速度大小。下列说法正确的是 （  ）\n\n![物理配图](assets/2022/physics/湖北/11.png)",
+      "figures": [
+        "assets/2022/physics/湖北/11.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "棒与导轨间的动摩擦因数为 $\\frac{\\sqrt{3}}{6}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "棒与导轨间的动摩擦因数为 $\\frac{\\sqrt{3}}{3}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "加速阶段加速度大小最大时，磁场方向斜向下，$\\theta=60^{\\circ}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "减速阶段加速度大小最大时，磁场方向斜向上，$\\theta=150^{\\circ}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设磁场方向与水平方向夹角为 $\\theta_{1}$，$\\theta_{1}<90^{\\circ}$；当导体棒加速且加速度最大时，合力向右最大，根据左手定则和受力分析可知安培力应该斜向右上方，磁场方向斜向右下方，此时有\n\n\t$F\\sin\\theta_{1}-\\mu(mg-F\\cos\\theta_{1})=ma_{1}$\n\n\t令\n\n\t$\\cos\\alpha=\\frac{1}{\\sqrt{1+\\mu^{2}}}$，$\\sin\\alpha=\\frac{\\mu}{\\sqrt{1+\\mu^{2}}}$\n\n\t根据数学知识可得 $F\\sqrt{1+\\mu^{2}}\\sin(\\theta_{1}+\\alpha)=\\mu mg+ma_{1}$\n\n\t则有 $\\sin(\\theta_{1}+\\alpha)=\\frac{\\mu mg+ma_{1}}{F\\sqrt{1+\\mu^{2}}}\\leqslant 1$\n\n\t同理磁场方向与水平方向夹角为 $\\theta_{2}$，$\\theta_{2}<90^{\\circ}$，当导体棒减速，且加速度最大时，合力向左最大，根据左手定则和受力分析可知安培力应该斜向左下方，磁场方向斜向左上方，此时有 $F\\sin\\theta_{2}+\\mu(mg+F\\cos\\theta_{2})=ma_{2}$\n\n\t有 $F\\sqrt{1+\\mu^{2}}\\sin(\\theta_{2}+\\alpha)=ma_{2}-\\mu mg$\n\n\t所以有 $\\sin(\\theta_{2}+\\alpha)=\\frac{ma_{2}-\\mu mg}{F\\sqrt{1+\\mu^{2}}}\\leqslant 1$\n\n\t当加速或减速加速度分别最大时，不等式均取等于，联立可得 $\\mu=\\frac{\\sqrt{3}}{3}$\n\n\t代入 $\\cos\\alpha=\\frac{1}{\\sqrt{1+\\mu^{2}}}$\n\n\t可得 $\\alpha=30^{\\circ}$，此时 $\\theta_{1}=\\theta_{2}=60^{\\circ}$\n\n\t加速阶段加速度大小最大时，磁场方向斜向右下方，有 $\\theta=\\theta_{1}=60^{\\circ}$\n\n\t减速阶段加速度大小最大时，磁场方向斜向左上方，有 $\\theta=\\pi-\\theta_{2}=120^{\\circ}$\n\n\t故 BC 正确，AD 错误。\n\n\t故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 7,
+      "difficulty": 550,
+      "topics": [
+        "功和能",
+        "DIS研究机械能守恒定律"
+      ],
+      "stem_md": "某同学设计了一个用拉力传感器验证机械能守恒定律的实验。一根轻绳一端连接固定的拉力传感器，另一端连接小钢球，如图[2022湖北12a]所示。拉起小钢球至某一位置由静止释放，使小钢球在竖直平面内摆动，记录钢球摆动过程中拉力传感器示数的最大值 $T_\\text{max}$ 和最小值 $T_\\text{min}$。改变小钢球的初始释放位置，重复上述过程。根据测量数据在直角坐标系中绘制的 $T_\\text{max}-T_\\text{min}$ 图像是一条直线，如图[2022湖北12b]所示。\n\n![物理配图](assets/2022/physics/湖北/12a.png) ![物理配图](assets/2022/physics/湖北/12b.png)\n\n（1）若小钢球摆动过程中机械能守恒，则图乙中直线斜率的理论值为  ______ 。\n（2）由图乙得：直线的斜率为  ______ ，小钢球的重力为  ______  $\\,\\mathrm{N}$。（结果均保留 2 位有效数字）\n（3）该实验系统误差的主要来源是  ______ （单选，填正确答案标号）。\n\n\tA．小钢球摆动角度偏大\n\n\tB．小钢球初始释放位置不同\n\n\tC．小钢球摆动过程中有空气阻力",
+      "figures": [
+        "assets/2022/physics/湖北/12a.png",
+        "assets/2022/physics/湖北/12b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$-2$\n（2）$-2.1$，$0.59$\n（3）C",
+        "sub_answers": [
+          "$-2$",
+          "$-2.1$",
+          "$0.59$",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）设初始位置时，细线与竖直方向夹角为 $\\theta$，则细线拉力最小值为 $T_{\\min}=mg\\cos\\theta$\n\n\t到最低点时细线拉力最大，则 $mgl(1-\\cos\\theta)=\\frac{1}{2}mv^{2}$，$T_{\\max}-mg=m\\frac{v^{2}}{l}$\n\n\t联立可得 $T_{\\max}=3mg-2T_{\\min}$，即若小钢球摆动过程中机械能守恒，则图乙中直线斜率的理论值为 $-2$；\n\n\t（2）由图乙得直线的斜率为 $k=-\\frac{1.77-1.35}{0.2}=-2.1$\n\n\t$3mg=1.77$，则小钢球的重力为 $mg=0.59\\,\\mathrm{N}$\n\n\t（3）该实验系统误差的主要来源是小钢球摆动过程中有空气阻力，使得机械能减小，故选 C。此题有点破绽，详见：\\url{https://mp.weixin.qq.com/s/jgHTknhXiqjnfQF1zwImMw}。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q13",
+      "number": 13,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 9,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "测量电阻率"
+      ],
+      "stem_md": "某探究小组学习了多用电表的工作原理和使用方法后，为测量一种新型材料制成的圆柱形电阻的电阻率，进行了如下实验探究。\n\n![物理配图](assets/2022/physics/湖北/13a.png) ![物理配图](assets/2022/physics/湖北/13b.png) ![物理配图](assets/2022/physics/湖北/13c.png)\n\n（1）该小组用螺旋测微器测量该圆柱形电阻的直径 $D$，示数如图[2022湖北13a]所示，其读数为  ______  $\\,\\mathrm{mm}$。再用游标卡尺测得其长度 $L$。\n（2）该小组用如图[2022湖北13b]所示的电路测量该圆柱形电阻 $R_{x}$ 的阻值。图中电流表量程为 $0.6\\,\\mathrm{A}$、内阻为 $1.0\\,\\Omega$，定值电阻 $R_{0}$ 的阻值为 $20.0\\,\\Omega$，电阻箱 $R$ 的最大阻值为 $999.9\\,\\Omega$。首先将 $\\mathrm{S}_{2}$ 置于位置 1，闭合 $\\mathrm{S}_{1}$，多次改变电阻箱 $R$ 的阻值，记下电流表的对应读数 $I$，实验数据见下表。\n\n\t\n\t\n<table class=\"exam-table\"><tr><th>$R/\\Omega$</th><th>$I/\\mathrm{A}$</th><th>$\\frac{1}{I}/\\,\\mathrm{A}^{-1}$</th></tr><tr><td>5.0</td><td>0.414</td><td>2.42</td></tr><tr><td>10.0</td><td>0.352</td><td>2.84</td></tr><tr><td>15.0</td><td>0.308</td><td>3.25</td></tr><tr><td>20.0</td><td>0.272</td><td>3.68</td></tr><tr><td>25.0</td><td>0.244</td><td>4.10</td></tr><tr><td>30.0</td><td>0.222</td><td>4.50</td></tr></table>\n\n\t\n\n\t根据表中数据，在图[2022湖北13c]中绘制出 $\\frac{1}{I}-R$ 图像。再将 $\\mathrm{S}_{2}$ 置于位置 2，此时电流表读数为 $0.400\\,\\mathrm{A}$。根据图丙中的图像可得 $R_{x}=$  ______  $\\,\\Omega$（结果保留 2 位有效数字）。最后可由表达式 $\\rho=$  ______  得到该材料的电阻率（用 $D$、$L$、$R_{x}$ 表示）。\n（3）该小组根据图乙的电路和图丙的 $\\frac{1}{I}-R$ 图像，还可以求得电源电动势 $E=$  ______  $\\,\\mathrm{V}$，内阻 $r=$  ______  $\\,\\Omega$。（结果均保留 2 位有效数字）\n（4）持续使用后，电源电动势降低、内阻变大。若该小组再次将此圆柱形电阻连入此装置，测得电路的电流，仍根据原来描绘的图丙的图像得到该电阻的测量值会  ______ （选填“偏大”、“偏小”或“不变”）。",
+      "figures": [
+        "assets/2022/physics/湖北/13a.png",
+        "assets/2022/physics/湖北/13b.png",
+        "assets/2022/physics/湖北/13c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）3.700\n（2）$6.0$，$\\frac{\\pi D^{2}R_{x}}{4L}$\n（3）$12$，$3.0$\n（4）偏小",
+        "sub_answers": [
+          "$3.700$",
+          "$6.0$",
+          "$\\frac{\\pi D^{2}R_{x}}{4L}$",
+          "$12$",
+          "$3.0$",
+          "偏小"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）用螺旋测微器测量该圆柱形电阻的直径 $D$，其读数为\n\n\t$3.5\\,\\mathrm{mm}+0.01\\,\\mathrm{mm}\\times 20.0=3.700\\,\\mathrm{mm}$\n\n\t（2）由电路可知，当将 $\\mathrm{S}_{2}$ 置于位置 1，闭合 $\\mathrm{S}_{1}$ 时\n\n\t$E=I(R_{\\mathrm{A}}+R_{0}+r+R)$\n\n\t即\n\n\t$\\frac{1}{I}=\\frac{1}{E}R+\\frac{R_{\\mathrm{A}}+R_{0}+r}{E}$\n\n\t由图像可知\n\n\t$\\frac{1}{E}=\\frac{4.9-2.0}{35}$\n\n\t解得 $E=12\\,\\mathrm{V}$\n\n\t$\\frac{R_{\\mathrm{A}}+R_{0}+r}{E}=2$\n\n\t解得 $r=3.0\\,\\Omega$\n\n\t再将 $\\mathrm{S}_{2}$ 置于位置 2，此时电流表读数为 $0.400\\,\\mathrm{A}$，则\n\n\t$E=I^{\\prime}(r+R_{0}+R_{\\mathrm{A}}+R_{x})$\n\n\t解得 $R_{x}=6.0\\,\\Omega$\n\n\t$R_{x}=\\rho\\frac{L}{S}=\\rho\\frac{L}{\\frac{1}{4}\\pi D^{2}}$\n\n\t根据\n\n\t解得 $\\rho=\\frac{\\pi D^{2}R_{x}}{4L}$\n\n\t（3）由（2）可知 $E=12\\,\\mathrm{V}$，$r=3.0\\,\\Omega$\n\n\t（4）根据表达式 $E=I^{\\prime}(r+R_{0}+R_{\\mathrm{A}}+R_{x})$\n\n\t因电源电动势变小，内阻变大，则当安培表有相同读数时，得到的 $R_{x}$ 的值偏小，即 $R_{x}$ 测量值偏小。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 9,
+      "difficulty": 650,
+      "topics": [
+        "光学",
+        "光的折射"
+      ],
+      "stem_md": "如图所示，水族馆训练员在训练海豚时，将一发光小球高举在水面上方的 A 位置，海豚的眼睛在 B 位置，A 位置和 B 位置的水平距离为 $d$，A 位置离水面的高度为 $\\frac{2}{3}d$。训练员将小球向左水平抛出，入水点在 B 位置的正上方，入水前瞬间速度方向与水面夹角为 $\\theta$。小球在 A 位置发出的一束光线经水面折射后到达 B 位置，折射光线与水平方向的夹角也为 $\\theta$。已知水的折射率 $n=\\frac{4}{3}$，求：\n\n（1）$\\tan\\theta$ 的值；\n（2）B 位置到水面的距离 $H$。\n\n![物理配图](assets/2022/physics/湖北/14.png)",
+      "figures": [
+        "assets/2022/physics/湖北/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\tan\\theta=\\frac{4}{3}$\n（2）$H=\\frac{4d}{27}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由平抛运动的规律可知\n\n\t$d=v_{0}t$，$\\frac{2}{3}d=\\frac{1}{2}gt^{2}$，$\\tan\\theta=\\frac{gt}{v_{0}}$\n\n\t解得 $\\tan\\theta=\\frac{4}{3}$\n\n\t（2）因 $\\tan\\theta=\\frac{4}{3}$ 可知 $\\theta=53^{\\circ}$，从 A 点射到水面的光线的入射角为 $\\alpha$，折射角为 $90^{\\circ}-\\theta=37^{\\circ}$，则由折射定律可知\n\n\t$n=\\frac{\\sin\\alpha}{\\sin 37^{\\circ}}$\n\n\t解得 $\\alpha=53^{\\circ}$\n\n\t由几何关系可知\n\n\t$H\\tan 37^{\\circ}+\\frac{2}{3}d\\tan 53^{\\circ}=d$\n\n\t解得 $H=\\frac{4d}{27}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 15,
+      "difficulty": 450,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图所示，高度足够的匀强磁场区域下边界水平、左右边界竖直，磁场方向垂直于纸面向里。正方形单匝线框 abcd 的边长 $L=0.2\\,\\mathrm{m}$、回路电阻 $R=1.6\\times 10^{-3}\\,\\Omega$、质量 $m=0.2\\,\\mathrm{kg}$。线框平面与磁场方向垂直，线框的 ad 边与磁场左边界平齐，ab 边与磁场下边界的距离也为 $L$。现对线框施加与水平向右方向成 $\\theta=45^{\\circ}$ 角、大小为 $4\\sqrt{2}\\,\\mathrm{N}$ 的恒力 $F$，使其在图示竖直平面内由静止开始运动。从 ab 边进入磁场开始，在竖直方向线框做匀速运动；dc 边进入磁场时，bc 边恰好到达磁场右边界。重力加速度大小取 $g=10\\,\\mathrm{m}/\\mathrm{s}^2$，求：\n\n（1）ab 边进入磁场前，线框在水平方向和竖直方向的加速度大小；\n（2）磁场的磁感应强度大小和线框进入磁场的整个过程中回路产生的焦耳热；\n（3）磁场区域的水平宽度。\n\n![物理配图](assets/2022/physics/湖北/15.png)",
+      "figures": [
+        "assets/2022/physics/湖北/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$a_{x}=20\\,\\mathrm{m}/\\mathrm{s}^2$，$a_{y}=10\\,\\mathrm{m}/\\mathrm{s}^2$\n（2）$B=0.2\\,\\mathrm{T}$，$Q=0.4\\,\\mathrm{J}$\n（3）$X=1.1\\,\\mathrm{m}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）ab 边进入磁场前，对线框进行受力分析，在水平方向有 $ma_{x}=F\\cos\\theta$\n\n\t代入数据有 $a_{x}=20\\,\\mathrm{m}/\\mathrm{s}^2$\n\n\t在竖直方向有 $ma_{y}=F\\sin\\theta-mg$\n\n\t代入数据有 $a_{y}=10\\,\\mathrm{m}/\\mathrm{s}^2$\n\n\t（2）ab 边进入磁场开始，ab 边在竖直方向切割磁感线；ab 边和 bc 边的上部分也开始进入磁场，且在水平方向切割磁感线。但 ad 和 bc 边的上部分产生的感应电动势相互抵消，则整个回路的电源为 ab，根据右手定则可知回路的电流为 adcba，则 ab 边进入磁场开始，ab 边受到的安培力竖直向下，ad 边的上部分受到的安培力水平向右，bc 边的上部分受到的安培力水平向左，则 ad 边和 bc 边的上部分受到的安培力相互抵消，故线框 abcd 受到的安培力的合力为 ab 边受到的竖直向下的安培力。由题知，线框从 ab 边进入磁场开始，在竖直方向线框做匀速运动，有\n\n\t$F\\sin\\theta-mg-BIL=0$，$E=BLv_{y}$，$I=\\frac{E}{R}$，$v_{y}^{2}=2a_{y}L$\n\n\t联立有 $B=0.2\\,\\mathrm{T}$\n\n\t由题知，从 ab 边进入磁场开始，在竖直方向线框做匀速运动；dc 边进入磁场时，bc 边恰好到达磁场右边界。则线框进入磁场的整个过程中，线框受到的安培力为恒力，则有\n\n\t$Q=W_{\\text{安}}=BILy$，$y=L$，$F\\sin\\theta-mg=BIL$\n\n\t联立解得 $Q=0.4\\,\\mathrm{J}$\n\n\t（3）线框从开始运动到进入磁场的整个过程中所用的时间为\n\n\t$v_{y}=a_{y}t_{1}$，$L=v_{y}t_{2}$，$t=t_{1}+t_{2}$\n\n\t联立解得 $t=0.3\\,\\mathrm{s}$\n\n\t由（2）分析可知线框在水平方向一直做匀加速直线运动，则在水平方向有\n\n\t$x=\\frac{1}{2}a_{x}t^{2}=\\frac{1}{2}\\times 20\\times 0.3^{2}\\,\\mathrm{m}=0.9\\,\\mathrm{m}$\n\n\t则磁场区域的水平宽度 $X=x+L=1.1\\,\\mathrm{m}$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-湖北-q16",
+      "number": 16,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "打桩机是基建常用工具。某种简易打桩机模型如图所示，重物 A、B 和 C 通过不可伸长的轻质长绳跨过两个光滑的等高小定滑轮连接，C 与滑轮等高（图中实线位置）时，C 到两定滑轮的距离均为 $L$。重物 A 和 B 的质量均为 $m$，系统可以在如图虚线位置保持静止，此时连接 C 的绳与水平方向的夹角为 $60^{\\circ}$。某次打桩时，用外力将 C 拉到图中实线位置，然后由静止释放。设 C 的下落速度为 $\\sqrt{\\frac{3gL}{5}}$ 时，与正下方质量为 $2m$ 的静止桩 D 正碰，碰撞时间极短，碰撞后 C 的速度为零，D 竖直向下运动 $\\frac{L}{10}$ 距离后静止（不考虑 C、D 再次相碰）。A、B、C、D 均可视为质点。\n\n（1）求 C 的质量；\n（2）若 D 在运动过程中受到的阻力 $F$ 可视为恒力，求 $F$ 的大小；\n（3）撤掉桩 D，将 C 再次拉到图中实线位置，然后由静止释放，求 A、B、C 的总动能最大时 C 的动能。\n\n![物理配图](assets/2022/physics/湖北/16.png)",
+      "figures": [
+        "assets/2022/physics/湖北/16.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\sqrt{3}m$\n（2）$6.5mg$\n（3）$(4-2\\sqrt{3})mgL$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）系统在如图虚线位置保持静止，以 C 为研究对象，根据平衡条件可知 $m_{C}g=2mg\\cos 30^{\\circ}$\n\n\t解得 $m_{C}=\\sqrt{3}m$\n\n\t（2）CD 碰后 C 的速度为零，设碰撞后 D 的速度为 $v$，根据动量守恒定律可知\n\n\t$\\sqrt{3}m\\sqrt{\\frac{3gL}{5}}=2mv$\n\n\t解得 $v=\\frac{3}{2}\\sqrt{\\frac{gL}{5}}$\n\n\tCD 碰撞后 D 向下运动 $\\frac{L}{10}$ 距离后停止，根据动能定理可知\n\n\t$0-\\frac{1}{2}\\times 2mv^{2}=2mg\\frac{L}{10}-F\\frac{L}{10}$\n\n\t解得 $F=6.5mg$\n\n\t（3）设某时刻 C 向下运动的速度为 $v'$，AB 向上运动的速度为 $v$，图中虚线与竖直方向的夹角为 $\\alpha$，根据机械能守恒定律可知\n\n\t$\\frac{1}{2}m_{C}v'^{2}+2\\times\\frac{1}{2}m(v'\\cos\\alpha)^{2}=m_{C}g\\frac{L}{\\tan\\alpha}-2mg\\left(\\frac{L}{\\sin\\alpha}-L\\right)$\n\n\t令 $y=m_{C}g\\frac{L}{\\tan\\alpha}-2mg\\left(\\frac{L}{\\sin\\alpha}-L\\right)$\n\n\t对上式求导数可得\n\n\t$\\frac{\\mathrm{d}y}{\\mathrm{d}\\alpha}=\\sqrt{3}mgL\\frac{-1}{\\sin^{2}\\alpha}+2mgL\\frac{\\cos\\alpha}{\\sin^{2}\\alpha}$\n\n\t当 $\\frac{\\mathrm{d}y}{\\mathrm{d}\\alpha}=0$ 时解得 $\\cos\\alpha=\\frac{\\sqrt{3}}{2}$，即 $\\alpha=30^{\\circ}$\n\n\t此时 $y=m_{C}g\\frac{L}{\\tan\\alpha}-2mg\\left(\\frac{L}{\\sin\\alpha}-L\\right)=mgL$\n\n\t于是有 $\\frac{1}{2}m_{C}v'^{2}+2\\times\\frac{1}{2}m(v'\\cos\\alpha)^{2}=mgL$\n\n\t解得 $v'^{2}=\\frac{gL}{\\frac{3}{4}+\\frac{\\sqrt{3}}{2}}$\n\n\t此时 C 的最大动能为 $E_{km}=\\frac{1}{2}m_{C}v'^{2}=(4-2\\sqrt{3})mgL$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

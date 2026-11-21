@@ -1,0 +1,727 @@
+{
+  "id": "2025-physics-江西",
+  "year": 2025,
+  "subject": "物理",
+  "region": "江西卷",
+  "region_key": "江西",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2025-physics-江西-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "电场",
+        "电容"
+      ],
+      "stem_md": "超级电容器可集成到太阳能发电系统中，通过超级电容器储存和释放能量，优化功率输出，提升电网稳定性。关于超级电容器储存能量过程中所带电荷量 $Q$ 和两极板间电压 $U$ 的变化，下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$Q$ 增大，$U$ 增大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$Q$ 减小，$U$ 减小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$Q$ 减小，$U$ 增大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$Q$ 增大，$U$ 减小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "超级电容器储存能量时处于充电过程，电荷量 $Q$ 增加。根据电容公式 $Q = CU$，若电容 $C$ 不变（由结构决定，题目未提及变化），则 $Q$ 与 $U$ 成正比。因此，$Q$ 增大时，$U$ 必然增大。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "变轨问题"
+      ],
+      "stem_md": "如图所示，Ⅰ 和 Ⅱ 分别为神舟二十号飞船的近地圆轨道、椭圆变轨轨道，Ⅲ 为天和核心舱运行圆轨道，P、Q 为变轨点。不计阻力，飞船在轨道 Ⅱ 上从 P 点到 Q 点运动过程中，下列选项正确的是（  ）\n\n![物理配图](assets/2025/physics/江西/02.png)",
+      "figures": [
+        "assets/2025/physics/江西/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "速率增大，机械能增大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "速率减小，机械能减小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "速率增大，机械能不变",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "速率减小，机械能不变",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意可知，飞船在轨道 Ⅱ 上从 P 点到 Q 点运动过程中，只有万有引力做负功，则机械能不变，动能减小，即速率减小。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "某变压器的原线圈匝数未知，将 $9 \\,\\mathrm{V}$ 的正弦交流电输入原线圈。改变副线圈的匝数 $n$，测得副线圈两端的电压 $U$ 与匝数 $n$ 之间的关系如图所示。若该变压器为理想变压器，则原线圈的匝数最接近 （  ）\n\n![物理配图](assets/2025/physics/江西/03.png)",
+      "figures": [
+        "assets/2025/physics/江西/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "110",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "160",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "210",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "310",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设原线圈的匝数为 $n_{1}$，根据 $\\frac{n_{1}}{n} = \\frac{U_{1}}{U}$，可得 $n_{1} = \\frac{n}{U}U_{1}$\n\n由题图可知当 $U = 3 \\,\\mathrm{V}$ 时，$n = 70$，代入可得 $n_{1} = \\frac{70}{3} \\times 9 = 210$\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "平抛运动"
+      ],
+      "stem_md": "如图所示，人形机器人陪伴小孩玩接球游戏。机器人在高度为 $H$ 的固定点以速率 $v_{1}$ 水平向右抛球，小孩以速率 $v_{2}$ 水平向左匀速运动，接球时手掌离地面高度为 $h$。当小孩与机器人水平距离为 $l$ 时，机器人将小球抛出。忽略空气阻力，重力加速度为 $g$。若小孩能接到球，则 $v_{1}$ 为（  ）\n\n![物理配图](assets/2025/physics/江西/04.png)",
+      "figures": [
+        "assets/2025/physics/江西/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$l\\sqrt{\\frac{2g}{H - h}} - v_{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$l\\sqrt{\\frac{g}{2(H - h)}} - v_{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$l\\sqrt{\\frac{H - h}{2g}} - v_{2}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$l\\sqrt{\\frac{2(H - h)}{g}} - v_{2}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "若小孩能接到球，则有 $H - h = \\frac{1}{2}gt^{2}$，$l = v_{1}t + v_{2}t$\n\n联立解得 $v_{1} = l\\sqrt{\\frac{g}{2(H - h)}} - v_{2}$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电磁感应",
+        "楞次定律"
+      ],
+      "stem_md": "托卡马克是一种磁约束核聚变装置，其中心柱上的密绕螺线管（CS 线圈）可以驱动附近由电子和离子组成的磁约束等离子体旋转形成等离子体电流，如图 [2025江西05a]所示。当 CS 线圈通以如图 [2025江西05b]所示的电流时，产生的等离子体电流方向（俯视）为（  ）\n\n![物理配图](assets/2025/physics/江西/05a.png) ![物理配图](assets/2025/physics/江西/05b.png)",
+      "figures": [
+        "assets/2025/physics/江西/05a.png",
+        "assets/2025/physics/江西/05b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "顺时针",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "逆时针",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "先顺时针后逆时针",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "先逆时针后顺时针",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由图（b）可知开始阶段流过 CS 线圈的电流正向减小，根据右手定则可知，CS 线圈产生的磁场下端为 N 极，上端为 S 极，则穿过线圈周围某一截面的磁通量向下减小，由楞次定律可知产生的感应电场方向为顺时针方向（俯视），则产生的等离子体电流方向（俯视）为顺时针；同理在以后阶段通过 CS 线圈的电流反向增加时，情况与前一阶段等效，即产生的等离子体电流方向（俯视）仍为顺时针。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "如图所示，一泵水器通过细水管与桶装水相连。按压一次泵水器可将压强等于大气压强 $p_{0}$、体积为 $V_{0}$ 的空气压入水桶中。在设计泵水器时应计算出 $V_{0}$ 的临界值 $V_{0c}$，当 $V_{0} = V_{0c}$ 时，在液面最低的情况下仅按压一次泵水器恰能出水。设桶身的高度和横截面积分别为 $H$、$S$，颈部高度为 $l$，按压前桶中气体压强为 $p_{0}$。不考虑温度变化和漏气，忽略桶壁厚度及桶颈部、细水管和出水管的体积。已知水的密度为 $\\rho$，重力加速度为 $g$。该临界值 $V_{0c}$ 等于（  ）\n\n![物理配图](assets/2025/physics/江西/06.png)",
+      "figures": [
+        "assets/2025/physics/江西/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{\\rho gS}{p_{0}}H^{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{\\rho gS}{p_{0}}H(H + l)$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{p_{0} - \\rho g(H + l)}{p_{0}}SH$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{p_{0} + \\rho g(H + l)}{p_{0}}SH$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意，设往桶内压入压强为 $p_{0}$、体积为 $V_{0c}$ 的空气后，桶内气体压强增大到 $p$，根据玻意耳定律有 $p_{0}SH + p_{0}V_{0c} = pSH$\n\n泵水器恰能出水满足 $p = p_{0} + \\rho g(H + l)$\n\n联立解得 $V_{0c} = \\frac{\\rho gS}{p_{0}}H(H + l)$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 350,
+      "topics": [
+        "曲线运动",
+        "线速度角速度"
+      ],
+      "stem_md": "为避免火车在水平面上过弯时因内外轨道半径不同致使轮子打滑造成危险（不考虑离心问题），把固定连接为一体的两轮设计成锥顶角 $\\theta$ 很小的圆台形，如图所示。设铁轨间距为 $L$，正常直线行驶时两轮与铁轨接触处的直径均为 $D$，过弯时内外轨间中点位置到轨道圆心的距离为过弯半径 $R$。在 $\\theta$ 很小时，$\\tan\\theta \\approx \\sin\\theta \\approx \\theta$。若在水平轨道过弯时要求轮子不打滑且横向偏移量不超过 $\\Delta x$，则最小过弯半径 $R$ 为（  ）\n\n![物理配图](assets/2025/physics/江西/07.png)",
+      "figures": [
+        "assets/2025/physics/江西/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{2LD}{\\theta \\Delta x}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{LD}{\\theta \\Delta x}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{LD}{2\\theta \\Delta x}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{LD}{4\\theta \\Delta x}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意可知，转弯时车轮会向外偏移 $\\Delta x$，这样导致轮子与外铁轨接触的位置半径增大为 $r_{1}$，根据几何关系有\n\n$2r_{1} = D + 2\\Delta x\\tan\\frac{\\theta}{2}$\n\n同理可知，轮子与内铁轨接触的位置半径减小为 $r_{2}$，则有\n\n$2r_{2} = D - 2\\Delta x\\tan\\frac{\\theta}{2}$\n\n设一段时间内，外轨道轮子与铁轨接触的位置向前运动的距离为 $s_{1}$，内轨道轮子与铁轨接触的位置向前运动的距离为 $s_{2}$，由于两轮固定连接为一体，且轮子不打滑，则有\n\n$\\frac{s_{1}}{s_{2}} = \\frac{r_{1}}{r_{2}} = \\frac{D + 2\\Delta x\\tan\\frac{\\theta}{2}}{D - 2\\Delta x\\tan\\frac{\\theta}{2}}$\n\n由于 $\\tan\\frac{\\theta}{2} \\approx \\frac{\\theta}{2}$\n\n则有 $\\frac{s_{1}}{s_{2}} = \\frac{D + \\theta \\Delta x}{D - \\theta \\Delta x}$\n\n转弯过程俯视图，如图所示\n\n![物理配图](assets/2025/physics/江西/07_an.png)\n\n由几何关系有 $\\frac{s_{1}}{s_{2}} = \\frac{R + \\frac{L}{2}}{R - \\frac{L}{2}}$\n\n联立解得 $R = \\frac{LD}{2\\theta \\Delta x}$\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/江西/07_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "电磁感应现象"
+      ],
+      "stem_md": "如图所示，一细金属导体棒 PQ 在匀强磁场中沿纸面由静止开始向右运动，磁场方向垂直纸面向里。不考虑棒中自由电子的热运动。下列选项正确的是（  ）\n\n![物理配图](assets/2025/physics/江西/08.png)",
+      "figures": [
+        "assets/2025/physics/江西/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "电子沿棒运动时不受洛伦兹力作用",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "棒运动时，P 端比 Q 端电势低",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "棒加速运动时，棒中电场强度变大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "棒保持匀速运动时，电子最终相对棒静止",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "CD",
+        "choices": [
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由左手定则可知，电子沿棒运动时受到水平方向的洛伦兹力作用，A 错误；\n\nB．根据右手定则可知，棒向右运动时，P 端比 Q 端电势高，B 错误；\n\nC．PQ 两端电势差 $U = BLv$，可知棒中电场强度 $E = \\frac{U}{L} = Bv$，则棒加速运动时，棒中电场强度变大，C 正确；\n\nD．棒保持匀速运动时，PQ 两端电势差保持恒定，电子将集聚在导体棒下端，最终相对棒静止，D 正确。\n\n故选 CD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "直线运动",
+        "运动图象"
+      ],
+      "stem_md": "每逢端午节，江西各地常会举办热闹非凡的赛龙舟活动。利用与某龙舟同方向匀速直线飞行的无人机跟踪拍摄，发现在某段时间内该龙舟做匀加速和匀减速交替的周期性直线运动。若以无人机为参考系，该龙舟在 $0.4 \\,\\mathrm{s}$ 时间内速度由 0 增加到 $0.6 \\,\\mathrm{m}/\\mathrm{s}$（划桨阶段），再经历 $0.6 \\,\\mathrm{s}$ 时间速度减为 0（未划桨阶段），则关于这段时间内该龙舟的位置 $x$、速度 $v$、加速度 $a$、动能 $E_{k}$ 与时间 $t$ 的关系，下列图像可能正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2025/physics/江西/09a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2025/physics/江西/09b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2025/physics/江西/09c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2025/physics/江西/09d.png"
+        }
+      ],
+      "answer": {
+        "raw": "AB",
+        "choices": [
+          "A",
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．位移时间图像斜率代表速度，所以斜率先增大后减小，再增大再减小，故 A 正确；\n\nB．龙舟在 $0.4 \\,\\mathrm{s}$ 时间内速度由 0 增加到 $0.6 \\,\\mathrm{m}/\\mathrm{s}$（划桨阶段），再经历 $0.6 \\,\\mathrm{s}$ 时间速度减为 0，速度方向始终为正向，故 B 正确；\n\nC．因为是匀加速和匀减速，所以加速度在 $0.4 \\,\\mathrm{s}$ 时间内是不变的，后 $0.6 \\,\\mathrm{s}$ 内也是不变的，故 C 错误；\n\nD．根据 $E_{k} = \\frac{1}{2}mv^{2} = \\frac{1}{2}m(at)^{2}$ 可知，前 $0.4 \\,\\mathrm{s}$ 开口向上，故 D 错误。\n\n故选 AB。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 350,
+      "topics": [
+        "电磁感应",
+        "线圈过有界磁场"
+      ],
+      "stem_md": "如图所示，足够长的传送带与水平面的夹角为 $\\theta$，速率恒为 $v_{0}$，宽为 $d$ 的 MNQP 区域存在与传送带平面垂直向上的匀强磁场，磁感应强度大小为 $B$。边长为 $l$（$l < \\frac{d}{2}$）、质量为 $m$、电阻为 $R$ 的正方形线框 efgh 置于传送带上，进入磁场前与传送带保持相对静止，线框 ef 边刚离开磁场区域时的速率恰为 $v_{0}$。若线框 ef 或 gh 边受到安培力，则其安培力大于 $2mg\\sin\\theta$。线框受到的最大静摩擦力等于滑动摩擦力，动摩擦因数 $\\mu = \\tan\\theta$，ef 边始终平行于 MN，重力加速度为 $g$。下列选项正确的是（  ）\n\n![物理配图](assets/2025/physics/江西/10.png)",
+      "figures": [
+        "assets/2025/physics/江西/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "线框速率的最小值为 $\\sqrt{v_{0}^{2} - 4g(d - l)\\sin\\theta}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "线框穿过磁场区域产生的焦耳热为 $2mgd\\sin\\theta$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "线框穿过磁场区域的时间为 $\\frac{B^{2}l^{3} + mR(\\sqrt{v_{0}^{2} - 4g(d - l)\\sin\\theta} - v_{0})}{2mgR\\sin\\theta}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "ef 边从进入到离开磁场区域的时间内，传送带移动距离为 $\\frac{B^{2}l^{3}v_{0}}{2mgR\\sin\\theta}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．在 ef 边进入磁场而 gh 边未进入磁场的过程中，线框受到沿传送带平面向上的安培力 $BIL$ 和沿传送带平面向下的重力分力 $mg\\sin\\theta$。若线框相对传送带滑动，则滑动摩擦力为 $\\mu mg\\cos\\theta$，而 $\\mu = \\tan\\theta$，故 $\\mu mg\\cos\\theta = mg\\sin\\theta$\n\n已知线框受到的安培力 $BLI > 2mg\\sin\\theta$\n\n即 $BIL > mg\\sin\\theta + \\mu mg\\cos\\theta$\n\n因此线框将相对传送带向上滑动，滑动摩擦力方向沿传送带平面向下。线框在沿传送带平面的安培力、重力分力、摩擦力作用下做减速运动。在 gh 边进入磁场到 ef 边离开磁场的过程中，因线框速度小于传送带速度，故其所受滑动摩擦力方向沿传送带平面向下。又因线框不受安培力，所以其在沿传送带平面的滑动摩擦力和重力分力作用下做匀加速直线运动。综上分析可知，当 gh 边刚进入磁场时，线框有最小速度 $v_{\\min}$。设线框加速度为 $a$，根据牛顿第二定律有 $mg\\sin\\theta + \\mu mg\\cos\\theta = ma$\n\nef 边离开磁场时速度恰好为 $v_{0}$，则有 $v_{0}^{2} - v_{\\min}^{2} = 2a(d - l)$\n\n联立解得 $v_{\\min} = \\sqrt{v_{0}^{2} - 4g(d - l)\\sin\\theta}$，故 A 正确；\n\nB．在 ef 边进入磁场到 gh 边进入磁场的过程中，由动能定理有\n\n$mgl\\sin\\theta + \\mu mgl\\cos\\theta + W_{\\text{安}} = \\frac{1}{2}mv_{\\min}^{2} - \\frac{1}{2}mv_{0}^{2}$\n\n则该过程产生的焦耳热 $Q = -W_{\\text{安}} = 2mgd\\sin\\theta$\n\n在 ef 边离开磁场到 gh 边离开磁场的过程中，线框产生的焦耳热也为 $Q$。因此，线框穿过磁场区域产生的焦耳热为 $4mgd\\sin\\theta$，故 B 错误；\n\nC．设 ef 边进入磁场到 gh 边进入磁场的时间为 $t_{1}$，根据闭合电路欧姆定律得 $I = \\frac{BLv}{R}$\n\n根据动量定理有 $mg\\sin\\theta \\cdot t_{1} + \\mu mg\\cos\\theta \\cdot t_{1} - \\sum BIL\\Delta t = mv_{\\min} - mv_{0}$\n\n设 gh 边进入磁场到 ef 边离开磁场的时间为 $t_{2}$，有 $v_{0} - v_{\\min} = at_{2}$\n\n因为 ef 边离开磁场到 gh 边离开磁场所用时间也为 $t_{1}$，所以线框穿过磁场区域的总时间 $t = 2t_{1} + t_{2}$\n\n联立解得 $t = \\frac{2B^{2}l^{3} + mR(\\sqrt{v_{0}^{2} - 4g(d - l)\\sin\\theta} - v_{0})}{2mgR\\sin\\theta}$，故 C 错误；\n\nD．ef 边从进入到离开磁场区域的时间 $t' = t_{1} + t_{2}$\n\n该段时间内传送带移动的距离 $s = v_{0}t' = \\frac{B^{2}l^{3}v_{0}}{2mgR\\sin\\theta}$，故 D 正确。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "功和能",
+        "DIS研究机械能守恒定律"
+      ],
+      "stem_md": "某小组利用气垫导轨、两个光电门、滑块、遮光片等，组成具有一定倾角的导轨装置，研究机械能守恒定律。重力加速度 $g$ 取 $9.80 \\,\\mathrm{m}/\\mathrm{s}^2$。\n\n（1）实验前，应合理安装实验器材。图 [2025江西11a]中光电门  ______  的位置安装不合理，应如何调整  ______ ：\n（2）实验时，导轨倾斜角的正弦值 $\\sin\\theta = 0.0613$，光电门 1、2 相距 $L$。将宽度 $d = 4.82 \\,\\mathrm{mm}$ 的遮光片固定于滑块上，从导轨最左端静止释放滑块，分别记录遮光片通过光电门 1、2 的时间 $\\Delta t_{1}$ 和 $\\Delta t_{2}$。移动光电门 2 的位置改变 $L$，重复实验，所测数据见下表。\n\n<table class=\"exam-table\"><tr><th>$L/\\,\\mathrm{cm}$</th><th>10.00</th><th>15.00</th><th>20.00</th><th>25.00</th><th>30.00</th><th></th><th>60.00</th><th>65.00</th><th>70.00</th></tr><tr><td>$\\Delta t_{1}/\\, \\mathrm{ms}$</td><td>9.982</td><td>9.883</td><td>10.019</td><td>10.068</td><td>10.049</td><td></td><td>10.073</td><td>10.066</td><td>10.170</td></tr><tr><td>$\\Delta t_{2}/\\, \\mathrm{ms}$</td><td>8.016</td><td>7.578</td><td>7.032</td><td>6.583</td><td>6.583</td><td>$\\cdots$</td><td>4.938</td><td>4.787</td><td>4.677</td></tr></table>\n\n滑块经过光电门 1、2 的速度分别为 $v_{1}$ 和 $v_{2}$。当 $L = 65.00 \\,\\mathrm{cm}$ 时，$v_{2} = $  ______  $\\,\\mathrm{m}/\\mathrm{s}$，滑块通过两光电门下降的高度 $H_{L} = $  ______  $\\,\\mathrm{cm}$。（结果保留 2 位小数）\n（3）处理上表数据，并绘制 $\\Delta v^{2}-H_{L}$ 关系曲线（其中 $\\Delta v^{2} = v_{2}^{2} - v_{1}^{2}$），如图 [2025江西11b]所示。根据图 [2025江西11b]中的信息，分析滑块在下滑过程中机械能是否守恒： ______ ，并给出理由： ______ 。\n\n![物理配图](assets/2025/physics/江西/11a.png) ![物理配图](assets/2025/physics/江西/11b.png)",
+      "figures": [
+        "assets/2025/physics/江西/11a.png",
+        "assets/2025/physics/江西/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）1，适当向右移动光电门 1\n（2）1.01，3.98\n（3）守恒\n\n根据图（b）可知其斜率约为 $k = \\frac{0.392}{0.020} \\,\\mathrm{m}/\\mathrm{s}^2 = 19.6 \\,\\mathrm{m}/\\mathrm{s}^2 = 2g$。\n\n故在误差范围内 $\\Delta v^{2} = 2gH_{L}$ 成立，说明下滑过程中滑块的动能增加量等于重力势能的减少量，即机械能守恒。",
+        "sub_answers": [
+          "1",
+          "适当向右移动光电门 1",
+          "1.01",
+          "3.98",
+          "守恒",
+          "在误差范围内 $\\Delta v^{2} = 2gH_{L}$ 成立，说明下滑过程中滑块的动能增加量等于重力势能的减少量"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）光电门 1 安装不合理；由图可知，光电门 1 靠近释放点，滑块到光电门 1 的距离较短，速度较小，导致滑块通过光电门 1 的速度测量误差较大。\n\n（2）当 $L = 65.00 \\,\\mathrm{cm}$ 时，由表格可知通过光电门 2 的时间为 $\\Delta t_{2} = 4.787 \\, \\mathrm{ms}$\n\n故通过光电门 2 的速度 $v_{2} = \\frac{d}{\\Delta t_{2}} = \\frac{4.82 \\times 10^{-3}}{4.787 \\times 10^{-3}} \\,\\mathrm{m}/\\mathrm{s} = 1.01 \\,\\mathrm{m}/\\mathrm{s}$\n\n根据几何关系可得滑块通过两光电门下降的高度 $H_{L} = L\\sin\\theta = 65 \\times 0.0613 \\,\\mathrm{cm} = 3.98 \\,\\mathrm{cm}$\n\n（3）守恒；根据图（b）可知其斜率约为 $k = \\frac{0.392}{0.020} \\,\\mathrm{m}/\\mathrm{s}^2 = 19.6 \\,\\mathrm{m}/\\mathrm{s}^2 = 2g$。\n\n故在误差范围内 $\\Delta v^{2} = 2gH_{L}$ 成立，说明下滑过程中滑块的动能增加量等于重力势能的减少量，即机械能守恒。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 7,
+      "difficulty": 550,
+      "topics": [
+        "电路",
+        "传感器"
+      ],
+      "stem_md": "热敏电阻的阻值随温度的变化而改变，通过建立温度与热敏电阻两端电压的关系，可制作一简易的温度传感器，进而实现温度测量。如图 [2025江西12a]所示，$R_{T}$ 为热敏电阻，$R_{0}$ 为匹配电阻，电源电动势为 $E$（内阻不计），数字电压表 V（内阻视为无穷大）用于测量热敏电阻两端的电压 $U_{\\text{out}}$。\n\n（1）由图 [2025江西12a]可得 $U_{\\text{out}}$ 的表达式为  ______ 。\n（2）已知某热敏电阻从 $20 \\,{}^\\circ\\mathrm{C}$ 升温到 $100 \\,{}^\\circ\\mathrm{C}$ 时，其阻值从 $10 \\,\\mathrm{k}\\Omega$ 单调减小到 $0.5 \\,\\mathrm{k}\\Omega$。为了合理配置 $R_{0}$ 的阻值，用电阻箱 $R_{1}$ 代替该热敏电阻 $R_{T}$ 进行实验。经数据处理得到不同 $R_{0}$ 值对应的 $U_{\\text{out}}-R_{1}$ 关系图线，如图 [2025江西12b]所示，分析可知应选图线  ______  对应的 $R_{0}$ 作为匹配电阻，可使 $U_{\\text{out}}$ 在更宽范围内对 $R_{1}$ 变化的响应更灵敏。\n（3）选定匹配电阻 $R_{0}$ 后，按图 [2025江西12a]连接电路，改变热敏电阻的温度 $T$，测量其两端的电压 $U_{\\text{out}}$，并尝试用二次多项式进行数据拟合，得到温度 $T$（$\\,{}^\\circ\\mathrm{C}$）与 $U_{\\text{out}}$（$\\,\\mathrm{V}$）的关系。\n（4）用已标定的温度传感器进行实验，记录数据，如下表所示，其中 $T$ 为测量温度，$T_{b}$ 为标准温度，$\\Delta T = T - T_{b}$。表中绝对误差最大和最小的测量温度值 $T$ 分别为  ______  $\\,{}^\\circ\\mathrm{C}$ 和  ______  $\\,{}^\\circ\\mathrm{C}$。除涉及元器件的精度和稳定性之外，分析该温度传感器测量误差的主要来源： ______ 。\n\n<table class=\"exam-table\"><tr><th>$T/\\,{}^\\circ\\mathrm{C}$</th><th>29.6</th><th>34.0</th><th>38.0</th><th>42.2</th><th>47.0</th><th>51.6</th><th>55.0</th><th>66.1</th><th>70.2</th></tr><tr><td>$T_{b}/\\,{}^\\circ\\mathrm{C}$</td><td>31.4</td><td>36.4</td><td>40.5</td><td>44.5</td><td>48.7</td><td>52.5</td><td>55.8</td><td>65.7</td><td>70.0</td></tr><tr><td>$\\Delta T/\\,{}^\\circ\\mathrm{C}$</td><td>$-1.8$</td><td>$-2.4$</td><td>$-2.5$</td><td>$-2.3$</td><td>$-1.7$</td><td>$-0.9$</td><td>$-0.8$</td><td>0.4</td><td>0.2</td></tr></table>\n\n![物理配图](assets/2025/physics/江西/12a.png) ![物理配图](assets/2025/physics/江西/12b.png)",
+      "figures": [
+        "assets/2025/physics/江西/12a.png",
+        "assets/2025/physics/江西/12b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{R_{T}}{R_{T} + R_{0}}E$\n（2）乙\n（3）根据测得的 $T$ 与 $U_{\\text{out}}$ 数据，用二次多项式拟合得到该传感器的温度与电压关系。\n（4）38.0，70.2，匹配电阻 $R_{0}$ 的阻值不太合适或选用二次多项式进行数据拟合不够精确",
+        "sub_answers": [
+          "$\\frac{R_{T}}{R_{T} + R_{0}}E$",
+          "乙",
+          "38.0",
+          "70.2",
+          "匹配电阻 $R_{0}$ 的阻值不太合适或选用二次多项式进行数据拟合不够精确"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由闭合电路的欧姆定律可得电路中电流 $I = \\frac{E}{R_{T} + R_{0}}$\n\n可得 $U_{\\text{out}} = IR_{T} = \\frac{R_{T}}{R_{T} + R_{0}}E$\n\n（2）由图（b）可知，图线乙在相同的 $R_{1}$ 变化区间，$U_{\\text{out}}$ 变化范围更大，即图线乙对应的 $R_{0}$ 作为匹配电阻，可使 $U_{\\text{out}}$ 在更宽范围内对 $R_{1}$ 变化的响应更灵敏。\n\n（4）结合表格数据分析，可知测量的绝对误差最大和最小对应的测量温度分别为 $38.0 \\,{}^\\circ\\mathrm{C}$ 和 $70.2 \\,{}^\\circ\\mathrm{C}$。\n\n误差的主要来源除去涉及元器件的精度和稳定性之外，可能是匹配电阻 $R_{0}$ 的阻值不太合适或选用二次多项式进行数据拟合不够精确。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 10,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "一透明的开口球壳形容器，一半浸入水中，一半暴露于空气中，球壳内液面与球壳外液面平齐，截面图如图所示。现有一束激光从球壳上方斜向下与水面呈 $45{}^\\circ$ 角射向球心，发现水面下的光线与水面呈 $60{}^\\circ$ 角。\n\n（1）求水的折射率；\n（2）若激光从水面下射向该球壳，当光线恰好不能从液面上方的半球壳射出时，求此时光线与水面的夹角。\n\n![物理配图](assets/2025/physics/江西/13.svg)",
+      "figures": [
+        "assets/2025/physics/江西/13.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\sqrt{2}$\n（2）$45{}^\\circ$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由几何关系可知，入射角\n\n$i = 90{}^\\circ - 45{}^\\circ = 45{}^\\circ$（1 分）\n\n折射角\n\n$r = 90{}^\\circ - 60{}^\\circ = 30{}^\\circ$（1 分）\n\n根据折射定律有\n\n$n = \\frac{\\sin i}{\\sin r}$（2 分）\n\n代入数据解得\n\n$n = \\sqrt{2}$（1 分）\n\n（2）当光线恰好不能从液面上方的半球壳射出时，恰好发生全反射，根据全反射临界角公式有\n\n$\\sin C = \\frac{1}{n}$（2 分）\n\n根据几何关系有\n\n$\\theta = 90{}^\\circ - C$（2 分）\n\n联立并代入数据解得，此时光线与水面的夹角\n\n$\\theta = 45{}^\\circ$（1 分）"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 11,
+      "difficulty": 350,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图所示，在竖直平面内一轻质弹力绳的一端固定于 P 点，另一端经光滑孔钉 Q 连接质量为 $m$ 的小球 A，该球穿过与水平直杆 OM（足够长）成 $30{}^\\circ$ 角的直杆 ON，两杆平滑连接。点 P、Q 和 O 在同一竖直线上，PQ 间距为弹力绳原长。将小球 A 拉至与 Q 等高的位置由静止释放。当小球 A 首次运动到斜杆底端 O 点后，在水平方向与穿在直杆 OM 且静止于 O 点、质量为 $3m$ 的小球 B 发生弹性碰撞。小球 A、B 与杆间的动摩擦因数均为 $\\mu = \\frac{\\sqrt{3}}{3}$，且最大静摩擦力等于滑动摩擦力。弹力绳始终在弹性限度内且满足胡克定律，劲度系数为 $k$，其弹性势能 $E_{p}$ 与伸长量 $x$ 的关系为 $E_{p} = \\frac{1}{2}kx^{2}$。已知重力加速度为 $g$，OQ 间距为 $\\frac{2mg}{k}$。\n\n（1）求小球 A 下滑过程中滑动摩擦力的大小；\n（2）若从碰撞后开始计时，小球 A 第一次上滑过程中离 O 点的距离 $x$ 与时间 $t$ 关系为 $x = A_{0}\\sin\\left(\\sqrt{\\frac{k}{m}}t\\right)$（$A_{0}$ 为常数），求小球 A 第一次速度为零时，小球 B 与 O 点的距离。\n\n![物理配图](assets/2025/physics/江西/14.png)",
+      "figures": [
+        "assets/2025/physics/江西/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$f = \\frac{1}{2}mg$\n（2）$s = \\left(\\frac{\\sqrt{2}}{2}\\pi - \\frac{\\sqrt{3}}{24}\\pi^{2}\\right)\\frac{mg}{k}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）如图所示，以 O 点为坐标原点，沿倾斜直杆 ON 向上为 $x$ 轴正方向建立坐标系。任意选取小球 A 下滑过程中的某一位置 $O_{1}$，设此时弹力绳的伸长量为 $l$，小球 A 受到的滑动摩擦力为 $f$，小球 A 对倾斜直杆的压力为 $F_{N}$，小球 A 所受弹力绳的拉力为 $F$，弹力绳与倾斜直杆的夹角为 $\\alpha$，孔钉 Q 到倾斜直杆的距离为 $h_{1}$。设 $h = \\frac{2mg}{k}$。\n\n![物理配图](assets/2025/physics/江西/14_an.png)\n\n对小球 A 进行受力分析，可知 $f = \\mu F_{N}$，$F_{N} = F\\sin\\alpha - mg\\cos\\theta$，$F = kl$\n\n由几何关系可得 $h_{1} = l\\sin\\alpha = h\\cos\\theta$\n\n联立解得 $f = \\frac{1}{2}mg$\n\n（2）设小球 A 下滑到斜杆底端 O 点时的速度为 $v_{A}$，小球由静止释放运动到 O 点的过程中，由动能定理可得\n\n$-f \\cdot 2h + mgh + \\left[\\frac{1}{2}k(\\sqrt{3}h)^{2} - \\frac{1}{2}kh^{2}\\right] = \\frac{1}{2}mv_{A}^{2}$\n\n可得 $\\frac{1}{2}k(\\sqrt{3}h)^{2} - \\frac{1}{2}kh^{2} = \\frac{1}{2}mv_{A}^{2}$\n\n设小球 A、B 发生弹性碰撞后瞬间的速度分别为 $v_{A}'$、$v_{B}'$，由动量守恒定律和能量守恒定律有 $mv_{A} = mv_{A}' + 3mv_{B}'$，$\\frac{1}{2}mv_{A}^{2} = \\frac{1}{2}mv_{A}'^{2} + \\frac{1}{2} \\times 3mv_{B}'^{2}$\n\n解得 $v_{A}' = -g\\sqrt{\\frac{2m}{k}}$，$v_{B}' = g\\sqrt{\\frac{2m}{k}}$\n\n由 $x = A_{0}\\sin\\left(\\sqrt{\\frac{k}{m}}t\\right)$，可知小球 A 上滑过程做简谐运动，小球 A 第一次速度为零时，距离达到最大值 $x_{m} = A_{0}$，则有 $\\sqrt{\\frac{k}{m}}t_{A} = \\frac{\\pi}{2}$\n\n解得 $t_{A} = \\frac{\\pi}{2}\\sqrt{\\frac{m}{k}}$\n\n小球 B 碰撞后开始在直杆 OM 上做匀减速运动，加速度为 $\\mu g$，设小球 B 速度减为 0 所经历的时间为 $t_{B}$，则 $t_{B} = \\frac{v_{B}'}{\\mu g} = \\frac{1}{\\mu}\\sqrt{\\frac{2m}{k}}$\n\n因 $t_{B} > t_{A}$，则小球 A 在碰撞后第一次速度为零时，小球 B 与 O 点的距离为 $s$，则有\n\n$s = v_{B}'t_{A} - \\frac{1}{2}\\mu gt_{A}^{2}$\n\n联立解得 $s = \\left(\\frac{\\sqrt{2}}{2}\\pi - \\frac{\\sqrt{3}}{24}\\pi^{2}\\right)\\frac{mg}{k}$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/江西/14_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-江西-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 18,
+      "difficulty": 350,
+      "topics": [
+        "电场",
+        "带电粒子的偏转"
+      ],
+      "stem_md": "精密条纹相机通过将时域信号转换成空间信息可实现超短激光脉冲持续时间的测量，其简化原理如图所示。某个待测激光脉冲的持续时间为 $\\Delta t$，经过狭缝和聚焦透镜入射至真空条纹管的光电阴极中心。由于光电效应，产生与输入激光脉冲持续时间相同的电子脉冲。电子脉冲先后经加速和偏转等过程打到荧光屏上。阳极与光电阴极间的加速电压为 $U_{1}$，距离为 $d_{1}$。偏转极板间距和长度分别为 $d_{2}$ 和 $L_{2}$，其左端与阳极的距离为 $L_{1}$，右端与荧光屏的距离为 $L_{3}$。光电效应产生电子的初速度忽略不计，电子不会打到偏转极板上。电子质量为 $m$，电荷量为 $e$，不考虑电场力和相对论效应，以及电子之间相互作用。所有元件的中心在同一条直线上，并以荧光屏中心 $O$ 为原点、竖直方向为 $y$ 轴建立坐标系。（普朗克常量 $h = 6.63 \\times 10^{-34} \\,\\mathrm{J}\\cdot\\mathrm{s}$，光速 $c = 3 \\times 10^{8} \\,\\mathrm{m}/\\mathrm{s}$）\n\n（1）现有多碱、Au 和 CsI 三种常用的光电阴极材料，它们的逸出功分别约为 $1.1 \\,\\mathrm{eV}$、$4.5 \\,\\mathrm{eV}$、$6.2 \\,\\mathrm{eV}$。若要使波长范围为 $200 \\sim 900 \\,\\mathrm{nm}$ 的入射激光都能打出光电子，请通过定量分析确定应选用哪种光电阴极材料。（$1 \\,\\mathrm{eV} = 1.6 \\times 10^{-19} \\,\\mathrm{J}$）\n（2）当偏转极板间电压 $U$ 为常数时，求电子打在荧光屏上的位置。\n（3）真实情况下，偏转极板间电压 $U$ 与时间 $t$ 的关系为 $U = U_{0} + kt$（$U_{0}$ 和 $k$ 为大于零的常数），其零时刻与激光脉冲刚入射至光电阴极的时刻相同。\n\n①求最后进入偏转极板间的电子离开偏转极板时 $y$ 方向速度的大小；\n\n②若 $L_{2}$ 小且 $L_{2} \\ll L_{3}$，此时可忽略不同时刻电子在偏转极板间 $y$ 方向位移的差别，求电子脉冲在荧光屏上的空间宽度 $\\Delta y$ 与激光脉冲持续时间 $\\Delta t$ 的关系。\n\n![物理配图](assets/2025/physics/江西/15.png)",
+      "figures": [
+        "assets/2025/physics/江西/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）多碱\n（2）$\\frac{UL_{2}(L_{2} + 2L_{3})}{4U_{1}d_{2}}$\n（3）①$(U_{0} + k\\Delta t)\\frac{L_{2}}{d_{2}}\\sqrt{\\frac{e}{2mU_{1}}} + (4d_{1} + 2L_{1} + L_{2})\\frac{kL_{2}}{4U_{1}d_{2}}$\n\n②$\\Delta y = \\frac{kL_{2}L_{3}}{2U_{1}d_{2}}\\Delta t$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意，设入射激光波长为 $\\lambda$，则对应的光子能量为\n\n$\\varepsilon = h\\nu = \\frac{hc}{\\lambda}$\n\n可得波长范围为 $200 \\sim 900 \\,\\mathrm{nm}$ 的入射激光的能量范围为 $1.38 \\,\\mathrm{eV} \\sim 6.2 \\,\\mathrm{eV}$\n\n要使入射激光都能打出光电子，则所有入射激光的能量应大于光电阴极材料的逸出功，所以应选择多碱光电阴极材料。\n\n（2）电子在光电阴极与阳极之间做匀加速直线运动，设电子在此过程中的加速度大小为 $a_{1}$，运动时间为 $t_{1}$，离开阳极时的速度大小为 $v_{1}$，则有 $a_{1} = \\frac{eU_{1}}{md_{1}}$，$v_{1}^{2} = 2a_{1}d_{1}$，$d_{1} = \\frac{1}{2}a_{1}t_{1}^{2}$\n\n电子在离开阳极到偏转极板左端的过程中做匀速直线运动，设运动时间为 $t_{2}$，则 $L_{1} = v_{1}t_{2}$\n\n当偏转电压 $U$ 为常数时，电子在偏转极板内水平方向做匀速直线运动，在竖直 $y$ 方向做匀加速直线运动。设 $y$ 方向的加速度大小为 $a_{2}$，在偏转极板内运动时间为 $t_{3}$，离开偏转极板时 $y$ 方向速度为 $v_{y}$，偏转位移为 $y_{1}$，则 $a_{2} = \\frac{eU}{md_{2}}$，$L_{2} = v_{1}t_{3}$，$v_{y} = a_{2}t_{3}$，$y_{1} = \\frac{1}{2}a_{2}t_{3}^{2}$\n\n设电子离开偏转极板至打到荧光屏上的时间为 $t_{4}$，在此时间内电子在 $y$ 方向的位移为 $y_{2}$，则 $L_{3} = v_{1}t_{4}$，$y_{2} = v_{y}t_{4}$\n\n设电子离荧光屏中心的距离为 $y$，则 $y = y_{1} + y_{2}$\n\n联立解得 $y = \\frac{UL_{2}(L_{2} + 2L_{3})}{4U_{1}d_{2}}$\n\n（3）当偏转极板间电压 $U = U_{0} + kt$ 时，电子在偏转极板内 $y$ 方向做加速度线性增加的变加速直线运动。\n\n①在 $t_{1} + t_{2} + \\Delta t$ 时刻，最后的电子进入偏转极板间，此时极板间的电压为 $U_{0} + k(t_{1} + t_{2} + \\Delta t)$，设电子在偏转极板内运动时 $y$ 方向的加速度为 $a_{3}$，离开偏转极板时 $y$ 方向的速度为 $v_{y2}$，则 $a_{3} = \\frac{e(U_{0} + kt)}{md_{2}}$\n\n则 $a_{3}-t$ 图像如图所示\n\n![物理配图](assets/2025/physics/江西/15_an.png)\n\n由上述分析，结合图像可得\n\n$v_{y2} = \\left[U_{0} + k(t_{1} + t_{2} + \\Delta t) + \\frac{kt_{3}}{2}\\right]\\frac{et_{3}}{md_{2}}$\n\n联立小问 2 分析可得 $v_{y2} = (U_{0} + k\\Delta t)\\frac{L_{2}}{d_{2}}\\sqrt{\\frac{e}{2mU_{1}}} + (4d_{1} + 2L_{1} + L_{2})\\frac{kL_{2}}{4U_{1}d_{2}}$\n\n②在 $t_{1} + t_{2}$ 时刻，最前面的电子进入偏转极板间，此时极板间的电压为 $U_{0} + k(t_{1} + t_{2})$。同理可得，该电子离开偏转极板时 $y$ 方向的速度 $v_{y1}$，则有\n\n$v_{y1} = \\left[U_{0} + k(t_{1} + t_{2}) + \\frac{kt_{3}}{2}\\right]\\frac{et_{3}}{md_{2}}$\n\n设电子脉冲打在荧光屏上的空间宽度为 $\\Delta y$，电子从离开偏转极板至打到荧光屏上的时间为 $t_{4}$，则 $L_{3} = v_{1}t_{4}$，$\\Delta y = (v_{y2} - v_{y1})t_{4}$\n\n联立解得 $\\Delta y = \\frac{kL_{2}L_{3}}{2U_{1}d_{2}}\\Delta t$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/江西/15_an.png"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

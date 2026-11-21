@@ -1,0 +1,691 @@
+{
+  "id": "2022-physics-福建",
+  "year": 2022,
+  "subject": "物理",
+  "region": "福建卷",
+  "region_key": "福建",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2022-physics-福建-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "功和能",
+        "功"
+      ],
+      "stem_md": "福建土楼兼具居住和防御的功能，承启楼是圆形土楼的典型代表，如图 [2022福建01a]所示。承启楼外楼共四层，各楼层高度如图 [2022福建01b]所示。同一楼层内部通过直径约 $50\\,\\mathrm{m}$ 的圆形廊道连接。若将质量为 $100\\,\\mathrm{kg}$ 的防御物资先从二楼仓库搬到四楼楼梯口 M 处，再用 $100\\,\\mathrm{s}$ 沿廊道运送到 N 处，如图 [2022福建01c]所示。重力加速度大小取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，则（  ）\n\n![物理配图](assets/2022/physics/福建/01a.jpg) ![物理配图](assets/2022/physics/福建/01b.png) ![物理配图](assets/2022/physics/福建/01c.png)",
+      "figures": [
+        "assets/2022/physics/福建/01a.jpg",
+        "assets/2022/physics/福建/01b.png",
+        "assets/2022/physics/福建/01c.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "该物资从二楼地面被运送到四楼 M 处的过程中，克服重力所做的功为 $5400\\,\\mathrm{J}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "该物资从 M 处被运送到 N 处的过程中，克服重力所做的功为 $78500\\,\\mathrm{J}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "从 M 处沿圆形廊道运动到 N 处，位移大小为 $78.5\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "从 M 处沿圆形廊道运动到 N 处，平均速率为 $0.5\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．该物资从二楼地面被运送到四楼 M 处的过程中，克服重力所做的功为\n\n$W_{G}=mg\\Delta h=100\\times10\\times(2.7+2.7)\\,\\mathrm{J}=5400\\,\\mathrm{J}$\n\n故 A 正确；\n\nB．该物资从 M 处被运送到 N 处的过程中，由于 M、N 高度差为零，所以克服重力做功为零，故 B 错误；\n\nC．从 M 处沿圆形廊道运动到 N 处，位移大小为 $50\\,\\mathrm{m}$，故 C 错误；\n\nD．从 M 处沿圆形廊道运动到 N 处，平均速率为\n\n$v=\\frac{s}{t}=\\frac{\\pi r}{t}=\\frac{3.14\\times\\frac{50}{2}}{100}\\,\\mathrm{m}/\\mathrm{s}=0.785\\,\\mathrm{m}/\\mathrm{s}$\n\n故 D 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "原子和原子核",
+        "半衰期"
+      ],
+      "stem_md": "2011 年 3 月，日本发生的大地震造成了福岛核电站核泄漏。在泄露的污染物中含有大量放射性元素 \\ce{^{131}_{53}I}，其衰变方程为 \\ce{^{131}_{53}I -> ^{131}_{54}Xe + ^{0}_{-1}e}，半衰期为 8 天，已知 $m_{I}=131.037\\,21\\,\\mathrm{u}$，$m_{Xe}=131.031\\,86\\,\\mathrm{u}$，$m_{e}=0.000\\,549\\,\\mathrm{u}$，则下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "衰变产生的 $\\beta$ 射线来自于 \\ce{^{131}_{53}I} 原子的核外电子",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "该反应前后质量亏损 $0.005\\,35\\,\\mathrm{u}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "放射性元素 \\ce{^{131}_{53}I} 发生的衰变为 $\\alpha$ 衰变",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "经过 16 天，$75\\%$ 的 \\ce{^{131}_{53}I} 原子核发生了衰变",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．\\ce{^{131}_{53}I} 衰变时，原子核内中子转化为质子和电子，大量电子从原子核释放出来形成 $\\beta$ 射线，故 A 错误；\n\nB．该反应前后质量亏损为\n\n$\\Delta m=m_{I}-m_{Xe}-m_{e}=131.037\\,21\\,\\mathrm{u}-131.031\\,86\\,\\mathrm{u}-0.000\\,549\\,\\mathrm{u}=0.004\\,801\\,\\mathrm{u}$\n\n故 B 错误；\n\nC．放射性元素 \\ce{^{131}_{53}I} 发生的衰变为 $\\beta$ 衰变，故 C 错误；\n\nD．由于半衰期为 8 天，可知经过 16 天，即经过两个半衰期，$75\\%$ 的 \\ce{^{131}_{53}I} 原子核发生了衰变，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电场",
+        "电场线"
+      ],
+      "stem_md": "平时我们所处的地球表面，实际上存在场强大小为 $100\\,\\mathrm{V}/\\mathrm{m}$ 的电场，可将其视为匀强电场，在地面立一金属杆后空间中的等势面如图所示。空间中存在 a、b、c 三点，其中 a 点位于金属杆正上方，b、c 等高。则下列说法正确的是（  ）\n\n![物理配图](assets/2022/physics/福建/03.png)",
+      "figures": [
+        "assets/2022/physics/福建/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "b、c 两点的电势差 $U_{bc}=0$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "a 点场强大小大于 $100\\,\\mathrm{V}/\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "a 点场强方向水平向右",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "a 点的电势低于 c 点",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由图可知，b、c 两点的电势差为 $U_{bc}=(200-300)\\,\\mathrm{V}=-100\\,\\mathrm{V}$。故 A 错误；\n\nB．由图可知，a 点与相邻两等势面的距离小于 $1\\,\\mathrm{m}$，电势差等于 $100\\,\\mathrm{V}$，根据 $E=\\frac{U}{d}$ 可知 a 点场强大小大于 $100\\,\\mathrm{V}/\\mathrm{m}$，故 B 正确；\n\nC．根据场强方向垂直于等势面，可知 a 点的场强方向沿竖直方向，不是水平方向，故 C 错误；\n\nD．由图可知，a 点与 c 点在同一等势面上，电势均为 $300\\,\\mathrm{V}$，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "2021 年美国“星链”卫星曾近距离接近我国运行在距地 $390\\,\\mathrm{km}$ 近圆轨道上的天宫空间站。为避免发生危险，天宫空间站实施了发动机点火变轨的紧急避碰措施。已知质量为 $m$ 的物体从距地心 $r$ 处运动到无穷远处克服地球引力所做的功为 $G\\frac{Mm}{r}$，式中 $M$ 为地球质量，$G$ 为引力常量；现将空间站的质量记为 $m_{0}$，变轨前后稳定运行的轨道半径分别记为 $r_{1}$、$r_{2}$，如图所示。空间站紧急避碰过程发动机做的功至少为（  ）\n\n![物理配图](assets/2022/physics/福建/04.png)",
+      "figures": [
+        "assets/2022/physics/福建/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{1}{2}GMm_{0}\\left(\\frac{1}{r_{1}}-\\frac{1}{r_{2}}\\right)$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$GMm_{0}\\left(\\frac{1}{r_{1}}-\\frac{1}{r_{2}}\\right)$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{3}{2}GMm_{0}\\left(\\frac{1}{r_{1}}-\\frac{1}{r_{2}}\\right)$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$2GMm_{0}\\left(\\frac{1}{r_{1}}-\\frac{1}{r_{2}}\\right)$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "空间站紧急避碰的过程可简化为加速、变轨、再加速的三个阶段；空间站从轨道 $r_{1}$ 变轨到 $r_{2}$ 过程，根据动能定理有\n\n$W+W_{\\text{引力}}=\\Delta E_{k}$\n\n依题意可得引力做功\n\n$W_{\\text{引力}}=G\\frac{Mm_{0}}{r_{2}}-G\\frac{Mm_{0}}{r_{1}}$\n\n万有引力提供在圆形轨道上做匀速圆周运动的向心力，由牛顿第二定律有\n\n$G\\frac{Mm_{0}}{r^{2}}=m_{0}\\frac{v^{2}}{r}$\n\n求得空间站在轨道上运动的动能为\n\n$E_{k}=G\\frac{Mm_{0}}{2r}$\n\n动能的变化\n\n$\\Delta E_{k}=G\\frac{Mm_{0}}{2r_{2}}-G\\frac{Mm_{0}}{2r_{1}}$\n\n解得 $W=\\frac{1}{2}GMm_{0}\\left(\\frac{1}{r_{1}}-\\frac{1}{r_{2}}\\right)$\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q05",
+      "number": 5,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 650,
+      "topics": [
+        "磁场",
+        "电流的磁场"
+      ],
+      "stem_md": "奥斯特利用如图所示实验装置研究电流的磁效应。一个可自由转动的小磁针放在白金丝导线正下方，导线两端与一伏打电池相连。接通电源瞬间，小磁针发生了明显偏转。奥斯特采用控制变量法，继续研究了导线直径、导线材料、电池电动势以及小磁针位置等因素对小磁针偏转情况的影响。他能得到的实验结果有（  ）\n\n![物理配图](assets/2022/physics/福建/05.png)",
+      "figures": [
+        "assets/2022/physics/福建/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "减小白金丝直径，小磁针仍能偏转",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "用铜导线替换白金丝，小磁针仍能偏转",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "减小电源电动势，小磁针一定不能偏转",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "小磁针的偏转情况与其放置位置无关",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AB",
+        "choices": [
+          "A",
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．减小导线直径，仍存在电流，其产生的磁场仍能使小磁针偏转，选项 A 正确；\n\nB．白金导线换成铜导线，仍存在电流，产生的磁场仍能使小磁针偏转，选项 B 正确；\n\nC．减小伏打电池电动势，只要导线中有电流，小磁场还是会发生偏转，选项 C 错误；\n\nD．通电导线产生的磁场与地磁场叠加后，其空间磁场方向与位置有关，当小磁针在不同位置时其偏转情况不同，选项 D 错误。\n\n故选 AB。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q06",
+      "number": 6,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "某同学利用如图所示电路模拟远距离输电．图中交流电源电压为 $6\\,\\mathrm{V}$，定值电阻 $R_{1}=R_{2}=20\\,\\Omega$，小灯泡 L$_{1}$、L$_{2}$ 的规格均为“$6\\,\\mathrm{V}$  $1.8\\,\\mathrm{W}$”，理想变压器 T$_{1}$、T$_{2}$ 原副线圈的匝数比分别为 $1:3$ 和 $3:1$．分别接通电路 Ⅰ 和电路 Ⅱ，两电路都稳定工作时，（  ）\n\n![物理配图](assets/2022/physics/福建/06.jpg)",
+      "figures": [
+        "assets/2022/physics/福建/06.jpg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "L$_{1}$ 与 L$_{2}$ 一样亮",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "L$_{2}$ 比 L$_{1}$ 更亮",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$R_{1}$ 上消耗的功率比 $R_{2}$ 的大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$R_{1}$ 上消耗的功率比 $R_{2}$ 的小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "若开关接 cd 端，则若电源电压为 $U_{0}$，理想变压器 $T_{1}$、$T_{2}$ 的匝数比为\n\n$\\frac{n_{2}}{n_{1}}=\\frac{n_{3}}{n_{4}}=k$\n\n用户电阻为 $R_{\\text{负载}}$，输电线电阻为 $R_{\\text{导线}}$，由变压器工作原理和欧姆定律。升压变压器次级电压\n\n$U_{2}=kU_{0}$\n\n降压变压器初级电压\n\n$U_{3}=U_{2}-I_{2}R_{\\text{导线}}$\n\n降压变压器次级电压\n\n$U_{4}=\\frac{U_{3}}{k}$\n\n$I_{4}=\\frac{U_{4}}{R_{\\text{负载}}}$\n\n$\\frac{I_{4}}{I_{3}}=k$\n\n$I_{3}=I_{2}$\n\n可得输电功率为\n\n$P_{\\text{输}}=U_{2}I_{2}=\\frac{k^{2}U_{0}^{2}}{R_{\\text{导线}}+k^{2}R_{\\text{负载}}}$\n\n输电线上损耗的电功率为\n\n$P_{\\text{导线}}=I_{2}^{2}R_{\\text{导线}}=\\frac{k^{2}U_{0}^{2}}{\\left(R_{\\text{导线}}+k^{2}R_{\\text{负载}}\\right)^{2}}R_{\\text{导线}}$\n\n用户得到的电功率为\n\n$P_{\\text{负载}}=\\frac{k^{2}U_{0}^{2}}{\\left(R_{\\text{导线}}+k^{2}R_{\\text{负载}}\\right)^{2}}\\cdot k^{2}R_{\\text{负载}}$\n\n若开关接 ab 端，则负载得到的功率\n\n$P_{\\text{负载}}^{\\prime}=\\frac{U_{0}^{2}}{\\left(R_{\\text{导线}}+R_{\\text{负载}}\\right)^{2}}\\cdot R_{\\text{负载}}$\n\n输电线上损耗的电功率为\n\n$P_{\\text{导线}}^{\\prime}=\\frac{U_{0}^{2}}{\\left(R_{\\text{导线}}+R_{\\text{负载}}\\right)^{2}}R_{\\text{导线}}$\n\n将 $R_{\\text{导线}}=R_{1}=R_{2}=20\\,\\Omega$，$R_{\\text{负载}}=\\frac{6^{2}}{1.8}\\,\\Omega=20\\,\\Omega$，$k=3$ 带入可知：\n\n可得 $P_{\\text{负载}} > P_{\\text{负载}}^{\\prime}$\n\n即 $L_{2}$ 比 $L_{1}$ 更亮；\n\n$P_{\\text{导线}} < P_{\\text{导线}}^{\\prime}$\n\n$R_{1}$ 上消耗的功率比 $R_{2}$ 的大。\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q07",
+      "number": 7,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "功和能",
+        "功能中的图象"
+      ],
+      "stem_md": "一物块以初速度 $v_{0}$ 自固定斜面底端沿斜面向上运动，一段时间后回到斜面底端。该物体的动能 $E_{k}$ 随位移 $x$ 的变化关系如图所示，图中 $x_{0}$、$E_{k1}$、$E_{k2}$ 均已知。根据图中信息可以求出的物理量有（  ）\n\n![物理配图](assets/2022/physics/福建/07.png)",
+      "figures": [
+        "assets/2022/physics/福建/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "重力加速度大小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "物体所受滑动摩擦力的大小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "斜面的倾角",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "沿斜面上滑的时间",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "ABC．由动能定义式得 $E_{k1}=\\frac{1}{2}mv_{0}^{2}$，则可求解质量 $m$；上滑时，由动能定理 $E_{k}-E_{k1}=-(mg\\sin\\theta+f)x$\n\n下滑时，由动能定理\n\n$E_{k}=(mg\\sin\\theta-f)(x_{0}-x)$\n\n$x_{0}$ 为上滑的最远距离；由图像的斜率可知\n\n$mg\\sin\\theta+f=\\frac{E_{k1}}{x_{0}}$，$mg\\sin\\theta-f=\\frac{E_{k2}}{x_{0}}$\n\n两式相加可得\n\n$g\\sin\\theta=\\frac{1}{2m}\\left(\\frac{E_{k1}}{x_{0}}+\\frac{E_{k2}}{x_{0}}\\right)$\n\n相减可知\n\n$f=\\frac{E_{k1}-E_{k2}}{2x_{0}}$\n\n即可求解 $g\\sin\\theta$ 和所受滑动摩擦力 $f$ 的大小，但重力加速度大小、斜面的倾角不能求出，故 AC 错误，B 正确；\n\nD．根据牛顿第二定律和运动学关系得\n\n$mg\\sin\\theta+f=ma$，$t=\\frac{v_{0}}{a}$\n\n故可求解沿斜面上滑的时间，D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量定理"
+      ],
+      "stem_md": "我国霍尔推进器技术世界领先，其简化的工作原理如图所示。放电通道两端电极间存在一加速电场，该区域内有一与电场近似垂直的约束磁场（未画出）用于提高工作物质被电离的比例。工作时，工作物质氙气进入放电通道后被电离为氙离子，再经电场加速喷出，形成推力。某次测试中，氙气被电离的比例为 $95\\%$，氙离子喷射速度为 $1.6\\times10^{4}\\,\\mathrm{m}/\\mathrm{s}$，推进器产生的推力为 $80\\, \\mathrm{mN}$。已知氙离子的比荷为 $7.3\\times10^{5}\\,\\mathrm{C}/\\mathrm{kg}$；计算时，取氙离子的初速度为零，忽略磁场对离子的作用力及粒子之间的相互作用，则（  ）\n\n![物理配图](assets/2022/physics/福建/08.png)",
+      "figures": [
+        "assets/2022/physics/福建/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "氙离子的加速电压约为 $175\\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "氙离子的加速电压约为 $700\\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "氙离子向外喷射形成的电流约为 $37\\,\\mathrm{A}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "每秒进入放电通道的氙气质量约为 $5.3\\times10^{-6}\\,\\mathrm{kg}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．氙离子经电场加速，根据动能定理有\n\n$qU=\\frac{1}{2}mv^{2}-0$\n\n可得加速电压为\n\n$U=\\frac{v^{2}}{2\\left(\\frac{q}{m}\\right)}\\approx175\\,\\mathrm{V}$\n\n故 A 正确，B 错误；\n\nD．在 $\\Delta t$ 时间内，有质量为 $\\Delta m$ 的氙离子以速度 $v$ 喷射而出，形成电流为 $I$，由动量定理可得\n\n$F\\Delta t=\\Delta mv-0$\n\n进入放电通道的氙气质量为 $\\Delta m_{0}$，被电离的比例为 $\\eta$，则有\n\n$\\frac{\\Delta m}{\\Delta t}=\\eta\\left(\\frac{\\Delta m_{0}}{\\Delta t}\\right)$\n\n联立解得\n\n$\\frac{\\Delta m_{0}}{\\Delta t}=\\frac{F}{\\eta v}\\approx5.3\\times10^{-6}\\,\\mathrm{kg}$\n\n故 D 正确；\n\nC．在 $\\Delta t$ 时间内，有电荷量为 $\\Delta Q$ 的氙离子喷射出，则有\n\n$\\Delta Q=\\left(\\frac{\\Delta m}{m}\\right)q$，$I=\\frac{\\Delta Q}{\\Delta t}$\n\n联立解得\n\n$I=\\left(\\frac{F}{v}\\right)\\left(\\frac{q}{m}\\right)\\approx3.7\\,\\mathrm{A}$\n\n故 C 错误。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q09",
+      "number": 9,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "机械波",
+        "波长频率波速"
+      ],
+      "stem_md": "艺术体操运动员站在场地中以一定频率上下抖动 $6\\,\\mathrm{m}$ 长绸带的一端，绸带自左向右呈现波浪状起伏。某时刻绸带形状如图所示（符合正弦函数特征），此时绸带上 P 点运动方向  ______ （填“向上”、“向下”、“向左”或“向右”）。保持抖动幅度不变，如果要在该绸带上产生更加密集的波浪状起伏效果，运动员上下抖动的频率应  ______ （填“增大”、“减小”或“保持不变”）。\n\n![物理配图](assets/2022/physics/福建/09.png)",
+      "figures": [
+        "assets/2022/physics/福建/09.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "",
+        "sub_answers": [
+          "向上",
+          "增大"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）从图中可知绸带上形成的波是自左向右传播的，根据波形平移法，可判断绸带上 P 点运动方向向上；\n\n（2）绸带上产生更加密集的波浪状起伏效果，说明波长变小，而同种介质中同类型波的传播波速是不变的，根据 $f=\\frac{v}{\\lambda}$ 可知运动员上下抖动的频率增大。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q10",
+      "number": 10,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "气体图象"
+      ],
+      "stem_md": "带有活塞的汽缸内封闭一定质量的理想气体，气体开始处于 a 状态，然后经过 a$\\to$b$\\to$c 状态变化过程到达 c 状态。在 $V-T$ 图中变化过程如图所示。\n\n（1）气体从 a 状态经过 a$\\to$b 到达 b 状态的过程中压强  ______ 。（填“增大”、“减小”或“不变”）\n\n（2）气体从 b 状态经过 b$\\to$c 到达 c 状态的过程要  ______ （填“吸收”或“放出”）热量。\n\n![物理配图](assets/2022/physics/福建/10.png)",
+      "figures": [
+        "assets/2022/physics/福建/10.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "",
+        "sub_answers": [
+          "增大",
+          "放出"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由 $V-T$ 图像可知，气体从 a 状态经过 a$\\to$b 到达 b 状态的过程中，气体的体积保持不变，温度升高，根据查理定律可知气体的压强增大。\n\n（2）由 $V-T$ 图像可知，气体从 $b$ 状态经过 b$\\to$c 到达 c 状态的过程，气体的温度保持不变，则气体的内能保持不变；气体的体积减小，则外界对气体做正功，根据热力学第一定律可知，气体对外放出热量。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 5,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "研究平抛运动实验"
+      ],
+      "stem_md": "某实验小组利用图 [2022福建11a]所示装置验证小球平抛运动的特点。实验时，先将斜槽固定在贴有复写纸和白纸的木板边缘，调节槽口水平并使木板竖直；把小球放在槽口处，用铅笔记下小球在槽口时球心在木板上的水平投影点 $O$，建立 $xOy$ 坐标系．然后从斜槽上固定的位置释放小球，小球落到挡板上并在白纸上留下印迹．上下调节挡板进行多次实验．实验结束后，测量各印迹中心点 $O_{1}$、$O_{2}$、$O_{3} \\ldots$ 的坐标，并填入表格中，计算对应的 $x^{2}$ 值。\n\n<table class=\"exam-table\"><tr><th></th><th>$O_{1}$</th><th>$O_{2}$</th><th>$O_{3}$</th><th>$O_{4}$</th><th>$O_{5}$</th><th>$O_{6}$</th></tr><tr><td>$y/\\,\\mathrm{cm}$</td><td>2.95</td><td>6.52</td><td>9.27</td><td>13.20</td><td>16.61</td><td>19.90</td></tr><tr><td>$x/\\,\\mathrm{cm}$</td><td>5.95</td><td>8.81</td><td>10.74</td><td>12.49</td><td>14.05</td><td>15.28</td></tr><tr><td>$x^{2}/\\,\\mathrm{cm}^2$</td><td>35.4</td><td>77.6</td><td>115.3</td><td>156.0</td><td>197.4</td><td>233.5</td></tr></table>\n\n（1）根据上表数据，在图 [2022福建11b]给出的坐标纸上补上 $O_{4}$ 数据点，并绘制“$y-x^{2}$”图线。\n（2）由 $y-x^{2}$ 图线可知，小球下落的高度 $y$，与水平距离的平方 $x^{2}$ 成  ______ （填“线性”或“非线性”）关系，由此判断小球下落的轨迹是抛物线。\n（3）由 $y-x^{2}$ 图线求得斜率 $k$，小球平抛运动的初速度表达式为 $v_{0}=$  ______ （用斜率 $k$ 和重力加速度 $g$ 表示）。\n（4）该实验得到的 $y-x^{2}$ 图线常不经过原点，可能的原因是  ______ 。\n\n![物理配图](assets/2022/physics/福建/11a.png) ![物理配图](assets/2022/physics/福建/11b.png)",
+      "figures": [
+        "assets/2022/physics/福建/11a.png",
+        "assets/2022/physics/福建/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）如图所示\n（2）线性\n（3）$\\sqrt{\\frac{g}{2k}}$\n（4）水平射出点未与 $O$ 点重合",
+        "sub_answers": [
+          "线性",
+          "$\\sqrt{\\frac{g}{2k}}$",
+          "水平射出点未与 O 点重合"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据上表数据在坐标纸上描出 $O_{4}$ 数据点，并绘制“$y-x^{2}$”图线如图所示\n\n![物理配图](assets/2022/physics/福建/11_an.jpg)\n\n（2）由 $y-x^{2}$ 图线为一条倾斜的直线可知，小球下落的高度 $y$，与水平距离的平方 $x^{2}$ 成线性关系。\n\n（3）根据平抛运动规律可得\n\n$x=v_{0}t$\n\n$y=\\frac{1}{2}gt^{2}$\n\n联立可得\n\n$y=\\frac{1}{2}g\\left(\\frac{x}{v_{0}}\\right)^{2}=\\frac{g}{2v_{0}^{2}}x^{2}$\n\n可知 $y-x^{2}$ 图像的斜率为\n\n$k=\\frac{g}{2v_{0}^{2}}$\n\n解得小球平抛运动的初速度为\n\n$v_{0}=\\sqrt{\\frac{g}{2k}}$\n\n（4）$y-x^{2}$ 图线是一条直线，但常不经过原点，说明实验中测量的 $y$ 值偏大或偏小一个定值，这是小球的水平射出点未与 $O$ 点重合，位于坐标原点 $O$ 上方或下方所造成的。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/福建/11_an.jpg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 7,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "测电动势与内阻"
+      ],
+      "stem_md": "在测量某电源电动势和内阻时，因为电压表和电流表的影响，不论使用何种接法，都会产生系统误差，为了消除电表内阻造成的系统误差，某实验兴趣小组设计了如图 [2022福建12a]实验电路进行测量。已知 $R_{0}=2\\,\\Omega$。\n\n（1）按照图 [2022福建12a]所示的电路图，将图 [2022福建12b]中的器材实物连线补充完整。\n（2）实验操作步骤如下：\n\t\n① 将滑动变阻器滑到最左端位置\n② 接法 Ⅰ：单刀双掷开关 S 与 1 接通，闭合开关 S$_{0}$，调节滑动变阻器 $R$，记录下若干组数据 $U_{1}-I_{1}$ 的值，断开开关 S$_{0}$\n③ 将滑动变阻器滑到最左端位置\n④ 接法 Ⅱ：单刀双掷开关 S 与 2 闭合，闭合开关 S$_{0}$，调节滑动变阻器 $R$，记录下若干组数据 $U_{2}-I_{2}$ 的值，断开开关 S$_{0}$\n⑤ 分别作出两种情况所对应的 $U_{1}-I_{1}$ 和 $U_{2}-I_{2}$ 图像\n（3）单刀双掷开关接 1 时，某次读取电表数据时，电压表指针如图 [2022福建12c]所示，此时 $U_{1}=$  ______  $\\,\\mathrm{V}$。\n（4）根据测得数据，作出 $U_{1}-I_{1}$ 和 $U_{2}-I_{2}$ 图像如图 [2022福建12d]所示，根据图线求得电源电动势 $E=$  ______  $\\,\\mathrm{V}$，内阻 $r=$  ______  $\\,\\Omega$。（结果均保留两位小数）\n（5）由图 [2022福建12d]可知  ______ （填“接法 Ⅰ”或“接法 Ⅱ”）测得的电源内阻更接近真实值。\n（6）综合考虑，若只能选择一种接法，应选择  ______ （填“接法 Ⅰ”或“接法 Ⅱ”）测量更合适。\n\n![物理配图](assets/2022/physics/福建/12a.png) ![物理配图](assets/2022/physics/福建/12b.png) ![物理配图](assets/2022/physics/福建/12c.jpg) ![物理配图](assets/2022/physics/福建/12d.jpg)",
+      "figures": [
+        "assets/2022/physics/福建/12a.png",
+        "assets/2022/physics/福建/12b.png",
+        "assets/2022/physics/福建/12c.jpg",
+        "assets/2022/physics/福建/12d.jpg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）如图所示\n（2）1.30\n（3）1.80，2.50\n（4）接法 Ⅱ\n（5）接法 Ⅱ",
+        "sub_answers": [
+          "1.30",
+          "1.80",
+          "2.50",
+          "接法 Ⅱ",
+          "接法 Ⅱ"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据图甲所示的电路图，实物连接如图所示\n\n![物理配图](assets/2022/physics/福建/12_an.jpg)\n\n（3）量程为 $3\\,\\mathrm{V}$ 的电压表分度值为 $0.1\\,\\mathrm{V}$，需要估读到分度值的下一位，由图丙可知电压表读数为 $U_{1}=1.30\\,\\mathrm{V}$\n\n（4）当单刀双掷开关接 1 时，电流表示数为零时，电压表测量准确，故电动势为 $U_{1}-I_{1}$ 的纵轴截距，则有 $E=1.80\\,\\mathrm{V}$\n\n当单刀双掷开关接 2 时，电压表示数为零时，电流表测量准确，由 $U_{2}-I_{2}$ 图像可知此时电路电流为 $0.40\\,\\mathrm{A}$，根据闭合电路欧姆定律可知\n\n$I=\\frac{E}{R_{0}+r}$\n\n解得内阻为\n\n$r=\\frac{E}{I}-R_{0}=\\frac{1.80}{0.40}\\,\\Omega-2\\,\\Omega=2.50\\,\\Omega$\n\n（5）由图丁可知 $U_{1}-I_{1}$ 图像的斜率为\n\n$k_{1}=\\frac{1.80-0}{0.36}\\,\\Omega=R_{0}+r_{1}$\n\n解得 $r_{1}=3.00\\,\\Omega$\n\n由图丁可知 $U_{2}-I_{2}$ 图像的斜率为\n\n$k_{2}=\\frac{1.70-0}{0.40}\\,\\Omega=R_{0}+r_{2}$\n\n解得 $r_{2}=2.25\\,\\Omega$\n\n可得 $\\frac{r_{1}-r}{r}=\\frac{3.00-2.50}{2.50}=0.2>\\frac{r-r_{2}}{r}=\\frac{2.50-2.25}{2.50}=0.1$\n\n故接法Ⅱ测得的电源内阻更接近真实值。\n\n（6）由电路图可知接法Ⅰ的误差来源是电流表的分压，接法Ⅱ的误差来源是电压表的分流，由于电源内阻较小，远小于电压表内阻，结合（5）问分析可知，若只能选择一种接法，应选择接法Ⅱ更合适。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/福建/12_an.jpg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 12,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "圆周运动的应用"
+      ],
+      "stem_md": "清代乾隆的《冰嬉赋》用“躄躠”（可理解为低身斜体）二字揭示了滑冰的动作要领。$500\\,\\mathrm{m}$ 短道速滑世界纪录由我国运动员武大靖创造并保持。在其创造纪录的比赛中，\n\n（1）武大靖从静止出发，先沿直道加速滑行，前 $8\\,\\mathrm{m}$ 用时 $2\\,\\mathrm{s}$。该过程可视为匀加速直线运动，求此过程加速度大小；\n（2）武大靖途中某次过弯时的运动可视为半径为 $10\\,\\mathrm{m}$ 的匀速圆周运动，速度大小为 $14\\,\\mathrm{m}/\\mathrm{s}$。已知武大靖的质量为 $73\\,\\mathrm{kg}$，求此次过弯时所需的向心力大小；\n（3）武大靖通过侧身来调整身体与水平冰面的夹角，使场地对其作用力指向身体重心而实现平稳过弯，如图所示。求武大靖在（2）问中过弯时身体与水平面的夹角 $\\theta$ 的大小。（不计空气阻力，重力加速度大小取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，$\\tan 22^\\circ=0.40$、$\\tan 27^\\circ=0.51$、$\\tan 32^\\circ=0.62$、$\\tan 37^\\circ=0.75$）\n\n![物理配图](assets/2022/physics/福建/13.png)",
+      "figures": [
+        "assets/2022/physics/福建/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$4\\,\\mathrm{m}/\\mathrm{s}^2$\n（2）$1430.8\\,\\mathrm{N}$\n（3）$27^\\circ$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）设武大靖运动过程的加速度大小为 $a$，根据 $x=\\frac{1}{2}at^{2}$\n\n解得 $a=\\frac{2x}{t^{2}}=\\frac{2\\times8}{2^{2}}\\,\\mathrm{m}/\\mathrm{s}^2=4\\,\\mathrm{m}/\\mathrm{s}^2$\n\n（2）根据 $F_{\\text{向}}=m\\frac{v^{2}}{r}$\n\n解得过弯时所需的向心力大小为\n\n$F_{\\text{向}}=73\\times\\frac{14^{2}}{10}\\,\\mathrm{N}=1430.8\\,\\mathrm{N}$\n\n（3）设场地对武大靖的作用力大小为 $F$，受力如图所示\n\n根据牛顿第二定律可得 $F_{\\text{向}}=\\frac{mg}{\\tan\\theta}$\n\n![物理配图](assets/2022/physics/福建/13_an.jpg)\n\n$\\tan\\theta=\\frac{mg}{F_{\\text{向}}}=\\frac{73\\times10}{1430.8}\\approx0.51$\n\n解得\n\n可得 $\\theta=27^\\circ$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/福建/13_an.jpg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 12,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "动量守恒定律"
+      ],
+      "stem_md": "如图，L 形滑板 A 静置在粗糙水平面上，滑板右端固定一劲度系数为 $k$ 的轻质弹簧，弹簧左端与一小物块 B 相连，弹簧处于原长状态。一小物块 C 以初速度 $v_{0}$ 从滑板最左端滑入，滑行 $s_{0}$ 后与 B 发生完全非弹性碰撞（碰撞时间极短），然后一起向右运动；一段时间后，滑板 A 也开始运动．已知 A、B、C 的质量均为 $m$，滑板与小物块、滑板与地面之间的动摩擦因数均为 $\\mu$，重力加速度大小为 $g$；最大静摩擦力近似等于滑动摩擦力，弹簧始终处于弹性限度内。求：\n\n（1）C 在碰撞前瞬间的速度大小；\n（2）C 与 B 碰撞过程中损失的机械能；\n（3）从 C 与 B 相碰后到 A 开始运动的过程中，C 和 B 克服摩擦力所做的功。\n\n![物理配图](assets/2022/physics/福建/14.png)",
+      "figures": [
+        "assets/2022/physics/福建/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\sqrt{v_{0}^{2}-2\\mu gs_{0}}$\n（2）$\\frac{1}{4}m(v_{0}^{2}-2\\mu gs_{0})$\n（3）$\\frac{2\\mu^{2}m^{2}g^{2}}{k}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）小物块 C 运动至刚要与物块 B 相碰过程，根据动能定理可得\n\n$-\\mu mgs_{0}=\\frac{1}{2}mv_{1}^{2}-\\frac{1}{2}mv_{0}^{2}$\n\n解得 C 在碰撞前瞬间的速度大小为\n\n$v_{1}=\\sqrt{v_{0}^{2}-2\\mu gs_{0}}$\n\n（2）物块 B、C 碰撞过程，根据动量守恒可得\n\n$mv_{1}=2mv_{2}$\n\n解得物块 B 与物块 C 碰后一起运动的速度大小为\n\n$v_{2}=\\frac{1}{2}\\sqrt{v_{0}^{2}-2\\mu gs_{0}}$\n\n故 C 与 B 碰撞过程中损失的机械能为\n\n$\\Delta E=\\frac{1}{2}mv_{1}^{2}-\\frac{1}{2}\\times2mv_{2}^{2}=\\frac{1}{4}m(v_{0}^{2}-2\\mu gs_{0})$\n\n（3）滑板 A 刚要滑动时，对滑板 A，由受力平衡可得\n\n$k\\Delta x+2\\mu mg=3\\mu mg$\n\n解得弹簧的压缩量，即滑板 A 开始运动前物块 B 和物块 C 一起运动的位移大小为\n\n$\\Delta x=\\frac{\\mu mg}{k}$\n\n从 C 与 B 相碰后到 A 开始运动的过程中，C 和 B 克服摩擦力所做的功为\n\n$W=2\\mu mg\\cdot\\Delta x=\\frac{2\\mu^{2}m^{2}g^{2}}{k}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-福建-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "电磁感应",
+        "双杆问题"
+      ],
+      "stem_md": "如图 [2022福建15a]，一倾角为 $\\theta$ 的绝缘光滑斜面固定在水平地面上，其顶端与两根相距为 $L$ 的水平光滑平行金属导轨相连；导轨处于一竖直向下的匀强磁场中，其末端装有挡板 M、N。两根平行金属棒 G、H 垂直导轨放置，G 的中心用一不可伸长绝缘细绳通过轻质定滑轮与斜面底端的物块 A 相连；初始时刻绳子处于拉紧状态并与 G 垂直，滑轮左侧细绳与斜面平行，右侧与水平面平行。从 $t=0\\,\\mathrm{s}$ 开始，H 在水平向右拉力作用下向右运动；$t=2\\,\\mathrm{s}$ 时，H 与挡板 M、N 相碰后立即被锁定。G 在 $t=1\\,\\mathrm{s}$ 后的速度 - 时间图线如图 [2022福建15b]所示，其中 $1\\sim2\\,\\mathrm{s}$ 段为直线。已知：磁感应强度大小 $B=1\\,\\mathrm{T}$，$L=0.2\\,\\mathrm{m}$，G、H 和 A 的质量均为 $0.2\\,\\mathrm{kg}$，G、H 的电阻均为 $0.1\\,\\Omega$；导轨电阻、细绳与滑轮的摩擦力均忽略不计；H 与挡板碰撞时间极短；整个运动过程 A 未与滑轮相碰，两金属棒始终与导轨垂直且接触良好：$\\sin\\theta=0.25$，$\\cos\\theta=0.97$，重力加速度大小取 $10\\,\\mathrm{m}/\\mathrm{s}^2$，图 [2022福建15b]中 $e$ 为自然常数，$\\frac{4}{e}=1.47$。求：\n\n（1）在 $1\\sim2\\,\\mathrm{s}$ 时间段内，棒 G 的加速度大小和细绳对 A 的拉力大小；\n（2）$t=1.5\\,\\mathrm{s}$ 时，棒 H 上拉力的瞬时功率；\n（3）在 $2\\sim3\\,\\mathrm{s}$ 时间段内，棒 G 滑行的距离。\n\n![物理配图](assets/2022/physics/福建/15a.png) ![物理配图](assets/2022/physics/福建/15b.png)",
+      "figures": [
+        "assets/2022/physics/福建/15a.png",
+        "assets/2022/physics/福建/15b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$2\\,\\mathrm{m}/\\mathrm{s}^2$，$0.9\\,\\mathrm{N}$\n（2）$16.15\\,\\mathrm{W}$\n（3）$2.53\\,\\mathrm{m}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由 $v-t$ 图像可得在 $1\\sim2\\,\\mathrm{s}$ 内，棒 G 做匀加速运动，其加速度为 $a=2\\,\\mathrm{m}/\\mathrm{s}^2$ 依题意物块 A 的加速度也为 $a=2\\,\\mathrm{m}/\\mathrm{s}^2$，由牛顿第二定律可得\n\n$T-m_{A}g\\sin\\theta=m_{A}a$\n\n解得细绳受到拉力 $T=0.9\\,\\mathrm{N}$\n\n（2）由法拉第电磁感应定律与闭合电路欧姆定律推导出“双棒”回路中的电流为\n\n$I=\\frac{BL(v_{H}-v_{G})}{R_{H}+R_{G}}$\n\n由牛顿运动定律和安培力公式有\n\n$BIL-T=m_{G}a$\n\n由于在 $1\\sim2\\,\\mathrm{s}$ 内棒 G 做匀加速运动，回路中电流恒定为 $I=6.5\\,\\mathrm{A}$，两棒速度差为 $v_{H}-v_{G}=6.5\\,\\mathrm{m}/\\mathrm{s}$ 保持不变，这说明两棒加速度相同且均为 $a$；\n\n对棒 H 由牛顿第二定律可求得其受到水平向右拉力\n\n$F=m_{H}a+BIL=1.7\\,\\mathrm{N}$\n\n由 $v-t$ 图像可知 $t=1.5\\,\\mathrm{s}$ 时，棒 G 的速度为 $v_{G}=3\\,\\mathrm{m}/\\mathrm{s}$\n\n此刻棒 H 的速度为 $v_{H}=9.5\\,\\mathrm{m}/\\mathrm{s}$\n\n其水平向右拉力的功率 $P_{F}=Fv_{H}=16.15\\,\\mathrm{W}$\n\n（3）棒 H 停止后，回路中电流发生突变，棒 G 受到安培力大小和方向都发生变化，棒 G 是否还拉着物块 A 一起做减速运动需要通过计算判断，假设绳子立刻松弛无拉力，经过计算棒 G 加速度为\n\n$a^{\\prime}=\\frac{B^{2}L^{2}v_{G}^{\\prime}}{2Rm_{G}}=\\frac{1^{2}\\times0.2^{2}\\times4}{2\\times0.1\\times0.2}\\,\\mathrm{m}/\\mathrm{s}^2=4\\,\\mathrm{m}/\\mathrm{s}^2$\n\n物块 A 加速度为\n\n$a^{\\prime\\prime}=g\\sin\\theta=2.5\\,\\mathrm{m}/\\mathrm{s}^2$\n\n说明棒 H 停止后绳子松弛，物块 A 做加速度大小为 $2.5\\,\\mathrm{m}/\\mathrm{s}^2$ 的匀减速运动，棒 G 做加速度越来越小的减速运动；由动量定理、法拉第电磁感应定律和闭合电路欧姆定律可以求得，在 $2\\sim3\\,\\mathrm{s}$ 内\n\n$\\overline{B I}L\\Delta t=m_{G}(v_{G2}-v_{G3})$\n\n$\\overline{I}\\Delta t=\\frac{BL\\overline{v}}{R_{H}+R_{G}}\\Delta t=\\frac{BLs_{G}}{R_{H}+R_{G}}$\n\n棒 G 滑行的距离\n\n$s_{G}=\\frac{m_{G}(v_{G2}-v_{G3})(R_{H}+R_{G})}{B^{2}L^{2}}=\\left(4-\\frac{4}{e}\\right)\\,\\mathrm{m}=2.53\\,\\mathrm{m}$\n\n这段时间内物块 A 速度始终大于棒 G 滑行速度，绳子始终松弛。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

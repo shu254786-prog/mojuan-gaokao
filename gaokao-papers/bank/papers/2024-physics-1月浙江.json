@@ -1,0 +1,995 @@
+{
+  "id": "2024-physics-1月浙江",
+  "year": 2024,
+  "subject": "物理",
+  "region": "1月浙江卷",
+  "region_key": "1月浙江",
+  "format_tier": "structured_latex",
+  "question_count": 20,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2024-physics-1月浙江-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 950,
+      "topics": [
+        "运动和力",
+        "力学单位制"
+      ],
+      "stem_md": "下列属于国际单位制基本单位符号的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "s",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "N",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "F",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "T",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "国际单位制中的基本单位分别是：长度的单位是米，符号 m；质量的单位是千克，符号 kg；时间的单位是秒，符号 s；电流的单位是安培，符号是 A；热力学温度的单位是开尔文，符号 K；物质的量单位是摩尔，符号 mol；发光强度的单位是坎德拉，符号 cd。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "直线运动",
+        "质点"
+      ],
+      "stem_md": "杭州亚运会顺利举行，如图所示为运动会中的四个比赛场景。在下列研究中可将运动员视为质点的是（  ）\n\n![物理配图](assets/2024/physics/1月浙江/02a.png) ![物理配图](assets/2024/physics/1月浙江/02b.png) ![物理配图](assets/2024/physics/1月浙江/02c.png) ![物理配图](assets/2024/physics/1月浙江/02d.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/02a.png",
+        "assets/2024/physics/1月浙江/02b.png",
+        "assets/2024/physics/1月浙江/02c.png",
+        "assets/2024/physics/1月浙江/02d.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "研究图 [20241月浙江02a] 中运动员的入水动作",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "研究图 [20241月浙江02b] 中运动员的空中转体姿态",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "研究图 [20241月浙江02c] 中运动员在百米比赛中的平均速度",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "研究图 [20241月浙江02d] 中运动员通过某个攀岩支点的动作",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．研究图甲中运动员的入水动作时，运动员的形状和体积对所研究问题的影响不能够忽略，此时运动员不能够看为质点，故 A 错误；\n\nB．研究图乙中运动员的空中转体姿态时，运动员的形状和体积对所研究问题的影响不能够忽略，此时运动员不能够看为质点，故 B 错误；\n\nC．研究图丙中运动员在百米比赛中的平均速度时，运动员的形状和体积对所研究问题的影响能够忽略，此时运动员能够看为质点，故 C 正确；\n\nD．研究图丁中运动员通过某个攀岩支点的动作时，运动员的形状和体积对所研究问题的影响不能够忽略，此时运动员不能够看为质点，故 D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 850,
+      "topics": [
+        "功和能",
+        "动能势能"
+      ],
+      "stem_md": "如图所示，质量为 $m$ 的足球从水平地面上位置 1 被踢出后落在位置 3，在空中达到最高点 2 的高度为 $h$，则足球（  ）\n\n![物理配图](assets/2024/physics/1月浙江/03.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/03.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "从 1 到 2 动能减少 $mgh$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "从 1 到 2 重力势能增加 $mgh$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "从 2 到 3 动能增加 $mgh$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "从 2 到 3 机械能不变",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．由足球的运动轨迹可知，足球在空中运动时一定受到空气阻力作用，则从 1 到 2 重力势能增加 $mgh$，则 1 到 2 动能减少量大于 $mgh$，A 错误，B 正确；\n\nCD．从 2 到 3 由于空气阻力作用，则机械能减小，重力势能减小 $mgh$，则动能增加小于 $mgh$，选项 CD 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "磁场",
+        "左手定则"
+      ],
+      "stem_md": "磁电式电表原理示意图如图所示，两磁极装有极靴，极靴中间还有一个用软铁制成的圆柱。极靴与圆柱间的磁场都沿半径方向，两者之间有可转动的线圈。a、b、c 和 d 为磁场中的四个点。下列说法正确的是（  ）\n\n![物理配图](assets/2024/physics/1月浙江/04.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "图示左侧通电导线受到安培力向下",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "a、b 两点的磁感应强度相同",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "圆柱内的磁感应强度处处为零",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "c、d 两点的磁感应强度大小相等",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由左手定则可知，图示左侧通电导线受到安培力向下，选项 A 正确；\n\nB．a、b 两点的磁感应强度大小相同，但是方向不同，选项 B 错误；\n\nC．磁感线是闭合的曲线，则圆柱内的磁感应强度不为零，选项 C 错误；\n\nD．因 c 点处的磁感线较 d 点密集，可知 c 点的磁感应强度大于 d 点的磁感应强度，选项 D 错误。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "如图为某燃气灶点火装置的原理图。直流电经转换器输出 $u = 5\\sin 100\\pi t\\ (\\,\\mathrm{V})$ 的交流电，经原、副线圈匝数分别为 $n_{1}$ 和 $n_{2}$ 的变压器升压至峰值大于 $10\\,\\mathrm{kV}$，就会在打火针和金属板间引发电火花，实现点火。下列正确的是（  ）\n\n![物理配图](assets/2024/physics/1月浙江/05.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{n_{2}}{n_{1}} < \\frac{7}{2000}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{n_{1}}{n_{2}} < \\frac{1}{2000}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "用电压表测原线圈两端电压，示数为 $5\\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "副线圈输出交流电压的频率是 $100\\,\\mathrm{Hz}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．原线圈两端电压的有效值\n$U_{1} = \\frac{5}{\\sqrt{2}}\\,\\mathrm{V} = \\frac{5\\sqrt{2}}{2}\\,\\mathrm{V}$\n\n根据电压匝数关系有 $\\frac{U_{1}}{U_{2}} = \\frac{n_{1}}{n_{2}}$\n\n变压器副线圈电压的峰值 $U_{2\\max} = \\sqrt{2}U_{2}$\n\n根据题意有 $U_{2\\max} > 10\\times 10^{3}\\,\\mathrm{V}$\n\n解得 $\\frac{n_{2}}{n_{1}} > 2000$，$\\frac{n_{1}}{n_{2}} < \\frac{1}{2000}$\n\n故 A 错误，B 正确；\n\nC．用电压表测原线圈两端电压，电压表测的是有效值，则示数为\n$U_{1} = \\frac{5}{\\sqrt{2}}\\,\\mathrm{V} = \\frac{5\\sqrt{2}}{2}\\,\\mathrm{V}$\n故 C 错误；\n\nD．根据 $\\frac{2\\pi}{T} = 2\\pi f = 100\\pi\\,\\mathrm{Hz}$ 解得 $f = 50\\,\\mathrm{Hz}$\n\n变压器不改变频率，则副线圈输出交流电压的频率是 $50\\,\\mathrm{Hz}$，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "力物体的平衡",
+        "物体系平衡"
+      ],
+      "stem_md": "如图所示，在同一竖直平面内，小球 A、B 上系有不可伸长的细线 a、b、c 和 d，其中 a 的上端悬挂于竖直固定的支架上，d 跨过左侧定滑轮、c 跨过右侧定滑轮分别与相同配重 P、Q 相连，调节左、右两侧定滑轮高度达到平衡。已知小球 A、B 和配重 P、Q 质量均为 $50\\,\\mathrm{g}$，细线 c、d 平行且与水平成 $\\theta = 30^\\circ$（不计摩擦），则细线 a、b 的拉力分别为（  ）\n\n![物理配图](assets/2024/physics/1月浙江/06.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$2\\,\\mathrm{N}$，$1\\,\\mathrm{N}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$2\\,\\mathrm{N}$，$0.5\\,\\mathrm{N}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$1\\,\\mathrm{N}$，$1\\,\\mathrm{N}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$1\\,\\mathrm{N}$，$0.5\\,\\mathrm{N}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题意可知细线 c 对 A 的拉力和细线 d 对 B 的拉力大小相等、方向相反，对 A、B 整体分析可知细线 a 的拉力大小为 $T_{a} = (m_{A} + m_{B})g = 1\\,\\mathrm{N}$\n\n设细线 b 与水平方向夹角为 $\\alpha$，对 A、B 分析分别有\n$T_{b}\\sin\\alpha + T_{c}\\sin\\theta = m_{A}g$\n$T_{b}\\cos\\alpha = T_{d}\\cos\\theta$\n解得 $T_{b} = 0.5\\,\\mathrm{N}$\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 750,
+      "topics": [
+        "原子和原子核",
+        "质能方程"
+      ],
+      "stem_md": "已知氘核质量为 $2.0141\\,\\mathrm{u}$，氚核质量为 $3.0161\\,\\mathrm{u}$，氦核质量为 $4.0026\\,\\mathrm{u}$，中子质量为 $1.0087\\,\\mathrm{u}$，阿伏加德罗常数 $N_{A}$ 取 $6.0\\times10^{23}\\,\\mathrm{mol}^{-1}$，氘核摩尔质量为 $2\\, \\mathrm{g}/\\mathrm{mol}$，$1\\,\\mathrm{u}$ 相当于 $931.5\\,\\mathrm{MeV}$。关于氘与氚聚变成氦，下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "核反应方程式为 $\\ce{^2_1H + ^3_1H -> ^3_2He + ^1_0n}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "氘核的比结合能比氦核的大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "氘核与氚核的间距达到 $10^{-10}$ 就能发生核聚变",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$4\\,\\mathrm{g}$ 氘完全参与聚变释放出能量的数量级为 $10^{25}\\,\\mathrm{MeV}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．核反应方程式为 $\\ce{^2_1H + ^3_1H -> ^4_2He + ^1_0n}$，故 A 错误；\n\nB．氘核的比结合能比氦核的小，故 B 错误；\n\nC．氘核与氚核发生核聚变，要使它们间的距离达到 $10^{-15}\\,\\mathrm{m}$ 以内，故 C 错误；\n\nD．一个氘核与一个氚核聚变反应质量亏损\n$\\Delta m = (2.0141 + 3.0161 - 4.0026 - 1.0087)\\,\\mathrm{u} = 0.0189\\,\\mathrm{u}$\n\n聚变反应释放的能量是\n$\\Delta E = \\Delta m\\cdot 931.5\\,\\mathrm{MeV} \\approx 17.6\\,\\mathrm{MeV}$\n\n$4\\,\\mathrm{g}$ 氘完全参与聚变释放出能量\n$E = \\frac{4}{2}\\times 6\\times10^{23}\\times\\Delta E \\approx 2.11\\times10^{25}\\,\\mathrm{MeV}$\n数量级为 $10^{25}\\,\\mathrm{MeV}$，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "平抛运动"
+      ],
+      "stem_md": "如图所示，小明取山泉水时发现水平细水管到水平地面的距离为水桶高的两倍，在地面上平移水桶，水恰好从桶口中心无阻挡地落到桶底边沿 A。已知桶高为 $h$，直径为 $D$，则水离开出水口的速度大小为（  ）\n\n![物理配图](assets/2024/physics/1月浙江/08.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{D}{4}\\sqrt{\\frac{g}{h}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{D}{4}\\sqrt{\\frac{g}{2h}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{(\\sqrt{2} + 1)D}{2}\\sqrt{\\frac{g}{2h}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$(\\sqrt{2} + 1)D\\sqrt{\\frac{g}{2h}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设出水孔到水桶中心距离为 $x$，则\n$x = v_{0}\\sqrt{\\frac{2h}{g}}$\n\n落到桶底 A 点时\n$x + \\frac{D}{2} = v_{0}\\sqrt{\\frac{2\\cdot 2h}{g}}$\n\n解得 $v_{0} = \\frac{(\\sqrt{2} + 1)D}{2}\\sqrt{\\frac{g}{2h}}$\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q09",
+      "number": 9,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "如图所示，2023 年 12 月 9 日“朱雀二号”运载火箭顺利将“鸿鹄卫星”等三颗卫星送入距离地面约 $500\\,\\mathrm{km}$ 的轨道。取地球质量 $6.0\\times10^{24}\\,\\mathrm{kg}$，地球半径 $6.4\\times10^{3}\\,\\mathrm{km}$，引力常量 $6.67\\times10^{-11}\\,\\mathrm{N}\\cdot\\mathrm{m}^2/\\mathrm{kg}^2$。下列说法正确的是（  ）\n\n![物理配图](assets/2024/physics/1月浙江/09.jpg)",
+      "figures": [
+        "assets/2024/physics/1月浙江/09.jpg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "火箭的推力是空气施加的",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "卫星的向心加速度大小约 $8.4\\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "卫星运行的周期约 $12\\,\\mathrm{h}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "发射升空初始阶段，装在火箭上部的卫星处于失重状态",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据反冲现象的原理可知，火箭向后喷射燃气的同时，燃气会给火箭施加反作用力，即推力，故 A 错误；\n\nB．根据万有引力定律可知卫星的向心加速度大小为\n$a = \\frac{F}{m} = \\frac{GM}{(R + h)^{2}} \\approx 8.4\\,\\mathrm{m}/\\mathrm{s}^2$\n故 B 正确；\n\nC．卫星运行的周期为\n$T = 2\\pi\\sqrt{\\frac{(R + h)^{3}}{GM}} \\approx 1.6\\,\\mathrm{h}$\n故 C 错误；\n\nD．发射升空初始阶段，火箭加速度方向向上，装在火箭上部的卫星处于超重状态，故 D 错误。\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q10",
+      "number": 10,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "机械振动",
+        "弹簧振子"
+      ],
+      "stem_md": "如图 [20241月浙江10a] 所示，质量相等的小球和点光源，分别用相同的弹簧竖直悬挂于同一水平杆上，间距为 $l$，竖直悬挂的观测屏与小球水平间距为 $2l$，小球和光源做小振幅运动时，在观测屏上可观测小球影子的运动。以竖直向上为正方向，小球和光源的振动图像如图 [20241月浙江10b] 所示，则（  ）\n\n![物理配图](assets/2024/physics/1月浙江/10a.png) ![物理配图](assets/2024/physics/1月浙江/10b.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/10a.png",
+        "assets/2024/physics/1月浙江/10b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$t_{1}$ 时刻小球向上运动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$t_{2}$ 时刻光源的加速度向上",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$t_{2}$ 时刻小球与影子相位差为 $\\pi$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$t_{3}$ 时刻影子的位移为 $5A$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．以竖直向上为正方向，根据图 2 可知，$t_{1}$ 时刻，小球位于平衡位置，随后位移为负值，且位移增大，可知 $t_{1}$ 时刻小球向下运动，故 A 错误；\n\nB．以竖直向上为正方向，$t_{2}$ 时刻光源的位移为正值，光源振动图像为正弦式，表明其做简谐运动，根据\n$F_{\\text{回}} = -kx = ma$\n可知，其加速度方向与位移方向相反，位移方向向上，则加速度方向向下，故 B 错误；\n\nC．根据图 2 可知，小球与光源的振动步调总是相反，由于影子是光源发出的光被小球遮挡后，在屏上留下的阴影，可知影子与小球的振动步调总是相同，即 $t_{2}$ 时刻小球与影子相位差为 0，故 C 错误；\n\nD．根据图 2 可知，$t_{3}$ 时刻，光源位于最低点，小球位于最高点，根据直线传播能够在屏上影子的位置也处于最高点，影子位于正方向上的最大位移处，根据几何关系有\n$\\frac{l}{l + 2l} = \\frac{A + A}{A + x_{\\text{影子}}}$\n解得 $x_{\\text{影子}} = 5A$\n即 $t_{3}$ 时刻影子的位移为 $5A$，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q11",
+      "number": 11,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "电场",
+        "带电粒子的直线运动"
+      ],
+      "stem_md": "如图所示，金属极板 M 受到紫外线照射会逸出光电子，最大速率为 $v_{m}$。正对 M 放置一金属网 N，在 M、N 之间加恒定电压 $U$。已知 M、N 间距为 $d$（远小于板长），电子的质量为 $m$，电荷量为 $e$，则（  ）\n\n![物理配图](assets/2024/physics/1月浙江/11.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/11.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "M、N 间距离增大时电子到达 N 的动能也增大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "只有沿 $x$ 方向逸出的电子到达 N 时才有最大动能 $\\frac{1}{2}mv_{m}^{2} + eU$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电子从 M 到 N 过程中 $y$ 方向位移大小最大为 $v_{m}d\\sqrt{\\frac{2m}{eU}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "M、N 间加反向电压 $\\frac{mv_{m}^{2}}{4e}$ 时电流表示数恰好为零",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．根据动能定理，从金属板 M 上逸出的光电子到达 N 板时 $eU = E_{km} - \\frac{1}{2}mv_{m}^{2}$\n则到达 N 板时的动能为 $E_{km} = \\frac{1}{2}mv_{m}^{2} + eU$\n与两极板间距无关，与电子从金属板中逸出的方向无关，选项 AB 错误；\n\nC．平行极板 M 射出的电子到达 N 板时在 $y$ 方向的位移最大，则电子从 M 到 N 过程中 $y$ 方向最大位移为\n$y = v_{m}t$\n$d = \\frac{1}{2}\\frac{Ue}{dm}t^{2}$\n解得 $y = v_{m}d\\sqrt{\\frac{2m}{eU}}$\n选项 C 正确；\n\nD．M、N 间加反向电压电流表示数恰好为零时，则\n$eU_{c} = \\frac{1}{2}mv_{m}^{2}$\n解得 $U_{c} = \\frac{mv_{m}^{2}}{2e}$\n选项 D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q12",
+      "number": 12,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "光子说"
+      ],
+      "stem_md": "氢原子光谱按频率展开的谱线如图所示，此四条谱线满足巴耳末公式 $\\frac{1}{\\lambda} = R_{\\infty}\\left(\\frac{1}{2^{n}} - \\frac{1}{n^{2}}\\right)$，$n = 3$、4、5、6。用 H$_{\\delta}$ 和 H$_{\\gamma}$ 光进行如下实验研究，则（  ）\n\n![物理配图](assets/2024/physics/1月浙江/12.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/12.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "照射同一单缝衍射装置，H$_{\\delta}$ 光的中央明条纹宽度宽",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "以相同的入射角斜射入同一平行玻璃砖，H$_{\\delta}$ 光的侧移量小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "以相同功率发射的细光束，真空中单位长度上 H$_{\\gamma}$ 光的平均光子数多",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "相同光强的光分别照射同一光电效应装置，H$_{\\gamma}$ 光的饱和光电流小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据巴耳末公式可知，H$_{\\gamma}$ 光的波长较长。波长越长，越容易发生明显的衍射现象，故照射同一单缝衍射装置，H$_{\\gamma}$ 光的中央明条纹宽度宽，故 A 错误；\n\nB．H$_{\\gamma}$ 光的波长较长，根据 $f = \\frac{c}{\\lambda}$ 可知 H$_{\\gamma}$ 光的频率较小，则 H$_{\\gamma}$ 光的折射率较小，在平行玻璃砖的偏折较小，H$_{\\gamma}$ 光的侧移量小，故 B 错误；\n\nC．H$_{\\gamma}$ 光的频率较小，H$_{\\gamma}$ 光的光子能量较小，以相同功率发射的细光束，H$_{\\gamma}$ 光的光子数较多，真空中单位长度上 H$_{\\gamma}$ 光的平均光子数多，故 C 正确；\n\nD．若 H$_{\\delta}$、H$_{\\gamma}$ 光均能发生光电效应，相同光强的光分别照射同一光电效应装置，H$_{\\gamma}$ 光的频率较小，H$_{\\gamma}$ 光的光子能量较小，H$_{\\gamma}$ 光的光子数较多，则 H$_{\\gamma}$ 光的饱和光电流大，H$_{\\delta}$ 光的饱和光电流小，故 D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q13",
+      "number": 13,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "法拉第电磁感应定律"
+      ],
+      "stem_md": "若通以电流 $I$ 的圆形线圈在线圈内产生的磁场近似为方向垂直线圈平面的匀强磁场，其大小 $B = kI$（$k$ 的数量级为 $10^{-4}\\, \\mathrm{T}/\\mathrm{A}$）。现有横截面半径为 $1\\,\\mathrm{mm}$ 的导线构成半径为 $1\\,\\mathrm{cm}$ 的圆形线圈处于超导状态，其电阻率上限为 $10^{-26}\\,\\Omega\\cdot\\mathrm{m}$。开始时线圈通有 $100\\,\\mathrm{A}$ 的电流，则线圈的感应电动势大小的数量级和一年后电流减小量的数量级分别为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$10^{-23}\\,\\mathrm{V}$，$10^{-7}\\,\\mathrm{A}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$10^{-20}\\,\\mathrm{V}$，$10^{-7}\\,\\mathrm{A}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$10^{-23}\\,\\mathrm{V}$，$10^{-5}\\,\\mathrm{A}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$10^{-20}\\,\\mathrm{V}$，$10^{-5}\\,\\mathrm{A}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "线圈中电流 $I(t)$ 的减小将在线圈内导致自感电动势，故\n$\\varepsilon = -L\\frac{\\Delta I}{\\Delta t} = IR$\n其中 $L$ 代表线圈的自感系数，有 $L = \\frac{\\Phi}{I}$\n\n在计算通过线圈的磁通量 $\\Phi$ 时，以导线附近即 $r_{1}$ 处的 $B$ 为最大，而该处 $B$ 又可把线圈当成无限长载流导线所产生的，根据题意 $B = kI$\n则 $L = kS = k\\pi r_{2}^{2}$\n\n根据电阻定律有\n$R = \\rho\\frac{2\\pi r_{2}}{\\pi r_{1}^{2}} = \\rho\\frac{2r_{2}}{r_{1}^{2}}$\n\n联立解得\n$\\Delta I = \\frac{I\\rho\\Delta t}{k\\pi r_{2}r_{1}^{2}} = \\frac{100\\times10^{-26}\\times365\\times24\\times3600}{10^{-4}\\times3.14\\times10^{-2}\\times(10^{-3})^{2}} \\approx 1\\times10^{-5}\\,\\mathrm{A}$\n\n$\\varepsilon = 2\\times10^{-20}\\,\\mathrm{V}$\n\n则线圈的感应电动势大小的数量级和一年后电流减小量的数量级分别为 $10^{-20}\\,\\mathrm{V}$，$10^{-5}\\,\\mathrm{A}$。故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q14",
+      "number": 14,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 3,
+      "difficulty": 650,
+      "topics": [
+        "光学",
+        "光的电磁说"
+      ],
+      "stem_md": "下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "相同温度下，黑体吸收能力最强，但辐射能力最弱",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "具有相同动能的中子和电子，其德布罗意波长相同",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "电磁场是真实存在的物质，电磁波具有动量和能量",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "自然光经玻璃表面反射后，透过偏振片观察，转动偏振片时可观察到明暗变化",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "CD",
+        "choices": [
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．相同温度下，黑体吸收和辐射能力最强，故 A 错误；\n\nB．根据 $\\lambda = \\frac{h}{p} = \\frac{h}{\\sqrt{2mE_{k}}}$，具有相同动能的中子和电子，电子质量较小，德布罗意波长较长，故 B 错误；\n\nC．电磁场是真实存在的物质，电磁波具有动量和能量，故 C 正确；\n\nD．自然光在玻璃、水面等表面反射时，反射光可视为偏振光，透过偏振片观察，转动偏振片时能观察到明暗变化，故 D 正确。\n\n故选 CD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q15",
+      "number": 15,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 3,
+      "difficulty": 450,
+      "topics": [
+        "机械波",
+        "干涉衍射"
+      ],
+      "stem_md": "在如图所示的直角坐标系中，$xOz$ 平面为介质 Ⅰ 和 Ⅱ 的分界面（$z$ 轴垂直纸面向外）。在介质 Ⅰ 中的 $P(0,4\\lambda)$ 处有一点波源，产生波长为 $\\lambda$、速度为 $v$ 的波。波传到介质 Ⅱ 中，其速度为 $\\sqrt{2}v$，图示时刻介质 Ⅱ 中仅有一个波峰，与 $x$ 轴和 $y$ 轴分别交于 R 和 S 点，此时波源也恰好位于波峰。M 为 O、R 连线的中点，入射波与反射波在 O 点相干加强，则（  ）\n\n![物理配图](assets/2024/physics/1月浙江/15.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/15.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "介质 Ⅱ 中波的频率为 $\\frac{\\sqrt{2}v}{\\lambda}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "S 点的坐标为 $(0,-\\sqrt{2}\\lambda)$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "入射波与反射波在 M 点相干减弱",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "折射角 $\\alpha$ 的正弦值 $\\sin\\alpha = \\frac{3\\sqrt{2}}{5}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．波从一种介质到另一种介质，频率不变，故介质 Ⅱ 中波的频率为 $f = \\frac{v}{\\lambda}$。故 A 错误；\n\nB．在介质 Ⅱ 中波长为 $\\lambda' = \\frac{\\sqrt{2}v}{f} = \\sqrt{2}\\lambda$\n由于图示时刻介质 Ⅱ 中仅有一个波峰，与 $x$ 轴和 $y$ 轴分别交于 R 和 S 点，故 S 点的坐标为 $(0,-\\sqrt{2}\\lambda)$，故 B 正确；\n\nC．由于 S 为波峰，且波传到介质 Ⅱ 中，其速度为 $\\sqrt{2}v$，图示时刻介质 Ⅱ 中仅有一个波峰，与 $x$ 轴和 $y$ 轴分别交于 R 和 S 点，则 R 也为波峰，故 P 到 R 比 P 到 O 多一个波峰，则 $PR = 5\\lambda$\n则 $OR = 3\\lambda$\n由于 $|MO - PM| \\neq 2n\\cdot\\frac{\\lambda}{2}$ 或 $(2n + 1)\\frac{\\lambda}{2}$\n故不在减弱点，故 C 错误；\n\nD．根据 $n = \\frac{\\lambda'}{\\lambda} = \\sqrt{2}$，则 $n = \\frac{\\sin\\alpha}{\\frac{OR}{PR}}$，解得 $\\sin\\alpha = \\frac{3\\sqrt{2}}{5}$\n故 D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q16",
+      "number": 16,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 650,
+      "topics": [
+        "电路",
+        "传感器"
+      ],
+      "stem_md": "实验题（Ⅰ、Ⅱ、Ⅲ 三题共 14 分）\n\nⅠ．（7 分）如图 [20241月浙江16a] 所示是“探究加速度与力、质量的关系”的实验装置。\n\n（1）该实验中同时研究三个物理量间关系是很困难的，因此我们采用的研究方法是 ______ ；\n\n\tA．放大法\n\n\tB．控制变量法\n\n\tC．补偿法\n（2）该实验过程中操作正确的是 ______ ；\n\n\tA．补偿阻力时小车未连接纸带\n\n\tB．先接通打点计时器电源，后释放小车\n\n\tC．调节滑轮高度使细绳与水平桌面平行\n（3）在小车质量 ______ （选填“远大于”或“远小于”）槽码质量时，可以认为细绳拉力近似等于槽码的重力。上述做法引起的误差为 ______ （选填“偶然误差”或“系统误差”）。为减小此误差，下列可行的方案是 ______ ；\n\n\tA．用气垫导轨代替普通导轨，滑块代替小车\n\n\tB．在小车上加装遮光条，用光电计时系统代替打点计时器\n\n\tC．在小车与细绳之间加装力传感器，测出小车所受拉力大小\n（4）经正确操作后获得一条如图 [20241月浙江16b] 所示的纸带，建立以计数点 0 为坐标原点的 $x$ 轴，各计数点的位置坐标分别为 0、$x_{1}$、$\\ldots$、$x_{6}$。已知打点计时器的打点周期为 $T$，则打计数点 5 时小车速度的表达式 $v = $ ______ ；小车加速度的表达式是 ______ 。\n\n\tA．$a = \\frac{x_{6} - 2x_{3}}{(15T)^{2}}$\n\n\tB．$a = \\frac{x_{6} - 2x_{3}}{(3T)^{2}}$\n\n\tC．$a = \\frac{x_{5} + x_{4} - (x_{3} + x_{2})}{(10T)^{2}}$\n\n![物理配图](assets/2024/physics/1月浙江/16a.png) ![物理配图](assets/2024/physics/1月浙江/16b.png)\n\nⅡ．（4 分）在“观察电容器的充、放电现象”实验中，把电阻箱 $R$（$0\\sim9999\\,\\Omega$）、一节干电池、微安表（量程 $0\\sim300\\,\\mu\\mathrm{A}$，零刻度在中间位置）、电容器 C（$2200\\,\\mu\\mathrm{F}$、$16\\,\\mathrm{V}$）、单刀双掷开关组装成如图 [20241月浙江16c] 所示的实验电路。\n\n（1）把开关 S 接 1，微安表指针迅速向右偏转后示数逐渐减小到零；然后把开关 S 接 2，微安表指针偏转情况是 ______ ；\n\n\tA．迅速向右偏转后示数逐渐减小\n\n\tB．向右偏转示数逐渐增大\n\n\tC．迅速向左偏转后示数逐渐减小\n\n\tD．向左偏转示数逐渐增大\n（2）再把电压表并联在电容器两端，同时观察电容器充电时电流和电压变化情况。把开关 S 接 1，微安表指针迅速向右偏转后示数逐渐减小到 $160\\,\\mu\\mathrm{A}$ 时保持不变；电压表示数由零逐渐增大，指针偏转到如图 [20241月浙江16d] 所示位置时保持不变，则电压表示数为 ______  $\\,\\mathrm{V}$，电压表的阻值为 ______  $\\,\\mathrm{k}\\Omega$（计算结果保留两位有效数字）。\n\n![物理配图](assets/2024/physics/1月浙江/16c.png) ![物理配图](assets/2024/physics/1月浙江/16d.png)\n\nⅢ．（3 分）在探究热敏电阻的特性及其应用的实验中，测得热敏电阻 $R_{t}$ 在不同温度时的阻值如下表\n\n<table class=\"exam-table\"><tr><th>温度/$\\,{}^\\circ\\mathrm{C}$</th><th>4.1</th><th>9.0</th><th>14.3</th><th>20.0</th><th>28.0</th><th>38.2</th><th>45.5</th><th>60.4</th></tr><tr><td>电阻/$(10^{2}\\,\\Omega)$</td><td>220</td><td>160</td><td>100</td><td>60</td><td>45</td><td>30</td><td>25</td><td>15</td></tr></table>\n\n某同学利用上述热敏电阻 $R_{t}$、电动势 $E = 3\\,\\mathrm{V}$（内阻不计）的电源、定值电阻 $R$（阻值有 $3\\,\\mathrm{k}\\Omega$、$5\\,\\mathrm{k}\\Omega$、$12\\,\\mathrm{k}\\Omega$ 三种可供选择）、控制开关和加热系统，设计了 A、B、C 三种电路。因环境温度低于 $20\\,{}^\\circ\\mathrm{C}$，现要求将室内温度控制在 $20\\,{}^\\circ\\mathrm{C}\\sim28\\,{}^\\circ\\mathrm{C}$ 范围，且 1、2 两端电压大于 $2\\,\\mathrm{V}$，控制开关开启加热系统加热，则应选择的电路是 ______ ，定值电阻 $R$ 的阻值应选 ______  $\\,\\mathrm{k}\\Omega$，1、2 两端的电压小于 ______  $\\,\\mathrm{V}$ 时，自动关闭加热系统（不考虑控制开关对电路的影响）。\n\n![物理配图](assets/2024/physics/1月浙江/16.svg)",
+      "figures": [
+        "assets/2024/physics/1月浙江/16.svg",
+        "assets/2024/physics/1月浙江/16a.png",
+        "assets/2024/physics/1月浙江/16b.png",
+        "assets/2024/physics/1月浙江/16c.png",
+        "assets/2024/physics/1月浙江/16d.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）B\n（2）B\n（3）远大于，系统误差，C\n（4）$\\frac{x_{6} - x_{4}}{10T}$，A\n\n（1）C\n（2）$0.50\\,\\mathrm{V}$，$3.1\\,\\mathrm{k}\\Omega$\n\n（1）C，3，2",
+        "sub_answers": [
+          "B",
+          "B",
+          "远大于",
+          "系统误差",
+          "C",
+          "$\\frac{x_{6} - x_{4}}{10T}$",
+          "A",
+          "C",
+          "0.50",
+          "3.1",
+          "C",
+          "3",
+          "2"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）该实验中同时研究三个物理量间关系是很困难的，因此我们可以控制其中一个物理量不变，研究另外两个物理量之间的关系，即采用了控制变量法。故选 B。\n\n（2）A．补偿阻力时小车需要连接纸带，一方面是需要连同纸带所受的阻力一并平衡，另外一方面是通过纸带上的点间距判断小车是否在长木板上做匀速直线运动，故 A 错误；\n\nB．由于小车速度较快，且运动距离有限，打出的纸带长度也有限，为了能在长度有限的纸带上尽可能多地获取间距适当的数据点，实验时应先接通打点计时器电源，后释放小车，故 B 正确；\n\nC．为使小车所受拉力与速度同向，应调节滑轮高度使细绳与长木板平行，故 C 错误。故选 B。\n\n（3）设小车质量为 $M$，槽码质量为 $m$。对小车和槽码根据牛顿第二定律分别有 $F = Ma$\n$mg - F = ma$\n联立解得 $F = \\frac{Mmg}{m + M}$\n由上式可知在小车质量远大于槽码质量时，可以认为细绳拉力近似等于槽码的重力。\n\n上述做法引起的误差是由于实验方法或原理不完善造成的，属于系统误差。\n\n该误差是将细绳拉力用槽码重力近似替代所引入的，不是由于车与木板间存在阻力（实验中已经补偿了阻力）或是速度测量精度低造成的，为减小此误差，可在小车与细绳之间加装力传感器，测出小车所受拉力大小。故选 C。\n\n（4）相邻两计数点间的时间间隔为 $t = 5T$\n打计数点 5 时小车速度的表达式为\n$v = \\frac{x_{6} - x_{4}}{2t} = \\frac{x_{6} - x_{4}}{10T}$\n根据逐差法可得小车加速度的表达式是\n$a = \\frac{x_{6} - x_{3} - x_{3}}{(3t)^{2}} = \\frac{x_{6} - 2x_{3}}{(15T)^{2}}$\n故选 A。\n\nⅡ．（1）把开关 S 接 1，电容器充电，电流从右向左流过微安表，微安表指针迅速向右偏转后示数逐渐减小到零；把开关 S 接 2，电容器放电，电流从左向右流过微安表，则微安表指针迅速向左偏转后示数逐渐减小。故选 C。\n\n（2）由题意可知电压表应选用 $0\\sim3\\,\\mathrm{V}$ 量程，由图 2 可知此时分度值为 $0.1\\,\\mathrm{V}$，需要估读到 $0.01\\,\\mathrm{V}$，则读数为 $0.50\\,\\mathrm{V}$。\n\n当微安表示数稳定时，电容器中不再有电流通过，此时干电池、电阻箱、微安表和电压表构成回路，根据闭合电路欧姆定律有\n$R + R_{\\mathrm{v}} = \\frac{E}{I} = \\frac{1.5}{160\\times10^{-6}}\\,\\Omega = 9.375\\,\\mathrm{k}\\Omega$\n根据串联电路规律有\n$\\frac{R}{R_{\\mathrm{v}}} = \\frac{U_{R}}{U_{\\mathrm{v}}} = \\frac{1.5 - 0.5}{0.5} = 2$\n联立可得 $R_{\\mathrm{v}} \\approx 3.1\\,\\mathrm{k}\\Omega$\n\nⅢ．（1）A．电路 A，定值电阻和热敏电阻并联，电压不变，故不能实现电路的控制，故 A 错误；\n\nB．定值电阻和热敏电阻串联，温度越低，热敏电阻的阻值越大，定值电阻分得电压越小，无法实现 1、2 两端电压大于 $2\\,\\mathrm{V}$，控制开关开启加热系统加热。故 B 错误；\n\nC．定值电阻和热敏电阻串联，温度越低，热敏电阻的阻值越大，热敏电阻分得电压越大，可以实现 1、2 两端电压大于 $2\\,\\mathrm{V}$，控制开关开启加热系统加热。故 C 正确。故选 C。\n\n（2）由热敏电阻 $R_{t}$ 在不同温度时的阻值表可知，$20\\,{}^\\circ\\mathrm{C}$ 的阻值为 $60\\times100\\,\\Omega = 6\\,\\mathrm{k}\\Omega$\n由题意可知\n$U_{12} = \\frac{R_{t}}{R_{t} + R}E = \\frac{6\\,\\mathrm{k}\\Omega}{6\\,\\mathrm{k}\\Omega + R}\\times3\\,\\mathrm{V} = 2\\,\\mathrm{V}$\n解得 $R = 3\\,\\mathrm{k}\\Omega$\n\n（3）1、2 两端的电压小于 $2\\,\\mathrm{V}$ 时，自动关闭加热系统（不考虑控制开关对电路的影响）。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q17",
+      "number": 17,
+      "section": "计算题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "热力学第一定律"
+      ],
+      "stem_md": "如图所示，一个固定在水平面上的绝热容器被隔板 A 分成体积均为 $V_{1} = 750\\,\\mathrm{cm}^3$ 的左右两部分。面积为 $S = 100\\,\\mathrm{cm}^2$ 的绝热活塞 B 被锁定，隔板 A 的左侧为真空，右侧中一定质量的理想气体处于温度 $T_{1} = 300\\,\\mathrm{K}$、压强 $p_{1} = 2.04\\times10^{5}\\,\\mathrm{Pa}$ 的状态 1。抽取隔板 A，右侧中的气体就会扩散到左侧中，最终达到状态 2。然后解锁活塞 B，同时施加水平恒力 $F$，仍使其保持静止，当电阻丝 C 加热时，活塞 B 能缓慢滑动（无摩擦），使气体达到温度 $T_{2} = 350\\,\\mathrm{K}$ 的状态 3，气体内能增加 $\\Delta U = 63.8\\,\\mathrm{J}$。已知大气压强 $p_{0} = 1.01\\times10^{5}\\,\\mathrm{Pa}$，隔板厚度不计。\n\n（1）气体从状态 1 到状态 2 是 ______ （选填“可逆”或“不可逆”）过程，分子平均动能 ______ （选填“增大”、“减小”或“不变”）；\n（2）求水平恒力 $F$ 的大小；\n（3）求电阻丝 C 放出的热量 $Q$。\n\n![物理配图](assets/2024/physics/1月浙江/17.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/17.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）不可逆，不变\n（2）$10\\,\\mathrm{N}$\n（3）$89.3\\,\\mathrm{J}$",
+        "sub_answers": [
+          "不可逆",
+          "不变"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据热力学第二定律可知，气体从状态 1 到状态 2 是不可逆过程，由于隔板 A 的左侧为真空，可知气体从状态 1 到状态 2，气体不做功，又没有发生热传递，所以气体的内能不变，气体的温度不变，分子平均动能不变。\n\n（2）气体从状态 1 到状态 2 发生等温变化，则有\n$p_{1}V_{1} = p_{2}\\cdot2V_{1}$\n解得状态 2 气体的压强为\n$p_{2} = \\frac{p_{1}}{2} = 1.02\\times10^{5}\\,\\mathrm{Pa}$\n\n解锁活塞 B，同时施加水平恒力 $F$，仍使其保持静止，以活塞 B 为对象，根据受力平衡可得 $p_{2}S = p_{0}S + F$\n解得\n$F = (p_{2} - p_{0})S = (1.02\\times10^{5} - 1.01\\times10^{5})\\times100\\times10^{-4}\\,\\mathrm{N} = 10\\,\\mathrm{N}$\n\n（3）当电阻丝 C 加热时，活塞 B 能缓慢滑动（无摩擦），使气体达到温度 $T_{2} = 350\\,\\mathrm{K}$ 的状态 3，可知气体做等压变化，则有\n$\\frac{2V_{1}}{T_{1}} = \\frac{V_{3}}{T_{2}}$\n可得状态 3 气体的体积为\n$V_{3} = \\frac{T_{2}}{T_{1}}\\cdot2V_{1} = \\frac{350}{300}\\times2\\times750\\,\\mathrm{cm}^3 = 1750\\,\\mathrm{cm}^3$\n\n该过程气体对外做功为\n$W = p_{2}\\Delta V = p_{2}(V_{3} - 2V_{1}) = 1.02\\times10^{5}\\times(1750 - 2\\times750)\\times10^{-6}\\,\\mathrm{J} = 25.5\\,\\mathrm{J}$\n\n根据热力学第一定律可得\n$\\Delta U = -W + Q'$\n解得气体吸收的热量为\n$Q' = \\Delta U + W = 63.8\\,\\mathrm{J} + 25.5\\,\\mathrm{J} = 89.3\\,\\mathrm{J}$\n可知电阻丝 C 放出的热量为\n$Q = Q' = 89.3\\,\\mathrm{J}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q18",
+      "number": 18,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 11,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "某固定装置的竖直截面如图所示，由倾角 $\\theta = 37^\\circ$ 的直轨道 AB，半径 $R = 1\\,\\mathrm{m}$ 的圆弧轨道 BCD，长度 $L = 1.25\\,\\mathrm{m}$、倾角为 $\\theta$ 的直轨道 DE，半径为 $R$、圆心角为 $\\theta$ 的圆弧管道 EF 组成，轨道间平滑连接。在轨道末端 F 右侧光滑水平面上紧靠着质量 $m = 0.5\\,\\mathrm{kg}$ 滑块 b，其上表面与轨道末端 F 所在的水平面平齐。质量 $m = 0.5\\,\\mathrm{kg}$ 的小物块 a 从轨道 AB 上高度为 $h$ 静止释放，经圆弧轨道 BCD 滑上轨道 DE，轨道 DE 由特殊材料制成，小物块 a 向上运动时动摩擦因数 $\\mu_{1} = 0.25$，向下运动时动摩擦因数 $\\mu_{2} = 0.5$，且最大静摩擦力等于滑动摩擦力。当小物块 a 在滑块 b 上滑动时动摩擦因数恒为 $\\mu_{1}$，小物块 a 与滑块右侧的竖直挡板能发生完全弹性碰撞。（其它轨道均光滑，小物块视为质点，不计空气阻力，$\\sin37^\\circ = 0.6$，$\\cos37^\\circ = 0.8$）\n\n（1）若 $h = 0.8\\,\\mathrm{m}$，求小物块\n\t\n① 第一次经过 C 点的向心加速度大小；\n② 在 DE 上经过的总路程；\n③ 在 DE 上向上运动时间 $t_{\\text{上}}$ 和向下运动时间 $t_{\\text{下}}$ 之比。\n（2）若 $h = 1.6\\,\\mathrm{m}$，滑块至少多长才能使小物块不脱离滑块。\n\n![物理配图](assets/2024/physics/1月浙江/18.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/18.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）① $16\\,\\mathrm{m}/\\mathrm{s}^2$；② $2\\,\\mathrm{m}$；③ $1:2$\n（2）$0.2\\,\\mathrm{m}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）①对小物块 a 从 A 到第一次经过 C 的过程，根据机械能守恒定律有 $mgh = \\frac{1}{2}mv_{C}^{2}$\n第一次经过 C 点的向心加速度大小为\n$a = \\frac{v_{C}^{2}}{R} = \\frac{2gh}{R} = 16\\,\\mathrm{m}/\\mathrm{s}^2$\n\n②小物块 a 在 DE 上时，因为\n$\\mu_{2}mg\\cos\\theta < mg\\sin\\theta$\n所以小物块 a 每次在 DE 上升至最高点后一定会下滑，之后经过若干次在 DE 上的滑动使机械能损失，最终小物块 a 将在 B、D 间往复运动，且易知小物块每次在 DE 上向上运动和向下运动的距离相等，设其在 DE 上经过的总路程为 $s$，根据功能关系有\n$mg[h - R(1 - \\cos\\theta)] = (\\mu_{1}mg\\cos\\theta + \\mu_{2}mg\\cos\\theta)\\frac{s}{2}$\n解得 $s = 2\\,\\mathrm{m}$\n\n③根据牛顿第二定律可知小物块 a 在 DE 上向上运动和向下运动的加速度大小分别为\n$a_{\\text{上}} = g\\sin\\theta + \\mu_{1}g\\cos\\theta = 8\\,\\mathrm{m}/\\mathrm{s}^2$\n$a_{\\text{下}} = g\\sin\\theta - \\mu_{2}g\\cos\\theta = 2\\,\\mathrm{m}/\\mathrm{s}^2$\n将小物块 a 在 DE 上的若干次运动等效看作是一次完整的上滑和下滑，则根据运动学公式有\n$\\frac{1}{2}a_{\\text{上}}t_{\\text{上}}^{2} = \\frac{1}{2}a_{\\text{下}}t_{\\text{下}}^{2}$\n解得 $\\frac{t_{\\text{上}}}{t_{\\text{下}}} = \\frac{1}{2}$\n\n（2）对小物块 a 从 A 到 F 的过程，根据动能定理有\n$\\frac{1}{2}mv_{F}^{2} = mg[h - L\\sin\\theta - 2R(1 - \\cos\\theta)] - \\mu_{1}mgL\\cos\\theta$\n解得 $v_{F} = 2\\,\\mathrm{m}/\\mathrm{s}$\n\n设滑块长度为 $l$ 时，小物块恰好不脱离滑块，且此时二者达到共同速度 $v$，根据动量守恒定律和能量守恒定律有\n$mv_{F} = 2mv$\n$\\frac{1}{2}mv_{F}^{2} = \\frac{1}{2}\\cdot2mv^{2} + 2\\mu_{1}mgl$\n解得 $l = 0.2\\,\\mathrm{m}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q19",
+      "number": 19,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 11,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "电磁感应能量分析"
+      ],
+      "stem_md": "如图所示，扫描隧道显微镜减振装置由绝缘减振平台和磁阻尼减振器组成。平台通过三根关于 $O'O''$ 轴对称分布的相同轻杆悬挂在轻质弹簧的下端 O，弹簧上端固定悬挂在 O$'$ 点，三个相同的关于 $O'O''$ 轴对称放置的减振器位于平台下方。每个减振器由通过绝缘轻杆固定在平台下表面的线圈和固定在桌面上能产生辐向磁场的铁磁体组成，辐向磁场分布关于线圈中心竖直轴对称，线圈所在处磁感应强度大小均为 $B$。处于静止状态的平台受到外界微小扰动，线圈在磁场中做竖直方向的阻尼运动，其位移随时间变化的图像如图 3 所示。已知 $t = 0$ 时速度为 $v_{0}$，方向向下，$t_{1}$、$t_{2}$ 时刻的振幅分别为 $A_{1}$、$A_{2}$。平台和三个线圈的总质量为 $m$，弹簧的劲度系数为 $k$，每个线圈半径为 $r$、电阻为 $R$。当弹簧形变量为 $\\Delta x$ 时，其弹性势能为 $\\frac{1}{2}k\\Delta x^{2}$。不计空气阻力，求：\n\n（1）平台静止时弹簧的伸长量 $\\Delta x$；\n（2）$t = 0$ 时，每个线圈所受到安培力 $F$ 的大小；\n（3）在 $0\\sim t_{1}$ 时间内，每个线圈产生的焦耳热 $Q$；\n（4）在 $t_{1}\\sim t_{2}$ 时间内，弹簧弹力冲量 $I_{\\text{弹}}$ 的大小。\n\n![物理配图](assets/2024/physics/1月浙江/19.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/19.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{mg}{k}$\n（2）$\\frac{4v_{0}r^{2}\\pi^{2}B^{2}}{R}$\n（3）$\\frac{1}{6}(mv_{0}^{2} - kA_{1}^{2})$\n（4）$I_{\\text{弹}} = mg(t_{2} - t_{1}) - \\frac{12r^{2}\\pi^{2}B^{2}(A_{1} - A_{2})}{R}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）平台静止时，穿过三个线圈的磁通量不变，线圈中不产生感应电流，线圈不受到安培力作用，O 点受力平衡，因此由胡克定律可知此时弹簧的伸长量\n$\\Delta x = \\frac{mg}{k}$\n\n（2）在 $t = 0$ 时速度为 $v_{0}$，每个线圈的周长为 $L = 2\\pi r$，由电磁感应定律可得线圈中产生的感应电流\n$I = \\frac{E}{R} = \\frac{BLv_{0}}{R}$\n每个线圈所受到安培力 $F$ 的大小 $F = BIL = \\frac{4v_{0}r^{2}\\pi^{2}B^{2}}{R}$\n\n（3）由能量守恒定律可得平台在 $0\\sim t_{1}$ 时间内，振动时能量的减少\n$Q' = \\frac{1}{2}mv_{0}^{2} - \\frac{1}{2}kA_{1}^{2}$\n在 $0\\sim t_{1}$ 时间内，振动时能量的减少转化为线圈的焦耳热，可知每个线圈产生的焦耳热\n$Q = \\frac{1}{3}Q' = \\frac{1}{6}(mv_{0}^{2} - kA_{1}^{2})$\n\n（4）设向上为正方向，对全过程列动量定理可得\n$I_{\\text{弹}} + I_{A} - I_{G} = 0$\n其中 $I_{G} = mg(t_{2} - t_{1})$\n$I_{A} = F_{A}t = 3\\times\\sum\\frac{4vr^{2}\\pi^{2}B^{2}}{R}\\Delta t = \\frac{12r^{2}\\pi^{2}B^{2}}{R}\\sum v\\Delta t = \\frac{12r^{2}\\pi^{2}B^{2}}{R}\\Delta x = \\frac{12r^{2}\\pi^{2}B^{2}}{R}(A_{1} - A_{2})$\n联立解得弹簧弹力冲量 $I_{\\text{弹}}$ 的大小为\n$I_{\\text{弹}} = mg(t_{2} - t_{1}) - \\frac{12r^{2}\\pi^{2}B^{2}(A_{1} - A_{2})}{R}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2024-physics-1月浙江-q20",
+      "number": 20,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 11,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "类似光学中的反射和折射现象，用磁场或电场调控也能实现质子束的“反射”和“折射”。如图所示，在竖直平面内有三个平行区域 Ⅰ、Ⅱ 和 Ⅲ；Ⅰ 区宽度为 $d$，存在磁感应强度大小为 $B$、方向垂直平面向外的匀强磁场，Ⅱ 区的宽度很小。Ⅰ 区和 Ⅲ 区电势处处相等，分别为 $\\varphi_{\\text{Ⅰ}}$ 和 $\\varphi_{\\text{Ⅲ}}$，其电势差 $U = \\varphi_{\\text{Ⅰ}} - \\varphi_{\\text{Ⅲ}}$。一束质量为 $m$、电荷量为 $e$ 的质子从 O 点以入射角 $\\theta$ 射向 Ⅰ 区，在 P 点以出射角 $\\theta$ 射出，实现“反射”；质子束从 P 点以入射角 $\\theta$ 射入 Ⅱ 区，经 Ⅱ 区“折射”进入 Ⅲ 区，其出射方向与法线夹角为“折射”角。已知质子仅在平面内运动，单位时间发射的质子数为 $N$，初速度为 $v_{0}$，不计质子重力，不考虑质子间相互作用以及质子对磁场和电势分布的影响。\n\n（1）若不同角度射向磁场的质子都能实现“反射”，求 $d$ 的最小值；\n（2）若 $U = \\frac{mv_{0}^{2}}{2e}$，求“折射率”$n$（入射角正弦与折射角正弦的比值）；\n（3）计算说明如何调控电场，实现质子束从 P 点进入 Ⅱ 区发生“全反射”（即质子束全部返回 Ⅰ 区）；\n（4）在 P 点下方距离 $\\frac{\\sqrt{3}mv_{0}}{eB}$ 处水平放置一长为 $\\frac{4mv_{0}}{eB}$ 的探测板 CQD（Q 在 P 的正下方），CQ 长为 $\\frac{mv_{0}}{eB}$，质子打在探测板上即被吸收中和。若还有另一相同质子束，与原质子束关于法线左右对称，同时从 O 点射入 Ⅰ 区，且 $\\theta = 30^\\circ$，求探测板受到竖直方向力 $F$ 的大小与 $U$ 之间的关系。\n\n![物理配图](assets/2024/physics/1月浙江/20.png)",
+      "figures": [
+        "assets/2024/physics/1月浙江/20.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{mv_{0}}{eB}$\n（2）$\\sqrt{2}$\n（3）$U \\leqslant -\\frac{mv_{0}^{2}\\cos^{2}\\theta}{2e}$\n（4）当 $U \\geq 0$ 时 $F = Nm\\sqrt{\\frac{3}{4}v_{0}^{2} + \\frac{2eU}{m}}$；当 $U < -\\frac{mv_{0}^{2}}{3e}$ 时 $F = 0$；当 $-\\frac{mv_{0}^{2}}{3e} \\leqslant U < 0$ 时，$F = Nm\\sqrt{\\frac{3}{4}v_{0}^{2} + \\frac{2eU}{m}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意可知粒子从右侧射出，临界情况为 $r = d_{\\min}$\n根据牛顿第二定律\n$Bev_{0} = m\\frac{v_{0}^{2}}{r}$\n解得 $d_{\\min} = r = \\frac{mv_{0}}{eB}$\n\n（2）设水平方向为 $x$ 方向，竖直方向为 $y$ 方向，$x$ 方向速度不变，$y$ 方向速度变小，假设折射角为 $\\theta'$，根据动能定理 $Ue = \\frac{1}{2}mv_{1}^{2} - \\frac{1}{2}mv_{0}^{2}$\n解得 $v_{1} = \\sqrt{2}v_{0}$\n根据速度关系 $v_{0}\\sin\\theta = v_{1}\\sin\\theta'$\n解得 $n = \\frac{\\sin\\theta}{\\sin\\theta'} = \\frac{v_{1}}{v_{0}} = \\sqrt{2}$\n\n（3）全反射的临界情况：到达 Ⅲ 区的时候 $y$ 方向速度为零，即\n$Ue = 0 - \\frac{1}{2}m(v_{0}\\cos\\theta)^{2}$\n可得 $U = -\\frac{mv_{0}^{2}\\cos^{2}\\theta}{2e}$\n即应满足 $U \\leqslant -\\frac{mv_{0}^{2}\\cos^{2}\\theta}{2e}$\n\n（4）临界情况有两个：1、全部都能打到，2、全部都打不到的情况，根据几何关系可得 $\\angle CPQ = 30^\\circ$\n所以如果 $U \\geq 0$ 的情况下，折射角小于入射角，两边射入的粒子都能打到板上，分情况讨论如下：\n\n当 $U \\geq 0$ 时 $F = 2Nmv_{y}$\n又 $eU = \\frac{1}{2}mv_{y}^{2} - \\frac{1}{2}m(v_{0}\\cos\\theta)^{2}$\n解得 $F = Nm\\sqrt{\\frac{3}{4}v_{0}^{2} + \\frac{2eU}{m}}$\n\n全部都打不到板的情况：根据几何知识可知当从 Ⅱ 区射出时速度与竖直方向夹角为 $60^\\circ$ 时，粒子刚好打到 D 点，水平方向速度为 $v_{x} = \\frac{v_{0}}{2}$\n所以 $v_{y} = \\frac{v_{x}}{\\tan60^\\circ} = \\frac{\\sqrt{3}}{6}v_{0}$\n又 $eU = \\frac{1}{2}mv_{y}^{2} - \\frac{1}{2}m(v_{0}\\cos\\theta)^{2}$\n解得 $U = -\\frac{mv_{0}^{2}}{3e}$\n即当 $U < -\\frac{mv_{0}^{2}}{3e}$ 时 $F = 0$\n\n部分能打到的情况，根据上述分析可知条件为 $-\\frac{mv_{0}^{2}}{3e} \\leqslant U < 0$，此时仅有 O 点左侧的一束粒子能打到板上，因此 $F = 2Nmv_{y}$\n又 $eU = \\frac{1}{2}mv_{y}^{2} - \\frac{1}{2}m(v_{0}\\cos\\theta)^{2}$\n解得 $F = Nm\\sqrt{\\frac{3}{4}v_{0}^{2} + \\frac{2eU}{m}}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

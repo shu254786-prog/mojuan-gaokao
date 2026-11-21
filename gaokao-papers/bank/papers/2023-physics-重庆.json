@@ -1,0 +1,720 @@
+{
+  "id": "2023-physics-重庆",
+  "year": 2023,
+  "subject": "物理",
+  "region": "重庆卷",
+  "region_key": "重庆",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2023-physics-重庆-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "力物体的平衡",
+        "力的合成"
+      ],
+      "stem_md": "矫正牙齿时，可用牵引线对牙施加力的作用。若某颗牙齿受到牵引线的两个作用力大小均为 $F$，夹角为 $\\alpha$（如图），则该牙所受两牵引力的合力大小为（  ）\n\n![物理配图](assets/2023/physics/重庆/01.png)",
+      "figures": [
+        "assets/2023/physics/重庆/01.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$2F\\sin\\frac{\\alpha}{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$2F\\cos\\frac{\\alpha}{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$F\\sin\\alpha$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$F\\cos\\alpha$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据平行四边形定则可知，该牙所受两牵引力的合力大小为\n$F_{\\text{合}}=2F\\cos\\frac{\\alpha}{2}$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "电磁感应",
+        "法拉第电磁感应定律"
+      ],
+      "stem_md": "某小组设计了一种呼吸监测方案：在人身上缠绕弹性金属线圈，观察人呼吸时处于匀强磁场中的线圈面积变化产生的电压，了解人的呼吸状况。如图所示，线圈 P 的匝数为 $N$，磁场的磁感应强度大小为 $B$，方向与线圈轴线的夹角为 $\\theta$。若某次吸气时，在 $t$ 时间内每匝线圈面积增加了 $S$，则线圈 P 在该时间内的平均感应电动势为（  ）\n\n![物理配图](assets/2023/physics/重庆/02.png)",
+      "figures": [
+        "assets/2023/physics/重庆/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{NBS\\cos\\theta}{t}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{NBS\\sin\\theta}{t}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{BS\\sin\\theta}{t}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{BS\\cos\\theta}{t}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据法拉第电磁感应定律有\n$\\overline{E}=N\\frac{\\Delta\\Phi}{\\Delta t}=NB\\cos\\theta\\frac{S}{t}=\\frac{NBS\\cos\\theta}{t}$\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电场",
+        "电场叠加"
+      ],
+      "stem_md": "真空中固定有两个点电荷，负电荷 $Q_{1}$ 位于坐标原点处，正电荷 $Q_{2}$ 位于 $x$ 轴上，$Q_{2}$ 的电荷量大小为 $Q_{1}$ 的 8 倍。若这两点电荷在 $x$ 轴正半轴的 $x=x_{0}$ 处产生的合电场强度为 0，则 $Q_{1}$、$Q_{2}$ 相距（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\sqrt{2}x_{0}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$(2\\sqrt{2}-1)x_{0}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$2\\sqrt{2}x_{0}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$(2\\sqrt{2}+1)x_{0}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "依题意，两点电荷电性相反，且 $Q_{2}$ 的电荷量较大，所以合场强为 0 的位置应该在 $x$ 轴的负半轴，设两点电荷相距 $L$，根据点电荷场强公式可得\n$\\frac{kQ_{1}}{x_{0}^{2}}=\\frac{kQ_{2}}{(x_{0}+L)^{2}}$\n\n又 $Q_{2}=8Q_{1}$\n\n解得 $L=(2\\sqrt{2}-1)x_{0}$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "气体图象"
+      ],
+      "stem_md": "密封于气缸中的理想气体，从状态 a 依次经过 $ab$、$bc$ 和 $cd$ 三个热力学过程达到状态 d。若该气体的体积 $V$ 随热力学温度 $T$ 变化的 $V-T$ 图像如图所示，则对应的气体压强 $p$ 随 $T$ 变化的 $p-T$ 图像正确的是（  ）\n\n![物理配图](assets/2023/physics/重庆/04.png)",
+      "figures": [
+        "assets/2023/physics/重庆/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2023/physics/重庆/04a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2023/physics/重庆/04b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2023/physics/重庆/04c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2023/physics/重庆/04d.png"
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由 $V-T$ 图像可知，理想气体 $ab$ 过程做等压变化，$bc$ 过程做等温变化，$cd$ 过程做等容变化。根据理想气体状态方程，有\n$\\frac{pV}{T}=C$\n\n可知 $bc$ 过程理想气体的体积增大，则压强减小。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "某实验小组利用双缝干涉实验装置分别观察 a、b 两单色光的干涉条纹，发现在相同的条件下光屏上 a 光相邻两亮条纹的间距比 b 光的小。他们又将 a、b 光以相同的入射角由水斜射入空气，发现 a 光的折射角比 b 光的大，则（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在空气中传播时，a 光的波长比 b 光的大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在水中传播时，a 光的速度比 b 光的大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在水中传播时，a 光的频率比 b 光的小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "由水射向空气时，a 光的全反射临界角比 b 光的小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据相邻两条亮条纹的间距计算公式\n$\\Delta x=\\frac{L}{d}\\lambda$\n\n由此可知\n$\\lambda_{a}<\\lambda_{b}$\n\n故 A 错误；\n\nB．根据折射定律\n$n=\\frac{\\sin i}{\\sin r}$\n\na、b 光以相同的入射角由水斜射入空气，a 光的折射角比 b 光的大，则\n$n_{a}>n_{b}$\n\n根据光在介质中的传播速度与折射率的关系\n$n=\\frac{c}{v}$\n\n可得在水中传播时，a 光的速度比 b 光的小，故 B 错误；\n\nC．在水中传播时，a 光的折射率比 b 光的大，所以 a 光的频率比 b 光的大，故 C 错误；\n\nD．根据临界角与折射率的关系\n$n=\\frac{1}{\\sin C}$\n\n可得在水中传播时，a 光的折射率比 b 光的大，a 光的全反射临界角比 b 光的小，故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "原子和原子核",
+        "天然放射性"
+      ],
+      "stem_md": "原子核 \\ce{^{235}_{92} U} 可以经过多次 $\\alpha$ 和 $\\beta$ 衰变成为稳定的原子核 \\ce{^{207}_{82} Pb}，在该过程中，可能发生的 $\\beta$ 衰变是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "\\ce{^{223}_{87} Fr -> ^{223}_{88} Ra + ^{0}_{-1} e}",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "\\ce{^{213}_{84} Bi -> ^{213}_{83} Po + ^{0}_{-1} e}",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "\\ce{^{225}_{88} Ra -> ^{225}_{89} Ac + ^{0}_{-1} e}",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "\\ce{^{218}_{84} Po -> ^{218}_{85} At + ^{0}_{-1} e}",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "原子核 \\ce{^{235}_{92} U} 衰变成为稳定的原子核 \\ce{^{207}_{82} Pb} 质量数减小了 28，则经过了 7 次 $\\alpha$ 衰变，中间生成的新核的质量数可能为 231，227，223，219，215，211，则发生 $\\beta$ 衰变的原子核的质量数为上述各数，则 BCD 都不可能，根据核反应的质量数和电荷数守恒可知，选项 A 反应正确。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "电磁感应中的变加速"
+      ],
+      "stem_md": "如图所示，与水平面夹角为 $\\theta$ 的绝缘斜面上固定有光滑 U 型金属导轨。质量为 $m$、电阻不可忽略的导体杆 MN 沿导轨向下运动，以大小为 $v$ 的速度进入方向垂直于导轨平面向下的匀强磁场区域，在磁场中运动一段时间 $t$ 后，速度大小变为 $2v$。运动过程中杆与导轨垂直并接触良好，导轨的电阻忽略不计，重力加速度为 $g$。杆在磁场中运动的此段时间内（  ）\n\n![物理配图](assets/2023/physics/重庆/07.png)",
+      "figures": [
+        "assets/2023/physics/重庆/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "流过杆的感应电流方向从 N 到 M",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "杆沿轨道下滑的距离为 $\\frac{3}{2}vt$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "流过杆感应电流的平均电功率等于重力的平均功率",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "杆所受安培力的冲量大小为 $mgt\\sin\\theta-mv$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据右手定则，判断知流过杆的感应电流方向从 M 到 N，故 A 错误；\n\nB．依题意，设杆切割磁感线的有效长度为 $L$，电阻为 $R$。杆在磁场中运动的此段时间内，杆受到重力、轨道支持力及沿轨道向上的安培力作用，根据牛顿第二定律可得\n$mg\\sin\\theta-F_{\\text{安}}=ma$\n\n$F_{\\text{安}}=BIL$\n\n$I=\\frac{BLv}{R}$\n\n联立可得杆的加速度\n$a=g\\sin\\theta-\\frac{B^{2}L^{2}v}{R}$\n\n可知，杆在磁场中运动的此段时间内做加速度逐渐减小的加速运动；若杆做匀加速直线运动，则杆运动的距离为\n$s=\\frac{v+2v}{2}\\cdot t=\\frac{3}{2}vt$\n\n根据 $v-t$ 图像围成的面积表示位移，可知杆在时间 $t$ 内速度由 $v$ 达到 $2v$，杆真实运动的距离大于匀加速情况发生的距离，即大于 $\\frac{3}{2}vt$，故 B 错误；\n\nC．由于在磁场中运动的此段时间内，杆做加速度逐渐减小的加速运动，杆的动能增大。由动能定理可知，重力对杆所做的功大于杆克服安培力所做的功，根据 $\\overline{P}=\\frac{W}{t}$ 可得安培力的平均功率小于重力的平均功率，也即流过杆感应电流的平均电功率小于重力的平均功率，故 C 错误；\n\nD．杆在磁场中运动的此段时间内，根据动量定理，可得\n$mgt\\sin\\theta-I_{\\text{安}}=m\\cdot 2v-mv$\n\n得杆所受安培力的冲量大小为 $I_{\\text{安}}=mgt\\sin\\theta-mv$\n\n故 D 正确。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 450,
+      "topics": [
+        "直线运动",
+        "运动图象"
+      ],
+      "stem_md": "某实验小组测得在竖直方向飞行的无人机飞行高度 $y$ 随时间 $t$ 的变化曲线如图所示，E、F、M、N 为曲线上的点，EF、MN 段可视为两段直线，其方程分别为 $y=4t-26$ 和 $y=-2t+140$。无人机及其载物的总质量为 $2\\,\\mathrm{kg}$，取竖直向上为正方向。则（  ）\n\n![物理配图](assets/2023/physics/重庆/08.png)",
+      "figures": [
+        "assets/2023/physics/重庆/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "EF 段无人机的速度大小为 $4\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "FM 段无人机的货物处于失重状态",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "FN 段无人机和装载物总动量变化量大小为 $4\\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "MN 段无人机机械能守恒",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AB",
+        "choices": [
+          "A",
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据 EF 段方程\n$y=4t-26$\n\n可知 EF 段无人机的速度大小为\n$v=\\frac{\\Delta y}{\\Delta t}=4\\,\\mathrm{m}/\\mathrm{s}$\n\n故 A 正确；\n\nB．根据 $y-t$ 图像的切线斜率表示无人机的速度，可知 FM 段无人机先向上做减速运动，后向下做加速运动，加速度方向一直向下，则无人机的货物处于失重状态，故 B 正确；\n\nC．根据 MN 段方程\n$y=-2t+140$\n\n可知 MN 段无人机的速度为\n$v'=\\frac{\\Delta y'}{\\Delta t'}=-2\\,\\mathrm{m}/\\mathrm{s}$\n\n则有\n$\\Delta p=mv'-mv=2\\times(-2)\\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}-2\\times4\\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}=-12\\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$\n\n可知 FN 段无人机和装载物总动量变化量大小为 $12\\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}$，故 C 错误；\n\nD．MN 段无人机向下做匀速直线运动，动能不变，重力势能减少，无人机的机械能不守恒，故 D 错误。\n\n故选 AB。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 550,
+      "topics": [
+        "机械波",
+        "波的图象"
+      ],
+      "stem_md": "一列简谐横波在介质中沿 $x$ 轴传播，波速为 $2\\,\\mathrm{m}/\\mathrm{s}$，$t=0$ 时的波形图如图所示，P 为该介质中的一质点。则（  ）\n\n![物理配图](assets/2023/physics/重庆/09.png)",
+      "figures": [
+        "assets/2023/physics/重庆/09.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "该波的波长为 $14\\,\\mathrm{m}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "该波的周期为 $8\\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$t=0$ 时质点 P 的加速度方向沿 $y$ 轴负方向",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$0\\sim2\\,\\mathrm{s}$ 内质点 P 运动的路程有可能小于 $0.1\\,\\mathrm{m}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由图可知\n$\\frac{3}{4}\\lambda=12\\,\\mathrm{m}$\n\n解得\n$\\lambda=16\\,\\mathrm{m}$\n\nA 错误；\n\nB．由\n$v=\\frac{\\lambda}{T}$\n\n得\n$T=\\frac{\\lambda}{v}=\\frac{16}{2}\\,\\mathrm{s}=8\\,\\mathrm{s}$\n\nB 正确；\n\nC．简谐运动的加速度总指向平衡位置，P 点位于 $y$ 轴负半轴，加速度方向沿 $y$ 轴正方向，C 错误；\n\nD．P 点位于 $y$ 轴的负半轴，经过\n$2\\,\\mathrm{s}=\\frac{T}{4}$\n\n若波向 $x$ 轴负方向传播，P 向远离平衡位置方向振动，在 $0\\sim2\\,\\mathrm{s}$ 内质点 P 运动的路程有可能小于 $0.1\\,\\mathrm{m}$，D 正确。\n\n故选 BD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 5,
+      "difficulty": 450,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "某卫星绕地心的运动视为匀速圆周运动，其周期为地球自转周期 $T$ 的 $\\frac{3}{10}$，运行的轨道与地球赤道不共面（如图）。$t_{0}$ 时刻，卫星恰好经过地球赤道上 P 点正上方。地球的质量为 $M$，半径为 $R$，引力常量为 $G$。则（  ）\n\n![物理配图](assets/2023/physics/重庆/10.png)",
+      "figures": [
+        "assets/2023/physics/重庆/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "卫星距地面的高度为 $\\sqrt[3]{\\frac{GMT^{2}}{4\\pi^{2}}}-R$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "卫星与位于 P 点处物体的向心加速度大小比值为 $\\frac{5}{9\\pi R}\\sqrt[3]{180\\pi GMT^{2}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "从 $t_{0}$ 时刻到下一次卫星经过 P 点正上方时，卫星绕地心转过的角度为 $20\\pi$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "每次经最短时间实现卫星距 P 点最近到最远的行程，卫星绕地心转过的角度比地球的多 $7\\pi$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BCD",
+        "choices": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．由题意，知卫星绕地球运转的周期为\n$T'=\\frac{3}{10}T$\n\n设卫星的质量为 $m$，卫星距地面的高度为 $h$，有\n$G\\frac{Mm}{(R+h)^{2}}=m(R+h)(\\frac{2\\pi}{T'})^{2}$\n\n联立，可求得\n$h=(\\frac{9GMT^{2}}{400\\pi^{2}})^{\\frac{1}{3}}-R$\n\n故 A 错误；\n\nB．卫星的向心加速度大小\n$a_{1}=(R+h)\\omega'^{2}=(R+h)(\\frac{2\\pi}{T'})^{2}$\n\n位于 P 点处物体的向心加速度大小\n$a_{2}=R\\omega^{2}=R(\\frac{2\\pi}{T})^{2}$\n\n可得\n$\\frac{a_{1}}{a_{2}}=\\frac{R+h}{R}(\\frac{T}{T'})^{2}=\\frac{5}{9\\pi R}(180\\pi GMT^{2})^{\\frac{1}{3}}$\n\n故 B 正确；\n\nCD．要想卫星再次在 P 点的正上方，则只能是题中两个轨道的交点，因此要实现出现在正上方，第一种情形是经过一段时间都回到了当前点，即各自转动整数圈，最小公倍数为 3，此时卫星转动 10 圈，即转动角度为 $20\\pi$，第二种情形是都转动整数圈加半圈，此时最小公倍数为 1.5，卫星转动五圈，此时相距最远，转动角度相差 $7\\pi$，故 CD 正确。\n\n故选 BCD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "机械振动",
+        "单摆测重力加速度"
+      ],
+      "stem_md": "某实验小组用单摆测量重力加速度。所用实验器材有摆球、长度可调的轻质摆线、刻度尺、50 分度的游标卡尺、摄像装置等。\n\n![物理配图](assets/2023/physics/重庆/11a.png) ![物理配图](assets/2023/physics/重庆/11b.png)\n\n（1）用游标卡尺测量摆球直径 $d$。当量爪并拢时，游标尺和主尺的零刻度线对齐。放置摆球后游标卡尺示数如图甲所示，则摆球的直径 $d$ 为 ______  $\\,\\mathrm{mm}$。\n（2）用摆线和摆球组成单摆，如图乙所示。当摆线长度 $l=990.1 \\,\\mathrm{mm}$ 时，记录并分析单摆的振动视频，得到单摆的振动周期 $T=2.00 \\,\\mathrm{s}$，由此算得重力加速度 $g$ 为 ______  $\\,\\mathrm{m}/\\mathrm{s}^2$（保留 3 位有效数字）。\n（3）改变摆线长度 $l$，记录并分析单摆的振动视频，得到相应的振动周期。他们发现，分别用 $l$ 和 $l+\\frac{d}{2}$ 作为摆长，这两种计算方法得到的重力加速度数值的差异大小 $\\Delta g$ 随摆线长度 $l$ 的变化曲线如图所示。由图可知，该实验中，随着摆线长度 $l$ 的增加，$\\Delta g$ 的变化特点是 ______ ，原因是 ______ 。\n\n![物理配图](assets/2023/physics/重庆/11c.png)",
+      "figures": [
+        "assets/2023/physics/重庆/11c.png",
+        "assets/2023/physics/重庆/11a.png",
+        "assets/2023/physics/重庆/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）19.20\n（2）9.86\n（3）随着摆线长度 $l$ 的增加，$\\Delta g$ 逐渐减小；原因是随着摆线长度 $l$ 的增加，则 $l+\\frac{d}{2}$ 越接近于 $l$，此时计算得到的 $g$ 的差值越小",
+        "sub_answers": [
+          "19.20",
+          "9.86",
+          "逐渐减小",
+          "随着摆线长度 $l$ 的增加，则 $l+\\frac{d}{2}$ 越接近于 $l$，此时计算得到的 $g$ 的差值越小"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）用游标卡尺测量摆球直径 $d=19\\,\\mathrm{mm}+0.02\\,\\mathrm{mm}\\times10=19.20\\,\\mathrm{mm}$\n\n（2）单摆的摆长为 $L=990.1\\,\\mathrm{mm}+\\frac{1}{2}\\times19.20\\,\\mathrm{mm}=999.7\\,\\mathrm{mm}$\n\n根据 $T=2\\pi\\sqrt{\\frac{L}{g}}$，可得 $g=\\frac{4\\pi^{2}L}{T^{2}}$，带入数据\n$g=\\frac{4\\times3.14^{2}\\times0.9997}{2^{2}}\\,\\mathrm{m}/\\mathrm{s}^2=9.86\\,\\mathrm{m}/\\mathrm{s}^2$\n\n（3）由图可知，随着摆线长度 $l$ 的增加，$\\Delta g$ 逐渐减小，原因是随着摆线长度 $l$ 的增加，则 $l+\\frac{d}{2}$ 越接近于 $l$，此时计算得到的 $g$ 的差值越小。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "一兴趣小组拟研究某变压器的输入和输出电压之比，以及交流电频率对输出电压的影响。题图 1 为实验电路图，其中 L$_{1}$ 和 L$_{2}$ 为变压器的原、副线圈，S$_{1}$ 和 S$_{2}$ 为开关，P 为滑动变阻器 $R_{P}$ 的滑片，$R$ 为电阻箱，$E$ 为正弦式交流电源（能输出电压峰值不变、频率可调的交流电）。\n\n（1）闭合 S$_{1}$，用多用电表交流电压挡测量线圈 L$_{1}$ 两端的电压。滑片 P 向右滑动后，与滑动前相比，电表的示数 ______ （选填“变大”、“不变”或“变小”）。\n（2）保持 S$_{2}$ 断开状态，调整 $E$ 输出的交流电频率为 $50\\,\\mathrm{Hz}$，滑动滑片 P，用多用电表交流电压挡测得线圈 L$_{1}$ 两端的电压为 $2\\,500\\,\\mathrm{mV}$ 时，用示波器测得线圈 L$_{2}$ 两端电压 $u$ 随时间 $t$ 的变化曲线如图所示，则线圈 L$_{1}$ 两端与 L$_{2}$ 两端的电压比值为 ______ （保留 3 位有效数字）。\n（3）闭合 S$_{2}$，滑动 P 到某一位置并保持不变。分别在 $E$ 输出的交流电频率为 $50\\,\\mathrm{Hz}$、$1\\,000\\,\\mathrm{Hz}$ 的条件下，改变 $R$ 的阻值，用多用电表交流电压挡测量线圈 L$_{2}$ 两端的电压 $U$，得到 $U-R$ 关系曲线如图 3 所示。用一个阻值恒为 $20\\,\\Omega$ 的负载 $R_{0}$ 替换电阻箱 $R$，由图可知，当频率为 $1\\,000\\,\\mathrm{Hz}$ 时，$R_{0}$ 两端的电压为 ______  $\\,\\mathrm{mV}$；当频率为 $50\\,\\mathrm{Hz}$ 时，为保持 $R_{0}$ 两端的电压不变，需要将 $R_{0}$ 与一个阻值为 ______  $\\,\\Omega$ 的电阻串联。（均保留 3 位有效数字）\n\n![物理配图](assets/2023/physics/重庆/12a.png) ![物理配图](assets/2023/physics/重庆/12b.png) ![物理配图](assets/2023/physics/重庆/12c.png)",
+      "figures": [
+        "assets/2023/physics/重庆/12a.png",
+        "assets/2023/physics/重庆/12b.png",
+        "assets/2023/physics/重庆/12c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）变大\n（2）12.6\n（3）272，7.94",
+        "sub_answers": [
+          "变大",
+          "12.6",
+          "272",
+          "7.94"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）闭合 S$_{1}$，滑动变阻器 $R_{p}$ 是分压接法，滑片 P 向右滑动后，用多用电表交流电压挡测量线圈 L$_{1}$ 两端的电压。线圈 L$_{1}$ 两端的电压增大，因此与滑动前相比，电表的示数变大。\n\n（2）保持 S$_{2}$ 断开状态，调整 $E$ 输出的交流电频率为 $50\\,\\mathrm{Hz}$，多用电表交流电压挡测得线圈 L$_{1}$ 两端的电压为 $U_{1}=2500\\,\\mathrm{mV}$。线圈 L$_{2}$ 两端电压 $u$ 随时间 $t$ 的变化曲线如图所示，由 $u-t$ 图像可得，线圈 L$_{2}$ 两端电压为\n$U_{2}=\\frac{U_{m}}{\\sqrt{2}}=\\frac{280}{\\sqrt{2}}\\,\\mathrm{mV}$\n\n则线圈 L$_{1}$ 两端与 L$_{2}$ 两端的电压比值为\n$\\frac{U_{1}}{U_{2}}=\\frac{2500}{\\frac{280}{\\sqrt{2}}}=12.6$\n\n（3）闭合 S$_{2}$，滑动 P 到某一位置并保持不变。由 $U-R$ 关系曲线可得，当频率为 $1000\\,\\mathrm{Hz}$ 时，当负载电阻 $R_{0}=20\\,\\Omega$ 时，$R_{0}$ 两端的电压为 $U_{R0}=272\\,\\mathrm{mV}$。\n\n当频率为 $50\\,\\mathrm{Hz}$ 时，由 $U-R$ 关系曲线可得线圈 L$_{2}$ 两端的电压为 $U'=380\\,\\mathrm{mV}$。要保持 $R_{0}$ 两端的电压不变，需给 $R_{0}$ 串联一电阻，此串联电阻值为\n$R_{\\text{串}}=\\frac{U'-U_{R0}}{\\frac{U_{R0}}{R_{0}}}=\\frac{380-272}{\\frac{272}{20}}\\,\\Omega=7.94\\,\\Omega$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 11,
+      "difficulty": 750,
+      "topics": [
+        "功和能",
+        "动能定理"
+      ],
+      "stem_md": "机械臂广泛应用于机械装配。若某质量为 $m$ 的工件（视为质点）被机械臂抓取后，在竖直平面内由静止开始斜向上做加速度大小为 $a$ 的匀加速直线运动，运动方向与竖直方向夹角为 $\\theta$，提升高度为 $h$，如图所示。求：\n\n（1）提升高度为 $h$ 时，工件的速度大小；\n（2）在此过程中，工件运动的时间及合力对工件做的功。\n\n![物理配图](assets/2023/physics/重庆/13.png)",
+      "figures": [
+        "assets/2023/physics/重庆/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\sqrt{\\frac{2ah}{\\cos\\theta}}$\n（2）$\\sqrt{\\frac{2h}{a\\cos\\theta}}$，$\\frac{mah}{\\cos\\theta}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据匀变速直线运动位移与速度关系有\n$v_{0}^{2}=2a\\frac{h}{\\cos\\theta}$\n\n解得 $v_{0}=\\sqrt{\\frac{2ah}{\\cos\\theta}}$\n\n（2）根据速度公式有 $v_{0}=at$\n\n解得 $t=\\sqrt{\\frac{2h}{a\\cos\\theta}}$\n\n根据动能定理有 $W_{\\text{合}}=\\frac{1}{2}mv_{0}^{2}$\n\n解得 $W_{\\text{合}}=\\frac{mah}{\\cos\\theta}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 12,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "圆周运动的应用"
+      ],
+      "stem_md": "如图所示，桌面上固定有一半径为 $R$ 的水平光滑圆轨道，M、N 为轨道上的两点，且位于同一直径上，P 为 MN 段的中点。在 P 点处有一加速器（大小可忽略），小球每次经过 P 点后，其速度大小都增加 $v_{0}$。质量为 $m$ 的小球 1 从 N 处以初速度 $v_{0}$ 沿轨道逆时针运动，与静止在 M 处的小球 2 发生第一次弹性碰撞，碰后瞬间两球速度大小相等。忽略每次碰撞时间。求：\n\n（1）球 1 第一次经过 P 点后瞬间向心力的大小；\n（2）球 2 的质量；\n（3）两球从第一次碰撞到第二次碰撞所用时间。\n\n![物理配图](assets/2023/physics/重庆/14.png)",
+      "figures": [
+        "assets/2023/physics/重庆/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{4mv_{0}^{2}}{R}$\n（2）$3m$\n（3）$\\frac{5\\pi R}{6v_{0}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）球 1 第一次经过 P 点后瞬间速度变为 $2v_{0}$，所以\n$F_{n}=m\\frac{(2v_{0})^{2}}{R}=4m\\frac{v_{0}^{2}}{R}$\n\n（2）球 1 与球 2 发生弹性碰撞，且碰后速度大小相等，说明球 1 碰后反弹，则\n$m\\cdot2v_{0}=-mv+m'v$\n\n$\\frac{1}{2}m(2v_{0})^{2}=\\frac{1}{2}mv^{2}+\\frac{1}{2}m'v^{2}$\n\n联立解得\n$v=v_{0}$，$m'=3m$\n\n（3）设两球从第一次碰撞到第二次碰撞所用时间为 $\\Delta t$，则\n$t_{1}=\\frac{\\pi R}{2v_{0}}$\n\n$v_{0}t_{2}+2v_{0}t_{2}=\\pi R$\n\n所以 $\\Delta t=t_{1}+t_{2}=\\frac{5\\pi R}{6v_{0}}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2023-physics-重庆-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 18,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在组合场中的运动"
+      ],
+      "stem_md": "某同学设计了一种粒子加速器的理想模型。如图所示，$xOy$ 平面内，$x$ 轴下方充满垂直于纸面向外的匀强磁场，$x$ 轴上方被某边界分割成两部分，一部分充满匀强电场（电场强度与 $y$ 轴负方向成 $\\alpha$ 角），另一部分无电场，该边界与 $y$ 轴交于 M 点，与 $x$ 轴交于 N 点。只有经电场到达 N 点、与 $x$ 轴正方向成 $\\alpha$ 角斜向下运动的带电粒子才能进入磁场。从 M 点向电场内发射一个比荷为 $\\frac{q}{m}$ 的带电粒子 A，其速度大小为 $v_{0}$、方向与电场方向垂直，仅在电场中运动时间 $T$ 后进入磁场，且通过 N 点的速度大小为 $2v_{0}$。忽略边界效应，不计粒子重力。\n\n（1）求角度 $\\alpha$ 及 M、N 两点的电势差。\n（2）在该边界上任意位置沿与电场垂直方向直接射入电场内的、比荷为 $\\frac{q}{m}$ 的带电粒子，只要速度大小适当，就能通过 N 点进入磁场，求 N 点横坐标及此边界方程。\n（3）若粒子 A 第一次在磁场中运动时磁感应强度大小为 $B_{1}$，以后每次在磁场中运动时磁感应强度大小为上一次的一半，则粒子 A 从 M 点发射后，每次加速均能通过 N 点进入磁场。求磁感应强度大小 $B_{1}$ 及粒子 A 从发射到第 $n$ 次通过 N 点的时间。\n\n![物理配图](assets/2023/physics/重庆/15.png)",
+      "figures": [
+        "assets/2023/physics/重庆/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$30^\\circ$，$\\frac{3mv_{0}^{2}}{2q}$\n（2）$\\frac{3\\sqrt{3}v_{0}T}{4}$，$y=\\frac{v_{0}T}{4}-\\frac{\\sqrt{3}}{9}x$\n（3）$B_{1}=\\frac{\\sqrt{3}m}{6qT}$，$t=(3+\\frac{10\\sqrt{3}\\pi}{3})2^{n-1}T+(2+\\frac{10\\sqrt{3}\\pi}{3})T$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）粒子 M 点垂直于电场方向入射，粒子在电场中做类平抛运动，沿电场方向做匀加速直线运动，垂直于电场方向做匀速直线运动，在 N 点将速度沿电场方向与垂直于电场方向分解，在垂直于电场方向上有\n$2v_{0}\\cos2\\alpha=v_{0}$\n\n解得 $\\alpha=30^\\circ$\n\n粒子从 $M\\to N$ 过程，根据动能定理有\n$qU_{MN}=\\frac{1}{2}m(2v_{0})^{2}-\\frac{1}{2}mv_{0}^{2}$\n\n解得 $U_{MN}=\\frac{3mv_{0}^{2}}{2q}$\n\n（2）对于从 M 点射入的粒子，沿初速度方向的位移为\n$x_{0}=v_{0}T$\n\n沿电场方向的位移为\n$y_{0}=\\frac{2v_{0}\\sin2\\alpha}{2}T$\n\n令 N 点横坐标为 $x_{N}$，根据几何关系有\n$x_{N}=x_{0}\\cos\\alpha+y_{0}\\sin\\alpha$\n\n解得 $x_{N}=\\frac{3\\sqrt{3}v_{0}T}{4}$\n\n根据上述与题意可知，令粒子入射速度为 $v$，则通过 N 点进入磁场的速度为 $2v$，令边界上点的坐标为 $(x,y)$，则在沿初速度方向上有\n$(x_{N}-x-y\\tan\\alpha)\\cos\\alpha=vt$\n\n在沿电场方向有\n$\\frac{y}{\\cos\\alpha}+(x_{N}-x-y\\tan\\alpha)\\sin\\alpha=\\frac{2v\\sin2\\alpha}{2}t$\n\n解得 $y=\\frac{v_{0}T}{4}-\\frac{\\sqrt{3}}{9}x$\n\n（3）由上述结果可知电场强度 $E=\\frac{U_{MN}}{y_{0}}$\n\n解得 $E=\\frac{\\sqrt{3}mv_{0}}{qT}$\n\n设粒子 A 第 $n$ 次在磁场中做圆周运动的线速度为 $v_{n}$，可得第 $n+1$ 次在 N 点进入磁场的速度为\n$v_{n+1}=\\frac{v_{n}}{\\cos2\\alpha}=2v_{n}$\n\n第一次在 N 点进入磁场的速度大小为 $2v_{0}$，可得\n$v_{n}=2^{n}v_{0},(n=1,2,3\\cdots)$\n\n设粒子 A 第 $n$ 次在磁场中运动时的磁感应强度为 $B_{n}$，由题意可得\n$B_{n}=\\frac{B_{1}}{2^{n-1}},(n=1,2,3\\cdots)$\n\n由洛伦兹力提供向心力得\n$qv_{n}B_{n}=m\\frac{v_{n}^{2}}{r_{n}}$\n\n联立解得\n$r_{n}=\\frac{4^{n}mv_{0}}{2qB_{1}}$\n\n粒子 A 第 $n$ 次在磁场中的运动轨迹如图所示\n\n![物理配图](assets/2023/physics/重庆/15_an.png)\n\n粒子每次在磁场中运动轨迹的圆心角均为 $300^\\circ$，第 $n$ 次离开磁场的位置 C 与 N 的距离等于 $r_{n}$，由 C 到 N 由动能定理得\n$qEr_{n}\\sin30^\\circ=\\frac{1}{2}mv_{n+1}^{2}-\\frac{1}{2}mv_{n}^{2}$\n\n联立上式解得 $B_{1}=\\frac{\\sqrt{3}m}{6qT}$\n\n由类平抛运动沿电场方向的运动可得，粒子 A 第 $n$ 次在电场中运动的时间为\n$t_{1n}=\\frac{2^{n}v_{0}\\sin60^\\circ}{\\frac{qE}{m}}=2^{n-1}T$\n\n粒子 A 第 $n$ 次在磁场中运动的周期为\n$T'=\\frac{2\\pi r_{n}}{v_{n}}=2^{n+1}\\sqrt{3}\\pi T$\n\n粒子 A 第 $n$ 次在磁场中运动的时间为\n$t_{2n}=\\frac{300^\\circ}{360^\\circ}T'=\\frac{5}{6}\\cdot2^{n+1}\\sqrt{3}\\pi T$\n\n设粒子 A 第 $n$ 次在电场边界 MN 与 $x$ 轴之间的无场区域的位移为 $x_{n}$，边界与 $x$ 轴负方向的夹角为 $\\beta$，则根据边界方程可得\n$\\tan\\beta=\\frac{\\sqrt{3}}{9}$，$\\sin\\beta=\\frac{1}{2\\sqrt{7}}$\n\n由正弦定理可得\n$\\frac{x_{n}}{\\sin\\beta}=\\frac{r_{n}}{\\sin(180^\\circ-30^\\circ-\\beta)}$\n\n解得\n$x_{n}=\\frac{4^{n}v_{0}T}{2}$\n\n粒子 A 第 $n$ 次在电场边界 MN 与 $x$ 轴之间运动的时间为\n$t_{3n}=\\frac{x_{n}}{v_{n}}=2^{n-1}T$\n\n粒子 A 从发射到第 $n$ 次通过 N 点的过程，在电场中运动 $n$ 次，在磁场和无场区域中均运动 $n-1$ 次，则所求时间\n$t=(2^{0}+2^{1}+\\cdots+2^{n-1})T+\\frac{5}{6}\\cdot\\sqrt{3}\\pi T(2^{2}+2^{3}+\\cdots+2^{n})+(2^{0}+2^{1}+\\cdots+2^{n-2})T$\n\n由等比数列求和得\n$t=(2^{n}-1)T+\\frac{5}{6}\\cdot\\sqrt{3}\\pi T[4(2^{n-1}-1)]+(2^{n-1}-1)T$\n\n解得\n$t=(3+\\frac{10\\sqrt{3}\\pi}{3})2^{n-1}T+(2+\\frac{10\\sqrt{3}\\pi}{3})T$\n\n**永动机模型错误！**\n\n（说明：本题模型使粒子每经一次循环能量增加，构成永动机模型，物理上不能实现；以上为原卷参考答案。）"
+        }
+      ],
+      "solution_figures": [
+        "assets/2023/physics/重庆/15_an.png"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

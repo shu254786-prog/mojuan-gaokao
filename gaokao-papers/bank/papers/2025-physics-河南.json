@@ -1,0 +1,728 @@
+{
+  "id": "2025-physics-河南",
+  "year": 2025,
+  "subject": "物理",
+  "region": "河南卷",
+  "region_key": "河南",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2025-physics-河南-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "运动和力",
+        "牛顿第二定律"
+      ],
+      "stem_md": "野外高空作业时，使用无人机给工人运送零件。如图，某次运送过程中的一段时间内，无人机向左水平飞行，零件用轻绳悬挂于无人机下方，并相对于无人机静止，轻绳与竖直方向成一定角度。忽略零件所受空气阻力，则在该段时间内（  ）\n\n![物理配图](assets/2025/physics/河南/01.svg)",
+      "figures": [
+        "assets/2025/physics/河南/01.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "无人机做匀速运动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "零件所受合外力为零",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "零件的惯性逐渐变大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "零件的重力势能保持不变",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "D．无人机沿水平方向飞行，零件相对于无人机静止，也沿水平方向飞行做直线运动，故零件的高度不变，可知零件的重力势能保持不变，D 正确；\n\nAB．对零件受力分析，受重力和绳子的拉力，由于零件沿水平方向做直线运动，可知合外力沿水平方向，提供水平方向的加速度。零件水平向左做匀加速直线运动，AB 错误；\n\nC．惯性的大小只与质量有关，零件的质量不变，故零件的惯性不变，C 错误。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "光学",
+        "光的折射"
+      ],
+      "stem_md": "折射率为 $\\sqrt{2}$ 的玻璃圆柱水平放置，平行于其横截面的一束光线从顶点入射，光线与竖直方向的夹角为 $45^\\circ$，如图所示。该光线从圆柱内射出时，与竖直方向的夹角为（不考虑光线在圆柱内的反射）（  ）\n\n![物理配图](assets/2025/physics/河南/02.svg)",
+      "figures": [
+        "assets/2025/physics/河南/02.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$0^\\circ$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$15^\\circ$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$30^\\circ$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$45^\\circ$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设光线射入圆柱体时的折射角为 $\\theta$，根据光的折射定律可知 $n = \\frac{\\sin 45^\\circ}{\\sin \\theta}$\n\n解得 $\\theta = 30^\\circ$\n\n![物理配图](assets/2025/physics/河南/02_an.png)\n\n如图，根据几何关系可知光线射出圆柱体时的入射角 $i = \\theta = 30^\\circ$\n\n则法线与竖直方向的夹角 $\\alpha = \\theta + i = 60^\\circ$\n\n根据光的折射定律可知 $n = \\frac{\\sin r}{\\sin i}$\n\n解得光线射出圆柱体时的折射角 $r = 45^\\circ$\n\n光线从圆柱体内射出时，与竖直方向的夹角为 $\\beta = \\alpha - r = 15^\\circ$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/河南/02_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "天体运动"
+      ],
+      "stem_md": "2024 年天文学家报道了他们新发现的一颗类地行星 Gliese12b，它绕其母恒星的运动可视为匀速圆周运动。已知 Gliese12b 轨道半径约为日地距离的 $\\frac{1}{14}$，其母恒星质量约为太阳质量的 $\\frac{2}{7}$，则 Gliese12b 绕其母恒星的运动周期约为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "13 天",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "27 天",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "64 天",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "128 天",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "地球绕太阳运行的周期约为 365 天，根据万有引力提供向心力得 $\\frac{GM_{0}m}{r_{0}^{2}} = m\\frac{4\\pi^{2}}{T_{0}^{2}}r_{0}$\n\n已知 $r = \\frac{1}{14}r_{0}$，$M = \\frac{2}{7}M_{0}$，同理得 $\\frac{GMm}{r^{2}} = m\\frac{4\\pi^{2}}{T^{2}}r$\n\n整理得 $\\frac{T^{2}}{T_{0}^{2}} = \\frac{r^{3}M_{0}}{r_{0}^{3}M}$\n\n代入数据得 $T = \\frac{1}{28}T_{0} \\approx 13$ 天\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电场",
+        "等势面"
+      ],
+      "stem_md": "如图，在与纸面平行的匀强电场中有 a、b、c 三点，其电势分别为 $6 \\,\\mathrm{V}$、$4 \\,\\mathrm{V}$、$2 \\,\\mathrm{V}$；a、b、c 分别位于纸面内一等边三角形的顶点上。下列图中箭头表示 a 点电场的方向，则正确的是（  ）\n\n![物理配图](assets/2025/physics/河南/04a.svg)",
+      "figures": [
+        "assets/2025/physics/河南/04a.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2025/physics/河南/04b.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2025/physics/河南/04c.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2025/physics/河南/04d.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2025/physics/河南/04e.png"
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "匀强电场中任意两点间的中点电势等于这两点的平均值，可知 ac 中点 d 的电势与 b 点相同，bd 的连线为该匀强电场的等势面。电场线垂直于等势面且由高电势指向低电势，故电场线沿 ac 方向且由 a 指向 c，C 选项正确。\n\n![物理配图](assets/2025/physics/河南/04_an.png)\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/河南/04_an.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电磁感应",
+        "自感与互感，涡流"
+      ],
+      "stem_md": "如图，一金属薄片在力 $F$ 作用下自左向右从两磁极之间通过。当金属薄片中心运动到 N 极的正下方时，沿 N 极到 S 极的方向看，下列图中能够正确描述金属薄片内涡电流绕行方向的是（  ）\n\n![物理配图](assets/2025/physics/河南/05a.png)",
+      "figures": [
+        "assets/2025/physics/河南/05a.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2025/physics/河南/05b.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2025/physics/河南/05c.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2025/physics/河南/05d.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2025/physics/河南/05e.png"
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据题意当金属薄片中心运动到 N 极正下方时，薄片右侧的磁通量在减小，左侧磁通量在增加，由于两极间的磁场竖直向下，根据楞次定律可知此时薄片右侧的涡电流方向为顺时针，薄片左侧的涡电流方向为逆时针。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "原子和原子核",
+        "半衰期"
+      ],
+      "stem_md": "由于宇宙射线的作用，在地球大气层产生有铍的两种放射性同位素 \\ce{^{7}_{4}Be} 和 \\ce{^{10}_{4}Be}。测定不同高度大气中单位体积内二者的原子个数比，可以研究大气环境的变化。已知 \\ce{^{7}_{4}Be} 和 \\ce{^{10}_{4}Be} 的半衰期分别约为 53 天和 139 万年。在大气层某高度采集的样品中，研究人员发现 \\ce{^{7}_{4}Be} 和 \\ce{^{10}_{4}Be} 的总原子个数经过 106 天后变为原来的 $\\frac{3}{4}$，则采集时该高度的大气中 \\ce{^{7}_{4}Be} 和 \\ce{^{10}_{4}Be} 的原子个数比约为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$1:4$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$1:2$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$3:4$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$1:1$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设采集时大气中有 $x$ 个 \\ce{^{7}_{4}Be} 原子和 $y$ 个 \\ce{^{10}_{4}Be} 原子，由于 \\ce{^{10}_{4}Be} 的半衰期为 139 万年，故经过 106 天后 \\ce{^{10}_{4}Be} 原子的衰变个数可以忽略不计，\\ce{^{7}_{4}Be} 的半衰期为 53 天，故经过 106 天后剩余数量为 $x \\cdot \\left(\\frac{1}{2}\\right)^{2}$，故可得 $\\frac{x \\cdot \\left(\\frac{1}{2}\\right)^{2} + y}{x + y} = \\frac{3}{4}$\n\n解得 $\\frac{x}{y} = \\frac{1}{2}$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量守恒定律"
+      ],
+      "stem_md": "两小车 P、Q 的质量分别为 $m_{P}$ 和 $m_{Q}$，将它们分别与小车 N 沿直线做碰撞实验，碰撞前后的速度 $v$ 随时间 $t$ 的变化分别如图 [2025河南07a] 和图 [2025河南07b] 所示。小车 N 的质量为 $m_{N}$，碰撞时间极短，则（  ）\n\n![物理配图](assets/2025/physics/河南/07a.png) ![物理配图](assets/2025/physics/河南/07b.png)",
+      "figures": [
+        "assets/2025/physics/河南/07a.png",
+        "assets/2025/physics/河南/07b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$m_{P} > m_{N} > m_{Q}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$m_{N} > m_{P} > m_{Q}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$m_{Q} > m_{P} > m_{N}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$m_{Q} > m_{N} > m_{P}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "PN 碰撞时，根据碰撞前后动量守恒有 $m_{\\mathrm{P}}v_{\\mathrm{P}} + m_{\\mathrm{N}}v_{\\mathrm{N}} = m_{\\mathrm{P}}v_{\\mathrm{P}}' + m_{\\mathrm{N}}v_{\\mathrm{N}}'$\n\n即 $m_{\\mathrm{P}}\\left(v_{\\mathrm{P}} - v_{\\mathrm{P}}'\\right) = m_{\\mathrm{N}}\\left(v_{\\mathrm{N}}' - v_{\\mathrm{N}}\\right)$\n\n根据图像可知 $\\left(v_{\\mathrm{P}} - v_{\\mathrm{P}}'\\right) > \\left(v_{\\mathrm{N}}' - v_{\\mathrm{N}}\\right)$，故 $m_{\\mathrm{N}} > m_{\\mathrm{P}}$；\n\n同理，QN 碰撞时，根据碰撞前后动量守恒有 $m_{Q}v_{Q} + m_{N}v_{N} = m_{Q}v_{Q}' + m_{N}v_{N}'$\n\n即 $m_{Q}\\left(v_{Q} - v_{Q}'\\right) = m_{N}\\left(v_{N}' - v_{N}\\right)$\n\n根据图像可知 $\\left(v_{\\mathrm{Q}} - v_{\\mathrm{Q}}'\\right) < \\left(v_{\\mathrm{N}}' - v_{\\mathrm{N}}\\right)$，故 $m_{Q} > m_{N}$；\n\n故 $m_{Q} > m_{N} > m_{P}$\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "机械波",
+        "波长频率波速"
+      ],
+      "stem_md": "贾湖骨笛是河南博物院镇馆之宝之一，被誉为“中华第一笛”。其中一支骨笛可以发出 $A_{5}$、$B_{5}$、$C_{6}$、$D_{6}$、$E_{6}$ 等音。已知 $A_{5}$ 音和 $D_{6}$ 音所对应的频率分别为 $880 \\,\\mathrm{Hz}$ 和 $1175 \\,\\mathrm{Hz}$，则（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在空气中传播时，$A_{5}$ 音的波长大于 $D_{6}$ 音的",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在空气中传播时，$A_{5}$ 音的波速小于 $D_{6}$ 音的",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "由空气进入水中，$A_{5}$ 音和 $D_{6}$ 音的频率都变大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "由空气进入水中，$A_{5}$ 音的波长改变量大于 $D_{6}$ 音的",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "B．声音在相同介质中的传播速度相同，因此 $A_{5}$ 和 $D_{6}$ 的传播速度相同，B 错误；\n\nA．由 $\\lambda = \\frac{v}{f}$ 可知，$A_{5}$ 的波长大于 $D_{6}$ 的波长，A 正确；\n\nC．由空气进入水中，频率不发生变化，C 错误；\n\nD．空气中 $\\lambda_{0} = \\frac{v}{f}$，在水中 $\\lambda = \\frac{v'}{f}$，其中声音的速度只与介质有关，即在水中它们的速度大小也一样，则可得到波长的改变量为 $\\Delta\\lambda = \\frac{v' - v}{f}$。可知频率越小其对应的波长改变量越大，D 正确。\n\n故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "右手定则"
+      ],
+      "stem_md": "手机拍照时手的抖动产生的微小加速度会影响拍照质量，光学防抖技术可以消除这种影响。如图，镜头仅通过左、下两侧的弹簧与手机框架相连，两个相同线圈 c、d 分别固定在镜头右、上两侧，c、d 中的一部分处在相同的匀强磁场中，磁场方向垂直纸面向里。拍照时，手机可实时检测手机框架的微小加速度 $a$ 的大小和方向，依此自动调节 c、d 中通入的电流 $I_{c}$ 和 $I_{d}$ 的大小和方向（无抖动时 $I_{c}$ 和 $I_{d}$ 均为零），使镜头处于零加速度状态。下列说法正确的是（  ）\n\n![物理配图](assets/2025/physics/河南/09.png)",
+      "figures": [
+        "assets/2025/physics/河南/09.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "若 $I_{c}$ 沿顺时针方向，$I_{d} = 0$，则表明 $a$ 的方向向右",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "若 $I_{d}$ 沿顺时针方向，$I_{c} = 0$，则表明 $a$ 的方向向下",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "若 $a$ 的方向沿左偏上 $30^\\circ$，则 $I_{c}$ 沿顺时针方向，$I_{d}$ 沿逆时针方向且 $I_{c} > I_{d}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "若 $a$ 的方向沿右偏上 $30^\\circ$，则 $I_{c}$ 沿顺时针方向，$I_{d}$ 沿顺时针方向且 $I_{c} < I_{d}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．$I_{c}$ 顺时针而 $I_{d} = 0$，则 c 线圈受到向右的安培力，故手机的加速度是向左，使镜头处于零加速度状态，A 错误；\n\nB．$I_{d}$ 顺时针而 $I_{c} = 0$，则 d 线圈受到向上的安培力，镜头处于零加速度状态，则手机加速度方向向下，B 正确；\n\nC．若 $a$ 的方向左偏上 $30^\\circ$，说明手机框架给镜头向上以及向左的作用力，要使得镜头处于零加速度状态，线圈 c 需要受到向右的安培力 $F_{c}$、线圈 d 需要受到向下的安培力 $F_{d}$，且 $F_{c} > F_{d}$，故可知 $I_{c}$ 顺时针 $I_{d}$ 逆时针，由 $F = BIl$ 可知 $I_{c} > I_{d}$，C 正确；\n\nD．若 $a$ 的方向右偏上 $30^\\circ$，说明手机框架给镜头向上以及向右的作用力，且向右的分力大于向上的分力要使得镜头处于零加速度状态，线圈 c 需要受到向左的安培力 $F_{c}$、线圈 d 需要受到向下的安培力 $F_{d}$，且 $F_{c} > F_{d}$，可知 $I_{c}$ 逆时针 $I_{d}$ 逆时针，且 $I_{c} > I_{d}$，D 错误。\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 350,
+      "topics": [
+        "气体性质",
+        "液柱移动定性分析"
+      ],
+      "stem_md": "如图，一圆柱形汽缸水平固置，其内部被活塞 M、P、N 密封成两部分，活塞 P 与汽缸壁均绝热且两者间无摩擦。平衡时，P 左、右两侧理想气体的温度分别为 $T_{1}$ 和 $T_{2}$，体积分别为 $V_{1}$ 和 $V_{2}$，$T_{1} < T_{2}$，$V_{1} < V_{2}$。则（  ）\n\n![物理配图](assets/2025/physics/河南/10.png)",
+      "figures": [
+        "assets/2025/physics/河南/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "固定 M、N，若两侧气体同时缓慢升高相同温度，P 将右移",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "固定 M、N，若两侧气体同时缓慢升高相同温度，P 将左移",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "保持 $T_{1}$、$T_{2}$ 不变，若 M、N 同时缓慢向中间移动相同距离，P 将右移",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "保持 $T_{1}$、$T_{2}$ 不变，若 M、N 同时缓慢向中间移动相同距离，P 将左移",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．由题干可知初始左右气体的压强相同，假设在升温的过程中 P 板不发生移动，则由等容过程 $\\frac{p}{T} = \\frac{\\Delta p}{\\Delta T} \\Rightarrow \\Delta p = \\frac{p}{T} \\Delta T$\n\n可得左侧气体压强增加量多，则 P 板向右移动；A 正确 B 错误；\n\nCD．保持温度不变移动相同的距离时\n\n$\\frac{pV_{1}}{T_{1}} = C_{1}$，$p = \\frac{C_{1}T_{1}}{V_{1}}$，$\\frac{C_{1}T_{1}}{V_{1}} = \\frac{C_{2}T_{2}}{V_{2}}$，$\\frac{V_{1}}{C_{1}T_{1}} = \\frac{V_{2}}{C_{2}T_{2}}$\n\n同理得，$\\frac{V_{1} - \\Delta V}{C_{1}T_{1}} < \\frac{V_{2} - \\Delta V}{C_{2}T_{2}}$，$\\frac{C_{1}T_{1}}{V_{1} - \\Delta V} > \\frac{C_{2}T_{2}}{V_{2} - \\Delta V}$\n\n若 P 不移动，则 $p_{1} = \\frac{C_{1}T_{1}}{V_{1} - \\Delta V}$、$p_{2} = \\frac{C_{2}T_{2}}{V_{2} - \\Delta V}$，故 $p_{1} > p_{2}$，则 P 将向右移动，C 正确 D 错误。\n\n故选 AC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "电路",
+        "传感器"
+      ],
+      "stem_md": "实验小组研究某热敏电阻的特性，并依此利用电磁铁、电阻箱等器材组装保温箱。该热敏电阻阻值随温度的变化曲线如图 [2025河南11a] 所示，保温箱原理图如图 [2025河南11b] 所示。回答下列问题：\n\n（1）图 [2025河南11a] 中热敏电阻的阻值随温度的变化关系是 ______ （填“线性”或“非线性”）的。\n（2）存在一个电流值 $I_{0}$，若电磁铁线圈的电流小于 $I_{0}$，衔铁与上固定触头 a 接触；若电流大于 $I_{0}$，衔铁与下固定触头 b 接触。保温箱温度达到设定值后，电磁铁线圈的电流在 $I_{0}$ 附近上下波动，加热电路持续地断开、闭合，使保温箱温度维持在设定值。则图 [2025河南11b] 中加热电阻丝的 c 端应该与触头 ______ （填“a”或“b”）相连接。\n（3）当保温箱的温度设定在 $50\\,{}^\\circ\\mathrm{C}$ 时，电阻箱旋钮的位置如图 [2025河南11c] 所示，则电阻箱接入电路的阻值为 ______  $\\,\\Omega$。\n（4）若要把保温箱的温度设定在 $100\\,{}^\\circ\\mathrm{C}$，则电阻箱接入电路的阻值应为 ______  $\\,\\Omega$。\n\n![物理配图](assets/2025/physics/河南/11a.png) ![物理配图](assets/2025/physics/河南/11b.png) ![物理配图](assets/2025/physics/河南/11c.png)",
+      "figures": [
+        "assets/2025/physics/河南/11a.png",
+        "assets/2025/physics/河南/11b.png",
+        "assets/2025/physics/河南/11c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）非线性\n（2）a\n（3）130.0\n（4）210.0",
+        "sub_answers": [
+          "非线性",
+          "a",
+          "130.0",
+          "210.0"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据图 1 可知热敏电阻的阻值随温度的变化关系是非线性的。\n\n（2）根据图 1 可知温度升高，热敏电阻的阻值变小，根据欧姆定律可知流过电磁铁线圈的电流变大，衔铁与下固定触头 b 接触，此时加热电阻丝电路部分断开连接，停止加热，可知图 2 中加热电阻丝的 c 端应该与触头 a 相连接。\n\n（3）由图 3 可知电阻箱接入电路的阻值为 $100 \\times 1 \\,\\Omega + 10 \\times 3 \\,\\Omega = 130.0 \\,\\Omega$。\n\n（4）根据（3）可知，当温度为 $50\\,{}^\\circ\\mathrm{C}$ 时，热敏电阻的阻值为 $180 \\,\\Omega$，电阻箱接入的电阻为 $130 \\,\\Omega$，当温度为 $100\\,{}^\\circ\\mathrm{C}$ 时，热敏电阻的阻值为 $100 \\,\\Omega$，要使得电流值 $I_{0}$ 不变，则在电流为 $I_{0}$ 时，控制电路的总电阻不变，则此时电阻箱的电阻为 $180 \\,\\Omega + 130 \\,\\Omega - 100 \\,\\Omega = 210 \\,\\Omega$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 9,
+      "difficulty": 450,
+      "topics": [
+        "功和能",
+        "DIS研究机械能守恒定律"
+      ],
+      "stem_md": "实验小组利用图 [2025河南12a] 所示装置验证机械能守恒定律。可选用的器材有：交流电源（频率 $50 \\,\\mathrm{Hz}$）、铁架台、电子天平、重锤、打点计时器、纸带、刻度尺等。\n\n（1）下列所给实验步骤中，有 4 个是完成实验必需且正确的，把它们选择出来并按实验顺序排列： ______ （填步骤前面的序号）\n\n\t\n① 先接通电源，打点计时器开始打点，然后再释放纸带\n② 先释放纸带，然后再接通电源，打点计时器开始打点\n③ 用电子天平称量重锤的质量\n④ 将纸带下端固定在重锤上，穿过打点计时器的限位孔，用手捏住纸带上端\n⑤ 在纸带上选取一段，用刻度尺测量该段内各点到起点的距离，记录分析数据\n⑥ 关闭电源，取下纸带\n（2）图 [2025河南12b] 所示是纸带上连续打出的五个点 A、B、C、D、E 到起点的距离。则打出 B 点时重锤下落的速度大小为 ______  $\\,\\mathrm{m}/\\mathrm{s}$（保留 3 位有效数字）。\n（3）纸带上各点与起点间的距离即为重锤下落高度 $h$，计算相应的重锤下落速度 $v$，并绘制图 [2025河南12c] 所示的 $v^{2}-h$ 关系图像。理论上，若机械能守恒，图中直线应 ______ （填“通过”或“不通过”）原点且斜率为 ______ （用重力加速度大小 $g$ 表示）。由图 [2025河南12c] 得直线的斜率 $k = $ ______ （保留 3 位有效数字）。\n（4）定义单次测量的相对误差 $\\eta = \\left| \\frac{E_{\\mathrm{p}} - E_{\\mathrm{k}}}{E_{\\mathrm{p}}} \\right| \\times 100\\%$，其中 $E_{p}$ 是重锤重力势能的减小量，$E_{k}$ 是其动能增加量，则实验相对误差为 $\\eta = $ ______  $\\times 100\\%$（用字母 $k$ 和 $g$ 表示）；当地重力加速度大小取 $g = 9.80 \\,\\mathrm{m}/\\mathrm{s}^2$，则 $\\eta = $ ______  $\\%$（保留 2 位有效数字），若 $\\eta < 5\\%$，可认为在实验误差允许的范围内机械能守恒。\n\n![物理配图](assets/2025/physics/河南/12a.png) ![物理配图](assets/2025/physics/河南/12b.png) ![物理配图](assets/2025/physics/河南/12c.png)",
+      "figures": [
+        "assets/2025/physics/河南/12a.png",
+        "assets/2025/physics/河南/12b.png",
+        "assets/2025/physics/河南/12c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）④①⑥⑤\n（2）1.79\n（3）通过，$2g$，19.1\n（4）$\\frac{2g - k}{2g}$，3.1",
+        "sub_answers": [
+          "④①⑥⑤",
+          "1.79",
+          "通过",
+          "$2g$",
+          "19.1",
+          "$\\frac{2g - k}{2g}$",
+          "3.1"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）实验步骤为：将纸带下端固定在重锤上，穿过打点计时器的限位孔，用手捏住纸带上端，先接通电源，打点计时器开始打点，然后再释放纸带，关闭电源，取下纸带，在纸带上选取一段，用刻度尺测量该段内各点到起点的距离，记录分析数据，根据 $mgh = \\frac{1}{2}mv^{2}$ 可知质量可以约掉，不需要用电子天平称量重锤的质量。\n\n故选择正确且正确排序为④①⑥⑤这四步。\n\n（2）根据题意可知纸带上相邻计数点时间间隔 $T = \\frac{1}{f} = 0.02 \\,\\mathrm{s}$\n\n根据匀变速直线运动中间时刻瞬时速度等于该过程平均速度可得 $v_{B} = \\frac{h_{AC}}{2T}$\n\n代入数据可得 $v_{B} \\approx 1.79 \\,\\mathrm{m}/\\mathrm{s}$\n\n（3）根据 $mgh = \\frac{1}{2}mv^{2}$\n\n整理可得 $v^{2} = 2g \\cdot h$\n\n可知理论上，若机械能守恒，图中直线应通过原点，且斜率 $k = 2g$\n\n由图 3 得直线的斜率 $k = \\frac{5.6 - 1.5}{0.295 - 0.08} \\approx 19.1$\n\n（4）根据题意有 $\\eta = \\frac{mgh - \\frac{1}{2}mv^{2}}{mgh} \\times 100\\%$\n\n可得 $\\eta = \\frac{2g - k}{2g} \\times 100\\%$\n\n当地重力加速度大小取 $g = 9.80 \\,\\mathrm{m}/\\mathrm{s}^2$，代入数据可得 $\\eta \\approx 3.1\\%$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 10,
+      "difficulty": 550,
+      "topics": [
+        "电场",
+        "带电粒子的偏转"
+      ],
+      "stem_md": "流式细胞仪可对不同类型的细胞进行分类收集，其原理如图所示。仅含有一个 A 细胞或 B 细胞的小液滴从喷嘴喷出（另有一些液滴不含细胞），液滴质量均为 $m = 2.0 \\times 10^{-10} \\,\\mathrm{kg}$。当液滴穿过激光束、充电环时被分类充电，使含 A、B 细胞的液滴分别带上正、负电荷，电荷量均为 $q = 1.0 \\times 10^{-13} \\,\\mathrm{C}$。随后，液滴以 $v = 2.0 \\,\\mathrm{m}/\\mathrm{s}$ 的速度竖直进入长度为 $l = 2.0 \\times 10^{-2} \\,\\mathrm{m}$ 的电极板间，板间电场均匀、方向水平向右，电场强度大小为 $E = 2.0 \\times 10^{5} \\,\\mathrm{N}/\\mathrm{C}$。含细胞的液滴最终被分别收集在极板下方 $h = 0.1 \\,\\mathrm{m}$ 处的 A、B 收集管中。不计重力、空气阻力以及带电液滴间的作用。求：\n\n（1）含 A 细胞的液滴离开电场时偏转的距离；\n（2）A、B 细胞收集管的间距。\n\n![物理配图](assets/2025/physics/河南/13.png)",
+      "figures": [
+        "assets/2025/physics/河南/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$5 \\times 10^{-3} \\,\\mathrm{m}$\n（2）$0.11 \\,\\mathrm{m}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）由题意可知含 A 细胞的液滴在电场中做类平抛运动，垂直于电极板方向则 $l = vt_{1}$，沿电极板方向 $x_{1} = \\frac{1}{2}at_{1}^{2}$\n\n由牛顿第二定律 $qE = ma$\n\n解得含 A 细胞的液滴离开电场时偏转的距离为 $x_{1} = 5 \\times 10^{-3} \\,\\mathrm{m}$\n\n（2）含 A 细胞的液滴离开电场后做匀速直线运动，则 $h = vt_{2}$\n\n则 $x_{2} = at_{1}t_{2}$\n\n联立解得 $x_{2} = 0.05 \\,\\mathrm{m}$\n\n由对称性可知则 A、B 细胞收集管的间距 $\\Delta x = 2(x_{1} + x_{2}) = 2 \\times (0.005 + 0.05) \\,\\mathrm{m} = 0.11 \\,\\mathrm{m}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 12,
+      "difficulty": 450,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图，在一段水平光滑直道上每间隔 $l_{1} = 3 \\,\\mathrm{m}$ 铺设有宽度为 $l_{2} = 2.4 \\,\\mathrm{m}$ 的防滑带。在最左端防滑带的左边缘静止有质量为 $m_{1} = 2 \\,\\mathrm{kg}$ 的小物块 P，另一质量为 $m_{2} = 4 \\,\\mathrm{kg}$ 的小物块 Q 以 $v_{0} = 7 \\,\\mathrm{m}/\\mathrm{s}$ 的速度向右运动并与 P 发生正碰，且碰撞时间极短。已知碰撞后瞬间 P 的速度大小为 $v = 7 \\,\\mathrm{m}/\\mathrm{s}$，P、Q 与防滑带间的动摩擦因数均为 $\\mu = 0.5$，重力加速度大小 $g = 10 \\,\\mathrm{m}/\\mathrm{s}^2$。求：\n\n（1）该碰撞过程中损失的机械能；\n（2）P 从开始运动到静止经历的时间。\n\n![物理配图](assets/2025/physics/河南/14.png)",
+      "figures": [
+        "assets/2025/physics/河南/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$24.5 \\,\\mathrm{J}$\n（2）$5 \\,\\mathrm{s}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）P、Q 发生正碰，由动量守恒定律 $m_{2}v_{0} = m_{2}v_{Q} + m_{1}v$\n\n由能量守恒定律 $\\frac{1}{2}m_{2}v_{0}^{2} = \\frac{1}{2}m_{2}v_{Q}^{2} + \\frac{1}{2}m_{1}v^{2} + \\Delta E$\n\n联立可得 $v_{Q} = 3.5 \\,\\mathrm{m}/\\mathrm{s}$，$\\Delta E = 24.5 \\,\\mathrm{J}$\n\n（2）对物块 P 受力分析由牛顿第二定律 $\\mu m_{1}g = m_{1}a$\n\n物块 P 在第一个防滑带上运动时，由运动学公式 $v^{2} - v_{P1}^{2} = 2al_{2}$，$v_{P1} = v - at_{1}$\n\n解得 $v_{P1} = 5 \\,\\mathrm{m}/\\mathrm{s}$\n\n则物块 P 在第一个防滑带上运动的时间为 $t_{1} = 0.4 \\,\\mathrm{s}$\n\n物块 P 在光滑的直道上做匀速直线运动，则 $l_{1} = v_{P1}t_{2}$\n\n解得 $t_{2} = 0.6 \\,\\mathrm{s}$\n\n物块 P 在第二个防滑带上运动时，由运动学公式 $v_{P1}^{2} - v_{P2}^{2} = 2al_{2}$，$v_{P2} = v_{P1} - at_{3}$\n\n解得 $v_{P2} = 1 \\,\\mathrm{m}/\\mathrm{s}$\n\n则物块 P 在第二个防滑带上运动的时间为 $t_{3} = 0.8 \\,\\mathrm{s}$\n\n物块 P 在光滑的直道上做匀速直线运动，则 $l_{1} = v_{P2}t_{4}$\n\n解得 $t_{4} = 3 \\,\\mathrm{s}$\n\n由以上条件可知，物块 P 最终停在第三个防滑带上，由运动学公式 $0 = v_{P2} - at_{5}$\n\n可得物块 P 在第三个防滑带上运动的时间为 $t_{5} = 0.2 \\,\\mathrm{s}$\n\n故物块 P 从开始运动到静止经历的时间为 $t = t_{1} + t_{2} + t_{3} + t_{4} + t_{5} = 5 \\,\\mathrm{s}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-河南-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 17,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在组合场中的运动"
+      ],
+      "stem_md": "如图，水平虚线上方区域有垂直于纸面向外的匀强磁场，下方区域有竖直向上的匀强电场。质量为 $m$、带电量为 $q$（$q > 0$）的粒子从磁场中的 a 点以速度 $v_{0}$ 向右水平发射，当粒子进入电场时其速度沿右下方向并与水平虚线的夹角为 $60^\\circ$，然后粒子又射出电场重新进入磁场并通过右侧 b 点，通过 b 点时其速度方向水平向右。a、b 距水平虚线的距离均为 $h$，两点之间的距离为 $s = 3\\sqrt{3}h$。不计重力。\n\n（1）求磁感应强度的大小；\n（2）求电场强度的大小；\n（3）若粒子从 a 点以 $v_{0}$ 竖直向下发射，长时间来看，粒子将向左或向右漂移，求漂移速度大小。（一个周期内粒子的位移与周期的比值为漂移速度）\n\n![物理配图](assets/2025/physics/河南/15.png)",
+      "figures": [
+        "assets/2025/physics/河南/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{mv_{0}}{2qh}$\n（2）$\\frac{mv_{0}^{2}}{2qh}$\n（3）$\\frac{3\\sqrt{3}}{6\\sqrt{3} + 8\\pi}v_{0}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意可知，画出粒子的运动轨迹，如图所示。\n\n![物理配图](assets/2025/physics/河南/15_an1.png)\n\n由题意可知 $\\theta = 60^\\circ$\n\n设粒子在磁场中做圆周运动的半径为 $r$，由几何关系有 $r = r\\cos\\theta + h$\n\n解得 $r = 2h$\n\n由牛顿第二定律有 $qv_{0}B = m\\frac{v_{0}^{2}}{r}$\n\n解得 $B = \\frac{mv_{0}}{2qh}$\n\n（2）据题意，由对称性可知，粒子射出电场时，速度大小仍为 $v_{0}$，方向与水平虚线的夹角为 $60^\\circ$，由几何关系可得 $AB = s - 2r\\sin\\theta = 3\\sqrt{3}h - 2\\sqrt{3}h = \\sqrt{3}h$\n\n则粒子在电场中的运动时间为 $t = \\frac{AB}{v_{0}\\cos\\theta} = \\frac{2\\sqrt{3}h}{v_{0}}$\n\n沿电场方向上，由牛顿第二定律有 $qE = ma$\n\n由运动学公式有 $-v_{0}\\sin\\theta = v_{0}\\sin\\theta - at$\n\n联立解得 $E = \\frac{mv_{0}^{2}}{2qh}$\n\n（3）若粒子从 a 点以 $v_{0}$ 竖直向下发射，画出粒子的运动轨迹，如图所示\n\n![物理配图](assets/2025/physics/河南/15_an2.png)\n\n由于粒子在磁场中运动的速度大小仍为 $v_{0}$，粒子在磁场中运动的半径仍为 $2h$，由几何关系可得，粒子进入电场时速度与虚线的夹角 $\\alpha = 60^\\circ$\n\n结合小问（2）分析可知，粒子在电场中的运动时间为 $t_{1} = \\frac{2\\sqrt{3}h}{v_{0}}$\n\nAB 间的距离为 $AB = \\sqrt{3}h$\n\n由几何关系可得 $BC = 2r\\sin\\alpha = 2\\sqrt{3}h$\n\n则 $AC = BC - AB = \\sqrt{3}h$\n\n粒子在磁场中的运动时间为 $t_{2} = \\frac{360^\\circ - 2\\alpha}{360^\\circ}\\cdot\\frac{2\\pi r}{v_{0}} = \\frac{8\\pi h}{3v_{0}}$\n\n则有 $t = t_{1} + t_{2} = \\frac{\\left(6\\sqrt{3} + 8\\pi\\right)h}{3v_{0}}$\n\n综上所述可知，粒子每隔时间 $t$ 向右移动 $\\sqrt{3}h$，则漂移速度大小 $v' = \\frac{\\sqrt{3}h}{t} = \\frac{3\\sqrt{3}}{6\\sqrt{3} + 8\\pi}v_{0}$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/河南/15_an1.png",
+        "assets/2025/physics/河南/15_an2.png"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

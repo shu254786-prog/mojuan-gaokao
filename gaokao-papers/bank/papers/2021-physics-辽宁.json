@@ -1,0 +1,718 @@
+{
+  "id": "2021-physics-辽宁",
+  "year": 2021,
+  "subject": "物理",
+  "region": "辽宁卷",
+  "region_key": "辽宁",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2021-physics-辽宁-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "直线运动",
+        "运动的合成"
+      ],
+      "stem_md": "1935年5月，红军为突破“围剿”决定强渡大渡河。首支共产党员突击队冒着枪林弹雨依托仅有的一条小木船坚决强突。若河面宽 $300\\,\\mathrm{m}$，水流速度 $3\\,\\mathrm{m}/\\mathrm{s}$，木船相对静水速度 $1\\,\\mathrm{m}/\\mathrm{s}$，则突击队渡河所需的最短时间为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$75\\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$95\\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$100\\,\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$300\\,\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "河宽 $d=300\\,\\mathrm{m}$ 一定，当木船船头垂直河岸时，在河宽方向上的速度最大，渡河用时最短，即木船相对静水的速度 $v=1\\,\\mathrm{m}/\\mathrm{s}$，渡河时间最短为\n\n$t_{\\min}=\\frac{d}{v}=\\frac{300}{1}\\,\\mathrm{s}=300\\,\\mathrm{s}$\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "光学",
+        "光电效应"
+      ],
+      "stem_md": "赫兹在研究电磁波的实验中偶然发现，接收电路的电极如果受到光照，就更容易产生电火花。此后许多物理学家相继证实了这一现象，即照射到金属表面的光，能使金属中的电子从表面逸出。最初用量子观点对该现象给予合理解释的科学家是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "玻尔",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "康普顿",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "爱因斯坦",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "德布罗意",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．玻尔引入量子化的观念解释了氢原子光谱，与题意不符，A 错误；\n\nB．康普顿提出康普顿效应，发现了光子不仅具有能量，还具有动量，证明了光具有粒子性，与题意不符，B 错误；\n\nC．爱因斯坦提出光子说，从理论上解释了光电效应的实验现象，符合题意，C 正确；\n\nD．德布罗意提出一切物质都具有波粒二象性，与题意不符，D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "直线运动",
+        "运动图象"
+      ],
+      "stem_md": "某驾校学员在教练的指导下沿直线路段练习驾驶技术，汽车的位置 $x$ 与时间 $t$ 的关系如图所示，则汽车行驶速度 $v$ 与时间 $t$ 的关系图像可能正确的是（  ）\n\n![物理配图](assets/2021/physics/辽宁/03a.png)",
+      "figures": [
+        "assets/2021/physics/辽宁/03a.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2021/physics/辽宁/03b.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2021/physics/辽宁/03c.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2021/physics/辽宁/03d.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2021/physics/辽宁/03e.png"
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "$x-t$ 图象斜率的物理意义是速度。在 $0\\sim t_1$ 时间内，$x-t$ 图象斜率增大，汽车的速度增大；在 $t_1\\sim t_2$ 时间内，$x-t$ 图象斜率不变，汽车的速度不变；在 $t_2\\sim t_3$ 时间内，$x-t$ 图象的斜率减小，汽车做减速运动。综上所述可知 A 中 $v-t$ 图象可能正确。\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "一束复色光从空气射入光导纤维后分成 a、b 两束单色光，光路如图所示，比较内芯中的 a、b 两束光，a 光的（  ）\n\n![物理配图](assets/2021/physics/辽宁/04.png)",
+      "figures": [
+        "assets/2021/physics/辽宁/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "频率小，发生全反射的临界角小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "频率大，发生全反射的临界角小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "频率小，发生全反射的临界角大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "频率大，发生全反射的临界角大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由光路图可知 a 光的偏折程度没有 b 光的大，因此 a 光的折射率小，频率小，由全反射 $\\sin C=\\frac{1}{n}$ 可知折射率越小发生全反射的临界角越大。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 950,
+      "topics": [
+        "力物体的平衡",
+        "力"
+      ],
+      "stem_md": "如图所示，$N$ 匝正方形闭合金属线圈 $abcd$ 边长为 $L$，线圈处于磁感应强度大小为 $B$ 的匀强磁场中，绕着与磁场垂直且与线圈共面的轴 $OO'$ 以角速度 $\\omega$ 匀速转动，$ab$ 边距轴 $\\frac{L}{4}$。线圈中感应电动势的有效值为（  ）\n\n![物理配图](assets/2021/physics/辽宁/05.png)",
+      "figures": [
+        "assets/2021/physics/辽宁/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$NBL^2\\omega$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{\\sqrt{2}}{2}NBL^2\\omega$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{1}{2}NBL^2\\omega$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{\\sqrt{2}}{4}NBL^2\\omega$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "交流电的最大值和两条边到转轴的距离无关，为\n\n$E_m=NBS\\omega=NBL^2\\omega$\n\n因此有效值为\n\n$E=\\frac{E_m}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2}NB\\omega L^2$\n\n故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "电场",
+        "电场线"
+      ],
+      "stem_md": "等量异号点电荷固定在水平向右的匀强电场中，电场分布如图所示，实线表示电场线，虚线表示等势线。将同一负电荷先后置于 a、b 两点，电势能分别为 $E_{pa}$ 和 $E_{pb}$，电荷所受电场力大小分别为 $F_a$ 和 $F_b$，则（  ）\n\n![物理配图](assets/2021/physics/辽宁/06.png)",
+      "figures": [
+        "assets/2021/physics/辽宁/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$E_{pa}>E_{pb}$，$F_a>F_b$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$E_{pa}>E_{pb}$，$F_a<F_b$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$E_{pa}<E_{pb}$，$F_a>F_b$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$E_{pa}<E_{pb}$，$F_a<F_b$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "电场线的疏密程度表示场强的大小，因此 $F_a<F_b$。原匀强电场水平向右，正负电荷的电场线由正电荷指向负电荷，因此可知图中的电场线方向为从左指向右，因此由对称性可知 b 点电势小于 a 点电势，由 $E_p=q\\varphi$ 可知负电荷 $E_{pa}<E_{pb}$。\n\n故选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "机械波",
+        "波与振动图象"
+      ],
+      "stem_md": "一列沿 $x$ 轴负方向传播的简谐横波，$t=2\\,\\mathrm{s}$ 时的波形如图 [2021辽宁07a] 所示，$x=2\\,\\mathrm{m}$ 处质点的振动图像如图 [2021辽宁07b] 所示，则波速可能是（  ）\n\n![物理配图](assets/2021/physics/辽宁/07a.png) ![物理配图](assets/2021/physics/辽宁/07b.png)",
+      "figures": [
+        "assets/2021/physics/辽宁/07a.png",
+        "assets/2021/physics/辽宁/07b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{1}{5}\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{2}{5}\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{3}{5}\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{4}{5}\\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据图 b 可知 $t=2\\,\\mathrm{s}$ 时 $x=2\\,\\mathrm{m}$ 处的质点正经过平衡位置向下振动；又因为该波沿 $x$ 轴负方向传播，结合图 a，利用“微平移”法可知 $x=2\\,\\mathrm{m}$ 为半波长的奇数倍，即有\n\n$(2n-1)\\frac{\\lambda}{2}=2$（$n=1,2,3\\cdots$）\n\n而由图 b 可知该波的周期为 $T=4\\,\\mathrm{s}$；所以该波的波速为\n\n$v=\\frac{\\lambda}{T}=\\frac{1}{2n-1}$（$n=1,2,3\\cdots$）\n\n当 $n=3$ 时可得波的速率为\n\n$v=\\frac{1}{5}\\,\\mathrm{m}/\\mathrm{s}$\n\n故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "2021年2月，我国首个火星探测器“天问一号”实现了对火星的环绕。若已知该探测器在近火星圆轨道与在近地球圆轨道运行的速率比和周期比，则可求出火星与地球的（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "半径比",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "质量比",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "自转角速度比",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "公转轨道半径比",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AB",
+        "choices": [
+          "A",
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．探测器在近火星轨道和近地轨道作圆周运动，根据\n\n$v=\\frac{2\\pi r}{T}$\n\n可知\n\n$r=\\frac{vT}{2\\pi}$\n\n若已知探测器在近火星轨道和近地轨道的速率比和周期比，则可求得探测器的运行半径比；又由于探测器在近火星轨道和近地轨道运行，轨道半径近似等于火星和地球的半径比，故 A 正确；\n\nB．根据万有引力提供向心力有\n\n$G\\frac{Mm}{r^2}=m\\frac{v^2}{r}$\n\n可得\n\n$M=\\frac{rv^2}{G}$\n\n结合 A 选项分析可知可以求得火星和地球的质量之比，故 B 正确；\n\nC．由于探测器运行的周期之比不是火星或地球的自转周期之比，故不能求得火星和地球的自转角速度之比，故 C 错误；\n\nD．由于题目中我们只能求出火星和地球的质量之比和星球半径之比，根据现有条件不能求出火星和地球的公转半径之比，故 D 错误。\n\n故选 AB。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 450,
+      "topics": [
+        "电磁感应",
+        "法拉第电磁感应定律"
+      ],
+      "stem_md": "如图 [2021辽宁09a] 所示，两根间距为 $L$、足够长的光滑平行金属导轨竖直放置并固定，顶端接有阻值为 $R$ 的电阻，垂直导轨平面存在变化规律如图 [2021辽宁09b] 所示的匀强磁场，$t=0$ 时磁场方向垂直纸面向里。在 $t=0$ 到 $t=2t_0$ 的时间内，金属棒水平固定在距导轨顶端 $L$ 处；$t=2t_0$ 时，释放金属棒。整个过程中金属棒与导轨接触良好，导轨与金属棒的电阻不计，则（  ）\n\n![物理配图](assets/2021/physics/辽宁/09a.png) ![物理配图](assets/2021/physics/辽宁/09b.png)",
+      "figures": [
+        "assets/2021/physics/辽宁/09a.png",
+        "assets/2021/physics/辽宁/09b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "在 $t=\\frac{t_0}{2}$ 时，金属棒受到安培力的大小为 $\\frac{B_0^2L^3}{t_0R}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "在 $t=t_0$ 时，金属棒中电流的大小为 $\\frac{B_0L^2}{t_0R}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "在 $t=\\frac{3t_0}{2}$ 时，金属棒受到安培力的方向竖直向上",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在 $t=3t_0$ 时，金属棒中电流的方向向右",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AB．由图可知在 $0\\sim t_0$ 时间段内产生的感应电动势为\n\n$E=\\frac{\\Delta\\Phi}{\\Delta t}=\\frac{B_0L^2}{t_0}$\n\n根据闭合电路欧姆定律有此时间段的电流为\n\n$I=\\frac{E}{R}=\\frac{B_0L^2}{Rt_0}$\n\n在 $\\frac{t_0}{2}$ 时磁感应强度为 $\\frac{B_0}{2}$，此时安培力为\n\n$F=BIL=\\frac{B_0^2L^3}{2Rt_0}$\n\n故 A 错误，B 正确；\n\nC．由图可知在 $t=\\frac{3t_0}{2}$ 时，磁场方向垂直纸面向外并逐渐增大，根据楞次定律可知产生顺时针方向的电流，再由左手定则可知金属棒受到的安培力方向竖直向上，故 C 正确；\n\nD．由图可知在 $t=3t_0$ 时，磁场方向垂直纸面向外，金属棒向下掉的过程中磁通量增加，根据楞次定律可知金属棒中的感应电流方向向左，故 D 错误。\n\n故选 BC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 350,
+      "topics": [
+        "功和能",
+        "动能定理"
+      ],
+      "stem_md": "冰滑梯是东北地区体验冰雪运动乐趣的设施之一，某冰滑梯的示意图如图所示，螺旋滑道的摩擦可忽略；倾斜滑道和水平滑道与同一滑板间的动摩擦因数 $\\mu$ 相同，因滑板不同 $\\mu$ 满足 $\\mu_0\\leqslant\\mu\\leqslant1.2\\mu_0$。在设计滑梯时，要确保所有游客在倾斜滑道上均减速下滑，且滑行结束时停在水平滑道上，以下 $L_1$、$L_2$ 的组合符合设计要求的是（  ）\n\n![物理配图](assets/2021/physics/辽宁/10.png)",
+      "figures": [
+        "assets/2021/physics/辽宁/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$L_1=\\frac{h}{2\\mu_0}$，$L_2=\\frac{3h}{2\\mu_0}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$L_1=\\frac{4h}{3\\mu_0}$，$L_2=\\frac{h}{3\\mu_0}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$L_1=\\frac{4h}{3\\mu_0}$，$L_2=\\frac{2h}{3\\mu_0}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$L_1=\\frac{3h}{2\\mu_0}$，$L_2=\\frac{h}{\\mu_0}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "CD",
+        "choices": [
+          "C",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设斜面倾角为 $\\theta$，游客在倾斜滑道上均减速下滑，则需满足 $mg\\sin\\theta<\\mu mg\\cos\\theta$\n\n可得 $\\mu>\\tan\\theta=\\frac{h}{L_1}$\n\n即有 $L_1>\\frac{h}{\\mu}$\n\n因 $\\mu_0\\leqslant\\mu\\leqslant1.2\\mu_0$，所有游客在倾斜滑道上均减速下滑，可得\n\n$L_1>\\frac{h}{\\mu_0}$\n\n滑行结束时停在水平滑道上，由全程的动能定理有\n\n$mg\\cdot2h-\\mu mg\\cos\\theta\\cdot\\frac{L_1}{\\cos\\theta}-\\mu mgx=0-0$\n\n其中 $0<x\\leq L_2$，可得\n\n$L_1<\\frac{2h}{\\mu}$，$L_1+L_2>\\frac{2h}{\\mu}$\n\n代入 $\\mu_0\\leqslant\\mu\\leqslant1.2\\mu_0$，可得\n\n$L_1<\\frac{5h}{3\\mu_0}$，$L_1+L_2>\\frac{2h}{\\mu_0}$\n\n综合需满足\n\n$\\frac{h}{\\mu_0}<L_1<\\frac{5h}{3\\mu_0}$，$L_1+L_2>\\frac{2h}{\\mu_0}$\n\n故选 CD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "力物体的平衡",
+        "三力平衡"
+      ],
+      "stem_md": "某同学阅读教材中的“科学漫步”栏目，对“流体的阻力（$f$）跟物体相对于流体的速度（$v$）有关”这一说法产生了兴趣，通过查阅资料得知：对于球形物体，二者间存在定量关系 $f=kv$，$k$ 为比例系数。该同学为探究这一关系利用如图 [2021辽宁11a] 所示装置测量 $k$。具体操作如下：在柱状玻璃容器中注入某透明液体，将小球在液面处由静止释放，当小球运动到 0 刻度线处开始计时，每下落 $10\\,\\mathrm{cm}$ 记录一次时间，得到多组下落高度 $h$ 与时间 $t$ 的数据，作出 $h-t$ 图像如图 [2021辽宁11b] 中实线所示。\n\n![物理配图](assets/2021/physics/辽宁/11a.png) ![物理配图](assets/2021/physics/辽宁/11b.png)\n\n（1）由 $h-t$ 图像可知，从计时开始小球近似做  ______  运动。\n（2）已知液体密度 $\\rho=8.0\\times10^2\\,\\mathrm{kg}/\\mathrm{m}^3$，小球体积 $V=5.0\\times10^{-10}\\,\\mathrm{m}^3$、质量 $m=4.0\\times10^{-6}\\,\\mathrm{kg}$，结合 $h-t$ 图像可得 $k=$  ______  $\\,\\mathrm{kg}/\\mathrm{s}$（浮力不能忽略，取重力加速度 $g=9.8\\,\\mathrm{m}/\\mathrm{s}^2$）。\n（3）若再用一个体积相同、密度较大的球，重复上述实验，所得 $h-t$ 图像也是一条直线，则该直线可能是图 [2021辽宁11b] 中的  ______  虚线。",
+      "figures": [
+        "assets/2021/physics/辽宁/11a.png",
+        "assets/2021/physics/辽宁/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）匀速直线\n（2）$5.292\\times10^{-4}$\n（3）①",
+        "sub_answers": [
+          "匀速直线",
+          "$5.292\\times10^{-4}$",
+          "①"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据 $h-t$ 图象可知，下落的距离随时间均匀变化，所以小球近似做匀速直线运动。\n\n（2）根据 $h-t$ 图象可知小球下落的速度为\n\n$v=\\frac{40\\times10^{-2}\\,\\mathrm{m}}{6\\,\\mathrm{s}}=\\frac{1}{15}\\,\\mathrm{m}/\\mathrm{s}$\n\n小球下落过程中受到竖直向下的重力、竖直向上的浮力和阻力，小球做匀速直线运动，受力平衡\n\n$mg=kv+\\rho gV$\n\n式中 $\\rho gV$ 表示液体对小球的浮力，代入数据可得比例系数\n\n$k=\\frac{mg-\\rho gV}{v}=\\frac{4.0\\times10^{-6}\\times9.8-8.0\\times10^{2}\\times9.8\\times5.0\\times10^{-10}}{\\frac{1}{15}}\\,\\mathrm{kg}/\\mathrm{s}=5.292\\times10^{-4}\\,\\mathrm{kg}/\\mathrm{s}$\n\n（3）若选择一个密度更大、体积相同的小球，浮力 $\\rho gV$ 不变，根据 $m=\\rho V$ 可知小球的质量增大，根据平衡方程 $mg=kv+\\rho gV$ 可知小球的速度增大，所以在相同的时间内小球下落的高度增大，所以该直线可能是图象中的①虚线。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "电表改装"
+      ],
+      "stem_md": "某同学将一量程为 $250\\,\\mu\\mathrm{A}$ 的微安表改装成量程为 $1.5\\,\\mathrm{V}$ 的电压表。先将电阻箱 $R_1$ 与该微安表串联进行改装，然后选用合适的电源 $E$、滑动变阻器 $R_2$、定值电阻 $R_3$、开关 S 和标准电压表对改装后的电表进行检测，设计电路如图所示。\n\n![物理配图](assets/2021/physics/辽宁/12.png)\n\n（1）微安表铭牌标示内阻为 $0.8\\,\\mathrm{k}\\Omega$，据此计算 $R_1$ 的阻值应为  ______  $\\,\\mathrm{k}\\Omega$。按照电路图连接电路，并将 $R_1$ 调为该阻值。\n（2）开关闭合前，$R_2$ 的滑片应移动到  ______  端。\n（3）开关闭合后，调节 $R_2$ 的滑片位置，微安表有示数，但变化不显著，故障原因可能是  ______ 。（填选项前的字母）\n\n\tA．1、2 间断路　　B．3、4 间断路　　C．3、5 间短路\n（4）排除故障后，调节 $R_2$ 的滑片位置，当标准电压表的示数为 $0.60\\,\\mathrm{V}$ 时，微安表的示数为 $98\\,\\mu\\mathrm{A}$，此时需要  ______ （填“增大”或“减小”）$R_1$ 的阻值，以使改装电表的量程达到预期值。",
+      "figures": [
+        "assets/2021/physics/辽宁/12.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）5.2\n（2）2\n（3）AC\n（4）减小",
+        "sub_answers": [
+          "5.2",
+          "2",
+          "AC",
+          "减小"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）微安表的内阻 $R_g=0.8\\,\\mathrm{k}\\Omega$，满偏电流 $I_g=250\\,\\mu\\mathrm{A}=250\\times10^{-6}\\,\\mathrm{A}$，串联 $R_1$ 后改装为 $U=1.5\\,\\mathrm{V}$ 的电压表，所以满足\n\n$I_g(R_g+R_1)=U$\n\n代入数据解得\n\n$R_1=\\frac{U}{I_g}-R_g=\\frac{1.5}{250\\times10^{-6}}\\,\\Omega-0.8\\,\\mathrm{k}\\Omega=6\\,\\mathrm{k}\\Omega-0.8\\,\\mathrm{k}\\Omega=5.2\\,\\mathrm{k}\\Omega$\n\n（2）开关闭合前，将滑动变阻器 $R_2$ 的滑片移动到 2 端，这样测量电路部分的分压为 0，便于检测改装后的电表。\n\n（3）开关闭合，调节滑动变阻器 $R_2$，电表示数变化不明显，说明分压电路未起作用，可能是 1、2 之间断路或者 3、5 间短路，整个电路变为限流线路，滑动变阻器的阻值远小于检测电表的电路部分的电阻，所以微安表示数变化不明显；若是 3、4 间断路，电路断开，微安表无示数。\n\n故选 AC。\n\n（4）标准电压表的示数为 $0.6\\,\\mathrm{V}$，若改装电压表也为 $0.6\\,\\mathrm{V}$，此时微安表的示数为\n\n$I=\\frac{0.6\\,\\mathrm{V}}{R_g+R_1}=\\frac{0.6}{6\\,\\mathrm{k}\\Omega}=100\\,\\mu\\mathrm{A}$\n\n但此时微安表示数为 $98\\,\\mu\\mathrm{A}$，说明 $R_1$ 的阻值偏大，所以应该减小 $R_1$ 的阻值。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 11,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "传送带"
+      ],
+      "stem_md": "机场地勤工作人员利用传送带从飞机上卸行李。如图所示，以恒定速率 $v_1=0.6\\,\\mathrm{m}/\\mathrm{s}$ 运行的传送带与水平面间的夹角 $\\alpha=37{}^\\circ$，转轴间距 $L=3.95\\,\\mathrm{m}$。工作人员沿传送方向以速度 $v_2=1.6\\,\\mathrm{m}/\\mathrm{s}$ 从传送带顶端推下一件小包裹（可视为质点）。小包裹与传送带间的动摩擦因数 $\\mu=0.8$。取重力加速度 $g=10\\,\\mathrm{m}/\\mathrm{s}^2$，$\\sin37{}^\\circ=0.6$，$\\cos37{}^\\circ=0.8$。求：\n\n（1）小包裹相对传送带滑动时加速度的大小 $a$；\n（2）小包裹通过传送带所需的时间 $t$。\n\n![物理配图](assets/2021/physics/辽宁/13.png)",
+      "figures": [
+        "assets/2021/physics/辽宁/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$0.4\\,\\mathrm{m}/\\mathrm{s}^2$\n（2）$4.5\\,\\mathrm{s}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）小包裹的速度 $v_2$ 大于传送带的速度 $v_1$，所以小包裹受到传送带的摩擦力沿传送带向上，根据牛顿第二定律可知\n\n$\\mu mg\\cos\\alpha-mg\\sin\\alpha=ma$\n\n解得\n\n$a=0.4\\,\\mathrm{m}/\\mathrm{s}^2$\n\n（2）根据（1）可知小包裹开始阶段在传送带上做匀减速直线运动，用时\n\n$t_1=\\frac{v_2-v_1}{a}=\\frac{1.6-0.6}{0.4}\\,\\mathrm{s}=2.5\\,\\mathrm{s}$\n\n在传送带上滑动的距离为\n\n$x_1=\\frac{v_1+v_2}{2}t_1=\\frac{1.6+0.6}{2}\\times2.5\\,\\mathrm{m}=2.75\\,\\mathrm{m}$\n\n因为小包裹所受滑动摩擦力大于重力沿传送带方向上的分力，即 $\\mu mg\\cos\\alpha>mg\\sin\\alpha$，所以小包裹与传送带共速后做匀速直线运动至传送带底端，匀速运动的时间为\n\n$t_2=\\frac{L-x_1}{v_1}=\\frac{3.95-2.75}{0.6}\\,\\mathrm{s}=2\\,\\mathrm{s}$\n\n所以小包裹通过传送带的时间为\n\n$t=t_1+t_2=4.5\\,\\mathrm{s}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 10,
+      "difficulty": 450,
+      "topics": [
+        "气体性质",
+        "理想气体状态方程"
+      ],
+      "stem_md": "如图 [2021辽宁14a] 所示，“系留气球”是一种用缆绳固定于地面、高度可控的氦气球，作为一种长期留空平台，具有广泛用途。图 [2021辽宁14b] 为某一“系留气球”的简化模型图；主、副气囊通过无漏气、无摩擦的活塞分隔，主气囊内封闭有一定质量的氦气（可视为理想气体），副气囊与大气连通。轻弹簧右端固定、左端与活塞连接。当气球在地面达到平衡时，活塞与左挡板刚好接触，弹簧处于原长状态。在气球升空过程中，大气压强逐渐减小，弹簧被缓慢压缩。当气球上升至目标高度时，活塞与右挡板刚好接触，氦气体积变为地面时的 1.5 倍，此时活塞两侧气体压强差为地面大气压强的 $\\frac{1}{6}$。已知地面大气压强 $p_0=1.0\\times10^5\\,\\mathrm{Pa}$、温度 $T_0=300\\,\\mathrm{K}$，弹簧始终处于弹性限度内，活塞厚度忽略不计。\n\n![物理配图](assets/2021/physics/辽宁/14a.png) ![物理配图](assets/2021/physics/辽宁/14b.png)\n\n（1）设气球升空过程中氦气温度不变，求目标高度处的大气压强 $p$；\n（2）气球在目标高度处驻留期间，设该处大气压强不变。气球内外温度达到平衡时，弹簧压缩量为左、右挡板间距离的 $\\frac{4}{5}$。求气球驻留处的大气温度 $T$。",
+      "figures": [
+        "assets/2021/physics/辽宁/14a.png",
+        "assets/2021/physics/辽宁/14b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\frac{1}{2}p_0$\n（2）$\\frac{133}{150}T_0$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）汽缸中的温度不变，则发生的是等温变化，设气缸内的气体在目标位置的压强为 $p_1$，由玻意耳定律\n\n$p_0V_0=p_1\\cdot1.5V_0$\n\n解得\n\n$p_1=\\frac{2}{3}p_0$\n\n由目标处的内外压强差可得\n\n$p_1-p=\\frac{1}{6}p_0$\n\n解得\n\n$p=\\frac{1}{2}p_0$\n\n（2）由胡克定律 $F=kx$ 可知弹簧的压缩量变为原来的 $\\frac{4}{5}$，则活塞受到弹簧的压强也变为原来的 $\\frac{4}{5}$，即 $p_x=\\frac{1}{6}p_0\\times\\frac{4}{5}=\\frac{2}{15}p_0$\n\n设此时气缸内气体的压强为 $p_2$，对活塞压强平衡可得\n\n$p_2=p_x+p=\\frac{19}{30}p_0$\n\n由理想气体状态方程可得\n\n$\\frac{p_0V_0}{T_0}=\\frac{p_2V_2}{T}$\n\n其中\n\n$V_2=V_0+0.5V_0\\times\\frac{4}{5}=\\frac{7}{5}V_0$\n\n解得\n\n$T=\\frac{133}{150}T_0$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2021-physics-辽宁-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 19,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图所示，在 $x>0$ 区域内存在垂直纸面向里、磁感应强度大小为 $B$ 的匀强磁场；在 $x<0$ 区域内存在沿 $x$ 轴正方向的匀强电场。质量为 $m$、电荷量为 $q$（$q>0$）的粒子甲从点 $S(-a,0)$ 由静止释放，进入磁场区域后，与静止在点 $P(a,a)$、质量为 $\\frac{m}{3}$ 的中性粒子乙发生弹性正碰，且有一半电量转移给粒子乙。（不计粒子重力及碰撞后粒子间的相互作用，忽略电场、磁场变化引起的效应）求：\n\n（1）求电场强度的大小 $E$；\n（2）若两粒子碰撞后，立即撤去电场，同时在 $x\\leq0$ 区域内加上与 $x>0$ 区域内相同的磁场，求从两粒子碰撞到下次相遇的时间 $\\Delta t$；\n（3）若两粒子碰撞后，粒子乙首次离开第一象限时，撤去电场和磁场，经一段时间后，在全部区域内加上与原 $x>0$ 区域相同的磁场，此后两粒子的轨迹恰好不相交，求这段时间内粒子甲运动的距离 $L$。\n\n![物理配图](assets/2021/physics/辽宁/15.png)",
+      "figures": [
+        "assets/2021/physics/辽宁/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$E=\\frac{qB^2a}{2m}$\n（2）$\\Delta t=\\frac{2\\pi m}{qB}$\n（3）$L=\\frac{2a}{\\sqrt{7}}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）粒子甲匀速圆周运动过 $P$ 点，则在磁场中运动轨迹半径 $R=a$\n\n则\n\n$qBv=\\frac{mv^2}{R}$\n\n则\n\n$v=\\frac{qBa}{m}$\n\n粒子从 $S$ 到 $O$，由动能定理可得\n\n$qEa=\\frac{1}{2}mv^2$\n\n可得\n\n$E=\\frac{qB^2a}{2m}$\n\n（2）甲、乙粒子在 $P$ 点发生弹性碰撞，设碰后速度为 $v_1$、$v_2$，取向上为正，则有\n\n$mv=mv_1+\\frac{1}{3}mv_2$\n\n$\\frac{1}{2}mv^2=\\frac{1}{2}mv_1^2+\\frac{1}{2}\\times\\frac{1}{3}mv_2^2$\n\n计算可得\n\n$v_1=\\frac{1}{2}v=\\frac{qBa}{2m}$\n\n$v_2=\\frac{3}{2}v=\\frac{3qBa}{2m}$\n\n两粒子碰后在磁场中运动\n\n$\\frac{1}{2}qBv_1=\\frac{mv_1^2}{R_1}$\n\n$\\frac{1}{2}qBv_2=\\frac{mv_2^2}{3R_2}$\n\n解得\n\n$R_1=a$\n\n$R_2=a$\n\n两粒子在磁场中一直做轨迹相同的匀速圆周运动，周期分别为\n\n$T_1=\\frac{2\\pi R_1}{v_1}=\\frac{4\\pi m}{qB}$\n\n$T_2=\\frac{2\\pi R_2}{v_2}=\\frac{4\\pi m}{3qB}$\n\n则两粒子碰后再次相遇\n\n$\\frac{2\\pi}{T_2}\\Delta t=\\frac{2\\pi}{T_1}\\Delta t+2\\pi$\n\n解得再次相遇时间\n\n$\\Delta t=\\frac{2\\pi m}{qB}$\n\n（3）乙出第一象限时甲在磁场中偏转角度为\n\n$\\theta=\\frac{2\\pi}{T_1}\\cdot\\frac{T_2}{4}=\\frac{\\pi}{6}$\n\n撤去电场磁场后，两粒子做匀速直线运动，乙粒子运动一段时间后，再整个区域加上相同的磁场，粒子在磁场中仍做半径为 $a$ 的匀速圆周运动，要求轨迹恰好不相切，则如图所示\n\n![物理配图](assets/2021/physics/辽宁/15_an.png)\n\n设撤去电场、磁场到加磁场乙运动了 $t'$，由余弦定理可得\n\n$\\cos60^\\circ=\\frac{(v_1t')^2+(v_2t')^2-(2a)^2}{2\\times v_1t'\\times v_2t'}$\n\n$v_1t'=\\frac{1}{3}v_2t'$\n\n则从撤去电场、磁场到加磁场乙运动的位移\n\n$L=v_1t'=\\frac{2a}{\\sqrt{7}}$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2021/physics/辽宁/15_an.png"
+      ],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

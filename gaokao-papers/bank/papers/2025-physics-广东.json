@@ -1,0 +1,941 @@
+{
+  "id": "2025-physics-广东",
+  "year": 2025,
+  "subject": "物理",
+  "region": "广东卷",
+  "region_key": "广东",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2025-physics-广东-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 850,
+      "topics": [
+        "机械波",
+        "多普勒效应"
+      ],
+      "stem_md": "关于受迫振动和多普勒效应，下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "系统的固有频率与驱动力频率有关",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "只要驱动力足够大，共振就能发生",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "应用多普勒效应可以测量车辆的速度",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "观察者与波源相互远离时，接收到的波的频率比波源的频率大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "intuition_1",
+          "label": "破题直觉 · 生活常识秒判多普勒与共振",
+          "tier": "intuition",
+          "badge": "生活经验物理",
+          "audience": "基础巩固",
+          "time_save": "10 秒秒选",
+          "content_md": "想象救护车鸣笛从身边驶过：冲过来时声音尖（频率变大），开远后声音低沉（频率变小），交警正是用类似原理（测速雷达）测车速——立刻知道 C 对、D 错。\n\n再看秋千：推得再猛，如果节奏不对（频率不等于固有频率），也荡不高——B 错，选 C。"
+        },
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．系统的固有频率只与系统本身有关，与驱动力频率无关，A 错误；\n\nB．只有驱动力频率与系统固有频率相同时，共振才能发生，B 错误；\n\nCD．根据多普勒效应可知观察者与波源相互远离时，接收到的波的频率比波源的频率小，观察者与波源相互靠近时，接收到的波的频率比波源的频率大，所以应用多普勒效应可以测量车辆的速度，C 正确，D 错误。\n\n故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "误以为驱动力够大就会共振——共振只认“驱动力频率 $=$ 固有频率”，与驱动力振幅无关。",
+      "takeaway": "受迫振动记“固有归自己，稳态频率随驱动”；多普勒效应记“靠近变调高（频率大），远离变调低（频率小）”。",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "电磁感应",
+        "远距离输电"
+      ],
+      "stem_md": "如图所示。某光伏电站输出功率 $1000 \\,\\mathrm{kW}$、电压 $400 \\,\\mathrm{V}$ 的交流电，经理想变压器升压至 $10 \\,\\mathrm{kV}$ 后，通过输电线输送到变电站，输电线的等效电阻 $R$ 为 $5 \\,\\Omega$。下列说法正确的是（  ）\n\n![物理配图](assets/2025/physics/广东/02.png)",
+      "figures": [
+        "assets/2025/physics/广东/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "变压器原、副线圈匝数比为 $1:100$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "输电线上由 $R$ 造成的电压损失为 $500 \\,\\mathrm{V}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "变压器原线圈中的电流为 $100 \\,\\mathrm{A}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "变压器原、副线圈中电流的频率不同",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "intuition_1",
+          "label": "破题直觉 · 先统一单位到 $\\mathrm{W}$ 和 $\\mathrm{V}$，再求输电电流 $I_2$",
+          "tier": "intuition",
+          "badge": "数量级防错",
+          "audience": "基础巩固",
+          "time_save": "避免 $10^3$ 倍失误",
+          "content_md": "看到 $\\mathrm{kW}$ 和 $\\mathrm{kV}$，直接两两配对省得换算成零：\n- 输电线电流 $I_2=\\frac{P}{U_2}=\\frac{1000\\,\\mathrm{kW}}{10\\,\\mathrm{kV}}=100\\,\\mathrm{A}$（$\\mathrm{kW}/\\mathrm{kV}$ 正好消掉千字！）；\n- 线损电压 $\\Delta U = I_2R = 100\\times 5 = 500\\,\\mathrm{V}$，直接核对 B 正确！"
+        },
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据理想变压器原副线圈电压比等于匝数比可得 $\\frac{n_{1}}{n_{2}} = \\frac{U_{1}}{U_{2}} = \\frac{400}{10000} = \\frac{1}{25}$，A 错误；\n\nB．原副线圈两端的功率相等，流过副线圈的电流 $I_{2}=\\frac{P}{U_{2}}=\\frac{1000000}{10000}\\,\\mathrm{A}=100\\,\\mathrm{A}$\n\n输电线上由 $R$ 造成的电压损失为 $\\Delta U = I_{2}R = 100 \\times 5\\,\\mathrm{V} = 500\\,\\mathrm{V}$，B 正确；\n\nC．变压器原线圈中的电流为 $I_{1}=\\frac{P}{U_{1}}=\\frac{1000000}{400}\\,\\mathrm{A}=2500\\,\\mathrm{A}$，C 错误；\n\nD．变压器不改变交变电流的频率，变压器原、副线圈中电流的频率相同，D 错误。\n\n故选 B。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · “$\\mathrm{kW}/\\mathrm{kV}=\\mathrm{A}$” 免补零口算",
+          "tier": "fast",
+          "badge": "5秒口算",
+          "audience": "全水平适用",
+          "time_save": "告别数零",
+          "content_md": "直接用 $\\frac{1000\\,\\mathrm{kW}}{10\\,\\mathrm{kV}}=100\\,\\mathrm{A}$ 得线电流，乘电阻 $5\\,\\Omega$ 即 $\\Delta U=500\\,\\mathrm{V}$，B 秒选！（同时发现原线圈电流要升压反比于 $25$ 倍，绝不是 $100\\,\\mathrm{A}$，且频率在变压器里永远不变，C、D 一眼排除。）"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "注意 A 项写的是 $1:100$ 还是 $1:25$：$400\\,\\mathrm{V}:10\\,\\mathrm{kV}=400:10000=1:25$，数少一个零或看反数量级最易错！",
+      "takeaway": "远距离输电永远先画清“三段式链条”：$U_1, I_1 \\xrightarrow{\\text{升压}} U_2, I_2 \\xrightarrow{R} \\Delta U=I_2R$。算输电线电压损失必须用高压端电流 $I_2$，千万别错用低压原线圈电流 $I_1$！",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "光学",
+        "光电效应"
+      ],
+      "stem_md": "有甲、乙两种金属，甲的逸出功小于乙的逸出功。使用某频率的光分别照射这两种金属，只有甲发射光电子，其最大初动能为 $E_{k}$，下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "使用频率更小的光，可能使乙也发射光电子",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "使用频率更小的光，若仍能使甲发射光电子，则其最大初动能小于 $E_{k}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "频率不变，减弱光强，可能使乙也发射光电子",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "频率不变，减弱光强，若仍能使甲发射光电子，则其最大初动能小于 $E_{k}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．某频率的光不能使乙金属发生光电效应，说明此光的频率小于乙金属的截止频率，则换用频率更小的光不能发生光电效应，A 错误；\n\nB．由光电效应方程 $E_{k} = h\\nu - W_{0}$ 可知频率越大最大初动能越大，换用频率更小的光最大初动能小于 $E_{k}$，B 正确；\n\nC．频率不变则小于乙金属的截止频率，不会发生光电效应，C 错误；\n\nD．由 $E_{k} = h\\nu - W_{0}$ 可知频率不变最大初动能不变，D 错误。\n\n故选 B。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · “频率管能量，光强管个数”两句话秒杀",
+          "tier": "fast",
+          "badge": "5秒秒杀",
+          "audience": "全水平适用",
+          "time_save": "一眼排三项",
+          "content_md": "先用“光强不管初动能、也不能跨过门槛”直接划掉 C、D（C 妄图靠强度/不变频率打响乙，D 妄图靠弱光降低初动能）。\n\n再看题目已知“当前光打不动乙、能打动甲”，说明减小频率只会更打不动乙（A 错），且让甲打出来的电子剩余动能 $h\\nu - W_0$ 更小（B 对），秒选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "看到“减弱光强”或“增大光强”，如果频率不够截止频率，照十年也不会放出一个电子。",
+      "takeaway": "光电效应两条铁律互不串门：**能不能发生、最大初动能多大，只看频率 $\\nu$**（与光强无关）；**光电流多大、单位时间逸出多少电子，才看光强**。",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "光学",
+        "光的折射"
+      ],
+      "stem_md": "如图为测量某种玻璃折射率的光路图。某单色光从空气垂直射入顶角为 $\\alpha$ 的玻璃棱镜，出射光相对于入射光的偏转角为 $\\beta$，该折射率为（  ）\n\n![物理配图](assets/2025/physics/广东/04.png)",
+      "figures": [
+        "assets/2025/physics/广东/04.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{\\sin(\\alpha + \\beta)}{\\sin\\alpha}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{\\sin(\\alpha + \\beta)}{\\sin\\beta}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{\\sin\\alpha}{\\sin\\beta}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{\\sin\\beta}{\\sin\\alpha}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "光路图如图所示。\n\n![物理配图](assets/2025/physics/广东/04_an.png)\n\n则有折射定律可得 $n = \\frac{\\sin(\\alpha + \\beta)}{\\sin\\alpha}$\n\n故选 A。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 量级检验（$n>1$）+ 极限角（$\\beta\\to 0$ 时 $n\\to 1$）秒杀",
+          "tier": "fast",
+          "badge": "极限检验神技",
+          "audience": "全水平通用",
+          "time_save": "10 秒防写反分子分母",
+          "content_md": "即使一时忘了几何角怎么推，用物理极限就能秒选：\n1. 若玻璃和空气折射率一样（$n=1$），光线不发生偏折，即偏转角 $\\beta=0$。把 $\\beta=0$ 代入选项检验 $n$ 必须等于 $1$：\n   - C 项 $\\frac{\\sin\\alpha}{\\sin 0}\\to\\infty$ 淘汰！\n   - D 项 $\\frac{\\sin 0}{\\sin\\alpha}=0$ 淘汰！\n2. 玻璃折射率一定**大于 $1$**，因为 $\\alpha,\\beta$ 均为锐角且 $\\alpha+\\beta>\\alpha$，所以分子必须比 $\\sin\\alpha$ 更大：比较 A（分母 $\\sin\\alpha$，必 $>1$）与 B（分母 $\\sin\\beta$，当 $\\alpha$ 很小而 $\\beta$ 较大时不成立，且小偏折近似 $\\beta\\approx(n-1)\\alpha \\implies n\\approx\\frac{\\alpha+\\beta}{\\alpha}$ 正对应 A 项！）。\n\n直接锁死 A！"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/广东/04_an.png"
+      ],
+      "has_multi_method": true,
+      "pitfall": "千万别把折射率算反成 $\\frac{\\sin\\alpha}{\\sin(\\alpha+\\beta)}$：光从玻璃进入空气，折射率 $n>1$，大角（空气中偏折后角 $\\alpha+\\beta$）正弦永远在分子上！",
+      "takeaway": "垂直射入三棱镜某侧面的光线，第一面**不偏折**，直接把顶角 $\\alpha$ 原封不动传到第二面当成玻璃内部入射角 $\\theta_2=\\alpha$，而空气中折射角等于 $\\alpha+\\beta$！",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "开普勒定律"
+      ],
+      "stem_md": "一颗绕太阳运行的小行星，其轨道近日点和远日点到太阳的距离分别约为地球到太阳距离的 5 倍和 7 倍。关于该小行星，下列说法正确的是（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "公转周期约为 6 年",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "从远日点到近日点所受太阳引力大小逐渐减小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "从远日点到近日点线速度大小逐渐减小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "在近日点加速度大小约为地球公转加速度的 $\\frac{1}{25}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据题意，设地球与太阳间距离为 $R$，则小行星公转轨道的半长轴为 $a=\\frac{5R+7R}{2}=6R$\n\n由开普勒第三定律有 $\\frac{(6R)^{3}}{T_{2}^{2}} = \\frac{R^{3}}{T_{\\text{地}}^{2}}$\n\n解得 $T = \\sqrt{6^{3}T_{\\text{地}}^{2}} = 6\\sqrt{6}$ 年\n\n故 A 错误；\n\nB．从远日点到近日点，小行星与太阳间距离减小，由万有引力定律 $F = \\frac{Gm_{1}m_{2}}{r^{2}}$ 可知，小行星受太阳引力增大，故 B 错误；\n\nC．由开普勒第二定律可知，从远日点到近日点，小行星线速度逐渐增大，故 C 错误。\n\nD．由牛顿第二定律有 $\\frac{GMm}{r^{2}} = ma$\n\n解得 $a = \\frac{GM}{r^{2}}$\n\n可知 $\\frac{a_{\\text{行}}}{a_{\\text{地}}} = \\frac{R^{2}}{(5R)^{2}} = \\frac{1}{25}$\n\n即小行星在近日点的加速度是地球公转加速度的 $\\frac{1}{25}$，故 D 正确；\n\n故选 D。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 平方反比一秒算 D，半次幂排 A",
+          "tier": "fast",
+          "badge": "5秒口算",
+          "audience": "全水平适用",
+          "time_save": "一眼定位答案",
+          "content_md": "近远日点趋势（B、C 说靠近太阳引力和速度反而减小，违背常识一眼划掉）；看 A，$a=6R$ 时周期必须开 $6^3$ 的方，绝对不是整数 $6$；看 D，近日点距离是地球的 $5$ 倍，平方反比 $a = \\frac{GM}{r^2}$ 直接是地球的 $\\frac{1}{5^2}=\\frac{1}{25}$，秒选 D。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "不要以为半长轴是 $6R$ 周期就是 $6$ 年——周期满足 $T\\propto a^{3/2}$，是 $6\\sqrt{6}$ 年（约 $14.7$ 年），不是正比于 $a$！",
+      "takeaway": "开普勒定律速算牢记两件事：半长轴 $a = \\frac{r_{\\text{近}}+r_{\\text{远}}}{2}$；向心（万有）加速度大小只取决于此刻到中心天体的瞬时距离平方反比 $a\\propto \\frac{1}{r^2}$，与椭圆长啥样无关！",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "磁场",
+        "质谱仪回旋加速器"
+      ],
+      "stem_md": "某同步加速器简化模型如图所示，其中仅直通道 PQ 内有加速电场，三段圆弧内均有可调的匀强偏转磁场 $B$。带电荷量为 $-q$、质量为 $m$ 的离子以初速度 $v_{0}$ 从 P 处进入加速电场后，沿顺时针方向在加速器内循环加速。已知加速电压为 $U$，磁场区域中离子的偏转半径均为 $R$。忽略离子重力和相对论效应，下列说法正确的是（  ）\n\n![物理配图](assets/2025/physics/广东/06.png)",
+      "figures": [
+        "assets/2025/physics/广东/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "偏转磁场的方向垂直纸面向里",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "第 1 次加速后，离子的动能增加了 $2qU$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "第 $k$ 次加速后，离子的速度大小变为 $\\frac{\\sqrt{m^{2}v_{0}^{2} + kqUm}}{m}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "第 $k$ 次加速后，偏转磁场的磁感应强度大小应为 $\\frac{\\sqrt{m^{2}v_{0}^{2} - 2kqUm}}{qR}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．直线通道 PQ 有电势差为 $U$ 的加速电场，粒子带负电，粒子沿顺时针方向运动，由左手定则可知，偏转磁场的磁感应强度方向垂直纸面向里，故 A 正确；\n\nBC．根据题意，由动能定理可知，加速一次后，带电粒子的动能增量为 $qU$，由于洛伦兹力不做功，则加速 $k$ 次后，带电粒子的动能增量为 $kqU$，加速 $k$ 次后，由动能定理有\n\n$kqU = \\frac{1}{2}mv^{2} - \\frac{1}{2}mv_{0}^{2}$\n\n解得 $v = \\sqrt{v_{0}^{2} + \\frac{2kqU}{m}} = \\frac{\\sqrt{m^{2}v_{0}^{2} + 2kqUm}}{m}$\n\n故 BC 错误；\n\nD．粒子在偏转磁场中运动的半径为 $R$，则有 $qvB = m\\frac{v^{2}}{R}$\n\n联立解得 $B=\\frac{mv}{qR}=\\frac{m}{qR}\\sqrt{v_{0}^{2}+\\frac{2kqU}{m}}=\\frac{\\sqrt{m^{2}v_{0}^{2}+2kmqU}}{qR}$\n\n故 D 错误。\n\n故选 A。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 单调性与动能因子 $2qU$ 瞬间排 BCD",
+          "tier": "fast",
+          "badge": "10秒排异秒杀",
+          "audience": "全水平必学技巧",
+          "time_save": "免去冗长开方代数化简",
+          "content_md": "题目明确告知**仅直通道有 $U$ 加速，圆弧只有磁场不做功**：\n- 看 B：一次加速动能增加 $qU$，不是 $2qU$（立刻淘汰 B）；\n- 看 C：由 $\\frac{1}{2}mv^2-\\frac{1}{2}mv_0^2=kqU$，两边乘 $2$ 必有系数 $2kqUm$，C 项分子漏了 $2$（立刻淘汰 C）；\n- 看 D：越加速速度越大，要求圆周半径 $R=\\frac{mv}{qB}$ 不变，所需磁感应强度 $B$ 必须**增大**而不是减小，D 项根号里是减号 $-2kqUm$ 荒谬（立刻淘汰 D）！\n\n无需左手定则都能 100% 锁死 A（用负电荷顺时针检验：手心向圆心、四指逆时针、拇指垂纸面朝里，完美印证 A）。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "看清题干中离子带电量为**负电荷 $-q$**！四指若按顺时针切线指就一定选反磁场方向；另外 D 选项根号里竟然是**减号** $-2kqUm$，加速后速度越快所需磁场应该更大不是更小！",
+      "takeaway": "遇到“带负电粒子+洛伦兹力”，左手定则四指必须指向**运动反方向**；遇到复杂加速器公式选项，直接用**特例 $k=0$（不加速时回旋半径）和能量增量常数 $qU$** 迅速排异！",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 350,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图所示，光滑水平面上，小球 M、N 分别在水平恒力 $F_{1}$ 和 $F_{2}$ 作用下，由静止开始沿同一直线相向运动，在 $t_{1}$ 时刻发生正碰后各自反向运动。已知 $F_{1}$ 和 $F_{2}$ 始终大小相等，方向相反。从开始运动到碰撞后第 1 次速度减为 0 的过程中，两小球速度 $v$ 随时间 $t$ 变化的图像，可能正确的是（  ）\n\n![物理配图](assets/2025/physics/广东/07a.svg)",
+      "figures": [
+        "assets/2025/physics/广东/07a.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2025/physics/广东/07c.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2025/physics/广东/07d.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2025/physics/广东/07e.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2025/physics/广东/07f.png"
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "intuition_1",
+          "label": "破题直觉 · 动量守恒推论：“总动量为零 $\\implies$ 同起同落”",
+          "tier": "intuition",
+          "badge": "零计算图像判断",
+          "audience": "所有水平同学",
+          "time_save": "10 秒内淘汰 B、C、D",
+          "content_md": "两小球由静止起在等大反向力 $F_1=-F_2$ 作用下相向加速：\n\n1. 系统合外力 $F_{\\text{合}}=F_1+F_2=0$，所以整个过程中系统总动量守恒，永远等于初态的 **$0$**！\n2. 既然任一时刻总动量 $m_M v_M + m_N v_N = 0$，那么只要一个球速度降成 $0$，另一个球的速度也必须**恰好在同一瞬间**降成 $0$！\n3. 立刻扫视四幅选项图像：B 和 C 里两条线与横轴交点（速度减为 0 的时刻）一前一后根本不重合，瞬间淘汰 B、C！"
+        },
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据牛顿第二定律 $a = \\frac{F}{m}$，两物体受外力 $F$ 大小相等，由图像的斜率等于加速度可知 M、N 的加速度大小之比为 $4:6 = 2:3$，可知 M、N 的质量之比为 $6:4 = 3:2$；设分别为 $3m$ 和 $2m$；由图像可设 MN 碰前的速度分别为 $4v$ 和 $6v$，则因 MN 系统受合外力为零，向右为正方向，则系统动量守恒，则由动量守恒定律\n\n$3m \\cdot 4v - 2m \\cdot 6v = 3mv_{1} + 2mv_{2}$\n\n若系统为弹性碰撞，则能量关系可知\n\n$\\frac{1}{2} \\cdot 3m(4v)^{2} + \\frac{1}{2} \\cdot 2m(6v)^{2} = \\frac{1}{2} \\cdot 3mv_{1}^{2} + \\frac{1}{2} \\cdot 2mv_{2}^{2}$\n\n解得 $v_{1} = -4v$、$v_{2} = 6v$\n\n因 M、N 的加速度大小之比仍为 $2:3$，则停止运动的时间之比为 $1:1$，即两物体一起停止，则 BD 是错误的；\n\n若不是弹性碰撞，则 $3m \\cdot 4v - 2m \\cdot 6v = 3mv_{1} + 2mv_{2}$\n\n可知碰后速度大小之比为 $v_{1}:v_{2} = 2:3$\n\n若假设 $v_{1} = 2v$，则 $v_{2} = 3v$，此时满足\n\n$\\frac{1}{2} \\cdot 3m(4v)^{2} + \\frac{1}{2} \\cdot 2m(6v)^{2} > \\frac{1}{2} \\cdot 3mv_{1}^{2} + \\frac{1}{2} \\cdot 2mv_{2}^{2}$\n\n则假设成立，因 M、N 的加速度大小之比仍为 $2:3$，则停止运动的时间之比为 $1:1$，对 M 来说碰撞前后的速度之比为 $4v:2v = 2:1$\n\n可知碰撞前后运动时间之比为 $2:1$，可知 A 正确，C 错误。\n\n故选 A。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 看加速度比与机械能损失，5秒定 A 排 D",
+          "tier": "fast",
+          "badge": "图像特质秒杀",
+          "audience": "冲刺提速",
+          "time_save": "约省 2 分钟列方程",
+          "content_md": "用“同起同落”秒排 B、C 后，只剩 A 与 D，看两者唯一区别：**A 图是弹性碰撞还是非弹性碰撞**？\n\n再仔细看 D 图里两小球的斜率与碰后速度：题干给定两恒力一直没变，所以同一小球的 $v-t$ 斜率（加速度大小）在碰前与碰后必须完全一致，且两球减速到零所需时间相等时，图 A 中 M 的纵坐标截距（速度大小）从 $4$ 降为 $2$、N 从 $6$ 降为 $3$，而图 D 里碰后两条直线与横轴交点位置不满足物理自洽（看斜率与碰后速率大小关系直接检验能量是否守恒/有损，且图 D 两条线斜率/交点比例与 $F_1=-F_2$ 动量定理矛盾），直接选 A！"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "注意 $v-t$ 图斜率绝对值才是加速度，斜率比 $4:6=2:3$ 意味着质量比是反比 $3:2$；另外碰撞损失机械能会造成碰后速率变小、减速时间变短（不会像弹性碰撞那样耗时仍等长）。",
+      "takeaway": "这是物理动力学与图像结合的绝美题！当两物体始终受等大反向恒力（系统合外力为零），**无论内部发生弹性还是非弹性碰撞，系统总动量在碰撞前后及整个减速过程中永远为零**——即任意时刻总有 $m_M v_M(t) = m_N v_N(t)$，所以停下来时两物体**必在同一时刻同时减为 $0$**！",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "曲线运动",
+        "圆周运动的应用"
+      ],
+      "stem_md": "将可视为质点的小球沿光滑冰坑内壁推出，使小球在水平面内做匀速圆周运动，如图所示。已知圆周运动半径 $R$ 为 $0.4 \\,\\mathrm{m}$，小球所在位置处的切面与水平面夹角 $\\theta$ 为 $45^\\circ$，小球质量为 $0.1 \\,\\mathrm{kg}$，重力加速度 $g$ 取 $10 \\,\\mathrm{m}/\\mathrm{s}^2$。关于该小球，下列说法正确的有（  ）\n\n![物理配图](assets/2025/physics/广东/08.png)",
+      "figures": [
+        "assets/2025/physics/广东/08.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "角速度为 $5 \\,\\mathrm{rad}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "线速度大小为 $4 \\,\\mathrm{m}/\\mathrm{s}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "向心加速度大小为 $10 \\,\\mathrm{m}/\\mathrm{s}^2$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "所受支持力大小为 $1 \\,\\mathrm{N}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．对小球受力分析可知 $F_{\\text{向}}=mg\\tan 45^\\circ=m\\omega^{2}R$\n\n解得 $\\omega = 5 \\,\\mathrm{rad}/\\mathrm{s}$\n\n故 A 正确；\n\nB．线速度大小为 $v = \\omega R = 2 \\,\\mathrm{m}/\\mathrm{s}$\n\n故 B 错误；\n\nC．向心加速度大小为 $a_{n} = \\omega^{2}R = 10 \\,\\mathrm{m}/\\mathrm{s}^2$\n\n故 C 正确；\n\nD．所受支持力大小为 $N=\\frac{mg}{\\cos 45^\\circ}=\\sqrt{2} \\,\\mathrm{N}$\n\n故 D 错误。\n\n故选 AC。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · $45^\\circ$ 圆锥摆对称性 10 秒心算四项",
+          "tier": "fast",
+          "badge": "10秒口算",
+          "audience": "全水平通用",
+          "time_save": "不用写方程组",
+          "content_md": "$45^\\circ$ 意味着向心力 $=$ 重力（$F_{\\text{向}}=mg\\tan 45^\\circ=mg$）：\n1. 向心加速度立刻等于 $g=10\\,\\mathrm{m/s^2}$（C 对！）；\n2. 由 $a_n=\\omega^2 R \\implies 10=\\omega^2\\cdot 0.4 \\implies \\omega^2=25 \\implies \\omega=5\\,\\mathrm{rad/s}$（A 对！）；\n3. 线速度 $v=\\omega R = 5\\times 0.4=2\\,\\mathrm{m/s} \\ne 4$（B 错）；\n4. 合力与重力成直角等腰三角形斜边支持力 $N=\\sqrt{2}mg=\\sqrt{2}\\,\\mathrm{N} \\ne 1\\,\\mathrm{N}$（D 错）。\n\n秒选 AC。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "看清“切面与水平面夹角为 $45^\\circ$”，支持力 $N$ 垂直于切面，所以 $N\\cos 45^\\circ = mg$ 而不是 $N=mg$（支持力肯定大于重力，$N=\\sqrt{2}\\,\\mathrm{N}$）。",
+      "takeaway": "光滑内壁水平圆周运动是经典的**圆锥摆等效模型**：不用列繁琐正交分解再代半径，当斜面/切面倾角为 $45^\\circ$ 时，支持力的竖直分量与水平向心分量正好 $1:1$ 相等，故 $a_n = g\\tan 45^\\circ = g = 10\\,\\mathrm{m/s^2}$！",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 550,
+      "topics": [
+        "电磁感应",
+        "切割磁感线电动势"
+      ],
+      "stem_md": "如图是一种精确测量质量的装置原理示意图，竖直平面内，质量恒为 $M$ 的称重框架由托盘和矩形线圈组成。线圈的一边始终处于垂直线圈平面的匀强磁场中，磁感应强度不变。测量分两个步骤，步骤①：托盘内放置待测物块，其质量用 $m$ 表示，线圈中通大小为 $I$ 的电流，使称重框架受力平衡；步骤②：线圈处于断开状态，取下物块，保持线圈不动，磁场以速率 $v$ 匀速向下运动，测得线圈中感应电动势为 $E$。利用上述测量结果可得出 $m$ 的值，重力加速度为 $g$。下列说法正确的有（  ）\n\n![物理配图](assets/2025/physics/广东/09.png)",
+      "figures": [
+        "assets/2025/physics/广东/09.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "线圈电阻为 $\\frac{E}{I}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$I$ 越大，表明 $m$ 越大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$v$ 越大，则 $E$ 越小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$m = \\frac{EI}{vg} - M$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "BD",
+        "choices": [
+          "B",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据题意电动势 $E$ 是线圈断开时切割磁感线产生的感应电动势，$I$ 为线圈闭合时通入的电流，故 $\\frac{E}{I}$ 不是线圈的电阻；\n\n故 A 错误；\n\nB．根据平衡条件有 $(M + m)g = BIL$ ①\n\n故可知 $I$ 越大，$m$ 越大；\n\n故 B 正确；\n\nC．根据公式有 $E = BLv$ ②\n\n故可知 $v$ 越大，$E$ 越大；\n\n故 C 错误；\n\nD．联立①②可得 $m = \\frac{EI}{vg} - M$\n\n故 D 正确。\n\n故选 BD。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 量纲检验 + 消元 $BL=E/v$ 秒出 D",
+          "tier": "fast",
+          "badge": "瓦特天平秒解",
+          "audience": "全水平必学",
+          "time_save": "20 秒稳选 BD",
+          "content_md": "两步写出核心消元式：\n- 称重平衡：$(M+m)g = (BL)I$\n- 磁铁匀速运动：$E = (BL)v \\implies BL = \\frac{E}{v}$\n\n把 $BL=\\frac{E}{v}$ 塞回第一式：$(M+m)g=\\frac{EI}{v} \\implies m=\\frac{EI}{vg}-M$（D 秒对，顺带校验量纲：$EI$ 是功率 $\\mathrm{W}$，$vg$ 是加速度$\\times$速度 $\\mathrm{m^2/s^3}$，相除正好是质量 $\\mathrm{kg}$！）。同时 $I$ 与 $(M+m)$ 正相关，故 B 对。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "注意 A 选项是个经典陷阱：$E$ 是断开电源后切割磁感线产生的**感应电动势**，$I$ 是另一阶段通入稳态的**称重电流**，两者根本不是同一闭合回路状态，因此 $\\frac{E}{I}$ 绝不是线圈电阻！",
+      "takeaway": "这是物理新高考非常经典的**“瓦特天平（Kibble balance）”原理**！通过“通电称重（安培力 $F=BIL$ 测质量）”和“运动测速（电动势 $E=BLv$ 消去磁感应强度与线长乘积 $BL$）”两步联立，将难测量的磁场项 $BL = \\frac{E}{v}$ 消去，实现质量的高精度电学测量。",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 350,
+      "topics": [
+        "力物体的平衡",
+        "动态平衡"
+      ],
+      "stem_md": "如图所示，无人机在空中作业时，受到一个方向不变、大小随时间变化的拉力。无人机经飞控系统实时调控，在拉力、空气作用力和重力作用下沿水平方向做匀速直线运动。已知拉力与水平面成 $30^\\circ$ 角，其大小 $F$ 随时间 $t$ 的变化关系为 $F = F_{0} - kt$（$F \\neq 0$，$F_{0}$、$k$ 均为大于 0 的常量），无人机的质量为 $m$，重力加速度为 $g$。关于该无人机在 0 到 $T$ 时间段内（$T$ 是满足 $F > 0$ 的任一时刻），下列说法正确的有（  ）\n\n![物理配图](assets/2025/physics/广东/10.png)",
+      "figures": [
+        "assets/2025/physics/广东/10.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "受到空气作用力的方向会变化",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "受到拉力的冲量大小为（$F_{0} - \\frac{1}{2}kT$）$T$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "受到重力和拉力的合力的冲量大小为 $mgT$ + （$F_{0} - \\frac{1}{2}kT$）$T$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$T$ 时刻受到空气作用力的大小为 $\\sqrt{\\frac{3}{4}(F_{0} - kT)^{2} + (mg - \\frac{F_{0} - kT}{2})^{2}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AB",
+        "choices": [
+          "A",
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "intuition_1",
+          "label": "破题直觉 · 三力平衡动态三角形看空气力怎么变",
+          "tier": "intuition",
+          "badge": "动态矢量三角形",
+          "audience": "基础/中等生",
+          "time_save": "一目了然判 A 错对",
+          "content_md": "无人机匀速直线运动 $\\implies$ 三力合力永远为 $0$，所以**空气作用力 $F_{\\text{空}}$ 永远与重力 $mg$ 和拉力 $F$ 的合力等大反向**。\n\n画三角形：重力 $mg$ 大小方向都固定死，拉力 $F$ 方向固定但长度随时间不断缩短，那么连接两者的第三边（空气作用力 $F_{\\text{空}}$）终点一直在退缩，所以它的**大小和方向都会实时改变**（A 对）。"
+        },
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "AD．无人机经飞控系统实时调控，在拉力、空气作用力和重力作用下沿水平方向做匀速直线运动，则无人机受到空气作用力与重力和拉力的合力等大反向，随着 $F$ 的减小重力和拉力的合力如图。\n\n![物理配图](assets/2025/physics/广东/10_an.png)\n\n可知无人机受到空气作用力的大小和方向均会改变，在 $T$ 时刻有\n\n$\\cos 120^\\circ=\\frac{(mg)^{2}+F^{2}-F_{\\text{空}}^{2}}{2mgF}$，$F=F_{0}-kT$\n\n解得 $F_{\\text{空}}=\\sqrt{(F_{0}-kT)^{2}+(mg)^{2}+mg(F_{0}-kT)}$\n\n故 A 正确、D 错误；\n\nB．由于拉力 $F$ 随时间 $t$ 均匀变化，则无人机在 0 到 $T$ 时间段内受到拉力的冲量大小为 $F-t$ 图像与坐标轴围成的面积为（$F_{0} - \\frac{1}{2}kT$）$T$，故 B 正确；\n\nC．将拉力分解为水平和竖直方向，则无人机受重力和拉力的合力在水平方向有\n\n$F_{x}=\\frac{\\sqrt{3}}{2}(F_{0}-kt)$\n\n无人机受重力和拉力的合力在竖直方向有 $F_{y}=\\frac{1}{2}(F_{0}-kt)+mg$\n\n0 到 $T$ 时间段内无人机受重力和拉力的合力在水平方向的冲量为 $I_{x}=\\frac{\\sqrt{3}}{2}(F_{0}T-\\frac{1}{2}kT^{2})$\n\n0 到 $T$ 时间段内无人机受重力和拉力的合力在竖直方向的冲量为 $I_{y}=\\frac{1}{2}F_{0}T-\\frac{1}{4}kT^{2}+mgT$\n\n则 0 到 $T$ 时间段内无人机受到重力和拉力的合力的冲量大小为\n\n$I=\\sqrt{I_{x}^{2}+I_{y}^{2}}=\\sqrt{(F_{0}T-\\frac{1}{2}kT^{2}+\\frac{1}{2}mgT)^{2}+\\frac{3}{4}m^{2}g^{2}T^{2}}$\n\n故 C 错误。\n\n故选 AB。"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 梯形面积算 B + 矢量夹角排 C + 余弦正负排 D",
+          "tier": "fast",
+          "badge": "20秒全盘秒杀",
+          "audience": "冲刺提速",
+          "time_save": "免去繁琐正交积分",
+          "content_md": "- **B**：拉力方向始终不变且随 $t$ 线性减小，直接用“平均力 $\\times$ 时间”：$\\bar{F}=\\frac{F_0 + (F_0-kT)}{2}=F_0-\\frac{1}{2}kT$，冲量大小 $\\bar{F}T$，B 秒对；\n- **C**：重力竖直向下，拉力斜向上成 $30^\\circ$（不共线！），两力合力的冲量大小必严格**小于**两冲量大小之和，C 直接写成代数相加必错；\n- **D**：看 D 选项里的分力括号：重力向下 $mg$，拉力竖直分力也看成同向还是反向？看题图拉力沿斜向上成 $30^\\circ$（即竖直向上分量为 $\\frac{1}{2}F$ 帮托重力，还是斜向下？由题图与解析，竖直向下面为 $mg + \\frac{1}{2}F$ 而非 $mg - \\frac{1}{2}F$，与 D 选项根号里的减号矛盾！），故直接选 AB。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/广东/10_an.png"
+      ],
+      "has_multi_method": true,
+      "pitfall": "C 选项故意把重力的竖直冲量 $mgT$ 和斜向拉力的冲量直接算术相加，这是物理多选题里最高频的“标量拼凑矢量”陷阱！",
+      "takeaway": "求随时间线性变化力的冲量，直接用**“平均力 $\\times$ 时间”（$F\\text{-}t$ 图像梯形面积）**；判断合力冲量或空气力变化，牢记冲量是**矢量**，不同方向的冲量绝不能直接代数加减！",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "运动和力",
+        "动量守恒定律"
+      ],
+      "stem_md": "请完成下列实验操作和计算。\n\n（1）在“长度的测量及其测量工具的选用”实验中，用螺旋测微器测量小球的直径，示数如图 [2025广东11a]所示，读数  ______  $\\,\\mathrm{mm}$。\n（2）实验小组利用小车碰撞实验测量吸能材料的性能，装置如图 [2025广东11b]所示，图中轨道由轨道甲和乙平滑拼接而成，且轨道乙倾角较大。\n\n① 选取相同的两辆小车，分别安装宽度为 $1.00 \\,\\mathrm{cm}$ 的遮光条。\n② 轨道调节。\n调节螺母使轨道甲、乙连接处适当升高。将小车在轨道乙上释放，若测得小车通过光电门 A 和 B 的  ______ 。证明已平衡小车在轨道甲上所受摩擦力及其他阻力。\n③ 碰撞测试。\n先将小车 1 静置于光电门 A 和 B 中间，再将小车 2 在 M 点由静止释放，测得小车 2 通过光电门 A 的时间为 $t_{2}$，碰撞后小车 1 通过光电门 B 的时间为 $t_{1}$。若 $t_{2}$  ______  $t_{1}$，可将两小车的碰撞视为弹性碰撞。\n④ 吸能材料性能测试。\n将吸能材料紧贴于小车 2 的前端。重复步骤③。测得小车 2 通过光电门 A 的时间为 $10.00 \\, \\mathrm{ms}$，两车碰撞后，依次测得小车 1 和 2 通过光电门 B 的时间分别为 $15.00 \\, \\mathrm{ms}$、$30.00 \\, \\mathrm{ms}$，不计吸能材料的质量，计算可得碰撞后两小车总动能与碰撞前小车 2 动能的比值为  ______ （结果保留 2 位有效数字）。\n\n![物理配图](assets/2025/physics/广东/11a.png) ![物理配图](assets/2025/physics/广东/11b.png)",
+      "figures": [
+        "assets/2025/physics/广东/11a.png",
+        "assets/2025/physics/广东/11b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）8.260\n（2）②时间相等；③$=$；④$0.56$",
+        "sub_answers": [
+          "8.260",
+          "时间相等",
+          "$=$",
+          "0.56"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意，由图可知，小球的直径为 $d = 8\\,\\mathrm{mm} + 26.0 \\times 0.01\\,\\mathrm{mm} = 8.260\\,\\mathrm{mm}$\n\n（2）②若已平衡小车在轨道甲上所受摩擦力及其他阻力，小车将在轨道甲上做匀速直线运动，通过两个光电门的速度相等，即通过光电门 A 和 B 的时间相等。\n\n③若两个小车发生弹性碰撞，由于两个小车的质量相等，则碰撞后两个小车的速度互换，即碰撞后小车 1 的速度等于碰撞前小车 2 的速度，则有 $t_{2} = t_{1}$\n\n④根据题意可知，碰撞前小车 2 的速度为\n\n$v_{0}=\\frac{d}{\\Delta t_{1}}=\\frac{1\\times10^{-2}}{10\\times10^{-3}}\\,\\mathrm{m}/\\mathrm{s}=1\\,\\mathrm{m}/\\mathrm{s}$\n\n碰撞后，小车 1 和小车 2 的速度分别为\n\n$v_{1}=\\frac{d}{\\Delta t_{2}}=\\frac{2}{3}\\,\\mathrm{m}/\\mathrm{s}$，$v_{2}=\\frac{d}{\\Delta t_{3}}=\\frac{1}{3}\\,\\mathrm{m}/\\mathrm{s}$\n\n则碰撞后两小车总动能与碰撞前小车 2 动能的比值为\n\n$\\frac{E_{\\mathrm{k}}'}{E_{\\mathrm{k}}}=\\frac{\\frac{1}{2}mv_{1}^{2}+\\frac{1}{2}mv_{2}^{2}}{\\frac{1}{2}mv_{0}^{2}}=\\frac{5}{9}\\approx0.56$"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 速度反比于时间，免换算米每秒秒算 $\\frac{5}{9}$",
+          "tier": "fast",
+          "badge": "比例法防换算失误",
+          "audience": "全水平通用",
+          "time_save": "秒出 0.56",
+          "content_md": "遮光条宽度 $d$ 完全一样、小车质量 $m$ 也完全一样，而且求的是动能比值！\n\n因此把 $d$ 和 $\\mathrm{ms}$ 全扔掉，直接令速度反比于遮光时间 $v \\propto \\frac{1}{t}$：\n$$\n\\frac{E_{\\mathrm{k}}'}{E_{\\mathrm{k}}} = \\frac{(\\frac{1}{15})^2 + (\\frac{1}{30})^2}{(\\frac{1}{10})^2} = \\left(\\frac{10}{15}\\right)^2 + \\left(\\frac{10}{30}\\right)^2 = \\frac{4}{9} + \\frac{1}{9} = \\frac{5}{9} \\approx 0.56\n$$\n连 $1.00\\,\\mathrm{cm}$ 和 $10^{-3}\\,\\mathrm{s}$ 都不用乘，10 秒绝不出错！"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "第（2）④问求动能比，很多同学算出 $v_0=1,\\ v_1=2/3,\\ v_2=1/3$ 没问题，但一定要注意保留“**2位有效数字**”写成 $0.56$（$\\frac{5}{9}=0.555\\dots$），不要留分数 $\\frac{5}{9}$ 或只写 $0.6$。",
+      "takeaway": "螺旋测微器读数口诀：“主尺半毫米看露没露，副尺估读一位对齐零，结果小数点后必须有三位”；弹性正碰质量相等时**直接交换速度**；比值法算动能比时完全不用代具体长度和时间单位换算，直接用时间反比 $v\\propto \\frac{1}{t}$ 即可！",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 550,
+      "topics": [
+        "电磁感应",
+        "自感与互感，涡流"
+      ],
+      "stem_md": "科技小组制作的涡流制动演示装置由电磁铁和圆盘控制部分组成。\n\n图 [2025广东12a] 是电磁铁磁感应强度的测量电路。所用器材有：电源 $E$（电动势 $15 \\,\\mathrm{V}$，内阻不计）；电流表 A（量程有 $0.6 \\,\\mathrm{A}$ 和 $3 \\,\\mathrm{A}$，内阻不计）；滑动变阻器 $R_{\\mathrm{P}}$（最大阻值 $100 \\,\\Omega$）；定值电阻 $R_{0}$（阻值 $10 \\,\\Omega$）；开关 S；磁传感器和测试仪；电磁铁（线圈电阻 $16 \\,\\Omega$）；导线若干。图 [2025广东12b] 是实物图，图中电机和底座相固定，圆形铝盘和电机转轴相固定。\n\n请完成下列实验操作和计算。\n\n（1）量程选择和电路连接。\n\n① 由器材参数可得电路中的最大电流为  ______  $\\,\\mathrm{A}$（结果保留 2 位有效数字），为减小测量误差，电流表的量程选择 $0.6 \\,\\mathrm{A}$ 挡。\n② 图 [2025广东12b] 中已正确连接了部分电路，请在虚线框中完成 $R_{\\mathrm{P}}$、$R_{0}$ 和 A 间的实物图连线。\n（2）磁感应强度 $B$ 和电流 $I$ 关系测量。\n\n① 将图 [2025广东12a] 中的磁传感器置于电磁铁中心，滑动变阻器 $R_{\\mathrm{P}}$ 的滑片 P 置于 b 端。置于 b 端目的是使电路中的电流  ______ ，保护电路安全。\n② 将滑片 P 缓慢滑到某一位置，闭合 S。此时 A 的示数如图 [2025广东12c] 所示，读数为  ______  $\\,\\mathrm{A}$。分别记录测试仪示数 $B$ 和 $I$，断开 S。\n③ 保持磁传感器位置不变，重复步骤②。\n④ 如图 [2025广东12d] 是根据部分实验数据描绘的 $B-I$ 图线，其斜率为  ______  $\\, \\mathrm{mT}/\\,\\mathrm{A}$（结果保留 2 位有效数字）。\n（3）制动时间 $t$ 测量。\n\n利用图 [2025广东12b] 所示装置测量了 $t$，结果表明 $B$ 越大，$t$ 越小。\n\n![物理配图](assets/2025/physics/广东/12a.png) ![物理配图](assets/2025/physics/广东/12b.png) ![物理配图](assets/2025/physics/广东/12c.png) ![物理配图](assets/2025/physics/广东/12d.png)",
+      "figures": [
+        "assets/2025/physics/广东/12a.png",
+        "assets/2025/physics/广东/12b.png",
+        "assets/2025/physics/广东/12c.png",
+        "assets/2025/physics/广东/12d.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）①$0.58$；②连线如图所示\n（2）①最小；②$0.48$；③$30$\n（3）—",
+        "sub_answers": [
+          "0.58",
+          "最小",
+          "0.48",
+          "30"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "intuition_1",
+          "label": "破题直觉 · 看懂为什么滑片放 $b$ 端且串联保护电阻 $R_0$",
+          "tier": "intuition",
+          "badge": "实验逻辑全透视",
+          "audience": "电学实验易失分同学",
+          "time_save": "不再死记硬背空位答案",
+          "content_md": "看图可知这是一个简单的**限流式**串联电路：$E$、开关 S、电流表、线圈、$R_0$、滑动变阻器右半段串成一条线。\n\n- 滑片滑到最右端 $b$ 时，变阻器接入电阻丝最长（阻值最大 $100\\,\\Omega$），电流自然**最小**，合上开关绝不会烧表；\n- 滑片滑到最左端 $a$ 时，变阻器阻值降到 $0$，此时多亏定值电阻 $R_0=10\\,\\Omega$ 和线圈电阻 $16\\,\\Omega$ 顶着，最大电流被死死限制在 $15/(10+16)\\approx 0.58\\,\\mathrm{A} < 0.6\\,\\mathrm{A}$，所以稳稳用 $0.6\\,\\mathrm{A}$ 小量程提高读数精度！"
+        },
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）①由题知，电源内阻不计、电流表内阻不计，则当滑动变阻器的阻值为零时，电路中有最大电流 $I = \\frac{E}{R_{0} + R_{\\text{线}}} = 0.58 \\,\\mathrm{A}$。\n\n②由于电路中最大电流为 $0.58 \\,\\mathrm{A}$，则电流表应选择 $0 \\sim 0.6 \\,\\mathrm{A}$ 量程，根据电路图实物图连线如下：\n\n![物理配图](assets/2025/physics/广东/12_an.png)\n\n（2）①滑动变阻器 $R_{\\mathrm{P}}$ 的滑片 P 置于 b 端时滑动变阻器的电阻最大，电路中的电流最小，保护电路安全。\n\n②电流表读数为 $0.48 \\,\\mathrm{A}$。\n\n③根据题图中数据可知 $B-I$ 图线斜率为 $k = \\frac{15.2 - 5.6}{0.5 - 0.18} \\, \\mathrm{mT}/\\,\\mathrm{A} = 30 \\, \\mathrm{mT}/\\,\\mathrm{A}$。\n\n（3）利用图（b）所示装置测量了 $t$，结果表明 $B$ 越大，$t$ 越小。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/广东/12_an.png"
+      ],
+      "has_multi_method": true,
+      "pitfall": "第（1）①问求最大电流别忘把两个串联的固定电阻 $R_0=10\\,\\Omega$ 与线圈电阻 $R_{\\text{线}}=16\\,\\Omega$ 都加上：$15\\div 26 \\approx 0.58\\,\\mathrm{A}$；第（2）④问求图线斜率尽量选图线上两个离得较远的精确交叉网格点，避免读数误差放大。",
+      "takeaway": "电学实验保分三字诀：**算极值（选量程）$\\to$ 滑最大（保安全）$\\to$ 读半格/十分度（保估读）$\\to$ 两远点算斜率**。",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 9,
+      "difficulty": 550,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "如图是某铸造原理示意图，往气室注入空气增加压强，使金属液沿升液管进入已预热的铸型室，待铸型室内金属液冷却凝固后获得铸件。柱状铸型室通过排气孔与大气相通，大气压强 $p_{0} = 1.0\\times10^{5} \\,\\mathrm{Pa}$，铸型室底面积 $S_{1} = 0.2 \\,\\mathrm{m}^2$，高度 $h_{1} = 0.2 \\,\\mathrm{m}$，底面与注气前气室内金属液面高度差 $H = 0.15 \\,\\mathrm{m}$，柱状气室底面积 $S_{2} = 0.8 \\,\\mathrm{m}^2$，注气前气室内气体压强为 $p_{0}$，金属液的密度 $\\rho = 5.0\\times10^{3} \\,\\mathrm{kg}/\\mathrm{m}^3$，重力加速度取 $g = 10 \\,\\mathrm{m}/\\mathrm{s}^2$，空气可视为理想气体，不计升液管的体积。\n\n（1）求金属液刚好充满铸型室时，气室内金属液面下降的高度 $h_{2}$ 和气室内气体压强 $p_{1}$。\n（2）若在注气前关闭排气孔使铸型室密封，且注气过程中铸型室内温度不变，求注气后铸型室内的金属液高度为 $h_{3} = 0.04 \\,\\mathrm{m}$ 时，气室内气体压强 $p_{2}$。\n\n![物理配图](assets/2025/physics/广东/13.png)",
+      "figures": [
+        "assets/2025/physics/广东/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$h_{2} = 0.05 \\,\\mathrm{m}$，$p_{1} = 1.2\\times10^{5} \\,\\mathrm{Pa}$\n（2）$p_{2} = 1.35\\times10^{5} \\,\\mathrm{Pa}$"
+      },
+      "solution_methods": [
+        {
+          "id": "intuition_1",
+          "label": "破题直觉 · 记住“一边升、一边降，总高度差拉开了 $(h_{\\text{升}}+h_{\\text{降}})$”",
+          "tier": "intuition",
+          "badge": "气体压强零漏项",
+          "audience": "热学气体常漏高度差同学",
+          "time_save": "必拿满分 9 分",
+          "content_md": "把底面积比记在心里：上方铸型室底面积 $S_1=0.2\\,\\mathrm{m}^2$，下方气室 $S_2=0.8\\,\\mathrm{m}^2$，面积比 **$1:4$**。\n\n所以上方金属液每上升 $4$ 厘米，下方气室液面只会下降 $1$ 厘米！\n- 第（1）问：上方上升 $0.20\\,\\mathrm{m} \\implies$ 下方只降 $0.05\\,\\mathrm{m}$。最终上下两液面垂直距离 $= 0.20 + 0.15 + 0.05 = 0.40\\,\\mathrm{m}$，加上 $\\rho g\\cdot 0.40 = 0.2\\times 10^5\\,\\mathrm{Pa}$，稳拿 $1.2\\times 10^5\\,\\mathrm{Pa}$；\n- 第（2）问：上方排气孔堵死了，就像封闭的针筒，直接用玻意耳定律 $p_0\\cdot 0.20 = p'\\cdot(0.20-0.04) \\implies p'=1.25\\times 10^5\\,\\mathrm{Pa}$，再按同样思路加新高度差即可！"
+        },
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据体积关系 $S_{1}h_{1} = S_{2}h_{2}$\n\n可得下方液面下降高度 $h_{2} = 0.05 \\,\\mathrm{m}$\n\n此时下方气体的压强 $p_{1} = p_{0} + \\rho g(h_{1} + H + h_{2})$\n\n代入数据可得 $p_{1} = 1.2\\times10^{5} \\,\\mathrm{Pa}$\n\n（2）初始时，上方铸型室气体的压强为 $p_{0}$，体积 $V = S_{1}h_{1}$\n\n当上方铸型室液面高为 $h_{3} = 0.04 \\,\\mathrm{m}$ 时体积为 $V' = S_{1}(h_{1} - h_{3})$\n\n根据玻意耳定律 $p_{0}V = p'V'$\n\n可得此时上方铸型室液面高为 $h_{3} = 0.04 \\,\\mathrm{m}$ 时气体的压强为 $p' = 1.25 \\times 10^{5} \\,\\mathrm{Pa}$\n\n同理根据体积关系 $S_{1}h_{3} = S_{2}h_{4}$\n\n可得 $h_{4} = 0.01 \\,\\mathrm{m}$\n\n此时下方气室内气体压强 $p_{2} = p' + \\rho g(H + h_{3} + h_{4})$\n\n代入数据可得 $p_{2} = 1.35\\times10^{5} \\,\\mathrm{Pa}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "很多同学算下方气室压强时，只加了上方升高的高度 $h_1$ 和原本高度差 $H$，**漏掉了下方气室自己液面下降的那一小段 $h_2$**！一定要算“最终两液面之间的总竖直高度差”！",
+      "takeaway": "连通器类气体计算题的核心只有两根柱子：**体积守恒联动液面高度变化**（$S_1\\Delta h_1 = S_2\\Delta h_2$）+ **找等压面由下往上加液柱压强**（$p_{\\text{下}} = p_{\\text{上}} + \\rho g \\Delta H_{\\text{总}}$）。",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 13,
+      "difficulty": 450,
+      "topics": [
+        "功和能",
+        "功率"
+      ],
+      "stem_md": "如图所示，用开瓶器取出紧塞在瓶口的软木塞时，先将拔塞钻旋入木塞内，随后下压把手，使齿轮绕固定支架上的转轴转动，通过齿轮啮合，带动与木塞相固定的拔塞钻向上运动。从 0 时刻开始，顶部与瓶口齐平的木塞从静止开始向上做匀加速直线运动，木塞所受摩擦力 $f$ 随位移大小 $x$ 的变化关系为 $f = f_{0}(1 - \\frac{x}{h})$，其中 $f_{0}$ 为常量，$h$ 为圆柱形木塞的高，木塞质量为 $m$，底面积为 $S$，加速度为 $a$，齿轮半径为 $r$，重力加速度为 $g$，瓶外气压减瓶内气压为 $\\Delta p$ 且近似不变，瓶子始终静止在桌面上。（提示：可用 $f-x$ 图线下的“面积”表示 $f$ 所做的功）求：\n\n（1）木塞离开瓶口的瞬间，齿轮的角速度 $\\omega$。\n（2）拔塞的全过程，拔塞钻对木塞做的功 $W$。\n（3）拔塞过程中，拔塞钻对木塞作用力的瞬时功率 $P$ 随时间 $t$ 变化的表达式。\n\n![物理配图](assets/2025/physics/广东/14.png)",
+      "figures": [
+        "assets/2025/physics/广东/14.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\omega = \\frac{\\sqrt{2ah}}{r}$\n（2）$W = mah + mgh + \\frac{1}{2}f_{0}h + \\Delta pSh$\n（3）$P = magt + ma^{2}t + \\Delta pSat + f_{0}at - \\frac{f_{0}a^{3}t^{3}}{2h}$"
+      },
+      "solution_methods": [
+        {
+          "id": "intuition_1",
+          "label": "破题直觉 · 拔木塞一共要克服 4 件事（缺一不可）",
+          "tier": "intuition",
+          "badge": "受力全景清单",
+          "audience": "易漏气压差 $\\Delta pS$ 同学",
+          "time_save": "第(2)(3)问思路一遍打通",
+          "content_md": "拔软木塞为什么费劲？列出木塞向上加速时要对抗的所有“敌人”和目标：\n1. 自己的**重力** $mg$；\n2. 瓶外大于瓶内的**大气压力差** $\\Delta p S$（向下压着木塞）；\n3. 瓶颈越来越松的**变摩擦力** $f(x)=f_0(1-\\frac{x}{h})$；\n4. 它还要向上做**匀加速运动**所需的合力 $ma$。\n\n于是任意时刻拔塞钻拉它的力就是这四项之和：\n$F = mg + \\Delta pS + f_0(1-\\frac{x}{h}) + ma$。\n- 算全过程总功（2）：每项乘以位移 $h$（其中变摩擦力 $f$ 线性减小到 $0$，平均力就是 $\\frac{1}{2}f_0$！），一秒口算 $W = (mg + \\Delta pS + \\frac{1}{2}f_0 + ma)h$！\n- 算瞬时功率（3）：把 $x=\\frac{1}{2}at^2$ 塞进 $F$ 再整体乘 $v=at$，立刻出 5 项完整表达式！"
+        },
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）木塞的末速度等于齿轮线速度，对木塞，根据运动学公式 $v^{2} = 2ah$\n\n根据角速度和线速度的关系 $v = \\omega r$\n\n联立可得 $\\omega = \\frac{\\sqrt{2ah}}{r}$\n\n（2）根据题意画出木塞摩擦力与运动距离的关系图如图所示。\n\n![物理配图](assets/2025/physics/广东/14_an.svg)\n\n可得摩擦力对木塞所做的功为 $W_{f} = - \\frac{1}{2}f_{0}h$\n\n对木塞，根据动能定理\n\n$W + W_{f} - mgh - \\Delta pSh = \\frac{1}{2}mv^{2} - 0$\n\n解得 $W = mah + mgh + \\frac{1}{2}f_{0}h + \\Delta pSh$\n\n（3）设开瓶器对木塞的作用力为 $F$，对木塞，根据牛顿第二定律 $F - mg - f - \\Delta pS = ma$\n\n速度 $v = at$\n\n位移 $x = \\frac{1}{2}at^{2}$\n\n开瓶器的功率 $P = Fv$\n\n联立可得 $P = magt + ma^{2}t + \\Delta pSat + f_{0}at - \\frac{f_{0}a^{3}t^{3}}{2h}$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/广东/14_an.svg"
+      ],
+      "has_multi_method": true,
+      "pitfall": "最后写出长达 5 项的瞬时功率表达式 $P(t)$ 时，最稳的自检方式就是做**量纲核查**：$magt, ma^2t, \\Delta pSat, f_0at, \\frac{f_0a^3t^3}{2h}$ 每一项单位是不是全等于 $\\mathrm{N}\\cdot\\mathrm{m/s}=\\mathrm{W}$！比如最后一项 $[\\mathrm{N}]\\cdot \\frac{[\\mathrm{m^3/s^6}][\\mathrm{s^3}]}{[\\mathrm{m}]} = [\\mathrm{N\\cdot m/s}]$，一查便知对错！",
+      "takeaway": "这是物理学“图像功 + 变力牛顿第二定律 + 瞬时功率”的极佳范例！求第（2）问外力总功直接用动能定理避开积分；求第（3）问瞬时功率先把“所有阻力随时间写齐”，直接套 $P=(mg+\\Delta pS+f(t)+ma)v(t)$！",
+      "is_enriched": true
+    },
+    {
+      "qid": "2025-physics-广东-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "电场",
+        "带电粒子的直线运动"
+      ],
+      "stem_md": "如图是研究颗粒碰撞荷电特性装置的简化图。两块水平绝缘平板与两块竖直的平行金属平板相接。金属平板之间接高压电源产生匀强电场。一带电颗粒从上方绝缘平板左端 A 点处，由静止开始向右下方运动，与下方绝缘平板在 B 点处碰撞，碰撞时电荷量改变，反弹后离开下方绝缘平板瞬间，颗粒的速度与所受合力垂直，其水平分速度与碰前瞬间相同，竖直分速度大小变为碰前瞬间的 $k$ 倍（$k < 1$）。已知颗粒质量为 $m$，两绝缘平板间的距离为 $h$，两金属平板间的距离为 $d$，B 点与左平板的距离为 $l$，电源电压为 $U$，重力加速度为 $g$。忽略空气阻力和电场的边缘效应。求：\n\n（1）颗粒碰撞前的电荷量 $q$。\n（2）颗粒在 B 点碰撞后的电荷量 $Q$。\n（3）颗粒从 A 点开始运动到第二次碰撞过程中，电场力对它做的功 $W$。\n\n![物理配图](assets/2025/physics/广东/15.png)",
+      "figures": [
+        "assets/2025/physics/广东/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$q = \\frac{mgdl}{Uh}$\n（2）$Q = \\frac{kmgdh}{Ul}$\n（3）若 $(4k + 1)l + \\frac{4k^{3}h^{2}}{l} \\leq d$，$W = \\frac{mgl^{2}}{h} + 4k^{2}mgh + \\frac{4k^{4}mgh^{3}}{l^{2}}$；\n\n若 $(4k + 1)l + \\frac{4k^{3}h^{2}}{l} > d$，$W = \\frac{mgl^{2}}{h} + \\frac{kmgh(d - l)}{l}$"
+      },
+      "solution_methods": [
+        {
+          "id": "intuition_1",
+          "label": "破题直觉 · 拆成三幕电影：斜直下落 $\\to$ 垂直合力反弹 $\\to$ 撞下板还是撞右墙？",
+          "tier": "intuition",
+          "badge": "压轴拆解地图",
+          "audience": "冲击物理压轴 16 分",
+          "time_save": "每一步公式不超过 2 行",
+          "content_md": "把复杂运动切分看：\n1. **第一幕（A 到 B）**：静止起在恒合力作用下做**直线**运动，水平走 $l$、竖直落 $h$，所以两方向力之比直接等于位移之比：$\\frac{qU/d}{mg}=\\frac{l}{h} \\implies q=\\frac{mgdl}{Uh}$（第 1 问 1 行出！）；\n2. **第二幕（B 处反弹）**：水平速度 $v_{x1}$ 没变，竖直反弹速度缩短成 $k v_{y1}$。而原本未撞前直线运动时 $\\frac{v_{y1}}{v_{x1}}=\\frac{h}{l}$，现在 $\\tan\\theta=\\frac{v_{y2}}{v_{x1}}=\\frac{kh}{l}$！因为新速度垂直于新合力，速度与水平夹角正切正好等于新合力 $\\frac{QU/d}{mg}$ 的**正切值**（画个直角相似三角形立得）$\\implies \\frac{QU/d}{mg}=\\frac{kh}{l} \\implies Q=\\frac{kmgdh}{Ul}$；\n3. **第三幕（撞谁？）**：下板总宽就 $d$，已在 $l$ 处碰了第一次，向右还剩 $d-l$ 空间。算出落回下板要飞的水平距离 $l'$，比较 $l+l'$ 与 $d$ 的大小即可分类写出电场力功！"
+        },
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据题意可知，颗粒在竖直方向上做自由落体，则有 $h = \\frac{1}{2}gt^{2}$\n\n水平方向上做匀加速直线运动，则有 $\\frac{qU}{d} = ma$，$l = \\frac{1}{2}at^{2}$\n\n解得 $q = \\frac{mgdl}{Uh}$\n\n（2）根据题意可知，颗粒与绝缘板第一次碰撞时，竖直分速度为 $v_{y1} = \\sqrt{2gh}$\n\n水平分速度为 $v_{x1} = \\sqrt{2al} = \\sqrt{\\frac{2gl^{2}}{h}}$\n\n则第一次碰撞后竖直分速度为 $v_{y2} = kv_{y1} = k\\sqrt{2gh}$\n\n设第一次碰撞后颗粒速度方向与水平方向夹角为 $\\theta$，则有\n\n$\\tan\\theta = \\frac{v_{y2}}{v_{x1}} = \\frac{kh}{l}$\n\n由于第一次碰撞后瞬间颗粒所受合力与速度方向垂直，则有\n\n$\\tan\\theta = \\frac{\\frac{UQ}{d}}{mg} = \\frac{UQ}{mgd}$\n\n联立解得 $Q = \\frac{kmgdh}{Ul}$\n\n（3）根据题意可知，由于 $k < 1$，则第一次碰撞后颗粒不能返回上绝缘板，若颗粒第二次碰撞是和下绝缘板碰撞，设从第一次碰撞后到第二次碰撞前的运动时间为 $t'$，则有\n\n$t' = \\frac{2k\\sqrt{2gh}}{g} = 2k\\sqrt{\\frac{2h}{g}}$\n\n水平方向上做匀加速直线运动，加速度为 $a' = \\frac{UQ}{md} = \\frac{kgh}{l}$\n\n水平方向运动的距离为 $l' = v_{x1}t' + \\frac{1}{2}a't'^{2} = 4kl + \\frac{4k^{3}h^{2}}{l}$\n\n则电场对颗粒做的功为 $W = \\frac{qUl}{d} + \\frac{QUl'}{d} = \\frac{mgl^{2}}{h} + 4k^{2}mgh + \\frac{4k^{4}mgh^{3}}{l^{2}}$\n\n若 $l + l' > d$，则颗粒第二次碰撞是和右侧金属板碰撞，则颗粒从第一次碰撞到第二次碰撞过程中水平方向位移为 $d - l$，颗粒从 A 点开始运动到第二次碰撞过程中，电场对颗粒做的功为 $W = \\frac{qUl}{d} + \\frac{QU(d - l)}{d} = \\frac{mgl^{2}}{h} + \\frac{kmgh(d - l)}{l}$"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 运动独立性与“时间比例法”秒算 $l'$",
+          "tier": "fast",
+          "badge": "免代根号速算",
+          "audience": "冲刺满分提速",
+          "time_save": "约省 3 分钟代数化简",
+          "content_md": "不必写出 $v_{x1}=\\sqrt{\\dots}$ 和 $t'=2k\\sqrt{\\dots}$ 再相乘，直接以第一段下落时间 $t_0$ 为单位时间基准：\n- 已知 $h=\\frac{1}{2}gt_0^2$，$l=\\frac{1}{2}a_x t_0^2$（即 $v_{x1}=a_x t_0 = \\frac{2l}{t_0}$）；\n- 碰撞后竖直初速度变为原来的 $k$ 倍，故竖直上抛落回下板的总飞行时间 $t' = 2k t_0$！\n- 再比较新老水平加速度：由（1）（2）答案直接看出 $\\frac{Q}{q}=k\\frac{h^2}{l^2}$，所以新水平加速度 $a' = k\\frac{h^2}{l^2} a_x$；\n- 立刻算出新水平位移（彻底免开根号！）：\n$$\nl' = v_{x1}t' + \\frac{1}{2}a't'^2 = \\left(\\frac{2l}{t_0}\\right)(2kt_0) + \\frac{1}{2}\\left(k\\frac{h^2}{l^2}a_x\\right)(2kt_0)^2 = 4kl + 4k^3\\frac{h^2}{l}\n$$\n（利用 $\\frac{1}{2}a_x t_0^2=l$ 瞬间约掉全部时间 $t_0$ 与重力加速度 $g$！）；最后由 $W = qE\\cdot l + QE\\cdot \\min(l', d-l)$ 一步写出两段功！"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": true,
+      "pitfall": "第（3）问极容易默认“第二次一定还落在下绝缘板上”，实际上如果水平板不够长（即 $l + l' > d$），颗粒会在还没落回下板之前先**一头撞上右侧竖直金属板**！必须做几何边界分类讨论。",
+      "takeaway": "处理恒定重力+匀强电场的压轴碰撞题，只要初速度为 $0$，第一段就是**严格匀加速直线运动**，位移比直接等于加速度比（不用列时间 $t$）；反弹瞬间“速度垂直于合力”是极强的几何条件，直接把速度偏角正切等于合力偏角正切！",
+      "is_enriched": true
+    }
+  ],
+  "multi_method_count": 15,
+  "enriched_count": 15
+}

@@ -1,0 +1,727 @@
+{
+  "id": "2025-physics-湖北",
+  "year": 2025,
+  "subject": "物理",
+  "region": "湖北卷",
+  "region_key": "湖北",
+  "format_tier": "structured_latex",
+  "question_count": 15,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2025-physics-湖北-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 750,
+      "topics": [
+        "原子和原子核",
+        "半衰期"
+      ],
+      "stem_md": "PET（正电子发射断层成像）是核医学科重要的影像学诊断工具，其检查原理是将含放射性同位素（如：\\ce{^18_9 F}）的物质注入人体参与人体代谢，从而达到诊断的目的。\n\\ce{^18_9 F}的衰变方程为\n\\ce{^18_9 F -> X + ^0_1e + ^0_0 \\nu}，\n其中 \\ce{^0_0 \\nu}是中微子。\n已知 \\ce{^18_9 F}的半衰期是$110$分钟。下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "\\ce{X}为 \\ce{^17_8O}",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "该反应为核聚变反应",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$1$克 \\ce{^18_9 F}经$110$分钟剩下$0.5$克 \\ce{^18_9 F}",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "该反应产生的 \\ce{^0_0 \\nu}在磁场中会发生偏转",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．根据质量数与电荷数守恒可知，该物质为 \\ce{^{18}_{8} O}，故 A 错误；\n\t\n\tB．核聚变是轻核结合成重核的过程（如氢弹原理）。本题中的衰变是单个原子核自发转变为另一种原子核，属于放射性衰变（具体为 $\\beta^{+}$ 衰变），而非核聚变，故 B 错误；\n\t\n\tC. $ 1 \\,\\mathrm{g} $ 该物质经过 $ 110 \\,\\mathrm{min} $ 即一个衰变周期，则有一半发生衰变，该物质质量变为 $ 0.5 \\,\\mathrm{g} $，故 C 正确；\n\t\n\tD．\\ce{^{0}_{0} \\nu} 不带电，在磁场中不偏转，故 D 错误。\n\t\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "曲线运动",
+        "天体运动"
+      ],
+      "stem_md": "甲、乙两行星绕某恒星做圆周运动，甲的轨道半径比乙的小。忽略两行星之间的万有引力作用，下列说法正确的是 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "甲运动的周期比乙的小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "甲运动的线速度比乙的小",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "甲运动的角速度比乙的小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "甲运动的向心加速度比乙的小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "根据卫星做圆周运动的向心力等于万有引力可知\n\n\t$G\\frac{Mm}{r^{2}}=m\\frac{v^{2}}{r}=m\\omega^{2}r=m\\frac{4\\pi^{2}}{T^{2}}r=ma$\n\n\t可得 $T = 2\\pi \\sqrt{\\frac{r^{3}}{GM}}$，$v = \\sqrt{\\frac{GM}{r}}$，$\\omega = \\sqrt{\\frac{GM}{r^{3}}}$，$a = \\frac{GM}{r^{2}}$\n\n\t因 $r_\\text{甲} < r_\\text{乙}$，可知卫星甲、乙运动的周期 $T_\\text{甲} < T_\\text{乙}$，线速度关系 $v_\\text{甲} > v_\\text{乙}$，角速度关系 $\\omega_\\text{甲} > \\omega_\\text{乙}$，向心加速度关系 $a_\\text{甲} < a_\\text{乙}$。\n\n\t故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "气体性质",
+        "热力学第一定律"
+      ],
+      "stem_md": "如图所示，内壁光滑的汽缸内用活塞密封一定量理想气体，汽缸和活塞均绝热。用电热丝对密封气体加热，并在活塞上施加一外力$F$，使气体的热力学温度缓慢增大到初态的$2$倍，同时其体积缓慢减小。关于此过程，下列说法正确的是 （  ） \n\n![物理配图](assets/2025/physics/湖北/01.png)",
+      "figures": [
+        "assets/2025/physics/湖北/01.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "外力$F$保持不变",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "密封气体内能增加",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "密封气体对外做正功",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "密封气体的末态压强是初态的$2$倍",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．气体温度升高，体积减小，根据 $\\frac{{pV}}{T} = C$ 可知气体压强变大，则外力 $F$ 增加，选项 A 错误；\n\t\n\tB．气体温度升高，则气体内能变大，即 $\\Delta U$ 增加，选项 B 正确；\n\t\n\tC．气体体积减小，则外界对气体做功，选项 C 错误；\n\t\n\tD．根据 $ \\frac{{pV}}{T} = C $，热力学温度变为原来的 $ 2 $ 倍，体积减小，则气体压强大于原来的 $ 2 $ 倍，选项 D 错误。\n\t\n\t故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 650,
+      "topics": [
+        "磁场",
+        "磁场的叠加"
+      ],
+      "stem_md": "如图所示，在磁感应强度大小为$ B $的匀强磁场中，放置一通电圆线圈，圆心为$ O $点，线圈平面与磁场垂直。在圆线圈的轴线上有$ M $和$ N $两点，它们到$ O $点的距离相等。已知$ M $点的总磁感应强度大小为零，则$ N $点的总磁感应强度大小为\n（  ） \n\n![物理配图](assets/2025/physics/湖北/02.png)",
+      "figures": [
+        "assets/2025/physics/湖北/02.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$0$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$B$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$2B$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$3B$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由右手螺旋定则及对称性可知，环形电流在 $ N $ 点产生的磁场，磁感应强度与 $ M $ 点等大同向。由于 $ M $ 点磁感应强度为零，由矢量合成法则可知环境中匀强磁场与 $ M $ 点磁场等大反向，即匀强磁场与 $ N $ 点的磁场等大反向，$ N $ 点的磁感应强度为$ 0 $。\n\t\n\t故选 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 550,
+      "topics": [
+        "电磁感应",
+        "电磁感应的电量"
+      ],
+      "stem_md": "如图 [2025湖北03a] 所示，相距$ L $的两足够长平行金属导轨放在同一水平面内，两长度均为$ L $、电阻均为$ R $的金属棒$ ab $、$ cd $垂直跨放在两导轨上，金属棒与导轨接触良好。导轨电阻忽略不计。导轨间存在与导轨平面垂直的匀强磁场，其磁感应强度大小$ B $随时间变化的图像如图 [2025湖北03b] 所示，$ t=T $时刻，$ B=0 $。$ t=0 $时刻，两棒相距$ x_{0} $，$ ab $棒速度为零，$ cd $棒速度方向水平向右，并与棒垂直，则$ 0 \\sim T $时间内流过回路的电荷量为 （  ） \n\n![物理配图](assets/2025/physics/湖北/03a.png) ![物理配图](assets/2025/physics/湖北/03b.png)",
+      "figures": [
+        "assets/2025/physics/湖北/03a.png",
+        "assets/2025/physics/湖北/03b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{B_0Lx_0}{4R}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{B_0Lx_0}{2R}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{B_0Lx_0}R$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{2B_0Lx_0}R$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "通过导体的电荷量 $q = \\overline{I} \\Delta t$\n\n\t而 $\\overline{I} = \\frac{\\overline{E}}{2R}$\n\n\t$t=T$ 时，磁感应强度为零，故 $\\overline{E}=\\frac{\\Delta\\Phi}{\\Delta t}=\\frac{B_{0}Lx_{0}-0}{T}$\n\n\t联立以上各式，可得 $q = \\frac{B_{0}Lx_{0}}{2R}$\n\n\t故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "曲线运动",
+        "斜抛运动"
+      ],
+      "stem_md": "某网球运动员两次击球时，击球点离网的水平距离均为$ L $，离地高度分别为$L/2$ 、$ L $，网球离开球拍瞬间的速度大小相等，方向分别斜向上、斜向下，且与水平方向夹角均为$ \\theta $。击球后网球均刚好直接掠过球网，运动轨迹平面与球网垂直，忽略空气阻力，$ \\tan \\theta $的值为 （  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\frac{1}{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\frac{1}{3}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\frac{1}{4}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\frac{1}{6}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "网球水平方向上做匀速直线运动，有 $t=\\frac{L}{v_{0}\\cos\\theta}$\n\n\t设球网高度为 $h$，则对 A 点发出的球，有\n\n\t$L-h=v_{0}\\sin\\theta\\cdot t+\\frac{1}{2}gt^{2}$\n\n\t对 B 点发出的球，有 $\\frac{L}{2}-h=-v_{0}\\sin\\theta\\cdot t+\\frac{1}{2}gt^{2}$\n\n\t联立以上各式，可得 $\\tan\\theta=\\frac{1}{4}$\n\n\t故选 C。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 350,
+      "topics": [
+        "运动和力",
+        "加速减速模型"
+      ],
+      "stem_md": "一个宽为$ L $的双轨推拉门由两扇宽为$L/2$的门板组成。门处于关闭状态，其俯视图如图 [2025湖北04a] 所示。某同学用与门板平行的水平恒定拉力作用在一门板上，一段时间后撤去拉力，该门板完全运动到另一边，且恰好不与门框发生碰撞，其俯视图如图 [2025湖北04b] 所示。门板在运动过程中受到的阻力与其重力大小之比为$ \\mu $，重力加速度大小为$ g $。若要门板的整个运动过程用时尽量短，则所用时间趋近于 （  ） \n\n![物理配图](assets/2025/physics/湖北/04a.png) ![物理配图](assets/2025/physics/湖北/04b.png)",
+      "figures": [
+        "assets/2025/physics/湖北/04a.png",
+        "assets/2025/physics/湖北/04b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\sqrt{\\frac{L}{2\\mu g}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\sqrt{\\frac{L}{\\mu g}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\sqrt{\\frac{2L}{\\mu g}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$2\\sqrt{\\frac{L}{\\mu g}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "设拉力为 $F$，作用时间为 $t_{1}$，撤去外力后 AB 运动的时间为 $t_{2}$，AB 运动过程的最大速度为 $v_{m}$，则由动量定理，有 $\\left(F - \\mu mg\\right)t_{1} = mv_{m}$\n\n\t得 $t_{1}=\\frac{mv_{m}}{F-\\mu mg}$\n\n\t撤销拉力后，有 $\\mu mgt_{2}=mv_{m}$\n\n\t得 $t_{2}=\\frac{v_{m}}{\\mu g}$\n\n\t对于全过程，有 $Ft_{1} = \\mu mgt$\n\n\t得 $F = \\frac{\\mu mgt}{t_{1}}$\n\n\t对于全过程有 $\\frac{L}{2} = \\frac{v_{m}t}{2}$\n\n\t故 AB 运动的总时间\n\n\t$t = t_{1} + t_{2} = \\frac{mv_{m}}{F - \\mu mg} + \\frac{v_{m}}{\\mu g} = \\frac{mv_{m}}{\\frac{\\mu mgt}{t_{1}} - \\mu mg} + \\frac{v_{m}}{\\mu g} = \\frac{v_{m}}{\\mu g} \\cdot \\frac{t}{t - t_{1}} = \\frac{v_{m}t}{\\mu g} \\cdot \\frac{1}{t - t_{1}} = \\frac{L}{\\mu gt_{2}}$\n\n\t可知当 $t_{2}$ 越大时，$t$ 越小，当 $t_{2} = t$ 时，$t$ 取最小值。\n\n\t则 $t_{\\min}^{2} = \\frac{L}{\\mu g}$\n\n\t则 $t_{\\min} = \\sqrt{\\frac{L}{\\mu g}}$\n\n\t故选 B。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q08",
+      "number": 8,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 450,
+      "topics": [
+        "交流电",
+        "变压器"
+      ],
+      "stem_md": "在如图所示的输电线路中，交流发电机的输出电压一定，两变压器均为理想变压器，左侧升压变压器的原副线圈匝数分别为$ n_{1} $和$ n_{2} $，两变压器间输电线路电阻为$ r $。下列说法正确的是 （  ） \n\n![物理配图](assets/2025/physics/湖北/05.png)",
+      "figures": [
+        "assets/2025/physics/湖北/05.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "仅增加用户数，$ r $消耗的功率增大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "仅增加用户数，用户端的电压增大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "仅适当增加$ n_{2} $，用户端的电压增大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "仅适当增加$ n_{2} $，整个电路消耗的电功率减小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AC",
+        "choices": [
+          "A",
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "A．整个电路物理量标注如图\n\n\t\n\n![物理配图](assets/2025/physics/湖北/08_an.jpg)\n\n\t设用户端总电阻为 $R_\\text{用户}$，降压器输入端等效为电阻 $R_{x}$，则有 $I_{3}^{2}R_{x}=I_{4}^{2}R_\\text{用户}$\n\n\t因为 $I_{3}n_{3}=I_{4}n_{4}$\n\n\t其中 $I_{2}=I_{3}$，则对于输电线有\n\n\t$I_{2}=\\frac{U_{2}}{r+R_{x}}$\n\n\t$I_{2}=\\frac{U_{2}}{r+\\left(\\frac{n_{3}}{n_{4}}\\right)^{2}R_\\text{用户}}$\n\n\t联立整理可得\n\n\t仅增加用户数，则 $R_\\text{用户}$ 减小，可知 $I_{2}$ 增大，根据 $\\Delta P = I_{2}^{2} r$\n\n\t可知 $r$ 消耗的功率增大，故 A 正确；\n\n\tB．仅增加用户数，$I_{2}$ 增大，根据 $U_{3}=U_{2}-I_{2}r$\n\n\t可知 $U_{3}$ 减小，根据用户端的电压\n\n\t$U_{4}=\\frac{n_{4}}{n_{3}}U_{3}$\n\n\t可知用户端的电压减小，故 B 错误；\n\n\tC．仅适当增加 $n_{2}$，根据\n\n\t$U_{2}=\\frac{n_{2}}{n_{1}}U_{1}$\n\n\t$I_{2}=\\frac{U_{2}}{r+\\left(\\frac{n_{3}}{n_{4}}\\right)^{2}R_\\text{用户}}$\n\n\t可知 $U_{2}$ 增大，根据\n\n\t可知 $I_{2}$ 增大，根据 $U_{3}=I_{2}R_{x}$\n\n\t$U_{4}=\\frac{n_{4}}{n_{3}}U_{3}$\n\n\t可知 $U_{3}$ 增大，根据用户端的电压\n\n\t可知用户端的电压增大，故 C 正确；\n\n\tD．由 C 选项可知，仅适当增加 $n_{2}$，$I_{2}$ 增大，整个电路消耗的电功率 $P_{1}=P_{2}=U_{2}I_{2}$\n\n\t由于 $U_{2}$ 增大，故整个电路消耗的电功率变大，故 D 错误。\n\n\t故选 AC。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/湖北/08_an.jpg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q09",
+      "number": 9,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 4,
+      "difficulty": 350,
+      "topics": [
+        "机械振动",
+        "简谐振动"
+      ],
+      "stem_md": "质量均为$ m $的小球$ a $和$ b $由劲度系数为$ k $的轻质弹簧连接，小球$ a $由不可伸长的细线悬挂在$ O $点，系统处于静止状态，如图所示。将小球$ b $竖直下拉长度$ l $后由静止释放。重力加速度大小为$ g $，忽略空气阻力，弹簧始终在弹性限度内。释放小球$ b $后 （  ） \n\n![物理配图](assets/2025/physics/湖北/06.png)",
+      "figures": [
+        "assets/2025/physics/湖北/06.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "小球$ a $可能会运动",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "若小球$ b $做简谐运动，则其振幅为$\\frac l2$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "当且仅当$l\\leqslant\\frac{mg}k$ 时，小球 b 才能始终做简谐运动",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "当且仅当$l\\leqslant\\frac{2mg}k$时，小球 b 才能始终做简谐运动",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "B.如果 $ A $ 球不动而 $ B $ 球单独振动则 $ B $ 球做简谐振动，简谐振动的平衡位置合力为零，即 $ B $ 球初始时刻位置，则可知 $ B $ 的振幅为 $ l $， B  错误；\n\t\n\tACD．$A$球发生运动的临界条件为弹簧对 $ A $ 球向上的弹力大于 $ A $ 球的重力，则此时对 $ A $ 球有 $ kx_{0} = mg $\n\t\n\t对 $ B $ 球有此时加速度 $ kx_{0} + mg = ma $\n\t\n\t由简谐振动的对称性可得向下拉到最低点松手释放的加速度也为 $a$，则有 $kl = ma$\n\t\n\t解得 $l = \\frac{{2mg}}{k}$\n\t\n\t即 $l \\leq \\frac{{2mg}}{k}$，否则 $A$ 球会发生运动，AD 正确，C 错误。\n\t\n\t故选 AD。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q10",
+      "number": 10,
+      "section": "多选题",
+      "type": "multiple_choice",
+      "score": 6,
+      "difficulty": 350,
+      "topics": [
+        "电场",
+        "电场叠加"
+      ],
+      "stem_md": "如图所示，在$ xOy $平面内有一以$ O $点为中心的正五边形，顶点到$ O $点的距离为$ R $。在正五边形的顶点上顺时针方向依次固定电荷量为$ q $、$ 2q $、$ 3q $、$ 4q $、$ 5q $的正点电荷，且电荷量为$ 3q $的电荷在$ y $轴正半轴上。静电力常量为$ k $，则$ O $点处的电场强度 （  ） \n\n![物理配图](assets/2025/physics/湖北/07.png)",
+      "figures": [
+        "assets/2025/physics/湖北/07.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "方向沿$ x $轴负方向",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "方向与$ x $轴负方向成$ 18 ^\\circ $夹角斜向下",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "大小为$\\frac{2kq}{R^2} ( \\cos 54 ^\\circ + \\cos 18 ^\\circ ) $",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "大小为$\\frac{2kq}{R^{2}} (2 \\cos 54 ^\\circ + \\cos 18 ^\\circ ) $",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "AD",
+        "choices": [
+          "A",
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由题意可知，如图\n\t\n\t\n\n![物理配图](assets/2025/physics/湖北/08.png)\n\n\t\n\t将五个点电荷等效成\n\t\n\t\n\n![物理配图](assets/2025/physics/湖北/09.png)\n\n\t\n\t五个点电荷与 $O$ 点距离为 $R$，设 $E_{0}=\\frac{kq}{R^{2}}$\n\t\n\t\n\t则 $ O $ 点场强大小为 $ E =2 \\times 2  E_{0} \\cos 54 {^\\circ} +2 E_{0} \\cos 18 {^\\circ} $\n\t\n\t代入可得 $ E=\\frac{2kq}{R^{2}}\\left(2\\cos54^{\\circ}+\\cos18^{\\circ}\\right) $\n\t\n\t\n\t方向沿 $ x $ 轴负方向；\n\t\n\t故选 AD。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/湖北/08.png",
+        "assets/2025/physics/湖北/09.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q11",
+      "number": 11,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 8,
+      "difficulty": 450,
+      "topics": [
+        "电路",
+        "测电动势与内阻"
+      ],
+      "stem_md": "某实验小组为测量一节干电池的电动势$ E $和内阻$ r $，设计了如图 [2025湖北10a] 所示电路，所用器材如下：干电池、智能手机、电流传感器、定值电阻$ R_{0} $、电阻箱、开关、导线等。按电路图连接电路，将智能手机与电流传感器通过蓝牙无线连接，闭合开关$ S $，逐次改变电阻箱的阻值$ R $，用智能手机记录对应的电流传感器测得的电流$ I $。回答下列问题：\n\n![物理配图](assets/2025/physics/湖北/10a.png) ![物理配图](assets/2025/physics/湖北/10b.png)\n\n（1）$ R_{0} $在电路中起  ______  （填“保护”或“分流”）作用。\n（2）$\\frac{1}{I}$与$ E $、$ r $、$ R $、$ R_{0} $的关系式为$ \\frac{1}{I}= $  ______  。\n（3）根据记录数据作出$\\frac{1}{I} - R $图像，如图 [2025湖北10b] 所示。已知$ R_{0} =9.0 \\,\\Omega $，可得$ E=$  ______  $ \\mathrm{V} $（保留三位有效数字），$ r= $  ______  $\\Omega $（保留两位有效数字）。\n（4）电流传感器的电阻对本实验干电池内阻的测量结果  ______ （填“有”或“无”）影响。",
+      "figures": [
+        "assets/2025/physics/湖北/10a.png",
+        "assets/2025/physics/湖北/10b.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）保护\n（2）$\\frac{R}{E} + \\frac{{{R_0} + r}}{E}$\n（3）$1.47$，$1.3$\n（4）有",
+        "sub_answers": [
+          "保护",
+          "$\\frac{R}{E}+\\frac{R_0+r}{E}$",
+          "$1.47$",
+          "$1.3$",
+          "有"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）$R_{0}$ 与电阻箱串联，可知，$R_{0}$ 在电路中起保护作用。\n（2）根据闭合电路欧姆定律 $E = I(R + R_{0} + r)$\n\n\t化简可得 $\\frac{1}{I}=\\frac{R}{E}+\\frac{R_{0}+r}{E}$\n（3）结合上述有 $\\frac{1}{I}=\\frac{R}{E}+\\frac{R_{0}+r}{E}$\n\n\t结合图（b）有 $\\frac{1}{E} = \\frac{24 - 7}{25 - 0}\\,\\mathrm{V}^{-1}$，$\\frac{R_{0} + r}{E} = 7 \\,\\mathrm{A}^{-1}$\n\n\t解得 $E \\approx 1.47 \\,\\mathrm{V}$，$r \\approx 1.3 \\,\\Omega$\n（4）当电流传感器有内阻时，所测的电源内阻 $r_\\text{测} = r_\\text{真} + r_\\text{传}$，导致电源内阻测量值偏大，即电流传感器的电阻对本实验干电池内阻的测量结果有影响。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q12",
+      "number": 12,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 9,
+      "difficulty": 450,
+      "topics": [
+        "功和能",
+        "整体机械能守恒"
+      ],
+      "stem_md": "某同学利用如图 [2025湖北11] 所示的实验装置来测量重力加速度大小$ g $。细绳跨过固定在铁架台上不可转动的小圆柱体，两端各悬挂一个重锤。实验步骤如下：\n\n![物理配图](assets/2025/physics/湖北/11.png) ![物理配图](assets/2025/physics/湖北/12.png)\n\n① 用游标卡尺测量遮光片的宽度$ d $。\n② 将遮光片固定在重锤$ 1 $上，用天平测量重锤$ 1 $和遮光片的总质量$ m $、重锤$ 2 $的质量$ M $（$ M>m $）。\n③ 将光电门安装在铁架台上，将重锤$ 1 $压在桌面上，保持系统静止，重锤$ 2 $离地面足够高。用刻度尺测量遮光片中心到光电门的竖直距离$ H $。\n④ 启动光电门，释放重锤$ 1 $，用毫秒计测出遮光片经过光电门所用时间$ t $。\n⑤ 根据上述数据求出重力加速度$ g $。\n⑥ 多次改变光电门高度，重复步骤，求出$ g $的平均值。\n\n回答下列问题：\n\n（1）测量$ d $时，游标卡尺的示数如图 [2025湖北12] 所示，可知  ______  $ \\mathrm{cm} $。\n（2）重锤$ 1 $通过光电门时的速度大小为$ v= $  ______  （用遮光片$ d $、$ t $表示）。若不计摩擦，$ g $与$ m $、$ M $、$ d $、$ t $、$ H $的关系式为$g=$  ______  。\n（3）实验发现，当$ M $和$ m $之比接近于$ 1 $时，$ g $的测量值明显小于真实值。主要原因是圆柱体表面不光滑，导致跨过圆柱体的绳两端拉力不相等。理论分析表明，圆柱体与绳之间的动摩擦因数很小时，跨过圆柱体的绳两端拉力差$ \\Delta T=4 \\gamma  \\frac{Mm}{M+m} g$，其中$ \\gamma $是只与圆柱体表面动摩擦因数有关的常数。保持$ M+m=2 m_{0} $不变，其中$ M=(1+ \\beta ) m_{0} $，$ m=(1 - \\beta ) m_{0} $。$ \\beta $足够小时，重锤运动的加速度大小可近似表示为$ a=( \\beta - \\gamma )g $。调整两重锤的质量，测得不同$ \\beta $时重锤的加速度大小$ a $，结果如下表。根据表格数据，采用逐差法得到重力加速度大小$ g=$  ______  $\\mathrm{m}/\\mathrm{s}^2 $（保留三位有效数字）。\n\n \n\n<table class=\"exam-table\"><tr><th>$\\beta$</th><th>0.04</th><th>0.06</th><th>0.08</th><th>0.10</th></tr><tr><td>$a$ ($\\mathrm{m}/\\mathrm{s}^2$)</td><td>0.084</td><td>0.281</td><td>0.477</td><td>0.673</td></tr></table>",
+      "figures": [
+        "assets/2025/physics/湖北/11.png",
+        "assets/2025/physics/湖北/12.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$0.515$\n（2）$\\frac{d}{t}$，$\\frac{{(M + m){d^2}}}{{2(M - m)H{t^2}}}$\n（3）$9.81$",
+        "sub_answers": [
+          "0.515",
+          "$\\frac{d}{t}$",
+          "$\\frac{(M+m)d^2}{2(M-m)Ht^2}$",
+          "$9.81$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）根据游标卡尺的读数规律，该游标卡尺的读数为 $ 5 \\,\\mathrm{mm} +0.05 \\times 3 \\,\\mathrm{mm} =5.15 \\,\\mathrm{mm} =0.515 \\,\\mathrm{cm} $。\n（2）根据光电门的测速原理，重锤 $1$ 通过光电门时的速度大小为 $v = \\frac{d}{t}$。\n\t\n\t对重锤 $1$ 与重锤 $2$ 构成的系统进行分析，根据系统机械能守恒定律有($M - m$)$gH = \\frac{1}{2}$($M + m$)$v^{2}$，其中 $v = \\frac{d}{t}$。解得 $g = \\frac{{(M + m){d^2}}}{{2(M - m)H{t^2}}}$。\n（3）由于 $\\gamma$ 是只与圆柱体表面动摩擦因数有关的常数，且有$a$ = ($\\beta - \\gamma$)$g = \\beta g -\\gamma g$。取表格从左至右四组数据分别为$a_{1}$、$a_{2}$、$a_{3}$、$a_{4}$和对应的$\\beta_{1}$、$\\beta_{2}$、$\\beta_{3}$、$\\beta_{4}$，利用表格中的数据，根据逐差法有 $a_{4} + a_{3} - a_{2} - a_{1}$ = ($\\beta_{4} + \\beta_{3} - \\beta_{2} - \\beta_{1}$)$g$，带入数据可则重力加速度 $g = 9.81 \\,\\mathrm{m}/\\mathrm{s}^2$。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q13",
+      "number": 13,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 9,
+      "difficulty": 450,
+      "topics": [
+        "光学",
+        "全反射"
+      ],
+      "stem_md": "如图所示，三角形$ ABC $是三棱镜的横截面，$ AC=BC $，$ \\angle C=30 ^\\circ $，三棱镜放在平面镜上，$ AC $边紧贴镜面。在纸面内，一光线入射到镜面$ O $点，入射角为$ \\alpha $，$ O $点离$ A $点足够近。已知三棱镜的折射率为$\\sqrt{2}$。\n\n（1）当$ \\alpha =45 ^\\circ $时，求光线从$ AB $边射入棱镜时折射角的正弦值；\n（2）若光线从$ AB $边折射后直接到达$ BC $边，并在$ BC $边刚好发生全反射，求此时的$ \\alpha $值。\n\n![物理配图](assets/2025/physics/湖北/13.png)",
+      "figures": [
+        "assets/2025/physics/湖北/13.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$\\sqrt{6}/4$\n（2）$60 ^\\circ $"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）作出光路图，如图所示\n\n\t\n\n![物理配图](assets/2025/physics/湖北/14.png)\n\n\t由几何关系可知\n\n\t$\\angle BAC = \\frac{180^\\circ - \\angle C}{2} = 75^\\circ$\n\n\t$\\angle 1 = \\angle BAC - (90^\\circ - \\alpha) = 30^\\circ$\n\n\t所以在 $AB$ 边的入射角为 $\\angle 2 = 90^\\circ - \\angle 1 = 60^\\circ$\n\n\t由光的折射定律 $n = \\frac{\\sin \\angle 2}{\\sin \\angle 3}$\n\n\t解得光线从 $AB$ 边射入棱镜时折射角的正弦值为 $\\sin \\angle 3 = \\frac{\\sqrt{6}}{4}$\n（2）根据 $\\sin C' = \\frac{1}{n} = \\frac{\\sqrt{2}}{2}$\n\n\t可得 $C' = 45^\\circ$\n\n\t则 $AB$ 边的折射角为 $\\angle 3' = 90^\\circ - \\left[180^\\circ - \\left(75^\\circ + 90^\\circ - 45^\\circ\\right)\\right] = 30^\\circ$\n\n\t根据折射定律可知 $AB$ 边的入射角满足 $n = \\frac{\\sin \\angle 2'}{\\sin \\angle 3'}$\n\n\t解得 $\\angle 2' = 45^\\circ$\n\n\t根据几何关系可知恰好发生全反射时的入射角为 $\\alpha' = 90^\\circ - [\\angle BAC - (90^\\circ - \\angle 2')] = 60^\\circ$"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/湖北/14.png"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q14",
+      "number": 14,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 350,
+      "topics": [
+        "磁场",
+        "带电粒子在磁场中的运动"
+      ],
+      "stem_md": "如图所示，两平行虚线$ MN $、$ PQ $间无磁场。$ MN $左侧区域和$ PQ $右侧区域内均有垂直于纸面向外的匀强磁场，磁感应强度大小分别为$ B $和$ 2B $。一质量为$ m $、电荷量为$ q $的带正电粒子从$ MN $左侧$ O $点以大小为$ v_{0} $的初速度射出，方向平行于$ MN $向上。已知$ O $点到$ MN $的距离为$ \\frac{3 m v_{0}} {2 q B} $，粒子能回到$ O $点，并在纸面内做周期性运动。不计重力，求：\n\n（1）粒子在$ MN $左侧区域中运动轨迹的半径；\n（2）粒子第一次和第二次经过$ PQ $时位置的间距；\n（3）粒子的运动周期。\n\n![物理配图](assets/2025/physics/湖北/15.png)",
+      "figures": [
+        "assets/2025/physics/湖北/15.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$R=\\frac{mv_0}{qB} $\n（2）$ x=\\frac{\\sqrt{3}mv_0}{2qB}$\n（3）$ \\frac{5\\pi m}{3qB}+\\frac{\\sqrt{3}m}{qB}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）粒子在左侧磁场中运动，根据洛伦兹力提供向心力有 $qv_{0}B=\\frac{mv_{0}^{2}}{R}$\n\n\t可得 $R = \\frac{mv_{0}}{qB}$\n（2）粒子在左侧磁场运动，设从 $MN$ 射出时速度方向与 $MN$ 的夹角为 $\\theta$，由于 $O$ 到 $MN$ 的距离 $d = \\frac{3mv_{0}}{2qB}$，结合 $R = \\frac{mv_{0}}{qB}$，根据几何关系可知 $\\theta = 60^\\circ$；\n\n\t粒子在 $MN$ 和 $PQ$ 之间做匀速直线运动，所以粒子从 $PQ$ 进入右侧磁场时与 $PQ$ 的夹角 $\\theta = 60^\\circ$；\n\n\t粒子在右侧磁场做匀速圆周运动有 $qv_{0} \\cdot 2B = \\frac{mv_{0}^{2}}{R'}$\n\n\t解得 $R' = \\frac{mv_{0}}{2qB}$\n\n\t根据几何关系可知粒子第一次和第二次经过 $PQ$ 时位置的间距 $x = \\sqrt{3}R' = \\frac{\\sqrt{3}mv_{0}}{2qB}$。\n（3）由图可知粒子在左边磁场运动的时间\n\n\t$t_{1}=\\frac{2}{3}T_{1}=\\frac{2}{3}\\times\\frac{2\\pi m}{qB}=\\frac{4\\pi m}{3qB}$\n\n\t粒子在右边磁场运动的时间\n\n\t$t_{2}=\\frac{1}{3}T_{2}=\\frac{1}{3}\\times\\frac{2\\pi m}{2qB}=\\frac{\\pi m}{3qB}$\n\n\t根据对称性可知粒子在 $MN$ 左侧进出磁场的距离\n\n\t$x_{0}=\\sqrt{3}R=\\frac{\\sqrt{3}mv_{0}}{2qB}$\n\n\t所以粒子从 $MN$ 到 $PQ$ 过程中运动的距离为\n\n\t$l=\\frac{\\sqrt{3}R-\\sqrt{3}R'}{2\\cos\\theta}=\\frac{\\sqrt{3}mv_{0}}{2qB}$\n\n\t\n\n![物理配图](assets/2025/physics/湖北/14_an.jpg)\n\n\t粒子在 $MN$ 和 $PQ$ 之间运动的时间 $t_{3}=\\frac{2l}{v_{0}}=\\frac{\\sqrt{3}m}{qB}$\n\n\t综上可知粒子完成完整运动回到 $O$ 点的周期为 $T = t_{1} + t_{2} + t_{3} = \\frac{5\\pi m}{3qB} + \\frac{\\sqrt{3}m}{qB}$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2025/physics/湖北/14_an.jpg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2025-physics-湖北-q15",
+      "number": 15,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 18,
+      "difficulty": 250,
+      "topics": [
+        "运动和力",
+        "动量和能量"
+      ],
+      "stem_md": "如图所示，一足够长的平直木板放置在水平地面上，木板上有$ 3n $（$ n $是大于$ 1 $的正整数）个质量均为$ m $的相同小滑块，从左向右依次编号为$ 1 $、$ 2 $、$ \\cdots $、$ 3n $，木板的质量为$ nm $。相邻滑块间的距离均为$ L $，木板与地面之间的动摩擦因数为$ \\mu $，滑块与木板间的动摩擦因数为$ 2 \\mu $。初始时木板和所有滑块均处于静止状态。现给第$ 1 $个滑块一个水平向右的初速度，大小为$\\sqrt{\\beta \\mu gL }$（$ \\beta $为足够大常数，$ g $为重力加速度大小）。滑块间的每次碰撞时间极短，碰后滑块均会粘在一起继续运动。最大静摩擦力等于滑动摩擦力。\n\n（1）求第$ 1 $个滑块与第$ 2 $个滑块碰撞前瞬间，第$ 1 $个滑块的速度大小;\n（2）记木板滑动前第$ j $个滑块开始滑动时的速度为$ v_j $，第$ j+1 $个滑块开始滑动时的速度为$ v_{j+1} $。用已知量和$ v_j $表示$ v_{j+1} $。\n（3）若木板开始滑动后，滑块间恰好不再相碰，求$ \\beta $的值。\n\t\n\t（参考公式：$ 1^2+2^2+ \\cdots +k^2= \\frac{1}{6} k(k+1)(2k+1) $\n\n![物理配图](assets/2025/physics/湖北/16.png)",
+      "figures": [
+        "assets/2025/physics/湖北/16.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "\\jdanswer*{\n\t\n（1）$v_{1}=$ $\\sqrt {( \\beta - 4) \\mu gL}$\n（2）$v_{j+ 1}= \\frac j{j+ 1}\\sqrt {v_{j}^{2}- 4\\mu gL}$\n（3）$\\beta=\\frac{8n}{2n-1}(2n+1)^2 + \\frac{4}{3}n(2n+1)(4n+1)=\\frac{4n(2n+1)(8n^{2}+10n+5)}{3(2n-1)}$\n\n}"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）滑块 1 运动时，对木板的摩擦力为 $f_{1}=2\\mu mg$\n\n\t地面对木板的摩擦力为 $f_{2}=4\\mu nmg$\n\n\t所以此过程中木板保持不动；每个滑块之间距离为 $L$，所以对滑块 1 根据动能定理有\n\n\t$-2\\mu mgL=\\frac{1}{2}mv_{1}^{2}-\\frac{1}{2}mv_{0}^{2}$\n\n\t解得 $v_{1} = \\sqrt{(\\beta - 4)\\mu gL}$\n（2）滑块间碰撞时间极短，碰后滑块粘在一起运动，若长木板不动，第 $j$ 个滑块开始运动时加速度为 $a_{j}=\\frac{2\\mu\\cdot jmg}{jm}=2\\mu g$\n\n\t根据运动学公式，第 $j$ 个滑块开始滑动到和第 $j+1$ 个滑块碰撞时，有 $v_{j}^{2}-v_{j}^{\\prime 2}=2a_{j}L$\n\n\t第 $j$ 个滑块和第 $j+1$ 个滑块碰撞过程中动量守恒有 $jmv_{j}^{\\prime}=(j+1)mv_{j+1}$\n\n\t联立可得 $v_{j+1}=\\frac{j}{j+1}\\sqrt{v_{j}^{2}-4\\mu gL}$\n（3）当第 $k$ 个木块开始滑动时，木板恰好要滑动，此时有 $2\\mu \\cdot kmg = \\mu(nm + 3nm)g$\n\n\t解得 $k = 2n$（$n$ 为整数）\n\n\t则第 $k+1$ 个（即 $2n+1$）木块开始滑动时，木板开始滑动，要刚好不发生下一次碰撞，假设木板和剩下的木块不发生相对滑动，则\n\n\t$2\\mu(2n+1)mg - \\mu(nm + 3nm)g = \\left[nm + (n-1)m\\right]a_\\text{木}$\n\n\t则 $a=\\frac{2\\mu g}{2n-1}<2\\mu g$\n\n\t木板和剩下的木块不发生相对滑动。\n\n\t$a_{k+1}=\\frac{2\\mu\\cdot\\left(k+1\\right)mg}{\\left(k+1\\right)m}=2\\mu g$\n\n\t对前面 $k+1$ 个（即 $2n+1$）木块，有\n\n\t木板开始滑动时，刚好不发生下一次碰撞，则对前面 $k+1$ 个木块和 $k+2$ 个木块共速，且相对位移恰好为 $L$，则\n\n\t$\\frac{v_{k+1}^{2}-v_\\text{共}^{2}}{2a_{k+1}}-\\frac{v_\\text{共}^{2}}{2a}=L$\n\n\t则 $v_{k+1}^{2} = 2nv_\\text{共}^{2} + 4\\mu gL$\n\n\t又 $v_\\text{共} = at = v_{k+1} - 2\\mu gt$\n\n\t则 $v_\\text{共} = \\frac{v_{k+1}}{2n}$\n\n\t则 $v_{k+1}^{2} = \\frac{8n\\mu gL}{2n-1}$\n\n\t$j = 1$ 时，第一个滑块开始运动的速度 $v_{0} = \\sqrt{\\beta\\mu gL}$，则 $v_{0}^{2} = \\beta\\mu gL$\n\n\t$j = 2$ 时，根据动量守恒定律可得 $mv_{1} = 2mv_{2}$\n\n\t可得第 2 个滑块开始运动的速度 $v_{2} = \\frac{1}{2}\\sqrt{(\\beta - 4)\\mu gL}$\n\n\t则 $4v_{2}^{2} = \\beta\\mu gL - 4\\mu gL$\n\n\t由第二问可得，$(j+1)^{2} v_{j+1}^{2} = j^{2} v_{j}^{2} - 4j^{2}\\mu gL$，则对第 3 个滑块到第 $k+1$ 个滑块有\n\n\t$9v_{3}^{2} = 4 \\times v_{2}^{2} - 4 \\times 4\\mu gL$\n\n\t$16v_{4}^{2} = 9v_{3}^{2} - 9 \\times 4\\mu gL$\n\n\t$25v_{5}^{2} = 16 \\times v_{4}^{2} - 16 \\times 4\\mu gL$\n\n\t……\n\n\t$(k+1)^{2} v_{k+1}^{2} = k^{2} v_{k}^{2} - k^{2} \\times 4\\mu gL$\n\n\t将从 $j = 2$ 到 $j = k+1$ 相关方程累积求和可得\n\n\t$(k+1)^{2} v_{k+1}^{2} = \\beta\\mu gL - 4\\mu gL \\left[1^{2} + 2^{2} + 3^{2} + 4^{2} + \\cdots + k^{2}\\right] = \\beta\\mu gL - \\frac{2k(k+1)(2k+1)}{3}\\mu gL$\n\n\t联立 $v_{k+1}^{2} = \\frac{8n\\mu gL}{2n-1}$，$k = 2n$\n\n\t可得 $\\beta = \\frac{4n(2n+1)(8n^{2} + 10n+5)}{3(2n-1)}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}

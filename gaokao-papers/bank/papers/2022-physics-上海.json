@@ -1,0 +1,916 @@
+{
+  "id": "2022-physics-上海",
+  "year": 2022,
+  "subject": "物理",
+  "region": "上海卷",
+  "region_key": "上海",
+  "format_tier": "structured_latex",
+  "question_count": 20,
+  "source": "gaokao-physics-archive",
+  "questions": [
+    {
+      "qid": "2022-physics-上海-q01",
+      "number": 1,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 901,
+      "topics": [
+        "原子和原子核",
+        "原子核的组成"
+      ],
+      "stem_md": "元素 \\ce{^{Z}_{A}X} 的同位素可能为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "\\ce{^{Z+1}_{A+1}X}",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "\\ce{^{Z}_{A+1}X}",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "\\ce{^{Z+1}_{A}X}",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "\\ce{^{Z-1}_{A-1}X}",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q02",
+      "number": 2,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 901,
+      "topics": [
+        "力物体的平衡",
+        "受力分析"
+      ],
+      "stem_md": "麦克风静止在水平桌面上，蛇形杆对话筒 a 的作用力方向为（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "",
+          "image": "assets/2022/physics/上海/02a.png"
+        },
+        {
+          "key": "B",
+          "text_md": "",
+          "image": "assets/2022/physics/上海/02b.png"
+        },
+        {
+          "key": "C",
+          "text_md": "",
+          "image": "assets/2022/physics/上海/02c.png"
+        },
+        {
+          "key": "D",
+          "text_md": "",
+          "image": "assets/2022/physics/上海/02d.png"
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q03",
+      "number": 3,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 612,
+      "topics": [
+        "光学",
+        "光的衍射"
+      ],
+      "stem_md": "在单缝衍射实验中，仅减小缝宽，光屏上衍射条纹的（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "间距变宽，光强增强",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "间距变窄，光强增强",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "间距变宽，光强减弱",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "间距变窄，光强减弱",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "C",
+        "choices": [
+          "C"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q04",
+      "number": 4,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 970,
+      "topics": [
+        "气体性质",
+        "查理定律"
+      ],
+      "stem_md": "乒乓球放在水中，当水温升高时，乒乓球内气体的分子热运动（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "加剧，压强变大",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "减弱，压强变大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "加剧，压强变小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "减弱，压强变小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q05",
+      "number": 5,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 480,
+      "topics": [
+        "原子和原子核",
+        "天然放射性"
+      ],
+      "stem_md": "某原子核发生衰变时放出一个正电子，生成的新核比原来的核增加了一个（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "核子",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "中子",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "质子",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "电子",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q06",
+      "number": 6,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 825,
+      "topics": [
+        "曲线运动",
+        "线速度角速度"
+      ],
+      "stem_md": "北京冬奥会上，某运动员以不变的速率沿如图所示路径滑行，其角速度为 $\\omega$ 和加速度大小 $a$ 的变化为（  ）\n\n![物理配图](assets/2022/physics/上海/06.svg)",
+      "figures": [
+        "assets/2022/physics/上海/06.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$\\omega$ 减小，$a$ 减小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$\\omega$ 增大，$a$ 增大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$\\omega$ 减小，$a$ 增大",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$\\omega$ 增大，$a$ 减小",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q07",
+      "number": 7,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 930,
+      "topics": [
+        "机械波",
+        "波的图象"
+      ],
+      "stem_md": "两声源发出的波在空气中传播，用声传感器在某一位置分别测得两列波的信号如图[2022上海07a]、[2022上海07b]所示。若这两列波的频率分别为 $f_{a}$ 和 $f_{b}$，波长分别为 $\\lambda_{a}$ 和 $\\lambda_{b}$，则（  ）\n\n![物理配图](assets/2022/physics/上海/07a.png) ![物理配图](assets/2022/physics/上海/07b.png)",
+      "figures": [
+        "assets/2022/physics/上海/07a.png",
+        "assets/2022/physics/上海/07b.png"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$f_{a} > f_{b}$，$\\lambda_{a} < \\lambda_{b}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$f_{a} < f_{b}$，$\\lambda_{a} < \\lambda_{b}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$f_{a} > f_{b}$，$\\lambda_{a} > \\lambda_{b}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$f_{a} < f_{b}$，$\\lambda_{a} > \\lambda_{b}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q08",
+      "number": 8,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 3,
+      "difficulty": 925,
+      "topics": [
+        "直线运动",
+        "运动图象"
+      ],
+      "stem_md": "物体Ⅰ、Ⅱ从静止开始做直线运动的位移 $-$ 时间关系如图所示，图中两条曲线均为抛物线。在 $t_{0}$ 时刻，两个物体的速度大小分别为 $v_{\\text{Ⅰ}}$ 和 $v_{\\text{Ⅱ}}$、加速度大小分别为 $a_{\\text{Ⅰ}}$ 和 $a_{\\text{Ⅱ}}$，则（  ）\n\n![物理配图](assets/2022/physics/上海/08.svg)",
+      "figures": [
+        "assets/2022/physics/上海/08.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$v_{\\text{Ⅰ}} < v_{\\text{Ⅱ}}$，$a_{\\text{Ⅰ}} < a_{\\text{Ⅱ}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$v_{\\text{Ⅰ}} > v_{\\text{Ⅱ}}$，$a_{\\text{Ⅰ}} < a_{\\text{Ⅱ}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$v_{\\text{Ⅰ}} < v_{\\text{Ⅱ}}$，$a_{\\text{Ⅰ}} > a_{\\text{Ⅱ}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$v_{\\text{Ⅰ}} > v_{\\text{Ⅱ}}$，$a_{\\text{Ⅰ}} > a_{\\text{Ⅱ}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "D",
+        "choices": [
+          "D"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q09",
+      "number": 9,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 717,
+      "topics": [
+        "气体性质",
+        "玻意耳定律"
+      ],
+      "stem_md": "如图所示，两根粗细相同的玻璃管竖直放置，下端用橡皮管连接，静止时左管上端封闭着一段长为 $30 \\,\\mathrm{cm}$ 的气体，右管开口，左管水银面比右管内水银面高 $25 \\,\\mathrm{cm}$（大气压强相当于 $75 \\,\\mathrm{cm}$ 高的水银柱产生的压强）。移动玻璃管使两管内水银面等高后，左管内气柱长度为（  ）\n\n![物理配图](assets/2022/physics/上海/09.svg)",
+      "figures": [
+        "assets/2022/physics/上海/09.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$20 \\,\\mathrm{cm}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$22.5 \\,\\mathrm{cm}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$40 \\,\\mathrm{cm}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$45 \\,\\mathrm{cm}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "$p_{1}=p_{0}-\\rho gh=50 \\,\\mathrm{cmHg}$，$V_{1}=30S$；$p_{2}=p_{0}=75 \\,\\mathrm{cmHg}$。\n\n由玻意耳定律：$p_{1}V_{1}=p_{2}V_{2}$，$l_{2}=20 \\,\\mathrm{cm}$。\n\n正确选项为 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q10",
+      "number": 10,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 0,
+      "difficulty": 835,
+      "topics": [
+        "曲线运动",
+        "人造地球卫星"
+      ],
+      "stem_md": "木卫Ⅰ和木卫Ⅱ绕木星公转的周期分别为 42 小时 28 分和 85 小时 14 分。假设两卫星绕木星近似做匀速圆周运动，若它们的公转半径分别为 $R_{\\text{Ⅰ}}$ 和 $R_{\\text{Ⅱ}}$、公转速度大小分别为 $v_{\\text{Ⅰ}}$ 和 $v_{\\text{Ⅱ}}$，则（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$R_{\\text{Ⅰ}} > R_{\\text{Ⅱ}}$，$v_{\\text{Ⅰ}} > v_{\\text{Ⅱ}}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$R_{\\text{Ⅰ}} < R_{\\text{Ⅱ}}$，$v_{\\text{Ⅰ}} > v_{\\text{Ⅱ}}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$R_{\\text{Ⅰ}} > R_{\\text{Ⅱ}}$，$v_{\\text{Ⅰ}} < v_{\\text{Ⅱ}}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$R_{\\text{Ⅰ}} < R_{\\text{Ⅱ}}$，$v_{\\text{Ⅰ}} < v_{\\text{Ⅱ}}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q11",
+      "number": 11,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 630,
+      "topics": [
+        "运动和力",
+        "变加速直线运动"
+      ],
+      "stem_md": "圆满完成任务的神舟十三号载人飞船返回舱在返回过程中打开降落伞减速，所受空气阻力随速度减小而减小，若返回舱竖直向下运动，其加速度（  ）",
+      "figures": [],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "逐渐减小",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "逐渐增大",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "先增大再减小",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "先减小再增大",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "A",
+        "choices": [
+          "A"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由于减速，可知空气阻力 $f > mg$；由牛顿第二定律 $a=\\frac{f-mg}{m}$ 可知，随着速度的减小 $f$ 也减小，导致加速度 $a$ 也随之减小。\n\n正确选项为 A。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q12",
+      "number": 12,
+      "section": "单选题",
+      "type": "single_choice",
+      "score": 4,
+      "difficulty": 720,
+      "topics": [
+        "电磁感应",
+        "线圈过有界磁场"
+      ],
+      "stem_md": "如图，有界匀强磁场垂直于光滑水平面，一矩形线框在水平面内从磁场左边界以初速 $v_{0}$ 向右运动。在其穿过磁场的过程中，速度先后发生变化的时间段分别为 $t_{1}$ 和 $t_{2}$，克服安培力做功分别为 $W_{1}$ 和 $W_{2}$，则（  ）\n\n![物理配图](assets/2022/physics/上海/12.svg)",
+      "figures": [
+        "assets/2022/physics/上海/12.svg"
+      ],
+      "choices": [
+        {
+          "key": "A",
+          "text_md": "$t_{1} > t_{2}$，$W_{1} > W_{2}$",
+          "image": null
+        },
+        {
+          "key": "B",
+          "text_md": "$t_{1} < t_{2}$，$W_{1} > W_{2}$",
+          "image": null
+        },
+        {
+          "key": "C",
+          "text_md": "$t_{1} > t_{2}$，$W_{1} < W_{2}$",
+          "image": null
+        },
+        {
+          "key": "D",
+          "text_md": "$t_{1} < t_{2}$，$W_{1} < W_{2}$",
+          "image": null
+        }
+      ],
+      "answer": {
+        "raw": "B",
+        "choices": [
+          "B"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "由右手定则可判断线框进磁场时线框中感应电流为逆时针方向，由左手定则可判断安培力方向向左，同理可判断线框出磁场时安培力方向也向左，因此在两个速度发生变化的时间段中线框都做减速运动。\n\n由 $F_{\\text{安}}=\\frac{B^{2}l^{2}v}{R}=ma$ 可知，进磁场过程中的平均安培力较大，进磁场和出磁场过程的位移相等，由 $W=Fs$ 可知 $W_{1} > W_{2}$。\n\n线框在进、出磁场过程中都做加速度减小的减速运动，可以画出对应的 $v-t$ 图像，在位移相等的情况下，根据图像可得出 $t_{1} < t_{2}$ 的结论。\n\n![物理配图](assets/2022/physics/上海/12_an.svg)\n\n正确选项为 B。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/上海/12_an.svg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q13",
+      "number": 13,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 660,
+      "topics": [
+        "气体性质",
+        "气体的状态参量"
+      ],
+      "stem_md": "在描述气体性质的状态参量中， ______ 是气体分子热运动能够到达的空间范围；而压强从微观上看，是 ______ 的宏观表现。",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "",
+        "sub_answers": [
+          "体积",
+          "气体分子频繁撞击容器壁"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q14",
+      "number": 14,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 860,
+      "topics": [
+        "原子和原子核",
+        "天然放射性"
+      ],
+      "stem_md": "玉兔二号月球车使用的核电池中涉及的核反应为 \\ce{^{238}_{94}Pu -> ^{234}_{92}U} +  ______ ，该反应属于 ______ （选填：“衰变”或“裂变”）反应。",
+      "figures": [],
+      "choices": [],
+      "answer": {
+        "raw": "",
+        "sub_answers": [
+          "\\ce{^{4}_{2}He}",
+          "衰变"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q15",
+      "number": 15,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 710,
+      "topics": [
+        "电磁感应",
+        "楞次定律"
+      ],
+      "stem_md": "如图，半径为 $R$ 的金属圆环水平放置，匀强磁场方向竖直向下，位于半径为 $r$ 的圆形区域内。若磁场的磁感应强度大小逐渐增大，则圆环中感应电流的方向为 ______ （选填：“顺时针”或“逆时针”）。若保持磁场的磁感应强度大小 $B$ 不变，仅使其方向改变 $180^{\\circ}$，则改变前后穿过圆环磁通量的变化量大小为 ______ 。\n\n![物理配图](assets/2022/physics/上海/15.svg)",
+      "figures": [
+        "assets/2022/physics/上海/15.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "",
+        "sub_answers": [
+          "逆时针",
+          "$2B\\pi r^{2}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q16",
+      "number": 16,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 0,
+      "difficulty": 470,
+      "topics": [
+        "电场",
+        "电场强度"
+      ],
+      "stem_md": "如图，电荷量为 $Q$ 的均匀带电圆环水平放置，在圆环中心 O 的正上方固定一电荷量为 $q$ 的点电荷，点电荷与 O 间距离为 $d$，点电荷受到的静电力大小 ______ （选填“大于”、“等于”或“小于”）$\\frac{kQq}{d^{2}}$，式中静电力常量 $k$ 的单位为 ______ （用 SI 中的基本单位表示）。\n\n![物理配图](assets/2022/physics/上海/16.svg)",
+      "figures": [
+        "assets/2022/physics/上海/16.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "",
+        "sub_answers": [
+          "小于",
+          "$\\, \\mathrm{kg}\\cdot\\mathrm{m}^{3}\\cdot\\mathrm{s}^{-4}\\cdot\\mathrm{A}^{-2}$"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "![物理配图](assets/2022/physics/上海/16_an.svg)\n\n（1）由微元的思想，可将环形圆环看成由 $n$ 个带电量为 $Q'$（$Q'=\\frac{Q}{n}$）的点电荷，则点电荷 $q$ 受到的静电力可看成 $n$ 个 $Q'$ 对 $q$ 的静电力竖直分量的累积，即 $F=nF'\\cos\\theta=nk\\frac{\\frac{Q}{n}\\cdot q}{L^{2}}\\cos\\theta$，显然 $F<k\\frac{Qq}{d^{2}}$。\n\n（2）由库仑定律可知 $k$ 的单位为 $\\,\\mathrm{N}\\cdot\\mathrm{m}^2/\\mathrm{C}^2$，而 N 用基本单位可表示为 $\\,\\mathrm{kg}\\cdot\\mathrm{m}/\\mathrm{s}^2$，C 用基本单位可表示为 $\\,\\mathrm{A}\\cdot\\mathrm{s}$，因此 $k$ 用基本单位的表示为 $\\, \\mathrm{kg}\\cdot\\mathrm{m}^{3}\\cdot\\mathrm{s}^{-4}\\cdot\\mathrm{A}^{-2}$。"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/上海/16_an.svg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q17",
+      "number": 17,
+      "section": "填空题",
+      "type": "fill_blank",
+      "score": 4,
+      "difficulty": 570,
+      "topics": [
+        "磁场",
+        "磁场的叠加"
+      ],
+      "stem_md": "已知直线电流在其周围产生磁场的磁感应强度大小与电流成正比。如图，正方形线框 abcd 由四根完全相同的电阻丝构成，大小为 $I$ 的电流由 a 流入，由 d 流出。流经 ad 的电流在 O 点产生磁场的磁感应强度大小为 $B$，方向 ______ （选填：“垂直纸面向里”或“垂直纸面向外”）；线框中电流在 O 点产生磁场的磁感应强度大小为 ______ 。\n\n![物理配图](assets/2022/physics/上海/17.svg)",
+      "figures": [
+        "assets/2022/physics/上海/17.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "",
+        "sub_answers": [
+          "垂直纸面向外",
+          "0"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）电路结构为 ab、bc、cd 串联后与 ad 并联，由电路分析可知 ad 中的电流方向向下，由右手螺旋定则可知 ad 在 O 点产生的磁场方向为“垂直于纸面向外”。\n\n（2）由右手螺旋定则可知 ab、bc、cd 三个电流在 $O$ 点产生的磁场方向都为“垂直于纸面向里”。\n\n由电路结构可知，通过 ad 的电流为通过 ab、bc、cd 支路的 3 倍，又因为电流产生的磁感应强度的大小在距离相同的情况下与电流大小成正比，因此三者产生的磁感应强度的大小为 ad 产生的磁感应强度的 $\\frac{1}{3}$。由磁场叠加原理可知四个磁场的矢量和为 0。\n\n![物理配图](assets/2022/physics/上海/17_an.svg)"
+        }
+      ],
+      "solution_figures": [
+        "assets/2022/physics/上海/17_an.svg"
+      ],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q18",
+      "number": 18,
+      "section": "实验题",
+      "type": "fill_blank",
+      "score": 10,
+      "difficulty": 751,
+      "topics": [
+        "机械振动",
+        "单摆测重力加速度"
+      ],
+      "stem_md": "在“用单摆测定重力加速度”的实验中：\n\n（1）摆球质量和摆线质量分别为 $m_{\\text{球}}$ 和 $m_{\\text{线}}$，摆球直径和摆线长分别为 $d$ 和 $l$，则选择摆球和摆线的要求是\n\n\t\n\n(A) $m_{\\text{球}} \\gg m_{\\text{线}}$，$d \\ll l$  (B) $m_{\\text{球}} \\ll m_{\\text{线}}$，$d \\ll l$  (C) $m_{\\text{球}} \\gg m_{\\text{线}}$，$d \\gg l$  (D) $m_{\\text{球}} \\ll m_{\\text{线}}$，$d \\gg l$\n（2）某同学在实验过程中，多次改变摆线长度 $l$，测量相应的摆球摆动周期 $T$，获得 $T^{2}-l$ 关系如图所示，由此可得重力加速度值为 ______  $\\,\\mathrm{m}/\\mathrm{s}^2$。（保留到小数点后 2 位）\n（3）为了减小误差，应在摆球经过最低点还是到达最高点开始计时？为什么？\n\n![物理配图](assets/2022/physics/上海/18.svg)",
+      "figures": [
+        "assets/2022/physics/上海/18.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）A\n（2）9.75\n（3）如果选择最高点计时，由于人目测摆球达到最高点速度为 0 很难，计时点很难把握，时间误差就会大。最低点却恰恰相反，球的速度最大，计时点把握在瞬间完成，相对较容易，准确度高。",
+        "sub_answers": [
+          "9.75"
+        ]
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "本题原卷及材料中未提供详解，待补充。"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q19",
+      "number": 19,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 14,
+      "difficulty": 690,
+      "topics": [
+        "运动和力",
+        "牛顿定律的应用"
+      ],
+      "stem_md": "如图，一固定轨道由水平部分 AB 和光滑弧形部分 BC 平滑连接，AB 段长为 $L$，离地高度为 $h_{1}$，BC 间高度差为 $h_{2}$。一质量为 $m$、与 AB 间动摩擦因数为 $\\mu$ 的小物块在水平恒力作用下，自 A 点由静止开始运动，至 B 点撤去水平恒力，之后冲过 C 点落至地面。（重力加速度为 $g$）\n\n（1）若物块落地前瞬间动能为 $E_{1}$，求物块在 B 点时的动能 $E_{kB}$；\n（2）为使物块落地前瞬间动能小于 $E_{1}$，水平恒力应满足什么条件？\n\n![物理配图](assets/2022/physics/上海/19.svg)",
+      "figures": [
+        "assets/2022/physics/上海/19.svg"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）$E_{kB}=E_{1}-mgh_{1}$\n（2）$\\left(\\mu+\\frac{h_{2}}{L}\\right)mg<F<\\frac{E_{1}+\\mu mgL-mgh_{1}}{L}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）从 B 到落地过程，由机械能守恒定律可得（以地面为零势能面）：\n\n$mgh_{1}+E_{kB}=E_{1}$，\n\n解得：$E_{kB}=E_{1}-mgh_{1}$。\n\n（2）从 A 到 B 过程，设最大推力为 $F_{\\text{max}}$，由牛顿第二定律可得：\n\n$F_{\\text{max}}-\\mu mg=ma$\n\n$a=\\frac{F_{\\text{max}}}{m}-\\mu g$\n\n由运动学公式：$v_{B}^{2}=2aL=2\\left(\\frac{F_{\\text{max}}}{m}-\\mu g\\right)L$\n\n$E_{kB}=\\frac{1}{2}mv_{B}^{2}=E_{1}-mgh_{1}$\n\n解得：$F_{\\text{max}}=\\frac{E_{1}+\\mu mgL-mgh_{1}}{L}$\n\n要能过 C 点，即 C 点的临界速度为 0，设此过程 B 点的速度为 $v_{B}'$，根据机械能守恒定律\n\n$v_{B}'=\\sqrt{2gh_{2}}$\n\n设最小推力为 $F_{\\text{min}}$，由运动学公式和牛顿第二定律可解得：\n\n$F_{\\text{min}}=\\left(\\mu+\\frac{h_{2}}{L}\\right)mg$\n\n此题也可以用全过程动能定理更简便地得出答案。\n\n整个过程：$F_{\\text{max}}L-\\mu mgL+mgh_{1}=E_{1}$\n\n所以，$F_{\\text{max}}=\\frac{E_{1}+\\mu mgL-mgh_{1}}{L}$\n\n要能过 C 点，对整个过程：$F_{\\text{min}}L-\\mu mgL+mgh_{2}=0$\n\n所以，$F_{\\text{min}}=\\left(\\mu+\\frac{h_{2}}{L}\\right)mg$\n\n综上所述，$\\left(\\mu+\\frac{h_{2}}{L}\\right)mg<F<\\frac{E_{1}+\\mu mgL-mgh_{1}}{L}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    },
+    {
+      "qid": "2022-physics-上海-q20",
+      "number": 20,
+      "section": "计算题",
+      "type": "open_ended",
+      "score": 16,
+      "difficulty": 660,
+      "topics": [
+        "电磁感应",
+        "电磁感应电路分析"
+      ],
+      "stem_md": "如图[2022上海20a]所示，两水平固定金属导轨间距 $L=0.75 \\,\\mathrm{m}$，一导体棒与导轨垂直放置，导轨左端连接一阻值为 $R$ 的定值电阻和一最大阻值为 $20 \\,\\Omega$ 的滑动变阻器，系统处于磁感应强度 $B=0.4 \\,\\mathrm{T}$ 且与导轨所在平面垂直的匀强磁场中，使导体棒以恒定速度向右运动。当滑动变阻器接入电路阻值最大时，电路中 a、b、c、d 各点电势如图[2022上海20b]所示；当滑动变阻器接入电路阻值为最大阻值一半时，电路中各点电势如图[2022上海20c]所示。（图中 $\\varphi_{0}$ 大小未知，导轨电阻不计。）\n\n（1）分析并说明磁场方向；\n（2）分析并说明定值电阻在方框Ⅰ中还是方框Ⅱ中，并求其阻值 $R$；\n（3）求导体棒匀速运动的速度 $v$；\n（4）当滑动变阻器接入电路的阻值 $R_{p}$ 为多大时，滑动变阻器消耗的功率最大？并求出该最大功率 $P_{m}$。\n\n![物理配图](assets/2022/physics/上海/20a.svg) ![物理配图](assets/2022/physics/上海/20b.png) ![物理配图](assets/2022/physics/上海/20c.png)",
+      "figures": [
+        "assets/2022/physics/上海/20a.svg",
+        "assets/2022/physics/上海/20b.png",
+        "assets/2022/physics/上海/20c.png"
+      ],
+      "choices": [],
+      "answer": {
+        "raw": "（1）垂直纸面向里\n（2）“Ⅰ”中为定值电阻，$R=5 \\,\\Omega$\n（3）$v=5 \\,\\mathrm{m}/\\mathrm{s}$\n（4）当 $R_{p}=5 \\,\\Omega$ 时滑动变阻器消耗的功率最大，$P=0.1125 \\,\\mathrm{W}$"
+      },
+      "solution_methods": [
+        {
+          "id": "method_1",
+          "label": "标准解析",
+          "tier": "standard",
+          "content_md": "（1）a 点电势最高，说明左半部分电路中的电流是从 a 流向 d，则棒中的感应电流方向向上，根据右手定则，可以判断出磁场方向垂直纸面向里。\n\n（2）滑动变阻器接入阻值减小时，$U_{ab}$ 变大，根据串联电路分压特点，说明“Ⅰ”中的阻值分到的电压增多，“Ⅰ”中为定值电阻。\n\n金属棒的电阻不计，$U_{ad}=E=\\varphi_{0}$\n\n两次滑动变阻器的电压 $U_{cd}$：\n\n$\\frac{20}{20+R}\\varphi_{0}=1.2$，$\\frac{10}{10+R}\\varphi_{0}=1.0$\n\n联立方程得：$R=5 \\,\\Omega$，$\\varphi_{0}=1.5 \\,\\mathrm{V}$\n\n（3）导体棒切割磁感线，$E=BLv=\\varphi_{0}=1.5 \\,\\mathrm{V}$，得\n\n$v=\\frac{E}{BL}=\\frac{1.5}{0.4\\times0.75}=5 \\,\\mathrm{m}/\\mathrm{s}$\n\n（4）将定值电阻与金属棒看成一个等效电源，列出最大功率的表达式，运用配方或基本不等式求极值，可得当 $R_{p}=R=5 \\,\\Omega$ 时滑动变阻器消耗的功率最大。\n\n**注意**：直接用推论，写成“将定值电阻与金属棒看成一个等效电源，可得当 $R_{p}=R=5 \\,\\Omega$ 时滑动变阻器消耗的功率最大”的形式要扣分。\n\n$I=\\frac{E}{R+R_{p}}=\\frac{1.5}{5+5} \\,\\mathrm{A}=0.15 \\,\\mathrm{A}$\n\n$P=I^{2}R_{p}=0.15^{2}\\times5 \\,\\mathrm{W}=0.1125 \\,\\mathrm{W}$"
+        }
+      ],
+      "solution_figures": [],
+      "has_multi_method": false
+    }
+  ],
+  "multi_method_count": 0,
+  "enriched_count": 0
+}
