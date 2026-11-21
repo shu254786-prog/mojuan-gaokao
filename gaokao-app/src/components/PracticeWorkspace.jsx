@@ -5,8 +5,10 @@ import {
   Bookmark,
   BookOpen,
   Check,
+  ChevronDown,
   ChevronLeft,
   ChevronRight,
+  ChevronUp,
   Clock,
   Compass,
   Eye,
@@ -14,6 +16,8 @@ import {
   FileText,
   Layers,
   Lightbulb,
+  Maximize2,
+  Minimize2,
   Moon,
   PenLine,
   Rocket,
@@ -57,6 +61,13 @@ export default function PracticeWorkspace({
   const [qIdx, setQIdx] = useState(0);
   const [layoutMode, setLayoutMode] = useState("split"); // split | overlay | clean
   const [splitPct, setSplitPct] = useState(50);
+  const [isMobile, setIsMobile] = useState(() =>
+    typeof window !== "undefined" ? window.innerWidth <= 900 : false
+  );
+  const [mobileSheetPct, setMobileSheetPct] = useState(38);
+  const [isDraggingSheet, setIsDraggingSheet] = useState(false);
+  const [scratchMinimized, setScratchMinimized] = useState(false);
+  const [floatOffset, setFloatOffset] = useState({ x: 0, y: 0 });
   const [overlayPenActive, setOverlayPenActive] = useState(true);
   const [showSolution, setShowSolution] = useState(false);
   const [methodIdx, setMethodIdx] = useState(0);
@@ -72,7 +83,10 @@ export default function PracticeWorkspace({
   const [seconds, setSeconds] = useState(0);
   const [timerPaused, setTimerPaused] = useState(false);
 
+  const splitContainerRef = useRef(null);
   const draggingSplitRef = useRef(false);
+  const draggingMobileSheetRef = useRef(false);
+  const draggingFloatRef = useRef(null);
 
   // Load paper data
   useEffect(() => {
@@ -137,21 +151,75 @@ export default function PracticeWorkspace({
     return () => clearInterval(t);
   }, [timerPaused]);
 
-  // Resizable split drag
+  // Track mobile viewport cleanly
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 900px)");
+    const sync = () => setIsMobile(mq.matches);
+    sync();
+    mq.addEventListener?.("change", sync);
+    window.addEventListener("resize", sync);
+    return () => {
+      mq.removeEventListener?.("change", sync);
+      window.removeEventListener("resize", sync);
+    };
+  }, []);
+
+  // Resizable split drag (desktop horizontal + mobile vertical bottom-sheet + floating pill drag)
   useEffect(() => {
     const onMove = (e) => {
-      if (!draggingSplitRef.current) return;
-      const pct = (e.clientX / window.innerWidth) * 100;
-      setSplitPct(Math.max(30, Math.min(72, pct)));
+      if (draggingSplitRef.current) {
+        const rect = splitContainerRef.current?.getBoundingClientRect();
+        const width = rect?.width || window.innerWidth;
+        const left = rect?.left || 0;
+        const pct = ((e.clientX - left) / width) * 100;
+        setSplitPct(Math.max(30, Math.min(72, pct)));
+      }
+      if (draggingMobileSheetRef.current) {
+        const rect = splitContainerRef.current?.getBoundingClientRect();
+        const height = rect?.height || window.innerHeight;
+        const bottom = rect?.bottom || window.innerHeight;
+        const pct = ((bottom - e.clientY) / height) * 100;
+        setMobileSheetPct(Math.max(12, Math.min(86, pct)));
+      }
+      if (draggingFloatRef.current) {
+        const f = draggingFloatRef.current;
+        const dx = e.clientX - f.startX;
+        const dy = e.clientY - f.startY;
+        if (Math.hypot(dx, dy) > 5) f.moved = true;
+        const maxLeft = -(window.innerWidth - 180);
+        const maxUp = -(window.innerHeight - 140);
+        setFloatOffset({
+          x: Math.max(maxLeft, Math.min(8, f.origX + dx)),
+          y: Math.max(maxUp, Math.min(8, f.origY + dy)),
+        });
+      }
     };
     const onUp = () => {
+      if (draggingMobileSheetRef.current) {
+        draggingMobileSheetRef.current = false;
+        setIsDraggingSheet(false);
+        setMobileSheetPct((prev) => {
+          if (prev < 17) {
+            setScratchMinimized(true);
+            return 38;
+          }
+          return prev;
+        });
+      }
       draggingSplitRef.current = false;
+      if (draggingFloatRef.current) {
+        const wasTap = !draggingFloatRef.current.moved;
+        draggingFloatRef.current = null;
+        if (wasTap) setScratchMinimized(false);
+      }
     };
     window.addEventListener("pointermove", onMove);
     window.addEventListener("pointerup", onUp);
+    window.addEventListener("pointercancel", onUp);
     return () => {
       window.removeEventListener("pointermove", onMove);
       window.removeEventListener("pointerup", onUp);
+      window.removeEventListener("pointercancel", onUp);
     };
   }, []);
 
@@ -318,7 +386,13 @@ export default function PracticeWorkspace({
         {/* Controls */}
         <div style={{ display: "flex", alignItems: "center", gap: 8, flexShrink: 0 }}>
           <div className="segmented">
-            <button className={layoutMode === "split" ? "active" : ""} onClick={() => setLayoutMode("split")}>
+            <button
+              className={layoutMode === "split" ? "active" : ""}
+              onClick={() => {
+                setLayoutMode("split");
+                setScratchMinimized(false);
+              }}
+            >
               双栏演算
             </button>
             <button className={layoutMode === "overlay" ? "active" : ""} onClick={() => setLayoutMode("overlay")}>
@@ -345,13 +419,20 @@ export default function PracticeWorkspace({
       </header>
 
       {/* Main Split Body */}
-      <div className="workspace-split">
+      <div className="workspace-split" ref={splitContainerRef}>
         {/* LEFT PANE: Question / Exam Viewer */}
         <section
           className="question-pane"
           style={{
-            width: layoutMode === "split" ? `${splitPct}%` : "100%",
+            width: !isMobile && layoutMode === "split" && !scratchMinimized ? `${splitPct}%` : "100%",
+            flexGrow: isMobile || scratchMinimized || layoutMode !== "split" ? 1 : 0,
             flexShrink: 0,
+            paddingBottom:
+              isMobile && layoutMode === "split"
+                ? scratchMinimized
+                  ? 96
+                  : `calc(${Math.round(mobileSheetPct)}vh + 48px)`
+                : undefined,
           }}
         >
           {/* Transparent Overlay Pen Layer (active when layoutMode === "overlay") */}
@@ -686,10 +767,11 @@ export default function PracticeWorkspace({
           ) : null}
         </section>
 
-        {/* RESIZABLE DIVIDER */}
-        {layoutMode === "split" && (
+        {/* RESIZABLE DIVIDER (Desktop horizontal split) */}
+        {layoutMode === "split" && !isMobile && !scratchMinimized && (
           <div
             className="split-resizer"
+            style={{ touchAction: "none" }}
             onPointerDown={() => {
               draggingSplitRef.current = true;
             }}
@@ -699,37 +781,116 @@ export default function PracticeWorkspace({
           </div>
         )}
 
-        {/* RIGHT PANE: iPadOS Tablet Scratchpad */}
-        {layoutMode === "split" && (
-          <section className="scratchpad-pane" style={{ flex: 1 }}>
-            <div
-              style={{
-                position: "absolute",
-                top: 12,
-                left: 16,
-                zIndex: 15,
-                fontSize: 12,
-                fontWeight: 500,
-                color: "var(--text-3)",
-                background: "var(--bg-glass)",
-                padding: "4px 10px",
-                borderRadius: 999,
-                backdropFilter: "blur(10px)",
-                pointerEvents: "none",
-              }}
-            >
-              {currentQ ? `第 ${currentQ.number} 题专属草稿纸 · 自动本地保存` : "整卷草稿演算纸 · 自动本地保存"}
-            </div>
+        {/* RIGHT PANE / MOBILE STRETCHABLE BOTTOM SHEET: iPadOS Tablet Scratchpad */}
+        {layoutMode === "split" && !scratchMinimized && (
+          <section
+            className={`scratchpad-pane ${isMobile ? "mobile-sheet" : ""} ${isDraggingSheet ? "dragging" : ""}`}
+            style={
+              isMobile
+                ? { height: `${mobileSheetPct}%` }
+                : { flex: 1 }
+            }
+          >
+            {isMobile ? (
+              <div
+                className="sheet-handle-bar"
+                onPointerDown={(e) => {
+                  if (e.target.closest("button")) return;
+                  draggingMobileSheetRef.current = true;
+                  setIsDraggingSheet(true);
+                }}
+                title="上下拖动拉伸草稿纸高度，拉到底部可缩小为悬浮窗"
+              >
+                <div className="sheet-handle-pill" />
+                <span className="sheet-handle-title">
+                  {currentQ ? `第 ${currentQ.number} 题草稿纸` : "整卷草稿纸"}
+                </span>
+                <div className="sheet-handle-actions">
+                  <button
+                    type="button"
+                    className="sheet-action-btn"
+                    onClick={() => setMobileSheetPct((h) => (h > 58 ? 38 : 78))}
+                    title={mobileSheetPct > 58 ? "恢复半屏高度" : "向上拉大草稿区"}
+                  >
+                    {mobileSheetPct > 58 ? <ChevronDown size={14} /> : <ChevronUp size={14} />}
+                    {mobileSheetPct > 58 ? "半屏" : "拉高"}
+                  </button>
+                  <button
+                    type="button"
+                    className="sheet-action-btn primary"
+                    onClick={() => setScratchMinimized(true)}
+                    title="缩小为角落可拖拽悬浮窗"
+                  >
+                    <Minimize2 size={13} /> 悬浮窗
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <div className="desktop-scratch-header">
+                <div className="scratch-badge-pill">
+                  {currentQ ? `第 ${currentQ.number} 题专属草稿纸 · 自动本地保存` : "整卷草稿演算纸 · 自动本地保存"}
+                </div>
+                <button
+                  type="button"
+                  className="scratch-min-btn"
+                  onClick={() => setScratchMinimized(true)}
+                  title="缩小为悬浮窗，全屏查看题目与多解"
+                >
+                  <Minimize2 size={13} /> 缩小
+                </button>
+              </div>
+            )}
 
-            <ScratchpadCanvas
-              storageKey={`${activeQid}:scratch`}
-              dark={dark}
-              transparent={false}
-              interactive
-              showDock
-              onHasStrokesChange={handleStrokePresence("scratch")}
-            />
+            <div className="scratchpad-canvas-host">
+              <ScratchpadCanvas
+                storageKey={`${activeQid}:scratch`}
+                dark={dark}
+                transparent={false}
+                interactive
+                showDock
+                onHasStrokesChange={handleStrokePresence("scratch")}
+              />
+            </div>
           </section>
+        )}
+
+        {/* MINIMIZED FLOATING WINDOW PILL (Draggable + Tap to Restore) */}
+        {layoutMode === "split" && scratchMinimized && (
+          <div
+            className="scratchpad-floating-pill"
+            role="button"
+            tabIndex={0}
+            aria-label="展开草稿纸悬浮窗"
+            style={{
+              transform: `translate3d(${floatOffset.x}px, ${floatOffset.y}px, 0)`,
+            }}
+            onPointerDown={(e) => {
+              draggingFloatRef.current = {
+                startX: e.clientX,
+                startY: e.clientY,
+                origX: floatOffset.x,
+                origY: floatOffset.y,
+                moved: false,
+              };
+            }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                setScratchMinimized(false);
+              }
+            }}
+            title="点击展开草稿纸 · 按住可拖动悬浮窗位置"
+          >
+            <span className="floating-pill-icon">
+              <PenLine size={15} />
+              {strokeKeys.has(`${activeQid}:scratch`) && <span className="floating-stroke-dot" />}
+            </span>
+            <span className="floating-pill-text">
+              <strong>{currentQ ? `第 ${currentQ.number} 题草稿` : "草稿纸"}</strong>
+              <small>按住可拖 · 点此展开</small>
+            </span>
+            <Maximize2 size={14} className="floating-pill-expand" />
+          </div>
         )}
       </div>
     </div>

@@ -704,8 +704,206 @@ input {
   display: flex;
   flex-direction: column;
   min-width: 0;
+  min-height: 0;
   overflow: hidden;
   background: var(--paper-bg);
+}
+
+.scratchpad-canvas-host {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.desktop-scratch-header {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  right: 14px;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.scratch-badge-pill {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-3);
+  background: var(--bg-glass);
+  padding: 4px 10px;
+  border-radius: 999px;
+  backdrop-filter: blur(10px);
+}
+
+.scratch-min-btn {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-2);
+  background: var(--bg-glass-strong);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px 10px;
+  cursor: pointer;
+  backdrop-filter: blur(12px);
+  transition: all 0.15s ease;
+}
+.scratch-min-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Mobile Stretchable Bottom-Sheet Scratchpad */
+.scratchpad-pane.mobile-sheet {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 32;
+  border-top: 1px solid var(--border-strong);
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -12px 34px rgba(0, 0, 0, 0.15);
+  transition: height 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.scratchpad-pane.mobile-sheet.dragging {
+  transition: none;
+}
+
+.sheet-handle-bar {
+  position: relative;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 12px 4px;
+  background: var(--bg-glass-strong);
+  backdrop-filter: saturate(180%) blur(18px);
+  -webkit-backdrop-filter: saturate(180%) blur(18px);
+  border-bottom: 1px solid var(--border);
+  touch-action: none;
+  user-select: none;
+  cursor: ns-resize;
+}
+
+.sheet-handle-pill {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 38px;
+  height: 4px;
+  border-radius: 999px;
+  background: var(--text-3);
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.sheet-handle-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-2);
+  white-space: nowrap;
+}
+
+.sheet-handle-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sheet-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  height: 26px;
+  padding: 0 9px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-2);
+  font-size: 11.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sheet-action-btn.primary {
+  background: var(--accent-soft);
+  border-color: rgba(0, 113, 227, 0.28);
+  color: var(--accent);
+}
+
+/* Draggable Floating Scratchpad Pill */
+.scratchpad-floating-pill {
+  position: fixed;
+  right: 16px;
+  bottom: 20px;
+  z-index: 45;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 13px;
+  border-radius: 999px;
+  background: var(--bg-glass-strong);
+  border: 1px solid var(--border-strong);
+  backdrop-filter: saturate(180%) blur(22px);
+  -webkit-backdrop-filter: saturate(180%) blur(22px);
+  box-shadow: var(--shadow-dock);
+  touch-action: none;
+  user-select: none;
+  cursor: grab;
+  transition: box-shadow 0.16s ease, border-color 0.16s ease;
+}
+.scratchpad-floating-pill:active {
+  cursor: grabbing;
+}
+.scratchpad-floating-pill:hover {
+  border-color: var(--accent);
+}
+.floating-pill-icon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.floating-stroke-dot {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--orange);
+  border: 1.5px solid var(--bg-card);
+}
+.floating-pill-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+.floating-pill-text strong {
+  font-size: 12.5px;
+  color: var(--text-1);
+}
+.floating-pill-text small {
+  font-size: 10.5px;
+  color: var(--text-3);
+}
+.floating-pill-expand {
+  color: var(--text-2);
+  flex-shrink: 0;
 }
 
 .paper-bg-dot {
@@ -861,11 +1059,9 @@ input {
   }
   .question-pane {
     width: 100% !important;
-    max-height: 55vh;
-    padding: 16px 16px 100px;
-  }
-  .scratchpad-pane {
-    min-height: 45vh;
+    height: 100%;
+    max-height: none;
+    padding: 14px 14px 120px;
   }
   .split-resizer {
     display: none;
@@ -874,11 +1070,25 @@ input {
     grid-template-columns: 1fr;
   }
   .pencil-dock {
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 20px;
-    padding: 6px 10px;
-    bottom: 10px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-radius: 999px;
+    padding: 5px 10px;
+    gap: 4px;
+    bottom: 8px;
+    max-width: calc(100% - 16px);
+  }
+  .dock-tool {
+    width: 30px;
+    height: 30px;
+  }
+  .color-swatch {
+    width: 19px;
+    height: 19px;
+  }
+  .width-dot-btn {
+    width: 24px;
+    height: 24px;
   }
 }
 
