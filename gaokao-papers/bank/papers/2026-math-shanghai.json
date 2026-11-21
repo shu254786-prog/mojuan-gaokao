@@ -545,7 +545,7 @@
       "score": null,
       "difficulty": null,
       "topics": [],
-      "stem_md": "四棱锥 $ P-ABCD $ 的底面 $ABCD$ 是矩形，点 $H$ 在线段 $AD$ 上，$ PH\\perp\\text{平面 }ABCD $，$ AB=2 $，$ AH=1 $，$ HD=4 $.\n\n（1）证明：$ HC \\perp PB $；\n（2）若四棱锥体积 $ V_{P-ABCD}=\\frac{10\\sqrt{5}}{3} $，求二面角 $ C-PB-H $ 的大小.\n\n\\FigureLayoutDeclare{img/2026/shanghai/q18_fig1.png}{8.0cm}{0bp 0bp 0bp 0bp}\n\n![题目配图](assets/2026/math/shanghai/q18_fig1.png)",
+      "stem_md": "四棱锥 $ P-ABCD $ 的底面 $ABCD$ 是矩形，点 $H$ 在线段 $AD$ 上，$ PH\\perp\\text{平面 }ABCD $，$ AB=2 $，$ AH=1 $，$ HD=4 $.\n\n（1）证明：$ HC \\perp PB $；\n（2）若四棱锥体积 $ V_{P-ABCD}=\\frac{10\\sqrt{5}}{3} $，求二面角 $ C-PB-H $ 的大小.\n\n![题目配图](assets/2026/math/shanghai/q18_fig1.png)",
       "figures": [
         "assets/2026/math/shanghai/q18_fig1.png"
       ],

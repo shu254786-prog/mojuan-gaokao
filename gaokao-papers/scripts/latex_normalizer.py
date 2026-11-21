@@ -197,6 +197,7 @@ def normalize_math_text(text, phy_map=None):
     t = re.sub(r"\\quad\b", " ", t)
     t = re.sub(r"\\qquad\b", "  ", t)
     t = re.sub(r"\\gknewpage\b|\\gkvfill\b|\\gkvfil\b|\\gkhfill\b|\\gkhfil\b|\\FloatBarrier\b|\\centering\b|\\par\b|\\allowbreak\b", "", t)
+    t = replace_cmd(t, r"\\FigureLayoutDeclare\b", 3, False, lambda opt, args: "")
     t = re.sub(r"\\ref\{([^}]+)\}", lambda m: f"[{m.group(1)}]", t)
     t = t.replace("~", " ")
 

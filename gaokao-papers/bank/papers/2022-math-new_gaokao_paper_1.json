@@ -149,7 +149,7 @@
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
-          "content_md": "\\FigureLayoutDeclare{img/2022/new_gaokao_paper_1/q3_solution_fig1.png}{5.0cm}{0bp 0bp 0bp 0bp}\n\n![题目配图](assets/2022/math/new_gaokao_paper_1/q3_solution_fig1.png)\n\n因为点 $D$ 在边 $AB$ 上且 $BD=2DA$，所以 $\\overrightarrow{AD}=\\frac13\\overrightarrow{AB}$. 于是 $\\boldsymbol n=\\overrightarrow{CD}=\\overrightarrow{CA}+\\overrightarrow{AD}=\\boldsymbol m+\\frac13\\overrightarrow{AB}$. 又 $\\overrightarrow{AB}=\\overrightarrow{CB}-\\overrightarrow{CA}=\\overrightarrow{CB}-\\boldsymbol m$，代入得 $\\boldsymbol n=\\boldsymbol m+\\frac13\\left(\\overrightarrow{CB}-\\boldsymbol m\\right)=\\frac23\\boldsymbol m+\\frac13\\overrightarrow{CB}$. 两边乘以 $3$ 并移项得 $\\overrightarrow{CB}=3\\boldsymbol n-2\\boldsymbol m=-2\\boldsymbol m+3\\boldsymbol n$. 故选 B."
+          "content_md": "![题目配图](assets/2022/math/new_gaokao_paper_1/q3_solution_fig1.png)\n\n因为点 $D$ 在边 $AB$ 上且 $BD=2DA$，所以 $\\overrightarrow{AD}=\\frac13\\overrightarrow{AB}$. 于是 $\\boldsymbol n=\\overrightarrow{CD}=\\overrightarrow{CA}+\\overrightarrow{AD}=\\boldsymbol m+\\frac13\\overrightarrow{AB}$. 又 $\\overrightarrow{AB}=\\overrightarrow{CB}-\\overrightarrow{CA}=\\overrightarrow{CB}-\\boldsymbol m$，代入得 $\\boldsymbol n=\\boldsymbol m+\\frac13\\left(\\overrightarrow{CB}-\\boldsymbol m\\right)=\\frac23\\boldsymbol m+\\frac13\\overrightarrow{CB}$. 两边乘以 $3$ 并移项得 $\\overrightarrow{CB}=3\\boldsymbol n-2\\boldsymbol m=-2\\boldsymbol m+3\\boldsymbol n$. 故选 B."
         }
       ],
       "solution_figures": [

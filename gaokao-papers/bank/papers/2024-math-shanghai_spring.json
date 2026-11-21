@@ -539,7 +539,7 @@
       "score": null,
       "difficulty": null,
       "topics": [],
-      "stem_md": "如图，$PA$，$PB$，$PC$ 为圆锥三条母线，$AB=AC$.\n\n（1）证明：$PA\\perp BC$；\n（2）若圆锥侧面积为 $\\sqrt3\\pi$，$BC$ 为底面直径，$BC=2$，求二面角 $B-PA-C$ 的大小.\n\n\\FigureLayoutDeclare{img/2024/shanghai_spring/q18_fig1.png}{8.5cm}{0bp 9.002bp 0bp 3.001bp}\n\n![题目配图](assets/2024/math/shanghai_spring/q18_fig1.png)",
+      "stem_md": "如图，$PA$，$PB$，$PC$ 为圆锥三条母线，$AB=AC$.\n\n（1）证明：$PA\\perp BC$；\n（2）若圆锥侧面积为 $\\sqrt3\\pi$，$BC$ 为底面直径，$BC=2$，求二面角 $B-PA-C$ 的大小.\n\n![题目配图](assets/2024/math/shanghai_spring/q18_fig1.png)",
       "figures": [
         "assets/2024/math/shanghai_spring/q18_fig1.png"
       ],

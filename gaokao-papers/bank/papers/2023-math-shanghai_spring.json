@@ -516,7 +516,7 @@
       "score": null,
       "difficulty": null,
       "topics": [],
-      "stem_md": "已知三棱锥 $P-ABC$ 中，$AB\\perp AC$，$PA\\perp$ 平面 $ABC$，$PA=AB=3$，$AC=4$，$M$ 为 $BC$ 中点，过点 $M$ 分别作平行于平面 $PAB$ 的直线交 $AC$，$PC$ 于点 $E$，$F$.\n\n（1）求直线 $PM$ 与平面 $ABC$ 所成的角的正切值；\n（2）证明：平面 $MEF\\parallel$ 平面 $PAB$，并求直线 $ME$ 到平面 $PAB$ 的距离.\n\n\\FigureLayoutDeclare{img/2023/shanghai_spring/q17_fig1.png}{5.0cm}{20bp 31bp 60bp 5bp}\n\n![题目配图](assets/2023/math/shanghai_spring/q17_fig1.png)",
+      "stem_md": "已知三棱锥 $P-ABC$ 中，$AB\\perp AC$，$PA\\perp$ 平面 $ABC$，$PA=AB=3$，$AC=4$，$M$ 为 $BC$ 中点，过点 $M$ 分别作平行于平面 $PAB$ 的直线交 $AC$，$PC$ 于点 $E$，$F$.\n\n（1）求直线 $PM$ 与平面 $ABC$ 所成的角的正切值；\n（2）证明：平面 $MEF\\parallel$ 平面 $PAB$，并求直线 $ME$ 到平面 $PAB$ 的距离.\n\n![题目配图](assets/2023/math/shanghai_spring/q17_fig1.png)",
       "figures": [
         "assets/2023/math/shanghai_spring/q17_fig1.png"
       ],

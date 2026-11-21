@@ -15,7 +15,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "统计",
+        "样本平均数"
+      ],
       "stem_md": "样本数据 $2$，$8$，$14$，$16$，$20$ 的平均数为（ ）",
       "figures": [],
       "choices": [
@@ -52,10 +55,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "样本数据 $2$，$8$，$14$，$16$，$20$ 的平均数为\n$\\frac{2+8+14+16+20}{5}=12$.\n故选：C."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 盯住中间偏左基准 $12$，正负抵消秒出",
+          "tier": "fast",
+          "badge": "5秒口算",
+          "audience": "全水平通用",
+          "time_save": "免加法心算",
+          "content_md": "试取基准 $12$，五个数字减 $12$ 得偏移量：$-10,\\ -4,\\ +2,\\ +4,\\ +8$。\n\n$-10+2+8=0$，$-4+4=0$，总偏移恰好为 **$0$**！直接锁定平均数为 $12$，选 C。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "看清题目问的是“平均数”而不是“中位数”（这里中位数是 $14$，平均数是 $12$，两者不同）。",
+      "takeaway": "求几个接近整数的平均值，用“**基准值 $12$ 偏移抵消法**”心算，一秒都不需要做大数加法！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q02",
@@ -64,7 +79,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "复数运算",
+        "倒数化简"
+      ],
       "stem_md": "已知 $z=1+{\\mathrm{i}}$，则 $\\frac{1}{z-1}=$（ ）",
       "figures": [],
       "choices": [
@@ -101,10 +119,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "因为 $z=1+{\\mathrm{i}}$，所以 $z-1={\\mathrm{i}}$，故\n$\\frac{1}{z-1}=\\frac{1}{{\\mathrm{i}}}=-{\\mathrm{i}}$.\n故选：A."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 上下同乘 $\\mathrm{i}$ 秒变号",
+          "tier": "fast",
+          "badge": "3秒口算",
+          "audience": "全水平通用",
+          "time_save": "零失误",
+          "content_md": "$z-1=\\mathrm{i}$，所以 $\\frac{1}{\\mathrm{i}} = \\frac{\\mathrm{i}}{\\mathrm{i}^2} = -\\mathrm{i}$，选 A。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "$z-1=(1+\\mathrm{i})-1=\\mathrm{i}$，再取倒数要变号成 $-\\mathrm{i}$，切忌忘变负号错选 B。",
+      "takeaway": "记住最常用的两个复数倒数口诀：$\\frac{1}{\\mathrm{i}}=-\\mathrm{i}$，$\\frac{1}{-\\mathrm{i}}=\\mathrm{i}$。",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q03",
@@ -113,7 +143,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "集合运算",
+        "三次方程根"
+      ],
       "stem_md": "已知集合 $A=\\{-4,0,1,2,8\\}$，$B=\\{x \\mid x^3=x\\}$，则 $A\\cap B=$（ ）",
       "figures": [],
       "choices": [
@@ -150,10 +183,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由 $x^3=x$ 得\n$x(x-1)(x+1)=0$，\n所以 $B=\\{-1,0,1\\}$. 因此\n$A\\cap B=\\{0,1\\}$.\n故选：D."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 逐个验身 $x^3=x$",
+          "tier": "fast",
+          "badge": "5秒口算",
+          "audience": "全水平通用",
+          "time_save": "不用因式分解",
+          "content_md": "拿 $A=\\{-4,0,1,2,8\\}$ 验三次方是否等于自身：只有 $0^3=0$ 和 $1^3=1$ 成立，故 $A\\cap B=\\{0,1\\}$，选 D。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "$x^3=x$ 除了 $0,1$ 还有 $-1$；本题因 $-1\\notin A$ 所以交集仍为 $\\{0,1\\}$。",
+      "takeaway": "遇到有限离散集 $A$ 与方程解集 $B$ 求交集，别先傻解方程，直接把 $A$ 中每个数字代回 $B$ 的式子检验最快！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q04",
@@ -162,7 +207,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "分式不等式",
+        "穿根法"
+      ],
       "stem_md": "不等式 $\\frac{x-4}{x-1}\\ge 2$ 的解集是（ ）",
       "figures": [],
       "choices": [
@@ -199,10 +247,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "原不等式等价于\n$\\frac{x-4}{x-1}-2\\ge 0$，\n即\n$\\frac{-x-2}{x-1}\\ge 0$.\n解得 $-2\\le x<1$. 故选：C."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 排除 $x=1$（杀 A）+ 特值 $x=0$ 检验（杀 B、D）",
+          "tier": "fast",
+          "badge": "5秒特值秒杀",
+          "audience": "全水平通用",
+          "time_save": "免通分穿根",
+          "content_md": "1. 分母 $x-1\\ne 0 \\implies x\\ne 1$，直接淘汰包含 $x=1$ 的 A 项；\n2. 取最简单的数 $x=0$ 代入原式：$\\frac{0-4}{0-1}=4\\ge 2$ 成立！因此解集里**必须包含 $0$**。扫一眼 B、C、D，只有 C 包含 $0$，直接秒选 C！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "本题最大坑点就在 A 与 C 的开闭括号区别：分母 $x-1\\ne 0 \\implies x\\ne 1$，所以区间右端必须是严格小于 $1$（选 C 而非 A）！",
+      "takeaway": "解分式不等式严禁直接交叉相乘去分母！必须**移项通分**化为一侧为 $0$，且始终记住“**分母不等于 $0$**”（挖空断点 $x\\ne 1$）。",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q05",
@@ -211,7 +271,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "解三角形",
+        "余弦定理与特殊三角"
+      ],
       "stem_md": "在 $\\triangle ABC$ 中，$BC=2$，$AC=1+\\sqrt3$，$AB=\\sqrt6$，则 $A=$（ ）",
       "figures": [],
       "choices": [
@@ -248,10 +311,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由余弦定理，\n\n$$\n\n\\cos A=\\frac{AB^2+AC^2-BC^2}{2AB\\cdot AC}\n=\\frac{6+\\left(1+\\sqrt3\\right)^2-4}{2\\sqrt6\\left(1+\\sqrt3\\right)}\n=\\frac{\\sqrt2}{2}\n\n$$\n\n又 $0^\\circ<A<180^\\circ$，故 $A=45^\\circ$. 故选：A."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 经典“$45^\\circ\\text{-}60^\\circ\\text{-}75^\\circ$ 拼接模型” 5 秒认出 $45^\\circ$",
+          "tier": "fast",
+          "badge": "经典三角形秒认",
+          "audience": "中上游提速",
+          "time_save": "免根式分母有理化",
+          "content_md": "看到边长 $1+\\sqrt{3}$ 立刻拆成 $1$ 和 $\\sqrt{3}$ 两段（作 $AC$ 边上的高 $BD=\\sqrt{3}$）：\n- 左边小直角三角形：斜边 $AB=\\sqrt{6}$，一条直角边 $BD=\\sqrt{3}$，不对——换成在 $AC$ 上切出 $AD=\\sqrt{3}, DC=1$：\n  - 在右侧小直角三角形 $\\triangle BDC$ 中：底边 $DC=1$，斜边 $BC=2 \\implies$ 高 $BD=\\sqrt{3}$ 且 $\\angle C=60^\\circ$！\n  - 看左侧 $\\triangle ABD$：底边 $AD=AC-DC=\\sqrt{3}$，高也是 $BD=\\sqrt{3}$，正好等腰直角三角形（斜边 $AB=\\sqrt{6}$ 完美验证！），故 $\\angle A=45^\\circ$，选 A！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "算完 $\\cos A=\\frac{\\sqrt{2}}{2}$ 别看反成 $A=135^\\circ$（正号对应锐角 $45^\\circ$）。",
+      "takeaway": "看见边长同时出现 $1+\\sqrt{3}$、$2$、$\\sqrt{6}$ 时，先别用余弦定理硬算 $(1+\\sqrt{3})^2$ 的复杂分母化简，敏锐认出这是把一个 $30^\\circ\\text{-}60^\\circ\\text{-}90^\\circ$ 直角三角形和一个 $45^\\circ\\text{-}45^\\circ\\text{-}90^\\circ$ 等腰直角三角形“背靠背拼在一起”的经典组合（$45^\\circ, 60^\\circ, 75^\\circ$ 三角形）！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q06",
@@ -260,7 +335,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "抛物线",
+        "焦准距与抛物线定义"
+      ],
       "stem_md": "设抛物线 $C:y^2=2px$（$p>0$）的焦点为 $F$，点 $A$ 在 $C$ 上，过 $A$ 作 $C$ 的准线的垂线，垂足为 $B$. 若直线 $BF$ 的方程为 $y=-2x+2$，则 $|AF|=$（ ）",
       "figures": [],
       "choices": [
@@ -293,6 +371,15 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 顺藤摸瓜：先定 $F$，再求准线，再出 $B$ 与 $A$",
+          "tier": "intuition",
+          "badge": "四步流水线",
+          "audience": "基础巩固",
+          "time_save": "思路零卡顿",
+          "content_md": "1. $F$ 在 $x$ 轴上，把 $y=0$ 代入 $y=-2x+2$ 得 $F(1,0) \\implies \\frac{p}{2}=1 \\implies$ 准线 $x=-1$、抛物线 $y^2=4x$；\n2. $B$ 在准线 $x=-1$ 上，代入 $y=-2(-1)+2=4$ 得 $B(-1,4)$；\n3. $AB$ 垂直准线（即水平线），故 $y_A=y_B=4$，代入 $y^2=4x$ 得 $x_A=4$；\n4. 水平线段 $|AB|=4-(-1)=5$，由抛物线定义 $|AF|=|AB|=5$，选 C。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
@@ -302,7 +389,10 @@
       "solution_figures": [
         "assets/2025/math/national_paper_2/q6_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "令 $y=0$ 算出焦点 $F(1,0)$ 时，记住抛物线焦点是 $(\\frac{p}{2},0)$，所以 $\\frac{p}{2}=1$ 即 $p=2$，准线是 $x=-1$，切勿把 $p$ 误当成 $1$！",
+      "takeaway": "看到“直线 $BF$ 方程”且点 $B$ 在准线上、点 $F$ 是焦点：记住 $F$ 是直线与 $x$ 轴交点（一秒求 $p$），而 $B$ 必在 $x=-\\frac{p}{2}$ 准线上（一秒定纵坐标 $y_A=y_B$），由抛物线定义 $|AF|=|AB|=x_A+\\frac{p}{2}$ 直出答案！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q07",
@@ -311,7 +401,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "等差数列",
+        "前 $n$ 项和与平均项中项"
+      ],
       "stem_md": "记 $S_n$ 为等差数列 $\\{a_n\\}$ 的前 $n$ 项和，若 $S_3=6$，$S_5=-5$，则 $S_6=$（ ）",
       "figures": [],
       "choices": [
@@ -348,10 +441,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "设等差数列 $\\{a_n\\}$ 的公差为 $d$，则 $3a_1+3d=6$，$5a_1+10d=-5$.\n解得 $a_1=5$，$d=-3$. 所以\n\n$$\n\nS_6=6a_1+15d=6\\times 5+15\\times(-3)=-15\n\n$$\n\n故选：B."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 奇数项和中项秒杀 10 秒出 $S_6=-15$",
+          "tier": "fast",
+          "badge": "10秒口算",
+          "audience": "全水平强推",
+          "time_save": "免解方程组",
+          "content_md": "- $S_3 = 3a_2 = 6 \\implies a_2 = 2$；\n- $S_5 = 5a_3 = -5 \\implies a_3 = -1$；\n\n两邻项一秒得公差 $d = a_3 - a_2 = -3$！\n\n于是不用算 $a_1$，直接看 $S_6 = 3(a_3 + a_4)$（第 3 项与第 4 项居中配对）：\n$a_4 = a_3 + d = -4$，所以 $S_6 = 3(-1 - 4) = -15$，选 B！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "算完 $a_1=5, d=-3$ 或中项序列后，注意要求的是 $S_6$（不是 $a_6$），用 $S_6=S_5+a_6$ 算最不易漏项。",
+      "takeaway": "看到“$S_3=6,\\ S_5=-5$”，用等差数列最美性质 **$S_{\\text{奇}}=\\text{项数}\\times a_{\\text{中}}$**：一秒心算 $a_2=2,\\ a_3=-1$，连 $a_1$ 和 $d$ 的二元方程组都不用解！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q08",
@@ -360,7 +465,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "三角恒等变换",
+        "半角公式与两角差正弦"
+      ],
       "stem_md": "已知 $0<\\alpha<\\pi$，$\\cos \\frac{\\alpha}{2}=\\frac{\\sqrt5}{5}$，则 $\\sin\\left(\\alpha-\\frac{\\pi}{4}\\right)=$（ ）",
       "figures": [],
       "choices": [
@@ -397,10 +505,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由二倍角公式，\n\n$$\n\n\\cos\\alpha=2\\cos^2\\frac{\\alpha}{2}-1\n=2\\cdot\\left(\\frac{\\sqrt5}{5}\\right)^2-1\n=-\\frac35\n\n$$\n\n因为 $0<\\alpha<\\pi$，所以 $\\frac{\\pi}{2}<\\alpha<\\pi$，从而\n$\\sin\\alpha=\\sqrt{1-\\cos^2\\alpha}=\\frac45$.\n于是\n\n$$\n\n\\sin\\left(\\alpha-\\frac{\\pi}{4}\\right)\n=\\sin\\alpha\\cos\\frac{\\pi}{4}-\\cos\\alpha\\sin\\frac{\\pi}{4}\n=\\frac45\\cdot\\frac{\\sqrt2}{2}-\\left(-\\frac35\\right)\\cdot\\frac{\\sqrt2}{2}\n=\\frac{7\\sqrt2}{10}\n\n$$\n\n故选：D."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 认出 $1\\text{-}2\\text{-}\\sqrt{5}$ 倍角必得 $3\\text{-}4\\text{-}5$",
+          "tier": "fast",
+          "badge": "口算勾股数",
+          "audience": "全水平适用",
+          "time_save": "10 秒口算",
+          "content_md": "由 $\\cos\\frac{\\alpha}{2}=\\frac{1}{\\sqrt{5}}$ 立刻升倍角：$\\cos\\alpha = 2(\\frac{1}{5})-1 = -\\frac{3}{5}$，配合 $0<\\alpha<\\pi$ 得 $\\sin\\alpha=\\frac{4}{5}$。\n\n记住 $\\sin(\\alpha-\\frac{\\pi}{4})=\\frac{\\sqrt{2}}{2}(\\sin\\alpha-\\cos\\alpha)$：\n代入 $\\frac{4}{5}-(-\\frac{3}{5})=\\frac{7}{5}$，乘以 $\\frac{\\sqrt{2}}{2}$ 一秒出 $\\frac{7\\sqrt{2}}{10}$，选 D！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "必须先检查 $\\alpha$ 范围确定 $\\sin\\alpha$ 符号：$0<\\alpha<\\pi \\implies \\sin\\alpha>0$；再注意 $\\sin(\\alpha-\\frac{\\pi}{4})$ 展开中间是减号，而 $\\cos\\alpha$ 本身是负数，负负得正变成 $\\frac{4+3}{5\\sqrt{2}}$！",
+      "takeaway": "当已知 $\\cos\\frac{\\alpha}{2}=\\frac{\\sqrt{5}}{5}$ 这种带 $\\sqrt{5}$ 的“$1\\text{-}2\\text{-}\\sqrt{5}$ 三角形”时，用倍角公式直接跳到经典的“$3\\text{-}4\\text{-}5$ 勾股三角形”：$\\cos\\alpha=-\\frac{3}{5},\\ \\sin\\alpha=\\frac{4}{5}$！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q09",
@@ -409,7 +529,10 @@
       "type": "multiple_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "等比数列",
+        "前 $n$ 项和极限常数性质"
+      ],
       "stem_md": "记 $S_n$ 为等比数列 $\\{a_n\\}$ 的前 $n$ 项和，$q$ 为 $\\{a_n\\}$ 的公比，$q>0$. 若 $S_3=7$，$a_3=1$，则（ ）",
       "figures": [],
       "choices": [
@@ -447,10 +570,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由题意，$a_1q^2=1$，$a_1+a_1q+a_1q^2=7$.\n解得 $a_1=4$，$q=\\frac12$（另一组 $q<0$ 舍去），故 A 正确.\n此时 $a_5=a_1q^4=4\\cdot\\left(\\frac12\\right)^4=\\frac14$，故 B 错误.\n又\n\n$$\n\nS_5=\\frac{a_1(1-q^5)}{1-q}\n=\\frac{4\\left(1-\\frac{1}{32}\\right)}{1-\\frac12}\n=\\frac{31}{4}\n\n$$\n\n故 C 错误.\n并且\n$a_n=4\\left(\\frac12\\right)^{n-1}=2^{3-n}$，$S_n=\\frac{4\\left[1-\\left(\\frac12\\right)^n\\right]}{1-\\frac12}=8-2^{3-n}$，\n所以\n$a_n+S_n=2^{3-n}+8-2^{3-n}=8$，\n故 D 正确. 故选：AD."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · “折半逼近 $8$” 直觉 5 秒秒判 B、C、D",
+          "tier": "fast",
+          "badge": "直观数感秒杀",
+          "audience": "全水平必看",
+          "time_save": "免代求和公式",
+          "content_md": "一看 $q>0$ 且 $a_3=1,\\ S_3=7$，立刻脑补 $4+2+1=7$！（$a_1=4,\\ q=\\frac{1}{2}$，A 秒对！）\n\n接着直接往后列：$4,\\ 2,\\ 1,\\ \\frac{1}{2},\\ \\frac{1}{4},\\ \\dots$\n- $a_5=\\frac{1}{4} \\ne \\frac{1}{9}$（B 错）；\n- 每次加下一项都等于“离天花板 $8$ 还差的那一半”：加 $4$ 差 $4$，加 $2$ 差 $2$，加 $1$ 差 $1$，加 $\\frac{1}{2}$ 差 $\\frac{1}{2}$……永远满足 **$S_n + a_n = 8$**（D 对！），且永远到不了 $8$（故 $S_5 < 8$，C 错！）！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "若误算 $a_1=4$ 却把 $a_5$ 套成 $a_1 q^5$ 会错算；另外 $S_n$ 永远只能无限逼近 $8$ 而到不了 $8$（差额正好就是当前项 $a_n$），所以 C 项 $S_5=8$ 绝对错、D 项 $a_n+S_n=8$ 绝对对！",
+      "takeaway": "看到正项等比数列 $a_3=1,\\ a_1+a_2+a_3=7$，把前 3 项全用 $a_3$ 和 $q$ 表示（即 $\\frac{1}{q^2}+\\frac{1}{q}+1=7$）更快；而且公比 $q=\\frac{1}{2}$ 的等比数列满足极优美的“**每次加下一项正好消去到上限的一半**”，即 $S_n + a_n = 2a_1 = 8$（相当于折半走楼梯，剩多少路正好等于最后迈的那一步长度！）！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q10",
@@ -459,7 +594,10 @@
       "type": "multiple_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "函数奇偶性与导数",
+        "分段解析式与极值"
+      ],
       "stem_md": "已知 $f(x)$ 是定义在 ${\\mathbb{R}}$ 上的奇函数，且当 $x>0$ 时，$f(x)=(x^2-3){\\mathrm{e}}^x+2$，则（ ）",
       "figures": [],
       "choices": [
@@ -498,10 +636,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "A：因为 $f(x)$ 是定义在 ${\\mathbb{R}}$ 上的奇函数，所以 $f(0)=0$，A 正确.\n\nB：当 $x<0$ 时，$-x>0$，故\n\n$$\n\nf(x)=-f(-x)=-\\left[((-x)^2-3){\\mathrm{e}}^{-x}+2\\right]=-(x^2-3){\\mathrm{e}}^{-x}-2\n\n$$\n\nB 正确.\n\nC：由 B，\n\n$$\n\nf(-1)=-(1-3){\\mathrm{e}}-2=2{\\mathrm{e}}-2=2({\\mathrm{e}}-1)>2\n\n$$\n\n故 C 错误.\n\nD：当 $x<0$ 时，\n$f(x)=(3-x^2){\\mathrm{e}}^{-x}-2$，\n于是\n$f'(x)=(x^2-2x-3){\\mathrm{e}}^{-x}$.\n令 $f'(x)=0$，得 $x=-1$ 或 $x=3$（舍去）. 当 $x\\in(-\\infty,-1)$ 时，$f'(x)>0$；当 $x\\in(-1,0)$ 时，$f'(x)<0$. 因此 $x=-1$ 是极大值点，D 正确. 故选：ABD."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 代入端点 $x=-1$ 一箭双雕排 C 验 D",
+          "tier": "fast",
+          "badge": "15秒一箭双雕",
+          "audience": "全水平适用",
+          "time_save": "避免多步试错",
+          "content_md": "- 奇函数且在 $\\mathbb{R}$ 上有定义 $\\implies f(0)=0$（A 秒对）；\n- 用口诀 $f(x)=-f(-x)$ 秒出 B 正确；\n- 在负半轴直接代入最简单点 $x=-1$：$f(-1)=-(1-3)\\mathrm{e}^1-2=2\\mathrm{e}-2\\approx 3.436>2$！\n  既一秒击碎 C 项“$f(x)\\ge 2$ 当且仅当 $x\\ge\\sqrt{3}$”（$x=-1$ 就已经 $>2$ 了！），又顺便感应到 $x=-1$ 是负半轴拱起的峰顶（再一阶导验证 $f'(-1)=0$ 即确认 D 对）。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "求 B 选项时，$(-x)^2$ 仍等于 $x^2$，所以括号里 $(x^2-3)$ 不变号，只变指数里的 $\\mathrm{e}^{-x}$ 和最外层整体负号，极易在粗心时把 $x^2$ 也加个负号。",
+      "takeaway": "求奇函数在 $x<0$ 时的对称解析式最不容易出错的口诀是：**“先把原式里的每一个 $x$ 都改写成 $(-x)$，再在最外层整个乘以一个负号”**（即 $f(x)=-f(-x)$）；想推翻“当且仅当”命题（C 项）只需找一个 $x<0$ 的反例 $f(-1)$ 即可！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q11",
@@ -510,7 +660,10 @@
       "type": "multiple_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "双曲线",
+        "以焦距为直径的圆与渐近线"
+      ],
       "stem_md": "双曲线 $C:\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$（$a>0$，$b>0$）的左，右焦点分别是 $F_1$，$F_2$，左，右顶点分别为 $A_1$，$A_2$. 以 $F_1F_2$ 为直径的圆与 $C$ 的一条渐近线交于 $M$，$N$ 两点，且 $\\angle NA_1M=\\frac{5\\pi}{6}$，则（ ）",
       "figures": [],
       "choices": [
@@ -545,17 +698,29 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 记住双曲线特征直角三角形：$M=(a,b)$！",
+          "tier": "intuition",
+          "badge": "黄金几何定理",
+          "audience": "中上游必掌握",
+          "time_save": "免联立圆与直线方程",
+          "content_md": "不需要联立 $x^2+y^2=c^2$ 和 $y=\\frac{b}{a}x$！\n\n双曲线渐近线上横坐标为 $a$ 的点 $(a,b)$，到原点距离就是 $\\sqrt{a^2+b^2}=c$，它**天然就在以 $F_1F_2$ 为直径的圆上**！\n\n因此交点就是 $M(a,b),\\ N(-a,-b)$，于是：\n1. $MA_2$ 竖直垂直于 $x$ 轴（长度 $b$），$A_1A_2$ 水平（长度 $2a$），$\\triangle A_1MA_2$ 直接就是直角三角形！\n2. 由平行四边形邻角互补，$\\angle A_1MA_2 = \\pi - \\frac{5\\pi}{6} = \\frac{\\pi}{6} = 30^\\circ$（A 对！）；\n3. 在 $30^\\circ\\text{-}60^\\circ\\text{-}90^\\circ$ 直角 $\\triangle A_1A_2M$ 中，斜边 $MA_1 = 2 A_1A_2$? 注意 $30^\\circ$ 对边是 $A_1A_2=2a$！所以斜边 $|MA_1|=2(2a)=4a$，另一直角边 $|MA_2|=b=2\\sqrt{3}a$！于是 $|MA_1|:|MA_2|=2:\\sqrt{3} \\ne 2:1$（B 错！）；\n4. 既然 $b=2\\sqrt{3}a$，立刻得 $c^2=a^2+b^2=13a^2 \\implies e=\\sqrt{13}$（C 对！）；\n5. $a=\\sqrt{2}$ 时 $b=2\\sqrt{6}$，平行四边形面积 $= 2\\times(\\frac{1}{2}\\cdot 2a\\cdot b) = 2ab = 2\\sqrt{2}\\cdot 2\\sqrt{6} = 8\\sqrt{3}$（D 对！）。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
-          "content_md": "不妨设所取渐近线为 $y=\\frac{b}{a}x$，且 $M$ 在第一象限，$N$ 在第三象限.\n\n![题目配图](assets/2025/math/national_paper_2/q11_solution_fig1.png)\n\n由双曲线的中心对称性，四边形 $A_1MA_2N$ 是平行四边形，所以\n\n$$\n\n\\angle A_1MA_2=\\pi-\\angle NA_1M=\\pi-\\frac{5\\pi}{6}=\\frac{\\pi}{6}\n\n$$\n\n故 A 正确.\n\\FigureLayoutDeclare{img/2025/national_paper_2/q11_solution_fig2.png}{5.2cm}{7.002bp 7.002bp 7.002bp 7.002bp}\n\n![题目配图](assets/2025/math/national_paper_2/q11_solution_fig2.png)\n\n设 $O$ 为原点. 因为 $M$ 在以 $F_1F_2$ 为直径的圆上，所以 $|OM|=c$. 由渐近线方程和圆的方程可得 $M$ 的横坐标等于 $a$，故 $|MA_2|=b$. 又在直角三角形 $A_1A_2M$ 中，由 $\\angle A_1MA_2=\\frac{\\pi}{6}$ 得\n$2|MA_2|=\\sqrt3|MA_1|$，\n所以 B 错误.\n由上式和 $|MA_2|=b$，再结合 $|OM|=c$ 可推出\n$c^2=13a^2$，\n故双曲线的离心率\n$e=\\frac{c}{a}=\\sqrt{13}$，\nC 正确.\n当 $a=\\sqrt2$ 时，由 $e=\\sqrt{13}$ 得 $c=\\sqrt{26}$，再由 $c^2=a^2+b^2$ 得\n$\nb=2\\sqrt6\n$\n四边形 $NA_1MA_2$ 为平行四边形，其面积为\n$\n2S_{\\triangle MA_1A_2}=2\\times \\frac12 \\times 2\\sqrt2 \\times 2\\sqrt6=8\\sqrt3\n$，\n故 D 正确. 故选：ACD."
+          "content_md": "不妨设所取渐近线为 $y=\\frac{b}{a}x$，且 $M$ 在第一象限，$N$ 在第三象限.\n\n![题目配图](assets/2025/math/national_paper_2/q11_solution_fig1.png)\n\n由双曲线的中心对称性，四边形 $A_1MA_2N$ 是平行四边形，所以\n\n$$\n\n\\angle A_1MA_2=\\pi-\\angle NA_1M=\\pi-\\frac{5\\pi}{6}=\\frac{\\pi}{6}\n\n$$\n\n故 A 正确.\n\n![题目配图](assets/2025/math/national_paper_2/q11_solution_fig2.png)\n\n设 $O$ 为原点. 因为 $M$ 在以 $F_1F_2$ 为直径的圆上，所以 $|OM|=c$. 由渐近线方程和圆的方程可得 $M$ 的横坐标等于 $a$，故 $|MA_2|=b$. 又在直角三角形 $A_1A_2M$ 中，由 $\\angle A_1MA_2=\\frac{\\pi}{6}$ 得\n$2|MA_2|=\\sqrt3|MA_1|$，\n所以 B 错误.\n由上式和 $|MA_2|=b$，再结合 $|OM|=c$ 可推出\n$c^2=13a^2$，\n故双曲线的离心率\n$e=\\frac{c}{a}=\\sqrt{13}$，\nC 正确.\n当 $a=\\sqrt2$ 时，由 $e=\\sqrt{13}$ 得 $c=\\sqrt{26}$，再由 $c^2=a^2+b^2$ 得\n$\nb=2\\sqrt6\n$\n四边形 $NA_1MA_2$ 为平行四边形，其面积为\n$\n2S_{\\triangle MA_1A_2}=2\\times \\frac12 \\times 2\\sqrt2 \\times 2\\sqrt6=8\\sqrt3\n$，\n故 D 正确. 故选：ACD."
         }
       ],
       "solution_figures": [
         "assets/2025/math/national_paper_2/q11_solution_fig1.png",
         "assets/2025/math/national_paper_2/q11_solution_fig2.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在 $\\mathrm{Rt}\\triangle A_1A_2M$ 中，切记 $\\angle A_1A_2M = 90^\\circ$（因为 $MA_2$ 垂直 $x$ 轴！），别把直角弄错位置！",
+      "takeaway": "双曲线的一个黄金隐藏定理：**以焦距 $F_1F_2$ 为直径的圆（半径 $c$）与渐近线的交点 $M$，它向 $x$ 轴作垂线正好落在焦点还是顶点？不对——$M$ 到原点的距离是 $c$，由渐近线三角形 $a\\text{-}b\\text{-}c$ 可知，过右顶点 $A_2(a,0)$ 作 $x$ 轴垂线与渐近线的交点 $(a,b)$ 到原点距离刚好也是 $\\sqrt{a^2+b^2}=c$！所以 $M$ 的坐标直接就是 $(a,b)$，$MA_2 \\perp x$ 轴且 $|MA_2|=b$！**",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q12",
@@ -564,7 +729,10 @@
       "type": "fill_blank",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "平面向量",
+        "向量垂直坐标运算"
+      ],
       "stem_md": "已知平面向量 $\\boldsymbol{a}=(x,1)$，$\\boldsymbol{b}=(x-1,2x)$，若 $\\boldsymbol{a}\\perp(\\boldsymbol{a}-\\boldsymbol{b})$，则 $|\\boldsymbol{a}|=$ ______ .",
       "figures": [],
       "choices": [],
@@ -577,10 +745,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由题意，\n$\\boldsymbol{a}-\\boldsymbol{b}=(1,1-2x)$.\n又 $\\boldsymbol{a}\\perp(\\boldsymbol{a}-\\boldsymbol{b})$，故\n$\\boldsymbol{a}\\cdot(\\boldsymbol{a}-\\boldsymbol{b})=0$，\n即\n$x+1-2x=0$.\n解得 $x=1$. 所以 $\\boldsymbol{a}=(1,1)$，故\n$|\\boldsymbol{a}|=\\sqrt{1^2+1^2}=\\sqrt2$.\n故答案为：$\\sqrt2$."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 先减消去 $x$，3 秒口算 $x=1$",
+          "tier": "fast",
+          "badge": "5秒口算",
+          "audience": "全水平通用",
+          "time_save": "免二次方程",
+          "content_md": "$\\boldsymbol{a}-\\boldsymbol{b} = (x-(x-1),\\ 1-2x) = (1, 1-2x)$。\n\n与 $\\boldsymbol{a}=(x,1)$ 垂直即点积为 $0$：$x\\cdot 1 + 1\\cdot(1-2x)=0 \\implies 1-x=0 \\implies x=1$。故 $\\boldsymbol{a}=(1,1)$，$|\\boldsymbol{a}|=\\sqrt{2}$。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "算完 $x=1$ 别顺手就填 $1$——题干问的是模长 $|\\boldsymbol{a}|$（$\\sqrt{1^2+1^2}=\\sqrt{2}$）！",
+      "takeaway": "看到 $\\boldsymbol{a}\\perp(\\boldsymbol{a}-\\boldsymbol{b})$，转化为 $\\boldsymbol{a}^2=\\boldsymbol{a}\\cdot\\boldsymbol{b}$ 还是直接先算出差向量 $\\boldsymbol{a}-\\boldsymbol{b}$？本题 $\\boldsymbol{a}-\\boldsymbol{b}=(1, 1-2x)$ 的横坐标直接消掉了 $x$ 变成常数 $1$，直接点乘为 $0$ 最快！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q13",
@@ -589,7 +769,10 @@
       "type": "fill_blank",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "导数与极值",
+        "多项式乘积导数技巧"
+      ],
       "stem_md": "若 $x=2$ 是函数 $f(x)=(x-1)(x-2)(x-a)$ 的极值点，则 $f(0)=$ ______ .",
       "figures": [],
       "choices": [],
@@ -602,10 +785,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "因为\n$f'(x)=(x-a)(x-1)+(x-1)(x-2)+(x-a)(x-2)$.\n又 $x=2$ 是极值点，所以 $f'(2)=0$，即\n$2-a=0$.\n故 $a=2$. 于是\n$f(0)=(-1)\\times(-2)\\times(-2)=-4$.\n故答案为：$-4$."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 重根极值定理：极值点就是零点 $\\implies$ 必为重根 $a=2$！",
+          "tier": "fast",
+          "badge": "3秒口算",
+          "audience": "全水平必藏神技",
+          "time_save": "不写任何求导展开式",
+          "content_md": "多项式函数如果某个零点（比如 $x=2$）同时还是极值点（切线水平 $f'(2)=0$），从图像上看就是曲线在 $x=2$ 处与 $x$ 轴**相切**——相切必对应**偶次重根**（至少二重根）！\n\n因此 $(x-1)(x-2)(x-a)$ 里必有两个 $(x-2)$，一秒看出 $a=2$！立刻口算 $f(0)=(-1)(-2)(-2)=-4$。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "算出 $a=2$ 后注意题目最后问的是 $f(0)$，不是 $a$！把 $x=0$ 代入 $(0-1)(0-2)^2=-4$。",
+      "takeaway": "遇到 $f(x)=(x-2)g(x)$ 且已知 $x=2$ 是极值点（$f'(2)=0$），千万别把三项括号全部乘开再求导！记住**因子求导口诀**：$f'(2)=g(2)=0$，也就是说 $x=2$ 必然至少是 $f(x)$ 的**二重根**，所以 $a$ 直接就等于 $2$！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q14",
@@ -614,7 +809,10 @@
       "type": "fill_blank",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "立体几何",
+        "圆柱与多球相切最值"
+      ],
       "stem_md": "一个底面半径为 $4\\text{cm}$，高为 $9\\text{cm}$ 的封闭圆柱形容器内有两个半径相等的铁球，则铁球半径的最大值为 ______ $\\text{cm}$.",
       "figures": [],
       "choices": [],
@@ -622,6 +820,15 @@
         "raw": "$2.5$"
       },
       "solution_methods": [
+        {
+          "id": "intuition_1",
+          "label": "破题直觉 · 把三维圆柱压成二维“$8\\times 9$ 矩形放两枚最大硬币”",
+          "tier": "intuition",
+          "badge": "降维截面",
+          "audience": "基础/中等生",
+          "time_save": "一看图就会列式",
+          "content_md": "两球对称放在底面圆直径所在纵截面内，题目立刻变成初中平面几何：\n在**宽 $8$、高 $9$** 的长方形盒子里斜放两个一样大的圆（半径 $r$），让它们互相外切且顶住角落！\n\n两圆心构成的直角三角形：\n- 水平直角边 $= 8-2r$；\n- 竖直直角边 $= 9-2r$；\n- 斜边（两球相切心距）$= 2r$。\n\n直接勾股定理 $(8-2r)^2+(9-2r)^2=(2r)^2$；看到右边比左边只大一点点且整数很巧，用 $3\\text{-}4\\text{-}5$ 试一下：$2r=5$ 时恰好 $8-5=3,\\ 9-5=4$，**$3^2+4^2=5^2$ 秒中**！故 $r=2.5$！"
+        },
         {
           "id": "method_1",
           "label": "标准解析",
@@ -632,7 +839,10 @@
       "solution_figures": [
         "assets/2025/math/national_paper_2/q14_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "注意圆心到上/下/左/右壁的距离都是 $r$，所以矩形宽 $8$ 被扣掉两边两个 $r$ 得水平心距 $8-2r$，高 $9$ 扣掉上下两个 $r$ 得竖直心距 $9-2r$；另外求出 $r=2.5$ 或 $14.5$ 后务必用 $2r \\le 8 \\implies r\\le 4$ 舍去 $14.5$。",
+      "takeaway": "圆柱内放两个等大铁球要使半径最大，它们一定分别顶在**上下相反的角落**并相互外切（如果只竖着叠或只横着排，空间都没用足）。只要画一张过圆柱中心轴的**矩形纵截面图**：长 $8\\,\\mathrm{cm}$（直径）、高 $9\\,\\mathrm{cm}$ 矩形里斜对角塞进两个最大等圆，两圆心分别距角落 $(r,r)$，勾股定理一列即出！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q15",
@@ -641,7 +851,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "三角函数",
+        "辅助角化简与单调区间"
+      ],
       "stem_md": "已知函数 $f(x)=\\cos(2x+\\varphi)$（$0\\le \\varphi<\\pi$），且 $f(0)=\\frac12$.\n\n（1）求 $\\varphi$；\n（2）设函数 $g(x)=f(x)+f\\left(x-\\frac{\\pi}{6}\\right)$，求 $g(x)$ 的值域和单调区间.",
       "figures": [],
       "choices": [],
@@ -654,10 +867,22 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）由 $f(0)=\\cos\\varphi=\\frac12$，且 $0\\le \\varphi<\\pi$，可得\n$\\varphi=\\frac{\\pi}{3}$.\n（2）由（1）得\n$f(x)=\\cos\\left(2x+\\frac{\\pi}{3}\\right)$.\n于是\n$\ng(x)=\\cos\\left(2x+\\frac{\\pi}{3}\\right)+\\cos 2x\n=\\sqrt3\\cos\\left(2x+\\frac{\\pi}{6}\\right)\n$，\n所以 $g(x)$ 的值域为\n$[-\\sqrt3,\\sqrt3]$.\n\n当\n$2k\\pi\\le 2x+\\frac{\\pi}{6}\\le (2k+1)\\pi$\n时，函数 $g(x)$ 单调递减，解得\n$-\\frac{\\pi}{12}+k\\pi\\le x\\le \\frac{5\\pi}{12}+k\\pi$，$k\\in{\\mathbb{Z}}$.\n\n当\n$(2k+1)\\pi\\le 2x+\\frac{\\pi}{6}\\le (2k+2)\\pi$\n时，函数 $g(x)$ 单调递增，解得\n$\\frac{5\\pi}{12}+k\\pi\\le x\\le \\frac{11\\pi}{12}+k\\pi$，$k\\in{\\mathbb{Z}}$."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 等幅矢量合成立秒出 $\\sqrt{3}\\cos(2x+\\frac{\\pi}{6})$",
+          "tier": "fast",
+          "badge": "5秒合一",
+          "audience": "中上游提速",
+          "time_save": "免展开再配系数",
+          "content_md": "两个振幅都是 $1$、角频率都是 $2$、相角分别是 $2x+\\frac{\\pi}{3}$ 和 $2x+0$ 的余弦相加：\n想象两根长度为 $1$、夹角为 $60^\\circ$（$\\frac{\\pi}{3}$）的矢量相加——菱形对角线长度就是 $\\sqrt{3}$，方向正好指向角平分线 $2x+\\frac{\\pi}{6}$！\n\n（也等价于和差化积 $2\\cos(2x+\\frac{\\pi}{6})\\cos\\frac{\\pi}{6}=\\sqrt{3}\\cos(2x+\\frac{\\pi}{6})$），一秒写出合并结果，然后套标准 $\\cos$ 单调区间即可。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "第（2）问写单调区间时务必带上 $+k\\pi$（注意前面 $x$ 系数是 $2$，周期是 $\\pi$ 不是 $2\\pi$！），且末尾要写明 $k\\in\\mathbb{Z}$。",
+      "takeaway": "求 $g(x)=\\cos(2x+\\frac{\\pi}{3})+\\cos 2x$ 时，除了直接展开 $\\cos(A+B)$ 用辅助角合并，用“**同频等幅矢量/余弦和差化积**”更快：两波相差 $60^\\circ$ 等幅叠加，合力方向刚好平分在中间 $+30^\\circ$（即 $\\frac{\\pi}{6}$），振幅是单波的 $\\sqrt{3}$ 倍！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q16",
@@ -666,7 +891,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "解析几何",
+        "椭圆定点弦与面积公式"
+      ],
       "stem_md": "已知椭圆 $C:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$（$a>b>0$）的离心率为 $\\frac{\\sqrt2}{2}$，长轴长为 4.\n\n（1）求 $C$ 的方程；\n（2）过点 $(0,-2)$ 的直线 $l$ 与 $C$ 交于 $A$，$B$ 两点，$O$ 为坐标原点. 若 $\\triangle OAB$ 的面积为 $\\sqrt2$，求 $|AB|$.",
       "figures": [],
       "choices": [],
@@ -679,12 +907,24 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）由长轴长为 4，得 $a=2$. 又离心率为 $\\frac{\\sqrt2}{2}$，所以\n$c=ae=2\\cdot \\frac{\\sqrt2}{2}=\\sqrt2$.\n故\n$b^2=a^2-c^2=4-2=2$.\n所以椭圆方程为\n$\\frac{x^2}{4}+\\frac{y^2}{2}=1$.\n（2）由题设直线 $AB$ 的斜率不为 0，设直线 $l$ 的方程为\n$x=t(y+2)$，\n\n![题目配图](assets/2025/math/national_paper_2/q16_solution_fig1.png)\n\n其中 $A(x_1,y_1)$，$B(x_2,y_2)$. 联立 $x=t(y+2)$ 与 $x^2+2y^2=4$\n可得\n$(t^2+2)y^2+4t^2y+4t^2-4=0$.\n因此\n$y_1+y_2=-\\frac{4t^2}{t^2+2}$，$y_1y_2=\\frac{4t^2-4}{t^2+2}$.\n又\n$\n\\Delta=16t^4-4(t^2+2)(4t^2-4)=4(8-4t^2)>0\n$，\n故\n$-\\sqrt2<t<\\sqrt2$.\n又\n\n$$\n\nS_{\\triangle OAB}=\\frac12\\cdot |2t|\\cdot |y_1-y_2|\n=|t|\\sqrt{(y_1+y_2)^2-4y_1y_2}\n=\\frac{|t|\\sqrt{32-16t^2}}{t^2+2}\n=\\sqrt2\n\n$$\n\n解得\n$t=\\pm \\frac{\\sqrt6}{3}$.\n于是\n\n$$\n\n|AB|=\\sqrt{1+t^2}\\,|y_1-y_2|\n=\\sqrt{\\frac53}\\cdot\\frac{\\sqrt{32-16\\times\\frac23}}{\\frac23+2}\n=\\sqrt5\n\n$$"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 设 $y=kx-2$ 使面积直接等于 $|x_1-x_2|$（4 行秒出）",
+          "tier": "fast",
+          "badge": "少一步计算",
+          "audience": "全水平推荐",
+          "time_save": "约省 2 分钟化简",
+          "content_md": "因为直线必过下顶点 $M(0,-2)$（斜率 $k$ 必存在，否则竖直线 $x=0$ 与椭圆交于 $(0,\\pm\\sqrt{2})$ 无法过 $(0,-2)$ 交出两点？其实 $x=0$ 只与 $O,A,B$ 共线，面积为 $0\\ne\\sqrt{2}$，故斜率 $k$ 必存在！）：\n\n1. **面积秒简**：以 $OM=2$ 为底，$A,B$ 水平距为高差，立即得 $S_{\\triangle OAB}=\\frac{1}{2}\\cdot 2\\cdot|x_1-x_2|=|x_1-x_2|=\\sqrt{2}$；\n2. **常规联立**：将 $y=kx-2$ 代入 $x^2+2y^2=4$，得 $(1+2k^2)x^2-8kx+4=0$；\n3. **直接解 $k^2$**：\n$$\n|x_1-x_2|^2 = \\frac{64k^2-16(1+2k^2)}{(1+2k^2)^2} = \\frac{16(2k^2-1)}{(1+2k^2)^2} = 2 \\implies (2k^2-3)^2=0 \\implies k^2=\\frac{3}{2}\n$$\n4. **秒出弦长**：$|AB|=\\sqrt{1+k^2}|x_1-x_2|=\\sqrt{1+\\frac{3}{2}}\\cdot\\sqrt{2}=\\sqrt{5}$！"
         }
       ],
       "solution_figures": [
         "assets/2025/math/national_paper_2/q16_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "如果设 $x=t(y+2)$ 联立求 $y_1-y_2$，算 $|AB|$ 必须用 $\\sqrt{1+t^2}|y_1-y_2|$；如果设 $y=kx-2$ 联立求 $x_1-x_2$，用 $\\sqrt{1+k^2}|x_1-x_2|$，千万不要把 $t$ 和 $k$ 的斜率根号搭混！",
+      "takeaway": "直线过 $y$ 轴定点 $(0,-2)$ 与椭圆相交求 $\\triangle OAB$ 面积时，优先把 $\\triangle OAB$ 切一刀——以 $y$ 轴截距 $|OM|=2$ 为公共底边，面积公式直接简化成 **$S_{\\triangle OAB}=\\frac{1}{2}\\cdot 2\\cdot |x_1-x_2|=|x_1-x_2|$**！连点到直线距离都不用写！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q17",
@@ -693,7 +933,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "立体几何",
+        "翻折问题与面面平行、二面角"
+      ],
       "stem_md": "如图，在四边形 $ABCD$ 中，$AB//CD$，$\\angle DAB=90^\\circ$，$F$ 为 $CD$ 的中点，点 $E$ 在 $AB$ 上，$EF//AD$，$AB=3AD$，$CD=2AD$.\n\n将四边形 $EFDA$ 沿 $EF$ 翻折至四边形 $EFD'A'$，使得面 $EFD'A'$ 与面 $EFCB$ 所成的二面角为 $60^\\circ$.\n\n（1）证明：$A'B//$ 平面 $CD'F$；\n（2）求面 $BCD'$ 与面 $EFD'A'$ 所成的二面角的正弦值.\n\n![题目配图](assets/2025/math/national_paper_2/q17_fig1.png)",
       "figures": [
         "assets/2025/math/national_paper_2/q17_fig1.png"
@@ -704,6 +947,15 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 给边长赋特值 $AD=1$，平面梯形翻折瞬间具体化",
+          "tier": "intuition",
+          "badge": "降抽象为数字",
+          "audience": "基础/中等生",
+          "time_save": "看清线段长度比例",
+          "content_md": "题目没给具体长度，全是 $AB=3AD, CD=2AD$ 的倍数关系。遇到比例题第一时间直接令 $AD=1$！\n\n于是底面在平面上就是一个 $AEFD$（$1\\times 1$ 正方形）右边粘着个直角梯形 $EBCF$（上底 $FC=1$，下底 $EB=2$，高 $EF=1$）。沿着 $EF$ 把左边的 $1\\times 1$ 正方形掀起来 $60^\\circ$：\n- 正方形两条邻边仍保持和右边平行吗？看对边：$A'E // D'F$ 且 $EB // FC$，两对平行线撑起平面 $A'EB // \\text{平面}D'FC$，第（1）问一秒看穿！\n- 掀起来 $60^\\circ$ 后，原来横在负方向长度 $1$ 的边 $FD'$，投影到正 $y$ 轴上长度变成 $\\frac{1}{2}$、竖起高度变成 $\\frac{\\sqrt{3}}{2}$，坐标 $D'(0,\\frac{1}{2},\\frac{\\sqrt{3}}{2})$ 呼之欲出！"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
@@ -713,7 +965,10 @@
       "solution_figures": [
         "assets/2025/math/national_paper_2/q17_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "建系坐标时务必看清二面角 $60^\\circ$ 是**锐二面角**（由翻折图形，翻起后点 $D'$ 向底面 $EFCB$ 投影落在 $FC$ 方向内侧，即 $y>0, z>0$ 侧，从而 $D'(0,\\frac{1}{2},\\frac{\\sqrt{3}}{2})$ 而不是 $(-\\frac{1}{2})$）。",
+      "takeaway": "翻折问题证明线面平行时，重点抓**“交线平行”构成面面平行**（证明过已知直线的整个小平面平行于目标平面），往往比在目标平面里硬找中位线或平行线更直接；另外第（2）问问的是“**正弦值**”而非余弦值，算完 $\\cos\\theta$ 别忘记开 $\\sqrt{1-\\cos^2\\theta}$！",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q18",
@@ -722,7 +977,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "导数压轴",
+        "泰勒背景、对称构造与极值点偏移"
+      ],
       "stem_md": "已知函数 $f(x)=\\ln(1+x)-x+\\frac12x^2-kx^3$，其中 $0<k<\\frac13$.\n\n（1）证明：$f(x)$ 在区间 $(0,+\\infty)$ 存在唯一的极值点和唯一的零点；\n（2）设 $x_1$，$x_2$ 分别为 $f(x)$ 在区间 $(0,+\\infty)$ 的极值点和零点.\n    \n  （i）设函数 $g(t)=f(x_1+t)-f(x_1-t)$，证明：$g(t)$ 在区间 $(0,x_1)$ 单调递减；\n  （ii）比较 $2x_1$ 与 $x_2$ 的大小，并证明你的结论.",
       "figures": [],
       "choices": [],
@@ -731,14 +989,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 读懂第（2）（i）问“是在帮你铺梯子”",
+          "tier": "intuition",
+          "badge": "读懂命题搭桥",
+          "audience": "想拿导数压轴高分",
+          "time_save": "瞬间看懂（ii）问 1 行结论",
+          "content_md": "看到第（1）问先升后降：函数从 $(0,0)$ 出发往上爬到最高点 $x_1$，然后一路下跌在 $x_2$ 穿过 $x$ 轴。\n\n第（2）问问 $2x_1$ 与 $x_2$ 谁大，其实就是问：**曲线下降得比上升更陡（右窄），还是上升更陡（右宽）？**\n\n题目已经好心地在第（i）问帮你建好了工具 $g(t)=f(x_1+t)-f(x_1-t)$（把对称轴左右等距两点高度相减），并让你证出 $g(t)$ 递减！\n\n顺着梯子走：$t$ 从 $0$ 走到 $x_1$ 时 $g(t)$ 一直掉，所以 $g(x_1) < g(0)=0$，展开就是 $f(2x_1)-f(0)<0 \\implies f(2x_1)<0=f(x_2)$！由于在 $(x_1,+\\infty)$ 单调递减，函数值小的反而靠右，立刻得出 $2x_1 > x_2$！"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）由题意，\n$\nf'(x)=\\frac{1}{1+x}-1+x-3kx^2=x^2\\left(\\frac{1}{1+x}-3k\\right)\n$\n设\n$h(x)=\\frac{1}{1+x}-3k$，$x>0$，\n则\n$h'(x)=-\\frac{1}{(1+x)^2}<0$.\n所以 $h(x)$ 在 $(0,+\\infty)$ 上单调递减. 又 $h(0)=1-3k>0$，且存在唯一\n$x_1=\\frac{1}{3k}-1$\n使 $h(x_1)=0$. 故 $f'(x)$ 在 $(0,x_1)$ 上为正，在 $(x_1,+\\infty)$ 上为负，所以 $f(x)$ 在 $(0,+\\infty)$ 上存在唯一极值点.\n再看函数\n$\\ln(1+x)-x$，\n其导数为\n$\\frac{1}{1+x}-1=-\\frac{x}{1+x}<0$，\n故 $\\ln(1+x)-x<0$（$x>0$）. 又当 $x\\to +\\infty$ 时，$\\frac12x^2-kx^3\\to -\\infty$，所以\n$f(x)\\to -\\infty$.\n由 $h(x)=\\frac{1}{1+x}-3k$ 且 $h(x_1)=0$ 得，当 $0<x<x_1$ 时，\n$\\frac{1}{1+x}-3k>\\frac{1}{1+x_1}-3k=0$，\n所以 $f'(x)>0$；当 $x>x_1$ 时，\n$\\frac{1}{1+x}-3k<\\frac{1}{1+x_1}-3k=0$，\n所以 $f'(x)<0$. 因此 $f(x)$ 在 $(0,x_1)$ 上递增，在 $(x_1,+\\infty)$ 上递减.\n又 $f(0)=0$，并且对充分大的 $x$，有 $f(x)<0$. 由于 $f(x)$ 先增后减，故其图象在 $(0,+\\infty)$ 上与 $x$ 轴恰有一个交点，所以 $f(x)$ 在 $(0,+\\infty)$ 上恰有一个零点，记为 $x_2$.\n（2）（i）由（1）知\n$x_1+1=\\frac{1}{3k}$，$f'(x)=x^2\\left(\\frac{1}{1+x}-\\frac{1}{1+x_1}\\right)$\n因为\n$g(t)=f(x_1+t)-f(x_1-t)$，\n所以\n$g'(t)=f'(x_1+t)-f'(x_1-t)$.\n代入得\n$\ng'(t)=(x_1+t)^2\\left(\\frac{1}{x_1+t+1}-\\frac{1}{1+x_1}\\right)\n+(x_1-t)^2\\left(\\frac{1}{x_1-t+1}-\\frac{1}{1+x_1}\\right)\n$，\n所以\n$\ng'(t)=-\\frac{t(x_1+t)^2}{(x_1+t+1)(x_1+1)}\n+\\frac{t(x_1-t)^2}{(x_1-t+1)(x_1+1)}\n$\n又由 $x_1+1=\\frac{1}{3k}$ 可得\n$\ng'(t)=3kt\\left[-\\frac{(x_1+t)^2}{x_1+t+1}+\\frac{(x_1-t)^2}{x_1-t+1}\\right]\n=\\frac{6kt^2(t^2-x_1^2-2x_1)}{(1+x_1)^2-t^2}\n$\n当 $t\\in(0,x_1)$ 时，$k>0$，$t^2-x_1^2-2x_1<0$，$(1+x_1)^2-t^2>0$，故\n$g'(t)<0$.\n因此 $g(t)$ 在 $(0,x_1)$ 上单调递减.\n  （ii）由（1）知 $g(t)$ 在 $(0,x_1)$ 上单调递减，所以\n$g(0)>g(x_1)$.\n即\n$0>f(2x_1)$.\n又 $f(x_2)=0$，并且由（1）知 $f(x)$ 在 $(x_1,+\\infty)$ 上单调递减，因此必有\n$2x_1>x_2$."
+        },
+        {
+          "id": "advanced_1",
+          "label": "高阶视野 · $\\ln(1+x)$ 泰勒展式一秒透视 $0<k<\\frac{1}{3}$ 的来历",
+          "tier": "advanced",
+          "badge": "命题视角透视",
+          "audience": "冲刺 140+",
+          "time_save": "加深导数底层数感",
+          "content_md": "在 $x=0$ 附近，$\\ln(1+x) \\approx x - \\frac{1}{2}x^2 + \\frac{1}{3}x^3 - \\frac{1}{4}x^4 + \\cdots$。\n\n因此 $f(x) \\approx (\\frac{1}{3}-k)x^3 - \\frac{1}{4}x^4$：\n- 为了让 $f(x)$ 在 $x=0$ 右侧先往上翘（$f>0$），三次项系数必须为正，这就强行要求 **$0 < k < \\frac{1}{3}$**！\n- 再往右四次项 $-\\frac{1}{4}x^4$（实际导数里的分母增长压过不过三次项）把曲线压回负无穷，从而必然先有一个峰值 $x_1$ 和一个正零点 $x_2$！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在证明 $g'(t)<0$ 时注意利用（1）问的隐含等式 $x_1+1=\\frac{1}{3k}$，把 $f'(x)$ 改写成因式形式 $3kx^2\\frac{x_1-x}{1+x}$ 后，两个分式通分才不会算晕！",
+      "takeaway": "这是经典的**泰勒展开背景下的极值点偏移**：记住 $\\ln(1+x)=x-\\frac{1}{2}x^2+\\frac{1}{3}x^3-\\dots$，这就是为什么题目系数正好凑成 $-x+\\frac{1}{2}x^2-kx^3$ 且要求 $0<k<\\frac{1}{3}$！而第（2）问通过“镜像差函数 $g(t)=f(x_1+t)-f(x_1-t)$”比较 $2x_1$ 与 $x_2$，是高考最标准的对称构造比较法。",
+      "is_enriched": true
     },
     {
       "qid": "2025-math-national_paper_2-q19",
@@ -747,7 +1026,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "概率压轴",
+        "随机游走与状态转移边界"
+      ],
       "stem_md": "甲，乙两人进行乒乓球练习，每个球胜者得 1 分，负者得 0 分. 设每个球甲胜的概率为 $p$（$\\frac12<p<1$），乙胜的概率为 $q$，$p+q=1$，且各球的胜负相互独立. 对正整数 $k\\ge 2$，记 $p_k$ 为打完 $k$ 个球后甲比乙至少多得 2 分的概率，$q_k$ 为打完 $k$ 个球后乙比甲至少多得 2 分的概率.\n\n（1）求 $p_3$，$p_4$（用 $p$ 表示）；\n（2）若 $\\frac{p_4-p_3}{q_4-q_3}=4$，求 $p$；\n（3）证明：对任意正整数 $m$，$p_{2m+1}-q_{2m+1}<p_{2m}-q_{2m}<p_{2m+2}-q_{2m+2}$.",
       "figures": [],
       "choices": [],
@@ -760,12 +1042,24 @@
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）打完 3 个球后甲比乙至少多得 2 分，只能是甲胜 3 场，所以\n$p_3=p^3$.\n打完 4 个球后甲比乙至少多得 2 分，只能是甲胜 3 场或 4 场，所以\n\n$$\n\np_4=\\binom43 p^3q+\\binom44 p^4\n=4p^3(1-p)+p^4\n=p^3(4-3p)\n\n$$\n（2）打完 3 个球后乙比甲至少多得 2 分，只能是乙胜 3 场，所以\n$q_3=q^3$.\n打完 4 个球后乙比甲至少多得 2 分，只能是乙胜 3 场或 4 场，所以\n\n$$\n\nq_4=\\binom43 q^3p+\\binom44 q^4\n=4q^3(1-q)+q^4\n=q^3(4-3q)\n\n$$\n\n由\n$\\frac{p_4-p_3}{q_4-q_3}=4$\n得\n$\\frac{3p^3(1-p)}{3q^3(1-q)}=4$.\n又 $p+q=1$，所以\n$\\left(\\frac{p}{q}\\right)^2=4$.\n因为 $p$，$q>0$，故 $p=2q=2(1-p)$，解得\n$p=\\frac23$.\n（3）我们有\n\n$$\n\np_{2m}-p_{2m+1}\n=\\sum_{k=0}^{m-1}\\binom{2m}{k}p^{2m-k}q^k\n-\\sum_{k=0}^{m-1}\\binom{2m+1}{k}p^{2m+1-k}q^k\n\n$$\n\n因为\n$\\binom{2m+1}{k}=\\binom{2m}{k}+\\binom{2m}{k-1}$，\n所以\n\n$$\n\\begin{aligned}\np_{2m}-p_{2m+1}\n&=\\sum_{k=0}^{m-1}\\binom{2m}{k}p^{2m-k}q^k\n-\\sum_{k=0}^{m-1}\\binom{2m}{k}p^{2m+1-k}q^k\n-\\sum_{k=0}^{m-1}\\binom{2m}{k-1}p^{2m+1-k}q^k \\\\\n&=(1-p)\\sum_{k=0}^{m-1}\\binom{2m}{k}p^{2m-k}q^k\n-\\sum_{k=0}^{m-1}\\binom{2m}{k-1}p^{2m+1-k}q^k \\\\\n&=\\sum_{k=0}^{m-1}\\binom{2m}{k}p^{2m-k}q^{k+1}\n-\\sum_{k=0}^{m-2}\\binom{2m}{k}p^{2m-k}q^{k+1} \\\\\n&=\\binom{2m}{m-1}p^{m+1}q^m\n\\end{aligned}\n$$\n\n同理可得\n$p_{2m+2}-p_{2m+1}=\\binom{2m+1}{m}p^{m+2}q^m$，\n$q_{2m}-q_{2m+1}=\\binom{2m}{m-1}q^{m+1}p^m$，\n$q_{2m+2}-q_{2m+1}=\\binom{2m+1}{m}q^{m+2}p^m$.\n于是\n$\np_{2m}-p_{2m+1}\n=p\\left(\\binom{2m}{m-1}p^mq^m\\right)\n>q\\left(\\binom{2m}{m-1}q^mp^m\\right)\n=q_{2m}-q_{2m+1}\n$，\n从而\n$p_{2m+1}-q_{2m+1}<p_{2m}-q_{2m}$.\n\n另一方面，\n\n$$\n\n\\begin{gathered}\np_{2m+2}-p_{2m}=(p_{2m+2}-p_{2m+1})-(p_{2m}-p_{2m+1})=\\binom{2m+1}{m}p^{m+2}q^m-\\binom{2m}{m-1}p^{m+1}q^m,\\\\\np_{2m+2}-p_{2m}=p^mq^m\\cdot p\\left(p\\binom{2m+1}{m}-\\binom{2m}{m-1}\\right)=\\frac{(2m+1)!}{m!(m+1)!}p^mq^m\\cdot p\\left(p-\\frac{m}{2m+1}\\right)\n\\end{gathered}\n\n$$\n\n同理\n$q_{2m+2}-q_{2m} =\\frac{(2m+1)!}{m!(m+1)!}p^mq^m\\cdot q\\left(q-\\frac{m}{2m+1}\\right)$.\n作差得\n\n$$\n\n\\begin{gathered}\n(p_{2m+2}-p_{2m})-(q_{2m+2}-q_{2m})=\\frac{(2m+1)!}{m!(m+1)!}p^mq^m\\left[p\\left(p-\\frac{m}{2m+1}\\right)-q\\left(q-\\frac{m}{2m+1}\\right)\\right],\\\\\n(p_{2m+2}-p_{2m})-(q_{2m+2}-q_{2m})=\\frac{(2m+1)!}{m!(m+1)!}p^mq^m\\cdot \\frac{m+1}{2m+1}(p-q)>0\n\\end{gathered}\n\n$$\n\n因此\n$p_{2m}-q_{2m}<p_{2m+2}-q_{2m+2}$.\n综上，\n$\np_{2m+1}-q_{2m+1}<p_{2m}-q_{2m}<p_{2m+2}-q_{2m+2}\n$\n证毕."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · “悬崖跨步法” 2 行免求和秒出 $p_{2m}-p_{2m+1}$",
+          "tier": "fast",
+          "badge": "免 Sigma 求和神技",
+          "audience": "全水平必赏解题魅力",
+          "time_save": "把半页繁琐组合求和压缩成 2 行",
+          "content_md": "令 $D_k$ 为打完 $k$ 球时甲比乙多的分数。注意奇偶性：打完偶数球 $2m$ 时分差必为偶数（领先 $\\ge 2$ 即 $D_{2m}\\ge 2$）；打完奇数球 $2m+1$ 时分差必为奇数（领先 $\\ge 2$ 实际上意味着 $D_{2m+1}\\ge 3$！）。\n\n1. **为什么 $p_{2m}$ 会变到 $p_{2m+1}$？**（算 $p_{2m}-p_{2m+1}$）：\n   如果第 $2m$ 球时 $D_{2m}\\ge 4$，第 $2m+1$ 球不管赢还是输，$D_{2m+1}\\ge 3$ 仍然成立（不会丢掉“至少多 2 分”状态！）；\n   唯一会从“至少多 2 分”掉出去的情况，就是**第 $2m$ 球正好只领先 $2$ 分（即甲胜 $m+1$ 球、乙胜 $m-1$ 球），且第 $2m+1$ 球甲输（乙胜）**！\n   于是 1 秒直接写出（零求和符号！）：\n   $$\n   p_{2m} - p_{2m+1} = \\binom{2m}{m-1} p^{m+1} q^{m-1} \\cdot q = \\binom{2m}{m-1} p^{m+1} q^m\n   $$\n\n2. **同理一步写出进入 $p_{2m+2}$ 的新增量**：\n   只有在第 $2m+1$ 球时刚好领先 $1$ 分（甲胜 $m+1$ 球、乙胜 $m$ 球），且第 $2m+2$ 球甲胜，才会跨进 $D_{2m+2}\\ge 2$：\n   $$\n   p_{2m+2} - p_{2m+1} = \\binom{2m+1}{m} p^{m+1} q^m \\cdot p = \\binom{2m+1}{m} p^{m+2} q^m\n   $$\n\n将两式中的 $p,q$ 互换立即得到对应的 $q_k$ 差值，然后利用 $p>\\frac{1}{2}>q$ 直接比较大小即可完成全部证明！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "注意第（3）问要证明的是两项**差值** $(p_{2m}-q_{2m})$ 随偶数步递增且在奇数步陷落，而不是 $p_k$ 本身单调（因为奇数步必须领先至少 $3$ 分才算 $\\ge 2$ 分，其实分差只能是奇偶数！）。",
+      "takeaway": "标准解析第（3）问用了长串二项式求和 $\\sum\\binom{2m}{k}$ 硬拆作差；其实站在**随机过程“悬崖边跨步”**的视角：什么时候原本“领先 $\\ge 2$ 分”的优势在打完第 $2m+1$ 球后消失了（即 $p_{2m}-p_{2m+1}$）？**唯一途径是第 $2m$ 球打完时恰好站在悬崖边上（只领先 $2$ 分，即胜 $m+1$ 负 $m-1$），并且下一球恰好输了（概率 $q$）！** 两行口算写完公式，彻底无需繁琐的 $\\sum$ 求和恒等变形！",
+      "is_enriched": true
     }
   ],
-  "multi_method_count": 0,
-  "enriched_count": 0
+  "multi_method_count": 19,
+  "enriched_count": 19
 }

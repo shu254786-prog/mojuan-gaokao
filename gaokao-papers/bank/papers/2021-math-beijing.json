@@ -476,7 +476,7 @@
       "score": null,
       "difficulty": null,
       "topics": [],
-      "stem_md": "已知向量 $\\boldsymbol{a}$，$\\boldsymbol{b}$，$\\boldsymbol{c}$ 在正方形网格中的位置如图所示，若网格纸上小正方形的边长为 $1$，则 $(\\boldsymbol{a}+\\boldsymbol{b})\\cdot\\boldsymbol{c}=$ ______ ；$\\boldsymbol{a}\\cdot\\boldsymbol{b}=$ ______ .\n\n\\FigureLayoutDeclare{img/2021/beijing/q13_fig1.png}{5.0cm}{34bp 38bp 39bp 32bp}\n\n![题目配图](assets/2021/math/beijing/q13_fig1.png)",
+      "stem_md": "已知向量 $\\boldsymbol{a}$，$\\boldsymbol{b}$，$\\boldsymbol{c}$ 在正方形网格中的位置如图所示，若网格纸上小正方形的边长为 $1$，则 $(\\boldsymbol{a}+\\boldsymbol{b})\\cdot\\boldsymbol{c}=$ ______ ；$\\boldsymbol{a}\\cdot\\boldsymbol{b}=$ ______ .\n\n![题目配图](assets/2021/math/beijing/q13_fig1.png)",
       "figures": [
         "assets/2021/math/beijing/q13_fig1.png"
       ],

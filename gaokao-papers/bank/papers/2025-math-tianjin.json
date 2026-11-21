@@ -559,7 +559,7 @@
       "score": null,
       "difficulty": null,
       "topics": [],
-      "stem_md": "$\\triangle ABC$ 中，$D$ 为 $AB$ 中点，$\\overrightarrow{CE}=\\frac13\\overrightarrow{CD}$，$\\overrightarrow{AC}= \\boldsymbol b$，$\\overrightarrow{AB}=\\boldsymbol a$.\n则 $\\overrightarrow{AE}= \\underline{\\hspace{2.2em}} $（用 $\\boldsymbol a$，$\\boldsymbol b$ 表示）；若 $|\\overrightarrow{AE}|=5$，$\\overrightarrow{AE}\\perp\\overrightarrow{CB}$，则 $\\overrightarrow{AE}\\cdot\\overrightarrow{CD}= \\underline{\\hspace{2.2em}} $.\n\n\\FigureLayoutDeclare{img/2025/tianjin/q14_fig1.png}{5.5cm}{0bp 0bp 0bp 0bp}\n\n![题目配图](assets/2025/math/tianjin/q14_fig1.png)",
+      "stem_md": "$\\triangle ABC$ 中，$D$ 为 $AB$ 中点，$\\overrightarrow{CE}=\\frac13\\overrightarrow{CD}$，$\\overrightarrow{AC}= \\boldsymbol b$，$\\overrightarrow{AB}=\\boldsymbol a$.\n则 $\\overrightarrow{AE}= \\underline{\\hspace{2.2em}} $（用 $\\boldsymbol a$，$\\boldsymbol b$ 表示）；若 $|\\overrightarrow{AE}|=5$，$\\overrightarrow{AE}\\perp\\overrightarrow{CB}$，则 $\\overrightarrow{AE}\\cdot\\overrightarrow{CD}= \\underline{\\hspace{2.2em}} $.\n\n![题目配图](assets/2025/math/tianjin/q14_fig1.png)",
       "figures": [
         "assets/2025/math/tianjin/q14_fig1.png"
       ],
