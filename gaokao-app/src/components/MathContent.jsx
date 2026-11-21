@@ -66,7 +66,7 @@ function renderContentToHtml(raw, inline = false) {
   text = text.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
 
   if (inline) {
-    return text.replace(/\u0000PH(\d+)\u0000/g, (_, idx) => placeholders[Number(idx)] || "");
+    return text.replace(/\n+/g, "<br/>").replace(/\u0000PH(\d+)\u0000/g, (_, idx) => placeholders[Number(idx)] || "");
   }
 
   const blocks = text.split(/\n{2,}/);

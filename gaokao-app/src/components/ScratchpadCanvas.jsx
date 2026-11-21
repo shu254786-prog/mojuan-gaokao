@@ -380,7 +380,7 @@ export default function ScratchpadCanvas({
         position: "relative",
         width: "100%",
         height: "100%",
-        touchAction: interactive ? (penOnly ? "pan-y" : "none") : "auto",
+        touchAction: interactive ? (transparent && penOnly ? "pan-y" : "none") : "auto",
         userSelect: "none",
       }}
     >

@@ -600,7 +600,7 @@
       "qid": "2020-math-new_gaokao_paper_1-q17",
       "number": 17,
       "section": "解答题",
-      "type": "fill_blank",
+      "type": "open_ended",
       "score": null,
       "difficulty": null,
       "topics": [],

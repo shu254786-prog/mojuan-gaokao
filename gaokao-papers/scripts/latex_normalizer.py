@@ -198,7 +198,7 @@ def normalize_math_text(text, phy_map=None):
     t = re.sub(r"\\qquad\b", "  ", t)
     t = re.sub(r"\\gknewpage\b|\\gkvfill\b|\\gkvfil\b|\\gkhfill\b|\\gkhfil\b|\\FloatBarrier\b|\\centering\b|\\par\b|\\allowbreak\b", "", t)
     t = replace_cmd(t, r"\\FigureLayoutDeclare\b", 3, False, lambda opt, args: "")
-    t = re.sub(r"\\ref\{([^}]+)\}", lambda m: f"[{m.group(1)}]", t)
+    t = re.sub(r"\\ref\{([^}]+)\}", lambda m: _clean_ref(m), t)
     t = t.replace("~", " ")
 
     # Convert align* -> $$ \begin{aligned} ... \end{aligned} $$
@@ -226,6 +226,16 @@ def normalize_math_text(text, phy_map=None):
     # Normalize excessive blank lines
     t = re.sub(r"\n{3,}", "\n\n", t).strip()
     return t
+
+
+def _clean_ref(m):
+    label = m.group(1).strip()
+    m_sub = re.match(r"^20[12]\d.*?\d+([a-dA-D])$", label)
+    if m_sub:
+        return f"（{m_sub.group(1).lower()}）"
+    if re.match(r"^20[12]\d.*?\d+$", label):
+        return ""
+    return f"[{label}]"
 
 
 def _circled_num(s):

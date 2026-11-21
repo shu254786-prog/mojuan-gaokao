@@ -510,22 +510,27 @@ export default function PracticeWorkspace({
                 )}
 
                 {/* Fill-in Blanks */}
-                {currentQ.type === "fill_blank" && (
-                  <div className="blank-inputs">
-                    {(currentQ.answer?.sub_answers?.length ? currentQ.answer.sub_answers : [""]).map((_, idx) => (
-                      <div key={idx} className="blank-row">
-                        <span style={{ fontSize: 13, color: "var(--text-2)", width: 52 }}>
-                          第 {idx + 1} 空
-                        </span>
-                        <input
-                          value={(Array.isArray(userChoiceArr) ? userChoiceArr[idx] : "") || ""}
-                          onChange={(e) => handleBlankInput(idx, e.target.value)}
-                          placeholder="在右侧草稿纸演算后可在此输入答案核对..."
-                        />
-                      </div>
-                    ))}
-                  </div>
-                )}
+                {currentQ.type === "fill_blank" && (() => {
+                  const subCount = currentQ.answer?.sub_answers?.length;
+                  const stemBlankHits = (currentQ.stem_md?.match(/\\underline\{\\hspace\{|______/g) || []).length;
+                  const blankCount = subCount || Math.max(1, Math.min(6, stemBlankHits || 1));
+                  return (
+                    <div className="blank-inputs">
+                      {Array.from({ length: blankCount }).map((_, idx) => (
+                        <div key={idx} className="blank-row">
+                          <span style={{ fontSize: 13, color: "var(--text-2)", width: 52 }}>
+                            第 {idx + 1} 空
+                          </span>
+                          <input
+                            value={(Array.isArray(userChoiceArr) ? userChoiceArr[idx] : "") || ""}
+                            onChange={(e) => handleBlankInput(idx, e.target.value)}
+                            placeholder="在右侧草稿纸演算后可在此输入答案核对..."
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  );
+                })()}
 
                 {/* Action Bar */}
                 <div
@@ -577,9 +582,12 @@ export default function PracticeWorkspace({
               {showSolution && (
                 <div className="solution-card">
                   <div className="solution-header">
-                    <div className="answer-banner">
-                      <Check size={15} />
-                      参考答案：{currentQ.answer?.raw ? <MathContent content={currentQ.answer.raw} /> : "见下方详解"}
+                    <div className="answer-banner" style={{ alignItems: "flex-start" }}>
+                      <Check size={15} style={{ marginTop: 3, flexShrink: 0 }} />
+                      <span style={{ whiteSpace: "nowrap", flexShrink: 0 }}>参考答案：</span>
+                      <span style={{ minWidth: 0 }}>
+                        {currentQ.answer?.raw ? <MathContent inline content={currentQ.answer.raw} /> : "见下方详解"}
+                      </span>
                     </div>
 
                     <div style={{ display: "flex", gap: 8 }}>

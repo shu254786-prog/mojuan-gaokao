@@ -628,7 +628,7 @@
       "qid": "2025-math-beijing-q15",
       "number": 15,
       "section": "解答题",
-      "type": "single_choice",
+      "type": "multiple_choice",
       "score": null,
       "difficulty": null,
       "topics": [],
@@ -657,8 +657,11 @@
         }
       ],
       "answer": {
-        "raw": "",
-        "choices": []
+        "raw": "BC",
+        "choices": [
+          "B",
+          "C"
+        ]
       },
       "solution_methods": [
         {

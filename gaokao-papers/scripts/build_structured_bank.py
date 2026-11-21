@@ -287,13 +287,18 @@ def parse_math_paper(tex_path, year, paper_key):
         ans_norm = normalize_math_text(ans_raw, PHY_MAP)
         # Determine question type
         if choices:
+            if not ans_raw.strip() and sol_raw:
+                m_sol_ans = re.search(r"(?:故答案为|故选|答案(?:为|是))[:：]?\s*([A-F]+)", sol_raw)
+                if m_sol_ans:
+                    ans_raw = m_sol_ans.group(1).strip()
+                    ans_norm = ans_raw
             ans_letters = re.findall(r"[A-F]", ans_raw.upper())
             if "多选" in sec or len(ans_letters) > 1:
                 qtype = "multiple_choice"
             else:
                 qtype = "single_choice"
             ans_obj = {"raw": ans_norm, "choices": ans_letters}
-        elif "填空" in sec or r"\fillinblank" in prob_raw:
+        elif "填空" in sec or (r"\fillinblank" in prob_raw and "解答" not in sec):
             qtype = "fill_blank"
             ans_obj = {"raw": ans_norm}
         else:
