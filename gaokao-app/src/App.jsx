@@ -59,8 +59,8 @@ export default function App() {
     <div>
       <header className="apple-navbar">
         <div className="brand-pill">
-          <div className="brand-icon">墨</div>
-          <span>墨卷 · 高考真题演算台</span>
+          <div className="brand-icon">E</div>
+          <span>Evan的试卷库</span>
         </div>
 
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
