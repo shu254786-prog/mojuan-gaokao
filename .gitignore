@@ -5,6 +5,7 @@
 /*.py
 /*.jpg
 /新建文件夹/
+/promo-screenshots/
 
 # Dependencies & build outputs
 node_modules/

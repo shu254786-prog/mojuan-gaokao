@@ -184,6 +184,7 @@ def normalize_math_text(text, phy_map=None):
     t = replace_cmd(t, r"\\odif\b", 1, False, lambda opt, args: f"\\mathrm{{d}}{args[0]}")
     t = replace_cmd(t, r"\\circled\b", 1, False, lambda opt, args: _circled_num(args[0]))
     t = replace_cmd(t, r"\\ccnum\b", 1, False, lambda opt, args: _circled_num(args[0]))
+    t = replace_cmd(t, r"\\ronum\b", 1, False, lambda opt, args: _roman_num(args[0]))
     t = replace_cmd(t, r"\\textbf\b", 1, False, lambda opt, args: f"**{args[0]}**")
 
     t = re.sub(r"\\i(?![A-Za-z])", r"{\\mathrm{i}}", t)
@@ -240,6 +241,14 @@ def _clean_ref(m):
 
 def _circled_num(s):
     nums = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫"
+    s = s.strip()
+    if s.isdigit() and 1 <= int(s) <= len(nums):
+        return nums[int(s) - 1]
+    return f"({s})"
+
+
+def _roman_num(s):
+    nums = ("Ⅰ", "Ⅱ", "Ⅲ", "Ⅳ", "Ⅴ", "Ⅵ", "Ⅶ", "Ⅷ", "Ⅸ", "Ⅹ")
     s = s.strip()
     if s.isdigit() and 1 <= int(s) <= len(nums):
         return nums[int(s) - 1]

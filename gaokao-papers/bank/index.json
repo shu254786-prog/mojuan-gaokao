@@ -4071,8 +4071,8 @@
       "region": "湖北卷",
       "format_tier": "structured_latex",
       "question_count": 15,
-      "multi_method_count": 0,
-      "enriched_count": 0,
+      "multi_method_count": 15,
+      "enriched_count": 15,
       "paper_file": "papers/2026-physics-湖北.json"
     },
     {
@@ -22753,8 +22753,8 @@
       "region": "新高考全国Ⅰ卷",
       "format_tier": "structured_latex",
       "question_count": 22,
-      "multi_method_count": 0,
-      "enriched_count": 0,
+      "multi_method_count": 22,
+      "enriched_count": 22,
       "paper_file": "papers/2023-math-new_gaokao_paper_1.json"
     },
     {
@@ -22764,8 +22764,8 @@
       "region": "新高考全国Ⅱ卷",
       "format_tier": "structured_latex",
       "question_count": 22,
-      "multi_method_count": 0,
-      "enriched_count": 0,
+      "multi_method_count": 22,
+      "enriched_count": 22,
       "paper_file": "papers/2023-math-new_gaokao_paper_2.json"
     },
     {

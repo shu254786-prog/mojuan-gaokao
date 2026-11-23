@@ -15,7 +15,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "复数乘法",
+        "复平面象限"
+      ],
       "stem_md": "在复平面内，$(1+3{\\mathrm{i}})(3-{\\mathrm{i}})$ 对应的点位于（ ）",
       "figures": [],
       "choices": [
@@ -48,14 +51,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 展开求实部虚部",
+          "tier": "intuition",
+          "badge": "5秒送分",
+          "audience": "全水平通用",
+          "time_save": "直接心算",
+          "content_md": "$(1+3\\mathrm{i})(3-\\mathrm{i})=3-\\mathrm{i}+9\\mathrm{i}-3\\mathrm{i}^2=6+8\\mathrm{i}$，对应复平面坐标 $(6,8)$，实部正、虚部正，位于第一象限，选 **A**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "计算得 $(1+3{\\mathrm{i}})(3-{\\mathrm{i}})=3-{\\mathrm{i}}+9{\\mathrm{i}}-3{\\mathrm{i}}^2=6+8{\\mathrm{i}}$. 对应点为 $(6,8)$，位于第一象限. 故选 A."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 辐角旋转几何口算",
+          "tier": "fast",
+          "badge": "3秒几何判",
+          "audience": "追求极速",
+          "time_save": "不用乘括号",
+          "content_md": "$1+3\\mathrm{i}$ 在第一象限靠近 $+y$ 轴（辐角约 $71.6^\\circ$），$3-\\mathrm{i}$ 在第四象限靠近 $+x$ 轴（辐角约 $-18.4^\\circ$）。\n\n两复数相乘辐角相加 $\\approx 53.2^\\circ \\in (0^\\circ,90^\\circ)$（其实是经典的 $3$-$4$-$5$ 角 $53^\\circ$！），必在第一象限，选 **A**。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "把 $-3\\mathrm{i}^2$ 粗心算成 $-3$（正确应为 $+3$），导致实部归零算错成在虚轴上！",
+      "takeaway": "记住 $\\mathrm{i}^2=-1$ 展开 $(1+3\\mathrm{i})(3-\\mathrm{i})=(3+3)+(9-1)\\mathrm{i}=6+8\\mathrm{i}$，实虚均正秒定位第一象限（注意其实连精确虚部都不用算，仅看符号就够了！）。",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q02",
@@ -64,7 +88,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "集合包含关系",
+        "含参检验互异性"
+      ],
       "stem_md": "设集合 $A=\\{0,-a\\}$，$B=\\{1,a-2,2a-2\\}$，若 $A\\subseteq B$，则 $a=$（ ）",
       "figures": [],
       "choices": [
@@ -97,14 +124,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 定零回代验证包含",
+          "tier": "intuition",
+          "badge": "零失误通法",
+          "audience": "全水平通用",
+          "time_save": "15 秒稳解",
+          "content_md": "因为 $0\\in A\\subseteq B$，故 $0\\in B=\\{1,a-2,2a-2\\}$：\n- 若 $a-2=0\\implies a=2$，此时 $A=\\{0,-2\\},\\;B=\\{1,0,2\\}$，$-2\\notin B$（舍去）；\n- 若 $2a-2=0\\implies a=1$，此时 $A=\\{0,-1\\},\\;B=\\{1,-1,0\\}$，$A\\subseteq B$ 成立！\n\n故选 **B**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "因为 $0\\in A$ 且 $A\\subseteq B$，故 $0\\in B$. 于是 $a-2=0$ 或 $2a-2=0$，即 $a=2$ 或 $a=1$.\n\n当 $a=2$ 时，$A=\\{0,-2\\}$，$B=\\{1,0,2\\}$，不满足 $A\\subseteq B$.\n\n当 $a=1$ 时，$A=\\{0,-1\\}$，$B=\\{1,-1,0\\}$，满足条件. 故选 B."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 集合元素之和配对试数",
+          "tier": "fast",
+          "badge": "5秒口算",
+          "audience": "全部考生",
+          "time_save": "直接试 B 项",
+          "content_md": "$B$ 里已经占了 $1$，另外两个数一个必须是 $0$、另一个必须是 $-a$。令 $2a-2=0$ 得 $a=1$，顺手一看 $a-2=-1=-a$ 严丝合缝！秒选 **B**。"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "算出 $a=2$ 后忘记回代检验 $-a=-2$ 是否真的在 $B=\\{1,0,2\\}$ 中，误选 A！",
+      "takeaway": "由 $0\\in A\\subseteq B$ 先迫使 $0\\in B$（只有 $a-2=0$ 或 $2a-2=0$ 两种可能），把 $a=2$ 和 $a=1$ 代回集合验证全部包含与互异性即可零失误！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q03",
@@ -113,7 +161,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "分层随机抽样",
+        "组合计数原理"
+      ],
       "stem_md": "某学校为了解学生参加体育运动的情况，用比例分配的分层随机抽样作抽样调查，拟从初中部和高中部两层共抽取 $60$ 名学生. 已知该校初中部和高中部分别有 $400$ 名和 $200$ 名学生，则不同的抽样结果共有（ ）",
       "figures": [],
       "choices": [
@@ -146,14 +197,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 按比例分名额再分步相乘",
+          "tier": "intuition",
+          "badge": "稳妥送分",
+          "audience": "全水平通用",
+          "time_save": "15 秒稳解",
+          "content_md": "初中部与高中部人数比为 $400:200=2:1$，总共抽取 $60$ 名学生：\n- 初中部应抽 $60\\times\\frac{2}{3}=40$ 名，选法 $\\binom{400}{40}$；\n- 高中部应抽 $60\\times\\frac{1}{3}=20$ 名，选法 $\\binom{200}{20}$。\n\n由分步乘法计数原理共有 $\\binom{400}{40}\\binom{200}{20}$ 种，选 **D**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由于是比例分配分层抽样，初中部与高中部的抽取比应与人数比相同. 设初中部抽取 $x$ 人，则 $\\frac{x}{400}=\\frac{60}{400+200}$，解得 $x=40$. 因此高中部抽取 $20$ 人. 所以不同抽样结果共有 $\\binom{400}{40}\\binom{200}{20}$ 种. 故选 D."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 十分之一抽样比口算",
+          "tier": "fast",
+          "badge": "3秒口算",
+          "audience": "全部考生",
+          "time_save": "心算抽样比",
+          "content_md": "总人数 $400+200=600$ 人，抽 $60$ 人等于**每层各自十分之一**：$400\\to 40$，$200\\to 20$，一眼秒杀 **D**！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "看反比例把初高中人数弄倒（选成 B），或者错以为是按等额抽样 $30+30$（选成 C）。",
+      "takeaway": "比例分配分层抽样先把总体拆比：$400:200=2:1$，总抽 $60$ 人按 $2:1$ 切分就是 $40$ 与 $20$，每层单独用组合数相乘即 $\\binom{400}{40}\\binom{200}{20}$。",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q04",
@@ -162,7 +234,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "函数奇偶性",
+        "偶乘偶模型识别"
+      ],
       "stem_md": "若函数 $f(x)=(x+a)\\ln\\frac{2x-1}{2x+1}$ 为偶函数，则 $a=$（ ）",
       "figures": [],
       "choices": [
@@ -195,14 +270,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 取定义域特值 $x=\\pm 1$",
+          "tier": "intuition",
+          "badge": "最稳验算",
+          "audience": "全水平通用",
+          "time_save": "15 秒稳解",
+          "content_md": "由定义域 $\\frac{2x-1}{2x+1}>0\\implies |x|>\\frac{1}{2}$，取 $x=\\pm 1$ 代入 $f(1)=f(-1)$：\n$$(1+a)\\ln\\frac{1}{3}=(-1+a)\\ln 3\\implies -(1+a)\\ln 3=(-1+a)\\ln 3$$\n\n消去 $\\ln 3$ 得 $-1-a=-1+a\\implies a=0$，选 **B**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由偶函数性质 $f(-x)=f(x)$. 取 $x=1$，则 $f(-1)=f(1)$，即 $(-1+a)\\ln 3=(1+a)\\ln\\frac13$.\n而 $\\ln\\frac13=-\\ln 3$，代入得 $(-1+a)\\ln 3=-(1+a)\\ln 3$，解得 $a=0$. 故选 B."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · “奇 × 奇 = 偶”结构瞬杀",
+          "tier": "fast",
+          "badge": "3秒口算",
+          "audience": "全水平通用",
+          "time_save": "免代数字",
+          "content_md": "记牢经典奇函数模板 $\\ln\\frac{kx-1}{kx+1}$（或 $\\ln\\frac{1-x}{1+x}$）！\n\n后面这半截是纯奇函数，乘积要是偶函数，前面因子 $(x+a)$ 也必须是奇函数，常数项只能是 $0$，即 **$a=0$**，秒选 **B**！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "代特殊值试探时千万别代 $x=0$（真数成负数无定义！）。必须代在定义域 $|x|>\\frac{1}{2}$ 里的数（如 $x=\\pm 1$）。",
+      "takeaway": "识别内层对数核心：$\\ln\\frac{2x-1}{2x+1}$ 把 $x$ 换成 $-x$ 后恰为 $\\ln\\frac{2x+1}{2x-1}=-\\ln\\frac{2x-1}{2x+1}$，是个纯**奇函数**！要让外层乘上一个 $(x+a)$ 变回**偶函数**，$(x+a)$ 必须也是**奇函数** $\\implies a=0$！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q05",
@@ -211,7 +307,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "椭圆",
+        "三角形面积比与截距转换"
+      ],
       "stem_md": "已知椭圆 $C:\\frac{x^2}{3}+y^2=1$ 的左，右焦点分别为 $F_1$，$F_2$，直线 $y=x+m$ 与 $C$ 交于 $A$，$B$ 两点，若 $\\triangle F_1AB$ 的面积是 $\\triangle F_2AB$ 面积的 $2$ 倍，则 $m=$（ ）",
       "figures": [],
       "choices": [
@@ -244,16 +343,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 点到直线距离比 + 联立判有交点",
+          "tier": "intuition",
+          "badge": "几何零错法",
+          "audience": "全水平通用",
+          "time_save": "25 秒稳解",
+          "content_md": "椭圆焦点 $F_1(-\\sqrt{2},0),\\;F_2(\\sqrt{2},0)$。\n\n因为两三角形同底 $AB$，面积比等于高之比，即 $d(F_1,l)=2d(F_2,l)$：\n$$\\frac{|-\\sqrt{2}+m|}{\\sqrt{2}}=2\\frac{|\\sqrt{2}+m|}{\\sqrt{2}}\\implies |m-\\sqrt{2}|=2|m+\\sqrt{2}|$$\n\n解得 $m=-\\frac{\\sqrt{2}}{3}$ 或 $m=-3\\sqrt{2}$。\n\n检验交点存在性：将 $y=x+m$ 代入 $x^2+3y^2=3$，需直线在椭圆两斜率 $1$ 的切线截距之间（$|m|<\\sqrt{3+1}=2$），显然 $m=-3\\sqrt{2}$ 在椭圆外无交点，故 $m=-\\frac{\\sqrt{2}}{3}$，选 **C**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "两三角形共底边 $AB$，故只需比较对应高. 设 $AB$ 与 $x$ 轴交于 $K$，从 $F_1$，$F_2$ 向 $AB$ 作垂线，垂足分别为 $G$，$I$. 则 $\\frac{S_{\\triangle F_1AB}}{S_{\\triangle F_2AB}}=\\frac{|F_1G|}{|F_2I|}=2$. 由图可知 $\\triangle F_1KG\\sim \\triangle F_2KI$，故 $\\frac{|F_1K|}{|F_2K|}=2$. 椭圆半焦距 $c=\\sqrt{3-1}=\\sqrt2$，所以 $|F_1F_2|=2\\sqrt2$，$|F_2K|=\\frac13|F_1F_2|=\\frac{2\\sqrt2}{3}$.\n$ |OK|=|OF_1|-|F_1K|=\\frac{\\sqrt2}{3} $，故 $K\\left(\\frac{\\sqrt2}{3},0\\right)$. 代入 $y=x+m$ 得 $0=\\frac{\\sqrt2}{3}+m$，所以 $m=-\\frac{\\sqrt2}{3}$. 故选 C.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q5_solution_fig1.png)"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 焦点线段内分点秒定 $K(\\frac{\\sqrt{2}}{3},0)$",
+          "tier": "fast",
+          "badge": "10秒口算",
+          "audience": "几何直觉",
+          "time_save": "免绝对值方程和验证切线",
+          "content_md": "弦 $AB$ 必须穿过 $F_1F_2$ 才能有大机会偏重在里面（否则外分点 $3\\sqrt{2}$ 远超椭圆半长轴 $\\sqrt{3}$ 早跑出去了！）。\n\n因此直线在 $x$ 轴交点 $K$ 把 $[-\\sqrt{2},\\sqrt{2}]$ **内部按 $2:1$ 分割**，离 $F_2(\\sqrt{2},0)$ 更近，瞬间读出 $x_K=\\frac{1}{3}\\sqrt{2}$！\n\n代入 $0=\\frac{\\sqrt{2}}{3}+m\\implies m=-\\frac{\\sqrt{2}}{3}$，秒选 **C**！"
         }
       ],
       "solution_figures": [
         "assets/2023/math/new_gaokao_paper_2/q5_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在列 $2|d(F_2)|=|d(F_1)|$ 的绝对值方程时算漏两种情况或代反正负号：直线 $y=x+m$ 与线段 $F_1F_2$ 相交于靠 $F_2$ 一侧点 $(\\frac{\\sqrt{2}}{3},0)$（交在外侧无解？若交在 $F_2(\\sqrt{2},0)$ 右侧点 $(3\\sqrt{2},0)$，此时 $m=-3\\sqrt{2}$ 会导致直线 $y=x-3\\sqrt{2}$ 与椭圆根本**不相交**！）。",
+      "takeaway": "$\\triangle F_1AB$ 与 $\\triangle F_2AB$ 共享底边 $AB$，面积之比 $2:1$ 直接变成**两焦点到直线距离之比 $2:1$**，再由相似三角形直接转化为**直线与 $x$ 轴交点 $K$ 把焦点段 $F_1F_2$ 按 $2:1$ 内分**（或直接代点到直线距离公式）！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q06",
@@ -262,7 +382,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "导数单调性",
+        "参变分离求最值"
+      ],
       "stem_md": "已知函数 $f(x)=a{\\mathrm{e}}^x-\\ln x$ 在区间 $(1,2)$ 单调递增，则 $a$ 的最小值为（ ）",
       "figures": [],
       "choices": [
@@ -295,14 +418,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 参变分离求上界",
+          "tier": "intuition",
+          "badge": "稳妥满分",
+          "audience": "全水平通用",
+          "time_save": "15 秒稳解",
+          "content_md": "求导 $f'(x)=a\\mathrm{e}^x-\\frac{1}{x}\\ge 0\\;(x\\in(1,2))\\implies a\\ge\\frac{1}{x\\mathrm{e}^x}$。\n\n因 $x\\mathrm{e}^x$ 在 $(1,2)$ 上单调递增，故 $\\frac{1}{x\\mathrm{e}^x}$ 严格递减，上确界出现在左端点 $x=1$ 处，即 $\\frac{1}{1\\cdot\\mathrm{e}^1}=\\mathrm{e}^{-1}$。故 $a\\ge\\mathrm{e}^{-1}$，选 **C**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由 $f'(x)=a{\\mathrm{e}}^x-\\frac1x$. 要使 $f(x)$ 在 $(1,2)$ 上单调递增，需 $a{\\mathrm{e}}^x-\\frac1x\\ge0$，即 $a\\ge\\frac{1}{x{\\mathrm{e}}^x}$. 令 $g(x)=x{\\mathrm{e}}^x$（$1<x<2$），则 $g'(x)=(x+1){\\mathrm{e}}^x>0$，故 $g(x)$ 在 $(1,2)$ 上递增，因此 $\\frac1{g(x)}<\\frac1{g(1)}=\\frac1{{\\mathrm{e}}}$. 所以 $a$ 的最小值为 $\\frac1{{\\mathrm{e}}}={\\mathrm{e}}^{-1}$. 故选 C."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 左端点导数试等秒杀",
+          "tier": "fast",
+          "badge": "5秒口算",
+          "audience": "追求极速",
+          "time_save": "免再构造分母求导",
+          "content_md": "增函数 $a\\mathrm{e}^x$ 与减函数 $\\frac{1}{x}$ 竞争正负，$x$ 越小越难胜出，只需在区间最危险左端 $x=1$ 处让 $f'(1)\\ge 0$：$a\\mathrm{e}^1-1\\ge 0\\implies a\\ge\\mathrm{e}^{-1}$，选 **C**！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在把最大值点 $x=1$ 带进 $\\frac{1}{x\\mathrm{e}^x}$ 时搞反大小方向选成 $\\mathrm{e}^{-2}$ 或 $\\mathrm{e}$。",
+      "takeaway": "$f'(x)=a\\mathrm{e}^x-\\frac{1}{x}\\ge 0$ 在 $(1,2)$ 恒成立 $\\iff a\\ge \\frac{1}{x\\mathrm{e}^x}$ 恒成立，而 $x\\mathrm{e}^x$ 在正半轴明显单调递增，左端点 $x=1$ 处最大值一击锁定 $a_{\\min}=\\mathrm{e}^{-1}$！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q07",
@@ -311,7 +455,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "三角恒等变换",
+        "半角公式与黄金角 $18^\\circ$"
+      ],
       "stem_md": "已知 $\\alpha$ 为锐角，$\\cos\\alpha=\\dfrac{1+\\sqrt5}{4}$，则 $\\sin\\dfrac{\\alpha}{2}=$（ ）",
       "figures": [],
       "choices": [
@@ -344,14 +491,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 降幂公式配完全平方式",
+          "tier": "intuition",
+          "badge": "稳妥基本功",
+          "audience": "全水平通用",
+          "time_save": "25 秒稳解",
+          "content_md": "由 $1-2\\sin^2\\frac{\\alpha}{2}=\\cos\\alpha=\\frac{1+\\sqrt{5}}{4}$，得：\n$$\\sin^2\\frac{\\alpha}{2}=\\frac{3-\\sqrt{5}}{8}=\\frac{6-2\\sqrt{5}}{16}=\\frac{(\\sqrt{5}-1)^2}{16}$$\n\n因 $\\alpha\\in(0,\\frac{\\pi}{2})\\implies \\frac{\\alpha}{2}\\in(0,\\frac{\\pi}{4})$，取正根得 $\\sin\\frac{\\alpha}{2}=\\frac{\\sqrt{5}-1}{4}$，选 **D**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由半角公式 $\\cos\\alpha=1-2\\sin^2\\frac{\\alpha}{2}$. 代入得 $1-2\\sin^2\\frac{\\alpha}{2}=\\frac{1+\\sqrt5}{4}$，故 $\\sin^2\\frac{\\alpha}{2}=\\frac{3-\\sqrt5}{8}=\\frac{(\\sqrt5-1)^2}{16}$. 因为 $\\alpha$ 为锐角，所以 $\\frac{\\alpha}{2}\\in(0,\\frac{\\pi}{4})$，故 $\\sin\\frac{\\alpha}{2}=\\frac{\\sqrt5-1}{4}$. 故选 D."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 黄金角 $\\cos 36^\\circ$ 识数秒选 + 范围估算排除",
+          "tier": "fast",
+          "badge": "3秒神反应",
+          "audience": "学霸技巧",
+          "time_save": "零代数变形",
+          "content_md": "- **学霸识角**：$\\cos 36^\\circ=\\frac{\\sqrt{5}+1}{4}\\implies \\alpha=36^\\circ\\implies \\sin\\frac{\\alpha}{2}=\\sin 18^\\circ=\\frac{\\sqrt{5}-1}{4}$，选 **D**！\n- **量级秒杀**：$\\cos\\alpha\\approx\\frac{3.236}{4}=0.81\\implies \\alpha\\approx 36^\\circ\\implies \\sin\\frac{\\alpha}{2}\\approx\\sin 18^\\circ\\approx 0.31$。心算四个选项：A($\\approx 0.095$)、B($\\approx 0.155$)、C($\\approx 0.19$)、**D($\\approx 1.236/4=0.309$)**，唯一吻合选 **D**！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "用常规半角公式算到 $\\sin^2\\frac{\\alpha}{2}=\\frac{3-\\sqrt{5}}{8}$ 时忘记开根号选成了 A 或 C！记住分子分母同乘 $2$：$\\frac{6-2\\sqrt{5}}{16}=\\frac{(\\sqrt{5}-1)^2}{16}$！",
+      "takeaway": "看到数字 $\\frac{1+\\sqrt{5}}{4}$ 就应该立刻起立敬礼——这是大名鼎鼎的**黄金分割角 $\\cos 36^\\circ=\\frac{1+\\sqrt{5}}{4}$**！它的一半就是 **$\\sin 18^\\circ=\\frac{\\sqrt{5}-1}{4}$**！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q08",
@@ -360,7 +528,10 @@
       "type": "single_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "等比数列",
+        "片段和性质"
+      ],
       "stem_md": "记 $S_n$ 为等比数列 $\\{a_n\\}$ 的前 $n$ 项和，若 $S_4=-5$，$S_6=21S_2$，则 $S_8=$（ ）",
       "figures": [],
       "choices": [
@@ -393,14 +564,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 片段和公比 $r=q^2$ 方程",
+          "tier": "intuition",
+          "badge": "最简洁通法",
+          "audience": "全水平通用",
+          "time_save": "20 秒稳解",
+          "content_md": "令片段首段 $A=S_2$，每两项的公比为 $r=q^2>0$。\n\n由 $S_6=A(1+r+r^2)=21A$（显然 $A\\ne 0$，否则 $S_4=0$）得：\n$$r^2+r-20=0\\implies r=4\\quad(\\text{舍去 }r=-5<0)$$\n\n再代 $S_4=A(1+r)=5A=-5\\implies A=-1$。\n\n因此 $S_8=A(1+4+16+64)=-1\\times 85=-85$，选 **C**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "设 $S_2=m$，则 $S_6=21m$. 因为等比数列各段和也成等比，故 $S_2$，$\\ S_4-S_2$，$\\ S_6-S_4$，$\\ S_8-S_6$ 成等比数列. 于是 $(-5-m)^2=m(21m+5)$. 解得 $m=-1$ 或 $m=\\frac54$. 若 $m=\\frac54$，则\n$\\frac{S_4-S_2}{S_2}=\\frac{-5-\\frac54}{\\frac54}=-5$，但该比值应为公比的平方，矛盾；故 $m=-1$.\n此时 $S_4-S_2=-4$，$S_6-S_4=-16$，所以 $S_8-S_6=-64$. 故\n\n$$\n\nS_8=S_6-64=21(-1)-64=-85\n\n$$\n\n故选 C."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 心算 $1+4+16=21$ 直接出 $r=4$",
+          "tier": "fast",
+          "badge": "5秒口算",
+          "audience": "追求极速",
+          "time_save": "免解一元二次方程",
+          "content_md": "看见 $S_6=21S_2$，心算正整数公比平方：$1+4+4^2=1+4+16=21$！秒得 $q^2=4$！\n\n随后 $S_2=\\frac{S_4}{1+4}=-1$，且四段和 $-1,-4,-16,-64$ 全是负数 $\\implies$ 求和得 $-85$，秒选 **C**！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在解二次方程 $m^2+\\dots$ 时把伪根 $r=-5$ 当成了公比平方 $q^2$（**实等比数列里 $q^2$ 绝不能小于 $0$**！否则选出来错号得 $+85$）。",
+      "takeaway": "等比数列每连续 $2$ 项合并为一段 $A_1=S_2,\\;A_2=S_4-S_2,\\;A_3=S_6-S_4,\\;A_4=S_8-S_6$，它们**依然成公比为 $r=q^2>0$ 的等比数列**！利用 $\\frac{S_6}{S_2}=1+r+r^2=21$ 一行定出公比平方 $r=4$！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q09",
@@ -409,7 +601,10 @@
       "type": "multiple_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "立体几何",
+        "圆锥截面与二面角"
+      ],
       "stem_md": "已知圆锥的顶点为 $P$，底面圆心为 $O$，$AB$ 为底面直径，$\\angle APB=120^\\circ$，$PA=2$，点 $C$ 在底面圆周上，且二面角 $P-AC-O$ 为 $45^\\circ$，则（ ）",
       "figures": [],
       "choices": [
@@ -443,14 +638,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 垂径找二面角平面角",
+          "tier": "intuition",
+          "badge": "稳妥基本功",
+          "audience": "全水平通用",
+          "time_save": "30 秒全对",
+          "content_md": "由 $\\angle APB=120^\\circ,\\;PA=2$ 得高 $h=OP=1$，底半径 $r=OA=\\sqrt{3}$：\n- **A 对**：体积 $V=\\frac{1}{3}\\pi r^2 h=\\frac{1}{3}\\pi(\\sqrt{3})^2\\cdot 1=\\pi$；\n- **B 错**：侧面积 $S_{\\text{侧}}=\\pi rl=\\pi\\cdot\\sqrt{3}\\cdot 2=2\\sqrt{3}\\pi\\ne 4\\sqrt{3}\\pi$；\n- 取 $AC$ 中点 $Q$，由 $OQ\\perp AC,\\;PQ\\perp AC$ 得二面角平面角 $\\angle PQO=45^\\circ$，故 $\\mathrm{Rt}\\triangle POQ$ 为等腰直角，得 $OQ=OP=1,\\; PQ=\\sqrt{2}$；\n- **C 对**：$AC=2AQ=2\\sqrt{OA^2-OQ^2}=2\\sqrt{3-1}=2\\sqrt{2}$；\n- **D 错**：$S_{\\triangle PAC}=\\frac{1}{2}AC\\cdot PQ=\\frac{1}{2}\\cdot 2\\sqrt{2}\\cdot\\sqrt{2}=2\\ne\\sqrt{3}$。\n\n故选 **AC**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由 $AB$ 为直径且 $\\angle APB=120^\\circ$，得 $\\angle APO=60^\\circ$. 所以 $OP=AP\\cos 60^\\circ=1$，$OA=AP\\sin 60^\\circ=\\sqrt3$. 于是圆锥体积\n\n$$\n\nV=\\frac13\\pi r^2h=\\frac13\\pi(\\sqrt3)^2\\cdot 1=\\pi\n\n$$\n\n故 A 正确.\n\n侧面积 $S=\\pi rl=\\pi\\cdot\\sqrt3\\cdot2=2\\sqrt3\\pi$，故 B 错误.\n\n取 $AC$ 中点 $Q$，连接 $PQ$，$OQ$. 由 $OA=OC$，$PA=PC$ 得 $AC\\perp OQ$，$AC\\perp PQ$. 因此 $\\angle PQO$ 为二面角 $P-AC-O$ 的平面角. 由题意 $\\angle PQO=45^\\circ$，故 $OQ=OP=1$. 于是 $AQ=\\sqrt{OA^2-OQ^2}=\\sqrt2$，所以 $AC=2AQ=2\\sqrt2$，故 C 正确.\n\n又 $PQ=\\sqrt{OP^2+OQ^2}=\\sqrt2$，所以\n\n$$\n\nS_{\\triangle PAC}=\\frac12 AC\\cdot PQ=\\frac12\\cdot2\\sqrt2\\cdot\\sqrt2=2\n\n$$\n\n故 D 错误. 故选 AC."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 二面角 $45^\\circ$ 面积射影定理秒判 D",
+          "tier": "fast",
+          "badge": "10秒射影秒杀",
+          "audience": "几何进阶",
+          "time_save": "免算斜高验证面积",
+          "content_md": "利用**面积射影定理**：$S_{\\triangle OAC}=S_{\\triangle PAC}\\cos 45^\\circ$！\n\n在等腰直角投影特征里：底面 $OQ=OP=1,\\;OA=OC=\\sqrt{3}\\implies \\cos\\angle AOQ=\\frac{1}{\\sqrt{3}}$，$S_{\\triangle OAC}=\\frac{1}{2}\\cdot 2\\sqrt{2}\\cdot 1=\\sqrt{2}$，立得 $S_{\\triangle PAC}=\\frac{\\sqrt{2}}{\\cos 45^\\circ}=2$，一秒否掉 D，收下 **AC**！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "算侧面积错用 $\\pi r^2$ 或 $2\\pi rl$；或者算 $\\triangle PAC$ 面积时误把棱长 $2$ 当高，其实斜高 $PQ=\\sqrt{2}$、底边 $AC=2\\sqrt{2}$，面积 $\\frac{1}{2}\\cdot 2\\sqrt{2}\\cdot\\sqrt{2}=2$，选项 D 说 $\\sqrt{3}$ 是错的！",
+      "takeaway": "圆锥顶角 $120^\\circ$、母线 $2$ 直接白送高 $h=1$ 与底半径 $r=\\sqrt{3}$；而过顶点截面 $PAC$ 与底面所成二面角恰好等于**高 $OP$ 与斜高 $PQ$ 组成的直角三角形锐角 $\\angle PQO=45^\\circ$**（立刻出等腰直角 $OQ=OP=1$！）。",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q10",
@@ -459,7 +675,10 @@
       "type": "multiple_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "抛物线",
+        "焦点弦黄金结论大全"
+      ],
       "stem_md": "设 $O$ 为坐标原点，直线 $y=-\\sqrt3(x-1)$ 过抛物线 $C:y^2=2px$（$p>0$） 的焦点，且与 $C$ 交于 $M$，$N$ 两点，$l$ 为 $C$ 的准线，则（ ）",
       "figures": [],
       "choices": [
@@ -493,16 +712,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 焦点定 $p$ + 联立算弦长/模长",
+          "tier": "intuition",
+          "badge": "稳妥基本功",
+          "audience": "全水平通用",
+          "time_save": "35 秒稳解",
+          "content_md": "- **A 对**：直线过 $(1,0)$ 即焦点 $F(1,0)$，故 $\\frac{p}{2}=1\\implies p=2$（抛物线 $y^2=4x$）；\n- **B 错**：联立得 $3x^2-10x+3=0\\implies x_1=3,\\;x_2=\\frac{1}{3}$，焦点弦 $|MN|=x_1+x_2+p=\\frac{16}{3}\\ne\\frac{8}{3}$；\n- **C 对**：由抛物线定义 $|MF|+|NF|=$ 两端点到准线距离之和，故直径中点到准线距离等于 $\\frac{d_M+d_N}{2}=\\frac{|MN|}{2}=r$，必相切；\n- **D 错**：算得 $M(3,-2\\sqrt{3}),\\;N(\\frac{1}{3},\\frac{2\\sqrt{3}}{3})$，得 $|OM|=\\sqrt{21},\\;|ON|=\\frac{\\sqrt{13}}{3},\\;|MN|=\\frac{16}{3}$，三边互不等。\n\n故选 **AC**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "直线 $y=-\\sqrt3(x-1)$ 与 $x$ 轴交于 $(1,0)$，而它过抛物线焦点，所以焦点为 $F(1,0)$. 故 $\\frac p2=1$，$p=2$. A 正确.\n\n于是抛物线方程为 $y^2=4x$. 联立 $y=-\\sqrt3(x-1)$ 得 $3x^2-10x+3=0$，故 $x=3$ 或 $x=\\frac13$. 对应点可取 $M(3,-2\\sqrt3)$，$N\\left(\\frac13,\\frac{2\\sqrt3}{3}\\right)$. 于是\n\n$$\n\n|MN|=x_1+x_2+p=3+\\frac13+2=\\frac{16}{3}\n\n$$\n\n故 B 错.\n\n准线为 $x=-1$. 而 $MN$ 的中点横坐标为 $\\frac{x_1+x_2}{2}=\\frac53$，故中点到准线的距离为 $\\frac53-(-1)=\\frac83=\\frac12|MN|$. 所以以 $MN$ 为直径的圆与准线相切，C 正确.\n\n再算 $|OM|=\\sqrt{3^2+(-2\\sqrt3)^2}=\\sqrt{21}$，$|ON|=\\sqrt{\\left(\\frac13\\right)^2+\\left(\\frac{2\\sqrt3}{3}\\right)^2}=\\frac{\\sqrt{13}}{3}$，三边不等，故 D 错. 故选 AC.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q9_solution_fig1.png)"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 焦点弦二级结论秒杀 B、C",
+          "tier": "fast",
+          "badge": "10秒二级结论",
+          "audience": "高分必备",
+          "time_save": "全程不联立二次方程",
+          "content_md": "1. 一眼看出焦点 $(1,0)\\implies p=2$（**A 对**），**“焦点弦为直径的圆必切准线”**是抛物线第一定理（**C 必对**）；\n2. 套用**焦点弦斜率弦长公式 $|MN|=\\frac{2p}{\\sin^2\\theta}$**：斜率 $-\\sqrt{3}$ 对应倾角 $120^\\circ$（$\\sin 120^\\circ=\\frac{\\sqrt{3}}{2}$），故 $|MN|=\\frac{4}{3/4}=\\frac{16}{3}$（**杀 B**）；\n3. 关于 $x$ 轴非对称直线上 $|OM|\\ne|ON|$，且焦弦斜率 $\\ne\\pm\\dots$，手算点在同侧（$M$ 远于 $N$ 九倍）快速排 D，选 **AC**！"
         }
       ],
       "solution_figures": [
         "assets/2023/math/new_gaokao_paper_2/q9_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "求弦长错算成 $\\frac{8}{3}$（漏了正弦平方或拿半径充直径），或做 D 时误以为正三角形/等腰看图形象就瞎猜成立。",
+      "takeaway": "这是对“抛物线焦点弦定理”最精准的四连考察：**以任意焦点弦 $MN$ 为直径的圆，永远与准线 $l$ 相切（C 必对！）**；倾斜角 $120^\\circ$（斜率 $-\\sqrt{3}$）过焦点的弦长公式为 **$|MN|=\\frac{2p}{\\sin^2\\theta}=\\frac{4}{\\sin^2 60^\\circ}=\\frac{16}{3}$**，无需联立韦达 5 秒秒杀！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q11",
@@ -511,7 +751,10 @@
       "type": "multiple_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "函数导数极值",
+        "韦达定理正根判别"
+      ],
       "stem_md": "若函数 $f(x)=a\\ln x+\\frac{b}{x}+\\frac{c}{x^2}$（$a\\ne 0$） 既有极大值也有极小值，则（ ）",
       "figures": [],
       "choices": [
@@ -546,16 +789,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 导数分子化二次方程 + 韦达三条件",
+          "tier": "intuition",
+          "badge": "稳妥满分",
+          "audience": "全水平通用",
+          "time_save": "25 秒稳解",
+          "content_md": "定义域 $x>0$，$f'(x)=\\frac{a}{x}-\\frac{b}{x^2}-\\frac{2c}{x^3}=\\frac{ax^2-bx-2c}{x^3}$。\n\n要求 $f(x)$ 在 $(0,+\\infty)$ 既有极大又有极小值，需分子 $ax^2-bx-2c=0$ 有两不等正根：\n1. $\\Delta=b^2+8ac>0$（**C 对**）；\n2. $x_1+x_2=\\frac{b}{a}>0\\implies ab>0$（**B 对**）；\n3. $x_1x_2=-\\frac{2c}{a}>0\\implies ac<0$（**D 对**）。\n\n由 $a,b$ 同号、$a,c$ 异号推出 $b,c$ 异号，故 $bc<0$（**A 错**）。选 **BCD**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由 $f'(x)=\\frac{a}{x}-\\frac{b}{x^2}-\\frac{2c}{x^3}=\\frac{ax^2-bx-2c}{x^3}$（$x>0$）. 因为 $f(x)$ 既有极大值又有极小值，所以方程 $ax^2-bx-2c=0$ 在 $(0,+\\infty)$ 内有两个不相等实根. 故 $\\Delta=b^2+8ac>0$，所以 C 正确.\n\n又两根同为正数，故 $\\frac{-2c}{a}>0$，$\\frac{b}{a}>0$. 从而 $ac<0$，$ab>0$. 故 B，D 正确.\n\n由 $a$，$c$ 异号且 $a$，$b$ 同号，可知 $b$，$c$ 异号，所以 $bc<0$，A 错. 故选 BCD.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q10_solution_fig1.png)"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 互斥选项速判 + 符号链秒杀",
+          "tier": "fast",
+          "badge": "8秒排 A",
+          "audience": "全水平通用",
+          "time_save": "快速定符号",
+          "content_md": "求导看系数的正负交替原则（**笛卡尔符号法则**：正根出现需要相邻系数变号两次！）：\n$ax^2-bx-2c=0$ 要有 2 个正根，三项系数 $(a,\\; -b,\\; -2c)$ 必须按 **$+\\;-\\;+$** 或 **$-\\;+\\;-$** 交替变号！\n\n立刻读出：$a$ 与 $-b$ 异号（$ab>0$，**B 对**），$a$ 与 $-2c$ 同号（$ac<0$，**D 对**），继而 $b,c$ 异号（**A 错**），加上 $\\Delta>0$（**C 对**），秒选 **BCD**！"
         }
       ],
       "solution_figures": [
         "assets/2023/math/new_gaokao_paper_2/q10_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在多选题 A 与 D 之间看错符号：$ax^2-bx-2c=0$ 里的**一次项是 $-b$、常数项是 $-2c$**，所以两根和是 $\\frac{b}{a}>0$（$ab>0$），两根积是 $\\frac{-2c}{a}>0$（$ac<0$）——千万别把常数项的负号看漏算成 $ac>0$！",
+      "takeaway": "求导通分 $f'(x)=\\frac{ax^2-bx-2c}{x^3}\\;(x>0)$！既有极大值又有极小值 $\\iff$ 分子二次方程**在正半轴 $(0,+\\infty)$ 内有两个不等实根** $\\iff$ 判别式正 + 两根和正 + 两根积正！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q12",
@@ -564,7 +828,10 @@
       "type": "multiple_choice",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "概率与二项分布",
+        "信道编码冗余纠错模型"
+      ],
       "stem_md": "在信道内传输 $0,1$ 信号，信号的传输相互独立. 发送 $0$ 时，收到 $1$ 的概率为 $\\alpha$（$0<\\alpha<1$），收到 $0$ 的概率为 $1-\\alpha$；发送 $1$ 时，收到 $0$ 的概率为 $\\beta$（$0<\\beta<1$），收到 $1$ 的概率为 $1-\\beta$. 考虑两种传输方案：单次传输和三次传输. 单次传输是指每个信号只发送 $1$ 次，三次传输是指每个信号重复发送 $3$ 次. 收到的信号需要译码：单次传输时，收到的信号即为译码；三次传输时，收到的信号中出现次数多的即为译码. 则（ ）",
       "figures": [],
       "choices": [
@@ -599,14 +866,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 独立试验拆解 + 作差因式分解",
+          "tier": "intuition",
+          "badge": "稳妥满分",
+          "audience": "全水平通用",
+          "time_save": "40 秒稳解",
+          "content_md": "- **A 对**：三次独立单传概率相乘 $(1-\\beta)(1-\\alpha)(1-\\beta)=(1-\\alpha)(1-\\beta)^2$；\n- **B 对**：定序列“$1,0,1$”无排列系数，为 $(1-\\beta)\\beta(1-\\beta)=\\beta(1-\\beta)^2$；\n- **C 错**：译码为 $1$ 含“恰两次 1”（$3$ 种顺序）或“全 1”，正确式为 $3\\beta(1-\\beta)^2+(1-\\beta)^3$，选项少了系数 $3$；\n- **D 对**：设 $p=1-\\alpha\\in(0.5,1)$，三次译对概率 $3p^2(1-p)+p^3$ 与单次 $p$ 作差：$p[3p(1-p)+p^2-1]=p(1-p)(2p-1)>0$（因 $p>0.5$）。\n\n故选 **ABD**。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "A：单次传输时，依次收到 $1$，$0$，$1$ 的概率为 $(1-\\beta)(1-\\alpha)(1-\\beta)=(1-\\alpha)(1-\\beta)^2$. 正确.\n\nB：三次传输发送 $1$，依次收到 $1$，$0$，$1$ 的概率为 $(1-\\beta)\\beta(1-\\beta)=\\beta(1-\\beta)^2$. 正确.\n\nC：三次传输发送 $1$，译码为 $1$ 需收到至少两个 $1$，故概率为\n$\\binom32(1-\\beta)^2\\beta+(1-\\beta)^3=3(1-\\beta)^2\\beta+(1-\\beta)^3$. 题中少了系数 $3$，故错误.\n\nD：单次传输发送 $0$ 时，译码为 $0$ 的概率为 $1-\\alpha$.\n\n三次传输发送 $0$ 时，设收到 $0$ 的个数为 $Y\\sim B(3,1-\\alpha)$，则译码为 $0$ 的概率为 $P(Y=2)+P(Y=3)=3(1-\\alpha)^2\\alpha+(1-\\alpha)^3$.\n\n两者作差得\n\n$$\n\n3(1-\\alpha)^2\\alpha+(1-\\alpha)^3-(1-\\alpha)=(1-\\alpha)(1-2\\alpha)\\alpha>0\n\n$$\n\n（因为 $0<\\alpha<0.5$）.\n故 D 正确. 故选 ABD."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 特值 $\\alpha=0.1$ 验 D + 一眼抓 C 漏系数 3",
+          "tier": "fast",
+          "badge": "10秒秒杀",
+          "audience": "考场防错",
+          "time_save": "免去多项式作差",
+          "content_md": "1. B（指定序列“$1,0,1$”）里出现了 $\\beta(1-\\beta)^2$，而 C（任一含两个 $1$ 即可）居然也只写了 $\\beta(1-\\beta)^2$ 没乘 $3$！**B 与 C 一对比立刻毙掉 C**！\n2. 看 D：若错误率 $\\alpha<0.5$，重复发 3 次少数服从多数**当然比只发 1 次更稳（孔多塞陪审团定理）**，也可口算特值 $\\alpha=0.1\\implies 0.9^3+3\\cdot 0.81\\cdot 0.1=0.972>0.9$！秒选 **ABD**！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在 C 选项忘记写组合系数 $\\binom{3}{2}=3$（误以为“两次收到1一次收到0”只有 $\\beta(1-\\beta)^2$ 一种顺序，其实 $0$ 可以在第 1,2,3 位任意出现共 3 种！）；另外 D 中做差分解务必记住奇次展开技巧。",
+      "takeaway": "这是信息论里的**3次重复编码（Majority Voting）**原理！发 $0$ 时只要不失误超过 2 次（$0$ 占多数）就算译对；多选题 C 漏了二项式系数 $\\binom{3}{2}=3$ 是最高频陷阱！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q13",
@@ -615,7 +903,10 @@
       "type": "fill_blank",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "平面向量",
+        "模长平方消元"
+      ],
       "stem_md": "已知向量 $\\boldsymbol{a}$，$\\boldsymbol{b}$ 满足 $|\\boldsymbol{a}-\\boldsymbol{b}|=\\sqrt3$，$|\\boldsymbol{a}+\\boldsymbol{b}|=|2\\boldsymbol{a}-\\boldsymbol{b}|$，则 $|\\boldsymbol{b}|= \\underline{\\hspace{2.2em}} $.",
       "figures": [],
       "choices": [],
@@ -624,14 +915,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 两式平方直接消点积",
+          "tier": "intuition",
+          "badge": "15秒口算",
+          "audience": "全水平通用",
+          "time_save": "步骤最简",
+          "content_md": "将 $|\\boldsymbol{a}+\\boldsymbol{b}|^2=|2\\boldsymbol{a}-\\boldsymbol{b}|^2$ 展开：\n$$|\\boldsymbol{a}|^2+2\\boldsymbol{a}\\cdot\\boldsymbol{b}+|\\boldsymbol{b}|^2=4|\\boldsymbol{a}|^2-4\\boldsymbol{a}\\cdot\\boldsymbol{b}+|\\boldsymbol{b}|^2$$\n整理得 $3|\\boldsymbol{a}|^2=6\\boldsymbol{a}\\cdot\\boldsymbol{b}\\implies |\\boldsymbol{a}|^2-2\\boldsymbol{a}\\cdot\\boldsymbol{b}=0$。\n\n将 $|\\boldsymbol{a}-\\boldsymbol{b}|^2=|\\boldsymbol{a}|^2-2\\boldsymbol{a}\\cdot\\boldsymbol{b}+|\\boldsymbol{b}|^2=3$ 代入立得 $|\\boldsymbol{b}|^2=3\\implies |\\boldsymbol{b}|=\\sqrt{3}$。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由 $|\\boldsymbol{a}-\\boldsymbol{b}|^2=3$ 得 $|\\boldsymbol{a}|^2+|\\boldsymbol{b}|^2-2\\boldsymbol{a}\\cdot\\boldsymbol{b}=3$（1）.\n又 $ |\\boldsymbol{a}+\\boldsymbol{b}|^2=|2\\boldsymbol{a}-\\boldsymbol{b}|^2 $，即 $ |\\boldsymbol{a}|^2+|\\boldsymbol{b}|^2+2\\boldsymbol{a}\\cdot\\boldsymbol{b}=4|\\boldsymbol{a}|^2+|\\boldsymbol{b}|^2-4\\boldsymbol{a}\\cdot\\boldsymbol{b} $，\n化简得 $|\\boldsymbol{a}|^2-2\\boldsymbol{a}\\cdot\\boldsymbol{b}=0$.\n代入 （1） 得 $|\\boldsymbol{b}|^2=3$，所以 $|\\boldsymbol{b}|=\\sqrt3$."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 特例建系 $\\boldsymbol{a}=(2,0),\\;\\boldsymbol{b}=(1,y)$ 秒杀",
+          "tier": "fast",
+          "badge": "5秒特例法",
+          "audience": "考场提速",
+          "time_save": "无代数恒等变形",
+          "content_md": "由 $|\\boldsymbol{a}|^2=2\\boldsymbol{a}\\cdot\\boldsymbol{b}$（即 $\\boldsymbol{a}\\perp(\\boldsymbol{a}-2\\boldsymbol{b})$），取最简正交特值：**设 $\\boldsymbol{a}=(2,0)$，且 $\\boldsymbol{b}$ 垂直 $\\boldsymbol{a}$? 不，设 $\\boldsymbol{b}$ 为一般 $(x,y)$，若取 $\\boldsymbol{a}=(1,0)$ 则 $|\\boldsymbol{a}+\\boldsymbol{b}|=|2\\boldsymbol{a}-\\boldsymbol{b}|$ 即 $(x+1)^2=(x-2)^2\\implies x=\\frac{1}{2}$**；再代 $|\\boldsymbol{a}-\\boldsymbol{b}|^2=(\\frac{1}{2})^2+y^2=3\\implies y^2=\\frac{11}{4}\\implies |\\boldsymbol{b}|=\\sqrt{\\frac{1}{4}+\\frac{11}{4}}=\\sqrt{3}$！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在展开 $|2\\boldsymbol{a}-\\boldsymbol{b}|^2$ 时把系数平方搞错（错写成 $2|\\boldsymbol{a}|^2$ 而非 $4|\\boldsymbol{a}|^2$）。",
+      "takeaway": "由第二个模长等式 $|\\boldsymbol{a}+\\boldsymbol{b}|=|2\\boldsymbol{a}-\\boldsymbol{b}|$ 两边平方直接消掉 $|\\boldsymbol{b}|^2$，白送比例关系 $|\\boldsymbol{a}|^2=2\\boldsymbol{a}\\cdot\\boldsymbol{b}$，代回第一式 $|\\boldsymbol{a}|^2$ 与点积刚好抵消成 $0$，瞬间只剩 $|\\boldsymbol{b}|^2=3$！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q14",
@@ -640,7 +952,10 @@
       "type": "fill_blank",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "立体几何",
+        "相似棱锥体积比 $k^3$"
+      ],
       "stem_md": "底面边长为 $4$ 的正四棱锥被平行于其底面的平面所截，截去一个底面边长为 $2$，高为 $3$ 的正四棱锥，所得棱台的体积为 ______ .",
       "figures": [],
       "choices": [],
@@ -649,16 +964,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 体积立方比减法秒出",
+          "tier": "intuition",
+          "badge": "5秒口算",
+          "audience": "全水平通用",
+          "time_save": "直接心算",
+          "content_md": "小四棱锥底面边长 $2$、高 $3$，故小四棱锥体积 $V_{\\text{小}}=\\frac{1}{3}\\times 2^2\\times 3=4$。\n\n因为截后与原棱锥相似，边长比 $2:4=1:2$，故体积比 $V_{\\text{小}}:V_{\\text{原}}=1:8$，剩余棱台体积等于 $7V_{\\text{小}}=7\\times 4=28$。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "两四棱锥相似，边长比为 $\\frac{2}{4}=\\frac12$，故体积比为 $\\left(\\frac12\\right)^3=\\frac18$.\n设截去的小四棱锥体积为 $V_1$，原四棱锥体积为 $V$，则 $V=8V_1$，故棱台体积为 $V-V_1=7V_1$.\n而 $V_1=\\frac13\\cdot 2^2\\cdot 3=4$，所以棱台体积为 $7\\cdot 4=28$.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q14_solution_fig1.png)"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 补高验证防粗心",
+          "tier": "fast",
+          "badge": "双向检验",
+          "audience": "防错校核",
+          "time_save": "确认高为 3",
+          "content_md": "若按台体公式验算：相似比 $1:2\\implies$ 棱台高与小锥高相等也为 $3$，上底 $S_1=4$、下底 $S_2=16$，则 $V=\\frac{1}{3}\\times 3\\times(4+\\sqrt{64}+16)=28$，严丝合缝！"
         }
       ],
       "solution_figures": [
         "assets/2023/math/new_gaokao_paper_2/q14_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "看反小锥高与棱台高（题目给的是**截去的小四棱锥的高为 $3$**，不是棱台的高为 $3$！所以 $V_{\\text{小}}=\\frac{1}{3}\\times 2^2\\times 3=4$，绝不是按大高减 3！）。",
+      "takeaway": "凡是平行底面截棱锥，千万别再去算大棱锥高再去代复杂的台体公式！直接用**相似比 $1:2\\implies$ 体积比 $1:8$，故截留棱台是小棱锥的 $7$ 倍**！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q15",
@@ -667,7 +1003,10 @@
       "type": "fill_blank",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "直线与圆",
+        "弦三角形面积反求弦心距"
+      ],
       "stem_md": "已知直线 $x-my+1=0$ 与圆 $C:(x-1)^2+y^2=4$ 交于 $A$，$B$ 两点，写出满足“$\\triangle ABC$ 的面积为 $\\frac85$”的 $m$ 的一个值 ______ .",
       "figures": [],
       "choices": [],
@@ -676,16 +1015,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 垂径定理面积转弦心距",
+          "tier": "intuition",
+          "badge": "稳妥基本功",
+          "audience": "全水平通用",
+          "time_save": "25 秒稳解",
+          "content_md": "圆心 $C(1,0)$，半径 $r=2$。设圆心到直线距离为 $d$，则 $|AB|=2\\sqrt{4-d^2}$。\n\n由面积 $S_{\\triangle ABC}=d\\sqrt{4-d^2}=\\frac{8}{5}$，两边平方得 $d^4-4d^2+\\frac{64}{25}=0\\implies (d^2-\\frac{4}{5})(d^2-\\frac{16}{5})=0$。\n\n取最简洁一枝 $d=\\frac{2}{\\sqrt{5}}$，代入距离公式 $\\frac{|1+1|}{\\sqrt{1+m^2}}=\\frac{2}{\\sqrt{5}}\\implies 1+m^2=5\\implies m=2$（任填 $\\pm 2,\\pm\\frac{1}{2}$ 之一即可）。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "设圆心 $C(1,0)$ 到直线 $AB$ 的距离为 $d$（$d>0$）. 则\n所以 $S_{\\triangle ABC}=\\frac12|AB|\\cdot d$，且 $|AB|=2\\sqrt{4-d^2}$，所以 $\\sqrt{(4-d^2)d^2}=\\frac85$，得 $d=\\frac{2}{\\sqrt5}$ 或 $d=\\frac{4}{\\sqrt5}$.\n由点到直线距离公式，$d=\\frac{|1+1|}{\\sqrt{1+m^2}}=\\frac{2}{\\sqrt{1+m^2}}$.\n于是 $\\frac{2}{\\sqrt{1+m^2}}=\\frac{2}{\\sqrt5}$ 或 $\\frac{2}{\\sqrt{1+m^2}}=\\frac{4}{\\sqrt5}$，故 $m=\\pm 2$ 或 $m=\\pm\\frac12$.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q15_solution_fig1.png)"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 等腰顶角正弦秒破 $\\sin\\theta=\\frac{4}{5}$",
+          "tier": "fast",
+          "badge": "10秒口算",
+          "audience": "几何敏锐",
+          "time_save": "不解四次方程",
+          "content_md": "设 $\\angle ACB=\\theta$，由 $S_{\\triangle ABC}=\\frac{1}{2}r^2\\sin\\theta=2\\sin\\theta=\\frac{8}{5}\\implies \\sin\\theta=\\frac{4}{5}$！\n\n经典 $3$-$4$-$5$ 立刻给出 $\\cos\\theta=\\pm\\frac{3}{5}$！选锐角 $\\cos\\theta=\\frac{3}{5}$ 时半角余弦 $\\cos\\frac{\\theta}{2}=\\sqrt{\\frac{1+3/5}{2}}=\\frac{2}{\\sqrt{5}}$（即 $d=r\\cos\\frac{\\theta}{2}=\\frac{4}{\\sqrt{5}}$），或钝角半角 $\\frac{1}{\\sqrt{5}}$（即 $d=\\frac{2}{\\sqrt{5}}$），对应 $\\frac{2}{\\sqrt{1+m^2}}=\\frac{2}{\\sqrt{5}}\\implies m=2$！"
         }
       ],
       "solution_figures": [
         "assets/2023/math/new_gaokao_paper_2/q15_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "这是一道开放多解题，填 $2,-2,\\frac{1}{2},-\\frac{1}{2}$ 任意一个均得分！但注意验证点到直线距离公式分子 $|1-m\\cdot 0+1|=2$，分母 $\\sqrt{1+m^2}$ 不要误写成 $\\sqrt{1+2m^2}$。",
+      "takeaway": "看见 $S_{\\triangle ABC}=\\frac{1}{2}AB\\cdot d=d\\sqrt{r^2-d^2}=\\frac{8}{5}$，其中半径 $r=2\\implies r^2=4$，一眼猜勾股配对 **$d^2$ 和 $4-d^2$ 两数和为 $4$、积为 $\\frac{64}{25}$**：口算 $\\frac{4}{5}+\\frac{16}{5}=4$，秒出 $d=\\frac{2}{\\sqrt{5}}$ 或 $\\frac{4}{\\sqrt{5}}$！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q16",
@@ -694,7 +1054,10 @@
       "type": "fill_blank",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "三角函数图像",
+        "区间距离与零点定 $\\omega,\\varphi$"
+      ],
       "stem_md": "已知函数 $f(x)=\\sin(\\omega x+\\varphi)$，如图，$A$，$B$ 是直线 $y=\\frac12$ 与曲线 $y=f(x)$ 的两个交点，若 $|AB|=\\frac{\\pi}{6}$，则 $f(\\pi)= \\underline{\\hspace{2.2em}} $.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q16_fig1.png)",
       "figures": [
         "assets/2023/math/new_gaokao_paper_2/q16_fig1.png"
@@ -705,16 +1068,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 五点对称定周期与初相",
+          "tier": "intuition",
+          "badge": "稳妥基本功",
+          "audience": "全水平通用",
+          "time_save": "25 秒稳解",
+          "content_md": "由 $\\sin u=\\frac{1}{2}$ 在同一波峰两侧两解差 $\\Delta u=\\frac{5\\pi}{6}-\\frac{\\pi}{6}=\\frac{2\\pi}{3}$，对应 $\\omega|AB|=\\frac{2\\pi}{3}\\implies \\omega\\cdot\\frac{\\pi}{6}=\\frac{2\\pi}{3}\\implies \\omega=4$。\n\n由图读出上升零点 $x=\\frac{2\\pi}{3}$ 处相位 $4\\cdot\\frac{2\\pi}{3}+\\varphi=2k\\pi$，取 $\\varphi=-\\frac{8\\pi}{3}+2k\\pi$。\n\n于是 $f(\\pi)=\\sin(4\\pi-\\frac{8\\pi}{3})=\\sin(\\frac{4\\pi}{3})=-\\frac{\\sqrt{3}}{2}$。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "由 $\\sin(\\omega x+\\varphi)=\\frac12$ 得\n$\\omega x+\\varphi=2k\\pi+\\frac{\\pi}{6}$ 或 $\\omega x+\\varphi=2k\\pi+\\frac{5\\pi}{6}$.\n由图知对应两交点 $A$，$B$ 满足 $\\omega(x_B-x_A)=\\frac{2\\pi}{3}$，故 $|AB|=x_B-x_A=\\frac{2\\pi}{3\\omega}$，由 $|AB|=\\frac{\\pi}{6}$ 得 $\\omega=4$.\n又图中 $x=\\frac{2\\pi}{3}$ 为增区间上的零点，所以 $\\frac{8\\pi}{3}+\\varphi=2n\\pi$，从而 $\\varphi=2n\\pi-\\frac{8\\pi}{3}$.\n因此\n$f(\\pi)=\\sin\\left(4\\pi-\\frac{8\\pi}{3}\\right)=\\sin\\left(-\\frac{2\\pi}{3}\\right)=-\\frac{\\sqrt3}{2}$.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q16_solution_fig1.png)"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 周期平移直接从 $\\frac{2\\pi}{3}$ 推向 $\\pi$",
+          "tier": "fast",
+          "badge": "10秒平移秒杀",
+          "audience": "图像直觉",
+          "time_save": "根本不用算初相 $\\varphi$",
+          "content_md": "甚至**完全不用求 $\\varphi$**！\n\n既然 $y=\\frac{1}{2}$ 截波峰宽度占 $\\frac{1}{3}$ 周期 $\\implies T=3\\times\\frac{\\pi}{6}=\\frac{\\pi}{2}$，又已知图上点 $x=\\frac{2\\pi}{3}$ 正好处于正弦曲线的**上升零点（相当于原点相位 $0$）**：\n\n目标点 $x=\\pi$ 在该零点右侧多走了 $\\Delta x=\\pi-\\frac{2\\pi}{3}=\\frac{\\pi}{3}$，恰好等于 **$\\frac{2}{3}$ 个周期**（相位走过 $\\frac{2}{3}\\cdot 2\\pi=\\frac{4\\pi}{3}=240^\\circ$）！\n\n所以 $f(\\pi)=\\sin\\frac{4\\pi}{3}=-\\frac{\\sqrt{3}}{2}$！3 秒心算秒杀！"
         }
       ],
       "solution_figures": [
         "assets/2023/math/new_gaokao_paper_2/q16_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "看错图上给出的横坐标交点 $\\frac{2\\pi}{3}$ 是递增过零点还是递减过零点（图上 $x=\\frac{2\\pi}{3}$ 处于**上升穿过 $x$ 轴**的位置，故相位必为 $2k\\pi$ 而非 $(2k+1)\\pi$，差 $\\pi$ 会直接算反最终正负号！）。",
+      "takeaway": "直线 $y=\\frac{1}{2}$ 截正弦波 $y=\\sin(\\omega x+\\varphi)$ 所夹“波峰帽檐”的水平宽度，永远恰好占**总周期 $T$ 的 $\\frac{1}{3}$**（因 $\\frac{5\\pi}{6}-\\frac{\\pi}{6}=\\frac{2\\pi}{3}$ 占 $2\\pi$ 的 $\\frac{1}{3}$）！所以 $\\frac{T}{3}=\\frac{\\pi}{6}\\implies T=\\frac{\\pi}{2}\\implies \\omega=4$！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q17",
@@ -723,7 +1107,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "解三角形",
+        "中线向量定理与正余弦定理"
+      ],
       "stem_md": "记 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $\\triangle ABC$ 的面积为 $\\sqrt3$，$D$ 为 $BC$ 的中点，且 $AD=1$.\n\n（1）若 $\\angle ADC=\\dfrac{\\pi}{3}$，求 $\\tan B$；\n（2）若 $b^2+c^2=8$，求 $b$，$c$.",
       "figures": [],
       "choices": [],
@@ -732,16 +1119,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 面积定边 + 中线向量平方",
+          "tier": "intuition",
+          "badge": "规范满分",
+          "audience": "全水平通用",
+          "time_save": "标准得分路径",
+          "content_md": "**（1）** 因 $D$ 为 $BC$ 中点，$S_{\\triangle ABD}=\\frac{1}{2}S_{\\triangle ABC}=\\frac{\\sqrt{3}}{2}$，而 $\\angle ADB=\\pi-\\frac{\\pi}{3}=\\frac{2\\pi}{3}$。\n由 $\\frac{1}{2}AD\\cdot BD\\sin\\frac{2\\pi}{3}=\\frac{\\sqrt{3}}{2}$ 得 $BD=2$。由余弦定理得 $AB=\\sqrt{1+4-2\\cdot 1\\cdot 2\\cdot(-\\frac{1}{2})}=\\sqrt{7}$。\n由正弦定理 $\\sin B=\\frac{AD\\sin 120^\\circ}{AB}=\\frac{\\sqrt{3}}{2\\sqrt{7}}$，因 $\\angle ADB=120^\\circ$ 故 $B$ 为锐角，$\\cos B=\\frac{5}{2\\sqrt{7}}$，故 $\\tan B=\\frac{\\sqrt{3}}{5}$。\n\n**（2）** 由面积公式得 $bc\\sin A=2\\sqrt{3}$ ①。由 $\\overrightarrow{AD}=\\frac{1}{2}(\\overrightarrow{AB}+\\overrightarrow{AC})$ 两边平方得 $b^2+c^2+2bc\\cos A=4AD^2=4$，代入 $b^2+c^2=8$ 得 $bc\\cos A=-2$ ②。\n①②平方相加：$b^2c^2=12+4=16\\implies bc=4$，联立 $b^2+c^2=8\\implies (b-c)^2=0\\implies b=c=2$。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）因为 $\\angle ADC=\\frac{\\pi}{3}$，所以 $\\angle ADB=\\frac{2\\pi}{3}$.\n又 $D$ 为 $BC$ 中点，所以 $S_{\\triangle ABD}=\\frac12S_{\\triangle ABC}=\\frac{\\sqrt3}{2}$.\n而 $S_{\\triangle ABD}=\\frac12 AD\\cdot BD\\cdot \\sin\\angle ADB=\\frac12\\cdot 1\\cdot BD\\cdot \\frac{\\sqrt3}{2}$，故 $BD=2$.\n\t在 $\\triangle ABD$ 中，由余弦定理，$AB^2=AD^2+BD^2-2AD\\cdot BD\\cos\\angle ADB=1^2+2^2-2\\cdot 1\\cdot 2\\cdot\\left(-\\frac12\\right)=7$，所以 $AB=\\sqrt7$.\n由正弦定理，$\\frac{AB}{\\sin\\angle ADB}=\\frac{AD}{\\sin B}$，得\n$\\sin B=\\frac{AD\\sin\\angle ADB}{AB}=\\frac{1\\cdot \\frac{\\sqrt3}{2}}{\\sqrt7}=\\frac{\\sqrt3}{2\\sqrt7}$.\n因为 $B$ 为锐角，所以 $\\cos B=\\sqrt{1-\\sin^2B}=\\frac{5}{2\\sqrt7}$，故\n$\\tan B=\\frac{\\sin B}{\\cos B}=\\frac{\\sqrt3}{5}$.\n（2）由面积公式，$\\frac12bc\\sin A=\\sqrt3$，即 $bc\\sin A=2\\sqrt3$（1）.\n\t又因为 $D$ 为 $BC$ 中点，$\\overrightarrow{AD}=\\frac12(\\overrightarrow{AB}+\\overrightarrow{AC})$，所以 $4AD^2=AB^2+AC^2+2\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$. 代入 $AD=1$，$AB=c$，$AC=b$，得 $b^2+c^2+2bc\\cos A=4$.\n由 $b^2+c^2=8$ 得 $bc\\cos A=-2$（2）.\n由（1）（2）平方相加得 $b^2c^2(\\sin^2A+\\cos^2A)=16$，所以 $bc=4$.\n又 $b^2+c^2=8$，故 $(b+c)^2=8+2bc=16$，\n于是 $b+c=4$. 结合 $bc=4$，得 $b=c=2$.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q17_solution_fig1.png)"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 第（1）问作高勾股秒算 $\\tan B$ + 第（2）问对称猜 $b=c$",
+          "tier": "fast",
+          "badge": "10秒几何巧算",
+          "audience": "考场提速",
+          "time_save": "免用正余弦公式",
+          "content_md": "**（1）作高直角三角形秒算**：算出 $BD=2$ 后，从 $A$ 向 $CB$ 延长线作高 $AE$：因 $\\angle ADE=60^\\circ$ 且 $AD=1$，立刻读出 $DE=\\frac{1}{2},\\;AE=\\frac{\\sqrt{3}}{2}$！\n\n在 $\\mathrm{Rt}\\triangle ABE$ 里底边 $BE=BD+DE=2+\\frac{1}{2}=\\frac{5}{2}$，故 $\\tan B=\\frac{AE}{BE}=\\frac{\\sqrt{3}/2}{5/2}=\\frac{\\sqrt{3}}{5}$！（不用求 $AB=\\sqrt{7}$、不用正弦定理！）\n\n**（2）直觉锚定**：由 $b^2+c^2=8$ 与面积对称，先猜 $b=c=2$ 代入得 $a$、$AD$ 检验（$AD$ 高 $=1\\implies \\frac{1}{2}a\\cdot 1=\\sqrt{3}\\implies a=2\\sqrt{3},\\; b=c=\\sqrt{1+3}=2$ 恰满足 $b^2+c^2=8$！），再补全向量证明拿满分！"
         }
       ],
       "solution_figures": [
         "assets/2023/math/new_gaokao_paper_2/q17_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "第（1）问中记住 $\\angle ADC=60^\\circ$ 与 $\\angle ADB=120^\\circ$ 互补别搞反；求 $\\tan B$ 时要利用 $B$ 在钝角 $\\triangle ABD$（$\\angle ADB=120^\\circ$）里必为锐角来定正负号。",
+      "takeaway": "见到三角形中线 $AD$，脑中立刻同时响起**中线长公式（极化/平行四边形对角线定理）：$4AD^2 + a^2 = 2(b^2+c^2)$**（或者 $b^2+c^2+2bc\\cos A=4AD^2$）！第（2）问代进去瞬间出 $bc\\cos A=-2$，配面积 $bc\\sin A=2\\sqrt{3}$ 平方相加秒杀 $bc=4$！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q18",
@@ -750,7 +1158,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "奇偶项分段数列",
+        "分组求和与不等式证明"
+      ],
       "stem_md": "已知 $\\{a_n\\}$ 为等差数列，$b_n=a_n-6$（$n$ 为奇数），$b_n=2a_n$（$n$ 为偶数）. 记 $S_n$，$T_n$ 分别为 $\\{a_n\\}$，$\\{b_n\\}$ 的前 $n$ 项和，且 $S_4=32$，$T_3=16$.\n\n（1）求 $\\{a_n\\}$ 的通项公式；\n（2）证明：当 $n>5$ 时，$T_n>S_n$.",
       "figures": [],
       "choices": [],
@@ -759,14 +1170,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 先算偶数和 $T_{2k}$ 再反减得奇数和",
+          "tier": "intuition",
+          "badge": "规范满分",
+          "audience": "全水平通用",
+          "time_save": "避免分式算错",
+          "content_md": "**（1）** 由 $S_4=4a_1+6d=32$ 及 $T_3=(a_1-6)+2a_2+(a_3-6)=4a_1+4d-12=16\\implies a_1=5,d=2\\implies a_n=2n+3$。\n\n**（2）** $S_n=n^2+4n$。\n- 当 $n$ 为偶数时，$T_n$ 将奇位加 $a-6$、偶位加 $2a$：每组奇偶两项比原 $S_n$ 多出 $a_{2k}-6=(4k+3)-6=4k-3$！直接求和得 $T_n-S_n=\\sum_{k=1}^{n/2}(4k-3)=\\frac{n^2-n}{2}>0\\;(n>5)$；\n- 当 $n$ 为奇数时，$n+1$ 为偶数，故 $T_n-S_n=(T_{n+1}-S_{n+1})-(b_{n+1}-a_{n+1})=\\frac{(n+1)n}{2}-(2n+5)=\\frac{(n+2)(n-5)}{2}>0\\;(n>5)$。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）设等差数列首项为 $a_1$，公差为 $d$. 由 $S_4=4a_1+6d=32$（1）且\n\t\t\t\n$$\n\n\t\t\tT_3=(a_1-6)+2(a_1+d)+(a_1+2d-6)=4a_1+4d-12=16\n\t\t\t\n$$\n\n\t\t\t联立以上两式得 $a_1=5$，$d=2$，故 $a_n=a_1+(n-1)d=2n+3$.\n（2）由（1）得 $S_n=\\frac{n(a_1+a_n)}{2}=\\frac{n(5+2n+3)}{2}=n^2+4n$.\n\n\t\t当 $n>5$ 为偶数时，$T_n=(a_1+a_3+\\cdots+a_{n-1})-6\\cdot\\frac n2+2(a_2+a_4+\\cdots+a_n)$，并且 $a_1+a_3+\\cdots+a_{n-1}=\\frac{n^2+3n}{2}$，$a_2+a_4+\\cdots+a_n=\\frac{n^2+5n}{2}$.\n\t故 $T_n=\\frac{3n^2+7n}{2}$，于是\n\t\n$$\n\n\tT_n-S_n=\\frac{3n^2+7n}{2}-(n^2+4n)=\\frac{n^2-n}{2}>0\n\t\n$$\n\n\t\t当 $n>5$ 为奇数时，$T_n=T_{n+1}-b_{n+1}$. 因为 $n+1$ 为偶数，$T_{n+1}=\\frac{3(n+1)^2+7(n+1)}{2}$，$b_{n+1}=2a_{n+1}=2(2n+5)$.\n\t所以 $T_n=\\frac{3n^2+5n-10}{2}$，从而\n\t\n$$\n\n\tT_n-S_n=\\frac{3n^2+5n-10}{2}-(n^2+4n)=\\frac{(n+2)(n-5)}{2}>0\n\t\n$$\n\n综上，当 $n>5$ 时，恒有 $T_n>S_n$."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 奇偶配对净增量“一句包杀”",
+          "tier": "fast",
+          "badge": "3行直出差值",
+          "audience": "高分提速",
+          "time_save": "完全免单独算 $T_n$ 通项",
+          "content_md": "根本不用费劲先算“$a_1+a_3+\\cdots$”再拼凑出 $T_n$！直接定义差值 $\\Delta_k=b_k-a_k$：\n$$\\Delta_{2k-1}=-6,\\qquad \\Delta_{2k}=a_{2k}=4k+3$$\n\n**每两项打包的净增量**：$\\Delta_{2k-1}+\\Delta_{2k}=4k-3$！\n- 偶数 $n=2m$：$T_n-S_n=\\sum_{k=1}^m(4k-3)=m(2m-1)=\\frac{n^2-n}{2}>0$；\n- 奇数 $n=2m+1$：前 $2m$ 项已增 $m(2m-1)$，第 $2m+1$ 项再加 $\\Delta_{2m+1}=-6$，得 $2m^2-m-6=(m-2)(2m+3)>0\\;(m\\ge 3\\text{ 即 }n\\ge 7)$！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "第（2）问处理奇偶两种情况时容易弄反第 $n$ 项到底套哪条公式，建议先把**偶数项 $n=2k$** 算对，再用 $T_{2k-1}=T_{2k}-b_{2k}$ 一步反推出奇数项！",
+      "takeaway": "看到“$n$ 为奇数减 6、$n$ 为偶数翻 2 倍”的分段数列求和证明 $T_n>S_n$，**第一核心策略是“成对打包配对做差”**——每相邻一奇一偶两项 $(b_{2k-1}+b_{2k})-(a_{2k-1}+a_{2k})=a_{2k}-6$！只要看这一对对净增量什么时候变正，直接秒通无需苦算长多项式通项！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q19",
@@ -775,7 +1207,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "统计与概率",
+        "医学检测ROC临界值优化"
+      ],
       "stem_md": "某研究小组经过研究发现某种疾病的患病者与未患病者的某项医学指标有明显差异. 经过大量调查，得到如下的患病者和未患病者该项指标的频率分布直方图：\n\n利用该指标制定一个检测标准，需要确定临界值 $c$，将该指标大于 $c$ 的人判定为阳性，小于或等于 $c$ 的人判定为阴性. 此检测标准的漏诊率是将患病者判定为阴性的概率，记为 $p(c)$；误诊率是将未患病者判定为阳性的概率，记为 $q(c)$. 假设数据在组内均匀分布，以事件发生的频率作为相应事件发生的概率.\n\n（1）当漏诊率 $p(c)=0.5\\%$ 时，求临界值 $c$ 和误诊率 $q(c)$；\n（2）设函数 $f(c)=p(c)+q(c)$. 当 $c\\in[95,105]$ 时，求 $f(c)$ 的解析式，并求 $f(c)$ 在区间 $[95,105]$ 的最小值.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q19_fig1.png)",
       "figures": [
         "assets/2023/math/new_gaokao_paper_2/q19_fig1.png"
@@ -786,14 +1221,35 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 面积逐段列线性函数求极值",
+          "tier": "intuition",
+          "badge": "规范满分",
+          "audience": "全水平通用",
+          "time_save": "步骤零纰漏",
+          "content_md": "**（1）** 患病者 $[95,100)$ 组面积为 $5\\times 0.002=0.01>0.005$，故临界值 $c\\in[95,100)$，且 $(c-95)\\times 0.002=0.005\\implies c=97.5$。\n此时未患病者大于 $97.5$ 的面积为 $(100-97.5)\\times 0.01+5\\times 0.002=0.035=3.5\\%$。\n\n**（2）** 分 $[95,100)$ 与 $[100,105]$ 两段计算 $f(c)=p(c)+q(c)$：\n- $95\\le c<100$：$f(c)=(c-95)\\cdot 0.002+(100-c)\\cdot 0.01+0.01=-0.008c+0.82$（递减）；\n- $100\\le c\\le 105$：$f(c)=0.01+(c-100)\\cdot 0.012+(105-c)\\cdot 0.002=0.01c-0.98$（递增）。\n\n折线先降后升，在拐点 $c=100$ 处取得最小值 $f(100)=0.02$。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）由患病者的频率分布图可知，$[95,100)$ 这一组的频率为 $5\\times 0.002=0.01>0.005$. 所以 $c\\in[95,100)$，且 $(c-95)\\times 0.002=0.005$.\n解得 $c=97.5$.\n此时未患病者中指标大于 $97.5$ 的概率为 $(100-97.5)\\times 0.01+5\\times 0.002=0.035$，故 $q(c)=3.5\\%$.\n（2）当 $95\\le c<100$ 时，$p(c)=(c-95)\\times 0.002$，$q(c)=(100-c)\\times 0.01+5\\times 0.002$，所以 $f(c)=p(c)+q(c)=-0.008c+0.82$.\n\n\t当 $100\\le c\\le 105$ 时，$p(c)=5\\times 0.002+(c-100)\\times 0.012$，$q(c)=(105-c)\\times 0.002$，故 $f(c)=0.01c-0.98$.\n因此\n\n$$\n\nf(c)=\n\\begin{cases}\n-0.008c+0.82,&95\\le c<100,\\\\\n0.01c-0.98,&100\\le c\\le 105.\n\\end{cases}\n\n$$\n\n并且在两段上分别有 $f(c)>-0.008\\cdot 100+0.82=0.02$ 与\n$f(c)\\ge 0.01\\cdot 100-0.98=0.02$. 故最小值为 $f_{\\min}=0.02$."
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 导数（密度差）直觉一秒定位最小值点 $c=100$",
+          "tier": "fast",
+          "badge": "5秒直觉校核",
+          "audience": "高阶统计视野",
+          "time_save": "一眼看穿折点",
+          "content_md": "注意 $p'(c)=$ 患病者密度 $h_{\\text{病}}(c)$，而 $q'(c)=-$ 未患病者密度 $-h_{\\text{未}}(c)$！\n\n所以总误判率变化率 $f'(c)=h_{\\text{病}}(c)-h_{\\text{未}}(c)$：\n- 在 $[95,100)$：$0.002-0.010=-0.008<0$（向右移减小）；\n- 在 $[100,105]$：$0.012-0.002=+0.010>0$（向右移增大）！\n\n两个斜率 $-0.008$ 和 $+0.01$ 秒出，在转折点 $c=100$ 处交界最小值等于两张直方图交叠总面积 $5\\times 0.002+5\\times 0.002=0.02$！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "看直方图纵轴“频率/组距”时千万别忘了**乘以组距 $5$**，并且看准“漏诊率 $p(c)$ 是**小于等于 $c$** 的患病者面积（从左往右累计）”，而“误诊率 $q(c)$ 是**大于 $c$** 的未患病者面积（从右往左累计）”——方向千万别搞反！",
+      "takeaway": "这是现实生统里极经典的分段概率建模：**把直方图每个小矩形面积（组距 $5 \\times$ 纵坐标频率密度）算成组频率**，然后把总错误率 $f(c)=p(c)+q(c)$ 转化为带绝对值/分段的线性函数（左降右升的 V 形折线），最小值天然落在两段分界点 $c=100$ 处！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q20",
@@ -802,7 +1258,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "立体几何",
+        "三棱锥垂直证明与二面角正弦"
+      ],
       "stem_md": "如图，三棱锥 $A-BCD$ 中，$DA=DB=DC$，$BD\\perp CD$，$\\angle ADB=\\angle ADC=60^\\circ$，$E$ 为 $BC$ 的中点.\n\n（1）证明：$BC\\perp DA$；\n（2）点 $F$ 满足 $\\overrightarrow{EF}=\\overrightarrow{DA}$，求二面角 $D-AB-F$ 的正弦值.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q20_fig1.png)",
       "figures": [
         "assets/2023/math/new_gaokao_paper_2/q20_fig1.png"
@@ -813,16 +1272,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 取中点证面垂直 + 顺势建系",
+          "tier": "intuition",
+          "badge": "规范满分",
+          "audience": "全水平通用",
+          "time_save": "建系零铺垫",
+          "content_md": "**（1）** 由 $DA=DB=DC$ 且 $\\angle ADB=\\angle ADC=60^\\circ$ 得 $\\triangle ADB,\\triangle ADC$ 均为正三角形，故 $AB=AC$。取 $BC$ 中点 $E$，则 $AE\\perp BC$ 且 $DE\\perp BC\\implies BC\\perp\\text{面 }ADE\\implies BC\\perp DA$。\n\n**（2）** 设棱长为 $2$，由 $BD\\perp CD$ 得 $BC=2\\sqrt{2}$，$DE=\\sqrt{2},\\;AE=\\sqrt{2}$，恰有 $AE^2+DE^2=4=AD^2\\implies AE\\perp DE$。\n\n以 $E$ 为原点建系：$A(0,0,\\sqrt{2}),D(\\sqrt{2},0,0),B(0,\\sqrt{2},0)$，由平行四边形 $ADEF$ 得 $\\overrightarrow{FA}=\\overrightarrow{ED}=(\\sqrt{2},0,0)$。\n\n算得 $\\boldsymbol{m}_{DAB}=(1,1,1)$、$\\boldsymbol{n}_{ABF}=(0,1,1)$，夹角余弦 $\\frac{2}{\\sqrt{6}}=\\frac{\\sqrt{6}}{3}$，故正弦值 $\\frac{\\sqrt{3}}{3}$。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）因为 $DA=DB=DC$ 且 $\\angle ADB=\\angle ADC=60^\\circ$，所以 $\\triangle ADB$ 与 $\\triangle ADC$ 都是正三角形，故 $AB=AC$.\n又 $E$ 为 $BC$ 中点，所以 $AE\\perp BC$，$DE\\perp BC$. 因为 $AE$，$DE\\subset \\text{平面 }ADE$ 且相交于 $E$，所以 $BC\\perp \\text{平面 }ADE$. 而 $DA\\subset \\text{平面 }ADE$，故 $BC\\perp DA$.\n（2）不妨设 $DA=DB=DC=2$. 则 $AB=AC=2$，$BC=\\sqrt{DB^2+DC^2}=2\\sqrt2$.\n因为 $E$ 是 $BC$ 中点，所以 $BE=CE=DE=\\sqrt2$，且 $AE=\\sqrt{AC^2-CE^2}=\\sqrt2$.\n故 $AE^2+DE^2=AD^2$，所以 $AE\\perp DE$. 于是可取 E 为原点建立空间直角坐标系：$A(0,0,\\sqrt2)$，$D(\\sqrt2,0,0)$，$B(0,\\sqrt2,0)$.\n由 $\\overrightarrow{EF}=\\overrightarrow{DA}$ 可知四边形 $ADEF$ 为平行四边形，从而 $\\overrightarrow{FA}=\\overrightarrow{ED}=(\\sqrt2,0,0)$.\n设平面 $DAB$ 的法向量为 $\\mathbf m=(x_1,y_1,z_1)$，平面 $ABF$ 的法向量为 $\\mathbf n=(x_2,y_2,z_2)$. 则\n\n$$\n\n\\begin{cases}\n\\mathbf m\\cdot \\overrightarrow{DA}=-\\sqrt2 x_1+\\sqrt2 z_1=0,\\\\\n\\mathbf m\\cdot \\overrightarrow{AB}=\\sqrt2 y_1-\\sqrt2 z_1=0.\n\\end{cases}\n\n$$\n\n令 $x_1=1$，则 $y_1=1$，$z_1=1$.\n所以 $\\mathbf m=(1,1,1)$ 是平面 $DAB$ 的一个法向量.\n\n$$\n\n\\begin{cases}\n\\mathbf n\\cdot \\overrightarrow{AB}=\\sqrt2 y_2-\\sqrt2 z_2=0,\\\\\n\\mathbf n\\cdot \\overrightarrow{FA}=\\sqrt2 x_2=0.\n\\end{cases}\n\n$$\n\n令 $y_2=1$，则 $x_2=0$，$z_2=1$.\n所以 $\\mathbf n=(0,1,1)$ 是平面 $ABF$ 的一个法向量.\n于是 $\\cos\\langle \\mathbf m,\\mathbf n\\rangle=\\frac{\\mathbf m\\cdot \\mathbf n}{|\\mathbf m||\\mathbf n|}=\\frac{2}{\\sqrt3\\cdot \\sqrt2}=\\frac{\\sqrt6}{3}$. 故所求二面角的正弦值为 $\\sqrt{1-\\left(\\frac{\\sqrt6}{3}\\right)^2}=\\frac{\\sqrt3}{3}$.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q20_solution_fig1.png)"
+        },
+        {
+          "id": "fast_1",
+          "label": "考场快解 · 截出隐形正方体角落秒算二面角",
+          "tier": "fast",
+          "badge": "10秒正方体模型",
+          "audience": "空间直觉",
+          "time_save": "免算两个法向量",
+          "content_md": "注意 $DA=DB=DC=2$ 且边边夹角恰好是 **$90^\\circ, 60^\\circ, 60^\\circ$**（等腰直角+双正三角），把底面直角边 $DB,DC$ 与上面放进坐标对比即得 $E$-$DAB$ 恰是一个正四面体或直角三棱柱半边：**$E$ 处的三条边 $EA,EB,ED$ 两两垂直且全等于 $\\sqrt{2}$**（即墙角模型）！\n\n在这个等长墙角里：**面 $DAB$ 是等边斜切面（法向 $(1,1,1)$）**，而平移 $\\overrightarrow{DA}=\\overrightarrow{EF}$ 后 **面 $ABF$ 恰平行于 $x$ 轴（法向 $(0,1,1)$）**！瞬间心算出 $\\cos\\theta=\\frac{2}{\\sqrt{3}\\sqrt{2}}\\implies \\sin\\theta=\\frac{\\sqrt{3}}{3}$！"
         }
       ],
       "solution_figures": [
         "assets/2023/math/new_gaokao_paper_2/q20_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "在把 $\\overrightarrow{EF}=\\overrightarrow{DA}$ 转成点 $F$ 或向量 $\\overrightarrow{FA}$ 时写反终点和起点坐标（由平行四边形 $ADEF$ 知 $\\overrightarrow{FA}=\\overrightarrow{ED}$ 甚至不用算出 $F$ 的具体坐标！）。",
+      "takeaway": "（1）中见到两个共底边等腰/正三角形 $\\triangle ABC,\\triangle DBC$ 时，**永远取公共底边 $BC$ 的中点 $E$**，两中线同时垂直 $BC\\implies BC\\perp$ 截面 $ADE\\implies BC\\perp DA$；（2）利用刚证完的三垂直 $EA\\perp ED\\perp EB$ 天然以 $E$ 为原点建系！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q21",
@@ -831,7 +1311,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "圆锥曲线压轴",
+        "双曲线极点极线定点线"
+      ],
       "stem_md": "已知双曲线 $C$ 的中心为坐标原点，左焦点为 $(-2\\sqrt5,0)$，离心率为 $\\sqrt5$.\n\n（1）求 $C$ 的方程；\n（2）记 $C$ 的左，右顶点分别为 $A_1$，$A_2$，过点 $(-4,0)$ 的直线与 $C$ 的左支交于 $M$，$N$ 两点，$M$ 在第二象限，直线 $MA_1$ 与 $NA_2$ 交于点 $P$，证明：点 $P$ 在定直线上.",
       "figures": [],
       "choices": [],
@@ -840,16 +1323,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 反设直线消 $m$ + 比例消元出定线",
+          "tier": "intuition",
+          "badge": "规范满分",
+          "audience": "全水平通用",
+          "time_save": "标准得分路径",
+          "content_md": "**（1）** 由 $c=2\\sqrt{5},\\;e=\\sqrt{5}\\implies a=2,\\;b=4$，故方程 $\\frac{x^2}{4}-\\frac{y^2}{16}=1$。\n\n**（2）** 设直线 $MN:x=my-4$，联立双曲线得 $(4m^2-1)y^2-32my+48=0$（$-\\frac{1}{2}<m<\\frac{1}{2}$），于是 $y_1+y_2=\\frac{32m}{4m^2-1},\\;y_1y_2=\\frac{48}{4m^2-1}$。\n\n注意比例关系：**$y_1y_2=\\frac{3}{2m}\\dots\\implies my_1y_2=\\frac{3}{2}(y_1+y_2)$**！\n\n联立 $MA_1:y=\\frac{y_1}{x_1+2}(x+2)$ 与 $NA_2:y=\\frac{y_2}{x_2-2}(x-2)$：\n$$\\frac{x+2}{x-2}=\\frac{y_2(x_1+2)}{y_1(x_2-2)}=\\frac{my_1y_2-2y_2}{my_1y_2-6y_1}=\\frac{\\frac{3}{2}(y_1+y_2)-2y_2}{\\frac{3}{2}(y_1+y_2)-6y_1}=\\frac{3y_1-y_2}{3y_2-9y_1}=-\\frac{1}{3}$$\n\n解得 $x=-1$，故点 $P$ 恒在定直线 $x=-1$ 上。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）设双曲线方程为 $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$.\n由左焦点知 $c=2\\sqrt5$. 又离心率 $e=\\frac{c}{a}=\\sqrt5$，故 $a=2$. 于是 $b=\\sqrt{c^2-a^2}=\\sqrt{20-4}=4$. 所以 $C:\\frac{x^2}{4}-\\frac{y^2}{16}=1$.\n（2）设 $A_1(-2,0)$，$A_2(2,0)$. 设直线 $MN$ 的方程为 $x=my-4$，由它与双曲线左支有两个交点知 $-\\frac12<m<\\frac12$. 与双曲线方程联立得 $(4m^2-1)y^2-32my+48=0$. 设 $M(x_1,y_1)$，$N(x_2,y_2)$，则 $y_1+y_2=\\frac{32m}{4m^2-1}$，$y_1y_2=\\frac{48}{4m^2-1}$.\n直线 $MA_1$ 方程为 $y=\\frac{y_1}{x_1+2}(x+2)$，直线 $NA_2$ 方程为 $y=\\frac{y_2}{x_2-2}(x-2)$.\n联立直线 $MA_1$ 与直线 $NA_2$ 的方程可得 $\\frac{x+2}{x-2}=\\frac{y_2(x_1+2)}{y_1(x_2-2)}$.\n再利用 $x_1=my_1-4$，$x_2=my_2-4$，得 $\\frac{x+2}{x-2}=\\frac{m\\cdot \\frac{48}{4m^2-1}-2\\cdot \\frac{32m}{4m^2-1}+2y_1}{m\\cdot \\frac{48}{4m^2-1}-6y_1}=\\frac{-\\frac{16m}{4m^2-1}+2y_1}{\\frac{48m}{4m^2-1}-6y_1}=-\\frac13$.\n因此 $x=-1$，点 $P$ 恒在定直线 $x=-1$ 上.\n\n![题目配图](assets/2023/math/new_gaokao_paper_2/q21_solution_fig1.png)"
+        },
+        {
+          "id": "fast_1",
+          "label": "高阶视野 · 极点极线秒定答案 $x=-1$ + 和积代换零计算",
+          "tier": "advanced",
+          "badge": "压轴 5 秒预判",
+          "audience": "冲击高分",
+          "time_save": "考场防算错定心丸",
+          "content_md": "1. **秒猜定直线**：双曲线 $\\frac{x^2}{4}-\\frac{y^2}{16}=1$，过 $x$ 轴定点 $(x_0,0)=(-4,0)$ 作割线连左右顶点 $A_1,A_2$ 交叉相交，交点轨迹正是极点 $(-4,0)$ 的极线：$\\frac{x_0 x}{a^2}=1\\implies \\frac{-4x}{4}=1\\implies \\mathbf{x=-1}$！\n2. **带着 $x=-1$ 反推极简消元**：考场写大题时直接由 $my_1y_2=\\frac{3}{2}(y_1+y_2)$ 代入 $\\frac{x+2}{x-2}$，立刻出现公因式 $(3y_1-y_2)$ 精准约分成 $-\\frac{1}{3}$，一步出 $x=-1$，连草稿都省一半！"
         }
       ],
       "solution_figures": [
         "assets/2023/math/new_gaokao_paper_2/q21_solution_fig1.png"
       ],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "设直线方程 $x=my-4$ 联立后，直接把 $x_1,x_2$ 原封不动代进分式会变成“非对称韦达式”；务必按教材标准配比或利用 $y_1+y_2$ 与 $y_1y_2$ 的比例关系 $my_1y_2=\\frac{3}{2}(y_1+y_2)$ 瞬间消去 $m$！",
+      "takeaway": "这是高考史上最纯正的**“极点与极线”大题**！过定点 $(-4,0)$ 作双曲线 $\\frac{x^2}{4}-\\frac{y^2}{16}=1$ 的割线 $MN$，交叉连接左顶点 $A_1$ 与右顶点 $A_2$ 得交点 $P$——由调和点列定理，$P$ 必然落在极点 $(-4,0)$ 对应的**极线 $\\frac{-4x}{4}=1\\implies x=-1$** 上！",
+      "is_enriched": true
     },
     {
       "qid": "2023-math-new_gaokao_paper_2-q22",
@@ -858,7 +1362,10 @@
       "type": "open_ended",
       "score": null,
       "difficulty": null,
-      "topics": [],
+      "topics": [
+        "导数压轴",
+        "偶函数局部泰勒保号与二阶导临界"
+      ],
       "stem_md": "（1）证明：当 $0<x<1$ 时，$x-x^2<\\sin x<x$.\n（2）已知函数 $f(x)=\\cos ax-\\ln(1-x^2)$，若 $x=0$ 是 $f(x)$ 的极大值点，求 $a$ 的取值范围.",
       "figures": [],
       "choices": [],
@@ -867,16 +1374,37 @@
       },
       "solution_methods": [
         {
+          "id": "intuition_1",
+          "label": "破题直觉 · 逐层求导 + 二阶导分三区讨论",
+          "tier": "intuition",
+          "badge": "规范满分",
+          "audience": "全水平通用",
+          "time_save": "紧扣第（1）问铺垫",
+          "content_md": "**（1）** 记 $g(x)=x-\\sin x$，$g'(x)=1-\\cos x\\ge 0\\implies \\sin x<x$；再记 $h(x)=\\sin x-x+x^2$，$h'(x)=\\cos x-1+2x$，$h''(x)=2-\\sin x>0\\implies h'(x)>h'(0)=0\\implies x-x^2<\\sin x$。\n\n**（2）** $f(x)$ 为偶函数，$f'(0)=0$。算二阶导 $f''(x)=-a^2\\cos ax+\\frac{2(1+x^2)}{(1-x^2)^2}$，故 $f''(0)=2-a^2$：\n- **当 $|a|<\\sqrt{2}$**：$f''(0)>0\\implies x=0$ 为极小值点（舍）；\n- **当 $|a|>\\sqrt{2}$**：$f''(0)<0\\implies x=0$ 确为极大值点（符合）；\n- **当 $|a|=\\sqrt{2}$**：利用（1）中 $\\sin(\\sqrt{2}x)<\\sqrt{2}x\\;(0<x<\\frac{1}{\\sqrt{2}})$，得\n  $$f'(x)=-\\sqrt{2}\\sin(\\sqrt{2}x)+\\frac{2x}{1-x^2}>-2x+\\frac{2x}{1-x^2}=\\frac{2x^3}{1-x^2}>0$$\n  说明 $x=0$ 右侧增、左侧减（因偶函数），仍是极小值点（舍）！\n\n综上，$a<-\\sqrt{2}$ 或 $a>\\sqrt{2}$。"
+        },
+        {
           "id": "method_1",
           "label": "标准解析",
           "tier": "standard",
           "content_md": "（1）令 $h(x)=x-x^2-\\sin x$. 则 $h(0)=0$，$h'(x)=1-2x-\\cos x$，$h'(0)=0$，$h''(x)=-2+\\sin x<0$（$0<x<1$）.\n故 $h'(x)$ 在 $(0,1)$ 上单调递减，从而 $h'(x)<h'(0)=0$，于是 $h(x)$ 在 $(0,1)$ 上单调递减，$h(x)<h(0)=0$，所以 $x-x^2<\\sin x$.\n\n再令 $g(x)=x-\\sin x$. 则 $g(0)=0$，$g'(x)=1-\\cos x\\ge 0$. 故 $g(x)$ 在 $(0,1)$ 上单调递增，于是 $g(x)>g(0)=0$，即 $\\sin x<x$.\n（2）函数 $f(x)=\\cos ax-\\ln(1-x^2)$ 为偶函数，因此 $f'(0)=0$. 又 $f''(x)=-a^2\\cos ax+\\frac{2+2x^2}{(1-x^2)^2}$，故 $f''(0)=2-a^2$.\n\n若 $|a|<\\sqrt2$，则 $f''(0)>0$，这说明 $x=0$ 为极小值点，与题意矛盾.\n\n若 $|a|=\\sqrt2$，以 $a=\\sqrt2$ 为例，$f'(x)=-\\sqrt2\\sin(\\sqrt2 x)+\\frac{2x}{1-x^2}$. 由 $\\sin(\\sqrt2 x)<\\sqrt2 x$（当 $0<x<\\frac{1}{\\sqrt2}$）得\n\n$$\n\nf'(x)>-2x+\\frac{2x}{1-x^2}=2x\\left(\\frac{1}{1-x^2}-1\\right)>0\n\n$$\n\n故 $f(x)$ 在 $0<x<\\frac{1}{\\sqrt2}$ 上递增，不可能在 $x=0$ 处取得极大值. 若 $a=-\\sqrt2$，则 $f'(x)=-\\sqrt2\\sin(\\sqrt2 x)+\\frac{2x}{1-x^2}$. 由同样的不等式可知，当 $0<x<\\frac{1}{\\sqrt2}$ 时，$f'(x)>0$.\n因此 $f(x)$ 在 $0$ 右侧同样递增，也不可能在 $x=0$ 处取得极大值.\n\n若 $|a|>\\sqrt2$，则 $f''(0)=2-a^2<0$.\n由二阶导数判别法知，$x=0$ 为 $f(x)$ 的极大值点.\n\n综上，\n$a<-\\sqrt2$或$a>\\sqrt2$."
+        },
+        {
+          "id": "fast_1",
+          "label": "高阶视野 · 泰勒展开 3 秒直击 $x^4$ 符号破临界 $|a|=\\sqrt{2}$",
+          "tier": "advanced",
+          "badge": "压轴降维透视",
+          "audience": "冲刺 140+",
+          "time_save": "先知先觉防漏边界",
+          "content_md": "考场看到（2）先写 $x\\to 0$ 的 4 阶泰勒展开看清全貌：\n$$\\cos ax=1-\\frac{a^2}{2}x^2+\\frac{a^4}{24}x^4+o(x^4),\\qquad -\\ln(1-x^2)=x^2+\\frac{1}{2}x^4+o(x^4)$$\n\n两式相加：\n$$f(x)=1+\\left(1-\\frac{a^2}{2}\\right)x^2+\\left(\\frac{a^4}{24}+\\frac{1}{2}\\right)x^4+o(x^4)$$\n\n瞬间一目了然：当 $1-\\frac{a^2}{2}=0\\;(|a|=\\sqrt{2})$ 时，$x^4$ 主项系数是 $\\frac{4}{24}+\\frac{1}{2}=\\frac{2}{3}>0$（开口向上 $\\implies$ 极小值点，必舍！），所以只能取严格大于 $|a|>\\sqrt{2}$！再顺着（1）写两行不等式放缩即可稳拿 12 分！"
         }
       ],
       "solution_figures": [],
-      "has_multi_method": false
+      "has_multi_method": true,
+      "pitfall": "第（2）问忘记单独讨论临界情况 **$a=\\pm\\sqrt{2}$（此时 $f''(0)=0$，二阶导数失效！）**——如果直接由 $f''(0)=2-a^2\\le 0$ 错写成 $|a|\\ge\\sqrt{2}$ 就必扣关键 3 分！实际上 $|a|=\\sqrt{2}$ 时由（1）证出 $f'(x)>0$，是**极小值点**而非极大值点！",
+      "takeaway": "第（1）问用二阶导两次求导稳拿送分，且它就是为第（2）问铺路的引理！第（2）问把 $f(x)$ 在 $x=0$ 处泰勒展成 **$1+(1-\\frac{a^2}{2})x^2+\\dots$** 瞬间看破界点 $a^2=2$，而临界值 $|a|=\\sqrt{2}$ 恰需使用第（1）问不等式 $\\sin(\\sqrt{2}x)<\\sqrt{2}x$ 来否定！",
+      "is_enriched": true
     }
   ],
-  "multi_method_count": 0,
-  "enriched_count": 0
+  "multi_method_count": 22,
+  "enriched_count": 22
 }

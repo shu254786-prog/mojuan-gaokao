@@ -727,7 +727,7 @@ export default function PracticeWorkspace({
                           )}
                           {activeMethod.time_save && (
                             <span style={{ marginLeft: "auto", fontWeight: 600, color: "var(--accent)" }}>
-                              {activeMethod.time_save}
+                              <MathContent inline content={activeMethod.time_save} />
                             </span>
                           )}
                         </div>
